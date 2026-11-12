@@ -5,6 +5,13 @@ Our own language-learning app. We study **how Duolingo's method works** — the 
 loop, spaced repetition, streaks, leagues, hearts, XP — and re-implement the *mechanics*
 using **our own content**.
 
+## Tracks — build priority
+1. **Spanish** (from English) — build first
+2. **German** (from English)
+3. **English** — last
+
+One engine, three content tracks. English is also the interface language.
+
 ## Hard boundaries (legal — read before touching a capture)
 - Mechanics, ideas and game design are fair to study and re-implement.
 - **Never copy** Duolingo's lesson text, illustrations, audio, icons, brand, trademark, or
