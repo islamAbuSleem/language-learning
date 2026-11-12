@@ -3,7 +3,8 @@ import { cefrLevelSchema, trackIdSchema } from "#shared/content/schema"
 import { toClientExercise } from "../../../../domain/exercise/presentation"
 import { loadUnit } from "../../../../services/contentService"
 import { getLearnerId } from "../../../../services/learnerService"
-import { getPathLocks } from "../../../../services/pathService"
+import { getPathProgress } from "../../../../services/pathService"
+import { progressFor } from "../../../../domain/progress/unitProgress"
 
 export default defineEventHandler(async (event) => {
   const track = trackIdSchema.safeParse(getRouterParam(event, "track"))
@@ -25,8 +26,8 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 404, statusMessage: "Unit not found" })
   }
 
-  const locks = await getPathLocks(track.data, getLearnerId(event))
-  const lock = locks.find((entry) => entry.key === `${level.data}/${unit}`)
+  const progress = await getPathProgress(track.data, getLearnerId(event))
+  const state = progressFor(progress, level.data, unit)
 
   return {
     track: content.track,
@@ -35,7 +36,13 @@ export default defineEventHandler(async (event) => {
     title: content.title,
     description: content.description,
     explanation: content.explanation ?? null,
-    locked: lock?.locked ?? false,
+    locked: state?.status === "locked",
+    /** Where the unit sits: locked, current, done or weak. */
+    status: state?.status ?? "locked",
+    /** Right answers over answers, 0..1. Null before the first answer. */
+    accuracy: state?.accuracy ?? null,
+    /** Words of this unit that are still shaky. */
+    shaky: state?.shaky ?? 0,
     exercises: content.exercises.map(toClientExercise),
   }
 })

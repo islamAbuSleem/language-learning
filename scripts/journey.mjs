@@ -169,13 +169,87 @@ try {
   check("the learner has a streak", progress.body.profile.streak === 1)
   check("every item was remembered", progress.body.items.length === played, `items ${progress.body.items.length}`)
 
+  // 7. a unit answered badly is weak, and can be done again
+  const secondContent = JSON.parse(
+    readFileSync(join(root, "content", "es", "A0", `unit-${secondUnit.unit}.json`), "utf8"),
+  )
+
+  const secondStarted = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: secondUnit.unit }),
+  })
+  check("the second unit starts", secondStarted.status === 200, `status ${secondStarted.status}`)
+
+  for (const [index, exercise] of secondContent.exercises.entries()) {
+    // Half of them are answered wrong, and one is skipped, so the unit is
+    // finished but badly answered.
+    const wrong = index % 2 === 0
+    const response = wrong
+      ? { kind: "skip" }
+      : { kind: "text", value: "not the answer" }
+
+    await call("/api/answer", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: secondStarted.body.sessionId, response }),
+    })
+    await call("/api/complete", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: secondStarted.body.sessionId, grade: "neutral" }),
+    })
+  }
+
+  const withWeak = await call("/api/tracks")
+  const weakUnit = withWeak.body.tracks
+    .find((track) => track.id === "es")
+    .levels[0].units[1]
+
+  check("the second unit is finished", weakUnit.completed === true)
+  check("the second unit is weak", weakUnit.status === "weak", `status ${weakUnit.status}`)
+  check("the unit shows how well it went", weakUnit.accuracy !== null && weakUnit.accuracy < 0.8, `accuracy ${weakUnit.accuracy}`)
+
+  const revisit = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: secondUnit.unit }),
+  })
+  check("a weak unit can be done again", revisit.status === 200, `status ${revisit.status}`)
+
+  // 8. a skip does not hold the path open
+  //
+  // A skip is free: it shows the solution and costs nothing, so it must not
+  // stop the learner from moving on. This is a fresh learner, so the first
+  // unit is the only one in play.
+  cookie = ""
+  await call("/api/progress")
+
+  const skipped = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: firstUnit.unit }),
+  })
+
+  for (const exercise of content.exercises) {
+    await call("/api/answer", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: skipped.body.sessionId, response: { kind: "skip" } }),
+    })
+    await call("/api/complete", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: skipped.body.sessionId, grade: "neutral" }),
+    })
+  }
+
+  const afterSkips = await call("/api/tracks")
+  const skippedUnits = afterSkips.body.tracks.find((track) => track.id === "es").levels[0].units
+
+  check("a skipped unit is finished", skippedUnits[0].completed === true)
+  check("a skip does not hold the next unit back", skippedUnits[1].locked === false)
+
   console.log(notes.join("\n"))
   if (problems.length > 0) {
     console.error(`\n${problems.length} problem(s):`)
     for (const problem of problems) console.error(problem)
     process.exitCode = 1
   } else {
-    console.log("\nthe journey works: lock, play, unlock, practise")
+    console.log("\nthe journey works: lock, play, unlock, practise, revisit")
   }
 } finally {
   server.kill()

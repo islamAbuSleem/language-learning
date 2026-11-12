@@ -199,14 +199,19 @@ caught it — it was ten units too late.
 
 ## The path has no gaps
 
-Two rules, both enforced by code rather than by hope:
+Three rules, all enforced by code rather than by hope:
 
 - **A unit opens when the one before it is finished.** The first unit of the
   path is always open; every later one needs its predecessor complete. The
   server refuses to start a locked unit, so the path cannot be jumped.
-- **"Finished" means every exercise has been answered at least once.** Not a
-  score, not a streak — every exercise seen. A learner who struggled still
-  moves on, and the practice node brings the weak words back to them.
+- **"Finished" means every exercise has been seen.** Not a score, not a
+  streak — every exercise shown. A skipped exercise counts as seen, because a
+  skip is free and must not hold the path open. A learner who struggled still
+  moves on.
+- **Finished is not the same as learned.** A unit the learner got wrong
+  (below eight right answers in ten) is *weak*, and weak units are offered
+  back on the dashboard under *Worth another look*. A finished unit can always
+  be started again.
 
 The locks are recomputed from the item states on every request, so the next
 unit opens the moment the last exercise of the one before it is answered.

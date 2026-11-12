@@ -119,10 +119,51 @@ nextIntervalDays =
 
 **Practice** node draws from items with `mastery < 0.6`, oldest `dueAt` first.
 **Unit Review** draws from the unit's items regardless of mastery, mixing `select`,
-`match` and `type-in`.
+`match` and `type-in`. The unit itself is described below.
 
 **open** — the reference's actual scheduling formula is not established. Ours is a
 defensible spaced-repetition approximation, not a copy.
+
+### The unit state
+
+The unit is the thing the learner actually sees, so it gets a state of its own.
+It is derived from the item states and never stored separately, so it cannot
+drift away from them.
+
+```text
+UnitProgress {
+  level, unit
+  status: "locked" | "current" | "done" | "weak"
+  total: number           // exercises in the unit
+  answered: number        // exercises the learner has been shown
+  completed: boolean      // every exercise seen
+  accuracy: number | null // right answers over answers
+  shaky: number           // words still below the practice ceiling
+  due: number             // of those, how many are due back now
+}
+```
+
+**Decision** — the four rules:
+
+1. **Finished means every exercise has been seen.** A skip counts as seen: a
+   skip is free, it shows the solution, and it must not hold the path open.
+   (Before this, a skipped exercise did not count, so a learner who skipped
+   one could never finish the unit and the next one never opened. The journey
+   check covers it now.)
+2. **Accuracy is right answers over answers**, over every attempt at the
+   unit's exercises, so practice rounds count towards it too.
+3. **Weak** means finished, and accuracy below `0.8`: eight right in ten. One
+   wrong answer in a unit of ten does not stop anybody moving on — it only
+   means the unit is worth another look.
+4. **Locked** means the unit before it is not finished. The path has no gaps.
+
+**Decision** — the revisit path. A finished unit can always be started again,
+because being finished and being learned are not the same thing. The
+dashboard lists the weak units under *Worth another look*, worst first, with
+the score the learner got, and the lesson page says why they are back: "You
+answered 60% of this unit last time. Do it again and see if it sticks."
+Nothing blocks and nothing nags: the learner decides when to go over a unit
+again.
 
 ## 5. Economy
 

@@ -2,19 +2,28 @@
 import type { ItemProgressPayload, LearnerProfilePayload } from "#shared/api/schemas"
 import { PRACTICE_MASTERY_CEILING } from "#shared/srs/types"
 
+/** Where a unit sits in the learner's path. */
+type UnitStatus = "locked" | "current" | "done" | "weak"
+
+interface UnitSummary {
+  unit: number
+  title: string
+  description: string
+  exerciseCount: number
+  completed: boolean
+  locked: boolean
+  status: UnitStatus
+  accuracy: number | null
+  answered: number
+  shaky: number
+}
+
 interface LevelSummary {
   level: string
   title: string
   description: string
   grammar: string[]
-  units: {
-    unit: number
-    title: string
-    description: string
-    exerciseCount: number
-    completed: boolean
-    locked: boolean
-  }[]
+  units: UnitSummary[]
 }
 
 interface TrackSummary {
@@ -44,18 +53,15 @@ const dueItems = computed(
   () => weakItems.value.filter((item) => item.dueAt <= Date.now()),
 )
 
-interface UnitSummary {
-  unit: number
-  title: string
-  description: string
-  exerciseCount: number
-  completed: boolean
-  locked: boolean
+interface PathUnit {
+  track: string
+  level: string
+  unit: UnitSummary
 }
 
 /** Every unit of every track, in the order the learner meets them. */
-const allUnits = computed<{ track: string; level: string; unit: UnitSummary }[]>(() => {
-  const units: { track: string; level: string; unit: UnitSummary }[] = []
+const allUnits = computed<PathUnit[]>(() => {
+  const units: PathUnit[] = []
 
   for (const track of tracks.value?.tracks ?? []) {
     for (const level of track.levels) {
@@ -69,7 +75,20 @@ const allUnits = computed<{ track: string; level: string; unit: UnitSummary }[]>
 })
 
 /** Where the learner is: the first unit they have not finished. */
-const currentUnit = computed(() => allUnits.value.find((entry) => !entry.unit.completed) ?? null)
+const currentUnit = computed(() => allUnits.value.find((entry) => entry.unit.status === "current") ?? null)
+
+/**
+ * The units worth another look.
+ *
+ * A unit is finished when every exercise has been seen, but finished is not
+ * the same as learned: a unit the learner got wrong stays on the dashboard
+ * until they answer it well.
+ */
+const revisitUnits = computed(() =>
+  allUnits.value
+    .filter((entry) => entry.unit.status === "weak")
+    .sort((a, b) => (a.unit.accuracy ?? 0) - (b.unit.accuracy ?? 0)),
+)
 
 const unitsDone = computed(() => allUnits.value.filter((entry) => entry.unit.completed).length)
 
@@ -79,6 +98,30 @@ const progressPercent = computed(() => {
 
   return Math.round((unitsDone.value / total) * 100)
 })
+
+/** The level the learner is working in, so it opens by itself. */
+const currentLevel = computed(() => {
+  if (currentUnit.value) return currentUnit.value.level
+
+  const levels = tracks.value?.tracks ?? []
+  const last = levels[levels.length - 1]
+
+  return last?.levels[last.levels.length - 1]?.level ?? ""
+})
+
+/** How many units of a level are finished. */
+function doneIn(level: LevelSummary): number {
+  return level.units.filter((unit) => unit.completed).length
+}
+
+/** The label on the right of a unit, which says what state it is in. */
+function unitLabel(unit: UnitSummary): string {
+  if (unit.status === "done") return "done"
+  if (unit.status === "weak") return `${Math.round((unit.accuracy ?? 0) * 100)}% Â· redo`
+  if (unit.status === "current") return `${unit.exerciseCount} exercises`
+
+  return `${unit.exerciseCount} exercises`
+}
 </script>
 
 <template>
@@ -104,7 +147,7 @@ const progressPercent = computed(() => {
     <section v-if="currentUnit" class="continue">
       <div class="continue__body">
         <p class="continue__eyebrow">
-          {{ currentUnit.level }} · Unit {{ currentUnit.unit.unit }}
+          {{ currentUnit.level }} Â· Unit {{ currentUnit.unit.unit }}
         </p>
         <h2 class="continue__title">{{ currentUnit.unit.title }}</h2>
         <p class="continue__note">{{ currentUnit.unit.description }}</p>
@@ -119,16 +162,53 @@ const progressPercent = computed(() => {
       </NuxtLink>
     </section>
 
+    <section v-else-if="allUnits.length > 0" class="continue continue--finished">
+      <div class="continue__body">
+        <p class="continue__eyebrow">The whole path</p>
+        <h2 class="continue__title">Finished</h2>
+        <p class="continue__note">
+          You have been through every unit. Keep the words alive with a practice round.
+        </p>
+      </div>
+      <NuxtLink class="btn btn--primary" to="/practice?mode=weak">Practise</NuxtLink>
+    </section>
+
     <section class="progress">
       <div class="progress__row">
         <span class="progress__label">Path</span>
         <span class="progress__value">
-          {{ unitsDone }} of {{ allUnits.length }} units · {{ progressPercent }}%
+          {{ unitsDone }} of {{ allUnits.length }} units Â· {{ progressPercent }}%
         </span>
       </div>
       <div class="progress__bar">
         <div class="progress__fill" :style="{ width: `${progressPercent}%` }" />
       </div>
+    </section>
+
+    <section v-if="revisitUnits.length > 0" class="review">
+      <h2 class="review__title">Worth another look</h2>
+      <p class="review__note">
+        You finished these units, but some of the answers were wrong. Do one again
+        whenever you like.
+      </p>
+      <ul class="review__list">
+        <li v-for="entry in revisitUnits" :key="`${entry.track}-${entry.level}-${entry.unit.unit}`">
+          <NuxtLink
+            class="review__unit"
+            :to="{
+              path: `/lesson/${entry.track}/${entry.level}/${entry.unit.unit}`,
+            }"
+          >
+            <span class="review__body">
+              <span class="review__eyebrow">
+                {{ entry.level }} Â· Unit {{ entry.unit.unit }}
+              </span>
+              <span class="review__name">{{ entry.unit.title }}</span>
+            </span>
+            <span class="review__score">{{ Math.round((entry.unit.accuracy ?? 0) * 100) }}%</span>
+          </NuxtLink>
+        </li>
+      </ul>
     </section>
 
     <section class="practice">
@@ -151,24 +231,35 @@ const progressPercent = computed(() => {
     <section v-for="track in tracks?.tracks ?? []" :key="track.id" class="track">
       <h2 class="track__title">{{ track.name }}</h2>
 
-      <section v-for="level in track.levels" :key="level.level" class="level">
-        <header class="level__header">
+      <details
+        v-for="level in track.levels"
+        :key="level.level"
+        class="level"
+        :open="level.level === currentLevel"
+      >
+        <summary class="level__header">
           <h3 class="level__name">
             <span class="level__code">{{ level.level }}</span>
             <span>{{ level.title }}</span>
           </h3>
           <p class="level__description">{{ level.description }}</p>
-          <ul class="level__grammar">
-            <li v-for="point in level.grammar" :key="point">{{ point }}</li>
-          </ul>
-        </header>
+          <p class="level__count">{{ doneIn(level) }} of {{ level.units.length }} units</p>
+        </summary>
+
+        <ul class="level__grammar">
+          <li v-for="point in level.grammar" :key="point">{{ point }}</li>
+        </ul>
 
         <ul v-if="level.units.length > 0" class="units">
           <li v-for="unit in level.units" :key="unit.unit">
             <NuxtLink
-              v-if="!unit.locked"
+              v-if="unit.status !== 'locked'"
               class="unit"
-              :class="{ 'unit--done': unit.completed }"
+              :class="{
+                'unit--done': unit.status === 'done',
+                'unit--weak': unit.status === 'weak',
+                'unit--current': unit.status === 'current',
+              }"
               :to="{ path: `/lesson/${track.id}/${level.level}/${unit.unit}` }"
             >
               <span class="unit__number">{{ unit.unit }}</span>
@@ -176,13 +267,11 @@ const progressPercent = computed(() => {
                 <span class="unit__name">{{ unit.title }}</span>
                 <span class="unit__description">{{ unit.description }}</span>
               </span>
-              <span class="unit__count">
-                {{ unit.completed ? "done" : `${unit.exerciseCount} exercises` }}
-              </span>
+              <span class="unit__count">{{ unitLabel(unit) }}</span>
             </NuxtLink>
 
             <div v-else class="unit unit--locked" :title="`Finish the unit before this one`">
-              <span class="unit__number">🔒</span>
+              <span class="unit__number">ðŸ”’</span>
               <span class="unit__body">
                 <span class="unit__name">{{ unit.title }}</span>
                 <span class="unit__description">Finish the unit before this one.</span>
@@ -193,7 +282,7 @@ const progressPercent = computed(() => {
         </ul>
 
         <p v-else class="level__empty">No units written yet.</p>
-      </section>
+      </details>
     </section>
 
     <p v-if="(tracks?.tracks ?? []).length === 0" class="dashboard__empty">No content yet.</p>
@@ -239,25 +328,21 @@ const progressPercent = computed(() => {
   background: var(--color-surface);
   border: 1px solid var(--color-line);
   border-radius: var(--radius-md);
-  padding: var(--space-2) var(--space-4);
+  padding: var(--space-2) var(--space-3);
   text-align: center;
 }
 
 .chip dt {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   color: var(--color-ink-soft);
 }
 
 .chip dd {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
-}
-
-.track {
-  margin-bottom: var(--space-6);
 }
 
 .continue {
@@ -271,6 +356,10 @@ const progressPercent = computed(() => {
   border-radius: var(--radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--color-line);
+}
+
+.continue--finished {
+  border-color: var(--color-accent);
 }
 
 .continue__body {
@@ -332,12 +421,71 @@ const progressPercent = computed(() => {
   transition: width 200ms ease;
 }
 
+.review {
+  margin-bottom: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-accent);
+}
+
+.review__title {
+  font-size: 1.1rem;
+}
+
+.review__note {
+  margin: var(--space-1) 0 var(--space-3);
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+}
+
+.review__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.review__unit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  background: var(--color-canvas);
+}
+
+.review__unit:hover {
+  border-color: var(--color-accent);
+}
+
+.review__body {
+  display: grid;
+  gap: 2px;
+}
+
+.review__eyebrow {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-soft);
+}
+
+.review__name {
+  font-weight: 600;
+}
+
+.review__score {
+  font-weight: 700;
+  color: var(--color-accent-strong);
+  font-variant-numeric: tabular-nums;
+}
+
 .practice {
   margin-bottom: var(--space-6);
-  padding: var(--space-4);
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-lg);
-  background: var(--color-accent-soft);
 }
 
 .practice__title {
@@ -347,80 +495,89 @@ const progressPercent = computed(() => {
 .practice__note {
   margin: var(--space-1) 0 var(--space-3);
   color: var(--color-ink-soft);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
 }
 
 .practice__actions {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: var(--space-3);
 }
 
 .practice__card {
   display: grid;
-  gap: 2px;
-  padding: var(--space-3) var(--space-5);
+  gap: var(--space-1);
+  padding: var(--space-4);
   border-radius: var(--radius-md);
-  background: var(--color-surface);
   border: 1px solid var(--color-line);
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
+  background: var(--color-surface);
 }
 
 .practice__card:hover {
   border-color: var(--color-accent);
 }
 
-.practice__card--empty {
-  opacity: 0.7;
-}
-
 .practice__count {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--color-accent-strong);
 }
 
 .practice__label {
-  font-size: 0.8rem;
   color: var(--color-ink-soft);
+  font-size: 0.85rem;
+}
+
+.track {
+  margin-bottom: var(--space-6);
 }
 
 .track__title {
   font-size: 1.3rem;
-  margin-bottom: var(--space-4);
-}
-
-.level {
-  margin-bottom: var(--space-5);
-  padding-left: var(--space-4);
-  border-left: 3px solid var(--color-line);
-}
-
-.level__header {
   margin-bottom: var(--space-3);
 }
 
+.level {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-3);
+  background: var(--color-surface);
+}
+
+.level__header {
+  padding: var(--space-4);
+  cursor: pointer;
+}
+
 .level__name {
+  margin: 0;
+  font-size: 1.05rem;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-2);
-  font-size: 1rem;
 }
 
 .level__code {
-  background: var(--color-accent-soft);
-  color: var(--color-accent-strong);
-  border-radius: var(--radius-sm);
+  display: inline-block;
   padding: 2px var(--space-2);
+  border-radius: var(--radius-sm);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-size: 0.75rem;
   font-weight: 700;
-  font-size: 0.85rem;
+  letter-spacing: 0.04em;
 }
 
 .level__description {
-  margin: var(--space-1) 0 0;
+  margin: var(--space-2) 0 0;
   color: var(--color-ink-soft);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
+}
+
+.level__count {
+  margin: var(--space-2) 0 0;
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
 }
 
 .level__grammar {
@@ -428,82 +585,76 @@ const progressPercent = computed(() => {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin: var(--space-2) 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 0 var(--space-4) var(--space-3);
 }
 
 .level__grammar li {
-  font-size: 0.78rem;
-  color: var(--color-ink-soft);
-  border: 1px solid var(--color-line);
+  font-size: 0.75rem;
+  padding: 2px var(--space-2);
   border-radius: 999px;
-  padding: 2px var(--space-3);
+  border: 1px solid var(--color-line);
+  color: var(--color-ink-soft);
 }
 
 .level__empty {
+  margin: 0;
+  padding: 0 var(--space-4) var(--space-4);
   color: var(--color-ink-soft);
-  font-size: 0.9rem;
-  margin: var(--space-2) 0 0;
 }
 
 .units {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 var(--space-2) var(--space-2);
   display: grid;
-  gap: var(--space-3);
+  gap: 2px;
 }
 
 .unit {
   display: flex;
   align-items: center;
-  gap: var(--space-4);
-  background: var(--color-surface);
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-lg);
-  padding: var(--space-4);
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-sm);
   text-decoration: none;
   color: inherit;
 }
 
 .unit:hover {
-  border-color: var(--color-accent);
+  background: var(--color-canvas);
 }
 
-.unit--started {
-  background: var(--color-accent-soft);
+.unit--current {
+  background: var(--color-canvas);
+  box-shadow: inset 3px 0 0 var(--color-accent);
 }
 
-.unit--done {
-  background: var(--color-correct-soft);
-}
-
-.unit--locked {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
-
-.unit--locked .unit__number {
-  background: var(--color-line);
-  color: var(--color-ink-soft);
+.unit--weak {
+  box-shadow: inset 3px 0 0 var(--color-accent-strong);
 }
 
 .unit__number {
-  width: 40px;
-  height: 40px;
+  width: 2rem;
+  height: 2rem;
   flex: none;
   display: grid;
   place-items: center;
-  border-radius: 50%;
-  background: var(--color-accent-soft);
-  color: var(--color-accent-strong);
+  border-radius: 999px;
+  background: var(--color-line);
+  font-size: 0.8rem;
   font-weight: 700;
+}
+
+.unit--done .unit__number {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
 }
 
 .unit__body {
   display: grid;
   gap: 2px;
-  flex: 1;
+  min-width: 0;
 }
 
 .unit__name {
@@ -511,13 +662,19 @@ const progressPercent = computed(() => {
 }
 
 .unit__description {
+  font-size: 0.85rem;
   color: var(--color-ink-soft);
-  font-size: 0.92rem;
 }
 
 .unit__count {
+  margin-left: auto;
+  font-size: 0.8rem;
   color: var(--color-ink-soft);
-  font-size: 0.85rem;
   white-space: nowrap;
+}
+
+.unit--weak .unit__count {
+  color: var(--color-accent-strong);
+  font-weight: 700;
 }
 </style>

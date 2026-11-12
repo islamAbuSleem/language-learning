@@ -123,4 +123,4 @@ if (problems.length > 0) {
   process.exit(1)
 }
 
-console.log("the content has no stray characters")
+console.log("the content is clean: no stray characters, no word taught twice in a level")

@@ -8,15 +8,17 @@ const contentRoot = join(root, "content")
 const learnerId = process.argv[2]
 
 /**
- * How many units to mark as done.
+ * How many units to mark as done, and how many answers to get wrong.
  *
- *   node --env-file=.env scripts/seed-progress.mjs <id> [units]
+ *   node --env-file=.env scripts/seed-progress.mjs <id> [units] [mistakes]
  *
  * With no number, every unit is marked, which is what the path audit wants.
  * With a number, only the first units of the path are, which is what a
- * half-way learner looks like.
+ * half-way learner looks like. The mistakes are the answers that went wrong
+ * in the first unit, which is what a weak unit looks like.
  */
 const unitLimit = process.argv[3] ? Number(process.argv[3]) : Number.POSITIVE_INFINITY
+const mistakes = process.argv[4] ? Number(process.argv[4]) : 0
 
 if (!learnerId) {
   console.error("usage: node --env-file=.env scripts/seed-progress.mjs <learner-id> [units]")
@@ -63,10 +65,15 @@ const sql = postgres(process.env.DATABASE_URL, { ssl: "require", max: 1, onnotic
 
 await sql`INSERT INTO learners (id) VALUES (${learnerId}) ON CONFLICT (id) DO NOTHING`
 
-for (const itemId of items) {
+for (const [index, itemId] of items.entries()) {
+  // The first few items are answered wrong, so the unit they belong to comes
+  // out weak: that is what the revisit path is for.
+  const lapses = index < mistakes ? 1 : 0
+  const mastery = lapses > 0 ? 0.3 : 0.9
+
   await sql`
     INSERT INTO item_states (learner_id, item_id, mastery, reps, lapses, stability, due_at, last_reviewed_at)
-    VALUES (${learnerId}, ${itemId}, 0.9, 1, 0, 30, ${Date.now() + 86400000}, ${Date.now()})
+    VALUES (${learnerId}, ${itemId}, ${mastery}, 1, ${lapses}, 30, ${Date.now() + 86400000}, ${Date.now()})
     ON CONFLICT (learner_id, item_id) DO NOTHING
   `
 }

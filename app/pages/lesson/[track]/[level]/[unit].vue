@@ -16,12 +16,35 @@ interface UnitContent {
   description: string
   explanation: LessonExplanation | null
   locked: boolean
+  status: "locked" | "current" | "done" | "weak"
+  accuracy: number | null
+  shaky: number
   exercises: ClientExercise[]
 }
 
 const { data: content } = await useFetch<UnitContent>(
   `/api/units/${track}/${level}/${unit}`,
 )
+
+/**
+ * What to say when the learner comes back to a unit they have already done.
+ *
+ * A finished unit is not a locked one: the learner is allowed to do it again,
+ * and the page says why they are here.
+ */
+const revisitNote = computed(() => {
+  if (!content.value) return null
+  if (content.value.status === "weak") {
+    const score = Math.round((content.value.accuracy ?? 0) * 100)
+
+    return `You answered ${score}% of this unit last time. Do it again and see if it sticks.`
+  }
+  if (content.value.status === "done") {
+    return "You have already finished this unit. Have another go to keep it fresh."
+  }
+
+  return null
+})
 
 const {
   phase,
@@ -76,6 +99,8 @@ function begin() {
 
       <LessonExplanationPanel v-if="content.explanation" :explanation="content.explanation" />
 
+      <p v-if="revisitNote" class="lesson__revisit">{{ revisitNote }}</p>
+
       <p v-if="content.locked" class="lesson__locked">
         This unit is still locked. Finish the unit before it, then come back.
       </p>
@@ -86,7 +111,7 @@ function begin() {
         class="btn btn--primary"
         @click="begin"
       >
-        Start the exercises
+        {{ content.status === "current" ? "Start the exercises" : "Do it again" }}
       </button>
     </section>
 
@@ -231,6 +256,14 @@ function begin() {
   border-radius: var(--radius-md);
   background: var(--color-wrong-soft);
   color: var(--color-wrong);
+}
+
+.lesson__revisit {
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
 }
 
 .lesson__hint {

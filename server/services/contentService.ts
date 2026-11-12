@@ -14,8 +14,12 @@ const CONTENT_STORAGE = "assets:content"
 
 /**
  * The highest unit number any level may hold.
+ *
+ * The levels are numbered from one, and A1 is the biggest at fifty units, so
+ * the probe has to go past that. The misses are remembered, so the cost is
+ * paid once.
  */
-const MAX_UNIT_NUMBER = 60
+const MAX_UNIT_NUMBER = 120
 
 /**
  * Units that are known not to exist.

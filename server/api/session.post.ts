@@ -1,9 +1,10 @@
 import { startSessionSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
+import { progressFor } from "../domain/progress/unitProgress"
 import { loadUnit } from "../services/contentService"
 import { getLearnerId } from "../services/learnerService"
-import { getPathLocks } from "../services/pathService"
+import { getPathProgress } from "../services/pathService"
 import { getProfile } from "../services/progressService"
 import { createSession, currentExercise } from "../services/sessionService"
 
@@ -21,12 +22,14 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 404, statusMessage: "Unit not found" })
   }
 
-  // The path has no gaps: a unit that is still locked cannot be started.
+  // The path has no gaps: a unit that is still locked cannot be started. A
+  // unit that is finished can be started again, which is how a weak unit gets
+  // another look.
   const learnerId = getLearnerId(event)
-  const locks = await getPathLocks(track, learnerId)
-  const lock = locks.find((entry) => entry.key === `${level}/${unit}`)
+  const progress = await getPathProgress(track, learnerId)
+  const state = progressFor(progress, level, unit)
 
-  if (lock?.locked) {
+  if (state?.status === "locked") {
     throw createError({
       statusCode: 409,
       statusMessage: "This unit is still locked. Finish the one before it.",
@@ -46,5 +49,7 @@ export default defineEventHandler(async (event) => {
     index: session.index,
     exercise: exercise ? toClientExercise(exercise) : null,
     profile: await getProfile(learnerId),
+    /** `current` for a new unit, `done` or `weak` when the learner comes back. */
+    status: state?.status ?? "current",
   }
 })

@@ -33,6 +33,11 @@ npm run build && npm test
 npm run test:db           # the same tests against the real database
 ```
 
+`npm test` includes the two content gates: the path audit (no unit uses a
+grammar point before it is taught) and the content check (no stray
+characters, and no word taught twice in one level). Both also run on their
+own: `npm run audit:path` and `npm run check:content`.
+
 Boot check: `node .output/server/index.mjs`, then `GET /api/health` → `{"status":"ok"}`.
 
 ## Adding content
@@ -90,10 +95,13 @@ app/pages/                 dashboard · lesson/[track]/[level]/[unit]
 
 ## Current state
 
-Working: dashboard, the A1 to B2 ladder, lesson player (select / match / type_in),
-server-side grading, the self-grade feedback panel, the SRS engine, XP, streak,
-progress that survives a restart (Postgres), and the practice loop that brings
-due and shaky items back.
+Working: the A0 to B2 ladder (95 units, 950 words, every unit with a lesson
+and drills), the dashboard with the learner's place in it, the lesson player
+(select / match / type_in / listen), server-side grading, the self-grade
+feedback panel, the SRS engine, XP, streak, progress that survives a restart
+(Postgres), the practice loop that brings due and shaky items back, unit
+unlocking along a gapless path, and the revisit path: a unit answered badly
+is weak, and weak units are offered back on the dashboard.
 
-Not built yet: unit unlocking, audio for the `listen` type, German and English
-content.
+Not built yet: recorded audio for the `listen` type, German and English
+content, and the levels above A1 are still thin on vocabulary.
