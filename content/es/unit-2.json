@@ -1,0 +1,98 @@
+{
+  "track": "es",
+  "unit": 2,
+  "title": "Getting around",
+  "description": "Ask for directions, read a map, and find your way.",
+  "exercises": [
+    {
+      "id": "es/u2/select/calle",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “street”.",
+      "options": ["la calle", "el mapa", "la tienda", "la estación"],
+      "answer": "la calle",
+      "translation": "street"
+    },
+    {
+      "id": "es/u2/select/tienda",
+      "type": "select",
+      "prompt": "Which option means “shop”?",
+      "options": ["el mercado", "la tienda", "la calle", "el mapa"],
+      "answer": "la tienda",
+      "translation": "shop"
+    },
+    {
+      "id": "es/u2/select/cerca",
+      "type": "select",
+      "prompt": "Choose the word for “near”.",
+      "options": ["lejos", "cerca", "derecha", "izquierda"],
+      "answer": "cerca",
+      "translation": "near",
+      "note": "Cerca and lejos work as adverbs on their own: está cerca."
+    },
+    {
+      "id": "es/u2/select/lejos",
+      "type": "select",
+      "prompt": "Select “far” in Spanish.",
+      "options": ["la calle", "lejos", "el mapa", "la tienda"],
+      "answer": "lejos",
+      "translation": "far"
+    },
+    {
+      "id": "es/u2/match/direccion",
+      "type": "match",
+      "prompt": "Pair each place with its translation.",
+      "pairs": [
+        { "left": "market", "right": "el mercado" },
+        { "left": "station", "right": "la estación" },
+        { "left": "map", "right": "el mapa" },
+        { "left": "right", "right": "la derecha" },
+        { "left": "left", "right": "la izquierda" }
+      ]
+    },
+    {
+      "id": "es/u2/type_in/llegar",
+      "type": "type_in",
+      "prompt": "Write “to arrive” in Spanish.",
+      "answer": "llegar",
+      "acceptedAnswers": [],
+      "translation": "to arrive",
+      "note": "Llegar is an infinitive ending in -ar. You will meet the form llego."
+    },
+    {
+      "id": "es/u2/select/mercado",
+      "type": "select",
+      "prompt": "Find the word for “market”.",
+      "options": ["la estación", "el mapa", "el mercado", "la tienda"],
+      "answer": "el mercado",
+      "translation": "market"
+    },
+    {
+      "id": "es/u2/type_in/izquierda",
+      "type": "type_in",
+      "prompt": "Type “left” in Spanish.",
+      "answer": "la izquierda",
+      "acceptedAnswers": ["izquierda"],
+      "translation": "left"
+    },
+    {
+      "id": "es/u2/select/mapa",
+      "type": "select",
+      "prompt": "Which word means “map”?",
+      "options": ["el mapa", "la calle", "lejos", "cerca"],
+      "answer": "el mapa",
+      "translation": "map"
+    },
+    {
+      "id": "es/u2/match/ruta",
+      "type": "match",
+      "prompt": "Match each word with its translation.",
+      "pairs": [
+        { "left": "street", "right": "la calle" },
+        { "left": "shop", "right": "la tienda" },
+        { "left": "near", "right": "cerca" },
+        { "left": "far", "right": "lejos" },
+        { "left": "to arrive", "right": "llegar" }
+      ]
+    }
+  ]
+}
