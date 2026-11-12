@@ -52,6 +52,8 @@ Reference mechanics only — never their content, art, audio, brand, or API cont
 | L13 | Unit Review is a distinct node kind from Practice; a Chest (reward) node sits between them | observed | `ev_485eac0f09a203be…` |
 | L14 | A **placement test** is offered before a section: "Pass this test to jump ahead to Unit 2!" → Maybe later / Let's go | observed | `ev_bd07277f102d0e9f…` |
 | L15 | Onboarding self-assessment: `radiogroup "proficiency"` — "I'm new to Spanish", "I know some common words", … | observed | `ev_485eac0f09a203be…` |
+| L16 | Path node kinds also include **Story** and **LOCKED** states, plus a "Go to current unit" control | observed | `ev_e85884b92a708fbe…` |
+| L17 | Jump-ahead links exist per unit: `/lesson/unit/<n>/test` for n = 2, 3, 4 … | observed | `ev_e85884b92a708fbe…` |
 
 ## Findings — dashboard / persistent state
 

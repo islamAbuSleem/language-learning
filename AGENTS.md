@@ -42,8 +42,19 @@ One engine, three content tracks. English is also the interface language.
 TBD — set once the stack is chosen.
 
 ## Stack
-OPEN — decide together. Candidate: Nuxt (FE) + NestJS (BE), matching the house style in
-`C:\workspace\qa-turbo`.
+**Nuxt** (Vue 3 + Nitro) for the learner app and its API — one project, one deploy.
+
+- Learner UI in `app/` (pages + components), API in `server/api/` (Nitro routes).
+- The SRS engine is a **framework-free domain package** (`packages/srs` or `server/domain/srs`)
+  so the scheduling logic is pure TypeScript and testable without a running server.
+- Exercise content is **files** (`content/<track>/<unit>/<lesson>.json`) validated at
+  build time against a schema. One schema, three tracks — content is data, not code.
+- Keep NestJS as an option later: Nitro routes can move behind a NestJS API without
+  touching the domain package.
+
+Rationale: Nuxt is the house stack (qa-turbo frontend), gives one codebase for UI + API,
+and keeps a path to mobile via Capacitor without rewriting the UI in a second framework.
+
 
 ## Rules
 - One component / one class per file + named exports.
