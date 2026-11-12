@@ -13,6 +13,7 @@
     "build:content": "node scripts/build-content.mjs",
     "build:audio": "node scripts/build-audio.mjs",
     "check:audio": "node scripts/build-audio.mjs --check",
+    "import:audio": "node scripts/import-native-audio.mjs",
     "audit:path": "node scripts/audit-path.mjs",
     "check:content": "node scripts/check-content.mjs",
     "migrate": "node --env-file=.env scripts/migrate.mjs",

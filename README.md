@@ -50,6 +50,19 @@ Boot check: `node .output/server/index.mjs`, then `GET /api/health` → `{"statu
 3. `npm run build:audio` speaks the new words and caches them in `public/audio/`.
 4. `npm test` fails if the two ever drift, or if a word has no recording.
 
+### The voice
+
+The course speaks for itself. Every word has a recording, generated once
+from the vocabulary and cached as MP3, so the course sounds the same on every
+machine.
+
+- `npm run build:audio` uses a **neural voice** (Piper) when it is installed,
+  and the bundled eSpeak voice otherwise. Point `PIPER_MODEL` at a voice model
+  to choose one.
+- `npm run import:audio -- <folder>` installs recordings made by a person:
+  name each file after the word (`hola.wav`, `buenos dias.mp3`) and it takes
+  the place of the synthesised one. No code changes.
+
 Two rules the generator and the tests enforce:
 
 - **A wrong answer is always a word the learner has already met.** Same theme

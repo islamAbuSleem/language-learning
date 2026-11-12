@@ -47,19 +47,38 @@ vocabulary is familiar — but the code is ours.
 `listen` plays a recording the course owns. The browser's own voice is only
 the fallback: it is whatever voice the machine has installed, it is not
 Spanish on a machine with no Spanish voice, and it is not the same sound on
-every machine. A course that teaches a language has to sound like it.
+every machine. A course that teaches a language has to sound like it, and
+the sound is part of the course, not part of the browser.
 
 **Decision** — every word in the track has a recording, generated once from
 the vocabulary by `scripts/build-audio.mjs` and cached as MP3 in
-`public/audio/<track>/`. The voice is eSpeak NG's Spanish, run locally
-through WebAssembly, so nothing leaves the machine and no third-party
-recording is in the files. They are plain MP3, so a native speaker can
-replace any of them later without touching the code.
+`public/audio/<track>/`. The file name is derived from the word itself, so
+the thing that builds the content and the thing that builds the audio always
+agree without a manifest to look each other up. The test fails if any word
+has no recording, so a new word is never silent.
 
-The file name is derived from the word itself, so the thing that builds the
-content and the thing that builds the audio always agree without a manifest
-to look each other up. The test fails if any word has no recording, so a new
-word is never silent.
+**Two engines, on purpose.**
+
+| Engine | What it is | Why it is there |
+| --- | --- | --- |
+| **piper** | a neural voice (es_ES-sharvard-medium), run locally | this is what the course ships with: it sounds like a language |
+| **espeak** | eSpeak NG's Spanish, bundled as WebAssembly | the fallback: it needs nothing installed, and it works on a machine with no Python |
+
+Both *synthesise* the word from text. Neither involves a third-party
+recording.
+
+**Decision** — a recording made by a person drops straight in. Because the
+file name is fixed and the client asks for a path, a native recording is
+just a file named after the word:
+
+```
+node scripts/import-native-audio.mjs <folder>
+```
+
+The folder holds one file per word (`hola.wav`, `buenos dias.mp3`). A WAV is
+converted to the same MP3 the synthesised voice uses, so the app cannot tell
+the difference, and `public/audio/es/voices.json` records who spoke each
+word. No code changes, no rebuild of the content, no URL changes.
 
 Every unit has a listening exercise. Hearing the word is the one thing a
 learner cannot do by reading, so it is the shape that never gets squeezed

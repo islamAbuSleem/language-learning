@@ -5,6 +5,9 @@ dist/
 .turbo/
 *.tsbuildinfo
 
+# The audio work folder: WAVs waiting to be encoded, and the piper voice model.
+.audio-cache/
+
 .env
 .env.*
 !.env.example

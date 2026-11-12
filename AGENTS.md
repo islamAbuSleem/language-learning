@@ -51,6 +51,13 @@ Boot check: `node .output/server/index.mjs` then `GET /api/health` returns `{"st
 to speak the new words and cache them in `public/audio/`. The test fails if a
 word has no recording.
 
+The audio build uses a **neural voice** (Piper) when it is installed, and falls
+back to the bundled eSpeak voice otherwise, so it never fails the build on a
+machine without it. The voice model lives outside the repository; set
+`PIPER_MODEL` to point at it. A recording made by a person replaces the
+synthesised one with `npm run import:audio -- <folder>`: name the file after
+the word and nothing else changes.
+
 ## Stack
 **Nuxt** (Vue 3 + Nitro) for the learner app and its API — one project, one deploy.
 
