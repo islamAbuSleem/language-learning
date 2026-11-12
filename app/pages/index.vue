@@ -18,6 +18,8 @@ interface UnitSummary {
   accuracy: number | null
   answered: number
   shaky: number
+  /** Misses of this unit that are still shaky: what a repair round asks. */
+  repairable: number
 }
 
 interface LevelSummary {
@@ -131,7 +133,13 @@ function doneIn(level: LevelSummary): number {
 /** The label on the right of a unit, which says what state it is in. */
 function unitLabel(unit: UnitSummary): string {
   if (unit.status === "done") return "done"
-  if (unit.status === "weak") return `${Math.round((unit.accuracy ?? 0) * 100)}% · redo`
+  if (unit.status === "weak") {
+    const score = Math.round((unit.accuracy ?? 0) * 100)
+
+    if (unit.repairable > 0) return `${score}% · fix ${unit.repairable}`
+
+    return `${score}% · redo`
+  }
   if (unit.status === "current") return `${unit.exerciseCount} exercises`
 
   return `${unit.exerciseCount} exercises`
@@ -214,8 +222,8 @@ function unitLabel(unit: UnitSummary): string {
     <section v-if="revisitUnits.length > 0" class="review">
       <h2 class="review__title">Worth another look</h2>
       <p class="review__note">
-        You finished these units, but some of the answers were wrong. Do one again
-        whenever you like.
+        You finished these units, but some of the answers were wrong. Fix the
+        misses, or do one again, whenever you like.
       </p>
       <ul class="review__list">
         <li v-for="entry in revisitUnits" :key="`${entry.track}-${entry.level}-${entry.unit.unit}`">

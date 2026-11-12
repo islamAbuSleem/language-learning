@@ -9,6 +9,7 @@
  *   4. the second unit opens the moment the first is finished
  *   5. the practice node hands back the items the learner has met
  *   6. the profile and the item states are what we expect
+ *   7. a unit answered badly is weak, and its misses can be repaired
  *
  *   node --env-file=.env scripts/journey.mjs
  */
@@ -185,10 +186,13 @@ try {
   check("the day counted every answer", stats.body.days[0]?.answers === played, `answers ${stats.body.days[0]?.answers}`)
   check("the streak is alive", stats.body.currentStreak === 1, `streak ${stats.body.currentStreak}`)
 
-  // 7. a unit answered badly is weak, and can be done again
+  // 7. a unit answered badly is weak, and its misses can be repaired
   const secondContent = JSON.parse(
     readFileSync(join(root, "content", "es", "A0", `unit-${secondUnit.unit}.json`), "utf8"),
   )
+  const secondById = new Map(secondContent.exercises.map((exercise) => [exercise.id, exercise]))
+  // The last three are answered wrong, so the unit is finished at 70%.
+  const missedIds = secondContent.exercises.slice(7).map((exercise) => exercise.id)
 
   const secondStarted = await call("/api/session", {
     method: "POST",
@@ -197,12 +201,7 @@ try {
   check("the second unit starts", secondStarted.status === 200, `status ${secondStarted.status}`)
 
   for (const [index, exercise] of secondContent.exercises.entries()) {
-    // Half of them are answered wrong, and one is skipped, so the unit is
-    // finished but badly answered.
-    const wrong = index % 2 === 0
-    const response = wrong
-      ? { kind: "skip" }
-      : { kind: "text", value: "not the answer" }
+    const response = index < 7 ? correctResponse(exercise) : { kind: "text", value: "not the answer" }
 
     await call("/api/answer", {
       method: "POST",
@@ -222,12 +221,73 @@ try {
   check("the second unit is finished", weakUnit.completed === true)
   check("the second unit is weak", weakUnit.status === "weak", `status ${weakUnit.status}`)
   check("the unit shows how well it went", weakUnit.accuracy !== null && weakUnit.accuracy < 0.8, `accuracy ${weakUnit.accuracy}`)
+  check("the misses are counted for repair", weakUnit.repairable === missedIds.length, `repairable ${weakUnit.repairable}`)
+
+  // A locked unit cannot be repaired either: repair is a way back, not a way in.
+  const thirdUnit = spanish.levels[1].units[0]
+  const lockedRepair = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[1].level, unit: thirdUnit.unit, scope: "repair" }),
+  })
+  check("a locked unit cannot be repaired either", lockedRepair.status === 409, `status ${lockedRepair.status}`)
+
+  /**
+   * Walk a repair round, answering everything right, and collect the ids it
+   * asked. Returns the ids in the order they were asked.
+   */
+  async function repairRound() {
+    const repair = await call("/api/session", {
+      method: "POST",
+      body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: secondUnit.unit, scope: "repair" }),
+    })
+
+    const asked = []
+    let current = repair.body?.exercise ?? null
+    while (current) {
+      asked.push(current.id)
+      const answer = await call("/api/answer", {
+        method: "POST",
+        body: JSON.stringify({ sessionId: repair.body.sessionId, response: correctResponse(secondById.get(current.id)) }),
+      })
+      if (answer.body.outcome !== "correct") {
+        problems.push(`  FAIL repair of ${current.id} was graded ${answer.body.outcome}`)
+        break
+      }
+      const next = await call("/api/complete", {
+        method: "POST",
+        body: JSON.stringify({ sessionId: repair.body.sessionId, grade: "neutral" }),
+      })
+      current = next.body.exercise
+    }
+
+    return { status: repair.status, total: repair.body?.total, asked }
+  }
+
+  const first = await repairRound()
+  check("a repair asks only the misses", first.status === 200 && first.total === missedIds.length, `total ${first.total}`)
+  check(
+    "the repair asked nothing else",
+    first.asked.length === missedIds.length && first.asked.every((id) => missedIds.includes(id)),
+    first.asked.join(", "),
+  )
+
+  const afterRepair = await call("/api/tracks")
+  const repairedUnit = afterRepair.body.tracks.find((track) => track.id === "es").levels[0].units[1]
+  check("the repair lifted the score", repairedUnit.accuracy > weakUnit.accuracy, `${weakUnit.accuracy} -> ${repairedUnit.accuracy}`)
+  check("one clean round is not always enough", repairedUnit.status === "weak", `status ${repairedUnit.status}`)
 
   const revisit = await call("/api/session", {
     method: "POST",
     body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: secondUnit.unit }),
   })
-  check("a weak unit can be done again", revisit.status === 200, `status ${revisit.status}`)
+  check("a weak unit can still be done again", revisit.status === 200, `status ${revisit.status}`)
+
+  const second = await repairRound()
+  check("the misses are still the repair scope", second.status === 200 && second.total === missedIds.length, `total ${second.total}`)
+
+  const afterSecond = await call("/api/tracks")
+  const fixedUnit = afterSecond.body.tracks.find((track) => track.id === "es").levels[0].units[1]
+  check("the misses fixed, the unit is done", fixedUnit.status === "done", `status ${fixedUnit.status}`)
 
   // 8. a skip does not hold the path open
   //
@@ -379,7 +439,7 @@ try {
     for (const problem of problems) console.error(problem)
     process.exitCode = 1
   } else {
-    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats, auth, magic")
+    console.log("\nthe journey works: lock, play, unlock, practise, revisit, repair, stats, auth, magic")
   }
 } finally {
   server.kill()

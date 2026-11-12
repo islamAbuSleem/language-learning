@@ -27,6 +27,12 @@ export const startSessionSchema = z.object({
   track: trackIdSchema,
   level: cefrLevelSchema,
   unit: z.number().int().positive(),
+  /**
+   * `full` walks the whole unit; `repair` asks only the misses that are
+   * still shaky. Anything else is rejected, and `full` stays the default so
+   * older callers keep working.
+   */
+  scope: z.enum(["full", "repair"]).default("full"),
 })
 
 export const answerRequestSchema = z.object({

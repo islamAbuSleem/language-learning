@@ -45,3 +45,29 @@ export function selectWeakItems(states: readonly ItemState[], count: number): It
     .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
     .slice(0, Math.max(0, count))
 }
+
+/**
+ * The misses of one unit that are still shaky, weakest first.
+ *
+ * This is the repair scope: a learner who finishes a unit at 70% does not go
+ * back through the whole unit, they answer the ones they missed. An item
+ * belongs here when it was answered wrong at least once and is still below
+ * the ceiling — a miss that is already solid again needs no repair.
+ */
+export function selectRepairStates(
+  unitExerciseIds: readonly string[],
+  states: readonly ItemState[],
+  count: number,
+): ItemState[] {
+  const wanted = new Set(unitExerciseIds)
+
+  return states
+    .filter(
+      (state) =>
+        wanted.has(state.itemId) &&
+        state.lapses > 0 &&
+        state.mastery < PRACTICE_MASTERY_CEILING,
+    )
+    .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
+    .slice(0, Math.max(0, count))
+}

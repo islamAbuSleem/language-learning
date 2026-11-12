@@ -5,6 +5,7 @@ import {
   PRACTICE_MASTERY_CEILING,
   isDue,
   selectPracticeItems,
+  selectRepairStates,
   selectReviewItems,
 } from "../../server/domain/srs/selection"
 import type { ItemState } from "../../server/domain/srs/types"
@@ -57,6 +58,42 @@ describe("selectPracticeItems", () => {
     ]
 
     expect(selectPracticeItems(states, 1, NOW)).toHaveLength(1)
+  })
+})
+
+describe("selectRepairStates", () => {
+  const ids = ["es/a0/u1/select/a", "es/a0/u1/select/b", "es/a0/u2/select/c"]
+
+  it("takes only the missed items of the unit that are still shaky", () => {
+    const states = [
+      item({ itemId: ids[0], mastery: 0.1, lapses: 1 }),
+      item({ itemId: ids[1], mastery: 0.1, lapses: 0 }),
+      item({ itemId: ids[2], mastery: 0.1, lapses: 2 }),
+    ]
+
+    expect(selectRepairStates([ids[0], ids[1]], states, 10).map((s) => s.itemId)).toEqual([ids[0]])
+  })
+
+  it("leaves out a miss the learner has already made solid", () => {
+    const states = [
+      item({ itemId: ids[0], mastery: PRACTICE_MASTERY_CEILING + 0.1, lapses: 1 }),
+      item({ itemId: ids[1], mastery: 0.1, lapses: 1 }),
+    ]
+
+    expect(selectRepairStates([ids[0], ids[1]], states, 10).map((s) => s.itemId)).toEqual([ids[1]])
+  })
+
+  it("orders the weakest miss first and never returns more than asked for", () => {
+    const states = [
+      item({ itemId: ids[0], mastery: 0.3, lapses: 1 }),
+      item({ itemId: ids[1], mastery: 0.1, lapses: 1 }),
+    ]
+
+    expect(selectRepairStates([ids[0], ids[1]], states, 10).map((s) => s.itemId)).toEqual([
+      ids[1],
+      ids[0],
+    ])
+    expect(selectRepairStates([ids[0], ids[1]], states, 1).map((s) => s.itemId)).toEqual([ids[1]])
   })
 })
 

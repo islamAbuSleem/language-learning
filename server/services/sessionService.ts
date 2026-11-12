@@ -3,7 +3,7 @@ import type { Exercise } from "#shared/content/schema"
 import type { ExerciseOutcome } from "../domain/srs"
 
 /** A lesson runs the units of a level; a practice session runs items due back. */
-export type SessionKind = "unit" | "practice"
+export type SessionKind = "unit" | "practice" | "repair"
 
 export interface LessonSession {
   id: string

@@ -22,10 +22,12 @@ interface UnitContent {
   status: "locked" | "current" | "done" | "weak"
   accuracy: number | null
   shaky: number
+  /** Misses of this unit that are still shaky: what a repair round asks. */
+  repairable: number
   exercises: ClientExercise[]
 }
 
-const { data: content } = await useFetch<UnitContent>(
+const { data: content, refresh: refreshContent } = await useFetch<UnitContent>(
   `/api/units/${track}/${level}/${unit}`,
 )
 
@@ -40,6 +42,10 @@ const revisitNote = computed(() => {
   if (content.value.status === "weak") {
     const score = Math.round((content.value.accuracy ?? 0) * 100)
 
+    if (content.value.repairable > 0) {
+      return `You answered ${score}% of this unit last time. Fix the ${content.value.repairable} you missed, or do the whole unit again.`
+    }
+
     return `You answered ${score}% of this unit last time. Do it again and see if it sticks.`
   }
   if (content.value.status === "done") {
@@ -51,6 +57,7 @@ const revisitNote = computed(() => {
 
 const {
   phase,
+  mode,
   exercise,
   feedback,
   profile,
@@ -64,6 +71,7 @@ const {
   saving,
   error,
   start,
+  startRepair,
   check,
   skip,
   complete,
@@ -76,6 +84,45 @@ function begin() {
   reading.value = false
   void start()
 }
+
+function beginRepair() {
+  reading.value = false
+  void startRepair()
+}
+
+/**
+ * Where the unit stands after a repair round, in the page's own words.
+ *
+ * A repair answers only the misses, and every answer counts toward the 80%
+ * line — so the page says the new score honestly instead of declaring
+ * victory. Null until the refreshed unit content arrives.
+ */
+const repairStanding = computed(() => {
+  if (mode.value !== "repair" || !content.value || content.value.accuracy === null) return null
+
+  const score = Math.round(content.value.accuracy * 100)
+
+  if (content.value.status === "weak") {
+    return `The unit sits at ${score}% now — one more clean round should do it.`
+  }
+
+  return `The unit sits at ${score}% now — solid.`
+})
+
+const doneHeading = computed(() => {
+  if (mode.value !== "repair") return "Unit complete"
+  if (summary.value.incorrect > 0) return "Repair round done"
+
+  return "Misses fixed"
+})
+
+// After a repair round the unit's own score may have moved, so the page
+// re-reads it before saying where things stand.
+watch(phase, (next) => {
+  if (next === "done" && mode.value === "repair") {
+    void refreshContent()
+  }
+})
 </script>
 
 <template>
@@ -129,8 +176,20 @@ function begin() {
         Take me there
       </NuxtLink>
 
+      <div
+        v-if="!content.locked && content.status === 'weak' && content.repairable > 0"
+        class="lesson__repair"
+      >
+        <button type="button" class="btn btn--primary btn--large" @click="beginRepair">
+          Fix the {{ content.repairable }} you missed
+        </button>
+        <button type="button" class="btn btn--ghost" @click="begin">
+          Do the whole unit again
+        </button>
+      </div>
+
       <button
-        v-if="!content.locked"
+        v-if="!content.locked && !(content.status === 'weak' && content.repairable > 0)"
         type="button"
         class="btn btn--primary btn--large"
         @click="begin"
@@ -149,7 +208,8 @@ function begin() {
     </section>
 
     <section v-else-if="phase === 'done'" class="card lesson__done">
-      <h1>Unit complete</h1>
+      <h1>{{ doneHeading }}</h1>
+      <p v-if="mode === 'repair' && repairStanding" class="lesson__lead">{{ repairStanding }}</p>
       <dl class="lesson__summary">
         <div>
           <dt>Correct</dt>
@@ -308,6 +368,13 @@ function begin() {
   background: var(--color-gold-soft);
   border: 1px solid var(--color-gold-strong);
   color: var(--color-ink);
+}
+
+/* The short way back: fix the misses first, the whole unit only if asked. */
+.lesson__repair {
+  display: grid;
+  gap: var(--space-2);
+  justify-items: start;
 }
 
 .lesson__hint {

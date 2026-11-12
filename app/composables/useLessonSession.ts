@@ -31,6 +31,8 @@ export function useLessonSession(track: string, level: string, unit: number) {
   const total = ref(0)
   const counts = ref({ correct: 0, incorrect: 0, skipped: 0 })
   const error = ref<string | null>(null)
+  /** Whether the running session is the whole unit or just its misses. */
+  const mode = ref<"unit" | "repair">("unit")
 
   const selection = ref<string | null>(null)
   const typed = ref("")
@@ -51,7 +53,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
     matchedPairs.value = {}
   }
 
-  async function start() {
+  async function start(scope: "full" | "repair" = "full") {
     phase.value = "loading"
     resetAnswerState()
 
@@ -62,18 +64,24 @@ export function useLessonSession(track: string, level: string, unit: number) {
         index: number
         exercise: ClientExercise | null
         profile: LearnerProfilePayload
-      }>("/api/session", { method: "POST", body: { track, level, unit } })
+      }>("/api/session", { method: "POST", body: { track, level, unit, scope } })
 
       sessionId.value = response.sessionId
       total.value = response.total
       index.value = response.index
       exercise.value = response.exercise
       profile.value = response.profile
+      mode.value = scope === "repair" ? "repair" : "unit"
       phase.value = response.exercise ? "answering" : "done"
     } catch (failure) {
       error.value = messageOf(failure)
       phase.value = "done"
     }
+  }
+
+  /** A repair asks only the misses that are still shaky, weakest first. */
+  async function startRepair() {
+    await start("repair")
   }
 
   /** The server's own words, when it has them. */
@@ -202,6 +210,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
 
   return {
     phase,
+    mode,
     exercise,
     feedback,
     profile,
@@ -216,6 +225,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
     canCheck,
     saving,
     start,
+    startRepair,
     startPractice,
     check,
     skip,

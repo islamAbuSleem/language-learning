@@ -55,6 +55,8 @@ export default defineEventHandler(async (event) => {
     accuracy: state?.accuracy ?? null,
     /** Words of this unit that are still shaky. */
     shaky: state?.shaky ?? 0,
+    /** Misses of this unit that are still shaky: what a repair round asks. */
+    repairable: state?.repairable ?? 0,
     exercises: content.exercises.map(toClientExercise),
   }
 })

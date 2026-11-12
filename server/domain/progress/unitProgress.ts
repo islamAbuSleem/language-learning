@@ -44,6 +44,13 @@ export interface UnitProgress {
   accuracy: number | null
   /** How many of the unit's words are still shaky. */
   shaky: number
+  /**
+   * How many of the unit's exercises were missed and are still shaky.
+   *
+   * This is the repair scope: the misses a short repair round would ask.
+   * A miss the learner has already made solid needs no repair.
+   */
+  repairable: number
   /** How many of the unit's words are due back now. */
   due: number
 }
@@ -69,6 +76,7 @@ export function describeUnit(
   let right = 0
   let shaky = 0
   let due = 0
+  let repairable = 0
 
   for (const id of unit.exerciseIds) {
     const state = states.get(id)
@@ -82,6 +90,7 @@ export function describeUnit(
     if (state.mastery < PRACTICE_MASTERY_CEILING) {
       shaky += 1
       if (state.dueAt <= now) due += 1
+      if (state.lapses > 0) repairable += 1
     }
   }
 
@@ -94,6 +103,7 @@ export function describeUnit(
     completed: unit.exerciseIds.length > 0 && answered === unit.exerciseIds.length,
     accuracy: attempts > 0 ? right / attempts : null,
     shaky,
+    repairable,
     due,
   }
 }

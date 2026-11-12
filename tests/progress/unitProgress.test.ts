@@ -96,6 +96,23 @@ describe("the state of a unit", () => {
 
     expect(progress.shaky).toBe(1)
   })
+
+  it("counts the misses a repair round would ask", () => {
+    const progress = describeUnit(
+      unit("A0", 1, ["a", "b", "c", "d"]),
+      states(
+        state("a", { mastery: 0.1, lapses: 1 }),
+        state("b", { mastery: 0.1, lapses: 0 }),
+        state("c", { mastery: 0.9, lapses: 1 }),
+        state("d", { mastery: 0.1, lapses: 2 }),
+      ),
+      NOW,
+    )
+
+    // Only the misses that are still shaky: not the clean one, and not the
+    // miss the learner has already made solid.
+    expect(progress.repairable).toBe(2)
+  })
 })
 
 describe("the path", () => {

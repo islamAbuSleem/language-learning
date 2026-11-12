@@ -2,10 +2,11 @@ import { startSessionSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
 import { progressFor } from "../domain/progress/unitProgress"
+import { selectRepairStates } from "../domain/srs"
 import { loadUnit } from "../services/contentService"
 import { getEffectiveLearnerId } from "../services/learnerService"
 import { getPathProgress } from "../services/pathService"
-import { getProfile } from "../services/progressService"
+import { getProfile, listItemStates } from "../services/progressService"
 import { createSession, currentExercise } from "../services/sessionService"
 
 export default defineEventHandler(async (event) => {
@@ -37,7 +38,35 @@ export default defineEventHandler(async (event) => {
   }
 
   const now = Date.now()
-  const session = createSession(track, unit, content.exercises, now)
+
+  // A repair asks only the misses that are still shaky, weakest first — the
+  // short way back for a unit answered badly. Anything the learner has
+  // already made solid needs no repair.
+  let exercises = content.exercises
+  let kind = "unit" as const
+  if (body.data.scope === "repair") {
+    const states = await listItemStates(learnerId)
+    const picked = selectRepairStates(
+      content.exercises.map((exercise) => exercise.id),
+      states,
+      10,
+    )
+
+    if (picked.length === 0) {
+      throw createError({
+        statusCode: 409,
+        statusMessage: "Nothing to fix in this unit right now.",
+      })
+    }
+
+    const order = new Map(picked.map((item, index) => [item.itemId, index] as const))
+    exercises = content.exercises
+      .filter((exercise) => order.has(exercise.id))
+      .sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0))
+    kind = "repair"
+  }
+
+  const session = createSession(track, unit, exercises, now, kind)
   const exercise = currentExercise(session)
 
   return {
@@ -45,7 +74,7 @@ export default defineEventHandler(async (event) => {
     track,
     level,
     unit,
-    total: content.exercises.length,
+    total: exercises.length,
     index: session.index,
     exercise: exercise ? toClientExercise(exercise) : null,
     profile: await getProfile(learnerId),

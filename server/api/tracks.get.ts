@@ -40,6 +40,8 @@ export default defineEventHandler(async (event) => {
               answered: state?.answered ?? 0,
               /** Words of this unit that are still shaky. */
               shaky: state?.shaky ?? 0,
+              /** Misses of this unit that are still shaky: what a repair round asks. */
+              repairable: state?.repairable ?? 0,
             }
           }),
         })),
