@@ -102,6 +102,12 @@
         "el ojo",
         "el cuerpo"
       ],
+      "audioFiles": {
+        "el cuerpo": "/audio/es/cuerpo-309191dc.mp3",
+        "el brazo": "/audio/es/brazo-9e655ac5.mp3",
+        "la pierna": "/audio/es/pierna-113526f0.mp3",
+        "el ojo": "/audio/es/ojo-c3c86d44.mp3"
+      },
       "answer": "el cuerpo",
       "translation": "body",
       "note": "Masculine: el cuerpo."
@@ -117,6 +123,12 @@
         "el dolor",
         "el brazo"
       ],
+      "audioFiles": {
+        "el brazo": "/audio/es/brazo-9e655ac5.mp3",
+        "la nariz": "/audio/es/nariz-c2e6ac77.mp3",
+        "el dolor": "/audio/es/dolor-2e964bd2.mp3",
+        "el cuerpo": "/audio/es/cuerpo-309191dc.mp3"
+      },
       "audio": {
         "text": "brazo",
         "lang": "es",
@@ -174,6 +186,12 @@
         "el cuerpo",
         "la pierna"
       ],
+      "audioFiles": {
+        "la pierna": "/audio/es/pierna-113526f0.mp3",
+        "la nariz": "/audio/es/nariz-c2e6ac77.mp3",
+        "el dolor": "/audio/es/dolor-2e964bd2.mp3",
+        "el cuerpo": "/audio/es/cuerpo-309191dc.mp3"
+      },
       "answer": "la pierna",
       "translation": "leg",
       "note": "Feminine: la pierna."

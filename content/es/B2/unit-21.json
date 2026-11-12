@@ -84,6 +84,12 @@
         "la muestra",
         "la hipótesis"
       ],
+      "audioFiles": {
+        "la hipótesis": "/audio/es/hipotesis-1c5760d8.mp3",
+        "la teoría": "/audio/es/teoria-5730386c.mp3",
+        "el método": "/audio/es/metodo-a74032d8.mp3",
+        "la muestra": "/audio/es/muestra-68a7677c.mp3"
+      },
       "answer": "la hipótesis",
       "translation": "the hypothesis",
       "note": "Feminine: la hipótesis. The accent marks the stress."
@@ -99,6 +105,12 @@
         "la publicación",
         "la teoría"
       ],
+      "audioFiles": {
+        "la teoría": "/audio/es/teoria-5730386c.mp3",
+        "el escepticismo": "/audio/es/escepticismo-c4b68314.mp3",
+        "la publicación": "/audio/es/publicacion-997f97fe.mp3",
+        "la hipótesis": "/audio/es/hipotesis-1c5760d8.mp3"
+      },
       "audio": {
         "text": "teoría",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el escepticismo",
         "el método"
       ],
+      "audioFiles": {
+        "el método": "/audio/es/metodo-a74032d8.mp3",
+        "la correlación": "/audio/es/correlacion-a90f7eaa.mp3",
+        "el paradigma": "/audio/es/paradigma-f369877a.mp3",
+        "el escepticismo": "/audio/es/escepticismo-c4b68314.mp3"
+      },
       "answer": "el método",
       "translation": "the method",
       "note": "Masculine: el método. The accent marks the stress."

@@ -102,6 +102,12 @@
         "mirar",
         "estar"
       ],
+      "audioFiles": {
+        "ir": "/audio/es/ir-4d388d82.mp3",
+        "mirar": "/audio/es/mirar-a26c4618.mp3",
+        "necesitar": "/audio/es/necesitar-e24649a0.mp3",
+        "estar": "/audio/es/estar-d16b0738.mp3"
+      },
       "answer": "ir",
       "translation": "to go",
       "note": "Its forms are irregular: voy, vas, va, vamos, vais, van."
@@ -117,6 +123,12 @@
         "vender",
         "venir"
       ],
+      "audioFiles": {
+        "venir": "/audio/es/venir-a5ae0388.mp3",
+        "aprender": "/audio/es/aprender-f27f949a.mp3",
+        "leer": "/audio/es/leer-012c88f0.mp3",
+        "vender": "/audio/es/vender-140df860.mp3"
+      },
       "audio": {
         "text": "venir",
         "lang": "es",
@@ -174,6 +186,12 @@
         "doblar",
         "volver"
       ],
+      "audioFiles": {
+        "volver": "/audio/es/volver-b9093006.mp3",
+        "lavar": "/audio/es/lavar-16b8ea08.mp3",
+        "doblar": "/audio/es/doblar-2c2c1a8e.mp3",
+        "fregar": "/audio/es/fregar-12bfd978.mp3"
+      },
       "answer": "volver",
       "translation": "to return",
       "note": "Its forms are irregular: vuelvo, vuelves, vuelve."

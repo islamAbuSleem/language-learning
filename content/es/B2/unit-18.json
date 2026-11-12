@@ -84,6 +84,12 @@
         "el artista",
         "la obra"
       ],
+      "audioFiles": {
+        "la obra": "/audio/es/obra-2390b9a8.mp3",
+        "el artista": "/audio/es/artista-6d3da6e4.mp3",
+        "el estilo": "/audio/es/estilo-79c2df44.mp3",
+        "la exposición": "/audio/es/exposicion-81b5dee0.mp3"
+      },
       "answer": "la obra",
       "translation": "the work of art",
       "note": "Feminine: la obra. It also means the work in general."
@@ -99,6 +105,12 @@
         "el catálogo",
         "el artista"
       ],
+      "audioFiles": {
+        "el artista": "/audio/es/artista-6d3da6e4.mp3",
+        "el catálogo": "/audio/es/catalogo-60f44834.mp3",
+        "el boceto": "/audio/es/boceto-3aa5b0a0.mp3",
+        "el museo": "/audio/es/museo-72a69658.mp3"
+      },
       "audio": {
         "text": "artista",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el museo",
         "el estilo"
       ],
+      "audioFiles": {
+        "el estilo": "/audio/es/estilo-79c2df44.mp3",
+        "el museo": "/audio/es/museo-72a69658.mp3",
+        "la interpretación": "/audio/es/interpretacion-cc01253c.mp3",
+        "la crítica": "/audio/es/critica-abd0327c.mp3"
+      },
       "answer": "el estilo",
       "translation": "the style",
       "note": "Masculine: el estilo. It also means the way somebody writes."

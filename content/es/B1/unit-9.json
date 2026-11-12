@@ -80,6 +80,12 @@
         "se",
         "me"
       ],
+      "audioFiles": {
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "nada": "/audio/es/nada-fce5fa1f.mp3",
+        "te": "/audio/es/te-374536d3.mp3",
+        "se": "/audio/es/se-3a52077f.mp3"
+      },
       "answer": "me",
       "translation": "me",
       "note": "To me. It goes before the verb: me lo das."
@@ -95,6 +101,12 @@
         "él",
         "te"
       ],
+      "audioFiles": {
+        "te": "/audio/es/te-374536d3.mp3",
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3",
+        "ella": "/audio/es/ella-c99a9dfc.mp3"
+      },
       "audio": {
         "text": "te",
         "lang": "es",
@@ -152,6 +164,12 @@
         "ella",
         "se"
       ],
+      "audioFiles": {
+        "se": "/audio/es/se-3a52077f.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3",
+        "ella": "/audio/es/ella-c99a9dfc.mp3",
+        "me": "/audio/es/me-682e2aa7.mp3"
+      },
       "answer": "se",
       "translation": "him",
       "note": "To him, her or them, when the person is not named."

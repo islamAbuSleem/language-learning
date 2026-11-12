@@ -102,6 +102,12 @@
         "septiembre",
         "la hora"
       ],
+      "audioFiles": {
+        "la hora": "/audio/es/hora-37650a1f.mp3",
+        "julio": "/audio/es/julio-dca40195.mp3",
+        "agosto": "/audio/es/agosto-464fcf58.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3"
+      },
       "answer": "la hora",
       "translation": "hour",
       "note": "Feminine: la hora. It also means the time."
@@ -117,6 +123,12 @@
         "julio",
         "el minuto"
       ],
+      "audioFiles": {
+        "el minuto": "/audio/es/minuto-cb5b0431.mp3",
+        "mayo": "/audio/es/mayo-c9699ea4.mp3",
+        "junio": "/audio/es/junio-e379b8b9.mp3",
+        "julio": "/audio/es/julio-dca40195.mp3"
+      },
       "audio": {
         "text": "minuto",
         "lang": "es",
@@ -174,6 +186,12 @@
         "noche",
         "el mediodía"
       ],
+      "audioFiles": {
+        "el mediodía": "/audio/es/mediodia-e74f9f80.mp3",
+        "noche": "/audio/es/noche-4ba7253f.mp3",
+        "la semana": "/audio/es/semana-8d552853.mp3",
+        "el mes": "/audio/es/mes-d4ad6bbc.mp3"
+      },
       "answer": "el mediodía",
       "translation": "noon",
       "note": "Masculine: el mediodía."

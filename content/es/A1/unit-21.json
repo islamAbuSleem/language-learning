@@ -84,6 +84,12 @@
         "la uva",
         "la manzana"
       ],
+      "audioFiles": {
+        "la manzana": "/audio/es/manzana-31ddf664.mp3",
+        "la naranja": "/audio/es/naranja-64c91778.mp3",
+        "el plátano": "/audio/es/platano-13aa00fd.mp3",
+        "la uva": "/audio/es/uva-4799fa88.mp3"
+      },
       "answer": "la manzana",
       "translation": "the apple",
       "note": "Feminine: la manzana."
@@ -99,6 +105,12 @@
         "la pera",
         "la naranja"
       ],
+      "audioFiles": {
+        "la naranja": "/audio/es/naranja-64c91778.mp3",
+        "la cereza": "/audio/es/cereza-fe64839b.mp3",
+        "la pera": "/audio/es/pera-62c7658c.mp3",
+        "la manzana": "/audio/es/manzana-31ddf664.mp3"
+      },
       "audio": {
         "text": "naranja",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la cereza",
         "el plátano"
       ],
+      "audioFiles": {
+        "el plátano": "/audio/es/platano-13aa00fd.mp3",
+        "la fresa": "/audio/es/fresa-7f8cd62b.mp3",
+        "el limón": "/audio/es/limon-88714e7a.mp3",
+        "la cereza": "/audio/es/cereza-fe64839b.mp3"
+      },
       "answer": "el plátano",
       "translation": "the banana",
       "note": "Masculine: el plátano."
@@ -181,6 +199,12 @@
         "el melón",
         "la uva"
       ],
+      "audioFiles": {
+        "la uva": "/audio/es/uva-4799fa88.mp3",
+        "la naranja": "/audio/es/naranja-64c91778.mp3",
+        "el plátano": "/audio/es/platano-13aa00fd.mp3",
+        "el melón": "/audio/es/melon-72624482.mp3"
+      },
       "answer": "la uva",
       "translation": "the grape",
       "note": "Feminine: la uva. The plural drops the -a: las uvas."

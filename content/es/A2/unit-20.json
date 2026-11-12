@@ -90,6 +90,12 @@
         "el dinero",
         "el préstamo"
       ],
+      "audioFiles": {
+        "el dinero": "/audio/es/dinero-083c11b4.mp3",
+        "el préstamo": "/audio/es/prestamo-675706c4.mp3",
+        "el salario": "/audio/es/salario-ceba1dac.mp3",
+        "ahorrar": "/audio/es/ahorrar-7e2e45f8.mp3"
+      },
       "answer": "el dinero",
       "translation": "money",
       "note": "Masculine: el dinero. It is never plural: no dineros."
@@ -105,6 +111,12 @@
         "el propósito",
         "el banco"
       ],
+      "audioFiles": {
+        "el banco": "/audio/es/banco-aac39730.mp3",
+        "la plata": "/audio/es/plata-fde27418.mp3",
+        "el túnel": "/audio/es/tunel-03312b10.mp3",
+        "el propósito": "/audio/es/proposito-45c227e0.mp3"
+      },
       "audio": {
         "text": "banco",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la sal",
         "la cuenta"
       ],
+      "audioFiles": {
+        "la cuenta": "/audio/es/cuenta-1b88194c.mp3",
+        "la harina": "/audio/es/harina-2cdc1466.mp3",
+        "el aceite": "/audio/es/aceite-41e4d2e0.mp3",
+        "la sal": "/audio/es/sal-e218288c.mp3"
+      },
       "answer": "la cuenta",
       "translation": "the account",
       "note": "Feminine: la cuenta. The account you have at the bank."

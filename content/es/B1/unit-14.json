@@ -94,6 +94,12 @@
         "marcar",
         "había hablado"
       ],
+      "audioFiles": {
+        "había hablado": "/audio/es/habia-hablado-8f6ead61.mp3",
+        "coser": "/audio/es/coser-f9c892d0.mp3",
+        "descansar": "/audio/es/descansar-764e6fe4.mp3",
+        "marcar": "/audio/es/marcar-0e6f5aee.mp3"
+      },
       "answer": "había hablado",
       "translation": "I had spoken",
       "note": "The pluperfect of hablar."
@@ -109,6 +115,12 @@
         "repetir",
         "había comido"
       ],
+      "audioFiles": {
+        "había comido": "/audio/es/habia-comido-b9d3a7a0.mp3",
+        "servir": "/audio/es/servir-90a765a0.mp3",
+        "repetir": "/audio/es/repetir-91f2373e.mp3",
+        "decidir": "/audio/es/decidir-ed1a2f04.mp3"
+      },
       "audio": {
         "text": "había comido",
         "lang": "es",
@@ -166,6 +178,12 @@
         "comió",
         "había vivido"
       ],
+      "audioFiles": {
+        "había vivido": "/audio/es/habia-vivido-17f6f128.mp3",
+        "querré": "/audio/es/querre-b43dd707.mp3",
+        "habló": "/audio/es/hablo-5e0d4918.mp3",
+        "comió": "/audio/es/comio-be6e3568.mp3"
+      },
       "answer": "había vivido",
       "translation": "I had lived",
       "note": "The pluperfect of vivir."

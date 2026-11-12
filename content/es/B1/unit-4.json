@@ -102,6 +102,12 @@
         "él",
         "me"
       ],
+      "audioFiles": {
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "tú": "/audio/es/tu-d4449afa.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3"
+      },
       "answer": "me",
       "translation": "me",
       "note": "Me, or myself: me llamo."
@@ -117,6 +123,12 @@
         "la",
         "te"
       ],
+      "audioFiles": {
+        "te": "/audio/es/te-374536d3.mp3",
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "lo": "/audio/es/lo-4131bed9.mp3",
+        "la": "/audio/es/la-4b31ce97.mp3"
+      },
       "audio": {
         "text": "te",
         "lang": "es",
@@ -174,6 +186,12 @@
         "me",
         "lo"
       ],
+      "audioFiles": {
+        "lo": "/audio/es/lo-4131bed9.mp3",
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "te": "/audio/es/te-374536d3.mp3",
+        "la": "/audio/es/la-4b31ce97.mp3"
+      },
       "answer": "lo",
       "translation": "it",
       "note": "It, him or it. It takes the place of a masculine object."

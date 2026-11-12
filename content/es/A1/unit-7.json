@@ -89,6 +89,12 @@
         "hace mal tiempo",
         "el sol"
       ],
+      "audioFiles": {
+        "el sol": "/audio/es/sol-de3ab484.mp3",
+        "hace buen tiempo": "/audio/es/hace-buen-tiempo-a8f08038.mp3",
+        "hace mal tiempo": "/audio/es/hace-mal-tiempo-abf9a8a4.mp3",
+        "la lluvia": "/audio/es/lluvia-1697fb80.mp3"
+      },
       "answer": "el sol",
       "translation": "sun",
       "note": "Masculine: el sol. It also means sun cream."
@@ -104,6 +110,12 @@
         "nublado",
         "la lluvia"
       ],
+      "audioFiles": {
+        "la lluvia": "/audio/es/lluvia-1697fb80.mp3",
+        "el viento": "/audio/es/viento-207bed4c.mp3",
+        "nublado": "/audio/es/nublado-0998d3c4.mp3",
+        "el calor": "/audio/es/calor-b359a3e0.mp3"
+      },
       "audio": {
         "text": "lluvia",
         "lang": "es",
@@ -161,6 +173,12 @@
         "el viento",
         "el calor"
       ],
+      "audioFiles": {
+        "la nieve": "/audio/es/nieve-dbc71d9c.mp3",
+        "el viento": "/audio/es/viento-207bed4c.mp3",
+        "nublado": "/audio/es/nublado-0998d3c4.mp3",
+        "el calor": "/audio/es/calor-b359a3e0.mp3"
+      },
       "answer": "la nieve",
       "translation": "snow",
       "note": "Feminine: la nieve. It never takes an article in the phrase hace nieve."

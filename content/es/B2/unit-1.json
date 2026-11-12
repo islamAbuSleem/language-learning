@@ -84,6 +84,12 @@
         "han sido encontrados",
         "fue pintado"
       ],
+      "audioFiles": {
+        "fue pintado": "/audio/es/fue-pintado-38014220.mp3",
+        "fue decidido": "/audio/es/fue-decidido-cbb468e0.mp3",
+        "ha sido firmado": "/audio/es/ha-sido-firmado-53e86301.mp3",
+        "han sido encontrados": "/audio/es/han-sido-encontrados-23086b24.mp3"
+      },
       "answer": "fue pintado",
       "translation": "it was painted",
       "note": "The passive of pintar, in the preterite."
@@ -99,6 +105,12 @@
         "fue construido",
         "fue pintado"
       ],
+      "audioFiles": {
+        "fue enviado": "/audio/es/fue-enviado-71cff380.mp3",
+        "fue pintado": "/audio/es/fue-pintado-38014220.mp3",
+        "fue construido": "/audio/es/fue-construido-c6b9684d.mp3",
+        "fue decidido": "/audio/es/fue-decidido-cbb468e0.mp3"
+      },
       "audio": {
         "text": "fue enviado",
         "lang": "es",
@@ -156,6 +168,12 @@
         "ha sido firmado",
         "fue construido"
       ],
+      "audioFiles": {
+        "fue construido": "/audio/es/fue-construido-c6b9684d.mp3",
+        "ha sido firmado": "/audio/es/ha-sido-firmado-53e86301.mp3",
+        "han sido encontrados": "/audio/es/han-sido-encontrados-23086b24.mp3",
+        "fue pintado": "/audio/es/fue-pintado-38014220.mp3"
+      },
       "answer": "fue construido",
       "translation": "it was built",
       "note": "The passive of construir, in the preterite."

@@ -102,6 +102,12 @@
         "él",
         "tú"
       ],
+      "audioFiles": {
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3",
+        "ella": "/audio/es/ella-c99a9dfc.mp3",
+        "tú": "/audio/es/tu-d4449afa.mp3"
+      },
       "answer": "yo",
       "translation": "I",
       "note": "The first person: yo soy."
@@ -117,6 +123,12 @@
         "él",
         "tú"
       ],
+      "audioFiles": {
+        "tú": "/audio/es/tu-d4449afa.mp3",
+        "ella": "/audio/es/ella-c99a9dfc.mp3",
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3"
+      },
       "audio": {
         "text": "tú",
         "lang": "es",
@@ -174,6 +186,12 @@
         "yo",
         "él"
       ],
+      "audioFiles": {
+        "él": "/audio/es/el-3dfb42f8.mp3",
+        "ella": "/audio/es/ella-c99a9dfc.mp3",
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "tú": "/audio/es/tu-d4449afa.mp3"
+      },
       "answer": "él",
       "translation": "he",
       "note": "Third person masculine: él es."

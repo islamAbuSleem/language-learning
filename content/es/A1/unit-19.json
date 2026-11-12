@@ -84,6 +84,12 @@
         "la mesa",
         "el sofá"
       ],
+      "audioFiles": {
+        "el sofá": "/audio/es/sofa-35838973.mp3",
+        "el marco": "/audio/es/marco-f69b36a8.mp3",
+        "la alfombra": "/audio/es/alfombra-2ef2c468.mp3",
+        "la mesa": "/audio/es/mesa-aa00cce8.mp3"
+      },
       "answer": "el sofá",
       "translation": "the sofa",
       "note": "Masculine: el sofá. The plural is los sofás."
@@ -99,6 +105,12 @@
         "la planta",
         "el sillón"
       ],
+      "audioFiles": {
+        "el sillón": "/audio/es/sillon-04be40b8.mp3",
+        "el florero": "/audio/es/florero-eb80c4c4.mp3",
+        "la planta": "/audio/es/planta-0ae9655f.mp3",
+        "el marco": "/audio/es/marco-f69b36a8.mp3"
+      },
       "audio": {
         "text": "sillón",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la repisa",
         "la estantería"
       ],
+      "audioFiles": {
+        "la estantería": "/audio/es/estanteria-73e0fe57.mp3",
+        "la repisa": "/audio/es/repisa-14259320.mp3",
+        "el biombo": "/audio/es/biombo-5ea6a0cc.mp3",
+        "el florero": "/audio/es/florero-eb80c4c4.mp3"
+      },
       "answer": "la estantería",
       "translation": "the bookcase",
       "note": "Feminine: la estantería."
@@ -181,6 +199,12 @@
         "el florero",
         "la repisa"
       ],
+      "audioFiles": {
+        "la cómoda": "/audio/es/comoda-6715f9fc.mp3",
+        "la repisa": "/audio/es/repisa-14259320.mp3",
+        "el biombo": "/audio/es/biombo-5ea6a0cc.mp3",
+        "el florero": "/audio/es/florero-eb80c4c4.mp3"
+      },
       "answer": "la cómoda",
       "translation": "the chest of drawers",
       "note": "Feminine: la cómoda."

@@ -102,6 +102,12 @@
         "el alumbrado",
         "el silencio"
       ],
+      "audioFiles": {
+        "el alumbrado": "/audio/es/alumbrado-ac5c5ce5.mp3",
+        "el silencio": "/audio/es/silencio-db7f4ef0.mp3",
+        "el callejón": "/audio/es/callejon-701a9422.mp3",
+        "la hora punta": "/audio/es/hora-punta-14f54ac4.mp3"
+      },
       "answer": "el alumbrado",
       "translation": "the street lighting",
       "note": "Masculine: el alumbrado."
@@ -117,6 +123,12 @@
         "el gasto",
         "el neón"
       ],
+      "audioFiles": {
+        "el neón": "/audio/es/neon-d21bebf0.mp3",
+        "el gasto": "/audio/es/gasto-5eafcb61.mp3",
+        "la deuda": "/audio/es/deuda-6dd5bff8.mp3",
+        "el préstamo": "/audio/es/prestamo-675706c4.mp3"
+      },
       "audio": {
         "text": "neón",
         "lang": "es",
@@ -174,6 +186,12 @@
         "el edificio",
         "el bar"
       ],
+      "audioFiles": {
+        "el bar": "/audio/es/bar-78b9bed8.mp3",
+        "la plaza": "/audio/es/plaza-e3f155b4.mp3",
+        "el edificio": "/audio/es/edificio-7bac50bd.mp3",
+        "la avenida": "/audio/es/avenida-26fb26bc.mp3"
+      },
       "answer": "el bar",
       "translation": "the bar",
       "note": "Masculine: el bar."

@@ -84,6 +84,12 @@
         "solicitar",
         "estimado"
       ],
+      "audioFiles": {
+        "estimado": "/audio/es/estimado-fcdcbed0.mp3",
+        "solicitar": "/audio/es/solicitar-a9ce7082.mp3",
+        "adjuntar": "/audio/es/adjuntar-d314e2b0.mp3",
+        "a su espera": "/audio/es/a-su-espera-b29e6514.mp3"
+      },
       "answer": "estimado",
       "translation": "dear",
       "note": "It opens a formal letter: estimado señor."
@@ -99,6 +105,12 @@
         "atentamente",
         "estimado"
       ],
+      "audioFiles": {
+        "atentamente": "/audio/es/atentamente-3f83baf4.mp3",
+        "estimado": "/audio/es/estimado-fcdcbed0.mp3",
+        "solicitar": "/audio/es/solicitar-a9ce7082.mp3",
+        "adjuntar": "/audio/es/adjuntar-d314e2b0.mp3"
+      },
       "audio": {
         "text": "atentamente",
         "lang": "es",
@@ -156,6 +168,12 @@
         "adjuntar",
         "solicitar"
       ],
+      "audioFiles": {
+        "solicitar": "/audio/es/solicitar-a9ce7082.mp3",
+        "estimado": "/audio/es/estimado-fcdcbed0.mp3",
+        "atentamente": "/audio/es/atentamente-3f83baf4.mp3",
+        "adjuntar": "/audio/es/adjuntar-d314e2b0.mp3"
+      },
       "answer": "solicitar",
       "translation": "to request",
       "note": "A formal verb: solicitar una reunión."

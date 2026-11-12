@@ -40,7 +40,13 @@ export const completeRequestSchema = z.object({
 })
 
 export const clientExerciseSchema = z.discriminatedUnion("type", [
-  z.object({ id: z.string().min(1), type: z.literal("select"), prompt: z.string(), options: z.array(z.string()) }),
+  z.object({
+    id: z.string().min(1),
+    type: z.literal("select"),
+    prompt: z.string(),
+    options: z.array(z.string()),
+    audioFiles: z.record(z.string(), z.string()),
+  }),
   z.object({
     id: z.string().min(1),
     type: z.literal("match"),
@@ -53,6 +59,7 @@ export const clientExerciseSchema = z.discriminatedUnion("type", [
     type: z.literal("listen"),
     prompt: z.string(),
     options: z.array(z.string()),
+    audioFiles: z.record(z.string(), z.string()),
     audio: z.object({
       text: z.string(),
       lang: z.string(),

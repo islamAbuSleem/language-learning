@@ -102,6 +102,12 @@
         "él",
         "esto"
       ],
+      "audioFiles": {
+        "esto": "/audio/es/esto-a110c544.mp3",
+        "yo": "/audio/es/yo-625fbe01.mp3",
+        "tú": "/audio/es/tu-d4449afa.mp3",
+        "él": "/audio/es/el-3dfb42f8.mp3"
+      },
       "answer": "esto",
       "translation": "this",
       "note": "This, close to the speaker. It never changes."
@@ -117,6 +123,12 @@
         "me",
         "eso"
       ],
+      "audioFiles": {
+        "eso": "/audio/es/eso-6199a070.mp3",
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "te": "/audio/es/te-374536d3.mp3",
+        "lo": "/audio/es/lo-4131bed9.mp3"
+      },
       "audio": {
         "text": "eso",
         "lang": "es",
@@ -174,6 +186,12 @@
         "aquello",
         "lo"
       ],
+      "audioFiles": {
+        "aquello": "/audio/es/aquello-c98526bd.mp3",
+        "me": "/audio/es/me-682e2aa7.mp3",
+        "te": "/audio/es/te-374536d3.mp3",
+        "lo": "/audio/es/lo-4131bed9.mp3"
+      },
       "answer": "aquello",
       "translation": "that over there",
       "note": "That, far from both. It never changes."

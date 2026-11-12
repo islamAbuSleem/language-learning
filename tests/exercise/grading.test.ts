@@ -13,6 +13,7 @@ const selectExercise: Exercise = {
   type: "select",
   prompt: "Pick the Spanish word for “coffee”.",
   options: ["el agua", "el café"],
+  audioFiles: { "el agua": "/audio/es/agua-879ea477.mp3", "el café": "/audio/es/cafe-8b198ab6.mp3" },
   answer: "el café",
   translation: "coffee",
 }

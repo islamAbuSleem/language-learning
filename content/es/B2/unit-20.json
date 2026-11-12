@@ -84,6 +84,12 @@
         "la época",
         "la herencia"
       ],
+      "audioFiles": {
+        "la época": "/audio/es/epoca-6e161e84.mp3",
+        "la herencia": "/audio/es/herencia-0361112c.mp3",
+        "el imperio": "/audio/es/imperio-6f0234d0.mp3",
+        "la perspectiva": "/audio/es/perspectiva-60df5300.mp3"
+      },
       "answer": "la época",
       "translation": "the period, the era",
       "note": "Feminine: la época. The accent marks the stress."
@@ -99,6 +105,12 @@
         "la perspectiva",
         "el siglo"
       ],
+      "audioFiles": {
+        "el siglo": "/audio/es/siglo-08db4934.mp3",
+        "la herencia": "/audio/es/herencia-0361112c.mp3",
+        "el imperio": "/audio/es/imperio-6f0234d0.mp3",
+        "la perspectiva": "/audio/es/perspectiva-60df5300.mp3"
+      },
       "audio": {
         "text": "siglo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la crónica",
         "la fuente"
       ],
+      "audioFiles": {
+        "la fuente": "/audio/es/fuente-6fa79e60.mp3",
+        "el archivo": "/audio/es/archivo-52aa16a8.mp3",
+        "el testimonio": "/audio/es/testimonio-e877a980.mp3",
+        "la crónica": "/audio/es/cronica-51d406e0.mp3"
+      },
       "answer": "la fuente",
       "translation": "the source",
       "note": "Feminine: la fuente. It also means the tap."

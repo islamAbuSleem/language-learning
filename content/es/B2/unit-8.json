@@ -90,6 +90,12 @@
         "valiente",
         "grande"
       ],
+      "audioFiles": {
+        "grande": "/audio/es/grande-cf30b303.mp3",
+        "valiente": "/audio/es/valiente-e680af34.mp3",
+        "tímido": "/audio/es/timido-5ef12b44.mp3",
+        "generoso": "/audio/es/generoso-de7ef0b0.mp3"
+      },
       "answer": "grande",
       "translation": "big",
       "note": "Grande goes after the noun. Gran goes before it."
@@ -105,6 +111,12 @@
         "divertido",
         "pequeño"
       ],
+      "audioFiles": {
+        "pequeño": "/audio/es/pequeno-f94565fc.mp3",
+        "inteligente": "/audio/es/inteligente-3a279185.mp3",
+        "divertido": "/audio/es/divertido-4f3b7738.mp3",
+        "serio": "/audio/es/serio-afa73c30.mp3"
+      },
       "audio": {
         "text": "pequeño",
         "lang": "es",
@@ -162,6 +174,12 @@
         "simpático",
         "delgado"
       ],
+      "audioFiles": {
+        "excelente": "/audio/es/excelente-01e1fa9b.mp3",
+        "delgado": "/audio/es/delgado-af09564d.mp3",
+        "guapo": "/audio/es/guapo-d489cc9c.mp3",
+        "simpático": "/audio/es/simpatico-fcdb4168.mp3"
+      },
       "answer": "excelente",
       "translation": "excellent",
       "note": "Excelente goes before the noun, usually."

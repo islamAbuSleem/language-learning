@@ -98,6 +98,12 @@
         "he hablado",
         "repetir"
       ],
+      "audioFiles": {
+        "he hablado": "/audio/es/he-hablado-1e9484c0.mp3",
+        "repetir": "/audio/es/repetir-91f2373e.mp3",
+        "decidir": "/audio/es/decidir-ed1a2f04.mp3",
+        "ir": "/audio/es/ir-4d388d82.mp3"
+      },
       "answer": "he hablado",
       "translation": "I have spoken",
       "note": "He plus the participle of hablar."
@@ -113,6 +119,12 @@
         "vivía",
         "he comido"
       ],
+      "audioFiles": {
+        "he comido": "/audio/es/he-comido-898461ec.mp3",
+        "vivía": "/audio/es/vivia-0039e15c.mp3",
+        "trabajaba": "/audio/es/trabajaba-340ded34.mp3",
+        "estudiaba": "/audio/es/estudiaba-3165aa20.mp3"
+      },
       "audio": {
         "text": "he comido",
         "lang": "es",
@@ -170,6 +182,12 @@
         "abrir",
         "he vivido"
       ],
+      "audioFiles": {
+        "he vivido": "/audio/es/he-vivido-840c8ef0.mp3",
+        "recibir": "/audio/es/recibir-1d158f76.mp3",
+        "abrir": "/audio/es/abrir-b9660250.mp3",
+        "compartir": "/audio/es/compartir-45ea3e18.mp3"
+      },
       "answer": "he vivido",
       "translation": "I have lived",
       "note": "He plus the participle of vivir."

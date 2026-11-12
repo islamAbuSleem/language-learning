@@ -84,6 +84,12 @@
         "el sartén",
         "el refrigerador"
       ],
+      "audioFiles": {
+        "el refrigerador": "/audio/es/refrigerador-a8b627e8.mp3",
+        "la estufa": "/audio/es/estufa-66653acc.mp3",
+        "el horno": "/audio/es/horno-a41aa744.mp3",
+        "el sartén": "/audio/es/sarten-f65d1b68.mp3"
+      },
       "answer": "el refrigerador",
       "translation": "the fridge",
       "note": "Masculine: el refrigerador. You also say la nevera for the same thing."
@@ -99,6 +105,12 @@
         "el horno",
         "la estufa"
       ],
+      "audioFiles": {
+        "la estufa": "/audio/es/estufa-66653acc.mp3",
+        "la tabla": "/audio/es/tabla-3a3ee238.mp3",
+        "el refrigerador": "/audio/es/refrigerador-a8b627e8.mp3",
+        "el horno": "/audio/es/horno-a41aa744.mp3"
+      },
       "audio": {
         "text": "estufa",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el tenedor",
         "el horno"
       ],
+      "audioFiles": {
+        "el horno": "/audio/es/horno-a41aa744.mp3",
+        "el cuchillo": "/audio/es/cuchillo-990d465c.mp3",
+        "el tenedor": "/audio/es/tenedor-2e388a48.mp3",
+        "la taza": "/audio/es/taza-2972eab4.mp3"
+      },
       "answer": "el horno",
       "translation": "the oven",
       "note": "Masculine: el horno."
@@ -181,6 +199,12 @@
         "el horno",
         "el sartén"
       ],
+      "audioFiles": {
+        "el sartén": "/audio/es/sarten-f65d1b68.mp3",
+        "el horno": "/audio/es/horno-a41aa744.mp3",
+        "la cuchara": "/audio/es/cuchara-efb5d40b.mp3",
+        "el cuchillo": "/audio/es/cuchillo-990d465c.mp3"
+      },
       "answer": "el sartén",
       "translation": "the frying pan",
       "note": "Masculine in meaning: el sartén, even though it ends in -a."

@@ -102,6 +102,12 @@
         "caminar",
         "hablaría"
       ],
+      "audioFiles": {
+        "hablaría": "/audio/es/hablaria-9eed4b48.mp3",
+        "estudiar": "/audio/es/estudiar-5adaac6a.mp3",
+        "caminar": "/audio/es/caminar-0d95c438.mp3",
+        "cocinar": "/audio/es/cocinar-17c08638.mp3"
+      },
       "answer": "hablaría",
       "translation": "I would speak",
       "note": "The conditional of hablar."
@@ -117,6 +123,12 @@
         "hervir",
         "comería"
       ],
+      "audioFiles": {
+        "comería": "/audio/es/comeria-c4dd41a4.mp3",
+        "hemos abierto": "/audio/es/hemos-abierto-00a780c4.mp3",
+        "hervir": "/audio/es/hervir-cb8db6b6.mp3",
+        "mezclar": "/audio/es/mezclar-e77ad248.mp3"
+      },
       "audio": {
         "text": "comería",
         "lang": "es",
@@ -174,6 +186,12 @@
         "acostarse",
         "viviría"
       ],
+      "audioFiles": {
+        "viviría": "/audio/es/viviria-d53af4bc.mp3",
+        "acostarse": "/audio/es/acostarse-cd0674d8.mp3",
+        "afeitarse": "/audio/es/afeitarse-b9e202ac.mp3",
+        "cepillarse": "/audio/es/cepillarse-eb4bc438.mp3"
+      },
       "answer": "viviría",
       "translation": "I would live",
       "note": "The conditional of vivir."

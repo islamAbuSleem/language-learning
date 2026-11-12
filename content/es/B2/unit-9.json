@@ -90,6 +90,12 @@
         "por ahora",
         "en marcha"
       ],
+      "audioFiles": {
+        "en marcha": "/audio/es/en-marcha-83258bd7.mp3",
+        "en suma": "/audio/es/en-suma-6946001a.mp3",
+        "en resumen": "/audio/es/en-resumen-7c40a678.mp3",
+        "por ahora": "/audio/es/por-ahora-e9367a48.mp3"
+      },
       "answer": "en marcha",
       "translation": "under way",
       "note": "It goes with estar: el proyecto está en marcha."
@@ -105,6 +111,12 @@
         "en marcha",
         "en su sitio"
       ],
+      "audioFiles": {
+        "en su sitio": "/audio/es/en-su-sitio-8478ce04.mp3",
+        "a largo plazo": "/audio/es/a-largo-plazo-8a2da0bc.mp3",
+        "en marcha": "/audio/es/en-marcha-83258bd7.mp3",
+        "a punto de": "/audio/es/a-punto-de-c8b57687.mp3"
+      },
       "audio": {
         "text": "en su sitio",
         "lang": "es",
@@ -162,6 +174,12 @@
         "de acuerdo",
         "a punto de"
       ],
+      "audioFiles": {
+        "a punto de": "/audio/es/a-punto-de-c8b57687.mp3",
+        "en su sitio": "/audio/es/en-su-sitio-8478ce04.mp3",
+        "de acuerdo": "/audio/es/de-acuerdo-b83bf2f9.mp3",
+        "en efecto": "/audio/es/en-efecto-a2c2b5ec.mp3"
+      },
       "answer": "a punto de",
       "translation": "about to",
       "note": "A point of the infinitive: está a punto de salir."

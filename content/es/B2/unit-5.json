@@ -84,6 +84,12 @@
         "hablar",
         "depender"
       ],
+      "audioFiles": {
+        "depender": "/audio/es/depender-307e9afa.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3"
+      },
       "answer": "depender",
       "translation": "to depend",
       "note": "It always takes de: depender de algo."
@@ -99,6 +105,12 @@
         "contar",
         "insistir"
       ],
+      "audioFiles": {
+        "insistir": "/audio/es/insistir-d19926d8.mp3",
+        "contar": "/audio/es/contar-664b5b58.mp3",
+        "hablara": "/audio/es/hablara-47f02638.mp3",
+        "comiera": "/audio/es/comiera-d491f8dd.mp3"
+      },
       "audio": {
         "text": "insistir",
         "lang": "es",
@@ -156,6 +168,12 @@
         "soñar",
         "reservar"
       ],
+      "audioFiles": {
+        "soñar": "/audio/es/sonar-4d4ab498.mp3",
+        "hornear": "/audio/es/hornear-0c1b8eb0.mp3",
+        "pelar": "/audio/es/pelar-6e71cd48.mp3",
+        "reservar": "/audio/es/reservar-319948e8.mp3"
+      },
       "answer": "soñar",
       "translation": "to dream",
       "note": "It always takes con: soñar con algo."

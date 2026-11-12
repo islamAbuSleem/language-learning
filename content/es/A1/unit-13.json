@@ -98,6 +98,12 @@
         "el plato",
         "el menú"
       ],
+      "audioFiles": {
+        "el menú": "/audio/es/menu-11e59a22.mp3",
+        "la camarera": "/audio/es/camarera-2638b350.mp3",
+        "el plato": "/audio/es/plato-f3e26458.mp3",
+        "el vaso": "/audio/es/vaso-99b0a284.mp3"
+      },
       "answer": "el menú",
       "translation": "menu",
       "note": "Masculine: el menú. The accent marks the stress."
@@ -113,6 +119,12 @@
         "encargar",
         "el camarero"
       ],
+      "audioFiles": {
+        "el camarero": "/audio/es/camarero-2038a9e0.mp3",
+        "encargar": "/audio/es/encargar-fc9dadf8.mp3",
+        "la ensalada": "/audio/es/ensalada-dbb8a84f.mp3",
+        "la bebida": "/audio/es/bebida-80ea72b0.mp3"
+      },
       "audio": {
         "text": "camarero",
         "lang": "es",
@@ -170,6 +182,12 @@
         "la bebida",
         "la camarera"
       ],
+      "audioFiles": {
+        "la camarera": "/audio/es/camarera-2638b350.mp3",
+        "la bebida": "/audio/es/bebida-80ea72b0.mp3",
+        "el postre": "/audio/es/postre-e939ac40.mp3",
+        "el azúcar": "/audio/es/azucar-8c5756c2.mp3"
+      },
       "answer": "la camarera",
       "translation": "waitress",
       "note": "Feminine: la camarera."

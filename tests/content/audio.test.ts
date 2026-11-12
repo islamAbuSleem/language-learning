@@ -43,6 +43,17 @@ describe("the course audio", () => {
     }),
   )
 
+  /** Every choice a learner can hear: the options of select and listen. */
+  const choiceExercises = tracks.flatMap((track) =>
+    unitFiles(track).flatMap((file) => {
+      const unit = unitSchema.parse(JSON.parse(readFileSync(file, "utf8")))
+
+      return unit.exercises
+        .filter((exercise) => exercise.type === "select" || exercise.type === "listen")
+        .map((exercise) => ({ file, exercise }))
+    }),
+  )
+
   /** Every word of every track, with the file its recording lives in. */
   const words = tracks.flatMap((track) => {
     const trackDir = join(CONTENT_ROOT, track)
@@ -97,6 +108,25 @@ describe("the course audio", () => {
 
       expect(existsSync(path), `${exercise.audio.file} is missing`).toBe(true)
       expect(statSync(path).size, `${exercise.audio.file} is empty`).toBeGreaterThan(0)
+    }
+  })
+
+  it("gives every choice a recording behind it", () => {
+    expect(choiceExercises.length).toBeGreaterThan(0)
+
+    for (const { exercise } of choiceExercises) {
+      if (exercise.type !== "select" && exercise.type !== "listen") continue
+
+      for (const option of exercise.options) {
+        const file = exercise.audioFiles[option]
+
+        expect(file, `${exercise.id} has no recording for "${option}"`).toBeTruthy()
+
+        const path = join(PUBLIC_ROOT, file ?? "")
+
+        expect(existsSync(path), `${file} is missing`).toBe(true)
+        expect(statSync(path).size, `${file} is empty`).toBeGreaterThan(0)
+      }
     }
   })
 

@@ -102,6 +102,12 @@
         "el gasto",
         "el préstamo"
       ],
+      "audioFiles": {
+        "el préstamo": "/audio/es/prestamo-675706c4.mp3",
+        "la cuenta": "/audio/es/cuenta-1b88194c.mp3",
+        "el ahorro": "/audio/es/ahorro-4681bcf0.mp3",
+        "el gasto": "/audio/es/gasto-5eafcb61.mp3"
+      },
       "answer": "el préstamo",
       "translation": "the loan",
       "note": "Masculine: el préstamo. It takes an accent on the e."
@@ -117,6 +123,12 @@
         "interesar",
         "devolver"
       ],
+      "audioFiles": {
+        "devolver": "/audio/es/devolver-ba6d2d94.mp3",
+        "molestar": "/audio/es/molestar-1ac83ef8.mp3",
+        "interesar": "/audio/es/interesar-4070b478.mp3",
+        "importar": "/audio/es/importar-a7900566.mp3"
+      },
       "audio": {
         "text": "devolver",
         "lang": "es",
@@ -174,6 +186,12 @@
         "gastar",
         "la deuda"
       ],
+      "audioFiles": {
+        "la deuda": "/audio/es/deuda-6dd5bff8.mp3",
+        "el interés": "/audio/es/interes-7e86c68c.mp3",
+        "la cuota": "/audio/es/cuota-714e1c58.mp3",
+        "gastar": "/audio/es/gastar-39adca28.mp3"
+      },
       "answer": "la deuda",
       "translation": "the debt",
       "note": "Feminine: la deuda."

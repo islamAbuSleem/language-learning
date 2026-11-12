@@ -102,6 +102,12 @@
         "trabajar",
         "hablar"
       ],
+      "audioFiles": {
+        "hablar": "/audio/es/hablar-704a48e2.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3"
+      },
       "answer": "hablar",
       "translation": "to speak",
       "note": "An infinitive ending in -ar: hablo, hablas, habla."
@@ -117,6 +123,12 @@
         "hablar",
         "trabajar"
       ],
+      "audioFiles": {
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3"
+      },
       "audio": {
         "text": "trabajar",
         "lang": "es",
@@ -174,6 +186,12 @@
         "caminar",
         "estudiar"
       ],
+      "audioFiles": {
+        "estudiar": "/audio/es/estudiar-5adaac6a.mp3",
+        "caminar": "/audio/es/caminar-0d95c438.mp3",
+        "cocinar": "/audio/es/cocinar-17c08638.mp3",
+        "mirar": "/audio/es/mirar-a26c4618.mp3"
+      },
       "answer": "estudiar",
       "translation": "to study",
       "note": "An infinitive ending in -ar: estudio, estudias, estudia."

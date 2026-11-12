@@ -90,6 +90,12 @@
         "el sello",
         "el pronóstico"
       ],
+      "audioFiles": {
+        "el pronóstico": "/audio/es/pronostico-b778995a.mp3",
+        "el sello": "/audio/es/sello-3e11cf98.mp3",
+        "la entrega": "/audio/es/entrega-43538dbf.mp3",
+        "el formulario": "/audio/es/formulario-a2ebead4.mp3"
+      },
       "answer": "el pronóstico",
       "translation": "the forecast",
       "note": "Masculine: el pronóstico. The forecast in the news or on the phone."
@@ -105,6 +111,12 @@
         "la salsa",
         "la temperatura"
       ],
+      "audioFiles": {
+        "la temperatura": "/audio/es/temperatura-4f32ef54.mp3",
+        "la salsa": "/audio/es/salsa-0a6fbde4.mp3",
+        "la verdura": "/audio/es/verdura-3fc79090.mp3",
+        "la servilleta": "/audio/es/servilleta-ef6ef818.mp3"
+      },
       "audio": {
         "text": "temperatura",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la fractura",
         "la tormenta"
       ],
+      "audioFiles": {
+        "la tormenta": "/audio/es/tormenta-271728f3.mp3",
+        "el músculo": "/audio/es/musculo-dacf55b9.mp3",
+        "la fractura": "/audio/es/fractura-681f6ff3.mp3",
+        "el tratamiento": "/audio/es/tratamiento-b9c8d654.mp3"
+      },
       "answer": "la tormenta",
       "translation": "the storm",
       "note": "Feminine: la tormenta. Bad weather with wind and thunder."

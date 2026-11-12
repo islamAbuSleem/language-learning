@@ -90,6 +90,12 @@
         "la solución",
         "la receta"
       ],
+      "audioFiles": {
+        "la receta": "/audio/es/receta-8daa7124.mp3",
+        "la solución": "/audio/es/solucion-3f70cd28.mp3",
+        "la respuesta": "/audio/es/respuesta-8c352074.mp3",
+        "la decisión": "/audio/es/decision-6e8fde12.mp3"
+      },
       "answer": "la receta",
       "translation": "the recipe",
       "note": "Feminine: la receta. It also means what the doctor writes for you."
@@ -105,6 +111,12 @@
         "el artículo",
         "el ingrediente"
       ],
+      "audioFiles": {
+        "el ingrediente": "/audio/es/ingrediente-175f4e28.mp3",
+        "el artículo": "/audio/es/articulo-da037d34.mp3",
+        "la reunión": "/audio/es/reunion-e316f33a.mp3",
+        "el problema": "/audio/es/problema-54fbe970.mp3"
+      },
       "audio": {
         "text": "ingrediente",
         "lang": "es",
@@ -162,6 +174,12 @@
         "el propósito",
         "la mezcla"
       ],
+      "audioFiles": {
+        "la mezcla": "/audio/es/mezcla-9d7c2c8f.mp3",
+        "el propósito": "/audio/es/proposito-45c227e0.mp3",
+        "el destino": "/audio/es/destino-66c08a7f.mp3",
+        "el motivo": "/audio/es/motivo-04be7870.mp3"
+      },
       "answer": "la mezcla",
       "translation": "the mixture",
       "note": "Feminine: la mezcla. What you get when you mix things together."

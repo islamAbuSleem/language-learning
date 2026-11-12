@@ -84,6 +84,12 @@
         "la pelota",
         "el gimnasio"
       ],
+      "audioFiles": {
+        "el gimnasio": "/audio/es/gimnasio-9ce60335.mp3",
+        "el equipo": "/audio/es/equipo-e2d8c280.mp3",
+        "la raqueta": "/audio/es/raqueta-6aedea6b.mp3",
+        "la pelota": "/audio/es/pelota-1ae3bfd4.mp3"
+      },
       "answer": "el gimnasio",
       "translation": "the gym",
       "note": "Masculine: el gimnasio."
@@ -99,6 +105,12 @@
         "el gimnasio",
         "la cancha"
       ],
+      "audioFiles": {
+        "la cancha": "/audio/es/cancha-a6f6f018.mp3",
+        "el marcador": "/audio/es/marcador-31631298.mp3",
+        "el gimnasio": "/audio/es/gimnasio-9ce60335.mp3",
+        "el equipo": "/audio/es/equipo-e2d8c280.mp3"
+      },
       "audio": {
         "text": "cancha",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el descanso",
         "el equipo"
       ],
+      "audioFiles": {
+        "el equipo": "/audio/es/equipo-e2d8c280.mp3",
+        "el descanso": "/audio/es/descanso-b28a200d.mp3",
+        "la entrada": "/audio/es/entrada-a5ffaee3.mp3",
+        "el marcador": "/audio/es/marcador-31631298.mp3"
+      },
       "answer": "el equipo",
       "translation": "the team",
       "note": "Masculine: el equipo."
@@ -181,6 +199,12 @@
         "el equipo",
         "la raqueta"
       ],
+      "audioFiles": {
+        "la raqueta": "/audio/es/raqueta-6aedea6b.mp3",
+        "el equipo": "/audio/es/equipo-e2d8c280.mp3",
+        "la pelota": "/audio/es/pelota-1ae3bfd4.mp3",
+        "el juego": "/audio/es/juego-d8eb04e9.mp3"
+      },
       "answer": "la raqueta",
       "translation": "the racket",
       "note": "Feminine: la raqueta."

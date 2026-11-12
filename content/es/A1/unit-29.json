@@ -84,6 +84,12 @@
         "el cliente",
         "el vendedor"
       ],
+      "audioFiles": {
+        "el vendedor": "/audio/es/vendedor-ee6cd436.mp3",
+        "el cliente": "/audio/es/cliente-128bbf68.mp3",
+        "la bandeja": "/audio/es/bandeja-49581cd3.mp3",
+        "el carrito": "/audio/es/carrito-a123ff58.mp3"
+      },
       "answer": "el vendedor",
       "translation": "the seller",
       "note": "Masculine: el vendedor. The feminine is la vendedora."
@@ -99,6 +105,12 @@
         "el ticket",
         "el almacén"
       ],
+      "audioFiles": {
+        "el cliente": "/audio/es/cliente-128bbf68.mp3",
+        "el almacén": "/audio/es/almacen-198377b0.mp3",
+        "el ticket": "/audio/es/ticket-2b920d10.mp3",
+        "el vendedor": "/audio/es/vendedor-ee6cd436.mp3"
+      },
       "audio": {
         "text": "cliente",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el almacén",
         "la bandeja"
       ],
+      "audioFiles": {
+        "la bandeja": "/audio/es/bandeja-49581cd3.mp3",
+        "la etiqueta": "/audio/es/etiqueta-0addb898.mp3",
+        "la fila": "/audio/es/fila-2c33a348.mp3",
+        "el almacén": "/audio/es/almacen-198377b0.mp3"
+      },
       "answer": "la bandeja",
       "translation": "the tray",
       "note": "Feminine: la bandeja."
@@ -181,6 +199,12 @@
         "la bandeja",
         "el toldo"
       ],
+      "audioFiles": {
+        "el carrito": "/audio/es/carrito-a123ff58.mp3",
+        "el cliente": "/audio/es/cliente-128bbf68.mp3",
+        "la bandeja": "/audio/es/bandeja-49581cd3.mp3",
+        "el toldo": "/audio/es/toldo-81f9a2b0.mp3"
+      },
       "answer": "el carrito",
       "translation": "the trolley",
       "note": "Masculine: el carrito. It is the small -ito that makes it small."

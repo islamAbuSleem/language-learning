@@ -88,6 +88,12 @@
         "azul",
         "rojo"
       ],
+      "audioFiles": {
+        "rojo": "/audio/es/rojo-a37eb46c.mp3",
+        "azul": "/audio/es/azul-48019888.mp3",
+        "verde": "/audio/es/verde-27251e6c.mp3",
+        "negro": "/audio/es/negro-54169904.mp3"
+      },
       "answer": "rojo",
       "translation": "red",
       "note": "It changes to roja before a feminine noun: la camisa roja."
@@ -103,6 +109,12 @@
         "verde",
         "azul"
       ],
+      "audioFiles": {
+        "azul": "/audio/es/azul-48019888.mp3",
+        "rojo": "/audio/es/rojo-a37eb46c.mp3",
+        "verde": "/audio/es/verde-27251e6c.mp3",
+        "negro": "/audio/es/negro-54169904.mp3"
+      },
       "audio": {
         "text": "azul",
         "lang": "es",
@@ -160,6 +172,12 @@
         "negro",
         "rojo"
       ],
+      "audioFiles": {
+        "verde": "/audio/es/verde-27251e6c.mp3",
+        "rojo": "/audio/es/rojo-a37eb46c.mp3",
+        "azul": "/audio/es/azul-48019888.mp3",
+        "negro": "/audio/es/negro-54169904.mp3"
+      },
       "answer": "verde",
       "translation": "green",
       "note": "It never changes: el coche verde."

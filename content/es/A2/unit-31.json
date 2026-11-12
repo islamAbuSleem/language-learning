@@ -90,6 +90,12 @@
         "la esquina",
         "el jefe"
       ],
+      "audioFiles": {
+        "el carácter": "/audio/es/caracter-faaaee16.mp3",
+        "la esquina": "/audio/es/esquina-0d9ff104.mp3",
+        "el vecino": "/audio/es/vecino-9225c174.mp3",
+        "el jefe": "/audio/es/jefe-c760c897.mp3"
+      },
       "answer": "el carácter",
       "translation": "the character",
       "note": "Masculine: el carácter. How a person is made, with the good and the bad."
@@ -105,6 +111,12 @@
         "la personalidad",
         "tímido"
       ],
+      "audioFiles": {
+        "la personalidad": "/audio/es/personalidad-49a0c838.mp3",
+        "la actitud": "/audio/es/actitud-eeac95fc.mp3",
+        "valiente": "/audio/es/valiente-e680af34.mp3",
+        "tímido": "/audio/es/timido-5ef12b44.mp3"
+      },
       "audio": {
         "text": "personalidad",
         "lang": "es",
@@ -162,6 +174,12 @@
         "el banco",
         "la actitud"
       ],
+      "audioFiles": {
+        "la actitud": "/audio/es/actitud-eeac95fc.mp3",
+        "el banco": "/audio/es/banco-aac39730.mp3",
+        "la cuenta": "/audio/es/cuenta-1b88194c.mp3",
+        "el ahorro": "/audio/es/ahorro-4681bcf0.mp3"
+      },
       "answer": "la actitud",
       "translation": "the attitude",
       "note": "Feminine: la actitud. How somebody behaves towards you."

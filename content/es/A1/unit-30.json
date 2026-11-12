@@ -84,6 +84,12 @@
         "la sombra",
         "el columpio"
       ],
+      "audioFiles": {
+        "el columpio": "/audio/es/columpio-8558d924.mp3",
+        "la sombra": "/audio/es/sombra-5abeb238.mp3",
+        "el sendero": "/audio/es/sendero-8ebabb94.mp3",
+        "la hoja": "/audio/es/hoja-479fba77.mp3"
+      },
       "answer": "el columpio",
       "translation": "the swing",
       "note": "Masculine: el columpio. The plural is los columpios."
@@ -99,6 +105,12 @@
         "el sendero",
         "la sombra"
       ],
+      "audioFiles": {
+        "el tobogán": "/audio/es/tobogan-0d143eb6.mp3",
+        "la sombra": "/audio/es/sombra-5abeb238.mp3",
+        "el sendero": "/audio/es/sendero-8ebabb94.mp3",
+        "la hoja": "/audio/es/hoja-479fba77.mp3"
+      },
       "audio": {
         "text": "tobogán",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la hormiga",
         "el paseo"
       ],
+      "audioFiles": {
+        "el paseo": "/audio/es/paseo-bb38740c.mp3",
+        "la brisa": "/audio/es/brisa-2c8cab3b.mp3",
+        "la mariposa": "/audio/es/mariposa-2ce36398.mp3",
+        "la hormiga": "/audio/es/hormiga-d2dbd06f.mp3"
+      },
       "answer": "el paseo",
       "translation": "the walk",
       "note": "Masculine: el paseo."
@@ -181,6 +199,12 @@
         "el columpio",
         "la brisa"
       ],
+      "audioFiles": {
+        "la brisa": "/audio/es/brisa-2c8cab3b.mp3",
+        "el sendero": "/audio/es/sendero-8ebabb94.mp3",
+        "la hoja": "/audio/es/hoja-479fba77.mp3",
+        "el columpio": "/audio/es/columpio-8558d924.mp3"
+      },
       "answer": "la brisa",
       "translation": "the breeze",
       "note": "Feminine: la brisa."

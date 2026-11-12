@@ -84,6 +84,12 @@
         "la escasez",
         "el medio ambiente"
       ],
+      "audioFiles": {
+        "el medio ambiente": "/audio/es/medio-ambiente-dd7aa9b4.mp3",
+        "el reciclaje": "/audio/es/reciclaje-15a736b8.mp3",
+        "la escasez": "/audio/es/escasez-bd72344a.mp3",
+        "sostenible": "/audio/es/sostenible-efd6a777.mp3"
+      },
       "answer": "el medio ambiente",
       "translation": "the environment",
       "note": "Masculine: el medio ambiente."
@@ -99,6 +105,12 @@
         "la contaminación",
         "el medio ambiente"
       ],
+      "audioFiles": {
+        "la contaminación": "/audio/es/contaminacion-1d464130.mp3",
+        "el medio ambiente": "/audio/es/medio-ambiente-dd7aa9b4.mp3",
+        "la emisiones": "/audio/es/emisiones-0d66ee45.mp3",
+        "el ecosistema": "/audio/es/ecosistema-c0cfe010.mp3"
+      },
       "audio": {
         "text": "contaminación",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el calentamiento global",
         "la emisiones"
       ],
+      "audioFiles": {
+        "la emisiones": "/audio/es/emisiones-0d66ee45.mp3",
+        "el ecosistema": "/audio/es/ecosistema-c0cfe010.mp3",
+        "la deforestación": "/audio/es/deforestacion-f0f5dee2.mp3",
+        "el calentamiento global": "/audio/es/calentamiento-global-43a72218.mp3"
+      },
       "answer": "la emisiones",
       "translation": "emissions",
       "note": "Feminine plural: las emisiones."

@@ -88,6 +88,12 @@
         "el abuelo",
         "el padre"
       ],
+      "audioFiles": {
+        "el padre": "/audio/es/padre-be5e0020.mp3",
+        "la hermana": "/audio/es/hermana-48044a30.mp3",
+        "el abuelo": "/audio/es/abuelo-55e683bc.mp3",
+        "la abuela": "/audio/es/abuela-47e66db4.mp3"
+      },
       "answer": "el padre",
       "translation": "father",
       "note": "Masculine: el padre. It also means a priest, and a relative."
@@ -103,6 +109,12 @@
         "el abuelo",
         "la madre"
       ],
+      "audioFiles": {
+        "la madre": "/audio/es/madre-5aef8a4d.mp3",
+        "la hermana": "/audio/es/hermana-48044a30.mp3",
+        "el abuelo": "/audio/es/abuelo-55e683bc.mp3",
+        "la abuela": "/audio/es/abuela-47e66db4.mp3"
+      },
       "audio": {
         "text": "madre",
         "lang": "es",
@@ -160,6 +172,12 @@
         "el hermano",
         "el hijo"
       ],
+      "audioFiles": {
+        "el hijo": "/audio/es/hijo-ad8ef639.mp3",
+        "el hermano": "/audio/es/hermano-4e0453a0.mp3",
+        "la hermana": "/audio/es/hermana-48044a30.mp3",
+        "el abuelo": "/audio/es/abuelo-55e683bc.mp3"
+      },
       "answer": "el hijo",
       "translation": "son",
       "note": "Masculine: el hijo. It is only ever a child."

@@ -102,6 +102,12 @@
         "ninguno",
         "amable"
       ],
+      "audioFiles": {
+        "amable": "/audio/es/amable-e6098cf8.mp3",
+        "cada": "/audio/es/cada-b2d639bf.mp3",
+        "todo": "/audio/es/todo-e525280c.mp3",
+        "ninguno": "/audio/es/ninguno-de1d63b3.mp3"
+      },
       "answer": "amable",
       "translation": "kind",
       "note": "An adjective of character: es amable."
@@ -117,6 +123,12 @@
         "la chica",
         "generoso"
       ],
+      "audioFiles": {
+        "generoso": "/audio/es/generoso-de7ef0b0.mp3",
+        "el profesor": "/audio/es/profesor-165a51b4.mp3",
+        "el amigo": "/audio/es/amigo-6161db20.mp3",
+        "la chica": "/audio/es/chica-ba936c1c.mp3"
+      },
       "audio": {
         "text": "generoso",
         "lang": "es",
@@ -174,6 +186,12 @@
         "feo",
         "cariñoso"
       ],
+      "audioFiles": {
+        "cariñoso": "/audio/es/carinoso-2509f275.mp3",
+        "bonito": "/audio/es/bonito-4e9d19a9.mp3",
+        "feo": "/audio/es/feo-aa04c7f8.mp3",
+        "el vecino": "/audio/es/vecino-9225c174.mp3"
+      },
       "answer": "cariñoso",
       "translation": "affectionate",
       "note": "An adjective of character: es cariñoso."

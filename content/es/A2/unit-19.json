@@ -90,6 +90,12 @@
         "la ayuda",
         "el síntoma"
       ],
+      "audioFiles": {
+        "el síntoma": "/audio/es/sintoma-db9d30e8.mp3",
+        "el mensaje": "/audio/es/mensaje-06d2bfe7.mp3",
+        "el reloj": "/audio/es/reloj-7ef46448.mp3",
+        "la ayuda": "/audio/es/ayuda-a9695508.mp3"
+      },
       "answer": "el síntoma",
       "translation": "the symptom",
       "note": "Masculine: el síntoma. What the doctor asks you about."
@@ -105,6 +111,12 @@
         "el libro",
         "el diagnóstico"
       ],
+      "audioFiles": {
+        "el diagnóstico": "/audio/es/diagnostico-b845d730.mp3",
+        "el número": "/audio/es/numero-bd413a7c.mp3",
+        "el libro": "/audio/es/libro-3681300c.mp3",
+        "el mensaje": "/audio/es/mensaje-06d2bfe7.mp3"
+      },
       "audio": {
         "text": "diagnóstico",
         "lang": "es",
@@ -162,6 +174,12 @@
         "el tratamiento",
         "la articulación"
       ],
+      "audioFiles": {
+        "la articulación": "/audio/es/articulacion-e7e4f2e2.mp3",
+        "el tratamiento": "/audio/es/tratamiento-b9c8d654.mp3",
+        "el jarabe": "/audio/es/jarabe-af9a94cf.mp3",
+        "la cápsula": "/audio/es/capsula-229978e4.mp3"
+      },
       "answer": "la articulación",
       "translation": "the joint",
       "note": "Feminine: la articulación. Where two bones meet."

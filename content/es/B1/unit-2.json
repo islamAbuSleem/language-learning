@@ -102,6 +102,12 @@
         "amable",
         "bueno"
       ],
+      "audioFiles": {
+        "bueno": "/audio/es/bueno-c09e6855.mp3",
+        "tímido": "/audio/es/timido-5ef12b44.mp3",
+        "generoso": "/audio/es/generoso-de7ef0b0.mp3",
+        "amable": "/audio/es/amable-e6098cf8.mp3"
+      },
       "answer": "bueno",
       "translation": "good",
       "note": "It changes to buena before a feminine noun."
@@ -117,6 +123,12 @@
         "serio",
         "malo"
       ],
+      "audioFiles": {
+        "malo": "/audio/es/malo-ec9db121.mp3",
+        "serio": "/audio/es/serio-afa73c30.mp3",
+        "bonito": "/audio/es/bonito-4e9d19a9.mp3",
+        "feo": "/audio/es/feo-aa04c7f8.mp3"
+      },
       "audio": {
         "text": "malo",
         "lang": "es",
@@ -174,6 +186,12 @@
         "amable",
         "grande"
       ],
+      "audioFiles": {
+        "grande": "/audio/es/grande-cf30b303.mp3",
+        "generoso": "/audio/es/generoso-de7ef0b0.mp3",
+        "amable": "/audio/es/amable-e6098cf8.mp3",
+        "orgulloso": "/audio/es/orgulloso-4c81bdbc.mp3"
+      },
       "answer": "grande",
       "translation": "big",
       "note": "It does not change for a feminine noun."

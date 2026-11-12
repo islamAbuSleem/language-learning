@@ -102,6 +102,12 @@
         "la pregunta",
         "qué"
       ],
+      "audioFiles": {
+        "qué": "/audio/es/que-61e06c48.mp3",
+        "la pregunta": "/audio/es/pregunta-cb621d0c.mp3",
+        "cómo te llamas": "/audio/es/como-te-llamas-d31b1c60.mp3",
+        "cómo estás": "/audio/es/como-estas-aa8602a8.mp3"
+      },
       "answer": "qué",
       "translation": "what",
       "note": "What. It carries an accent in a question."
@@ -117,6 +123,12 @@
         "dónde",
         "quién"
       ],
+      "audioFiles": {
+        "quién": "/audio/es/quien-f2f1fd28.mp3",
+        "qué": "/audio/es/que-61e06c48.mp3",
+        "dónde": "/audio/es/donde-440401dc.mp3",
+        "cuándo": "/audio/es/cuando-2258d058.mp3"
+      },
       "audio": {
         "text": "quién",
         "lang": "es",
@@ -174,6 +186,12 @@
         "por qué",
         "dónde"
       ],
+      "audioFiles": {
+        "dónde": "/audio/es/donde-440401dc.mp3",
+        "quién": "/audio/es/quien-f2f1fd28.mp3",
+        "cuándo": "/audio/es/cuando-2258d058.mp3",
+        "por qué": "/audio/es/por-que-65c11022.mp3"
+      },
       "answer": "dónde",
       "translation": "where",
       "note": "Where. It carries an accent in a question."

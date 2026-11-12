@@ -84,6 +84,12 @@
         "el calamar",
         "el pan"
       ],
+      "audioFiles": {
+        "el pan": "/audio/es/pan-515cadd8.mp3",
+        "la gamba": "/audio/es/gamba-b3a760f5.mp3",
+        "el calamar": "/audio/es/calamar-71e28678.mp3",
+        "la hamburguesa": "/audio/es/hamburguesa-15471fb4.mp3"
+      },
       "answer": "el pan",
       "translation": "the bread",
       "note": "Masculine: el pan."
@@ -99,6 +105,12 @@
         "la propina",
         "el queso"
       ],
+      "audioFiles": {
+        "el queso": "/audio/es/queso-eed521e8.mp3",
+        "la propina": "/audio/es/propina-42bf0248.mp3",
+        "encargar": "/audio/es/encargar-fc9dadf8.mp3",
+        "la ensalada": "/audio/es/ensalada-dbb8a84f.mp3"
+      },
       "audio": {
         "text": "queso",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el cerdo",
         "la mantequilla"
       ],
+      "audioFiles": {
+        "la mantequilla": "/audio/es/mantequilla-7432674c.mp3",
+        "el cerdo": "/audio/es/cerdo-ee427b10.mp3",
+        "el pescado": "/audio/es/pescado-15594488.mp3",
+        "el salmón": "/audio/es/salmon-372c9c68.mp3"
+      },
       "answer": "la mantequilla",
       "translation": "the butter",
       "note": "Feminine: la mantequilla."
@@ -181,6 +199,12 @@
         "la espinaca",
         "la miel"
       ],
+      "audioFiles": {
+        "la miel": "/audio/es/miel-8378ac74.mp3",
+        "la espinaca": "/audio/es/espinaca-b0e2fc7c.mp3",
+        "la carne": "/audio/es/carne-a38e3ee0.mp3",
+        "el pollo": "/audio/es/pollo-26401664.mp3"
+      },
       "answer": "la miel",
       "translation": "the honey",
       "note": "Feminine: la miel."

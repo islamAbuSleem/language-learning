@@ -84,6 +84,12 @@
         "el sótano",
         "la sala"
       ],
+      "audioFiles": {
+        "la sala": "/audio/es/sala-d9086d17.mp3",
+        "el sótano": "/audio/es/sotano-557bc88c.mp3",
+        "el desván": "/audio/es/desvan-e8427c90.mp3",
+        "la azotea": "/audio/es/azotea-55c1b92f.mp3"
+      },
       "answer": "la sala",
       "translation": "the living room",
       "note": "Feminine: la sala."
@@ -99,6 +105,12 @@
         "la cama",
         "el salón"
       ],
+      "audioFiles": {
+        "el salón": "/audio/es/salon-00327b38.mp3",
+        "el dormitorio": "/audio/es/dormitorio-48457bcd.mp3",
+        "el jardín": "/audio/es/jardin-da503480.mp3",
+        "la cama": "/audio/es/cama-bbe7910b.mp3"
+      },
       "audio": {
         "text": "salón",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el cuarto",
         "el recibidor"
       ],
+      "audioFiles": {
+        "el recibidor": "/audio/es/recibidor-e1802c90.mp3",
+        "el pasillo": "/audio/es/pasillo-21ff1be1.mp3",
+        "la cocina": "/audio/es/cocina-5290ad6c.mp3",
+        "el cuarto": "/audio/es/cuarto-ef32843c.mp3"
+      },
       "answer": "el recibidor",
       "translation": "the hall",
       "note": "Masculine: el recibidor. It is the first room when you come in."
@@ -181,6 +199,12 @@
         "la cocina",
         "el sótano"
       ],
+      "audioFiles": {
+        "el sótano": "/audio/es/sotano-557bc88c.mp3",
+        "la cocina": "/audio/es/cocina-5290ad6c.mp3",
+        "el cuarto": "/audio/es/cuarto-ef32843c.mp3",
+        "el baño": "/audio/es/bano-a5a67c5f.mp3"
+      },
       "answer": "el sótano",
       "translation": "the cellar",
       "note": "Masculine: el sótano. The accent marks the stress."

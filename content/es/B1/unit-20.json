@@ -102,6 +102,12 @@
         "el itinerario",
         "el conductor"
       ],
+      "audioFiles": {
+        "el itinerario": "/audio/es/itinerario-11bd9854.mp3",
+        "el conductor": "/audio/es/conductor-fb23afdc.mp3",
+        "el andén": "/audio/es/anden-33358407.mp3",
+        "el viaje": "/audio/es/viaje-7eb8efc4.mp3"
+      },
       "answer": "el itinerario",
       "translation": "the itinerary",
       "note": "Masculine: el itinerario."
@@ -117,6 +123,12 @@
         "el viaje",
         "el alojamiento"
       ],
+      "audioFiles": {
+        "el alojamiento": "/audio/es/alojamiento-4911e8d0.mp3",
+        "el conductor": "/audio/es/conductor-fb23afdc.mp3",
+        "el andén": "/audio/es/anden-33358407.mp3",
+        "el viaje": "/audio/es/viaje-7eb8efc4.mp3"
+      },
       "audio": {
         "text": "alojamiento",
         "lang": "es",
@@ -174,6 +186,12 @@
         "ducharse",
         "reservar"
       ],
+      "audioFiles": {
+        "reservar": "/audio/es/reservar-319948e8.mp3",
+        "entrar": "/audio/es/entrar-f3971f50.mp3",
+        "salir": "/audio/es/salir-1d2f3478.mp3",
+        "ducharse": "/audio/es/ducharse-7a2dc9ac.mp3"
+      },
       "answer": "reservar",
       "translation": "to book",
       "note": "The verb reservar: reservo, reservas, reserva."

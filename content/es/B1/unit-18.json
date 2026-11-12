@@ -102,6 +102,12 @@
         "el olfato",
         "la vista"
       ],
+      "audioFiles": {
+        "la vista": "/audio/es/vista-ebe16f48.mp3",
+        "el olfato": "/audio/es/olfato-74112fac.mp3",
+        "el gusto": "/audio/es/gusto-e9228cb4.mp3",
+        "el tacto": "/audio/es/tacto-c3cc597c.mp3"
+      },
       "answer": "la vista",
       "translation": "the sight",
       "note": "Feminine: la vista."
@@ -117,6 +123,12 @@
         "la fragancia",
         "el oído"
       ],
+      "audioFiles": {
+        "el oído": "/audio/es/oido-36322644.mp3",
+        "la fragancia": "/audio/es/fragancia-85bc869c.mp3",
+        "ciego": "/audio/es/ciego-9b25b308.mp3",
+        "el cuerpo": "/audio/es/cuerpo-309191dc.mp3"
+      },
       "audio": {
         "text": "oído",
         "lang": "es",
@@ -174,6 +186,12 @@
         "ciego",
         "el olfato"
       ],
+      "audioFiles": {
+        "el olfato": "/audio/es/olfato-74112fac.mp3",
+        "ciego": "/audio/es/ciego-9b25b308.mp3",
+        "el cuerpo": "/audio/es/cuerpo-309191dc.mp3",
+        "el brazo": "/audio/es/brazo-9e655ac5.mp3"
+      },
       "answer": "el olfato",
       "translation": "the sense of smell",
       "note": "Masculine: el olfato."

@@ -15,6 +15,7 @@ export function toClientExercise(exercise: Exercise): ClientExercise {
         type: "select",
         prompt: exercise.prompt,
         options: exercise.options,
+        audioFiles: exercise.audioFiles,
       }
     case "listen":
       return {
@@ -22,6 +23,7 @@ export function toClientExercise(exercise: Exercise): ClientExercise {
         type: "listen",
         prompt: exercise.prompt,
         options: exercise.options,
+        audioFiles: exercise.audioFiles,
         audio: exercise.audio,
       }
     case "match":

@@ -102,6 +102,12 @@
         "venir",
         "ducharse"
       ],
+      "audioFiles": {
+        "ducharse": "/audio/es/ducharse-7a2dc9ac.mp3",
+        "venir": "/audio/es/venir-a5ae0388.mp3",
+        "volver": "/audio/es/volver-b9093006.mp3",
+        "salir": "/audio/es/salir-1d2f3478.mp3"
+      },
       "answer": "ducharse",
       "translation": "to shower",
       "note": "A reflexive verb: me ducho, te duchas, se ducha."
@@ -117,6 +123,12 @@
         "gastar",
         "vestirse"
       ],
+      "audioFiles": {
+        "vestirse": "/audio/es/vestirse-e5fd5028.mp3",
+        "ahorrar": "/audio/es/ahorrar-7e2e45f8.mp3",
+        "gastar": "/audio/es/gastar-39adca28.mp3",
+        "reparar": "/audio/es/reparar-e78b7fe8.mp3"
+      },
       "audio": {
         "text": "vestirse",
         "lang": "es",
@@ -174,6 +186,12 @@
         "servir",
         "acostarse"
       ],
+      "audioFiles": {
+        "acostarse": "/audio/es/acostarse-cd0674d8.mp3",
+        "descubrir": "/audio/es/descubrir-1165abde.mp3",
+        "pedir": "/audio/es/pedir-d51c3be8.mp3",
+        "servir": "/audio/es/servir-90a765a0.mp3"
+      },
       "answer": "acostarse",
       "translation": "to go to bed",
       "note": "A reflexive verb: me acuesto, te acuestas, se acuesta."

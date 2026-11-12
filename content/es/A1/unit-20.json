@@ -84,6 +84,12 @@
         "el árbol",
         "el guante"
       ],
+      "audioFiles": {
+        "el árbol": "/audio/es/arbol-cd39b660.mp3",
+        "el guante": "/audio/es/guante-338f3ab7.mp3",
+        "la tijera": "/audio/es/tijera-dd99f5f4.mp3",
+        "el huerto": "/audio/es/huerto-6d780d04.mp3"
+      },
       "answer": "el árbol",
       "translation": "the tree",
       "note": "Masculine: el árbol. The plural is los árboles."
@@ -99,6 +105,12 @@
         "el huerto",
         "la flor"
       ],
+      "audioFiles": {
+        "la flor": "/audio/es/flor-5d8f9c0e.mp3",
+        "el guante": "/audio/es/guante-338f3ab7.mp3",
+        "la tijera": "/audio/es/tijera-dd99f5f4.mp3",
+        "el huerto": "/audio/es/huerto-6d780d04.mp3"
+      },
       "audio": {
         "text": "flor",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la semilla",
         "el arbusto"
       ],
+      "audioFiles": {
+        "el arbusto": "/audio/es/arbusto-7c0b8528.mp3",
+        "la hierba": "/audio/es/hierba-93186858.mp3",
+        "la tierra": "/audio/es/tierra-12d2e4bc.mp3",
+        "la semilla": "/audio/es/semilla-89f902eb.mp3"
+      },
       "answer": "el arbusto",
       "translation": "the bush",
       "note": "Masculine: el arbusto."
@@ -181,6 +199,12 @@
         "el huerto",
         "la hierba"
       ],
+      "audioFiles": {
+        "la hierba": "/audio/es/hierba-93186858.mp3",
+        "la tijera": "/audio/es/tijera-dd99f5f4.mp3",
+        "el huerto": "/audio/es/huerto-6d780d04.mp3",
+        "el árbol": "/audio/es/arbol-cd39b660.mp3"
+      },
       "answer": "la hierba",
       "translation": "the grass",
       "note": "Feminine: la hierba."

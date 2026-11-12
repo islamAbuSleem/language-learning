@@ -98,6 +98,12 @@
         "deber",
         "hable"
       ],
+      "audioFiles": {
+        "hable": "/audio/es/hable-f00e2ef0.mp3",
+        "poder": "/audio/es/poder-a9404618.mp3",
+        "deber": "/audio/es/deber-7d03d380.mp3",
+        "hay": "/audio/es/hay-f7c5db68.mp3"
+      },
       "answer": "hable",
       "translation": "speak",
       "note": "The subjunctive of hablar. It is the opposite of the yo form."
@@ -113,6 +119,12 @@
         "levantarse",
         "acabar"
       ],
+      "audioFiles": {
+        "coma": "/audio/es/coma-9e49e873.mp3",
+        "levantarse": "/audio/es/levantarse-96ee0400.mp3",
+        "relajarse": "/audio/es/relajarse-3e23b390.mp3",
+        "acabar": "/audio/es/acabar-a023f552.mp3"
+      },
       "audio": {
         "text": "coma",
         "lang": "es",
@@ -170,6 +182,12 @@
         "trabajar",
         "viva"
       ],
+      "audioFiles": {
+        "viva": "/audio/es/viva-215c5514.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3",
+        "estudiar": "/audio/es/estudiar-5adaac6a.mp3",
+        "caminar": "/audio/es/caminar-0d95c438.mp3"
+      },
       "answer": "viva",
       "translation": "live",
       "note": "The subjunctive of vivir. It is the opposite of the yo form."

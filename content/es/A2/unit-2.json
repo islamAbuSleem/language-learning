@@ -102,6 +102,12 @@
         "perder",
         "escribir"
       ],
+      "audioFiles": {
+        "escribir": "/audio/es/escribir-1143e908.mp3",
+        "vender": "/audio/es/vender-140df860.mp3",
+        "correr": "/audio/es/correr-4ddb0678.mp3",
+        "perder": "/audio/es/perder-149f95f0.mp3"
+      },
       "answer": "escribir",
       "translation": "to write",
       "note": "An infinitive ending in -ir: escribo, escribes, escribe."
@@ -117,6 +123,12 @@
         "escribir",
         "recibir"
       ],
+      "audioFiles": {
+        "recibir": "/audio/es/recibir-1d158f76.mp3",
+        "escribir": "/audio/es/escribir-1143e908.mp3",
+        "abrir": "/audio/es/abrir-b9660250.mp3",
+        "compartir": "/audio/es/compartir-45ea3e18.mp3"
+      },
       "audio": {
         "text": "recibir",
         "lang": "es",
@@ -174,6 +186,12 @@
         "beber",
         "abrir"
       ],
+      "audioFiles": {
+        "abrir": "/audio/es/abrir-b9660250.mp3",
+        "comer": "/audio/es/comer-4762ecb8.mp3",
+        "beber": "/audio/es/beber-57f14092.mp3",
+        "aprender": "/audio/es/aprender-f27f949a.mp3"
+      },
       "answer": "abrir",
       "translation": "to open",
       "note": "An infinitive ending in -ir: abro, abres, abre."

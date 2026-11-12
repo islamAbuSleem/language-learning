@@ -84,6 +84,12 @@
         "contar",
         "el relato"
       ],
+      "audioFiles": {
+        "el relato": "/audio/es/relato-63c47e00.mp3",
+        "contar": "/audio/es/contar-664b5b58.mp3",
+        "la trama": "/audio/es/trama-387870a4.mp3",
+        "el personaje": "/audio/es/personaje-92b61524.mp3"
+      },
       "answer": "el relato",
       "translation": "the story",
       "note": "Masculine: el relato."
@@ -99,6 +105,12 @@
         "el héroe",
         "la trama"
       ],
+      "audioFiles": {
+        "la trama": "/audio/es/trama-387870a4.mp3",
+        "el narrador": "/audio/es/narrador-43644680.mp3",
+        "el héroe": "/audio/es/heroe-0365a17c.mp3",
+        "el villano": "/audio/es/villano-2a73cbb4.mp3"
+      },
       "audio": {
         "text": "trama",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el desenlace",
         "el personaje"
       ],
+      "audioFiles": {
+        "el personaje": "/audio/es/personaje-92b61524.mp3",
+        "el desenlace": "/audio/es/desenlace-72cb3b30.mp3",
+        "el narrador": "/audio/es/narrador-43644680.mp3",
+        "el héroe": "/audio/es/heroe-0365a17c.mp3"
+      },
       "answer": "el personaje",
       "translation": "the character",
       "note": "Masculine: el personaje."

@@ -94,6 +94,12 @@
         "donde",
         "que"
       ],
+      "audioFiles": {
+        "que": "/audio/es/que-ede148a8.mp3",
+        "quien": "/audio/es/quien-f44d46bc.mp3",
+        "donde": "/audio/es/donde-01b99d18.mp3",
+        "cuyo": "/audio/es/cuyo-bebe6d8d.mp3"
+      },
       "answer": "que",
       "translation": "that",
       "note": "The general relative word: la mujer que canta."
@@ -109,6 +115,12 @@
         "donde",
         "quien"
       ],
+      "audioFiles": {
+        "quien": "/audio/es/quien-f44d46bc.mp3",
+        "donde": "/audio/es/donde-01b99d18.mp3",
+        "cuyo": "/audio/es/cuyo-bebe6d8d.mp3",
+        "que": "/audio/es/que-ede148a8.mp3"
+      },
       "audio": {
         "text": "quien",
         "lang": "es",
@@ -166,6 +178,12 @@
         "cuyo",
         "donde"
       ],
+      "audioFiles": {
+        "donde": "/audio/es/donde-01b99d18.mp3",
+        "cuyo": "/audio/es/cuyo-bebe6d8d.mp3",
+        "que": "/audio/es/que-ede148a8.mp3",
+        "quien": "/audio/es/quien-f44d46bc.mp3"
+      },
       "answer": "donde",
       "translation": "where",
       "note": "For places: la ciudad donde nací."

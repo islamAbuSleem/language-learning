@@ -84,6 +84,12 @@
         "el abogado",
         "el enfermero"
       ],
+      "audioFiles": {
+        "el abogado": "/audio/es/abogado-c17d6734.mp3",
+        "el campesino": "/audio/es/campesino-172ad03c.mp3",
+        "el cocinero": "/audio/es/cocinero-4b9cb3bd.mp3",
+        "el enfermero": "/audio/es/enfermero-1fbcb61c.mp3"
+      },
       "answer": "el abogado",
       "translation": "the lawyer",
       "note": "Masculine: el abogado. The feminine is la abogada."
@@ -99,6 +105,12 @@
         "el diseñador",
         "el programador"
       ],
+      "audioFiles": {
+        "el cocinero": "/audio/es/cocinero-4b9cb3bd.mp3",
+        "el programador": "/audio/es/programador-2e663e8e.mp3",
+        "el diseñador": "/audio/es/disenador-fb0a7fa2.mp3",
+        "el veterinario": "/audio/es/veterinario-be6ec082.mp3"
+      },
       "audio": {
         "text": "cocinero",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el policía",
         "el enfermero"
       ],
+      "audioFiles": {
+        "el enfermero": "/audio/es/enfermero-1fbcb61c.mp3",
+        "el policía": "/audio/es/policia-d713898b.mp3",
+        "el programador": "/audio/es/programador-2e663e8e.mp3",
+        "el diseñador": "/audio/es/disenador-fb0a7fa2.mp3"
+      },
       "answer": "el enfermero",
       "translation": "the nurse",
       "note": "Masculine: el enfermero. The feminine is la enfermera."
@@ -181,6 +199,12 @@
         "el abogado",
         "el periodista"
       ],
+      "audioFiles": {
+        "el periodista": "/audio/es/periodista-f881a930.mp3",
+        "el campesino": "/audio/es/campesino-172ad03c.mp3",
+        "el abogado": "/audio/es/abogado-c17d6734.mp3",
+        "el cocinero": "/audio/es/cocinero-4b9cb3bd.mp3"
+      },
       "answer": "el periodista",
       "translation": "the journalist",
       "note": "Masculine: el periodista."

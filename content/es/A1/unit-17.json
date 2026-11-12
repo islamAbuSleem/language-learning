@@ -84,6 +84,12 @@
         "el armario",
         "el cajón"
       ],
+      "audioFiles": {
+        "el armario": "/audio/es/armario-1f1f4e40.mp3",
+        "el cajón": "/audio/es/cajon-105fcd98.mp3",
+        "la lámpara": "/audio/es/lampara-4e375ab1.mp3",
+        "el póster": "/audio/es/poster-a70ac9b8.mp3"
+      },
       "answer": "el armario",
       "translation": "the wardrobe",
       "note": "Masculine: el armario."
@@ -99,6 +105,12 @@
         "la ventana",
         "la mesita"
       ],
+      "audioFiles": {
+        "la mesita": "/audio/es/mesita-c7282ab8.mp3",
+        "la ventana": "/audio/es/ventana-f6b18054.mp3",
+        "la puerta": "/audio/es/puerta-b8ed0350.mp3",
+        "la cortina": "/audio/es/cortina-e3caeb64.mp3"
+      },
       "audio": {
         "text": "mesita",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la cortina",
         "la colcha"
       ],
+      "audioFiles": {
+        "la colcha": "/audio/es/colcha-67df098c.mp3",
+        "la puerta": "/audio/es/puerta-b8ed0350.mp3",
+        "la cortina": "/audio/es/cortina-e3caeb64.mp3",
+        "el armario": "/audio/es/armario-1f1f4e40.mp3"
+      },
       "answer": "la colcha",
       "translation": "the quilt",
       "note": "Feminine: la colcha."
@@ -181,6 +199,12 @@
         "la colcha",
         "la almohada"
       ],
+      "audioFiles": {
+        "la almohada": "/audio/es/almohada-c8acc958.mp3",
+        "el armario": "/audio/es/armario-1f1f4e40.mp3",
+        "la mesita": "/audio/es/mesita-c7282ab8.mp3",
+        "la colcha": "/audio/es/colcha-67df098c.mp3"
+      },
       "answer": "la almohada",
       "translation": "the pillow",
       "note": "Feminine: la almohada."

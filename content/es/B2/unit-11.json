@@ -85,6 +85,12 @@
         "sucio",
         "abandonado"
       ],
+      "audioFiles": {
+        "abandonado": "/audio/es/abandonado-173f71d0.mp3",
+        "roto": "/audio/es/roto-a196b62c.mp3",
+        "sucio": "/audio/es/sucio-48ac0cf4.mp3",
+        "cerrado": "/audio/es/cerrado-6db452c4.mp3"
+      },
       "answer": "abandonado",
       "translation": "abandoned",
       "note": "The participle of abandonar. It agrees: abandonada."
@@ -100,6 +106,12 @@
         "perdido",
         "herido"
       ],
+      "audioFiles": {
+        "cansado": "/audio/es/cansado-49fcdac9.mp3",
+        "perdido": "/audio/es/perdido-2fd41d00.mp3",
+        "encontrado": "/audio/es/encontrado-dc683f48.mp3",
+        "herido": "/audio/es/herido-dd3eaaa6.mp3"
+      },
       "audio": {
         "text": "cansado",
         "lang": "es",
@@ -157,6 +169,12 @@
         "perdido",
         "aparcado"
       ],
+      "audioFiles": {
+        "aparcado": "/audio/es/aparcado-0b5c6d6c.mp3",
+        "perdido": "/audio/es/perdido-2fd41d00.mp3",
+        "encontrado": "/audio/es/encontrado-dc683f48.mp3",
+        "herido": "/audio/es/herido-dd3eaaa6.mp3"
+      },
       "answer": "aparcado",
       "translation": "parked",
       "note": "The participle of aparcar."

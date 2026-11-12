@@ -84,6 +84,12 @@
         "el efectivo",
         "la tarjeta"
       ],
+      "audioFiles": {
+        "la tarjeta": "/audio/es/tarjeta-9aeb41ef.mp3",
+        "el saldo": "/audio/es/saldo-203787f4.mp3",
+        "el cajero": "/audio/es/cajero-d4318388.mp3",
+        "el efectivo": "/audio/es/efectivo-dbb901b8.mp3"
+      },
       "answer": "la tarjeta",
       "translation": "the card",
       "note": "Feminine: la tarjeta."
@@ -99,6 +105,12 @@
         "el cajero",
         "el efectivo"
       ],
+      "audioFiles": {
+        "el efectivo": "/audio/es/efectivo-dbb901b8.mp3",
+        "el saldo": "/audio/es/saldo-203787f4.mp3",
+        "el cajero": "/audio/es/cajero-d4318388.mp3",
+        "la tarjeta": "/audio/es/tarjeta-9aeb41ef.mp3"
+      },
       "audio": {
         "text": "efectivo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la compra",
         "la moneda"
       ],
+      "audioFiles": {
+        "la moneda": "/audio/es/moneda-30f32f60.mp3",
+        "el presupuesto": "/audio/es/presupuesto-e7c26a11.mp3",
+        "la compra": "/audio/es/compra-c74cae8c.mp3",
+        "la venta": "/audio/es/venta-c58de23c.mp3"
+      },
       "answer": "la moneda",
       "translation": "the coin",
       "note": "Feminine: la moneda."
@@ -181,6 +199,12 @@
         "la tarjeta",
         "el cajero"
       ],
+      "audioFiles": {
+        "el cambio": "/audio/es/cambio-8cf2d460.mp3",
+        "el cajero": "/audio/es/cajero-d4318388.mp3",
+        "la tarjeta": "/audio/es/tarjeta-9aeb41ef.mp3",
+        "el efectivo": "/audio/es/efectivo-dbb901b8.mp3"
+      },
       "answer": "el cambio",
       "translation": "the change",
       "note": "Masculine: el cambio. It is also the exchange rate."

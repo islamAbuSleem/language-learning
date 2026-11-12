@@ -90,6 +90,12 @@
         "la verdura",
         "la carta"
       ],
+      "audioFiles": {
+        "la carta": "/audio/es/carta-8b9d23a4.mp3",
+        "la salsa": "/audio/es/salsa-0a6fbde4.mp3",
+        "la verdura": "/audio/es/verdura-3fc79090.mp3",
+        "la servilleta": "/audio/es/servilleta-ef6ef818.mp3"
+      },
       "answer": "la carta",
       "translation": "the menu",
       "note": "Feminine: la carta. In Spain the list of food is la carta."
@@ -105,6 +111,12 @@
         "la sección",
         "el pedido"
       ],
+      "audioFiles": {
+        "el pedido": "/audio/es/pedido-008b4a44.mp3",
+        "la sección": "/audio/es/seccion-8b7cc460.mp3",
+        "el resumen": "/audio/es/resumen-579b3b2c.mp3",
+        "el reportaje": "/audio/es/reportaje-21aff919.mp3"
+      },
       "audio": {
         "text": "pedido",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la tubería",
         "el entrante"
       ],
+      "audioFiles": {
+        "el entrante": "/audio/es/entrante-232b06ec.mp3",
+        "la tubería": "/audio/es/tuberia-debe9c82.mp3",
+        "la avería": "/audio/es/averia-c1f36870.mp3",
+        "el techo": "/audio/es/techo-68a53784.mp3"
+      },
       "answer": "el entrante",
       "translation": "the starter",
       "note": "Masculine: el entrante. The first small dish of the meal."

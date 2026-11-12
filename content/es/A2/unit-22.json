@@ -90,6 +90,12 @@
         "el músculo",
         "el paquete"
       ],
+      "audioFiles": {
+        "el paquete": "/audio/es/paquete-6ca6d864.mp3",
+        "el diagnóstico": "/audio/es/diagnostico-b845d730.mp3",
+        "la articulación": "/audio/es/articulacion-e7e4f2e2.mp3",
+        "el músculo": "/audio/es/musculo-dacf55b9.mp3"
+      },
       "answer": "el paquete",
       "translation": "the parcel",
       "note": "Masculine: el paquete. A box or packet you send to somebody."
@@ -105,6 +111,12 @@
         "el recibo",
         "el formulario"
       ],
+      "audioFiles": {
+        "el envío": "/audio/es/envio-05921c08.mp3",
+        "el formulario": "/audio/es/formulario-a2ebead4.mp3",
+        "el remitente": "/audio/es/remitente-88e3186f.mp3",
+        "el recibo": "/audio/es/recibo-2e1130d8.mp3"
+      },
       "audio": {
         "text": "envío",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la plata",
         "la meta"
       ],
+      "audioFiles": {
+        "el sello": "/audio/es/sello-3e11cf98.mp3",
+        "la meta": "/audio/es/meta-82fe50ec.mp3",
+        "el oro": "/audio/es/oro-c3dd87fc.mp3",
+        "la plata": "/audio/es/plata-fde27418.mp3"
+      },
       "answer": "el sello",
       "translation": "the stamp",
       "note": "Masculine: el sello. The small piece of paper you stick on the envelope."

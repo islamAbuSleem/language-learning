@@ -84,6 +84,12 @@
         "había vivido",
         "tener que"
       ],
+      "audioFiles": {
+        "tener que": "/audio/es/tener-que-31855634.mp3",
+        "había hablado": "/audio/es/habia-hablado-8f6ead61.mp3",
+        "había comido": "/audio/es/habia-comido-b9d3a7a0.mp3",
+        "había vivido": "/audio/es/habia-vivido-17f6f128.mp3"
+      },
       "answer": "tener que",
       "translation": "to have to",
       "note": "Obligation from outside. Tengo que trabajar."
@@ -99,6 +105,12 @@
         "perder",
         "haber que"
       ],
+      "audioFiles": {
+        "haber que": "/audio/es/haber-que-373b1830.mp3",
+        "vender": "/audio/es/vender-140df860.mp3",
+        "correr": "/audio/es/correr-4ddb0678.mp3",
+        "perder": "/audio/es/perder-149f95f0.mp3"
+      },
       "audio": {
         "text": "haber que",
         "lang": "es",
@@ -156,6 +168,12 @@
         "cortar",
         "deber"
       ],
+      "audioFiles": {
+        "deber": "/audio/es/deber-7d03d380.mp3",
+        "cortar": "/audio/es/cortar-bdca51f8.mp3",
+        "nadar": "/audio/es/nadar-8b093997.mp3",
+        "pescar": "/audio/es/pescar-b1bcc646.mp3"
+      },
       "answer": "deber",
       "translation": "to have to",
       "note": "What you ought to do. Debo llamar."

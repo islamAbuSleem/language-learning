@@ -102,6 +102,12 @@
         "la leche",
         "el café"
       ],
+      "audioFiles": {
+        "el café": "/audio/es/cafe-30d0efeb.mp3",
+        "el té": "/audio/es/te-c3448037.mp3",
+        "el agua": "/audio/es/agua-879ea477.mp3",
+        "la leche": "/audio/es/leche-e2781b4f.mp3"
+      },
       "answer": "el café",
       "translation": "coffee",
       "note": "Masculine: el café. The plural is los cafés."
@@ -117,6 +123,12 @@
         "el café",
         "el té"
       ],
+      "audioFiles": {
+        "el agua": "/audio/es/agua-879ea477.mp3",
+        "el té": "/audio/es/te-c3448037.mp3",
+        "el café": "/audio/es/cafe-30d0efeb.mp3",
+        "la leche": "/audio/es/leche-e2781b4f.mp3"
+      },
       "audio": {
         "text": "agua",
         "lang": "es",
@@ -174,6 +186,12 @@
         "el agua",
         "la leche"
       ],
+      "audioFiles": {
+        "la leche": "/audio/es/leche-e2781b4f.mp3",
+        "el agua": "/audio/es/agua-879ea477.mp3",
+        "el té": "/audio/es/te-c3448037.mp3",
+        "el café": "/audio/es/cafe-30d0efeb.mp3"
+      },
       "answer": "la leche",
       "translation": "milk",
       "note": "Feminine: la leche."

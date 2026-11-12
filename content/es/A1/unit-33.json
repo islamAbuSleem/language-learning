@@ -84,6 +84,12 @@
         "el papel",
         "el escritorio"
       ],
+      "audioFiles": {
+        "el escritorio": "/audio/es/escritorio-1126e431.mp3",
+        "el teclado": "/audio/es/teclado-dbd80648.mp3",
+        "la carpeta": "/audio/es/carpeta-a608bbfc.mp3",
+        "el papel": "/audio/es/papel-fdac5c5c.mp3"
+      },
       "answer": "el escritorio",
       "translation": "the desk",
       "note": "Masculine: el escritorio."
@@ -99,6 +105,12 @@
         "la impresora",
         "la carpeta"
       ],
+      "audioFiles": {
+        "la carpeta": "/audio/es/carpeta-a608bbfc.mp3",
+        "la impresora": "/audio/es/impresora-1dd1932c.mp3",
+        "el mostrador": "/audio/es/mostrador-70ed5a3d.mp3",
+        "el teclado": "/audio/es/teclado-dbd80648.mp3"
+      },
       "audio": {
         "text": "carpeta",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el archivo",
         "el papel"
       ],
+      "audioFiles": {
+        "el papel": "/audio/es/papel-fdac5c5c.mp3",
+        "la agenda": "/audio/es/agenda-b348e13c.mp3",
+        "el archivo": "/audio/es/archivo-52aa16a8.mp3",
+        "la impresora": "/audio/es/impresora-1dd1932c.mp3"
+      },
       "answer": "el papel",
       "translation": "the paper",
       "note": "Masculine: el papel."
@@ -181,6 +199,12 @@
         "el escritorio",
         "la grapadora"
       ],
+      "audioFiles": {
+        "la grapadora": "/audio/es/grapadora-875e7e04.mp3",
+        "el escritorio": "/audio/es/escritorio-1126e431.mp3",
+        "la carpeta": "/audio/es/carpeta-a608bbfc.mp3",
+        "el papel": "/audio/es/papel-fdac5c5c.mp3"
+      },
       "answer": "la grapadora",
       "translation": "the stapler",
       "note": "Feminine: la grapadora."

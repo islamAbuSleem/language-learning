@@ -84,6 +84,12 @@
         "guapo",
         "delgado"
       ],
+      "audioFiles": {
+        "alto": "/audio/es/alto-eec9d849.mp3",
+        "delgado": "/audio/es/delgado-af09564d.mp3",
+        "guapo": "/audio/es/guapo-d489cc9c.mp3",
+        "simpático": "/audio/es/simpatico-fcdb4168.mp3"
+      },
       "answer": "alto",
       "translation": "tall",
       "note": "The feminine is alta: es alta."
@@ -99,6 +105,12 @@
         "simpático",
         "delgado"
       ],
+      "audioFiles": {
+        "gordo": "/audio/es/gordo-430ae90c.mp3",
+        "delgado": "/audio/es/delgado-af09564d.mp3",
+        "guapo": "/audio/es/guapo-d489cc9c.mp3",
+        "simpático": "/audio/es/simpatico-fcdb4168.mp3"
+      },
       "audio": {
         "text": "gordo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "delgado",
         "serio"
       ],
+      "audioFiles": {
+        "delgado": "/audio/es/delgado-af09564d.mp3",
+        "serio": "/audio/es/serio-afa73c30.mp3",
+        "bonito": "/audio/es/bonito-4e9d19a9.mp3",
+        "feo": "/audio/es/feo-aa04c7f8.mp3"
+      },
       "answer": "delgado",
       "translation": "thin",
       "note": "The feminine is delgada."
@@ -181,6 +199,12 @@
         "simpático",
         "inteligente"
       ],
+      "audioFiles": {
+        "guapo": "/audio/es/guapo-d489cc9c.mp3",
+        "delgado": "/audio/es/delgado-af09564d.mp3",
+        "simpático": "/audio/es/simpatico-fcdb4168.mp3",
+        "inteligente": "/audio/es/inteligente-3a279185.mp3"
+      },
       "answer": "guapo",
       "translation": "good-looking",
       "note": "The feminine is guapa: mi hermana es guapa."

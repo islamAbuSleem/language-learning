@@ -84,6 +84,12 @@
         "el pollo",
         "la espinaca"
       ],
+      "audioFiles": {
+        "la carne": "/audio/es/carne-a38e3ee0.mp3",
+        "la espinaca": "/audio/es/espinaca-b0e2fc7c.mp3",
+        "el pollo": "/audio/es/pollo-26401664.mp3",
+        "la ternera": "/audio/es/ternera-6b1d80e4.mp3"
+      },
       "answer": "la carne",
       "translation": "the meat",
       "note": "Feminine: la carne."
@@ -99,6 +105,12 @@
         "el brócoli",
         "el pollo"
       ],
+      "audioFiles": {
+        "el pollo": "/audio/es/pollo-26401664.mp3",
+        "el brócoli": "/audio/es/brocoli-458cc968.mp3",
+        "la lechuga": "/audio/es/lechuga-fa559dac.mp3",
+        "la espinaca": "/audio/es/espinaca-b0e2fc7c.mp3"
+      },
       "audio": {
         "text": "pollo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la ternera",
         "el pimiento"
       ],
+      "audioFiles": {
+        "la ternera": "/audio/es/ternera-6b1d80e4.mp3",
+        "el pimiento": "/audio/es/pimiento-535c6e88.mp3",
+        "el guisante": "/audio/es/guisante-04657a90.mp3",
+        "el brócoli": "/audio/es/brocoli-458cc968.mp3"
+      },
       "answer": "la ternera",
       "translation": "the beef",
       "note": "Feminine: la ternera."
@@ -181,6 +199,12 @@
         "la zanahoria",
         "el tomate"
       ],
+      "audioFiles": {
+        "el cerdo": "/audio/es/cerdo-ee427b10.mp3",
+        "el tomate": "/audio/es/tomate-2bb4756b.mp3",
+        "la cebolla": "/audio/es/cebolla-95b9ae24.mp3",
+        "la zanahoria": "/audio/es/zanahoria-555c5bdc.mp3"
+      },
       "answer": "el cerdo",
       "translation": "the pork",
       "note": "Masculine: el cerdo."

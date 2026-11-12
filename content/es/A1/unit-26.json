@@ -84,6 +84,12 @@
         "el té",
         "el zumo"
       ],
+      "audioFiles": {
+        "el zumo": "/audio/es/zumo-aa14b0fc.mp3",
+        "el té": "/audio/es/te-c3448037.mp3",
+        "la cerveza": "/audio/es/cerveza-8cc99058.mp3",
+        "el vino": "/audio/es/vino-2f989544.mp3"
+      },
       "answer": "el zumo",
       "translation": "the juice",
       "note": "Masculine: el zumo."
@@ -99,6 +105,12 @@
         "la leche",
         "la cerveza"
       ],
+      "audioFiles": {
+        "la cerveza": "/audio/es/cerveza-8cc99058.mp3",
+        "el agua": "/audio/es/agua-879ea477.mp3",
+        "la leche": "/audio/es/leche-e2781b4f.mp3",
+        "el té": "/audio/es/te-c3448037.mp3"
+      },
       "audio": {
         "text": "cerveza",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el ponche",
         "el vino"
       ],
+      "audioFiles": {
+        "el vino": "/audio/es/vino-2f989544.mp3",
+        "el ponche": "/audio/es/ponche-42406087.mp3",
+        "el café": "/audio/es/cafe-30d0efeb.mp3",
+        "el agua": "/audio/es/agua-879ea477.mp3"
+      },
       "answer": "el vino",
       "translation": "the wine",
       "note": "Masculine: el vino."
@@ -181,6 +199,12 @@
         "el café",
         "el refresco"
       ],
+      "audioFiles": {
+        "el refresco": "/audio/es/refresco-29c6d3f5.mp3",
+        "el ponche": "/audio/es/ponche-42406087.mp3",
+        "el café": "/audio/es/cafe-30d0efeb.mp3",
+        "el agua": "/audio/es/agua-879ea477.mp3"
+      },
       "answer": "el refresco",
       "translation": "the soft drink",
       "note": "Masculine: el refresco."

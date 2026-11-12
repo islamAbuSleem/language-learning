@@ -102,6 +102,12 @@
         "la chica",
         "la amistad"
       ],
+      "audioFiles": {
+        "la amistad": "/audio/es/amistad-0d2f5f6c.mp3",
+        "el profesor": "/audio/es/profesor-165a51b4.mp3",
+        "el amigo": "/audio/es/amigo-6161db20.mp3",
+        "la chica": "/audio/es/chica-ba936c1c.mp3"
+      },
       "answer": "la amistad",
       "translation": "the friendship",
       "note": "Feminine: la amistad."
@@ -117,6 +123,12 @@
         "las ganas",
         "el sueño"
       ],
+      "audioFiles": {
+        "la confianza": "/audio/es/confianza-a466e8f0.mp3",
+        "el sueño": "/audio/es/sueno-50d28050.mp3",
+        "el miedo": "/audio/es/miedo-11e366c8.mp3",
+        "las ganas": "/audio/es/ganas-33c4c485.mp3"
+      },
       "audio": {
         "text": "confianza",
         "lang": "es",
@@ -174,6 +186,12 @@
         "curioso",
         "paciente"
       ],
+      "audioFiles": {
+        "la compañía": "/audio/es/compania-b61b2e8c.mp3",
+        "paciente": "/audio/es/paciente-93d69748.mp3",
+        "orgulloso": "/audio/es/orgulloso-4c81bdbc.mp3",
+        "curioso": "/audio/es/curioso-5c185560.mp3"
+      },
       "answer": "la compañía",
       "translation": "the company",
       "note": "Feminine: la compañía. It also means a company, a business."

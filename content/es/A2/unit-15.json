@@ -88,6 +88,12 @@
         "podré",
         "hablaba"
       ],
+      "audioFiles": {
+        "hablaba": "/audio/es/hablaba-67c94928.mp3",
+        "haré": "/audio/es/hare-9689e35f.mp3",
+        "podré": "/audio/es/podre-2b735b24.mp3",
+        "vendré": "/audio/es/vendre-9a2f1efc.mp3"
+      },
       "answer": "hablaba",
       "translation": "I spoke",
       "note": "The imperfect of hablar. It describes how things were."
@@ -103,6 +109,12 @@
         "comía",
         "tener"
       ],
+      "audioFiles": {
+        "comía": "/audio/es/comia-47394182.mp3",
+        "tener": "/audio/es/tener-025878e0.mp3",
+        "querer": "/audio/es/querer-16152346.mp3",
+        "poder": "/audio/es/poder-a9404618.mp3"
+      },
       "audio": {
         "text": "comía",
         "lang": "es",
@@ -160,6 +172,12 @@
         "querré",
         "vivía"
       ],
+      "audioFiles": {
+        "vivía": "/audio/es/vivia-0039e15c.mp3",
+        "podré": "/audio/es/podre-2b735b24.mp3",
+        "vendré": "/audio/es/vendre-9a2f1efc.mp3",
+        "querré": "/audio/es/querre-b43dd707.mp3"
+      },
       "answer": "vivía",
       "translation": "I lived",
       "note": "The imperfect of vivir. It describes how things were."

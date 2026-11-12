@@ -88,6 +88,12 @@
         "el viernes",
         "el lunes"
       ],
+      "audioFiles": {
+        "el lunes": "/audio/es/lunes-f3d98578.mp3",
+        "el jueves": "/audio/es/jueves-7f7dbaba.mp3",
+        "el viernes": "/audio/es/viernes-b2606d6c.mp3",
+        "el sábado": "/audio/es/sabado-aa576cb9.mp3"
+      },
       "answer": "el lunes",
       "translation": "Monday",
       "note": "Masculine: el lunes. It is also plural in meaning: los lunes."
@@ -103,6 +109,12 @@
         "el lunes",
         "el jueves"
       ],
+      "audioFiles": {
+        "el martes": "/audio/es/martes-e25aa750.mp3",
+        "el lunes": "/audio/es/lunes-f3d98578.mp3",
+        "el miércoles": "/audio/es/miercoles-b84bb878.mp3",
+        "el jueves": "/audio/es/jueves-7f7dbaba.mp3"
+      },
       "audio": {
         "text": "martes",
         "lang": "es",
@@ -160,6 +172,12 @@
         "el lunes",
         "el miércoles"
       ],
+      "audioFiles": {
+        "el miércoles": "/audio/es/miercoles-b84bb878.mp3",
+        "el lunes": "/audio/es/lunes-f3d98578.mp3",
+        "el martes": "/audio/es/martes-e25aa750.mp3",
+        "el jueves": "/audio/es/jueves-7f7dbaba.mp3"
+      },
       "answer": "el miércoles",
       "translation": "Wednesday",
       "note": "Masculine: el miércoles. The accent marks the stress."

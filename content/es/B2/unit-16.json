@@ -84,6 +84,12 @@
         "la interfaz",
         "el dispositivo"
       ],
+      "audioFiles": {
+        "el dispositivo": "/audio/es/dispositivo-89c61e5c.mp3",
+        "la aplicación": "/audio/es/aplicacion-27a29a51.mp3",
+        "el algoritmo": "/audio/es/algoritmo-be5a6404.mp3",
+        "la interfaz": "/audio/es/interfaz-2f73b8dc.mp3"
+      },
       "answer": "el dispositivo",
       "translation": "the device",
       "note": "Masculine: el dispositivo. It means any piece of hardware."
@@ -99,6 +105,12 @@
         "el algoritmo",
         "la aplicación"
       ],
+      "audioFiles": {
+        "la aplicación": "/audio/es/aplicacion-27a29a51.mp3",
+        "descargar": "/audio/es/descargar-c7b653fc.mp3",
+        "el dispositivo": "/audio/es/dispositivo-89c61e5c.mp3",
+        "el algoritmo": "/audio/es/algoritmo-be5a6404.mp3"
+      },
       "audio": {
         "text": "aplicación",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la innovación",
         "el algoritmo"
       ],
+      "audioFiles": {
+        "el algoritmo": "/audio/es/algoritmo-be5a6404.mp3",
+        "la privacidad": "/audio/es/privacidad-70570c48.mp3",
+        "la innovación": "/audio/es/innovacion-0abcd426.mp3",
+        "la brecha digital": "/audio/es/brecha-digital-35b5ac18.mp3"
+      },
       "answer": "el algoritmo",
       "translation": "the algorithm",
       "note": "Masculine: el algoritmo."

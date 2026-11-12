@@ -98,6 +98,12 @@
         "los euros",
         "el precio"
       ],
+      "audioFiles": {
+        "el precio": "/audio/es/precio-ea2d4519.mp3",
+        "los euros": "/audio/es/euros-57be3934.mp3",
+        "la bolsa": "/audio/es/bolsa-0a01e354.mp3",
+        "pagar": "/audio/es/pagar-92bf5b00.mp3"
+      },
       "answer": "el precio",
       "translation": "price",
       "note": "Masculine: el precio."
@@ -113,6 +119,12 @@
         "pagar",
         "los euros"
       ],
+      "audioFiles": {
+        "pagar": "/audio/es/pagar-92bf5b00.mp3",
+        "los euros": "/audio/es/euros-57be3934.mp3",
+        "la bolsa": "/audio/es/bolsa-0a01e354.mp3",
+        "el precio": "/audio/es/precio-ea2d4519.mp3"
+      },
       "audio": {
         "text": "pagar",
         "lang": "es",
@@ -170,6 +182,12 @@
         "probarse",
         "comprar"
       ],
+      "audioFiles": {
+        "comprar": "/audio/es/comprar-bbb779da.mp3",
+        "barato": "/audio/es/barato-341c3e95.mp3",
+        "la talla": "/audio/es/talla-fa735778.mp3",
+        "probarse": "/audio/es/probarse-8beb3490.mp3"
+      },
       "answer": "comprar",
       "translation": "to buy",
       "note": "An infinitive ending in -ar: compro, compras, compra."

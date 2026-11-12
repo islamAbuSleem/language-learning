@@ -98,6 +98,12 @@
         "ir",
         "gustar"
       ],
+      "audioFiles": {
+        "gustar": "/audio/es/gustar-d5682eea.mp3",
+        "repetir": "/audio/es/repetir-91f2373e.mp3",
+        "decidir": "/audio/es/decidir-ed1a2f04.mp3",
+        "ir": "/audio/es/ir-4d388d82.mp3"
+      },
       "answer": "gustar",
       "translation": "to like",
       "note": "An infinitive. Me gusta, te gusta, le gusta: the thing you like comes first."
@@ -113,6 +119,12 @@
         "trabajar",
         "encantar"
       ],
+      "audioFiles": {
+        "encantar": "/audio/es/encantar-bcbb894e.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3",
+        "estudiar": "/audio/es/estudiar-5adaac6a.mp3"
+      },
       "audio": {
         "text": "encantar",
         "lang": "es",
@@ -170,6 +182,12 @@
         "leer",
         "molestar"
       ],
+      "audioFiles": {
+        "molestar": "/audio/es/molestar-1ac83ef8.mp3",
+        "aprender": "/audio/es/aprender-f27f949a.mp3",
+        "leer": "/audio/es/leer-012c88f0.mp3",
+        "vender": "/audio/es/vender-140df860.mp3"
+      },
       "answer": "molestar",
       "translation": "to bother",
       "note": "It works like gustar: me molesta el ruido."

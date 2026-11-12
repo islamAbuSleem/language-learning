@@ -84,6 +84,12 @@
         "el logro",
         "la comunicación"
       ],
+      "audioFiles": {
+        "la comunicación": "/audio/es/comunicacion-b71e0dca.mp3",
+        "el logro": "/audio/es/logro-d66b801c.mp3",
+        "la reunión": "/audio/es/reunion-e316f33a.mp3",
+        "la conclusión": "/audio/es/conclusion-c97e29d8.mp3"
+      },
       "answer": "la comunicación",
       "translation": "communication",
       "note": "Feminine: la comunicación. From comunicar."
@@ -99,6 +105,12 @@
         "el empleo",
         "la reunión"
       ],
+      "audioFiles": {
+        "la reunión": "/audio/es/reunion-e316f33a.mp3",
+        "el movimiento": "/audio/es/movimiento-2b295b08.mp3",
+        "el empleo": "/audio/es/empleo-7e054698.mp3",
+        "el cambio": "/audio/es/cambio-8cf2d460.mp3"
+      },
       "audio": {
         "text": "reunión",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el acuerdo",
         "la conclusión"
       ],
+      "audioFiles": {
+        "la conclusión": "/audio/es/conclusion-c97e29d8.mp3",
+        "el empleo": "/audio/es/empleo-7e054698.mp3",
+        "el cambio": "/audio/es/cambio-8cf2d460.mp3",
+        "el acuerdo": "/audio/es/acuerdo-29e22828.mp3"
+      },
       "answer": "la conclusión",
       "translation": "conclusion",
       "note": "Feminine: la conclusión. From concluir."

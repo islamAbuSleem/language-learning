@@ -102,6 +102,12 @@
         "encima",
         "el barrio"
       ],
+      "audioFiles": {
+        "el barrio": "/audio/es/barrio-b1e1a5b9.mp3",
+        "allí": "/audio/es/alli-4cb5518b.mp3",
+        "encima": "/audio/es/encima-0575b3bc.mp3",
+        "debajo": "/audio/es/debajo-8ccad5ec.mp3"
+      },
       "answer": "el barrio",
       "translation": "neighbourhood",
       "note": "Masculine: el barrio. It also means a district of a city."
@@ -117,6 +123,12 @@
         "la plaza",
         "el barrio"
       ],
+      "audioFiles": {
+        "la plaza": "/audio/es/plaza-e3f155b4.mp3",
+        "el barrio": "/audio/es/barrio-b1e1a5b9.mp3",
+        "el edificio": "/audio/es/edificio-7bac50bd.mp3",
+        "la avenida": "/audio/es/avenida-26fb26bc.mp3"
+      },
       "audio": {
         "text": "plaza",
         "lang": "es",
@@ -174,6 +186,12 @@
         "encima",
         "el edificio"
       ],
+      "audioFiles": {
+        "el edificio": "/audio/es/edificio-7bac50bd.mp3",
+        "aquí": "/audio/es/aqui-c03815f0.mp3",
+        "allí": "/audio/es/alli-4cb5518b.mp3",
+        "encima": "/audio/es/encima-0575b3bc.mp3"
+      },
       "answer": "el edificio",
       "translation": "building",
       "note": "Masculine: el edificio."

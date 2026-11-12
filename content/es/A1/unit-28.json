@@ -84,6 +84,12 @@
         "la glorieta",
         "la acera"
       ],
+      "audioFiles": {
+        "la acera": "/audio/es/acera-62b161dc.mp3",
+        "el cruce": "/audio/es/cruce-73afecfc.mp3",
+        "la glorieta": "/audio/es/glorieta-793e56d8.mp3",
+        "el buzón": "/audio/es/buzon-d2e2ccb8.mp3"
+      },
       "answer": "la acera",
       "translation": "the pavement",
       "note": "Feminine: la acera. You walk on it, and cars drive on la calzada."
@@ -99,6 +105,12 @@
         "el cruce",
         "la calzada"
       ],
+      "audioFiles": {
+        "la calzada": "/audio/es/calzada-48c646c0.mp3",
+        "el semáforo": "/audio/es/semaforo-c2c74fdc.mp3",
+        "la parada": "/audio/es/parada-5f8f5917.mp3",
+        "el cruce": "/audio/es/cruce-73afecfc.mp3"
+      },
       "audio": {
         "text": "calzada",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la farola",
         "el bordillo"
       ],
+      "audioFiles": {
+        "el bordillo": "/audio/es/bordillo-ea25071d.mp3",
+        "la calzada": "/audio/es/calzada-48c646c0.mp3",
+        "la farola": "/audio/es/farola-4eb95a27.mp3",
+        "el semáforo": "/audio/es/semaforo-c2c74fdc.mp3"
+      },
       "answer": "el bordillo",
       "translation": "the kerb",
       "note": "Masculine: el bordillo."
@@ -181,6 +199,12 @@
         "el buzón",
         "la farola"
       ],
+      "audioFiles": {
+        "la farola": "/audio/es/farola-4eb95a27.mp3",
+        "la glorieta": "/audio/es/glorieta-793e56d8.mp3",
+        "el buzón": "/audio/es/buzon-d2e2ccb8.mp3",
+        "el escaparate": "/audio/es/escaparate-79b98160.mp3"
+      },
       "answer": "la farola",
       "translation": "the street lamp",
       "note": "Feminine: la farola."

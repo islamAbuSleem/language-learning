@@ -98,6 +98,12 @@
         "ser",
         "dijo"
       ],
+      "audioFiles": {
+        "dijo": "/audio/es/dijo-a83b3974.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3"
+      },
       "answer": "dijo",
       "translation": "he said",
       "note": "The preterite of decir. It is irregular."
@@ -113,6 +119,12 @@
         "dice",
         "relajarse"
       ],
+      "audioFiles": {
+        "dice": "/audio/es/dice-8f254bcc.mp3",
+        "relajarse": "/audio/es/relajarse-3e23b390.mp3",
+        "acabar": "/audio/es/acabar-a023f552.mp3",
+        "entregar": "/audio/es/entregar-c98839b8.mp3"
+      },
       "audio": {
         "text": "dice",
         "lang": "es",
@@ -170,6 +182,12 @@
         "perder",
         "preguntó"
       ],
+      "audioFiles": {
+        "preguntó": "/audio/es/pregunto-5d616fe0.mp3",
+        "vender": "/audio/es/vender-140df860.mp3",
+        "correr": "/audio/es/correr-4ddb0678.mp3",
+        "perder": "/audio/es/perder-149f95f0.mp3"
+      },
       "answer": "preguntó",
       "translation": "he asked",
       "note": "The preterite of preguntar."

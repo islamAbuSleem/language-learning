@@ -84,6 +84,12 @@
         "la tradición",
         "la sociedad"
       ],
+      "audioFiles": {
+        "la sociedad": "/audio/es/sociedad-40aae1f5.mp3",
+        "la desigualdad": "/audio/es/desigualdad-8569a9d8.mp3",
+        "la costumbre": "/audio/es/costumbre-eb1de247.mp3",
+        "la tradición": "/audio/es/tradicion-42f87168.mp3"
+      },
       "answer": "la sociedad",
       "translation": "society",
       "note": "Feminine: la sociedad."
@@ -99,6 +105,12 @@
         "la desigualdad",
         "la adaptación"
       ],
+      "audioFiles": {
+        "la población": "/audio/es/poblacion-9aa494da.mp3",
+        "la adaptación": "/audio/es/adaptacion-4d61bf18.mp3",
+        "la inclusión": "/audio/es/inclusion-c2f3cb4e.mp3",
+        "la desigualdad": "/audio/es/desigualdad-8569a9d8.mp3"
+      },
       "audio": {
         "text": "población",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la adaptación",
         "la población"
       ],
+      "audioFiles": {
+        "la generación": "/audio/es/generacion-8bde8da8.mp3",
+        "la población": "/audio/es/poblacion-9aa494da.mp3",
+        "la migración": "/audio/es/migracion-66022700.mp3",
+        "la adaptación": "/audio/es/adaptacion-4d61bf18.mp3"
+      },
       "answer": "la generación",
       "translation": "the generation",
       "note": "Feminine: la generación. The accent marks the stress."

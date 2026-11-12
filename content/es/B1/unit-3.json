@@ -102,6 +102,12 @@
         "el deporte",
         "la televisión"
       ],
+      "audioFiles": {
+        "la conversación": "/audio/es/conversacion-26f8c248.mp3",
+        "el deporte": "/audio/es/deporte-6136611b.mp3",
+        "el partido": "/audio/es/partido-058a2f44.mp3",
+        "la televisión": "/audio/es/television-5eed4c02.mp3"
+      },
       "answer": "la conversación",
       "translation": "conversation",
       "note": "Feminine: la conversación."
@@ -117,6 +123,12 @@
         "el deporte",
         "la televisión"
       ],
+      "audioFiles": {
+        "la televisión": "/audio/es/television-5eed4c02.mp3",
+        "la película": "/audio/es/pelicula-4ec89aac.mp3",
+        "la canción": "/audio/es/cancion-de96f39a.mp3",
+        "el deporte": "/audio/es/deporte-6136611b.mp3"
+      },
       "audio": {
         "text": "televisión",
         "lang": "es",
@@ -174,6 +186,12 @@
         "la canción",
         "la música"
       ],
+      "audioFiles": {
+        "la música": "/audio/es/musica-b4e93798.mp3",
+        "la película": "/audio/es/pelicula-4ec89aac.mp3",
+        "la canción": "/audio/es/cancion-de96f39a.mp3",
+        "el deporte": "/audio/es/deporte-6136611b.mp3"
+      },
       "answer": "la música",
       "translation": "music",
       "note": "Feminine: la música. It has no plural in everyday use."

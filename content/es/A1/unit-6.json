@@ -98,6 +98,12 @@
         "cocinar",
         "estar"
       ],
+      "audioFiles": {
+        "estar": "/audio/es/estar-d16b0738.mp3",
+        "cocinar": "/audio/es/cocinar-17c08638.mp3",
+        "mirar": "/audio/es/mirar-a26c4618.mp3",
+        "necesitar": "/audio/es/necesitar-e24649a0.mp3"
+      },
       "answer": "estar",
       "translation": "to be",
       "note": "Its forms are irregular: estoy, estás, está, estamos, estáis, están."
@@ -113,6 +119,12 @@
         "fuera",
         "aquí"
       ],
+      "audioFiles": {
+        "aquí": "/audio/es/aqui-c03815f0.mp3",
+        "dentro": "/audio/es/dentro-dba7a0bc.mp3",
+        "fuera": "/audio/es/fuera-7254450c.mp3",
+        "allá": "/audio/es/alla-48b54b3f.mp3"
+      },
       "audio": {
         "text": "aquí",
         "lang": "es",
@@ -170,6 +182,12 @@
         "fuera",
         "allí"
       ],
+      "audioFiles": {
+        "allí": "/audio/es/alli-4cb5518b.mp3",
+        "debajo": "/audio/es/debajo-8ccad5ec.mp3",
+        "dentro": "/audio/es/dentro-dba7a0bc.mp3",
+        "fuera": "/audio/es/fuera-7254450c.mp3"
+      },
       "answer": "allí",
       "translation": "there",
       "note": "No article: está allí."

@@ -102,6 +102,12 @@
         "superior",
         "más"
       ],
+      "audioFiles": {
+        "más": "/audio/es/mas-dde01f78.mp3",
+        "superior": "/audio/es/superior-680f4886.mp3",
+        "inferior": "/audio/es/inferior-db48b1f8.mp3",
+        "menos": "/audio/es/menos-8d057590.mp3"
+      },
       "answer": "más",
       "translation": "more",
       "note": "More. It also means most. It takes an accent in a question."
@@ -117,6 +123,12 @@
         "superior",
         "menos"
       ],
+      "audioFiles": {
+        "menos": "/audio/es/menos-8d057590.mp3",
+        "peor": "/audio/es/peor-64800598.mp3",
+        "superior": "/audio/es/superior-680f4886.mp3",
+        "inferior": "/audio/es/inferior-db48b1f8.mp3"
+      },
       "audio": {
         "text": "menos",
         "lang": "es",
@@ -174,6 +186,12 @@
         "inferior",
         "peor"
       ],
+      "audioFiles": {
+        "mejor": "/audio/es/mejor-38f07f70.mp3",
+        "peor": "/audio/es/peor-64800598.mp3",
+        "superior": "/audio/es/superior-680f4886.mp3",
+        "inferior": "/audio/es/inferior-db48b1f8.mp3"
+      },
       "answer": "mejor",
       "translation": "better",
       "note": "Better. It has no comparative form: es mejor, es el mejor."

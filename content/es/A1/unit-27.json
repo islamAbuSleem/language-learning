@@ -84,6 +84,12 @@
         "la farmacia",
         "la iglesia"
       ],
+      "audioFiles": {
+        "la iglesia": "/audio/es/iglesia-cda141a8.mp3",
+        "la panadería": "/audio/es/panaderia-dcbba58c.mp3",
+        "la farmacia": "/audio/es/farmacia-52f1fbb3.mp3",
+        "la peluquería": "/audio/es/peluqueria-968a5b96.mp3"
+      },
       "answer": "la iglesia",
       "translation": "the church",
       "note": "Feminine: la iglesia."
@@ -99,6 +105,12 @@
         "la farmacia",
         "el ayuntamiento"
       ],
+      "audioFiles": {
+        "el ayuntamiento": "/audio/es/ayuntamiento-fb61254c.mp3",
+        "la panadería": "/audio/es/panaderia-dcbba58c.mp3",
+        "la farmacia": "/audio/es/farmacia-52f1fbb3.mp3",
+        "la peluquería": "/audio/es/peluqueria-968a5b96.mp3"
+      },
       "audio": {
         "text": "ayuntamiento",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el ayuntamiento",
         "la escuela"
       ],
+      "audioFiles": {
+        "la escuela": "/audio/es/escuela-f949e74f.mp3",
+        "la joyería": "/audio/es/joyeria-be9a4ab3.mp3",
+        "la iglesia": "/audio/es/iglesia-cda141a8.mp3",
+        "el ayuntamiento": "/audio/es/ayuntamiento-fb61254c.mp3"
+      },
       "answer": "la escuela",
       "translation": "the school",
       "note": "Feminine: la escuela."
@@ -181,6 +199,12 @@
         "el polideportivo",
         "el hospital"
       ],
+      "audioFiles": {
+        "el hospital": "/audio/es/hospital-db3de5a0.mp3",
+        "la farmacia": "/audio/es/farmacia-52f1fbb3.mp3",
+        "la peluquería": "/audio/es/peluqueria-968a5b96.mp3",
+        "el polideportivo": "/audio/es/polideportivo-134534f4.mp3"
+      },
       "answer": "el hospital",
       "translation": "the hospital",
       "note": "Masculine: el hospital. The accent marks the stress."

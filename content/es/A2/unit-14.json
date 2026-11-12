@@ -102,6 +102,12 @@
         "fregar",
         "pidió"
       ],
+      "audioFiles": {
+        "pidió": "/audio/es/pidio-1bc01d29.mp3",
+        "lavar": "/audio/es/lavar-16b8ea08.mp3",
+        "doblar": "/audio/es/doblar-2c2c1a8e.mp3",
+        "fregar": "/audio/es/fregar-12bfd978.mp3"
+      },
       "answer": "pidió",
       "translation": "he asked for",
       "note": "The preterite of pedir. The yo form is pedí."
@@ -117,6 +123,12 @@
         "descubrir",
         "entendió"
       ],
+      "audioFiles": {
+        "entendió": "/audio/es/entendio-68103ad4.mp3",
+        "compartir": "/audio/es/compartir-45ea3e18.mp3",
+        "descubrir": "/audio/es/descubrir-1165abde.mp3",
+        "pedir": "/audio/es/pedir-d51c3be8.mp3"
+      },
       "audio": {
         "text": "entendió",
         "lang": "es",
@@ -174,6 +186,12 @@
         "veré",
         "llegó"
       ],
+      "audioFiles": {
+        "llegó": "/audio/es/llego-7031a515.mp3",
+        "trabajaré": "/audio/es/trabajare-9be7817c.mp3",
+        "estudiaré": "/audio/es/estudiare-893d9238.mp3",
+        "veré": "/audio/es/vere-c4c2a80c.mp3"
+      },
       "answer": "llegó",
       "translation": "he arrived",
       "note": "The preterite of llegar. The yo form is llegué."

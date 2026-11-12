@@ -102,6 +102,12 @@
         "entender",
         "saber"
       ],
+      "audioFiles": {
+        "saber": "/audio/es/saber-15a11632.mp3",
+        "olvidar": "/audio/es/olvidar-d5bbf90a.mp3",
+        "entender": "/audio/es/entender-e119f3ab.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3"
+      },
       "answer": "saber",
       "translation": "to know",
       "note": "For facts. Its forms are irregular: sé, sabes, sabe."
@@ -117,6 +123,12 @@
         "lavar",
         "conocer"
       ],
+      "audioFiles": {
+        "conocer": "/audio/es/conocer-a0bf23c2.mp3",
+        "planchar": "/audio/es/planchar-26207a4c.mp3",
+        "lavar": "/audio/es/lavar-16b8ea08.mp3",
+        "doblar": "/audio/es/doblar-2c2c1a8e.mp3"
+      },
       "audio": {
         "text": "conocer",
         "lang": "es",
@@ -174,6 +186,12 @@
         "llegar",
         "hablar"
       ],
+      "audioFiles": {
+        "recordar": "/audio/es/recordar-7c9aabdc.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3"
+      },
       "answer": "recordar",
       "translation": "to remember",
       "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda."

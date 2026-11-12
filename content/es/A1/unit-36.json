@@ -84,6 +84,12 @@
         "el teléfono",
         "el cargador"
       ],
+      "audioFiles": {
+        "el teléfono": "/audio/es/telefono-13273328.mp3",
+        "el cargador": "/audio/es/cargador-0361a458.mp3",
+        "el móvil": "/audio/es/movil-3eb242fc.mp3",
+        "la llamada": "/audio/es/llamada-c53335df.mp3"
+      },
       "answer": "el teléfono",
       "translation": "the telephone",
       "note": "Masculine: el teléfono."
@@ -99,6 +105,12 @@
         "el cargador",
         "el móvil"
       ],
+      "audioFiles": {
+        "el móvil": "/audio/es/movil-3eb242fc.mp3",
+        "el cargador": "/audio/es/cargador-0361a458.mp3",
+        "el teléfono": "/audio/es/telefono-13273328.mp3",
+        "la llamada": "/audio/es/llamada-c53335df.mp3"
+      },
       "audio": {
         "text": "móvil",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la red",
         "la llamada"
       ],
+      "audioFiles": {
+        "la llamada": "/audio/es/llamada-c53335df.mp3",
+        "el botón": "/audio/es/boton-dee641d0.mp3",
+        "la red": "/audio/es/red-26f69684.mp3",
+        "la batería": "/audio/es/bateria-1a4affba.mp3"
+      },
       "answer": "la llamada",
       "translation": "the call",
       "note": "Feminine: la llamada."
@@ -181,6 +199,12 @@
         "el teléfono",
         "la llamada"
       ],
+      "audioFiles": {
+        "el tono": "/audio/es/tono-c73cfdb8.mp3",
+        "el teléfono": "/audio/es/telefono-13273328.mp3",
+        "el móvil": "/audio/es/movil-3eb242fc.mp3",
+        "la llamada": "/audio/es/llamada-c53335df.mp3"
+      },
       "answer": "el tono",
       "translation": "the tone",
       "note": "Masculine: el tono. It is also el tono de llamada, the ringtone."

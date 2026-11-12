@@ -84,6 +84,12 @@
         "el andén",
         "la maleta"
       ],
+      "audioFiles": {
+        "la maleta": "/audio/es/maleta-dc9a393c.mp3",
+        "la reserva": "/audio/es/reserva-6a290961.mp3",
+        "el conductor": "/audio/es/conductor-fb23afdc.mp3",
+        "el andén": "/audio/es/anden-33358407.mp3"
+      },
       "answer": "la maleta",
       "translation": "the suitcase",
       "note": "Feminine: la maleta."
@@ -99,6 +105,12 @@
         "el equipaje",
         "el pasaporte"
       ],
+      "audioFiles": {
+        "el pasaporte": "/audio/es/pasaporte-2bd8558b.mp3",
+        "el equipaje": "/audio/es/equipaje-c93cc970.mp3",
+        "la aduana": "/audio/es/aduana-a9706a7c.mp3",
+        "la frontera": "/audio/es/frontera-e145591c.mp3"
+      },
       "audio": {
         "text": "pasaporte",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el equipaje",
         "el vuelo"
       ],
+      "audioFiles": {
+        "el vuelo": "/audio/es/vuelo-bee86d79.mp3",
+        "el pasaporte": "/audio/es/pasaporte-2bd8558b.mp3",
+        "el equipaje": "/audio/es/equipaje-c93cc970.mp3",
+        "la aduana": "/audio/es/aduana-a9706a7c.mp3"
+      },
       "answer": "el vuelo",
       "translation": "the flight",
       "note": "Masculine: el vuelo."
@@ -181,6 +199,12 @@
         "el conductor",
         "la reserva"
       ],
+      "audioFiles": {
+        "el equipaje": "/audio/es/equipaje-c93cc970.mp3",
+        "la reserva": "/audio/es/reserva-6a290961.mp3",
+        "el conductor": "/audio/es/conductor-fb23afdc.mp3",
+        "el andén": "/audio/es/anden-33358407.mp3"
+      },
       "answer": "el equipaje",
       "translation": "the luggage",
       "note": "Masculine: el equipaje."

@@ -78,6 +78,12 @@
         "sobre",
         "la cocina"
       ],
+      "audioFiles": {
+        "la cocina": "/audio/es/cocina-5290ad6c.mp3",
+        "el comedor": "/audio/es/comedor-c540d10a.mp3",
+        "la terraza": "/audio/es/terraza-9f99aea0.mp3",
+        "sobre": "/audio/es/sobre-17d623ac.mp3"
+      },
       "answer": "la cocina",
       "translation": "kitchen",
       "note": "Feminine: la cocina. It can also mean the cooking itself."
@@ -93,6 +99,12 @@
         "la cocina",
         "el cuarto"
       ],
+      "audioFiles": {
+        "el cuarto": "/audio/es/cuarto-ef32843c.mp3",
+        "bajo": "/audio/es/bajo-c37ac1cc.mp3",
+        "la cocina": "/audio/es/cocina-5290ad6c.mp3",
+        "el baño": "/audio/es/bano-a5a67c5f.mp3"
+      },
       "audio": {
         "text": "cuarto",
         "lang": "es",
@@ -150,6 +162,12 @@
         "el dormitorio",
         "el baño"
       ],
+      "audioFiles": {
+        "el baño": "/audio/es/bano-a5a67c5f.mp3",
+        "el cuarto": "/audio/es/cuarto-ef32843c.mp3",
+        "el dormitorio": "/audio/es/dormitorio-48457bcd.mp3",
+        "el jardín": "/audio/es/jardin-da503480.mp3"
+      },
       "answer": "el baño",
       "translation": "bathroom",
       "note": "Masculine: el baño. It also means the bath."

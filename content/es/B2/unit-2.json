@@ -84,6 +84,12 @@
         "despertar",
         "hablara"
       ],
+      "audioFiles": {
+        "hablara": "/audio/es/hablara-47f02638.mp3",
+        "mentir": "/audio/es/mentir-d5f6db70.mp3",
+        "cerrar": "/audio/es/cerrar-8136616a.mp3",
+        "despertar": "/audio/es/despertar-4f1f857b.mp3"
+      },
       "answer": "hablara",
       "translation": "I spoke",
       "note": "The past subjunctive of hablar. It is the -ra form."
@@ -99,6 +105,12 @@
         "pelar",
         "comiera"
       ],
+      "audioFiles": {
+        "comiera": "/audio/es/comiera-d491f8dd.mp3",
+        "pelar": "/audio/es/pelar-6e71cd48.mp3",
+        "reservar": "/audio/es/reservar-319948e8.mp3",
+        "aterrizar": "/audio/es/aterrizar-a05a861a.mp3"
+      },
       "audio": {
         "text": "comiera",
         "lang": "es",
@@ -156,6 +168,12 @@
         "publicar",
         "viviera"
       ],
+      "audioFiles": {
+        "viviera": "/audio/es/viviera-f1479340.mp3",
+        "recoger": "/audio/es/recoger-4665ca86.mp3",
+        "publicar": "/audio/es/publicar-73671b4c.mp3",
+        "traer": "/audio/es/traer-398bf9f0.mp3"
+      },
       "answer": "viviera",
       "translation": "I lived",
       "note": "The past subjunctive of vivir. It is the -ra form."

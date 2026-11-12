@@ -84,6 +84,12 @@
         "estudiar",
         "querer"
       ],
+      "audioFiles": {
+        "querer": "/audio/es/querer-16152346.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3",
+        "estudiar": "/audio/es/estudiar-5adaac6a.mp3"
+      },
       "answer": "querer",
       "translation": "to want",
       "note": "The e changes to ie: quiero, quieres, quiere."
@@ -99,6 +105,12 @@
         "ahorrar",
         "doler"
       ],
+      "audioFiles": {
+        "poder": "/audio/es/poder-a9404618.mp3",
+        "doler": "/audio/es/doler-34a55fce.mp3",
+        "ahorrar": "/audio/es/ahorrar-7e2e45f8.mp3",
+        "gastar": "/audio/es/gastar-39adca28.mp3"
+      },
       "audio": {
         "text": "poder",
         "lang": "es",
@@ -156,6 +168,12 @@
         "gustar",
         "dormir"
       ],
+      "audioFiles": {
+        "dormir": "/audio/es/dormir-b8831d18.mp3",
+        "gustar": "/audio/es/gustar-d5682eea.mp3",
+        "encantar": "/audio/es/encantar-bcbb894e.mp3",
+        "molestar": "/audio/es/molestar-1ac83ef8.mp3"
+      },
       "answer": "dormir",
       "translation": "to sleep",
       "note": "The o changes to ue: duermo, duermes, duerme."

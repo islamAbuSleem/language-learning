@@ -88,6 +88,12 @@
         "saber",
         "hablaré"
       ],
+      "audioFiles": {
+        "hablaré": "/audio/es/hablare-cfef6950.mp3",
+        "saber": "/audio/es/saber-15a11632.mp3",
+        "conocer": "/audio/es/conocer-a0bf23c2.mp3",
+        "recordar": "/audio/es/recordar-7c9aabdc.mp3"
+      },
       "answer": "hablaré",
       "translation": "I will speak",
       "note": "The future of hablar. The ending is added to the whole infinitive."
@@ -103,6 +109,12 @@
         "comeré",
         "podré"
       ],
+      "audioFiles": {
+        "comeré": "/audio/es/comere-b1ba0384.mp3",
+        "podré": "/audio/es/podre-2b735b24.mp3",
+        "vendré": "/audio/es/vendre-9a2f1efc.mp3",
+        "querré": "/audio/es/querre-b43dd707.mp3"
+      },
       "audio": {
         "text": "comeré",
         "lang": "es",
@@ -160,6 +172,12 @@
         "querer",
         "viviré"
       ],
+      "audioFiles": {
+        "viviré": "/audio/es/vivire-ce441769.mp3",
+        "viajar": "/audio/es/viajar-2b2bdc48.mp3",
+        "tener": "/audio/es/tener-025878e0.mp3",
+        "querer": "/audio/es/querer-16152346.mp3"
+      },
       "answer": "viviré",
       "translation": "I will live",
       "note": "The future of vivir. For -ir verbs the r of the infinitive is dropped."

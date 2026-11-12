@@ -102,6 +102,12 @@
         "el pimiento",
         "el puesto"
       ],
+      "audioFiles": {
+        "el puesto": "/audio/es/puesto-0b7d6870.mp3",
+        "la zanahoria": "/audio/es/zanahoria-555c5bdc.mp3",
+        "el calabacín": "/audio/es/calabacin-bd6c7582.mp3",
+        "el pimiento": "/audio/es/pimiento-535c6e88.mp3"
+      },
       "answer": "el puesto",
       "translation": "the stall",
       "note": "Masculine: el puesto. It is a stall at a market."
@@ -117,6 +123,12 @@
         "el restaurante",
         "la masa"
       ],
+      "audioFiles": {
+        "la masa": "/audio/es/masa-ed774edc.mp3",
+        "la comida": "/audio/es/comida-f82ac2e8.mp3",
+        "el restaurante": "/audio/es/restaurante-5fb1ebcb.mp3",
+        "saborear": "/audio/es/saborear-bce51550.mp3"
+      },
       "audio": {
         "text": "masa",
         "lang": "es",
@@ -174,6 +186,12 @@
         "la entrevista",
         "la cazuela"
       ],
+      "audioFiles": {
+        "la cazuela": "/audio/es/cazuela-6568e6e8.mp3",
+        "la entrevista": "/audio/es/entrevista-73d16d50.mp3",
+        "la prensa": "/audio/es/prensa-cd23e96c.mp3",
+        "la sección": "/audio/es/seccion-8b7cc460.mp3"
+      },
       "answer": "la cazuela",
       "translation": "the casserole pot",
       "note": "Feminine: la cazuela. The deep pot a stew cooks in."

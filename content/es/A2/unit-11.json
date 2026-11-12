@@ -98,6 +98,12 @@
         "fuera",
         "entre"
       ],
+      "audioFiles": {
+        "entre": "/audio/es/entre-b4c9c520.mp3",
+        "dentro": "/audio/es/dentro-dba7a0bc.mp3",
+        "fuera": "/audio/es/fuera-7254450c.mp3",
+        "hacia": "/audio/es/hacia-8331c096.mp3"
+      },
       "answer": "entre",
       "translation": "between",
       "note": "Entre la cocina y el salón."
@@ -113,6 +119,12 @@
         "para",
         "entre"
       ],
+      "audioFiles": {
+        "detrás": "/audio/es/detras-f3f6d6a0.mp3",
+        "para": "/audio/es/para-a5efc8a0.mp3",
+        "por": "/audio/es/por-6d7f6c2c.mp3",
+        "entre": "/audio/es/entre-b4c9c520.mp3"
+      },
       "audio": {
         "text": "detrás",
         "lang": "es",
@@ -170,6 +182,12 @@
         "para",
         "delante"
       ],
+      "audioFiles": {
+        "delante": "/audio/es/delante-62b41dcc.mp3",
+        "para": "/audio/es/para-a5efc8a0.mp3",
+        "por": "/audio/es/por-6d7f6c2c.mp3",
+        "entre": "/audio/es/entre-b4c9c520.mp3"
+      },
       "answer": "delante",
       "translation": "in front of",
       "note": "Delante de la casa."

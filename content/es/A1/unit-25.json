@@ -84,6 +84,12 @@
         "el cerdo",
         "la galleta"
       ],
+      "audioFiles": {
+        "la galleta": "/audio/es/galleta-5cf7a48b.mp3",
+        "el cerdo": "/audio/es/cerdo-ee427b10.mp3",
+        "el pescado": "/audio/es/pescado-15594488.mp3",
+        "el salmón": "/audio/es/salmon-372c9c68.mp3"
+      },
       "answer": "la galleta",
       "translation": "the biscuit",
       "note": "Feminine: la galleta."
@@ -99,6 +105,12 @@
         "el pastel",
         "el caramelo"
       ],
+      "audioFiles": {
+        "el caramelo": "/audio/es/caramelo-10196db8.mp3",
+        "el pastel": "/audio/es/pastel-db209f40.mp3",
+        "la mermelada": "/audio/es/mermelada-763671bf.mp3",
+        "el chicle": "/audio/es/chicle-2e1ef9dc.mp3"
+      },
       "audio": {
         "text": "caramelo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el menú",
         "el pastel"
       ],
+      "audioFiles": {
+        "el pastel": "/audio/es/pastel-db209f40.mp3",
+        "el azúcar": "/audio/es/azucar-8c5756c2.mp3",
+        "el menú": "/audio/es/menu-11e59a22.mp3",
+        "el camarero": "/audio/es/camarero-2038a9e0.mp3"
+      },
       "answer": "el pastel",
       "translation": "the cake",
       "note": "Masculine: el pastel."
@@ -181,6 +199,12 @@
         "el chorizo",
         "la mermelada"
       ],
+      "audioFiles": {
+        "la mermelada": "/audio/es/mermelada-763671bf.mp3",
+        "el chorizo": "/audio/es/chorizo-bf637083.mp3",
+        "la tostada": "/audio/es/tostada-de7f90c7.mp3",
+        "el sándwich": "/audio/es/sandwich-77fd9628.mp3"
+      },
       "answer": "la mermelada",
       "translation": "the jam",
       "note": "Feminine: la mermelada."

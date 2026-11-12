@@ -102,6 +102,12 @@
         "nadar",
         "comer"
       ],
+      "audioFiles": {
+        "comer": "/audio/es/comer-4762ecb8.mp3",
+        "fregar": "/audio/es/fregar-12bfd978.mp3",
+        "cortar": "/audio/es/cortar-bdca51f8.mp3",
+        "nadar": "/audio/es/nadar-8b093997.mp3"
+      },
       "answer": "comer",
       "translation": "to eat",
       "note": "An infinitive ending in -er: como, comes, come."
@@ -117,6 +123,12 @@
         "pasear",
         "pescar"
       ],
+      "audioFiles": {
+        "beber": "/audio/es/beber-57f14092.mp3",
+        "pescar": "/audio/es/pescar-b1bcc646.mp3",
+        "pasear": "/audio/es/pasear-25bcb3c0.mp3",
+        "visitar": "/audio/es/visitar-3dedd4ba.mp3"
+      },
       "audio": {
         "text": "beber",
         "lang": "es",
@@ -174,6 +186,12 @@
         "visitar",
         "aprender"
       ],
+      "audioFiles": {
+        "aprender": "/audio/es/aprender-f27f949a.mp3",
+        "visitar": "/audio/es/visitar-3dedd4ba.mp3",
+        "comer": "/audio/es/comer-4762ecb8.mp3",
+        "beber": "/audio/es/beber-57f14092.mp3"
+      },
       "answer": "aprender",
       "translation": "to learn",
       "note": "An infinitive ending in -er: aprendo, aprendes, aprende."

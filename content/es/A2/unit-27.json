@@ -90,6 +90,12 @@
         "el túnel",
         "el entrenamiento"
       ],
+      "audioFiles": {
+        "el entrenamiento": "/audio/es/entrenamiento-4ef85091.mp3",
+        "la plata": "/audio/es/plata-fde27418.mp3",
+        "el túnel": "/audio/es/tunel-03312b10.mp3",
+        "el propósito": "/audio/es/proposito-45c227e0.mp3"
+      },
       "answer": "el entrenamiento",
       "translation": "the training session",
       "note": "Masculine: el entrenamiento. The work the team does before the match."
@@ -105,6 +111,12 @@
         "el árbitro",
         "el entrenador"
       ],
+      "audioFiles": {
+        "el entrenador": "/audio/es/entrenador-66eca6ae.mp3",
+        "la portería": "/audio/es/porteria-ff1cfb8c.mp3",
+        "el árbitro": "/audio/es/arbitro-bdd36404.mp3",
+        "la grada": "/audio/es/grada-f5ec054c.mp3"
+      },
       "audio": {
         "text": "entrenador",
         "lang": "es",
@@ -162,6 +174,12 @@
         "el electricista",
         "el jugador"
       ],
+      "audioFiles": {
+        "el jugador": "/audio/es/jugador-b453bc9e.mp3",
+        "el jefe": "/audio/es/jefe-c760c897.mp3",
+        "el fontanero": "/audio/es/fontanero-1505b9e0.mp3",
+        "el electricista": "/audio/es/electricista-4e2758d4.mp3"
+      },
       "answer": "el jugador",
       "translation": "the player",
       "note": "Masculine: el jugador. The feminine is la jugadora."

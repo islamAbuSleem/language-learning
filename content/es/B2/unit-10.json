@@ -84,6 +84,12 @@
         "darse cuenta",
         "anunciar"
       ],
+      "audioFiles": {
+        "anunciar": "/audio/es/anunciar-c5387d4a.mp3",
+        "jugar": "/audio/es/jugar-e0b34616.mp3",
+        "darse cuenta": "/audio/es/darse-cuenta-6f5dbf74.mp3",
+        "enterarse": "/audio/es/enterarse-5c74f0b4.mp3"
+      },
       "answer": "anunciar",
       "translation": "to announce",
       "note": "An infinitive ending in -ar: anuncio, anuncias, anuncia."
@@ -99,6 +105,12 @@
         "ser",
         "informar"
       ],
+      "audioFiles": {
+        "informar": "/audio/es/informar-c805a330.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3"
+      },
       "audio": {
         "text": "informar",
         "lang": "es",
@@ -156,6 +168,12 @@
         "viviré",
         "comentar"
       ],
+      "audioFiles": {
+        "comentar": "/audio/es/comentar-b0881784.mp3",
+        "viviré": "/audio/es/vivire-ce441769.mp3",
+        "trabajaré": "/audio/es/trabajare-9be7817c.mp3",
+        "estudiaré": "/audio/es/estudiare-893d9238.mp3"
+      },
       "answer": "comentar",
       "translation": "to comment",
       "note": "An infinitive ending in -ar: comento, comentas, comenta."

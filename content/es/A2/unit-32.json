@@ -90,6 +90,12 @@
         "la vaca",
         "el huevo"
       ],
+      "audioFiles": {
+        "la vaca": "/audio/es/vaca-bb89c89c.mp3",
+        "cosechar": "/audio/es/cosechar-38d518c0.mp3",
+        "la gallina": "/audio/es/gallina-5c8347a2.mp3",
+        "el huevo": "/audio/es/huevo-9f0312bf.mp3"
+      },
       "answer": "la vaca",
       "translation": "the cow",
       "note": "Feminine: la vaca. It gives milk."
@@ -105,6 +111,12 @@
         "el cereal",
         "el abono"
       ],
+      "audioFiles": {
+        "la gallina": "/audio/es/gallina-5c8347a2.mp3",
+        "el abono": "/audio/es/abono-99de4660.mp3",
+        "el cereal": "/audio/es/cereal-dc7a1464.mp3",
+        "el establo": "/audio/es/establo-963ec9b8.mp3"
+      },
       "audio": {
         "text": "gallina",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la receta",
         "el huevo"
       ],
+      "audioFiles": {
+        "el huevo": "/audio/es/huevo-9f0312bf.mp3",
+        "la receta": "/audio/es/receta-8daa7124.mp3",
+        "el ingrediente": "/audio/es/ingrediente-175f4e28.mp3",
+        "la mezcla": "/audio/es/mezcla-9d7c2c8f.mp3"
+      },
       "answer": "el huevo",
       "translation": "the egg",
       "note": "Masculine: el huevo. The plural is huevos."

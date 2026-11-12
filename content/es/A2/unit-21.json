@@ -90,6 +90,12 @@
         "el mapa",
         "el grifo"
       ],
+      "audioFiles": {
+        "el grifo": "/audio/es/grifo-8aba3184.mp3",
+        "reparar": "/audio/es/reparar-e78b7fe8.mp3",
+        "arreglar": "/audio/es/arreglar-54a96e63.mp3",
+        "el mapa": "/audio/es/mapa-de7f8604.mp3"
+      },
       "answer": "el grifo",
       "translation": "the tap",
       "note": "Masculine: el grifo. The tap that gives the water."
@@ -105,6 +111,12 @@
         "sobre",
         "la tubería"
       ],
+      "audioFiles": {
+        "la tubería": "/audio/es/tuberia-debe9c82.mp3",
+        "la terraza": "/audio/es/terraza-9f99aea0.mp3",
+        "sobre": "/audio/es/sobre-17d623ac.mp3",
+        "bajo": "/audio/es/bajo-c37ac1cc.mp3"
+      },
       "audio": {
         "text": "tubería",
         "lang": "es",
@@ -162,6 +174,12 @@
         "el aceite",
         "la avería"
       ],
+      "audioFiles": {
+        "la avería": "/audio/es/averia-c1f36870.mp3",
+        "la mezcla": "/audio/es/mezcla-9d7c2c8f.mp3",
+        "la harina": "/audio/es/harina-2cdc1466.mp3",
+        "el aceite": "/audio/es/aceite-41e4d2e0.mp3"
+      },
       "answer": "la avería",
       "translation": "the breakdown",
       "note": "Feminine: la avería. A fault, something that does not work."

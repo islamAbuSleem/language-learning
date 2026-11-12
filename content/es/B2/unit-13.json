@@ -84,6 +84,12 @@
         "la contraseña",
         "el puesto de trabajo"
       ],
+      "audioFiles": {
+        "el puesto de trabajo": "/audio/es/puesto-de-trabajo-f7916b84.mp3",
+        "el portátil": "/audio/es/portatil-b746c728.mp3",
+        "la contraseña": "/audio/es/contrasena-c0c80830.mp3",
+        "el clic": "/audio/es/clic-678f8891.mp3"
+      },
       "answer": "el puesto de trabajo",
       "translation": "the job, the post",
       "note": "Masculine: el puesto de trabajo."
@@ -99,6 +105,12 @@
         "la videollamada",
         "el currículum"
       ],
+      "audioFiles": {
+        "el currículum": "/audio/es/curriculum-5372c7c8.mp3",
+        "la videollamada": "/audio/es/videollamada-0009a970.mp3",
+        "el teletrabajo": "/audio/es/teletrabajo-92d71cd1.mp3",
+        "el robot": "/audio/es/robot-ff3d0940.mp3"
+      },
       "audio": {
         "text": "currículum",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la videollamada",
         "la entrevista"
       ],
+      "audioFiles": {
+        "la entrevista": "/audio/es/entrevista-73d16d50.mp3",
+        "la videollamada": "/audio/es/videollamada-0009a970.mp3",
+        "el teletrabajo": "/audio/es/teletrabajo-92d71cd1.mp3",
+        "el robot": "/audio/es/robot-ff3d0940.mp3"
+      },
       "answer": "la entrevista",
       "translation": "the interview",
       "note": "Feminine: la entrevista."

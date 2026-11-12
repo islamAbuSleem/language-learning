@@ -90,6 +90,12 @@
         "el síntoma",
         "el colador"
       ],
+      "audioFiles": {
+        "la portada": "/audio/es/portada-0452775b.mp3",
+        "el colador": "/audio/es/colador-480ab1f8.mp3",
+        "el síntoma": "/audio/es/sintoma-db9d30e8.mp3",
+        "el diagnóstico": "/audio/es/diagnostico-b845d730.mp3"
+      },
       "answer": "la portada",
       "translation": "the front page",
       "note": "Feminine: la portada. The first page of a newspaper."
@@ -105,6 +111,12 @@
         "el grifo",
         "el titular"
       ],
+      "audioFiles": {
+        "el titular": "/audio/es/titular-d7a436b0.mp3",
+        "el grifo": "/audio/es/grifo-8aba3184.mp3",
+        "la tubería": "/audio/es/tuberia-debe9c82.mp3",
+        "la avería": "/audio/es/averia-c1f36870.mp3"
+      },
       "audio": {
         "text": "titular",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la noticia",
         "el tratamiento"
       ],
+      "audioFiles": {
+        "la noticia": "/audio/es/noticia-c7d895d4.mp3",
+        "el tratamiento": "/audio/es/tratamiento-b9c8d654.mp3",
+        "el jarabe": "/audio/es/jarabe-af9a94cf.mp3",
+        "la cápsula": "/audio/es/capsula-229978e4.mp3"
+      },
       "answer": "la noticia",
       "translation": "the news item",
       "note": "Feminine: la noticia. One piece of news."

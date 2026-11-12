@@ -84,6 +84,12 @@
         "el turno",
         "la estación"
       ],
+      "audioFiles": {
+        "la estación": "/audio/es/estacion-3c2e5d34.mp3",
+        "el horario": "/audio/es/horario-a9b0c350.mp3",
+        "el turno": "/audio/es/turno-b636edfc.mp3",
+        "la entrega": "/audio/es/entrega-43538dbf.mp3"
+      },
       "answer": "la estación",
       "translation": "the season",
       "note": "Feminine: la estación. It also means the station."
@@ -99,6 +105,12 @@
         "el siglo",
         "el amanecer"
       ],
+      "audioFiles": {
+        "el amanecer": "/audio/es/amanecer-bb042450.mp3",
+        "el siglo": "/audio/es/siglo-08db4934.mp3",
+        "la jornada": "/audio/es/jornada-16cdda48.mp3",
+        "el horario": "/audio/es/horario-a9b0c350.mp3"
+      },
       "audio": {
         "text": "amanecer",
         "lang": "es",
@@ -156,6 +168,12 @@
         "durante",
         "el atardecer"
       ],
+      "audioFiles": {
+        "el atardecer": "/audio/es/atardecer-5e62860a.mp3",
+        "durante": "/audio/es/durante-153319b4.mp3",
+        "el año": "/audio/es/ano-17a9e818.mp3",
+        "el siglo": "/audio/es/siglo-08db4934.mp3"
+      },
       "answer": "el atardecer",
       "translation": "the dusk",
       "note": "Masculine: el atardecer."

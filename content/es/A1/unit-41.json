@@ -84,6 +84,12 @@
         "negro",
         "gris"
       ],
+      "audioFiles": {
+        "gris": "/audio/es/gris-3eef70f4.mp3",
+        "verde": "/audio/es/verde-27251e6c.mp3",
+        "negro": "/audio/es/negro-54169904.mp3",
+        "blanco": "/audio/es/blanco-8180568a.mp3"
+      },
       "answer": "gris",
       "translation": "grey",
       "note": "The same in both genders: un día gris."
@@ -99,6 +105,12 @@
         "rosa",
         "amarillo"
       ],
+      "audioFiles": {
+        "amarillo": "/audio/es/amarillo-72f1eeb8.mp3",
+        "marrón": "/audio/es/marron-5ceef380.mp3",
+        "rosa": "/audio/es/rosa-a28ffbfc.mp3",
+        "morado": "/audio/es/morado-ff5b8078.mp3"
+      },
       "audio": {
         "text": "amarillo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "morado",
         "marrón"
       ],
+      "audioFiles": {
+        "marrón": "/audio/es/marron-5ceef380.mp3",
+        "morado": "/audio/es/morado-ff5b8078.mp3",
+        "dorado": "/audio/es/dorado-70bffa34.mp3",
+        "claro": "/audio/es/claro-7e32ad8c.mp3"
+      },
       "answer": "marrón",
       "translation": "brown",
       "note": "The same in both genders: un café marrón."
@@ -181,6 +199,12 @@
         "verde",
         "blanco"
       ],
+      "audioFiles": {
+        "rosa": "/audio/es/rosa-a28ffbfc.mp3",
+        "verde": "/audio/es/verde-27251e6c.mp3",
+        "negro": "/audio/es/negro-54169904.mp3",
+        "blanco": "/audio/es/blanco-8180568a.mp3"
+      },
       "answer": "rosa",
       "translation": "pink",
       "note": "The same in both genders: una camisa rosa."

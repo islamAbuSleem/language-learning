@@ -84,6 +84,12 @@
         "el paciente",
         "el antibiótico"
       ],
+      "audioFiles": {
+        "el paciente": "/audio/es/paciente-93d69748.mp3",
+        "el antibiótico": "/audio/es/antibiotico-c9465d46.mp3",
+        "la vacuna": "/audio/es/vacuna-6ecef814.mp3",
+        "el síntoma": "/audio/es/sintoma-db9d30e8.mp3"
+      },
       "answer": "el paciente",
       "translation": "the patient",
       "note": "Masculine: el paciente."
@@ -99,6 +105,12 @@
         "el hueso",
         "el síntoma"
       ],
+      "audioFiles": {
+        "el síntoma": "/audio/es/sintoma-db9d30e8.mp3",
+        "el hueso": "/audio/es/hueso-befc895a.mp3",
+        "la piel": "/audio/es/piel-330a789c.mp3",
+        "el estómago": "/audio/es/estomago-87c40efc.mp3"
+      },
       "audio": {
         "text": "síntoma",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el hueso",
         "el diagnóstico"
       ],
+      "audioFiles": {
+        "el diagnóstico": "/audio/es/diagnostico-b845d730.mp3",
+        "la herida": "/audio/es/herida-e73eba64.mp3",
+        "el hueso": "/audio/es/hueso-befc895a.mp3",
+        "la piel": "/audio/es/piel-330a789c.mp3"
+      },
       "answer": "el diagnóstico",
       "translation": "the diagnosis",
       "note": "Masculine: el diagnóstico. The accent marks the stress."

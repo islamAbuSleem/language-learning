@@ -84,6 +84,12 @@
         "la granja",
         "el campo"
       ],
+      "audioFiles": {
+        "el campo": "/audio/es/campo-31aeb144.mp3",
+        "la granja": "/audio/es/granja-d9172adb.mp3",
+        "el bosque": "/audio/es/bosque-d0fde0ec.mp3",
+        "el río": "/audio/es/rio-4d478cfc.mp3"
+      },
       "answer": "el campo",
       "translation": "the countryside",
       "note": "Masculine: el campo. It also means the field."
@@ -99,6 +105,12 @@
         "la abeja",
         "la granja"
       ],
+      "audioFiles": {
+        "la granja": "/audio/es/granja-d9172adb.mp3",
+        "la oveja": "/audio/es/oveja-821cb46c.mp3",
+        "la abeja": "/audio/es/abeja-d00cfaf9.mp3",
+        "el campo": "/audio/es/campo-31aeb144.mp3"
+      },
       "audio": {
         "text": "granja",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la piedra",
         "el bosque"
       ],
+      "audioFiles": {
+        "el bosque": "/audio/es/bosque-d0fde0ec.mp3",
+        "la piedra": "/audio/es/piedra-ca6039a8.mp3",
+        "el caballo": "/audio/es/caballo-db19b129.mp3",
+        "la oveja": "/audio/es/oveja-821cb46c.mp3"
+      },
       "answer": "el bosque",
       "translation": "the wood",
       "note": "Masculine: el bosque."
@@ -181,6 +199,12 @@
         "el río",
         "la granja"
       ],
+      "audioFiles": {
+        "el río": "/audio/es/rio-4d478cfc.mp3",
+        "la granja": "/audio/es/granja-d9172adb.mp3",
+        "el bosque": "/audio/es/bosque-d0fde0ec.mp3",
+        "el monte": "/audio/es/monte-f577f83b.mp3"
+      },
       "answer": "el río",
       "translation": "the river",
       "note": "Masculine: el río. The accent marks the stress."

@@ -84,6 +84,12 @@
         "la actriz",
         "el teatro"
       ],
+      "audioFiles": {
+        "el teatro": "/audio/es/teatro-15ba03cc.mp3",
+        "el actor": "/audio/es/actor-078a8e1e.mp3",
+        "la actriz": "/audio/es/actriz-b8865136.mp3",
+        "el público": "/audio/es/publico-2cf41d20.mp3"
+      },
       "answer": "el teatro",
       "translation": "the theatre",
       "note": "Masculine: el teatro."
@@ -99,6 +105,12 @@
         "el actor",
         "el concierto"
       ],
+      "audioFiles": {
+        "el concierto": "/audio/es/concierto-fb1f6dcc.mp3",
+        "el violín": "/audio/es/violin-052a718a.mp3",
+        "el baile": "/audio/es/baile-d2f7e538.mp3",
+        "el actor": "/audio/es/actor-078a8e1e.mp3"
+      },
       "audio": {
         "text": "concierto",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el violín",
         "el concierto"
       ],
+      "audioFiles": {
+        "la guitarra": "/audio/es/guitarra-6608de44.mp3",
+        "el concierto": "/audio/es/concierto-fb1f6dcc.mp3",
+        "el piano": "/audio/es/piano-99daf354.mp3",
+        "el violín": "/audio/es/violin-052a718a.mp3"
+      },
       "answer": "la guitarra",
       "translation": "the guitar",
       "note": "Feminine: la guitarra."
@@ -181,6 +199,12 @@
         "el programa",
         "el piano"
       ],
+      "audioFiles": {
+        "el piano": "/audio/es/piano-99daf354.mp3",
+        "la actriz": "/audio/es/actriz-b8865136.mp3",
+        "el público": "/audio/es/publico-2cf41d20.mp3",
+        "el programa": "/audio/es/programa-7f27ff10.mp3"
+      },
       "answer": "el piano",
       "translation": "the piano",
       "note": "Masculine: el piano."

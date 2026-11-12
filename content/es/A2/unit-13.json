@@ -102,6 +102,12 @@
         "hablaré",
         "habló"
       ],
+      "audioFiles": {
+        "habló": "/audio/es/hablo-5e0d4918.mp3",
+        "importar": "/audio/es/importar-a7900566.mp3",
+        "hablaré": "/audio/es/hablare-cfef6950.mp3",
+        "comeré": "/audio/es/comere-b1ba0384.mp3"
+      },
       "answer": "habló",
       "translation": "he spoke",
       "note": "The preterite of hablar. The yo form is hablé."
@@ -117,6 +123,12 @@
         "vender",
         "comió"
       ],
+      "audioFiles": {
+        "comió": "/audio/es/comio-be6e3568.mp3",
+        "vender": "/audio/es/vender-140df860.mp3",
+        "correr": "/audio/es/correr-4ddb0678.mp3",
+        "perder": "/audio/es/perder-149f95f0.mp3"
+      },
       "audio": {
         "text": "comió",
         "lang": "es",
@@ -174,6 +186,12 @@
         "molestar",
         "escribió"
       ],
+      "audioFiles": {
+        "escribió": "/audio/es/escribio-9244b41c.mp3",
+        "molestar": "/audio/es/molestar-1ac83ef8.mp3",
+        "interesar": "/audio/es/interesar-4070b478.mp3",
+        "importar": "/audio/es/importar-a7900566.mp3"
+      },
       "answer": "escribió",
       "translation": "he wrote",
       "note": "The preterite of escribir. The yo form is escribí."

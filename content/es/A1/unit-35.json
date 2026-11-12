@@ -84,6 +84,12 @@
         "la tos",
         "la medicina"
       ],
+      "audioFiles": {
+        "la medicina": "/audio/es/medicina-dbe5ec08.mp3",
+        "la pastilla": "/audio/es/pastilla-1478997c.mp3",
+        "la tos": "/audio/es/tos-a20e95c8.mp3",
+        "la herida": "/audio/es/herida-e73eba64.mp3"
+      },
       "answer": "la medicina",
       "translation": "the medicine",
       "note": "Feminine: la medicina."
@@ -99,6 +105,12 @@
         "la fiebre",
         "la cita"
       ],
+      "audioFiles": {
+        "la cita": "/audio/es/cita-49e42d87.mp3",
+        "la fiebre": "/audio/es/fiebre-638aa6a1.mp3",
+        "la medicina": "/audio/es/medicina-dbe5ec08.mp3",
+        "la pastilla": "/audio/es/pastilla-1478997c.mp3"
+      },
       "audio": {
         "text": "cita",
         "lang": "es",
@@ -156,6 +168,12 @@
         "sano",
         "la pastilla"
       ],
+      "audioFiles": {
+        "la pastilla": "/audio/es/pastilla-1478997c.mp3",
+        "enfermo": "/audio/es/enfermo-bbf04705.mp3",
+        "sano": "/audio/es/sano-cd024a05.mp3",
+        "la fiebre": "/audio/es/fiebre-638aa6a1.mp3"
+      },
       "answer": "la pastilla",
       "translation": "the tablet",
       "note": "Feminine: la pastilla."
@@ -181,6 +199,12 @@
         "el antibiótico",
         "la tos"
       ],
+      "audioFiles": {
+        "la tos": "/audio/es/tos-a20e95c8.mp3",
+        "la piel": "/audio/es/piel-330a789c.mp3",
+        "el estómago": "/audio/es/estomago-87c40efc.mp3",
+        "el antibiótico": "/audio/es/antibiotico-c9465d46.mp3"
+      },
       "answer": "la tos",
       "translation": "the cough",
       "note": "Feminine: la tos."

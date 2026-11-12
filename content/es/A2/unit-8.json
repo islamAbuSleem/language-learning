@@ -90,6 +90,12 @@
         "la aduana",
         "el viaje"
       ],
+      "audioFiles": {
+        "el viaje": "/audio/es/viaje-7eb8efc4.mp3",
+        "la aduana": "/audio/es/aduana-a9706a7c.mp3",
+        "la frontera": "/audio/es/frontera-e145591c.mp3",
+        "el hotel": "/audio/es/hotel-f9a2703c.mp3"
+      },
       "answer": "el viaje",
       "translation": "trip",
       "note": "Masculine: el viaje. You take un viaje."
@@ -105,6 +111,12 @@
         "el andén",
         "el recuerdo"
       ],
+      "audioFiles": {
+        "el recuerdo": "/audio/es/recuerdo-01ac7195.mp3",
+        "el conductor": "/audio/es/conductor-fb23afdc.mp3",
+        "el andén": "/audio/es/anden-33358407.mp3",
+        "el viaje": "/audio/es/viaje-7eb8efc4.mp3"
+      },
       "audio": {
         "text": "recuerdo",
         "lang": "es",
@@ -162,6 +174,12 @@
         "fuera",
         "debajo"
       ],
+      "audioFiles": {
+        "el museo": "/audio/es/museo-72a69658.mp3",
+        "debajo": "/audio/es/debajo-8ccad5ec.mp3",
+        "dentro": "/audio/es/dentro-dba7a0bc.mp3",
+        "fuera": "/audio/es/fuera-7254450c.mp3"
+      },
       "answer": "el museo",
       "translation": "museum",
       "note": "Masculine: el museo."

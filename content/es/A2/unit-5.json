@@ -102,6 +102,12 @@
         "deber",
         "tener"
       ],
+      "audioFiles": {
+        "tener": "/audio/es/tener-025878e0.mp3",
+        "querer": "/audio/es/querer-16152346.mp3",
+        "poder": "/audio/es/poder-a9404618.mp3",
+        "deber": "/audio/es/deber-7d03d380.mp3"
+      },
       "answer": "tener",
       "translation": "to have",
       "note": "Its forms are irregular: tengo, tienes, tiene, tenemos, tenéis, tienen."
@@ -117,6 +123,12 @@
         "pasear",
         "querer"
       ],
+      "audioFiles": {
+        "querer": "/audio/es/querer-16152346.mp3",
+        "pasear": "/audio/es/pasear-25bcb3c0.mp3",
+        "visitar": "/audio/es/visitar-3dedd4ba.mp3",
+        "comer": "/audio/es/comer-4762ecb8.mp3"
+      },
       "audio": {
         "text": "querer",
         "lang": "es",
@@ -174,6 +186,12 @@
         "poder",
         "perder"
       ],
+      "audioFiles": {
+        "poder": "/audio/es/poder-a9404618.mp3",
+        "vender": "/audio/es/vender-140df860.mp3",
+        "correr": "/audio/es/correr-4ddb0678.mp3",
+        "perder": "/audio/es/perder-149f95f0.mp3"
+      },
       "answer": "poder",
       "translation": "to be able to",
       "note": "Its forms are irregular: puedo, puedes, puede."

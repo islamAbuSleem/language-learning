@@ -84,6 +84,12 @@
         "el lavabo",
         "la ducha"
       ],
+      "audioFiles": {
+        "la ducha": "/audio/es/ducha-d96a7f6c.mp3",
+        "el lavabo": "/audio/es/lavabo-4c4041f4.mp3",
+        "la bañera": "/audio/es/banera-1d1ab1e7.mp3",
+        "el inodoro": "/audio/es/inodoro-386d2fc9.mp3"
+      },
       "answer": "la ducha",
       "translation": "the shower",
       "note": "Feminine: la ducha."
@@ -99,6 +105,12 @@
         "el secador",
         "el lavabo"
       ],
+      "audioFiles": {
+        "el lavabo": "/audio/es/lavabo-4c4041f4.mp3",
+        "el secador": "/audio/es/secador-c0c7ce4c.mp3",
+        "el peine": "/audio/es/peine-c4808d08.mp3",
+        "el champú": "/audio/es/champu-38043b86.mp3"
+      },
       "audio": {
         "text": "lavabo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el champú",
         "la bañera"
       ],
+      "audioFiles": {
+        "la bañera": "/audio/es/banera-1d1ab1e7.mp3",
+        "el champú": "/audio/es/champu-38043b86.mp3",
+        "la pasta de dientes": "/audio/es/pasta-de-dientes-72227045.mp3",
+        "el toallero": "/audio/es/toallero-ceba9370.mp3"
+      },
       "answer": "la bañera",
       "translation": "the bathtub",
       "note": "Feminine: la bañera."
@@ -181,6 +199,12 @@
         "el toallero",
         "el inodoro"
       ],
+      "audioFiles": {
+        "el inodoro": "/audio/es/inodoro-386d2fc9.mp3",
+        "el toallero": "/audio/es/toallero-ceba9370.mp3",
+        "el gel": "/audio/es/gel-60265220.mp3",
+        "la ducha": "/audio/es/ducha-d96a7f6c.mp3"
+      },
       "answer": "el inodoro",
       "translation": "the toilet",
       "note": "Masculine: el inodoro."

@@ -102,6 +102,12 @@
         "el programador",
         "la jornada"
       ],
+      "audioFiles": {
+        "la jornada": "/audio/es/jornada-16cdda48.mp3",
+        "el policía": "/audio/es/policia-d713898b.mp3",
+        "el programador": "/audio/es/programador-2e663e8e.mp3",
+        "el diseñador": "/audio/es/disenador-fb0a7fa2.mp3"
+      },
       "answer": "la jornada",
       "translation": "the working day",
       "note": "Feminine: la jornada."
@@ -117,6 +123,12 @@
         "el horario",
         "febrero"
       ],
+      "audioFiles": {
+        "el horario": "/audio/es/horario-a9b0c350.mp3",
+        "febrero": "/audio/es/febrero-484d0f6c.mp3",
+        "marzo": "/audio/es/marzo-d5ac4bd8.mp3",
+        "abril": "/audio/es/abril-cb661ea8.mp3"
+      },
       "audio": {
         "text": "horario",
         "lang": "es",
@@ -174,6 +186,12 @@
         "septiembre",
         "el turno"
       ],
+      "audioFiles": {
+        "el turno": "/audio/es/turno-b636edfc.mp3",
+        "julio": "/audio/es/julio-dca40195.mp3",
+        "agosto": "/audio/es/agosto-464fcf58.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3"
+      },
       "answer": "el turno",
       "translation": "the shift",
       "note": "Masculine: el turno. You work el turno de día or el turno de noche."

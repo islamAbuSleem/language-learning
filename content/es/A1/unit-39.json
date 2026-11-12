@@ -84,6 +84,12 @@
         "octubre",
         "noviembre"
       ],
+      "audioFiles": {
+        "noviembre": "/audio/es/noviembre-a8b77979.mp3",
+        "agosto": "/audio/es/agosto-464fcf58.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3",
+        "octubre": "/audio/es/octubre-7cd79837.mp3"
+      },
       "answer": "noviembre",
       "translation": "November",
       "note": "No article: en noviembre."
@@ -99,6 +105,12 @@
         "mañana",
         "el día"
       ],
+      "audioFiles": {
+        "diciembre": "/audio/es/diciembre-85112939.mp3",
+        "el día": "/audio/es/dia-f59db8ce.mp3",
+        "mañana": "/audio/es/manana-359aa6a4.mp3",
+        "el mediodía": "/audio/es/mediodia-e74f9f80.mp3"
+      },
       "audio": {
         "text": "diciembre",
         "lang": "es",
@@ -156,6 +168,12 @@
         "mayo",
         "la fecha"
       ],
+      "audioFiles": {
+        "la fecha": "/audio/es/fecha-58d37a17.mp3",
+        "abril": "/audio/es/abril-cb661ea8.mp3",
+        "mayo": "/audio/es/mayo-c9699ea4.mp3",
+        "junio": "/audio/es/junio-e379b8b9.mp3"
+      },
       "answer": "la fecha",
       "translation": "the date",
       "note": "Feminine: la fecha."
@@ -181,6 +199,12 @@
         "el cumpleaños",
         "noche"
       ],
+      "audioFiles": {
+        "el cumpleaños": "/audio/es/cumpleanos-27ff4f70.mp3",
+        "noche": "/audio/es/noche-4ba7253f.mp3",
+        "enero": "/audio/es/enero-61e5e3e4.mp3",
+        "febrero": "/audio/es/febrero-484d0f6c.mp3"
+      },
       "answer": "el cumpleaños",
       "translation": "the birthday",
       "note": "Masculine: el cumpleaños. The plural keeps the ñ: los cumpleaños."

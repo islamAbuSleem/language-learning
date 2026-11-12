@@ -84,6 +84,12 @@
         "abril",
         "mayo"
       ],
+      "audioFiles": {
+        "enero": "/audio/es/enero-61e5e3e4.mp3",
+        "marzo": "/audio/es/marzo-d5ac4bd8.mp3",
+        "abril": "/audio/es/abril-cb661ea8.mp3",
+        "mayo": "/audio/es/mayo-c9699ea4.mp3"
+      },
       "answer": "enero",
       "translation": "January",
       "note": "No article: en enero."
@@ -99,6 +105,12 @@
         "el día",
         "febrero"
       ],
+      "audioFiles": {
+        "febrero": "/audio/es/febrero-484d0f6c.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3",
+        "octubre": "/audio/es/octubre-7cd79837.mp3",
+        "el día": "/audio/es/dia-f59db8ce.mp3"
+      },
       "audio": {
         "text": "febrero",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el día",
         "marzo"
       ],
+      "audioFiles": {
+        "marzo": "/audio/es/marzo-d5ac4bd8.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3",
+        "octubre": "/audio/es/octubre-7cd79837.mp3",
+        "el día": "/audio/es/dia-f59db8ce.mp3"
+      },
       "answer": "marzo",
       "translation": "March",
       "note": "No article: en marzo."
@@ -181,6 +199,12 @@
         "febrero",
         "abril"
       ],
+      "audioFiles": {
+        "abril": "/audio/es/abril-cb661ea8.mp3",
+        "febrero": "/audio/es/febrero-484d0f6c.mp3",
+        "marzo": "/audio/es/marzo-d5ac4bd8.mp3",
+        "mayo": "/audio/es/mayo-c9699ea4.mp3"
+      },
       "answer": "abril",
       "translation": "April",
       "note": "No article: en abril."

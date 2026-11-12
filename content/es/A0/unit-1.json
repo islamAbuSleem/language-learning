@@ -98,6 +98,12 @@
         "qué tal",
         "hola"
       ],
+      "audioFiles": {
+        "hola": "/audio/es/hola-6590df27.mp3",
+        "buenas tardes": "/audio/es/buenas-tardes-e2bb61e0.mp3",
+        "buenas noches": "/audio/es/buenas-noches-d844b23c.mp3",
+        "qué tal": "/audio/es/que-tal-d9ccdb24.mp3"
+      },
       "answer": "hola",
       "translation": "hello",
       "note": "Hello. It is used at any time of day."
@@ -113,6 +119,12 @@
         "buenos días",
         "hola"
       ],
+      "audioFiles": {
+        "adiós": "/audio/es/adios-71ef8a04.mp3",
+        "hola": "/audio/es/hola-6590df27.mp3",
+        "buenos días": "/audio/es/buenos-dias-684b2ebc.mp3",
+        "buenas tardes": "/audio/es/buenas-tardes-e2bb61e0.mp3"
+      },
       "audio": {
         "text": "adiós",
         "lang": "es",
@@ -170,6 +182,12 @@
         "buenas noches",
         "buenos días"
       ],
+      "audioFiles": {
+        "buenos días": "/audio/es/buenos-dias-684b2ebc.mp3",
+        "buenas noches": "/audio/es/buenas-noches-d844b23c.mp3",
+        "qué tal": "/audio/es/que-tal-d9ccdb24.mp3",
+        "hola": "/audio/es/hola-6590df27.mp3"
+      },
       "answer": "buenos días",
       "translation": "good morning",
       "note": "Good morning. Literally good days."

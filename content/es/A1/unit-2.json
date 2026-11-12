@@ -102,6 +102,12 @@
         "la estación",
         "la calle"
       ],
+      "audioFiles": {
+        "la calle": "/audio/es/calle-b452e9b0.mp3",
+        "la tienda": "/audio/es/tienda-1815acb8.mp3",
+        "el mercado": "/audio/es/mercado-a4380cf5.mp3",
+        "la estación": "/audio/es/estacion-3c2e5d34.mp3"
+      },
       "answer": "la calle",
       "translation": "street",
       "note": "Feminine: la calle."
@@ -117,6 +123,12 @@
         "el mercado",
         "la tienda"
       ],
+      "audioFiles": {
+        "la tienda": "/audio/es/tienda-1815acb8.mp3",
+        "el mercado": "/audio/es/mercado-a4380cf5.mp3",
+        "la estación": "/audio/es/estacion-3c2e5d34.mp3",
+        "la calle": "/audio/es/calle-b452e9b0.mp3"
+      },
       "audio": {
         "text": "tienda",
         "lang": "es",
@@ -174,6 +186,12 @@
         "lejos",
         "cerca"
       ],
+      "audioFiles": {
+        "cerca": "/audio/es/cerca-004058d0.mp3",
+        "la derecha": "/audio/es/derecha-4970abcf.mp3",
+        "lejos": "/audio/es/lejos-d7515409.mp3",
+        "la izquierda": "/audio/es/izquierda-1e2da9f0.mp3"
+      },
       "answer": "cerca",
       "translation": "near",
       "note": "It is an adjective and takes de before a place: cerca de."

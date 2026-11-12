@@ -84,6 +84,12 @@
         "el contrato",
         "la legislación"
       ],
+      "audioFiles": {
+        "la legislación": "/audio/es/legislacion-cb3acc3a.mp3",
+        "la normativa": "/audio/es/normativa-d4d6fbe4.mp3",
+        "el derecho": "/audio/es/derecho-4f70b541.mp3",
+        "el contrato": "/audio/es/contrato-2b1e01d0.mp3"
+      },
       "answer": "la legislación",
       "translation": "the legislation",
       "note": "Feminine: la legislación."
@@ -99,6 +105,12 @@
         "la denuncia",
         "la normativa"
       ],
+      "audioFiles": {
+        "la normativa": "/audio/es/normativa-d4d6fbe4.mp3",
+        "la sentencia": "/audio/es/sentencia-67bc719c.mp3",
+        "la denuncia": "/audio/es/denuncia-dc0046a0.mp3",
+        "el testigo": "/audio/es/testigo-e94bb160.mp3"
+      },
       "audio": {
         "text": "normativa",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el testigo",
         "el derecho"
       ],
+      "audioFiles": {
+        "el derecho": "/audio/es/derecho-4f70b541.mp3",
+        "la sentencia": "/audio/es/sentencia-67bc719c.mp3",
+        "la denuncia": "/audio/es/denuncia-dc0046a0.mp3",
+        "el testigo": "/audio/es/testigo-e94bb160.mp3"
+      },
       "answer": "el derecho",
       "translation": "the right, the law",
       "note": "Masculine: el derecho. It also means the straight thing."

@@ -102,6 +102,12 @@
         "sí",
         "cómo te llamas"
       ],
+      "audioFiles": {
+        "cómo te llamas": "/audio/es/como-te-llamas-d31b1c60.mp3",
+        "cómo estás": "/audio/es/como-estas-aa8602a8.mp3",
+        "por favor": "/audio/es/por-favor-93336702.mp3",
+        "sí": "/audio/es/si-c2514a97.mp3"
+      },
       "answer": "cómo te llamas",
       "translation": "what is your name",
       "note": "What is your name. You answer: me llamo..."
@@ -117,6 +123,12 @@
         "sí",
         "me llamo"
       ],
+      "audioFiles": {
+        "me llamo": "/audio/es/me-llamo-3914071c.mp3",
+        "sí": "/audio/es/si-c2514a97.mp3",
+        "no": "/audio/es/no-6336718d.mp3",
+        "bien": "/audio/es/bien-281e7180.mp3"
+      },
       "audio": {
         "text": "me llamo",
         "lang": "es",
@@ -174,6 +186,12 @@
         "buenos días",
         "cómo estás"
       ],
+      "audioFiles": {
+        "cómo estás": "/audio/es/como-estas-aa8602a8.mp3",
+        "cómo te llamas": "/audio/es/como-te-llamas-d31b1c60.mp3",
+        "buenos días": "/audio/es/buenos-dias-684b2ebc.mp3",
+        "buenas tardes": "/audio/es/buenas-tardes-e2bb61e0.mp3"
+      },
       "answer": "cómo estás",
       "translation": "how are you",
       "note": "How are you. You answer: estoy bien."

@@ -87,6 +87,12 @@
         "por consiguiente",
         "porque"
       ],
+      "audioFiles": {
+        "porque": "/audio/es/porque-37f09fb7.mp3",
+        "no obstante": "/audio/es/no-obstante-243f0560.mp3",
+        "por consiguiente": "/audio/es/por-consiguiente-1eb0dea3.mp3",
+        "aunque": "/audio/es/aunque-31147244.mp3"
+      },
       "answer": "porque",
       "translation": "because",
       "note": "It joins two clauses."
@@ -102,6 +108,12 @@
         "por tanto",
         "aunque"
       ],
+      "audioFiles": {
+        "aunque": "/audio/es/aunque-31147244.mp3",
+        "además": "/audio/es/ademas-f8e9c8c5.mp3",
+        "por tanto": "/audio/es/por-tanto-5a55c4f0.mp3",
+        "sin": "/audio/es/sin-c02b7ac0.mp3"
+      },
       "audio": {
         "text": "aunque",
         "lang": "es",
@@ -159,6 +171,12 @@
         "además",
         "sin"
       ],
+      "audioFiles": {
+        "sin embargo": "/audio/es/sin-embargo-22b1120c.mp3",
+        "además": "/audio/es/ademas-f8e9c8c5.mp3",
+        "por tanto": "/audio/es/por-tanto-5a55c4f0.mp3",
+        "sin": "/audio/es/sin-c02b7ac0.mp3"
+      },
       "answer": "sin embargo",
       "translation": "however",
       "note": "It is a formal but, with a comma before it."

@@ -102,6 +102,12 @@
         "planchar",
         "acabar"
       ],
+      "audioFiles": {
+        "acabar": "/audio/es/acabar-a023f552.mp3",
+        "barrer": "/audio/es/barrer-b4d8b016.mp3",
+        "planchar": "/audio/es/planchar-26207a4c.mp3",
+        "lavar": "/audio/es/lavar-16b8ea08.mp3"
+      },
       "answer": "acabar",
       "translation": "to finish",
       "note": "Acabar de plus an infinitive means to have just done it."
@@ -117,6 +123,12 @@
         "septiembre",
         "hace"
       ],
+      "audioFiles": {
+        "hace": "/audio/es/hace-1baf8597.mp3",
+        "agosto": "/audio/es/agosto-464fcf58.mp3",
+        "septiembre": "/audio/es/septiembre-400644a0.mp3",
+        "octubre": "/audio/es/octubre-7cd79837.mp3"
+      },
       "audio": {
         "text": "hace",
         "lang": "es",
@@ -174,6 +186,12 @@
         "el mes",
         "el invierno"
       ],
+      "audioFiles": {
+        "ayer": "/audio/es/ayer-be792b96.mp3",
+        "el mes": "/audio/es/mes-d4ad6bbc.mp3",
+        "ahora": "/audio/es/ahora-4199876c.mp3",
+        "el invierno": "/audio/es/invierno-42ae478f.mp3"
+      },
       "answer": "ayer",
       "translation": "yesterday",
       "note": "Yesterday."

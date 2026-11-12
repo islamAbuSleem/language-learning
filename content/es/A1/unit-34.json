@@ -84,6 +84,12 @@
         "el bolígrafo",
         "el cuaderno"
       ],
+      "audioFiles": {
+        "el cuaderno": "/audio/es/cuaderno-512e1064.mp3",
+        "la mochila": "/audio/es/mochila-6d52d448.mp3",
+        "el bolígrafo": "/audio/es/boligrafo-233ca4d8.mp3",
+        "la regla": "/audio/es/regla-c5c76514.mp3"
+      },
       "answer": "el cuaderno",
       "translation": "the notebook",
       "note": "Masculine: el cuaderno."
@@ -99,6 +105,12 @@
         "el cuaderno",
         "la mochila"
       ],
+      "audioFiles": {
+        "la mochila": "/audio/es/mochila-6d52d448.mp3",
+        "el diccionario": "/audio/es/diccionario-3e5625a1.mp3",
+        "la pizarra": "/audio/es/pizarra-636d4987.mp3",
+        "el cuaderno": "/audio/es/cuaderno-512e1064.mp3"
+      },
       "audio": {
         "text": "mochila",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la clase",
         "el diccionario"
       ],
+      "audioFiles": {
+        "el bolígrafo": "/audio/es/boligrafo-233ca4d8.mp3",
+        "la clase": "/audio/es/clase-a43527f4.mp3",
+        "el recreo": "/audio/es/recreo-038b4504.mp3",
+        "el diccionario": "/audio/es/diccionario-3e5625a1.mp3"
+      },
       "answer": "el bolígrafo",
       "translation": "the pen",
       "note": "Masculine: el bolígrafo. The accent marks the stress."
@@ -181,6 +199,12 @@
         "el bolígrafo",
         "la tiza"
       ],
+      "audioFiles": {
+        "la regla": "/audio/es/regla-c5c76514.mp3",
+        "la mochila": "/audio/es/mochila-6d52d448.mp3",
+        "el bolígrafo": "/audio/es/boligrafo-233ca4d8.mp3",
+        "la tiza": "/audio/es/tiza-c0312c9c.mp3"
+      },
       "answer": "la regla",
       "translation": "the ruler",
       "note": "Feminine: la regla."

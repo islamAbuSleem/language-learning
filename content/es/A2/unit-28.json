@@ -90,6 +90,12 @@
         "el número",
         "la habitación"
       ],
+      "audioFiles": {
+        "la habitación": "/audio/es/habitacion-8e273060.mp3",
+        "el mapa": "/audio/es/mapa-de7f8604.mp3",
+        "el número": "/audio/es/numero-bd413a7c.mp3",
+        "el libro": "/audio/es/libro-3681300c.mp3"
+      },
       "answer": "la habitación",
       "translation": "the room",
       "note": "Feminine: la habitación. The room you sleep in, and also a part of a building."
@@ -105,6 +111,12 @@
         "la tela",
         "la recepción"
       ],
+      "audioFiles": {
+        "la recepción": "/audio/es/recepcion-64dec784.mp3",
+        "el cuello": "/audio/es/cuello-3e808ec4.mp3",
+        "la cremallera": "/audio/es/cremallera-c8112fdc.mp3",
+        "la tela": "/audio/es/tela-8ef8acb8.mp3"
+      },
       "audio": {
         "text": "recepción",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la harina",
         "la llave"
       ],
+      "audioFiles": {
+        "la llave": "/audio/es/llave-28ba2859.mp3",
+        "la mezcla": "/audio/es/mezcla-9d7c2c8f.mp3",
+        "la harina": "/audio/es/harina-2cdc1466.mp3",
+        "el aceite": "/audio/es/aceite-41e4d2e0.mp3"
+      },
       "answer": "la llave",
       "translation": "the key",
       "note": "Feminine: la llave. It opens the door of your room."

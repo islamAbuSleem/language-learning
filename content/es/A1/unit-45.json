@@ -84,6 +84,12 @@
         "el autor",
         "la lectura"
       ],
+      "audioFiles": {
+        "la lectura": "/audio/es/lectura-c9e36c1f.mp3",
+        "la página": "/audio/es/pagina-bfa7f4b0.mp3",
+        "el título": "/audio/es/titulo-07fbbdcc.mp3",
+        "el autor": "/audio/es/autor-27314cb0.mp3"
+      },
       "answer": "la lectura",
       "translation": "the reading",
       "note": "Feminine: la lectura."
@@ -99,6 +105,12 @@
         "el autor",
         "la página"
       ],
+      "audioFiles": {
+        "la revista": "/audio/es/revista-7e25309b.mp3",
+        "la página": "/audio/es/pagina-bfa7f4b0.mp3",
+        "el título": "/audio/es/titulo-07fbbdcc.mp3",
+        "el autor": "/audio/es/autor-27314cb0.mp3"
+      },
       "audio": {
         "text": "revista",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la lectura",
         "el periódico"
       ],
+      "audioFiles": {
+        "el periódico": "/audio/es/periodico-059caa08.mp3",
+        "la frase": "/audio/es/frase-3865ffcc.mp3",
+        "la idea": "/audio/es/idea-bdf07e94.mp3",
+        "la lectura": "/audio/es/lectura-c9e36c1f.mp3"
+      },
       "answer": "el periódico",
       "translation": "the newspaper",
       "note": "Masculine: el periódico. The accent marks the stress."
@@ -181,6 +199,12 @@
         "el título",
         "el cuento"
       ],
+      "audioFiles": {
+        "la página": "/audio/es/pagina-bfa7f4b0.mp3",
+        "el título": "/audio/es/titulo-07fbbdcc.mp3",
+        "el autor": "/audio/es/autor-27314cb0.mp3",
+        "el cuento": "/audio/es/cuento-19881624.mp3"
+      },
       "answer": "la página",
       "translation": "the page",
       "note": "Feminine: la página. The accent marks the stress."

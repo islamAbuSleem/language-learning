@@ -90,6 +90,12 @@
         "el chubasco",
         "la película"
       ],
+      "audioFiles": {
+        "la película": "/audio/es/pelicula-4ec89aac.mp3",
+        "el chubasco": "/audio/es/chubasco-48fa4d08.mp3",
+        "la humedad": "/audio/es/humedad-0e5a989c.mp3",
+        "la helada": "/audio/es/helada-dcea6a60.mp3"
+      },
       "answer": "la película",
       "translation": "the film",
       "note": "Feminine: la película. A story told in pictures and sound."
@@ -105,6 +111,12 @@
         "el prólogo",
         "el final"
       ],
+      "audioFiles": {
+        "el cine": "/audio/es/cine-33f3156f.mp3",
+        "el final": "/audio/es/final-fda58490.mp3",
+        "el prólogo": "/audio/es/prologo-aecc6110.mp3",
+        "la reseña": "/audio/es/resena-feabdb10.mp3"
+      },
       "audio": {
         "text": "cine",
         "lang": "es",
@@ -162,6 +174,12 @@
         "la jarra",
         "la escena"
       ],
+      "audioFiles": {
+        "la escena": "/audio/es/escena-fa9c77ac.mp3",
+        "la verdura": "/audio/es/verdura-3fc79090.mp3",
+        "la servilleta": "/audio/es/servilleta-ef6ef818.mp3",
+        "la jarra": "/audio/es/jarra-ef1e4aa4.mp3"
+      },
       "answer": "la escena",
       "translation": "the scene",
       "note": "Feminine: la escena. One part of a film, in one place and at one time."

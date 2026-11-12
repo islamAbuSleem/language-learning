@@ -89,12 +89,15 @@ function shuffle(list, seed) {
 }
 
 /**
- * The options of a choice exercise: the right answer and three wrong ones.
+ * The options of a choice exercise, and the recording behind each one.
  *
  * The wrong ones come from the words already introduced, same theme first.
  * A wrong answer the learner has never seen is a new word wearing a disguise.
+ *
+ * Every option can be heard: tapping the speaker beside a word plays our own
+ * recording of it, so the learner never has to guess at pronunciation.
  */
-function options(item, pool, count, seed) {
+function options(item, pool, count, seed, track) {
   const candidates = pool.filter((other) => other.es !== item.es && other.en !== item.en)
 
   const sameTag = candidates.filter((other) =>
@@ -102,11 +105,17 @@ function options(item, pool, count, seed) {
   )
   const rest = candidates.filter((other) => !sameTag.includes(other))
 
-  const wrong = [...rotate(sameTag, seed), ...rotate(rest, seed)]
-    .slice(0, count - 1)
-    .map(display)
+  const wrong = [...rotate(sameTag, seed), ...rotate(rest, seed)].slice(0, count - 1)
 
-  return shuffle([display(item), ...wrong], seed)
+  const chosen = [item, ...wrong]
+  const audioFiles = Object.fromEntries(
+    chosen.map((entry) => [display(entry), audioPath(track, entry.es)]),
+  )
+
+  return {
+    options: shuffle(chosen.map(display), seed),
+    audioFiles,
+  }
 }
 
 /**
@@ -205,11 +214,15 @@ function buildUnit(vocabulary, track, level, pool) {
     singleIndex += 1
 
     if (shape === "select") {
+      const choice = options(item, pool, 4, seed, track)
+
       exercises.push({
         id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/select/${slug(item.es)}`,
         type: "select",
         prompt: `Pick the Spanish word for “${item.en}”.`,
-        options: options(item, pool, 4, seed),
+        options: choice.options,
+        /** The recording behind each option, so every word can be heard. */
+        audioFiles: choice.audioFiles,
         answer: display(item),
         translation: item.en,
         note: item.note ?? vocabulary.grammarNote ?? undefined,
@@ -230,12 +243,16 @@ function buildUnit(vocabulary, track, level, pool) {
       continue
     }
 
+    const choice = options(item, pool, 4, seed, track)
+
     exercises.push({
       id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/listen/${slug(item.es)}`,
       type: "listen",
       prompt: "What did you hear?",
       answer: display(item),
-      options: options(item, pool, 4, seed),
+      options: choice.options,
+      /** The recording behind each option, so every word can be heard. */
+      audioFiles: choice.audioFiles,
       audio: {
         text: item.es,
         lang: "es",

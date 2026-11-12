@@ -84,6 +84,12 @@
         "el impuesto",
         "la elecciones"
       ],
+      "audioFiles": {
+        "la elecciones": "/audio/es/elecciones-a60fc095.mp3",
+        "el referéndum": "/audio/es/referendum-2672530c.mp3",
+        "la constitución": "/audio/es/constitucion-c3afedf6.mp3",
+        "el impuesto": "/audio/es/impuesto-0352b110.mp3"
+      },
       "answer": "la elecciones",
       "translation": "the elections",
       "note": "Feminine plural: las elecciones."
@@ -99,6 +105,12 @@
         "el candidato",
         "el electorado"
       ],
+      "audioFiles": {
+        "el electorado": "/audio/es/electorado-c8773888.mp3",
+        "el voto": "/audio/es/voto-bd0565b0.mp3",
+        "el candidato": "/audio/es/candidato-98aec42c.mp3",
+        "el partido": "/audio/es/partido-058a2f44.mp3"
+      },
       "audio": {
         "text": "electorado",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el electorado",
         "el voto"
       ],
+      "audioFiles": {
+        "el voto": "/audio/es/voto-bd0565b0.mp3",
+        "el electorado": "/audio/es/electorado-c8773888.mp3",
+        "el candidato": "/audio/es/candidato-98aec42c.mp3",
+        "el partido": "/audio/es/partido-058a2f44.mp3"
+      },
       "answer": "el voto",
       "translation": "the vote",
       "note": "Masculine: el voto. It also means the vow."

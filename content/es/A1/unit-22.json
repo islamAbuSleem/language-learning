@@ -84,6 +84,12 @@
         "la lechuga",
         "la patata"
       ],
+      "audioFiles": {
+        "la patata": "/audio/es/patata-1c509918.mp3",
+        "el guisante": "/audio/es/guisante-04657a90.mp3",
+        "el brócoli": "/audio/es/brocoli-458cc968.mp3",
+        "la lechuga": "/audio/es/lechuga-fa559dac.mp3"
+      },
       "answer": "la patata",
       "translation": "the potato",
       "note": "Feminine: la patata. The plural is las patatas."
@@ -99,6 +105,12 @@
         "el guisante",
         "el calabacín"
       ],
+      "audioFiles": {
+        "el tomate": "/audio/es/tomate-2bb4756b.mp3",
+        "el calabacín": "/audio/es/calabacin-bd6c7582.mp3",
+        "el pimiento": "/audio/es/pimiento-535c6e88.mp3",
+        "el guisante": "/audio/es/guisante-04657a90.mp3"
+      },
       "audio": {
         "text": "tomate",
         "lang": "es",
@@ -156,6 +168,12 @@
         "el calabacín",
         "el tomate"
       ],
+      "audioFiles": {
+        "la cebolla": "/audio/es/cebolla-95b9ae24.mp3",
+        "el tomate": "/audio/es/tomate-2bb4756b.mp3",
+        "la zanahoria": "/audio/es/zanahoria-555c5bdc.mp3",
+        "el calabacín": "/audio/es/calabacin-bd6c7582.mp3"
+      },
       "answer": "la cebolla",
       "translation": "the onion",
       "note": "Feminine: la cebolla."
@@ -181,6 +199,12 @@
         "la zanahoria",
         "el postre"
       ],
+      "audioFiles": {
+        "la zanahoria": "/audio/es/zanahoria-555c5bdc.mp3",
+        "la ensalada": "/audio/es/ensalada-dbb8a84f.mp3",
+        "la bebida": "/audio/es/bebida-80ea72b0.mp3",
+        "el postre": "/audio/es/postre-e939ac40.mp3"
+      },
       "answer": "la zanahoria",
       "translation": "the carrot",
       "note": "Feminine: la zanahoria."

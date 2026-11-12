@@ -84,6 +84,12 @@
         "la sombrilla",
         "la espuma"
       ],
+      "audioFiles": {
+        "la orilla": "/audio/es/orilla-c058b7ff.mp3",
+        "la sombrilla": "/audio/es/sombrilla-22693cbc.mp3",
+        "el cubo": "/audio/es/cubo-9bf68f05.mp3",
+        "la espuma": "/audio/es/espuma-56acb5cf.mp3"
+      },
       "answer": "la orilla",
       "translation": "the shore",
       "note": "Feminine: la orilla."
@@ -99,6 +105,12 @@
         "la arena",
         "la espuma"
       ],
+      "audioFiles": {
+        "la arena": "/audio/es/arena-43b931cc.mp3",
+        "la sombrilla": "/audio/es/sombrilla-22693cbc.mp3",
+        "el cubo": "/audio/es/cubo-9bf68f05.mp3",
+        "la espuma": "/audio/es/espuma-56acb5cf.mp3"
+      },
       "audio": {
         "text": "arena",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la orilla",
         "la ola"
       ],
+      "audioFiles": {
+        "la ola": "/audio/es/ola-9dce41a0.mp3",
+        "la orilla": "/audio/es/orilla-c058b7ff.mp3",
+        "la arena": "/audio/es/arena-43b931cc.mp3",
+        "la concha": "/audio/es/concha-d0bd4e58.mp3"
+      },
       "answer": "la ola",
       "translation": "the wave",
       "note": "Feminine: la ola."
@@ -181,6 +199,12 @@
         "el cubo",
         "la concha"
       ],
+      "audioFiles": {
+        "la concha": "/audio/es/concha-d0bd4e58.mp3",
+        "el cubo": "/audio/es/cubo-9bf68f05.mp3",
+        "la espuma": "/audio/es/espuma-56acb5cf.mp3",
+        "la roca": "/audio/es/roca-8267272c.mp3"
+      },
       "answer": "la concha",
       "translation": "the shell",
       "note": "Feminine: la concha."

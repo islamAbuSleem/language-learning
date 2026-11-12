@@ -84,6 +84,12 @@
         "el peso",
         "el tamaño"
       ],
+      "audioFiles": {
+        "el tamaño": "/audio/es/tamano-6318c05d.mp3",
+        "el peso": "/audio/es/peso-81c557c0.mp3",
+        "la altura": "/audio/es/altura-277b7f6e.mp3",
+        "largo": "/audio/es/largo-ca01b290.mp3"
+      },
       "answer": "el tamaño",
       "translation": "the size",
       "note": "Masculine: el tamaño."
@@ -99,6 +105,12 @@
         "la medida",
         "largo"
       ],
+      "audioFiles": {
+        "largo": "/audio/es/largo-ca01b290.mp3",
+        "cuadrado": "/audio/es/cuadrado-549e5d70.mp3",
+        "la medida": "/audio/es/medida-720aab94.mp3",
+        "el peso": "/audio/es/peso-81c557c0.mp3"
+      },
       "audio": {
         "text": "largo",
         "lang": "es",
@@ -156,6 +168,12 @@
         "estrecho",
         "corto"
       ],
+      "audioFiles": {
+        "corto": "/audio/es/corto-5b9e0704.mp3",
+        "estrecho": "/audio/es/estrecho-770b4d1d.mp3",
+        "redondo": "/audio/es/redondo-346fd3e0.mp3",
+        "cuadrado": "/audio/es/cuadrado-549e5d70.mp3"
+      },
       "answer": "corto",
       "translation": "short",
       "note": "The feminine es corta."
@@ -181,6 +199,12 @@
         "el tamaño",
         "ancho"
       ],
+      "audioFiles": {
+        "ancho": "/audio/es/ancho-790d07d4.mp3",
+        "la altura": "/audio/es/altura-277b7f6e.mp3",
+        "el tamaño": "/audio/es/tamano-6318c05d.mp3",
+        "largo": "/audio/es/largo-ca01b290.mp3"
+      },
       "answer": "ancho",
       "translation": "wide",
       "note": "The feminine es ancha."

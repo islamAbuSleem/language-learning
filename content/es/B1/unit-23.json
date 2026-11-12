@@ -102,6 +102,12 @@
         "la tiza",
         "la regla"
       ],
+      "audioFiles": {
+        "el repaso": "/audio/es/repaso-810c3558.mp3",
+        "la regla": "/audio/es/regla-c5c76514.mp3",
+        "la tiza": "/audio/es/tiza-c0312c9c.mp3",
+        "el examen": "/audio/es/examen-6f6e1460.mp3"
+      },
       "answer": "el repaso",
       "translation": "the review",
       "note": "Masculine: el repaso."
@@ -117,6 +123,12 @@
         "el apuntes",
         "el tema"
       ],
+      "audioFiles": {
+        "el tema": "/audio/es/tema-a9f698a0.mp3",
+        "el apuntes": "/audio/es/apuntes-5eea5088.mp3",
+        "el esfuerzo": "/audio/es/esfuerzo-50c3c99c.mp3",
+        "concentrarse": "/audio/es/concentrarse-8d3d216f.mp3"
+      },
       "audio": {
         "text": "tema",
         "lang": "es",
@@ -174,6 +186,12 @@
         "el ejercicio",
         "la pizarra"
       ],
+      "audioFiles": {
+        "el ejercicio": "/audio/es/ejercicio-6962da70.mp3",
+        "la pizarra": "/audio/es/pizarra-636d4987.mp3",
+        "el repaso": "/audio/es/repaso-810c3558.mp3",
+        "el tema": "/audio/es/tema-a9f698a0.mp3"
+      },
       "answer": "el ejercicio",
       "translation": "the exercise",
       "note": "Masculine: el ejercicio."

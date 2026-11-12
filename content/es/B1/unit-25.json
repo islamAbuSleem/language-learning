@@ -84,6 +84,12 @@
         "el turno",
         "el portátil"
       ],
+      "audioFiles": {
+        "el portátil": "/audio/es/portatil-b746c728.mp3",
+        "el turno": "/audio/es/turno-b636edfc.mp3",
+        "la tarea": "/audio/es/tarea-6426cc8c.mp3",
+        "el proyecto": "/audio/es/proyecto-849246e1.mp3"
+      },
       "answer": "el portátil",
       "translation": "the laptop",
       "note": "Masculine: el portátil. The accent marks the stress."
@@ -99,6 +105,12 @@
         "descargar",
         "la contraseña"
       ],
+      "audioFiles": {
+        "la contraseña": "/audio/es/contrasena-c0c80830.mp3",
+        "descargar": "/audio/es/descargar-c7b653fc.mp3",
+        "el abogado": "/audio/es/abogado-c17d6734.mp3",
+        "el cocinero": "/audio/es/cocinero-4b9cb3bd.mp3"
+      },
       "audio": {
         "text": "contraseña",
         "lang": "es",
@@ -156,6 +168,12 @@
         "la pantalla",
         "el clic"
       ],
+      "audioFiles": {
+        "el clic": "/audio/es/clic-678f8891.mp3",
+        "el cursor": "/audio/es/cursor-d1262b20.mp3",
+        "la pantalla": "/audio/es/pantalla-1936135c.mp3",
+        "el programa": "/audio/es/programa-7f27ff10.mp3"
+      },
       "answer": "el clic",
       "translation": "the click",
       "note": "Masculine: el clic."

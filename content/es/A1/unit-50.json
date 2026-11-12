@@ -84,6 +84,12 @@
         "planchar",
         "barrer"
       ],
+      "audioFiles": {
+        "barrer": "/audio/es/barrer-b4d8b016.mp3",
+        "planchar": "/audio/es/planchar-26207a4c.mp3",
+        "lavar": "/audio/es/lavar-16b8ea08.mp3",
+        "doblar": "/audio/es/doblar-2c2c1a8e.mp3"
+      },
       "answer": "barrer",
       "translation": "to sweep",
       "note": "A regular -ar verb: barro, barres, barre."
@@ -99,6 +105,12 @@
         "ser",
         "planchar"
       ],
+      "audioFiles": {
+        "planchar": "/audio/es/planchar-26207a4c.mp3",
+        "ser": "/audio/es/ser-dc211978.mp3",
+        "hablar": "/audio/es/hablar-704a48e2.mp3",
+        "trabajar": "/audio/es/trabajar-acbc9a46.mp3"
+      },
       "audio": {
         "text": "planchar",
         "lang": "es",
@@ -156,6 +168,12 @@
         "pescar",
         "lavar"
       ],
+      "audioFiles": {
+        "lavar": "/audio/es/lavar-16b8ea08.mp3",
+        "pescar": "/audio/es/pescar-b1bcc646.mp3",
+        "pasear": "/audio/es/pasear-25bcb3c0.mp3",
+        "visitar": "/audio/es/visitar-3dedd4ba.mp3"
+      },
       "answer": "lavar",
       "translation": "to wash",
       "note": "A regular -ar verb: lavo, lavas, lava."
@@ -181,6 +199,12 @@
         "llegar",
         "doblar"
       ],
+      "audioFiles": {
+        "doblar": "/audio/es/doblar-2c2c1a8e.mp3",
+        "pasear": "/audio/es/pasear-25bcb3c0.mp3",
+        "visitar": "/audio/es/visitar-3dedd4ba.mp3",
+        "llegar": "/audio/es/llegar-13bd2638.mp3"
+      },
       "answer": "doblar",
       "translation": "to fold",
       "note": "A regular -ar verb: doblo, doblas, dobla."

@@ -51,6 +51,13 @@ export const selectExerciseSchema = z.object({
   prompt: z.string().min(1),
   /** Two to six options. The correct answer must be one of them. */
   options: z.array(z.string().min(1)).min(2).max(6),
+  /**
+   * The recording behind each option, keyed by the option text.
+   *
+   * Tapping the speaker beside a word plays our own recording of it, so the
+   * learner never has to guess at pronunciation.
+   */
+  audioFiles: z.record(z.string().min(1), z.string().min(1)),
   answer: z.string().min(1),
   /** The English gloss, shown next to the answer. */
   translation: z.string().min(1),
@@ -92,6 +99,13 @@ export const listenExerciseSchema = z.object({
   /** The word that is spoken, with its article. */
   answer: z.string().min(1),
   options: z.array(z.string().min(1)).min(2).max(6),
+  /**
+   * The recording behind each option, keyed by the option text.
+   *
+   * Tapping the speaker beside a word plays our own recording of it, so the
+   * learner never has to guess at pronunciation.
+   */
+  audioFiles: z.record(z.string().min(1), z.string().min(1)),
   /**
    * What is actually spoken.
    *

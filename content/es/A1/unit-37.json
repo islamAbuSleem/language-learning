@@ -84,6 +84,12 @@
         "enfadado",
         "feliz"
       ],
+      "audioFiles": {
+        "feliz": "/audio/es/feliz-5b49e512.mp3",
+        "enfadado": "/audio/es/enfadado-c6a1f504.mp3",
+        "tranquilo": "/audio/es/tranquilo-acc34128.mp3",
+        "nervioso": "/audio/es/nervioso-95934bc0.mp3"
+      },
       "answer": "feliz",
       "translation": "happy",
       "note": "The same in both genders: estoy feliz, ella está feliz."
@@ -99,6 +105,12 @@
         "enfadado",
         "triste"
       ],
+      "audioFiles": {
+        "triste": "/audio/es/triste-ff641034.mp3",
+        "enfadado": "/audio/es/enfadado-c6a1f504.mp3",
+        "tranquilo": "/audio/es/tranquilo-acc34128.mp3",
+        "nervioso": "/audio/es/nervioso-95934bc0.mp3"
+      },
       "audio": {
         "text": "triste",
         "lang": "es",
@@ -156,6 +168,12 @@
         "feliz",
         "preocupado"
       ],
+      "audioFiles": {
+        "aburrido": "/audio/es/aburrido-1a8933bc.mp3",
+        "preocupado": "/audio/es/preocupado-8150b820.mp3",
+        "soñoliento": "/audio/es/sonoliento-a5f40428.mp3",
+        "feliz": "/audio/es/feliz-5b49e512.mp3"
+      },
       "answer": "aburrido",
       "translation": "bored",
       "note": "The feminine is aburrida: ella está aburrida."
@@ -181,6 +199,12 @@
         "contento",
         "enfadado"
       ],
+      "audioFiles": {
+        "enfadado": "/audio/es/enfadado-c6a1f504.mp3",
+        "tranquilo": "/audio/es/tranquilo-acc34128.mp3",
+        "nervioso": "/audio/es/nervioso-95934bc0.mp3",
+        "contento": "/audio/es/contento-ae7500b8.mp3"
+      },
       "answer": "enfadado",
       "translation": "angry",
       "note": "The feminine is enfadada."

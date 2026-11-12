@@ -84,6 +84,12 @@
         "explicó",
         "exclamó"
       ],
+      "audioFiles": {
+        "haya hablado": "/audio/es/haya-hablado-39fbc518.mp3",
+        "explicó": "/audio/es/explico-2033ca20.mp3",
+        "respondió": "/audio/es/respondio-4ef5ab5a.mp3",
+        "exclamó": "/audio/es/exclamo-1c250cc0.mp3"
+      },
       "answer": "haya hablado",
       "translation": "has spoken",
       "note": "The perfect subjunctive of hablar."
@@ -99,6 +105,12 @@
         "coser",
         "haya comido"
       ],
+      "audioFiles": {
+        "haya comido": "/audio/es/haya-comido-79164df4.mp3",
+        "publicar": "/audio/es/publicar-73671b4c.mp3",
+        "traer": "/audio/es/traer-398bf9f0.mp3",
+        "coser": "/audio/es/coser-f9c892d0.mp3"
+      },
       "audio": {
         "text": "haya comido",
         "lang": "es",
@@ -156,6 +168,12 @@
         "he comido",
         "haya vivido"
       ],
+      "audioFiles": {
+        "haya vivido": "/audio/es/haya-vivido-82b42254.mp3",
+        "he hablado": "/audio/es/he-hablado-1e9484c0.mp3",
+        "he comido": "/audio/es/he-comido-898461ec.mp3",
+        "he vivido": "/audio/es/he-vivido-840c8ef0.mp3"
+      },
       "answer": "haya vivido",
       "translation": "has lived",
       "note": "The perfect subjunctive of vivir."

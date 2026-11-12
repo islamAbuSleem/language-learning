@@ -102,6 +102,12 @@
         "veinte",
         "uno"
       ],
+      "audioFiles": {
+        "uno": "/audio/es/uno-51d4a170.mp3",
+        "cinco": "/audio/es/cinco-c7a591d2.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3",
+        "veinte": "/audio/es/veinte-96939c3c.mp3"
+      },
       "answer": "uno",
       "translation": "one",
       "note": "One. Before a noun it becomes un or una."
@@ -117,6 +123,12 @@
         "tres",
         "un"
       ],
+      "audioFiles": {
+        "un": "/audio/es/un-61433a5a.mp3",
+        "tres": "/audio/es/tres-7f35efd4.mp3",
+        "cinco": "/audio/es/cinco-c7a591d2.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3"
+      },
       "audio": {
         "text": "un",
         "lang": "es",
@@ -174,6 +186,12 @@
         "una",
         "veinte"
       ],
+      "audioFiles": {
+        "una": "/audio/es/una-57d4aae0.mp3",
+        "cinco": "/audio/es/cinco-c7a591d2.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3",
+        "veinte": "/audio/es/veinte-96939c3c.mp3"
+      },
       "answer": "una",
       "translation": "a",
       "note": "Feminine one: una casa."
