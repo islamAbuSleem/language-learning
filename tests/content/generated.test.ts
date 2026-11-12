@@ -102,5 +102,9 @@ describe("generated content", () => {
         }
       }
     }
-  })
+  },
+  // Slow by design: it re-reads every vocabulary file for every unit, so the
+  // course outgrew the default 5s timeout at around a hundred units.
+  30_000,
+  )
 })

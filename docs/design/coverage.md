@@ -1,5 +1,15 @@
 # Coverage — our path against a proven syllabus
 
+> **Status, November 2026: this checklist is closed.** Every recommendation
+> below was built: the A1/A2 topic strand (now 53 + 32 units), the grammar
+> moved earlier (preterite, imperfect, imperative and perfect in A2; the
+> conditional, subjunctive, reported speech, relatives and pluperfect in
+> B1), and B2 kept for what is genuinely advanced. The path is 135 units,
+> and the live gap checks — `npm run audit:path`, `npm run check:content`,
+> the drill-answer audit and the audio check, all inside `npm test` — are
+> what keep it gapless now. The table below is the history of how it got
+> there, frozen at the 60-unit mark; do not update it row by row.
+
 **Reference:** the topic sequence of the Masters Spanish Academy level courses
 (A1: 27 lessons, A2: 31, B1: 36, B2.1: 18, B2.2: 49 — about 162 lessons in
 all). Their *order* is a tested CEFR syllabus; their lessons, vocabulary and
@@ -157,6 +167,14 @@ teaches it at B1.
    parked in B2 where it is too late.
 
 ## What we would change
+
+> All three landed. (1) The topic strand is now far past nine units: A1
+> alone holds fifty vocabulary units plus three number units. (2) The
+> grammar moved as tabled: everything listed now sits where the "Should
+> be" column puts it, and the path audit forbids it from drifting back.
+> (3) B2 stayed advanced, and grew its own world units (work, law, the
+> environment, technology, health, art, politics, history, science,
+> society) on top.
 
 **1. Add a topic strand to A1 and A2.** Nine new units, each ten words:
 weather · colours and clothes · the house · the family · the days of the week ·
