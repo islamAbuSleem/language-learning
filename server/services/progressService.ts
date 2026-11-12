@@ -19,18 +19,24 @@ import {
  */
 
 export async function getProfile(learnerId: string): Promise<LearnerProfile> {
-  return getProgressRepository().loadProfile(learnerId)
+  const repository = await getProgressRepository()
+
+  return repository.loadProfile(learnerId)
 }
 
 export async function getItemState(
   learnerId: string,
   itemId: string,
 ): Promise<ItemState | null> {
-  return getProgressRepository().loadItem(learnerId, itemId)
+  const repository = await getProgressRepository()
+
+  return repository.loadItem(learnerId, itemId)
 }
 
 export async function listItemStates(learnerId: string): Promise<ItemState[]> {
-  return getProgressRepository().listItems(learnerId)
+  const repository = await getProgressRepository()
+
+  return repository.listItems(learnerId)
 }
 
 /**
@@ -44,16 +50,16 @@ export async function recordExercise(
   grade: DifficultyGrade,
   now: number,
 ): Promise<{ item: ItemState; profile: LearnerProfile }> {
-  const repository = getProgressRepository()
+  const repository = await getProgressRepository()
 
-  const previous = (await repository.loadItem(learnerId, exercise.id)) ??
-    createItemState(exercise.id, now)
+  // One read for both the item and the profile, then one write for both.
+  const state = await repository.loadState(learnerId, exercise.id)
+  const previous = state.item ?? createItemState(exercise.id, now)
 
   const item = applyOutcome(previous, outcome, grade, now)
-  const profile = applyExerciseResult(await repository.loadProfile(learnerId), outcome, now)
+  const profile = applyExerciseResult(state.profile, outcome, now)
 
-  await repository.saveItem(learnerId, item)
-  await repository.saveProfile(learnerId, profile)
+  await repository.recordExercise(learnerId, item, profile)
 
   return { item, profile }
 }

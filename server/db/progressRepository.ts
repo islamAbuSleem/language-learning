@@ -3,21 +3,27 @@ import type { ProgressRepository } from "../domain/progress/repository"
 import { ensureSchema, getSql } from "./client"
 import { createPostgresProgressRepository } from "./postgresProgressRepository"
 
-let repository: ProgressRepository | null = null
+let repositoryPromise: Promise<ProgressRepository> | null = null
 
 /**
  * The repository the app writes progress to.
  *
- * The schema is created on first use, so a fresh database needs no manual
- * step. `scripts/migrate.mjs` does the same thing from the command line.
+ * The schema is created before the first query, not alongside it: a
+ * `CREATE TABLE` holds a lock, and running one next to the first insert makes
+ * that insert wait for it. `scripts/migrate.mjs` applies the same file from the
+ * command line for people who prefer to migrate before starting.
  */
-export function getProgressRepository(): ProgressRepository {
-  if (!repository) {
-    repository = createPostgresProgressRepository(getSql())
-    void ensureSchema().catch(() => {
-      // The first real query surfaces the error with its own message.
+export function getProgressRepository(): Promise<ProgressRepository> {
+  if (!repositoryPromise) {
+    repositoryPromise = (async () => {
+      await ensureSchema()
+
+      return createPostgresProgressRepository(getSql())
+    })().catch((error: unknown) => {
+      repositoryPromise = null
+      throw error
     })
   }
 
-  return repository
+  return repositoryPromise
 }

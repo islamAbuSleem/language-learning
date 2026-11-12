@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url"
 import { describe, expect, it } from "vitest"
 
 import { createPostgresProgressRepository } from "../../server/db/postgresProgressRepository"
-import { createItemState } from "../../server/domain/srs/mastery"
+import { applyOutcome, createItemState } from "../../server/domain/srs/mastery"
 
 const url = process.env.DATABASE_URL
 const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..")
@@ -23,6 +23,7 @@ const statements = JSON.parse(
  */
 describe.skipIf(!url)("the postgres repository", () => {
   const learnerId = `test-${randomUUID()}`
+  const itemId = "es/a1/u1/select/cafe"
 
   async function withRepository<T>(
     run: (repository: ReturnType<typeof createPostgresProgressRepository>) => Promise<T>,
@@ -44,33 +45,21 @@ describe.skipIf(!url)("the postgres repository", () => {
   }
 
   it(
-    "creates a learner on first sight and reads it back",
+    "creates a learner on the first write and reads it back",
     async () => {
       await withRepository(async (repository) => {
-        const profile = await repository.loadProfile(learnerId)
+        const item = createItemState(itemId, 1_760_000_000_000)
 
-        expect(profile.xp).toBe(0)
-        expect(profile.streak).toBe(0)
-      })
-    },
-    30_000,
-  )
-
-  it(
-    "round-trips a profile",
-    async () => {
-      await withRepository(async (repository) => {
-        await repository.saveProfile(learnerId, {
-          xp: 42,
-          streak: 5,
+        await repository.recordExercise(learnerId, item, {
+          xp: 2,
+          streak: 1,
           lastPracticeDate: "2026-11-12",
         })
 
-        const loaded = await repository.loadProfile(learnerId)
-
-        expect(loaded.xp).toBe(42)
-        expect(loaded.streak).toBe(5)
-        expect(loaded.lastPracticeDate).toBe("2026-11-12")
+        const profile = await repository.loadProfile(learnerId)
+        expect(profile.xp).toBe(2)
+        expect(profile.streak).toBe(1)
+        expect(profile.lastPracticeDate).toBe("2026-11-12")
       })
     },
     30_000,
@@ -80,14 +69,47 @@ describe.skipIf(!url)("the postgres repository", () => {
     "round-trips an item's memory state",
     async () => {
       await withRepository(async (repository) => {
-        const item = createItemState("es/a1/u1/select/cafe", 1_760_000_000_000)
+        const item = applyOutcome(
+          createItemState(itemId, 1_760_000_000_000),
+          "correct",
+          "too_easy",
+          1_760_000_000_000,
+        )
 
-        await repository.saveItem(learnerId, item)
-        const loaded = await repository.loadItem(learnerId, "es/a1/u1/select/cafe")
+        await repository.recordExercise(learnerId, item, {
+          xp: 2,
+          streak: 1,
+          lastPracticeDate: "2026-11-12",
+        })
+        const loaded = await repository.loadItem(learnerId, itemId)
 
         expect(loaded?.itemId).toBe(item.itemId)
         expect(loaded?.mastery).toBe(item.mastery)
+        expect(loaded?.reps).toBe(item.reps)
         expect(loaded?.dueAt).toBe(item.dueAt)
+      })
+    },
+    30_000,
+  )
+
+  it(
+    "updates an item instead of duplicating it",
+    async () => {
+      await withRepository(async (repository) => {
+        await repository.recordExercise(learnerId, createItemState(itemId, 1), {
+          xp: 2,
+          streak: 1,
+          lastPracticeDate: "2026-11-12",
+        })
+        await repository.recordExercise(
+          learnerId,
+          applyOutcome(createItemState(itemId, 1), "correct", "too_easy", 1),
+          { xp: 4, streak: 1, lastPracticeDate: "2026-11-12" },
+        )
+
+        const items = await repository.listItems(learnerId)
+        expect(items).toHaveLength(1)
+        expect(items[0]?.mastery).toBeCloseTo(0.3)
       })
     },
     30_000,
@@ -97,8 +119,16 @@ describe.skipIf(!url)("the postgres repository", () => {
     "lists the learner's items",
     async () => {
       await withRepository(async (repository) => {
-        await repository.saveItem(learnerId, createItemState("a", 1))
-        await repository.saveItem(learnerId, createItemState("b", 2))
+        await repository.recordExercise(learnerId, createItemState("a", 1), {
+          xp: 0,
+          streak: 0,
+          lastPracticeDate: null,
+        })
+        await repository.recordExercise(learnerId, createItemState("b", 2), {
+          xp: 0,
+          streak: 0,
+          lastPracticeDate: null,
+        })
 
         const items = await repository.listItems(learnerId)
 

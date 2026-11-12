@@ -19,6 +19,7 @@ const {
   typed,
   matchedPairs,
   canCheck,
+  saving,
   start,
   check,
   skip,
@@ -70,7 +71,7 @@ onMounted(() => {
       <NuxtLink class="btn btn--primary" to="/">Back to the path</NuxtLink>
     </section>
 
-    <section v-else-if="exercise" class="lesson__body">
+    <section v-else-if="exercise" class="lesson__body" :class="{ 'lesson__body--saving': saving }">
       <h1 class="lesson__question">{{ exercise.prompt }}</h1>
 
       <ExerciseRenderer
@@ -84,8 +85,13 @@ onMounted(() => {
       />
 
       <div v-if="phase === 'answering'" class="lesson__actions">
-        <button type="button" class="btn btn--ghost" @click="skip()">Skip</button>
-        <button type="button" class="btn btn--primary" :disabled="!canCheck" @click="check()">
+        <button type="button" class="btn btn--ghost" :disabled="saving" @click="skip()">Skip</button>
+        <button
+          type="button"
+          class="btn btn--primary"
+          :disabled="!canCheck || saving"
+          @click="check()"
+        >
           Check
         </button>
       </div>
@@ -95,6 +101,8 @@ onMounted(() => {
         :feedback="feedback"
         @continue="complete($event)"
       />
+
+      <p v-if="saving" class="lesson__saving">Saving…</p>
     </section>
   </main>
 </template>
@@ -164,6 +172,18 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   gap: var(--space-3);
+}
+
+.lesson__body--saving {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.lesson__saving {
+  margin: 0;
+  text-align: center;
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
 }
 
 .lesson__done {

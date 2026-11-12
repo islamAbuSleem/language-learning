@@ -21,10 +21,13 @@ interface TrackSummary {
 }
 
 const { data: tracks } = await useFetch<{ tracks: TrackSummary[] }>("/api/tracks")
+
+// The learner lives in a cookie, so the server has to receive it: without the
+// forwarded cookie the page would render a different, empty learner.
 const { data: progress } = await useFetch<{
   profile: LearnerProfilePayload
   items: ItemProgressPayload[]
-}>("/api/progress")
+}>("/api/progress", { headers: useRequestHeaders(["cookie"]) })
 
 const profile = computed(() => progress.value?.profile ?? null)
 

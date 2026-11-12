@@ -36,6 +36,15 @@ export function useLessonSession(track: string, level: string, unit: number) {
   const typed = ref("")
   const matchedPairs = ref<Record<string, string>>({})
 
+  /**
+   * True while the server is writing progress.
+   *
+   * Saving takes a round trip to the database, and the learner must not answer
+   * the next exercise while the previous one is still being written: the
+   * response would reset the answer they just gave.
+   */
+  const saving = ref(false)
+
   function resetAnswerState() {
     selection.value = null
     typed.value = ""
@@ -82,15 +91,20 @@ export function useLessonSession(track: string, level: string, unit: number) {
   const canCheck = computed(() => buildResponse() !== null)
 
   async function submit(response: ExerciseResponsePayload) {
-    if (!sessionId.value) return
+    if (!sessionId.value || saving.value) return
 
-    const result = await $fetch<LessonFeedback>("/api/answer", {
-      method: "POST",
-      body: { sessionId: sessionId.value, response },
-    })
+    saving.value = true
+    try {
+      const result = await $fetch<LessonFeedback>("/api/answer", {
+        method: "POST",
+        body: { sessionId: sessionId.value, response },
+      })
 
-    feedback.value = result
-    phase.value = "feedback"
+      feedback.value = result
+      phase.value = "feedback"
+    } finally {
+      saving.value = false
+    }
   }
 
   async function check() {
@@ -110,26 +124,31 @@ export function useLessonSession(track: string, level: string, unit: number) {
    * The grade is optional: not picking one means neutral.
    */
   async function complete(grade: DifficultyGrade) {
-    if (!sessionId.value) return
+    if (!sessionId.value || saving.value) return
 
-    const result = await $fetch<{
-      index: number
-      done: boolean
-      exercise: ClientExercise | null
-      profile: LearnerProfilePayload
-      counts: { correct: number; incorrect: number; skipped: number }
-    }>("/api/complete", {
-      method: "POST",
-      body: { sessionId: sessionId.value, grade },
-    })
+    saving.value = true
+    try {
+      const result = await $fetch<{
+        index: number
+        done: boolean
+        exercise: ClientExercise | null
+        profile: LearnerProfilePayload
+        counts: { correct: number; incorrect: number; skipped: number }
+      }>("/api/complete", {
+        method: "POST",
+        body: { sessionId: sessionId.value, grade },
+      })
 
-    index.value = result.index
-    counts.value = result.counts
-    profile.value = result.profile
-    exercise.value = result.exercise
-    feedback.value = null
-    resetAnswerState()
-    phase.value = result.done ? "done" : "answering"
+      index.value = result.index
+      counts.value = result.counts
+      profile.value = result.profile
+      exercise.value = result.exercise
+      feedback.value = null
+      resetAnswerState()
+      phase.value = result.done ? "done" : "answering"
+    } finally {
+      saving.value = false
+    }
   }
 
   const summary = computed<LessonSummary>(() => ({
@@ -153,6 +172,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
     typed,
     matchedPairs,
     canCheck,
+    saving,
     start,
     check,
     skip,

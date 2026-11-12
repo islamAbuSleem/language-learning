@@ -2,7 +2,7 @@ import type { ItemState } from "#shared/srs/types"
 
 import { createLearnerProfile, type LearnerProfile } from "../srs/progress"
 
-import type { ProgressRepository } from "./repository"
+import type { LearnerItemState, ProgressRepository } from "./repository"
 
 /**
  * A repository that keeps everything in memory.
@@ -20,14 +20,7 @@ export function createInMemoryProgressRepository(): ProgressRepository {
       const existing = profiles.get(learnerId)
       if (existing) return { ...existing }
 
-      const created = createLearnerProfile()
-      profiles.set(learnerId, created)
-
-      return { ...created }
-    },
-
-    async saveProfile(learnerId, profile) {
-      profiles.set(learnerId, { ...profile })
+      return createLearnerProfile()
     },
 
     async loadItem(learnerId, itemId) {
@@ -35,14 +28,25 @@ export function createInMemoryProgressRepository(): ProgressRepository {
       return existing ? { ...existing } : null
     },
 
-    async saveItem(learnerId, item) {
-      items.set(key(learnerId, item.itemId), { ...item })
+    async loadState(learnerId, itemId): Promise<LearnerItemState> {
+      const profile = profiles.get(learnerId)
+      const item = items.get(key(learnerId, itemId))
+
+      return {
+        profile: profile ? { ...profile } : createLearnerProfile(),
+        item: item ? { ...item } : null,
+      }
     },
 
     async listItems(learnerId) {
       return [...items.entries()]
         .filter(([itemKey]) => itemKey.startsWith(`${learnerId}::`))
         .map(([, item]) => ({ ...item }))
+    },
+
+    async recordExercise(learnerId, item, profile) {
+      items.set(key(learnerId, item.itemId), { ...item })
+      profiles.set(learnerId, { ...profile })
     },
   }
 }
