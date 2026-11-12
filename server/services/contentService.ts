@@ -4,6 +4,7 @@ import {
   trackSchema,
   unitSchema,
   type CefrLevel,
+  type Exercise,
   type Track,
   type TrackId,
   type Unit,
@@ -13,6 +14,9 @@ const CONTENT_STORAGE = "assets:content"
 
 /** The highest unit number any level may hold. */
 const MAX_UNIT_NUMBER = 20
+
+/** Parsed units, kept so a session does not re-read and re-parse the file. */
+const unitCache = new Map<string, Unit>()
 
 async function readJson(key: string): Promise<unknown | null> {
   const raw = await useStorage(CONTENT_STORAGE).getItem(key)
@@ -45,6 +49,10 @@ export async function loadUnit(
   level: CefrLevel,
   unit: number,
 ): Promise<Unit | null> {
+  const cacheKey = `${track}/${level}/${unit}`
+  const cached = unitCache.get(cacheKey)
+  if (cached) return cached
+
   const raw = await readJson(`${track}/${level}/unit-${unit}.json`)
   if (raw === null) return null
 
@@ -53,7 +61,32 @@ export async function loadUnit(
     throw new Error(`Invalid unit content: ${result.error.message}`)
   }
 
+  unitCache.set(cacheKey, result.data)
+
   return result.data
+}
+
+/**
+ * Find one exercise by its id.
+ *
+ * Exercise ids carry their place in the path: `es/a1/u1/select/cafe`. The
+ * practice session needs to go from an item the learner has met back to the
+ * exercise itself.
+ */
+export async function findExercise(exerciseId: string): Promise<Exercise | null> {
+  const parts = exerciseId.split("/")
+  if (parts.length < 4) return null
+
+  const track = trackIdSchema.safeParse(parts[0])
+  const level = cefrLevelSchema.safeParse(parts[1]?.toUpperCase() ?? "")
+  const unit = Number((parts[2] ?? "").replace(/^u/, ""))
+
+  if (!track.success || !level.success || !Number.isInteger(unit) || unit < 1) return null
+
+  const content = await loadUnit(track.data, level.data, unit)
+  if (!content) return null
+
+  return content.exercises.find((exercise) => exercise.id === exerciseId) ?? null
 }
 
 /** The units of one level, in order. */

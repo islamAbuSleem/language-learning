@@ -14,6 +14,13 @@ export type ExerciseOutcome = "correct" | "incorrect" | "skipped"
  */
 export type DifficultyGrade = "too_easy" | "too_difficult" | "neutral"
 
+/**
+ * Items below this mastery are "shaky" and feed the practice node.
+ *
+ * Lives here so the app and the server agree on what weak means.
+ */
+export const PRACTICE_MASTERY_CEILING = 0.6
+
 /** Per-item memory state. */
 export interface ItemState {
   /** Stable id, e.g. `es/u1/select/gato`. */

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { ItemProgressPayload, LearnerProfilePayload } from "#shared/api/schemas"
+import { PRACTICE_MASTERY_CEILING } from "#shared/srs/types"
 
 interface LevelSummary {
   level: string
@@ -31,6 +32,16 @@ const { data: progress } = await useFetch<{
 
 const profile = computed(() => progress.value?.profile ?? null)
 
+/** Items the learner has met and is still shaky on. */
+const weakItems = computed(
+  () => (progress.value?.items ?? []).filter((item) => item.mastery < PRACTICE_MASTERY_CEILING),
+)
+
+/** The ones the schedule says are due back now. */
+const dueItems = computed(
+  () => weakItems.value.filter((item) => item.dueAt <= Date.now()),
+)
+
 /** The units the learner has already touched, keyed by level and unit. */
 const touchedUnits = computed(() => {
   const touched = new Set<string>()
@@ -61,6 +72,23 @@ const touchedUnits = computed(() => {
         </div>
       </dl>
     </header>
+
+    <section class="practice">
+      <h2 class="practice__title">Practice</h2>
+      <p class="practice__note">
+        Items you have met come back on their own. Practise them whenever you like.
+      </p>
+      <div class="practice__actions">
+        <NuxtLink class="practice__card" :class="{ 'practice__card--empty': dueItems.length === 0 }" to="/practice?mode=due">
+          <span class="practice__count">{{ dueItems.length }}</span>
+          <span class="practice__label">due back now</span>
+        </NuxtLink>
+        <NuxtLink class="practice__card" to="/practice?mode=weak">
+          <span class="practice__count">{{ weakItems.length }}</span>
+          <span class="practice__label">still shaky</span>
+        </NuxtLink>
+      </div>
+    </section>
 
     <section v-for="track in tracks?.tracks ?? []" :key="track.id" class="track">
       <h2 class="track__title">{{ track.name }}</h2>
@@ -160,6 +188,60 @@ const touchedUnits = computed(() => {
 
 .track {
   margin-bottom: var(--space-6);
+}
+
+.practice {
+  margin-bottom: var(--space-6);
+  padding: var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-accent-soft);
+}
+
+.practice__title {
+  font-size: 1.1rem;
+}
+
+.practice__note {
+  margin: var(--space-1) 0 var(--space-3);
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+}
+
+.practice__actions {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.practice__card {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.practice__card:hover {
+  border-color: var(--color-accent);
+}
+
+.practice__card--empty {
+  opacity: 0.7;
+}
+
+.practice__count {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-accent-strong);
+}
+
+.practice__label {
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
 }
 
 .track__title {

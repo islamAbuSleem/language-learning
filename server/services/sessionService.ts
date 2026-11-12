@@ -2,8 +2,12 @@ import type { Exercise } from "#shared/content/schema"
 
 import type { ExerciseOutcome } from "../domain/srs"
 
+/** A lesson runs the units of a level; a practice session runs items due back. */
+export type SessionKind = "unit" | "practice"
+
 export interface LessonSession {
   id: string
+  kind: SessionKind
   track: string
   unit: number
   /** Full exercises, answers included. They never leave the server. */
@@ -21,11 +25,13 @@ export function createSession(
   unit: number,
   exercises: Exercise[],
   now: number,
+  kind: SessionKind = "unit",
 ): LessonSession {
   const id = `s_${now.toString(36)}_${Math.random().toString(36).slice(2, 8)}`
 
   const session: LessonSession = {
     id,
+    kind,
     track,
     unit,
     exercises,

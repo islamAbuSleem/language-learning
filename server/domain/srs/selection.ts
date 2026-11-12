@@ -1,7 +1,4 @@
-import type { ItemState } from "./types"
-
-/** Items below this mastery are "shaky" and feed the practice node. */
-export const PRACTICE_MASTERY_CEILING = 0.6
+import { PRACTICE_MASTERY_CEILING, type ItemState } from "#shared/srs/types"
 
 export function isDue(state: ItemState, now: number): boolean {
   return state.dueAt <= now
@@ -32,6 +29,19 @@ export function selectReviewItems(
 ): ItemState[] {
   return states
     .filter((state) => isDue(state, now))
+    .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
+    .slice(0, Math.max(0, count))
+}
+
+/**
+ * The weakest items, whether or not they are due.
+ *
+ * This is the "practice weakest skills" behaviour: a learner who keeps getting
+ * one word wrong should be able to drill it now, not in six days.
+ */
+export function selectWeakItems(states: readonly ItemState[], count: number): ItemState[] {
+  return states
+    .filter((state) => state.mastery < PRACTICE_MASTERY_CEILING)
     .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
     .slice(0, Math.max(0, count))
 }

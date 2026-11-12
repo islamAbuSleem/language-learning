@@ -88,6 +88,31 @@ export function useLessonSession(track: string, level: string, unit: number) {
     }
   }
 
+  /**
+   * Start a practice session: the items the learner has met come back.
+   *
+   * `due` follows the schedule, `weak` follows the mastery.
+   */
+  async function startPractice(mode: "due" | "weak" = "due", count = 10) {
+    phase.value = "loading"
+    resetAnswerState()
+
+    const response = await $fetch<{
+      sessionId: string | null
+      total: number
+      index: number
+      exercise: ClientExercise | null
+      profile: LearnerProfilePayload
+    }>("/api/practice", { method: "POST", body: { mode, count } })
+
+    sessionId.value = response.sessionId
+    total.value = response.total
+    index.value = response.index
+    exercise.value = response.exercise
+    profile.value = response.profile
+    phase.value = response.exercise ? "answering" : "done"
+  }
+
   const canCheck = computed(() => buildResponse() !== null)
 
   async function submit(response: ExerciseResponsePayload) {
@@ -174,6 +199,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
     canCheck,
     saving,
     start,
+    startPractice,
     check,
     skip,
     complete,
