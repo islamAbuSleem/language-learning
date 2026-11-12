@@ -77,7 +77,8 @@ app/pages/                 dashboard · lesson/[track]/[level]/[unit]
 
 Working: dashboard, the A1 to B2 ladder, lesson player (select / match / type_in),
 server-side grading, the self-grade feedback panel, the SRS engine, XP, streak,
-and progress that survives a restart (Postgres).
+progress that survives a restart (Postgres), and the practice loop that brings
+due and shaky items back.
 
-Not built yet: the practice node that brings due items back, unit unlocking, audio
-for the `listen` type, German and English content.
+Not built yet: unit unlocking, audio for the `listen` type, German and English
+content.

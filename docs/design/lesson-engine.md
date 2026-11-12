@@ -65,6 +65,14 @@ observed `ev_1dfc24e4c77c5e8f…`, `ev_2a9ec70af799e30d…`, `ev_320cf0f5ac7cef1
 feedback panel (observed: hearts unchanged across 10+ skips). Skipped items go back into
 the practice pool.
 
+**Built** — the practice node. The dashboard shows how many items are due back and how
+many are still shaky; `POST /api/practice` builds a session from the learner's own
+items, either the ones the schedule says are due (`due`) or the ones below the mastery
+ceiling (`weak`). Exercises are found back from their ids, so the session comes from the
+learner's history and not from the unit. Verified against the database: an item
+answered wrongly sits at mastery 0 and comes back at once, an item answered correctly
+sits at 0.30 and is due tomorrow.
+
 ## 4. The SRS model
 
 The reference asks the learner to self-grade every item (**Too easy** / **Too difficult**).
@@ -174,10 +182,13 @@ is independent of the course. One UI language (English) for v0; the *course* is 
 
 ## 8. Open questions to close next
 
-- [ ] Confirm the remaining exercise types (`type-in`, `listen`) against the reference
-- [ ] Heart loss / regen rules
+- [ ] Confirm the remaining exercise types (`type-in`, `listen`) against the reference —
+      the reference's onboarding overlay kept blocking the path to a lesson that uses them
 - [ ] XP tiers and how they gate content
 - [ ] Streak freeze semantics
 - [ ] Full league tier list and promotion window
 - [ ] What a daily quest is and how it rewards
 - [ ] Placement test: length, and how it maps to a starting unit
+- [ ] Whether the reference blocks a lesson when the hearts run out — the observation
+      stopped at the heart counter, so the blocking itself is **unverified**. We do not
+      block either way.
