@@ -28,6 +28,7 @@ function onInput(event: Event) {
       autocapitalize="off"
       spellcheck="false"
       placeholder="Type in Spanish"
+      aria-label="Type your answer in Spanish"
       :value="modelValue"
       @input="onInput"
     />

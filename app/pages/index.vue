@@ -331,7 +331,8 @@ function unitLabel(unit: UnitSummary): string {
 
 .dashboard__progress-link {
   display: inline-block;
-  margin-top: var(--space-2);
+  margin-top: var(--space-1);
+  padding: var(--space-3) 0;
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--color-accent);
@@ -748,7 +749,7 @@ a.unit--current:hover {
 .unit--weak .unit__number {
   background: var(--color-gold-soft);
   border-color: var(--color-gold-strong);
-  color: var(--color-gold-strong);
+  color: var(--color-accent);
 }
 
 .unit__body {

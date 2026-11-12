@@ -82,7 +82,14 @@ function begin() {
     <header class="lesson__header">
       <NuxtLink class="lesson__back" to="/"><AppIcon name="back" /> Learn</NuxtLink>
 
-      <div v-if="!reading" class="lesson__progress">
+      <div
+        v-if="!reading"
+        class="lesson__progress"
+        role="progressbar"
+        :aria-valuenow="total > 0 ? Math.round((index / total) * 100) : 0"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
         <div
           class="lesson__progress-fill"
           :style="{ width: `${total > 0 ? (index / total) * 100 : 0}%` }"
