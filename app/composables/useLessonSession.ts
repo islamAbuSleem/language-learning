@@ -21,7 +21,7 @@ export interface LessonSummary {
  * The server owns the answer key, so the client only ever sends what the
  * learner did and renders what came back.
  */
-export function useLessonSession(track: string, unit: number) {
+export function useLessonSession(track: string, level: string, unit: number) {
   const phase = ref<"loading" | "answering" | "feedback" | "done">("loading")
   const sessionId = ref<string | null>(null)
   const exercise = ref<ClientExercise | null>(null)
@@ -52,7 +52,7 @@ export function useLessonSession(track: string, unit: number) {
       index: number
       exercise: ClientExercise | null
       profile: LearnerProfilePayload
-    }>("/api/session", { method: "POST", body: { track, unit } })
+    }>("/api/session", { method: "POST", body: { track, level, unit } })
 
     sessionId.value = response.sessionId
     total.value = response.total

@@ -3,7 +3,8 @@ import ExerciseRenderer from "~/components/exercises/ExerciseRenderer.vue"
 import LessonFeedbackPanel from "~/components/lesson/FeedbackPanel.vue"
 
 const route = useRoute()
-const track = String(route.query.track ?? "es")
+const track = String(route.params.track)
+const level = String(route.params.level)
 const unit = Number(route.params.unit)
 
 const {
@@ -22,7 +23,7 @@ const {
   check,
   skip,
   complete,
-} = useLessonSession(track, unit)
+} = useLessonSession(track, level, unit)
 
 onMounted(() => {
   start()
@@ -43,6 +44,8 @@ onMounted(() => {
 
       <span v-if="profile" class="lesson__hearts">♥ {{ profile.hearts }}</span>
     </header>
+
+    <p class="lesson__crumb">{{ level }} · Unit {{ unit }}</p>
 
     <p v-if="phase === 'loading'" class="lesson__hint">Loading…</p>
 
@@ -109,7 +112,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   gap: var(--space-4);
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 
 .lesson__back {
@@ -136,6 +139,14 @@ onMounted(() => {
   color: var(--color-wrong);
   font-weight: 700;
   white-space: nowrap;
+}
+
+.lesson__crumb {
+  margin: 0 0 var(--space-5);
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .lesson__hint {

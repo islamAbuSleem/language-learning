@@ -12,8 +12,8 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: "Invalid session request" })
   }
 
-  const { track, unit } = body.data
-  const content = await loadUnit(track, unit)
+  const { track, level, unit } = body.data
+  const content = await loadUnit(track, level, unit)
 
   if (!content) {
     throw createError({ statusCode: 404, statusMessage: "Unit not found" })
@@ -26,6 +26,7 @@ export default defineEventHandler(async (event) => {
   return {
     sessionId: session.id,
     track,
+    level,
     unit,
     total: content.exercises.length,
     index: session.index,

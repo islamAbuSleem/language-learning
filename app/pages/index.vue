@@ -1,14 +1,23 @@
 <script setup lang="ts">
 import type { ItemProgressPayload, LearnerProfilePayload } from "#shared/api/schemas"
 
-interface TrackSummary {
-  id: string
+interface LevelSummary {
+  level: string
+  title: string
+  description: string
+  grammar: string[]
   units: {
     unit: number
     title: string
     description: string
     exerciseCount: number
   }[]
+}
+
+interface TrackSummary {
+  id: string
+  name: string
+  levels: LevelSummary[]
 }
 
 const { data: tracks } = await useFetch<{ tracks: TrackSummary[] }>("/api/tracks")
@@ -19,18 +28,12 @@ const { data: progress } = await useFetch<{
 
 const profile = computed(() => progress.value?.profile ?? null)
 
-const trackName: Record<string, string> = {
-  es: "Spanish",
-  de: "German",
-  en: "English",
-}
-
-/** The units the learner has already touched, keyed by unit id. */
+/** The units the learner has already touched, keyed by level and unit. */
 const touchedUnits = computed(() => {
   const touched = new Set<string>()
   for (const item of progress.value?.items ?? []) {
     const parts = item.itemId.split("/")
-    if (parts.length >= 2) touched.add(`${parts[0]}/${parts[1]}`)
+    if (parts.length >= 3) touched.add(`${parts[1]}/${parts[2]}`)
   }
   return touched
 })
@@ -61,29 +64,42 @@ const touchedUnits = computed(() => {
     </header>
 
     <section v-for="track in tracks?.tracks ?? []" :key="track.id" class="track">
-      <h2 class="track__title">{{ trackName[track.id] ?? track.id }}</h2>
+      <h2 class="track__title">{{ track.name }}</h2>
 
-      <ul class="units">
-        <li v-for="unit in track.units" :key="unit.unit">
-          <NuxtLink
-            class="unit"
-            :class="{ 'unit--started': touchedUnits.has(`${track.id}/u${unit.unit}`) }"
-            :to="{ path: `/lesson/${unit.unit}`, query: { track: track.id } }"
-          >
-            <span class="unit__number">{{ unit.unit }}</span>
-            <span class="unit__body">
-              <span class="unit__name">{{ unit.title }}</span>
-              <span class="unit__description">{{ unit.description }}</span>
-            </span>
-            <span class="unit__count">{{ unit.exerciseCount }} exercises</span>
-          </NuxtLink>
-        </li>
-      </ul>
+      <section v-for="level in track.levels" :key="level.level" class="level">
+        <header class="level__header">
+          <h3 class="level__name">
+            <span class="level__code">{{ level.level }}</span>
+            <span>{{ level.title }}</span>
+          </h3>
+          <p class="level__description">{{ level.description }}</p>
+          <ul class="level__grammar">
+            <li v-for="point in level.grammar" :key="point">{{ point }}</li>
+          </ul>
+        </header>
+
+        <ul v-if="level.units.length > 0" class="units">
+          <li v-for="unit in level.units" :key="unit.unit">
+            <NuxtLink
+              class="unit"
+              :class="{ 'unit--started': touchedUnits.has(`${level.level}/u${unit.unit}`) }"
+              :to="{ path: `/lesson/${track.id}/${level.level}/${unit.unit}` }"
+            >
+              <span class="unit__number">{{ unit.unit }}</span>
+              <span class="unit__body">
+                <span class="unit__name">{{ unit.title }}</span>
+                <span class="unit__description">{{ unit.description }}</span>
+              </span>
+              <span class="unit__count">{{ unit.exerciseCount }} exercises</span>
+            </NuxtLink>
+          </li>
+        </ul>
+
+        <p v-else class="level__empty">No units written yet.</p>
+      </section>
     </section>
 
-    <p v-if="(tracks?.tracks ?? []).length === 0" class="dashboard__empty">
-      No content yet.
-    </p>
+    <p v-if="(tracks?.tracks ?? []).length === 0" class="dashboard__empty">No content yet.</p>
   </main>
 </template>
 
@@ -148,8 +164,63 @@ const touchedUnits = computed(() => {
 }
 
 .track__title {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
+  margin-bottom: var(--space-4);
+}
+
+.level {
+  margin-bottom: var(--space-5);
+  padding-left: var(--space-4);
+  border-left: 3px solid var(--color-line);
+}
+
+.level__header {
   margin-bottom: var(--space-3);
+}
+
+.level__name {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: 1rem;
+}
+
+.level__code {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
+  border-radius: var(--radius-sm);
+  padding: 2px var(--space-2);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.level__description {
+  margin: var(--space-1) 0 0;
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+}
+
+.level__grammar {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: var(--space-2) 0 0;
+  padding: 0;
+}
+
+.level__grammar li {
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  padding: 2px var(--space-3);
+}
+
+.level__empty {
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+  margin: var(--space-2) 0 0;
 }
 
 .units {

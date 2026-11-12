@@ -1,6 +1,6 @@
 import { z } from "zod"
 
-import { trackIdSchema } from "#shared/content/schema"
+import { cefrLevelSchema, trackIdSchema } from "#shared/content/schema"
 
 /**
  * The wire contract between the app and the API.
@@ -25,6 +25,7 @@ export type ExerciseResponsePayload = z.infer<typeof exerciseResponseSchema>
 
 export const startSessionSchema = z.object({
   track: trackIdSchema,
+  level: cefrLevelSchema,
   unit: z.number().int().positive(),
 })
 
