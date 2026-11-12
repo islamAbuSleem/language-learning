@@ -1,0 +1,188 @@
+{
+  "unit": 19,
+  "title": "At the doctor's",
+  "description": "Describe symptoms and understand what the doctor says.",
+  "grammar": "the imperfect, and the words of the body",
+  "grammarNote": "For symptoms that lasted: me dolía la cabeza, tenía fiebre, no podía dormir.",
+  "explanation": {
+    "summary": "When you are ill you need to say what hurts and how long it has been happening. Spanish has a verb for pain that works like gustar, and the imperfect is the tense for a symptom that was there for a while rather than a single finished accident.",
+    "sections": [
+      {
+        "heading": "Where it hurts",
+        "body": "The verb doler works like gustar: the part of the body comes first and the verb agrees with it. You say me duele la cabeza, me duelen las piernas, me duele la espalda. The verb and the body part are enough; there is no extra word for the person who hurts.",
+        "examples": [
+          {
+            "es": "Me duele la cabeza desde ayer.",
+            "en": "My head has hurt since yesterday."
+          },
+          {
+            "es": "Me duelen los pies después de trabajar.",
+            "en": "My feet hurt after working."
+          }
+        ]
+      },
+      {
+        "heading": "The doctor and the diagnosis",
+        "body": "The doctor asks the questions and gives you el diagnóstico: una fractura, una infección, un esguince. An injury that broke a bone is una fractura, and the place where two bones meet is la articulación. The soft parts that move the bones are los músculos, and a strain in one of them is un esguince.",
+        "examples": [
+          {
+            "es": "El diagnóstico fue una fractura en la pierna.",
+            "en": "The diagnosis was a fracture in the leg."
+          },
+          {
+            "es": "El dolor viene de la articulación.",
+            "en": "The pain comes from the joint."
+          }
+        ]
+      },
+      {
+        "heading": "The medicine and the treatment",
+        "body": "The treatment is el tratamiento, and it can be a pill (la cápsula), a syrup (el jarabe) or a cream (la pomada). The general word for what the doctor gives you is el tratamiento, and the symptom you describe is el síntoma. Say how long you have had it: lo tengo desde hace tres días.",
+        "examples": [
+          {
+            "es": "Toma el jarabe tres veces al día.",
+            "en": "Take the syrup three times a day."
+          },
+          {
+            "es": "El tratamiento dura una semana.",
+            "en": "The treatment lasts a week."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "síntoma",
+      "en": "the symptom",
+      "article": "el",
+      "note": "Masculine: el síntoma. What the doctor asks you about.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "diagnóstico",
+      "en": "the diagnosis",
+      "article": "el",
+      "note": "Masculine: el diagnóstico. What the doctor decides you have.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "articulación",
+      "en": "the joint",
+      "article": "la",
+      "note": "Feminine: la articulación. Where two bones meet.",
+      "tags": [
+        "body",
+        "object"
+      ]
+    },
+    {
+      "es": "músculo",
+      "en": "the muscle",
+      "article": "el",
+      "note": "Masculine: el músculo. The accent marks the stress on the second syllable.",
+      "tags": [
+        "body",
+        "object"
+      ]
+    },
+    {
+      "es": "fractura",
+      "en": "the fracture",
+      "article": "la",
+      "note": "Feminine: la fractura. A broken bone.",
+      "tags": [
+        "body",
+        "object"
+      ]
+    },
+    {
+      "es": "tratamiento",
+      "en": "the treatment",
+      "article": "el",
+      "note": "Masculine: el tratamiento. Everything the doctor asks you to do.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "jarabe",
+      "en": "the syrup",
+      "article": "el",
+      "note": "Masculine: el jarabe. Liquid medicine.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "cápsula",
+      "en": "the capsule",
+      "article": "la",
+      "note": "Feminine: la cápsula. A pill you swallow whole.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "pomada",
+      "en": "the cream",
+      "article": "la",
+      "note": "Feminine: la pomada. A cream you rub on the skin.",
+      "tags": [
+        "medicine",
+        "object"
+      ]
+    },
+    {
+      "es": "doler",
+      "en": "to hurt",
+      "article": null,
+      "note": "An infinitive: duele, duelen. It works like gustar: me duele la cabeza.",
+      "tags": [
+        "body",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ duele la cabeza.",
+      "answer": "Me",
+      "meaning": "my head hurts",
+      "note": "Doler works like gustar: the part of the body comes first."
+    },
+    {
+      "prompt": "Cuando era niño, ___ dolían los dientes.",
+      "answer": "me",
+      "meaning": "when I was a child, my teeth hurt",
+      "note": "The imperfect for a symptom that lasted over a period of time."
+    },
+    {
+      "prompt": "El diagnóstico ___ una fractura.",
+      "answer": "fue",
+      "meaning": "the diagnosis was a fracture",
+      "note": "Ser in the past: fue."
+    },
+    {
+      "prompt": "Toma el jarabe ___ de dormir.",
+      "answer": "antes",
+      "meaning": "take the syrup before going to bed",
+      "note": "Antes de plus an infinitive."
+    },
+    {
+      "prompt": "Tengo ___ en la rodilla desde ayer.",
+      "answer": "dolor",
+      "meaning": "I have pain in my knee since yesterday",
+      "note": "You say pain with tener: tengo dolor."
+    }
+  ]
+}

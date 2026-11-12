@@ -1,0 +1,197 @@
+{
+  "unit": 15,
+  "title": "The working week",
+  "description": "Talk about the days of the week and the work that fills them.",
+  "grammar": "regular -ar verbs, and the words for a working week",
+  "grammarNote": "Most work verbs end in -ar and keep the ending: empezar, terminar, revisar.",
+  "explanation": {
+    "summary": "A working week has a shape: a schedule, a shift, a list of tasks and a deadline. This unit gives you the words for that shape, so you can say how your week runs and when something has to be finished.",
+    "sections": [
+      {
+        "heading": "A week has parts",
+        "body": "La jornada is the working day itself, and el horario says when it starts and when it ends. El turno is the part of the day you work, and you can have more than one of them: el turno de noche empieza a las diez.",
+        "examples": [
+          {
+            "es": "Mi horario empieza a las ocho.",
+            "en": "My schedule starts at eight."
+          },
+          {
+            "es": "La jornada de ocho horas empieza a las nueve.",
+            "en": "The eight-hour working day starts at nine."
+          },
+          {
+            "es": "Trabajo de noche y duermo por la mañana.",
+            "en": "I work nights and sleep in the morning."
+          }
+        ]
+      },
+      {
+        "heading": "What the work is",
+        "body": "Una tarea is one piece of work, un proyecto is a big one that lasts weeks, and la entrega is the moment it has to be ready. A project is never a single task, so you need to know what you owe and by when.",
+        "examples": [
+          {
+            "es": "Cada tarea tiene su fecha de entrega.",
+            "en": "Every task has its delivery date."
+          },
+          {
+            "es": "Estoy preparando un proyecto para enero.",
+            "en": "I am preparing a project for January."
+          },
+          {
+            "es": "El encuentro con el cliente es el martes.",
+            "en": "The meeting with the customer is on Tuesday."
+          }
+        ]
+      },
+      {
+        "heading": "The people and the pay",
+        "body": "El compañero is the person who works beside you, and el encuentro is the moment you all get together. El salario is what the job pays you, and el ascenso is the better job that can follow it. All of that changes the week.",
+        "examples": [
+          {
+            "es": "Mi compañera trabaja los sábados.",
+            "en": "My colleague works Saturdays."
+          },
+          {
+            "es": "Este mes he recibido el salario.",
+            "en": "This month I have received the salary."
+          },
+          {
+            "es": "El ascenso llegó tras dos años.",
+            "en": "The promotion came after two years."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "jornada",
+      "en": "the working day",
+      "article": "la",
+      "note": "Feminine: la jornada.",
+      "tags": [
+        "work",
+        "time"
+      ]
+    },
+    {
+      "es": "horario",
+      "en": "the schedule",
+      "article": "el",
+      "note": "Masculine: el horario.",
+      "tags": [
+        "work",
+        "time"
+      ]
+    },
+    {
+      "es": "turno",
+      "en": "the shift",
+      "article": "el",
+      "note": "Masculine: el turno. You work el turno de día or el turno de noche.",
+      "tags": [
+        "work",
+        "time"
+      ]
+    },
+    {
+      "es": "tarea",
+      "en": "the task",
+      "article": "la",
+      "note": "Feminine: la tarea.",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "es": "proyecto",
+      "en": "the project",
+      "article": "el",
+      "note": "Masculine: el proyecto.",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "es": "compañero",
+      "en": "the colleague",
+      "article": "el",
+      "note": "Masculine: el compañero. La compañera is a female colleague.",
+      "tags": [
+        "work",
+        "person"
+      ]
+    },
+    {
+      "es": "salario",
+      "en": "the salary",
+      "article": "el",
+      "note": "Masculine: el salario.",
+      "tags": [
+        "work",
+        "money"
+      ]
+    },
+    {
+      "es": "entrega",
+      "en": "the delivery",
+      "article": "la",
+      "note": "Feminine: la entrega. It also means the deadline itself.",
+      "tags": [
+        "work",
+        "time"
+      ]
+    },
+    {
+      "es": "ascenso",
+      "en": "the promotion",
+      "article": "el",
+      "note": "Masculine: el ascenso.",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "es": "encuentro",
+      "en": "the meeting",
+      "article": "el",
+      "note": "Masculine: el encuentro. It also means a get-together.",
+      "tags": [
+        "work",
+        "time"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ jornada termina a las seis.",
+      "answer": "La",
+      "meaning": "the working day ends at six",
+      "note": "Jornada is feminine: la jornada."
+    },
+    {
+      "prompt": "El ___ empieza a las ocho.",
+      "answer": "horario",
+      "meaning": "the schedule starts at eight",
+      "note": "El horario is the plan of the day or of the week."
+    },
+    {
+      "prompt": "Cada ___ tiene su fecha de entrega.",
+      "answer": "tarea",
+      "meaning": "every task has its delivery date",
+      "note": "Una tarea is one piece of work to do."
+    },
+    {
+      "prompt": "Mi ___ trabaja en el turno de noche.",
+      "answer": "compañero",
+      "meaning": "my colleague works the night shift",
+      "note": "Compañero is masculine: el compañero."
+    },
+    {
+      "prompt": "Este mes he recibido el ___.",
+      "answer": "salario",
+      "meaning": "this month I have received the salary",
+      "note": "Salario is masculine: el salario."
+    }
+  ]
+}

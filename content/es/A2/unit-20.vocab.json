@@ -1,0 +1,188 @@
+{
+  "unit": 20,
+  "title": "Money and the bank",
+  "description": "Talk about what you spend, what you save and what you owe.",
+  "grammar": "por and para with money",
+  "grammarNote": "Por names the rate and the cause, para names the purpose: pagué por la comida, ahorro para el viaje.",
+  "explanation": {
+    "summary": "Money has its own small vocabulary: the account, the savings, the expense, the salary, the loan. The two prepositions you already know do most of the work, because a price is a por and a plan is a para.",
+    "sections": [
+      {
+        "heading": "The money you have",
+        "body": "At the bank you open la cuenta, and later you ask what is left in it. El dinero you keep there is el ahorro, and what you take out to pay is el efectivo. The salary that arrives every month is el salario, and the thing you spend on one Saturday is un gasto. Both nouns follow the same pattern: la cuenta, el ahorro, el gasto, el salario.",
+        "examples": [
+          {
+            "es": "Quiero abrir una cuenta en el banco.",
+            "en": "I want to open an account at the bank."
+          },
+          {
+            "es": "Este mes gasté mucho dinero.",
+            "en": "This month I spent a lot of money."
+          }
+        ]
+      },
+      {
+        "heading": "Por and para with money",
+        "body": "Por gives the rate in an exchange: pagué veinte euros por la comida, y dos euros por el café. Por also gives the cause: perdí dinero por el tráfico. Para gives the purpose: ahorro para un viaje, este dinero es para el alquiler. If you ask what something costs, por is the word: ¿cuánto es por el billete?",
+        "examples": [
+          {
+            "es": "Ahorro para el viaje de verano.",
+            "en": "I am saving for the summer trip."
+          },
+          {
+            "es": "Perdí el dinero por el tráfico.",
+            "en": "I lost the money because of the traffic."
+          }
+        ]
+      },
+      {
+        "heading": "Saving, spending and borrowing",
+        "body": "To save is ahorrar, and what you save is el ahorro. To spend is gastar, and what you spend is un gasto. When the bank lends you money, that money is un préstamo, and while you have it you owe una deuda. You pay a loan back with los intereses, and a debt you cannot pay is un problema.",
+        "examples": [
+          {
+            "es": "Ahorro una parte del salario cada mes.",
+            "en": "I save part of the salary every month."
+          },
+          {
+            "es": "El banco me dio un préstamo para el coche.",
+            "en": "The bank gave me a loan for the car."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "dinero",
+      "en": "money",
+      "article": "el",
+      "note": "Masculine: el dinero. It is never plural: no dineros.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "banco",
+      "en": "the bank",
+      "article": "el",
+      "note": "Masculine: el banco. The place where you keep your money; it is also a bench.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "cuenta",
+      "en": "the account",
+      "article": "la",
+      "note": "Feminine: la cuenta. The account you have at the bank.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "ahorro",
+      "en": "the savings",
+      "article": "el",
+      "note": "Masculine: el ahorro. What you keep back for later.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "gasto",
+      "en": "the expense",
+      "article": "el",
+      "note": "Masculine: el gasto. Something you spend money on.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "deuda",
+      "en": "the debt",
+      "article": "la",
+      "note": "Feminine: la deuda. What you owe and have to pay back.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "préstamo",
+      "en": "the loan",
+      "article": "el",
+      "note": "Masculine: el préstamo. Money the bank lends you.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "salario",
+      "en": "the salary",
+      "article": "el",
+      "note": "Masculine: el salario. What you earn every month.",
+      "tags": [
+        "money",
+        "object"
+      ]
+    },
+    {
+      "es": "ahorrar",
+      "en": "to save",
+      "article": null,
+      "note": "An infinitive: ahorro, ahorras, ahorra. To keep money for later.",
+      "tags": [
+        "money",
+        "verb"
+      ]
+    },
+    {
+      "es": "gastar",
+      "en": "to spend",
+      "article": null,
+      "note": "An infinitive: gasto, gastas, gasta. To use money.",
+      "tags": [
+        "money",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Pagué ___ el café.",
+      "answer": "por",
+      "meaning": "I paid for the coffee",
+      "note": "Por gives the rate in an exchange."
+    },
+    {
+      "prompt": "Ahorro ___ el viaje.",
+      "answer": "para",
+      "meaning": "I am saving for the trip",
+      "note": "Para gives the purpose."
+    },
+    {
+      "prompt": "Quiero abrir una ___ en el banco.",
+      "answer": "cuenta",
+      "meaning": "I want to open an account at the bank",
+      "note": "La cuenta is the account you have at the bank."
+    },
+    {
+      "prompt": "___ veinte euros por la comida.",
+      "answer": "Pagué",
+      "meaning": "I paid twenty euros for the meal",
+      "note": "Pagar is a regular -ar verb: pagué in the preterite."
+    },
+    {
+      "prompt": "El banco me ___ un préstamo.",
+      "answer": "prestó",
+      "meaning": "the bank lent me a loan",
+      "note": "Prestar is a regular -ar verb: prestó in the preterite."
+    }
+  ]
+}

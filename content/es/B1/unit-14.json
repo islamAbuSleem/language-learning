@@ -89,9 +89,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I had spoken”.",
       "options": [
-        "acabar",
-        "entregar",
-        "enviar",
+        "coser",
+        "descansar",
+        "marcar",
         "había hablado"
       ],
       "answer": "había hablado",
@@ -104,9 +104,9 @@
       "prompt": "What did you hear?",
       "answer": "había comido",
       "options": [
-        "deber",
-        "hacer",
-        "hay",
+        "servir",
+        "decidir",
+        "repetir",
         "había comido"
       ],
       "audio": {
@@ -161,9 +161,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I had lived”.",
       "options": [
-        "entendió",
-        "llegó",
-        "salió",
+        "querré",
+        "habló",
+        "comió",
         "había vivido"
       ],
       "answer": "había vivido",

@@ -1,0 +1,200 @@
+{
+  "unit": 16,
+  "title": "Talking about people",
+  "description": "Describe someone you know: what they are like and how they treat you.",
+  "grammar": "adjectives of character, and the verbs that go with them",
+  "grammarNote": "The adjectives of character agree with the person and go with ser: es amable, es generosa, son ambiciosos.",
+  "explanation": {
+    "summary": "To describe a person you need adjectives of character and a few verbs that go with them. These words let you say what someone is really like, which is the difference between a description and a list of facts.",
+    "sections": [
+      {
+        "heading": "What someone is like",
+        "body": "The adjectives of character go with ser, because they say what a person is and not what a person is doing. They agree with the person in number and gender: es amable, es generosa, son ambiciosos. An adjective of character can also stand alone after the noun: mi amigo generoso.",
+        "examples": [
+          {
+            "es": "Mi hermana es generosa y humilde.",
+            "en": "My sister is generous and humble."
+          },
+          {
+            "es": "Los vecinos son muy amables.",
+            "en": "The neighbours are very kind."
+          },
+          {
+            "es": "Es más paciente de lo que parece.",
+            "en": "He is more patient than he seems."
+          }
+        ]
+      },
+      {
+        "heading": "How a person acts",
+        "body": "Some adjectives describe the way someone acts rather than a quality they hold. Es orgulloso, es curioso, es cariñoso: these work with ser in the same way. When you talk about the person rather than the quality, the sentence is short and the adjective does the work.",
+        "examples": [
+          {
+            "es": "Es orgulloso de su trabajo.",
+            "en": "He is proud of his work."
+          },
+          {
+            "es": "Mi abuela es muy cariñosa.",
+            "en": "My grandmother is very affectionate."
+          },
+          {
+            "es": "Es curioso: pregunta por todo.",
+            "en": "He is curious: he asks about everything."
+          }
+        ]
+      },
+      {
+        "heading": "Trust and distance",
+        "body": "Confiar is to trust someone, and it always takes a person: confío en ella, confías en mí. Echar de menos is to miss someone: echo de menos a mi familia. The two of them say more about a friendship than any list of adjectives.",
+        "examples": [
+          {
+            "es": "Confío mucho en mi amiga.",
+            "en": "I trust my friend a lot."
+          },
+          {
+            "es": "Echo de menos a mi familia.",
+            "en": "I miss my family."
+          },
+          {
+            "es": "Somos ambiciosos y nos apoyamos.",
+            "en": "We are ambitious and we support each other."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "amable",
+      "en": "kind",
+      "article": null,
+      "note": "An adjective of character: es amable.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "generoso",
+      "en": "generous",
+      "article": null,
+      "note": "An adjective of character: es generoso.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "cariñoso",
+      "en": "affectionate",
+      "article": null,
+      "note": "An adjective of character: es cariñoso.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "humilde",
+      "en": "humble",
+      "article": null,
+      "note": "An adjective of character: es humilde.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "ambicioso",
+      "en": "ambitious",
+      "article": null,
+      "note": "An adjective of character: es ambicioso.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "paciente",
+      "en": "patient",
+      "article": null,
+      "note": "An adjective of character: es paciente. It also means a patient, the person in a hospital.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "orgulloso",
+      "en": "proud",
+      "article": null,
+      "note": "An adjective of character: es orgulloso.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "curioso",
+      "en": "curious",
+      "article": null,
+      "note": "An adjective of character: es curioso.",
+      "tags": [
+        "adjective",
+        "person"
+      ]
+    },
+    {
+      "es": "confiar",
+      "en": "to trust",
+      "article": null,
+      "note": "The verb confiar: confío, confías, confía. It takes en: confío en ti.",
+      "tags": [
+        "verb",
+        "person"
+      ]
+    },
+    {
+      "es": "echar de menos",
+      "en": "to miss someone",
+      "article": null,
+      "note": "The phrase echar de menos: echo de menos a mi amigo.",
+      "tags": [
+        "verb",
+        "person"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Mi hermana es muy ___.",
+      "answer": "generosa",
+      "meaning": "my sister is very generous",
+      "note": "Generoso takes -a for a woman: es generosa."
+    },
+    {
+      "prompt": "Somos tres personas muy ___.",
+      "answer": "ambiciosas",
+      "meaning": "we are three very ambitious people",
+      "note": "Ambicioso takes -as in the plural: son ambiciosas."
+    },
+    {
+      "prompt": "___ mucho en mi amigo, que nunca me falla.",
+      "answer": "Confío",
+      "meaning": "I trust my friend a lot, who never lets me down",
+      "note": "Confiar takes en before the person: confío en él."
+    },
+    {
+      "prompt": "Echo ___ a mi familia, que está muy lejos.",
+      "answer": "de menos",
+      "meaning": "I miss my family, who is very far away",
+      "note": "The phrase is echar de menos."
+    },
+    {
+      "prompt": "Mi abuelo es más ___ de lo que parece.",
+      "answer": "paciente",
+      "meaning": "my grandfather is more patient than he seems",
+      "note": "Paciente has no other ending: es paciente."
+    }
+  ]
+}

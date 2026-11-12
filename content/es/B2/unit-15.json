@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 15,
+  "title": "The environment",
+  "description": "Name the environmental problem in the words that experts use.",
+  "explanation": {
+    "summary": "Talking about the environment in Spanish means naming things: the system that is affected, the thing that comes out of it, and the waste that comes back. The vocabulary is technical, and it is the vocabulary of reports rather than of slogans, so it is worth learning precisely.",
+    "sections": [
+      {
+        "heading": "The system and what comes out of it",
+        "body": "el medio ambiente is the whole surroundings, el ecosistema is a living system inside it, and each ecosystem supports its own species. What comes out of a factory or an engine are las emisiones, and the emisiones are what cause la contaminación. el calentamiento global is the name for the long rise that follows.",
+        "examples": [
+          {
+            "es": "Las emisiones de la industria siguen aumentando.",
+            "en": "Industry emissions keep rising."
+          },
+          {
+            "es": "El calentamiento global afecta a las zonas costeras.",
+            "en": "Global warming affects coastal areas."
+          },
+          {
+            "es": "La contaminación del agua llega hasta el mar.",
+            "en": "Water pollution reaches the sea."
+          }
+        ]
+      },
+      {
+        "heading": "Waste, and what can be done",
+        "body": "Everything that is thrown away is un residuo, and the type matters: residuos orgánicos, residuos plásticos. el reciclaje is what happens to the ones that can be used again, and la deforestación is the loss of the bosque. Cuando un recurso se acaba, se habla de la escasez, and the word for a plan that respects the limits is sostenible.",
+        "examples": [
+          {
+            "es": "El reciclaje reduce los residuos que llegan al vertedero.",
+            "en": "Recycling reduces the waste that reaches the landfill."
+          },
+          {
+            "es": "La deforestación avanza sobre la selva.",
+            "en": "Deforestation is advancing into the forest."
+          },
+          {
+            "es": "La sequía ha provocado la escasez de agua.",
+            "en": "The drought has caused the shortage of water."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u15/match/medio-ambiente",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the environment",
+          "right": "el medio ambiente"
+        },
+        {
+          "left": "pollution",
+          "right": "la contaminación"
+        },
+        {
+          "left": "emissions",
+          "right": "la emisiones"
+        },
+        {
+          "left": "the ecosystem",
+          "right": "el ecosistema"
+        },
+        {
+          "left": "deforestation",
+          "right": "la deforestación"
+        }
+      ],
+      "note": "The environment is a matter of nouns in a fixed order: the resource, the emission, the damage."
+    },
+    {
+      "id": "es/b2/u15/select/medio-ambiente",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the environment”.",
+      "options": [
+        "el reciclaje",
+        "sostenible",
+        "la escasez",
+        "el medio ambiente"
+      ],
+      "answer": "el medio ambiente",
+      "translation": "the environment",
+      "note": "Masculine: el medio ambiente."
+    },
+    {
+      "id": "es/b2/u15/listen/contaminacion",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la contaminación",
+      "options": [
+        "la emisiones",
+        "el ecosistema",
+        "la contaminación",
+        "el medio ambiente"
+      ],
+      "audio": {
+        "text": "contaminación",
+        "lang": "es",
+        "file": "/audio/es/contaminacion-1d464130.mp3"
+      },
+      "translation": "pollution",
+      "note": "Feminine: la contaminación."
+    },
+    {
+      "id": "es/b2/u15/drill/1",
+      "type": "type_in",
+      "prompt": "___ de la industria siguen aumentando.",
+      "answer": "Las emisiones",
+      "acceptedAnswers": [
+        "Las emisiones"
+      ],
+      "translation": "industry emissions keep rising",
+      "note": "Las emisiones is feminine plural."
+    },
+    {
+      "id": "es/b2/u15/match/calentamiento-global",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "global warming",
+          "right": "el calentamiento global"
+        },
+        {
+          "left": "waste",
+          "right": "el residuos"
+        },
+        {
+          "left": "recycling",
+          "right": "el reciclaje"
+        },
+        {
+          "left": "scarcity, shortage",
+          "right": "la escasez"
+        },
+        {
+          "left": "sustainable",
+          "right": "sostenible"
+        }
+      ],
+      "note": "The environment is a matter of nouns in a fixed order: the resource, the emission, the damage."
+    },
+    {
+      "id": "es/b2/u15/select/emisiones",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “emissions”.",
+      "options": [
+        "el ecosistema",
+        "la deforestación",
+        "el calentamiento global",
+        "la emisiones"
+      ],
+      "answer": "la emisiones",
+      "translation": "emissions",
+      "note": "Feminine plural: las emisiones."
+    },
+    {
+      "id": "es/b2/u15/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ del agua llega al mar.",
+      "answer": "contaminación",
+      "acceptedAnswers": [
+        "contaminacion"
+      ],
+      "translation": "water pollution reaches the sea",
+      "note": "La contaminación is feminine."
+    },
+    {
+      "id": "es/b2/u15/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ reduce los residuos del vertedero.",
+      "answer": "reciclaje",
+      "acceptedAnswers": [
+        "reciclaje"
+      ],
+      "translation": "recycling reduces the waste from the landfill",
+      "note": "El reciclaje is masculine."
+    },
+    {
+      "id": "es/b2/u15/drill/4",
+      "type": "type_in",
+      "prompt": "___ avanza sobre la selva.",
+      "answer": "La deforestación",
+      "acceptedAnswers": [
+        "La deforestacion"
+      ],
+      "translation": "deforestation is advancing into the forest",
+      "note": "La deforestación is feminine."
+    },
+    {
+      "id": "es/b2/u15/drill/5",
+      "type": "type_in",
+      "prompt": "Buscamos un modelo ___.",
+      "answer": "sostenible",
+      "acceptedAnswers": [
+        "sostenible"
+      ],
+      "translation": "we are looking for a sustainable model",
+      "note": "Sostenible is an adjective, so it has no article."
+    }
+  ]
+}

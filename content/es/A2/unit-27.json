@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 27,
+  "title": "Training and the match",
+  "description": "Talk about the people of a sport and what is coming next.",
+  "explanation": {
+    "summary": "A sport is a machine with people inside it: the players, the coach, the referee, the stand. The future is how everybody talks about sport, because the next session and the next match are always what people are waiting for.",
+    "sections": [
+      {
+        "heading": "The people of the sport",
+        "body": "El jugador plays, el entrenador trains the team, and el árbitro controls the partido. El equipo is the group, and it has once eleven jugadores on the field. El balón is what they play with, and el marcador says how many goals there are. In the grada, the people shout.",
+        "examples": [
+          {
+            "es": "El entrenador cambió a dos jugadores en el segundo tiempo.",
+            "en": "The coach changed two players in the second half."
+          },
+          {
+            "es": "El árbitro pita una falta en el área.",
+            "en": "The referee blows the whistle for a foul in the area."
+          }
+        ]
+      },
+      {
+        "heading": "Training and the match",
+        "body": "El entrenamiento is the work before the match: running, exercises, tactics. El partido is the match itself, with its two halves and its result. Between the two there is el descanso, and when the match is over el equipo vuelve a casa. To rest is descansar, and to score a goal is marcar un gol.",
+        "examples": [
+          {
+            "es": "El entrenamiento dura una hora y media.",
+            "en": "The training session lasts an hour and a half."
+          },
+          {
+            "es": "Marcaron dos goles en la segunda parte.",
+            "en": "They scored two goals in the second half."
+          }
+        ]
+      },
+      {
+        "heading": "What is coming",
+        "body": "Sport is mostly talked about in the future: el próximo partido es el sábado, el equipo viaja mañana, jugaremos contra el líder de la liga. The preterite is for what is already over: jugamos bien, perdimos dos goles, el entrenador llegó tarde. To talk about the season as a whole you need a preposition: la liga empieza en septiembre y acaba en mayo.",
+        "examples": [
+          {
+            "es": "El próximo partido es contra el Barcelona.",
+            "en": "The next match is against Barcelona."
+          },
+          {
+            "es": "El equipo descansa una hora después del partido.",
+            "en": "The team rests for an hour after the match."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u27/match/entrenamiento",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the training session",
+          "right": "el entrenamiento"
+        },
+        {
+          "left": "the coach",
+          "right": "el entrenador"
+        },
+        {
+          "left": "the player",
+          "right": "el jugador"
+        },
+        {
+          "left": "the match",
+          "right": "el partido"
+        },
+        {
+          "left": "the ball",
+          "right": "el balón"
+        }
+      ],
+      "note": "Sport is mostly talked about in the future: el equipo entrena mañana, el partido es el sábado."
+    },
+    {
+      "id": "es/a2/u27/select/entrenamiento",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the training session”.",
+      "options": [
+        "la plata",
+        "el propósito",
+        "el túnel",
+        "el entrenamiento"
+      ],
+      "answer": "el entrenamiento",
+      "translation": "the training session",
+      "note": "Masculine: el entrenamiento. The work the team does before the match."
+    },
+    {
+      "id": "es/a2/u27/listen/entrenador",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el entrenador",
+      "options": [
+        "la portería",
+        "la grada",
+        "el árbitro",
+        "el entrenador"
+      ],
+      "audio": {
+        "text": "entrenador",
+        "lang": "es",
+        "file": "/audio/es/entrenador-66eca6ae.mp3"
+      },
+      "translation": "the coach",
+      "note": "Masculine: el entrenador. The person who trains the team."
+    },
+    {
+      "id": "es/a2/u27/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ entrena a los jugadores.",
+      "answer": "entrenador",
+      "acceptedAnswers": [
+        "entrenador"
+      ],
+      "translation": "the coach trains the players",
+      "note": "El entrenador is the coach."
+    },
+    {
+      "id": "es/a2/u27/match/porteria",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the goal",
+          "right": "la portería"
+        },
+        {
+          "left": "the referee",
+          "right": "el árbitro"
+        },
+        {
+          "left": "the stand",
+          "right": "la grada"
+        },
+        {
+          "left": "to rest",
+          "right": "descansar"
+        },
+        {
+          "left": "to score",
+          "right": "marcar"
+        }
+      ],
+      "note": "Sport is mostly talked about in the future: el equipo entrena mañana, el partido es el sábado."
+    },
+    {
+      "id": "es/a2/u27/select/jugador",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the player”.",
+      "options": [
+        "el jefe",
+        "el fontanero",
+        "el electricista",
+        "el jugador"
+      ],
+      "answer": "el jugador",
+      "translation": "the player",
+      "note": "Masculine: el jugador. The feminine is la jugadora."
+    },
+    {
+      "id": "es/a2/u27/drill/2",
+      "type": "type_in",
+      "prompt": "El partido ___ el sábado.",
+      "answer": "es",
+      "acceptedAnswers": [
+        "es"
+      ],
+      "translation": "the match is on Saturday",
+      "note": "The present for a fixed date."
+    },
+    {
+      "id": "es/a2/u27/drill/3",
+      "type": "type_in",
+      "prompt": "El equipo va a ___ después del partido.",
+      "answer": "descansar",
+      "acceptedAnswers": [
+        "descansar"
+      ],
+      "translation": "the team is going to rest after the match",
+      "note": "Va a plus an infinitive for what is coming."
+    },
+    {
+      "id": "es/a2/u27/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ ganó el partido por dos a cero.",
+      "answer": "equipo",
+      "acceptedAnswers": [
+        "equipo"
+      ],
+      "translation": "the team won the match two to nil",
+      "note": "El equipo is the team."
+    },
+    {
+      "id": "es/a2/u27/drill/5",
+      "type": "type_in",
+      "prompt": "La pelota entró en la ___.",
+      "answer": "portería",
+      "acceptedAnswers": [
+        "porteria"
+      ],
+      "translation": "the ball went into the goal",
+      "note": "La portería is the goal."
+    }
+  ]
+}

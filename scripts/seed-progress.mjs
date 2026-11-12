@@ -47,6 +47,9 @@ for (const track of readdirSync(contentRoot, { withFileTypes: true }).filter((e)
     } catch {
       continue
     }
+    // Directory order is alphabetical, which puts unit-10 before unit-2.
+    // A half-way learner means the first units of the path, in path order.
+    files.sort((a, b) => Number(a.match(/unit-(\d+)\.json$/)[1]) - Number(b.match(/unit-(\d+)\.json$/)[1]))
     for (const file of files) unitFiles.push(file)
   }
 }

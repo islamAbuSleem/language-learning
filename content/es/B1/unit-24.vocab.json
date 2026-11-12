@@ -1,0 +1,175 @@
+{
+  "unit": 24,
+  "title": "Weather and seasons",
+  "description": "Talk about a year of weather, from a heatwave to the first frost.",
+  "grammar": "the future for a forecast, and the nouns of extreme weather",
+  "grammarNote": "A forecast uses the future: mañana lloverá, it will rain tomorrow.",
+  "explanation": {
+    "summary": "A1 taught the weather as a fact: hace sol, hace frío. B1 turns it into a forecast and a year: what will happen, what season it belongs to, and what the extreme days are called.",
+    "sections": [
+      {
+        "heading": "The year in seasons",
+        "body": "La estación is one of the four parts of the year. El amanecer is when the day starts and el atardecer is when it ends. El rocío is the water on the grass in the morning, and it belongs to spring and autumn.",
+        "examples": [
+          {
+            "es": "La primavera es mi estación favorita.",
+            "en": "Spring is my favourite season."
+          },
+          {
+            "es": "El amanecer es a las siete.",
+            "en": "Sunrise is at seven."
+          },
+          {
+            "es": "Hay rocío en el jardín.",
+            "en": "There is dew in the garden."
+          }
+        ]
+      },
+      {
+        "heading": "When the weather turns",
+        "body": "Una ola de calor is days of extreme heat, and la sequía is months without rain. La inundación is what a river does after a storm, and el granizo is ice falling from the sky. La niebla sits low over a town, and el arcoíris comes after the rain.",
+        "examples": [
+          {
+            "es": "Mañana habrá una ola de calor.",
+            "en": "There will be a heatwave tomorrow."
+          },
+          {
+            "es": "La niebla no deja ver la calle.",
+            "en": "The fog does not let you see the street."
+          },
+          {
+            "es": "Después de la tormenta salió el arcoíris.",
+            "en": "After the storm the rainbow came out."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "estación",
+      "en": "the season",
+      "article": "la",
+      "note": "Feminine: la estación. It also means the station.",
+      "tags": [
+        "weather",
+        "time"
+      ]
+    },
+    {
+      "es": "amanecer",
+      "en": "the dawn",
+      "article": "el",
+      "note": "Masculine: el amanecer.",
+      "tags": [
+        "weather",
+        "time"
+      ]
+    },
+    {
+      "es": "atardecer",
+      "en": "the dusk",
+      "article": "el",
+      "note": "Masculine: el atardecer.",
+      "tags": [
+        "weather",
+        "time"
+      ]
+    },
+    {
+      "es": "rocío",
+      "en": "the dew",
+      "article": "el",
+      "note": "Masculine: el rocío. The accent marks the stress.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "ola de calor",
+      "en": "the heatwave",
+      "article": "la",
+      "note": "Feminine: la ola de calor.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "sequía",
+      "en": "the drought",
+      "article": "la",
+      "note": "Feminine: la sequía. The accent marks the stress.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "inundación",
+      "en": "the flood",
+      "article": "la",
+      "note": "Feminine: la inundación. The accent marks the stress.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "granizo",
+      "en": "the hail",
+      "article": "el",
+      "note": "Masculine: el granizo.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "niebla",
+      "en": "the fog",
+      "article": "la",
+      "note": "Feminine: la niebla.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "es": "arcoíris",
+      "en": "the rainbow",
+      "article": "el",
+      "note": "Masculine: el arcoíris. The accent marks the stress.",
+      "tags": [
+        "weather"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Mañana ___ una ola de calor.",
+      "answer": "habrá",
+      "meaning": "there will be a heatwave tomorrow",
+      "note": "A forecast uses the future: habrá."
+    },
+    {
+      "prompt": "La ___ no deja ver la calle.",
+      "answer": "niebla",
+      "meaning": "the fog does not let you see the street",
+      "note": "Niebla is feminine: la niebla."
+    },
+    {
+      "prompt": "El ___ es a las siete.",
+      "answer": "amanecer",
+      "meaning": "sunrise is at seven",
+      "note": "Amanecer is masculine."
+    },
+    {
+      "prompt": "La ___ duró todo el verano.",
+      "answer": "sequía",
+      "meaning": "the drought lasted all summer",
+      "note": "Sequía is feminine: la sequía."
+    },
+    {
+      "prompt": "Después de la lluvia salió el ___.",
+      "answer": "arcoíris",
+      "meaning": "after the rain the rainbow came out",
+      "note": "Arcoíris is masculine."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "unit": 23,
+  "title": "The news",
+  "description": "Read a newspaper and tell the story of a news item.",
+  "grammar": "the preterite and the imperfect, and the words of the news",
+  "grammarNote": "A story needs both: el incendio empezó a las tres (preterite) y hacía un calor terrible (imperfect).",
+  "explanation": {
+    "summary": "A news story is still a story, so it uses the same two tenses as any story: the preterite for the events and the imperfect for the background. The newspaper itself has a set of parts, from la portada down to el titular.",
+    "sections": [
+      {
+        "heading": "The front page",
+        "body": "El periódico opens with la portada, and the biggest story on it has el titular, the headline. The headline is short, it has no subject, and it uses the present: La lluvia llega a Madrid, El nuevo hospital abre en junio. Each page is divided in secciones: economía, deportes, cultura. A longer piece is un reportaje.",
+        "examples": [
+          {
+            "es": "El titular de portada dice: 'La lluvia llega a Madrid'.",
+            "en": "The front page headline says: 'Rain reaches Madrid'."
+          },
+          {
+            "es": "El reportaje de economía ocupa las páginas cuatro y cinco.",
+            "en": "The business feature takes pages four and five."
+          }
+        ]
+      },
+      {
+        "heading": "Two tenses in one story",
+        "body": "The preterite says what happened: el incendio empezó a las tres, los bomberos llegaron tarde, el barrio se quedó sin luz. The imperfect says how things were while it happened: hacía un calor terrible, la gente dormía, no había caminos libres. Read a news story the way you would read any story: the background is imperfect, the events are preterite.",
+        "examples": [
+          {
+            "es": "El incendio empezó a las tres de la mañana.",
+            "en": "The fire started at three in the morning."
+          },
+          {
+            "es": "Hacía un calor terrible y no había nadie en la calle.",
+            "en": "It was terribly hot and there was nobody in the street."
+          }
+        ]
+      },
+      {
+        "heading": "Who makes the news",
+        "body": "Un periodista writes the articles and asks the questions, and el editor decides what goes on the front page. La prensa is the newspapers and the journalists together: la prensa española, la prensa de hoy. An interview is la entrevista, and el resumen is the short version of the story that the paper prints at the end. To publish is publicar.",
+        "examples": [
+          {
+            "es": "El periodista hizo una entrevista con el ministro.",
+            "en": "The journalist did an interview with the minister."
+          },
+          {
+            "es": "El editor publicó la columna de la periodista de deportes.",
+            "en": "The editor published the sports journalist's column."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "portada",
+      "en": "the front page",
+      "article": "la",
+      "note": "Feminine: la portada. The first page of a newspaper.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "titular",
+      "en": "the headline",
+      "article": "el",
+      "note": "Masculine: el titular. The big words at the top of the story.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "noticia",
+      "en": "the news item",
+      "article": "la",
+      "note": "Feminine: la noticia. One piece of news.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "entrevista",
+      "en": "the interview",
+      "article": "la",
+      "note": "Feminine: la entrevista. A conversation a journalist writes down.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "prensa",
+      "en": "the press",
+      "article": "la",
+      "note": "Feminine: la prensa. All the newspapers together.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "sección",
+      "en": "the section",
+      "article": "la",
+      "note": "Feminine: la sección. Sports, economy, culture and the rest.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "resumen",
+      "en": "the summary",
+      "article": "el",
+      "note": "Masculine: el resumen. The short version of a story.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "reportaje",
+      "en": "the feature",
+      "article": "el",
+      "note": "Masculine: el reportaje. A long article about a subject.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "columna",
+      "en": "the column",
+      "article": "la",
+      "note": "Feminine: la columna. A regular article with the writer's name on it.",
+      "tags": [
+        "news",
+        "object"
+      ]
+    },
+    {
+      "es": "publicar",
+      "en": "to publish",
+      "article": null,
+      "note": "An infinitive: publico, publicas, publica. To print a story.",
+      "tags": [
+        "news",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "El incendio ___ a las tres.",
+      "answer": "empezó",
+      "meaning": "the fire started at three",
+      "note": "The preterite says the event."
+    },
+    {
+      "prompt": "___ un calor terrible.",
+      "answer": "Hacía",
+      "meaning": "it was a terrible heat",
+      "note": "The imperfect gives the background."
+    },
+    {
+      "prompt": "El ___ dice: 'La lluvia llega a Madrid'.",
+      "answer": "titular",
+      "meaning": "the headline says: 'Rain reaches Madrid'",
+      "note": "El titular is the headline."
+    },
+    {
+      "prompt": "El periodista ___ una entrevista con el ministro.",
+      "answer": "hizo",
+      "meaning": "the journalist did an interview with the minister",
+      "note": "Hacer in the preterite is hizo."
+    },
+    {
+      "prompt": "Esta ___ es sobre el fútbol.",
+      "answer": "noticia",
+      "meaning": "this news item is about football",
+      "note": "La noticia is a single piece of news."
+    }
+  ]
+}

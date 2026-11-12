@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to announce”.",
       "options": [
-        "vestirse",
-        "afeitarse",
-        "acostarse",
+        "jugar",
+        "enterarse",
+        "darse cuenta",
         "anunciar"
       ],
       "answer": "anunciar",
@@ -94,9 +94,9 @@
       "prompt": "What did you hear?",
       "answer": "informar",
       "options": [
-        "vestirse",
-        "afeitarse",
-        "acostarse",
+        "llegar",
+        "hablar",
+        "ser",
         "informar"
       ],
       "audio": {
@@ -151,9 +151,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to comment”.",
       "options": [
-        "hay",
-        "hacer",
-        "deber",
+        "trabajaré",
+        "estudiaré",
+        "viviré",
         "comentar"
       ],
       "answer": "comentar",

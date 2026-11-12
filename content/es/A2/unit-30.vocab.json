@@ -1,0 +1,188 @@
+{
+  "unit": 30,
+  "title": "Films and the cinema",
+  "description": "Name the parts of a film and talk about its world.",
+  "grammar": "the imperfect, and the words of film",
+  "grammarNote": "The world of a film lives in the imperfect: la película duraba dos horas, el protagonista vivía en un pueblo.",
+  "explanation": {
+    "summary": "A film is a machine with parts: el guion, la cámara, la pantalla, la escena, la banda sonora. The imperfect is the tense of the world of the story, because everything that is around the action stays there while the action happens.",
+    "sections": [
+      {
+        "heading": "The machinery of a film",
+        "body": "El guion says what happens, la cámara records it, and el director decides how it is filmed. The finished film is shown on la pantalla in el cine. La banda sonora is the music, and it is made separately from the pictures. A film that tells real events is un documental.",
+        "examples": [
+          {
+            "es": "La banda sonora de la película es muy buena.",
+            "en": "The soundtrack of the film is very good."
+          },
+          {
+            "es": "El documental dura noventa minutos.",
+            "en": "The documentary lasts ninety minutes."
+          }
+        ]
+      },
+      {
+        "heading": "The people on the screen",
+        "body": "El actor says the words and la actriz does the same job. El director gives notes to everybody and decides how many times each escena is filmed, because the first take is rarely the one that works. To act is actuar, and to shoot a film is rodar.",
+        "examples": [
+          {
+            "es": "La escena del final se rodó doce veces.",
+            "en": "The final scene was shot twelve times."
+          },
+          {
+            "es": "El actor principal no hablaba nada en inglés.",
+            "en": "The leading actor did not say anything in English."
+          }
+        ]
+      },
+      {
+        "heading": "The world of the film",
+        "body": "Everything that is around the action is in the imperfect: la película duraba dos horas, la ciudad estaba en invierno, el protagonista vivía con su madre. The actions are in the preterite: el protagonista se despertó, corrió a la estación y perdió el tren. So the imperfect is the world and the preterite is what happens in it.",
+        "examples": [
+          {
+            "es": "La ciudad estaba cubierta de nieve.",
+            "en": "The city was covered in snow."
+          },
+          {
+            "es": "El protagonista llegó a la estación y no había ningún tren.",
+            "en": "The main character got to the station and there was no train at all."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "película",
+      "en": "the film",
+      "article": "la",
+      "note": "Feminine: la película. A story told in pictures and sound.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "cine",
+      "en": "the cinema",
+      "article": "el",
+      "note": "Masculine: el cine. The place where films are shown, and also the art of making them.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "escena",
+      "en": "the scene",
+      "article": "la",
+      "note": "Feminine: la escena. One part of a film, in one place and at one time.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "director",
+      "en": "the director",
+      "article": "el",
+      "note": "Masculine: el director. The person who tells the actors and the camera what to do.",
+      "tags": [
+        "film",
+        "person"
+      ]
+    },
+    {
+      "es": "guion",
+      "en": "the script",
+      "article": "el",
+      "note": "Masculine: el guion. The text with the words and the directions.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "cámara",
+      "en": "the camera",
+      "article": "la",
+      "note": "Feminine: la cámara. The machine that records the pictures.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "banda sonora",
+      "en": "the soundtrack",
+      "article": "la",
+      "note": "Feminine: la banda sonora. The music of a film.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "documental",
+      "en": "the documentary",
+      "article": "el",
+      "note": "Masculine: el documental. A film about real events.",
+      "tags": [
+        "film",
+        "object"
+      ]
+    },
+    {
+      "es": "rodar",
+      "en": "to shoot",
+      "article": null,
+      "note": "An infinitive: ruedo, rodas, rueda. To record the pictures of a film.",
+      "tags": [
+        "film",
+        "verb"
+      ]
+    },
+    {
+      "es": "actuar",
+      "en": "to act",
+      "article": null,
+      "note": "An infinitive: actuo, actúas, actúa. To play a part in a film.",
+      "tags": [
+        "film",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "La ___ es el texto de la película.",
+      "answer": "guion",
+      "meaning": "the script is the text of the film",
+      "note": "El guion is the script."
+    },
+    {
+      "prompt": "La película ___ dos horas.",
+      "answer": "dura",
+      "meaning": "the film lasts two hours",
+      "note": "The present for a fixed length."
+    },
+    {
+      "prompt": "La banda ___ de la película es muy buena.",
+      "answer": "sonora",
+      "meaning": "the soundtrack of the film is very good",
+      "note": "La banda sonora is the soundtrack."
+    },
+    {
+      "prompt": "El equipo ___ la película en tres semanas.",
+      "answer": "rodó",
+      "meaning": "the team shot the film in three weeks",
+      "note": "Rodar in the preterite is rodó."
+    },
+    {
+      "prompt": "Vamos al ___ a ver la película.",
+      "answer": "cine",
+      "meaning": "we are going to the cinema to see the film",
+      "note": "El cine is the cinema."
+    }
+  ]
+}

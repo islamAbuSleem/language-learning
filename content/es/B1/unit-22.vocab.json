@@ -1,0 +1,194 @@
+{
+  "unit": 22,
+  "title": "Friends and friendship",
+  "description": "Say what friendship is and what happens between friends.",
+  "grammar": "the present tense for feelings, and the words of a quarrel",
+  "grammarNote": "Say what is true now: confío en ella, discutimos a menudo, nos llevamos bien.",
+  "explanation": {
+    "summary": "Friendship is not only being nice to someone. It has trust, support, shared jokes and the occasional row. This unit gives you the words for all of that, so you can describe what a friend is really like.",
+    "sections": [
+      {
+        "heading": "What a friend gives you",
+        "body": "La amistad is the friendship itself, and la confianza is what you build inside it. El apoyo is the help you can count on, and la compañía is simply being together: no siempre hablamos, pero nos gusta estar juntos.",
+        "examples": [
+          {
+            "es": "La amistad dura más que el trabajo.",
+            "en": "Friendship lasts longer than work."
+          },
+          {
+            "es": "En ella hay mucha confianza.",
+            "en": "There is a lot of trust in it."
+          },
+          {
+            "es": "Te ofrece apoyo cuando lo necesitas.",
+            "en": "He offers you support when you need it."
+          }
+        ]
+      },
+      {
+        "heading": "Being with other people",
+        "body": "Una riña is a quarrel, and it is usually over soon: casi siempre hacemos las paces. El chiste is the joke that keeps a group together, and el grupo is the people you keep coming back to. Both nouns are masculine, except la riña.",
+        "examples": [
+          {
+            "es": "Tuvimos una riña, pero ya no hablamos de eso.",
+            "en": "We had a row, but we do not talk about it any more."
+          },
+          {
+            "es": "Siempre cuenta el mismo chiste.",
+            "en": "He always tells the same joke."
+          },
+          {
+            "es": "El grupo de amigos queda los viernes.",
+            "en": "The group of friends meets on Fridays."
+          }
+        ]
+      },
+      {
+        "heading": "The hard part",
+        "body": "A friendship also has envidia. La envidia is when you want what someone else has, and a little of it can push you to do more. Discutir is to argue, and perdonar is to forgive: what goes wrong can be put right.",
+        "examples": [
+          {
+            "es": "Siente envidia del éxito de su hermano.",
+            "en": "He feels envy of his brother's success."
+          },
+          {
+            "es": "Discutimos, pero seguimos siendo amigos.",
+            "en": "We argued, but we are still friends."
+          },
+          {
+            "es": "Me pide que lo perdone.",
+            "en": "He asks me to forgive him."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "amistad",
+      "en": "the friendship",
+      "article": "la",
+      "note": "Feminine: la amistad.",
+      "tags": [
+        "person"
+      ]
+    },
+    {
+      "es": "confianza",
+      "en": "the trust",
+      "article": "la",
+      "note": "Feminine: la confianza.",
+      "tags": [
+        "person",
+        "feeling"
+      ]
+    },
+    {
+      "es": "compañía",
+      "en": "the company",
+      "article": "la",
+      "note": "Feminine: la compañía. It also means a company, a business.",
+      "tags": [
+        "person"
+      ]
+    },
+    {
+      "es": "apoyo",
+      "en": "the support",
+      "article": "el",
+      "note": "Masculine: el apoyo.",
+      "tags": [
+        "person"
+      ]
+    },
+    {
+      "es": "envidia",
+      "en": "the envy",
+      "article": "la",
+      "note": "Feminine: la envidia.",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "es": "riña",
+      "en": "the quarrel",
+      "article": "la",
+      "note": "Feminine: la riña. It takes an accent on the i.",
+      "tags": [
+        "person"
+      ]
+    },
+    {
+      "es": "discutir",
+      "en": "to argue",
+      "article": null,
+      "note": "The verb discutir: discuto, discutes, discute.",
+      "tags": [
+        "verb",
+        "person"
+      ]
+    },
+    {
+      "es": "perdonar",
+      "en": "to forgive",
+      "article": null,
+      "note": "The verb perdonar: perdono, perdonas, perdona.",
+      "tags": [
+        "verb",
+        "person"
+      ]
+    },
+    {
+      "es": "chiste",
+      "en": "the joke",
+      "article": "el",
+      "note": "Masculine: el chiste.",
+      "tags": [
+        "person",
+        "activity"
+      ]
+    },
+    {
+      "es": "grupo",
+      "en": "the group",
+      "article": "el",
+      "note": "Masculine: el grupo.",
+      "tags": [
+        "person"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "La ___ entre ellos dura desde hace diez años.",
+      "answer": "amistad",
+      "meaning": "the friendship between them has lasted ten years",
+      "note": "Amistad is feminine: la amistad."
+    },
+    {
+      "prompt": "Tengo mucha ___ en mi hermana.",
+      "answer": "confianza",
+      "meaning": "I have a lot of trust in my sister",
+      "note": "Confianza is feminine: la confianza."
+    },
+    {
+      "prompt": "Hicimos las paces después de la ___.",
+      "answer": "riña",
+      "meaning": "we made up after the row",
+      "note": "Riña is feminine: la riña."
+    },
+    {
+      "prompt": "Siempre cuenta el mismo ___.",
+      "answer": "chiste",
+      "meaning": "he always tells the same joke",
+      "note": "Chiste is masculine: el chiste."
+    },
+    {
+      "prompt": "___ mucho con mi hermano.",
+      "answer": "Discuto",
+      "meaning": "I argue a lot with my brother",
+      "note": "Discutir in the first person: discuto."
+    }
+  ]
+}

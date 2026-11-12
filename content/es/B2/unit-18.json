@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 18,
+  "title": "Art and what it means",
+  "description": "Read a work of art, and say what you think it says.",
+  "explanation": {
+    "summary": "To talk about art in Spanish is to separate two things: the work itself, with its style and its material, and the reading of it, which is an interpretation and can differ from one viewer to the next. A good description names the object first and the reading second.",
+    "sections": [
+      {
+        "heading": "The object",
+        "body": "una obra is any work of art, and el estilo is the way it is made. la pintura, la escultura and el boceto, the sketch, name the technique and the stage. Where the works hang is el museo, and the book that explains them is el catálogo. Una restauración is the repair of something old, and it is also the account of how the original was put back together.",
+        "examples": [
+          {
+            "es": "La exposición reúne cien obras de tres siglos.",
+            "en": "The exhibition brings together a hundred works from three centuries."
+          },
+          {
+            "es": "El boceto es anterior a la pintura final.",
+            "en": "The sketch comes before the finished painting."
+          },
+          {
+            "es": "El catálogo explica cada pieza de la colección.",
+            "en": "The catalogue explains each piece in the collection."
+          }
+        ]
+      },
+      {
+        "heading": "The reading",
+        "body": "la crítica is what a critic writes, and la interpretación is what a viewer or a scholar sees in the work. The two are not the same: una crítica puede discrepar de la interpretación del museo. Quien hace la obra es el artista, and quien la mira es el público, and el público rarely sees the same thing twice.",
+        "examples": [
+          {
+            "es": "La crítica coincide con la interpretación del museo.",
+            "en": "The review agrees with the museum's interpretation."
+          },
+          {
+            "es": "Cada visitante hace su propia interpretación.",
+            "en": "Every visitor makes their own interpretation."
+          },
+          {
+            "es": "La restauración de la cúpula tomó diez años.",
+            "en": "The restoration of the dome took ten years."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u18/match/obra",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the work of art",
+          "right": "la obra"
+        },
+        {
+          "left": "the artist",
+          "right": "el artista"
+        },
+        {
+          "left": "the style",
+          "right": "el estilo"
+        },
+        {
+          "left": "the exhibition",
+          "right": "la exposición"
+        },
+        {
+          "left": "the catalogue",
+          "right": "el catálogo"
+        }
+      ],
+      "note": "The work is the object (la obra) and the reading of it is a separate thing (la interpretación)."
+    },
+    {
+      "id": "es/b2/u18/select/obra",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the work of art”.",
+      "options": [
+        "el estilo",
+        "la exposición",
+        "el artista",
+        "la obra"
+      ],
+      "answer": "la obra",
+      "translation": "the work of art",
+      "note": "Feminine: la obra. It also means the work in general."
+    },
+    {
+      "id": "es/b2/u18/listen/artista",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el artista",
+      "options": [
+        "el boceto",
+        "el museo",
+        "el catálogo",
+        "el artista"
+      ],
+      "audio": {
+        "text": "artista",
+        "lang": "es",
+        "file": "/audio/es/artista-6d3da6e4.mp3"
+      },
+      "translation": "the artist",
+      "note": "Masculine: el artista. Feminine: la artista."
+    },
+    {
+      "id": "es/b2/u18/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ reúne cien obras.",
+      "answer": "exposición",
+      "acceptedAnswers": [
+        "exposicion"
+      ],
+      "translation": "the exhibition brings together a hundred works",
+      "note": "La exposición is feminine."
+    },
+    {
+      "id": "es/b2/u18/match/boceto",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the sketch",
+          "right": "el boceto"
+        },
+        {
+          "left": "the museum",
+          "right": "el museo"
+        },
+        {
+          "left": "the interpretation",
+          "right": "la interpretación"
+        },
+        {
+          "left": "the review, the criticism",
+          "right": "la crítica"
+        },
+        {
+          "left": "the restoration",
+          "right": "la restauración"
+        }
+      ],
+      "note": "The work is the object (la obra) and the reading of it is a separate thing (la interpretación)."
+    },
+    {
+      "id": "es/b2/u18/select/estilo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the style”.",
+      "options": [
+        "la interpretación",
+        "la crítica",
+        "el museo",
+        "el estilo"
+      ],
+      "answer": "el estilo",
+      "translation": "the style",
+      "note": "Masculine: el estilo. It also means the way somebody writes."
+    },
+    {
+      "id": "es/b2/u18/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ explica cada pieza.",
+      "answer": "catálogo",
+      "acceptedAnswers": [
+        "catalogo"
+      ],
+      "translation": "the catalogue explains each piece",
+      "note": "El catálogo is masculine."
+    },
+    {
+      "id": "es/b2/u18/drill/3",
+      "type": "type_in",
+      "prompt": "Cada visitante hace su propia ___.",
+      "answer": "interpretación",
+      "acceptedAnswers": [
+        "interpretacion"
+      ],
+      "translation": "every visitor makes their own interpretation",
+      "note": "La interpretación is feminine."
+    },
+    {
+      "id": "es/b2/u18/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ es anterior a la pintura final.",
+      "answer": "boceto",
+      "acceptedAnswers": [
+        "boceto"
+      ],
+      "translation": "the sketch comes before the finished painting",
+      "note": "El boceto is masculine."
+    },
+    {
+      "id": "es/b2/u18/drill/5",
+      "type": "type_in",
+      "prompt": "La ___ de la cúpula tomó diez años.",
+      "answer": "restauración",
+      "acceptedAnswers": [
+        "restauracion"
+      ],
+      "translation": "the restoration of the dome took ten years",
+      "note": "La restauración is feminine."
+    }
+  ]
+}

@@ -51,9 +51,10 @@ vocabulary has stopped moving.
 
 ## What comes next
 
-- **The voice.** eSpeak is intelligible and it is ours, but it is a robot. A
-  native speaker recording the 920 words would replace them file by file,
-  with no code change: the files are plain MP3 and the names are fixed.
-- **The other levels.** A1 has 500 words. A2, B1 and B2 have 170, 140 and
-  120, and the path audit checks the grammar of the path, not the size of
-  its vocabulary.
+- **The voice.** Piper is intelligible and it is ours, but it is a
+  synthesiser, not a speaker. A native speaker recording the words would
+  replace them file by file with `npm run import:audio -- <folder>`, no code
+  change: the files are plain MP3 and the names are fixed.
+- **The interface.** The engine, the path and the course are proven; the
+  look is not. The dashboard, the lesson and the practice pages are due a
+  visual world of their own.

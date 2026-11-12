@@ -85,9 +85,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “big”.",
       "options": [
-        "mismo",
-        "alto",
-        "propio",
+        "tímido",
+        "generoso",
+        "valiente",
         "grande"
       ],
       "answer": "grande",
@@ -100,9 +100,9 @@
       "prompt": "What did you hear?",
       "answer": "pequeño",
       "options": [
-        "delgado",
-        "simpático",
-        "guapo",
+        "inteligente",
+        "serio",
+        "divertido",
         "pequeño"
       ],
       "audio": {
@@ -158,9 +158,9 @@
       "prompt": "Pick the Spanish word for “excellent”.",
       "options": [
         "excelente",
-        "propio",
-        "mismo",
-        "claro"
+        "guapo",
+        "simpático",
+        "delgado"
       ],
       "answer": "excelente",
       "translation": "excellent",

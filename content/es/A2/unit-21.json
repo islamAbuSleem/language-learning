@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 21,
+  "title": "The house and its repairs",
+  "description": "Say what has broken and get it fixed.",
+  "explanation": {
+    "summary": "Things in a house break, and then somebody comes and fixes them. Telling the story of a repair needs the preterite, because every step of it is a finished action with a clear time in the past.",
+    "sections": [
+      {
+        "heading": "The things that break",
+        "body": "A house is a set of parts and each one can fail. El grifo gotea, la tubería está rota, el techo tiene una gotera, el suelo está mojado. The word for the problem itself is la avería: hay una avería en la caldera y no hay agua caliente.",
+        "examples": [
+          {
+            "es": "El grifo de la cocina pierde agua.",
+            "en": "The kitchen tap is leaking."
+          },
+          {
+            "es": "Hay una gotera en el techo del salón.",
+            "en": "There is a leak in the ceiling of the living room."
+          }
+        ]
+      },
+      {
+        "heading": "Telling the story of a repair",
+        "body": "When you tell somebody what happened, use the preterite. El grifo se rompió el martes. Llamé al fontanero. Vino a las tres y arregló la tubería en media hora. Each verb is a finished action, which is exactly what the preterite is for. If you want to say what was happening in the middle of it, use the imperfect: el fontanero arreglaba la tubería cuando llegué.",
+        "examples": [
+          {
+            "es": "Se rompió el grifo el martes por la mañana.",
+            "en": "The tap broke on Tuesday morning."
+          },
+          {
+            "es": "El fontanero llegó antes de las tres.",
+            "en": "The plumber arrived before three."
+          }
+        ]
+      },
+      {
+        "heading": "Who does the work",
+        "body": "Un fontanero works with water: grifos, tuberías, heating, cisterns. Un electricista works with electricity: enchufes, lights, the meter. The general verbs are reparar and arreglar, and both take a thing as their object: hay que reparar la caldera, tenemos que arreglar la puerta.",
+        "examples": [
+          {
+            "es": "Tengo que reparar la caldera.",
+            "en": "I have to repair the boiler."
+          },
+          {
+            "es": "El electricista cambió el enchufe.",
+            "en": "The electrician changed the socket."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u21/match/grifo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the tap",
+          "right": "el grifo"
+        },
+        {
+          "left": "the pipe",
+          "right": "la tubería"
+        },
+        {
+          "left": "the breakdown",
+          "right": "la avería"
+        },
+        {
+          "left": "the roof",
+          "right": "el techo"
+        },
+        {
+          "left": "the floor",
+          "right": "el suelo"
+        }
+      ],
+      "note": "A repair is a chain of finished actions: se rompió el grifo, llamé al fontanero, lo arregló."
+    },
+    {
+      "id": "es/a2/u21/select/grifo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the tap”.",
+      "options": [
+        "reparar",
+        "arreglar",
+        "el mapa",
+        "el grifo"
+      ],
+      "answer": "el grifo",
+      "translation": "the tap",
+      "note": "Masculine: el grifo. The tap that gives the water."
+    },
+    {
+      "id": "es/a2/u21/listen/tuberia",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la tubería",
+      "options": [
+        "la terraza",
+        "bajo",
+        "sobre",
+        "la tubería"
+      ],
+      "audio": {
+        "text": "tubería",
+        "lang": "es",
+        "file": "/audio/es/tuberia-debe9c82.mp3"
+      },
+      "translation": "the pipe",
+      "note": "Feminine: la tubería. The pipes inside the walls."
+    },
+    {
+      "id": "es/a2/u21/drill/1",
+      "type": "type_in",
+      "prompt": "El grifo ___ ayer.",
+      "answer": "se rompió",
+      "acceptedAnswers": [
+        "se rompio"
+      ],
+      "translation": "the tap broke yesterday",
+      "note": "The preterite of romperse is se rompió."
+    },
+    {
+      "id": "es/a2/u21/match/gotera",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the leak",
+          "right": "la gotera"
+        },
+        {
+          "left": "the plumber",
+          "right": "el fontanero"
+        },
+        {
+          "left": "the electrician",
+          "right": "el electricista"
+        },
+        {
+          "left": "to repair",
+          "right": "reparar"
+        },
+        {
+          "left": "to fix",
+          "right": "arreglar"
+        }
+      ],
+      "note": "A repair is a chain of finished actions: se rompió el grifo, llamé al fontanero, lo arregló."
+    },
+    {
+      "id": "es/a2/u21/select/averia",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the breakdown”.",
+      "options": [
+        "la mezcla",
+        "la harina",
+        "el aceite",
+        "la avería"
+      ],
+      "answer": "la avería",
+      "translation": "the breakdown",
+      "note": "Feminine: la avería. A fault, something that does not work."
+    },
+    {
+      "id": "es/a2/u21/drill/2",
+      "type": "type_in",
+      "prompt": "___ al fontanero porque no había agua.",
+      "answer": "Llamé",
+      "acceptedAnswers": [
+        "Llame"
+      ],
+      "translation": "I called the plumber because there was no water",
+      "note": "Llamar in the preterite is llamé; había is the imperfect of haber."
+    },
+    {
+      "id": "es/a2/u21/drill/3",
+      "type": "type_in",
+      "prompt": "El fontanero ___ la gotera del techo.",
+      "answer": "arregló",
+      "acceptedAnswers": [
+        "arreglo"
+      ],
+      "translation": "the plumber fixed the leak in the roof",
+      "note": "Arreglar in the preterite is arregló."
+    },
+    {
+      "id": "es/a2/u21/drill/4",
+      "type": "type_in",
+      "prompt": "La tubería ___ en el segundo piso.",
+      "answer": "está rota",
+      "acceptedAnswers": [
+        "esta rota"
+      ],
+      "translation": "the pipe is broken on the second floor",
+      "note": "Estar plus an adjective for a state that is true now."
+    },
+    {
+      "id": "es/a2/u21/drill/5",
+      "type": "type_in",
+      "prompt": "Necesito ___ el grifo del baño.",
+      "answer": "reparar",
+      "acceptedAnswers": [
+        "reparar"
+      ],
+      "translation": "I need to repair the bathroom tap",
+      "note": "Necesitar takes an infinitive."
+    }
+  ]
+}

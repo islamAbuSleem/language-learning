@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 23,
+  "title": "Learning and study",
+  "description": "Say how you learn and how you study.",
+  "explanation": {
+    "summary": "Learning has a rhythm: you review, you make mistakes, you try again. This unit gives you the words for that cycle, and the words for how you study, so you can describe your own way of learning.",
+    "sections": [
+      {
+        "heading": "The cycle",
+        "body": "Un repaso is a review, and it is the thing that keeps a language in your head. Los apuntes are the notes you take, and un error is a mistake you will meet again. El esfuerzo is the work you put in, and el hábito is what turns that work into a routine.",
+        "examples": [
+          {
+            "es": "El repaso diario dura media hora.",
+            "en": "The daily review lasts half an hour."
+          },
+          {
+            "es": "Anoto las palabras nuevas en mis apuntes.",
+            "en": "I write the new words in my notes."
+          },
+          {
+            "es": "Todavía no he corregido todos los errores.",
+            "en": "I have not corrected all the mistakes yet."
+          }
+        ]
+      },
+      {
+        "heading": "How you work",
+        "body": "Concentrarse is to concentrate, and it is the hard part of any session: cuesta concentrarse en una habitación llena de ruido. Aprobar is to pass, and suspender is to fail. El ejercicio is the piece of work you do to get better.",
+        "examples": [
+          {
+            "es": "No puedo concentrarme con el ruido de la calle.",
+            "en": "I cannot concentrate with the noise from the street."
+          },
+          {
+            "es": "He aprobado el examen de vocabulario.",
+            "en": "He has passed the vocabulary exam."
+          },
+          {
+            "es": "He suspendido dos ejercicios seguidos.",
+            "en": "He failed two exercises in a row."
+          }
+        ]
+      },
+      {
+        "heading": "The words themselves",
+        "body": "Una palabra nueva is not learned in one go. La pronunciación matters, el vocabulario is the set of words you know, and el método is the way you learn: cada persona tiene su método. Un tema bien elegido vale más que muchas horas.",
+        "examples": [
+          {
+            "es": "La pronunciación de esa palabra es difícil.",
+            "en": "The pronunciation of that word is difficult."
+          },
+          {
+            "es": "Mi método es escuchar y repetir.",
+            "en": "My method is to listen and repeat."
+          },
+          {
+            "es": "Cada día aprendes un poco más de vocabulario.",
+            "en": "Every day you learn a little more vocabulary."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u23/match/repaso",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the review",
+          "right": "el repaso"
+        },
+        {
+          "left": "the topic",
+          "right": "el tema"
+        },
+        {
+          "left": "the exercise",
+          "right": "el ejercicio"
+        },
+        {
+          "left": "the mistake",
+          "right": "el error"
+        },
+        {
+          "left": "the notes",
+          "right": "el apuntes"
+        }
+      ],
+      "note": "The present perfect says what you have done up to now: he aprobado el examen, he suspended dos asignaturas."
+    },
+    {
+      "id": "es/b1/u23/select/repaso",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the review”.",
+      "options": [
+        "el repaso",
+        "el examen",
+        "la tiza",
+        "la regla"
+      ],
+      "answer": "el repaso",
+      "translation": "the review",
+      "note": "Masculine: el repaso."
+    },
+    {
+      "id": "es/b1/u23/listen/tema",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el tema",
+      "options": [
+        "el esfuerzo",
+        "concentrarse",
+        "el apuntes",
+        "el tema"
+      ],
+      "audio": {
+        "text": "tema",
+        "lang": "es",
+        "file": "/audio/es/tema-a9f698a0.mp3"
+      },
+      "translation": "the topic",
+      "note": "Masculine: el tema."
+    },
+    {
+      "id": "es/b1/u23/drill/1",
+      "type": "type_in",
+      "prompt": "Cada mañana hago un ___ de las palabras nuevas.",
+      "answer": "repaso",
+      "acceptedAnswers": [
+        "repaso"
+      ],
+      "translation": "every morning I do a review of the new words",
+      "note": "Repaso is masculine: el repaso."
+    },
+    {
+      "id": "es/b1/u23/match/esfuerzo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the effort",
+          "right": "el esfuerzo"
+        },
+        {
+          "left": "to concentrate",
+          "right": "concentrarse"
+        },
+        {
+          "left": "to pass",
+          "right": "aprobar"
+        },
+        {
+          "left": "the pronunciation",
+          "right": "la pronunciación"
+        },
+        {
+          "left": "the habit",
+          "right": "el hábito"
+        }
+      ],
+      "note": "The present perfect says what you have done up to now: he aprobado el examen, he suspended dos asignaturas."
+    },
+    {
+      "id": "es/b1/u23/select/ejercicio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the exercise”.",
+      "options": [
+        "el repaso",
+        "el tema",
+        "el ejercicio",
+        "la pizarra"
+      ],
+      "answer": "el ejercicio",
+      "translation": "the exercise",
+      "note": "Masculine: el ejercicio."
+    },
+    {
+      "id": "es/b1/u23/drill/2",
+      "type": "type_in",
+      "prompt": "No corregí todos los ___ del examen.",
+      "answer": "errores",
+      "acceptedAnswers": [
+        "errores"
+      ],
+      "translation": "I did not correct all the mistakes in the exam",
+      "note": "Error in the plural: los errores."
+    },
+    {
+      "id": "es/b1/u23/drill/3",
+      "type": "type_in",
+      "prompt": "Intento ___ antes de empezar.",
+      "answer": "concentrarme",
+      "acceptedAnswers": [
+        "concentrarme"
+      ],
+      "translation": "I try to concentrate before starting",
+      "note": "Concentrarse is reflexive: me concentro."
+    },
+    {
+      "id": "es/b1/u23/drill/4",
+      "type": "type_in",
+      "prompt": "He ___ el examen de inglés.",
+      "answer": "aprobado",
+      "acceptedAnswers": [
+        "aprobado"
+      ],
+      "translation": "he has passed the English exam",
+      "note": "The present perfect of aprobar: he aprobado."
+    },
+    {
+      "id": "es/b1/u23/drill/5",
+      "type": "type_in",
+      "prompt": "La ___ de esta palabra es difícil.",
+      "answer": "pronunciación",
+      "acceptedAnswers": [
+        "pronunciacion"
+      ],
+      "translation": "the pronunciation of this word is difficult",
+      "note": "Pronunciación is feminine: la pronunciación."
+    }
+  ]
+}

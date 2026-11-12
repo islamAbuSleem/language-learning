@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 24,
+  "title": "Weather and seasons",
+  "description": "Talk about a year of weather, from a heatwave to the first frost.",
+  "explanation": {
+    "summary": "A1 taught the weather as a fact: hace sol, hace frío. B1 turns it into a forecast and a year: what will happen, what season it belongs to, and what the extreme days are called.",
+    "sections": [
+      {
+        "heading": "The year in seasons",
+        "body": "La estación is one of the four parts of the year. El amanecer is when the day starts and el atardecer is when it ends. El rocío is the water on the grass in the morning, and it belongs to spring and autumn.",
+        "examples": [
+          {
+            "es": "La primavera es mi estación favorita.",
+            "en": "Spring is my favourite season."
+          },
+          {
+            "es": "El amanecer es a las siete.",
+            "en": "Sunrise is at seven."
+          },
+          {
+            "es": "Hay rocío en el jardín.",
+            "en": "There is dew in the garden."
+          }
+        ]
+      },
+      {
+        "heading": "When the weather turns",
+        "body": "Una ola de calor is days of extreme heat, and la sequía is months without rain. La inundación is what a river does after a storm, and el granizo is ice falling from the sky. La niebla sits low over a town, and el arcoíris comes after the rain.",
+        "examples": [
+          {
+            "es": "Mañana habrá una ola de calor.",
+            "en": "There will be a heatwave tomorrow."
+          },
+          {
+            "es": "La niebla no deja ver la calle.",
+            "en": "The fog does not let you see the street."
+          },
+          {
+            "es": "Después de la tormenta salió el arcoíris.",
+            "en": "After the storm the rainbow came out."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u24/match/estacion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the season",
+          "right": "la estación"
+        },
+        {
+          "left": "the dawn",
+          "right": "el amanecer"
+        },
+        {
+          "left": "the dusk",
+          "right": "el atardecer"
+        },
+        {
+          "left": "the dew",
+          "right": "el rocío"
+        },
+        {
+          "left": "the heatwave",
+          "right": "la ola de calor"
+        }
+      ],
+      "note": "A forecast uses the future: mañana lloverá, it will rain tomorrow."
+    },
+    {
+      "id": "es/b1/u24/select/estacion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the season”.",
+      "options": [
+        "el horario",
+        "la entrega",
+        "el turno",
+        "la estación"
+      ],
+      "answer": "la estación",
+      "translation": "the season",
+      "note": "Feminine: la estación. It also means the station."
+    },
+    {
+      "id": "es/b1/u24/listen/amanecer",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el amanecer",
+      "options": [
+        "la jornada",
+        "el horario",
+        "el siglo",
+        "el amanecer"
+      ],
+      "audio": {
+        "text": "amanecer",
+        "lang": "es",
+        "file": "/audio/es/amanecer-bb042450.mp3"
+      },
+      "translation": "the dawn",
+      "note": "Masculine: el amanecer."
+    },
+    {
+      "id": "es/b1/u24/drill/1",
+      "type": "type_in",
+      "prompt": "Mañana ___ una ola de calor.",
+      "answer": "habrá",
+      "acceptedAnswers": [
+        "habra"
+      ],
+      "translation": "there will be a heatwave tomorrow",
+      "note": "A forecast uses the future: habrá."
+    },
+    {
+      "id": "es/b1/u24/match/sequia",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the drought",
+          "right": "la sequía"
+        },
+        {
+          "left": "the flood",
+          "right": "la inundación"
+        },
+        {
+          "left": "the hail",
+          "right": "el granizo"
+        },
+        {
+          "left": "the fog",
+          "right": "la niebla"
+        },
+        {
+          "left": "the rainbow",
+          "right": "el arcoíris"
+        }
+      ],
+      "note": "A forecast uses the future: mañana lloverá, it will rain tomorrow."
+    },
+    {
+      "id": "es/b1/u24/select/atardecer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the dusk”.",
+      "options": [
+        "el año",
+        "el siglo",
+        "durante",
+        "el atardecer"
+      ],
+      "answer": "el atardecer",
+      "translation": "the dusk",
+      "note": "Masculine: el atardecer."
+    },
+    {
+      "id": "es/b1/u24/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ no deja ver la calle.",
+      "answer": "niebla",
+      "acceptedAnswers": [
+        "niebla"
+      ],
+      "translation": "the fog does not let you see the street",
+      "note": "Niebla is feminine: la niebla."
+    },
+    {
+      "id": "es/b1/u24/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ es a las siete.",
+      "answer": "amanecer",
+      "acceptedAnswers": [
+        "amanecer"
+      ],
+      "translation": "sunrise is at seven",
+      "note": "Amanecer is masculine."
+    },
+    {
+      "id": "es/b1/u24/drill/4",
+      "type": "type_in",
+      "prompt": "La ___ duró todo el verano.",
+      "answer": "sequía",
+      "acceptedAnswers": [
+        "sequia"
+      ],
+      "translation": "the drought lasted all summer",
+      "note": "Sequía is feminine: la sequía."
+    },
+    {
+      "id": "es/b1/u24/drill/5",
+      "type": "type_in",
+      "prompt": "Después de la lluvia salió el ___.",
+      "answer": "arcoíris",
+      "acceptedAnswers": [
+        "arcoiris"
+      ],
+      "translation": "after the rain the rainbow came out",
+      "note": "Arcoíris is masculine."
+    }
+  ]
+}

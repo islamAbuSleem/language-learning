@@ -1,0 +1,49 @@
+{
+  "unit": 17,
+  "title": "Health and the body over a lifetime",
+  "description": "Describe a body over a lifetime, in the words a doctor uses.",
+  "grammar": "el vocabulario de la medicina, y la descripción de un proceso",
+  "grammarNote": "A symptom, a diagnosis and a treatment are three different nouns, and their order is the order of the story.",
+  "explanation": {
+    "summary": "Medicine in Spanish is precise and mostly noun-based: what the patient feels, what the doctor finds, and what the doctor does about it. A life has a shape in this language too, and the vocabulary follows that shape, from prevention to treatment to the prognosis.",
+    "sections": [
+      {
+        "heading": "What the patient feels and what the doctor finds",
+        "body": "el paciente is the person who comes to the consultation, and what the patient notices is un síntoma. What the doctor finds is un diagnóstico, and what the doctor does about it is un tratamiento. The drug the treatment uses is un medicamento, and the disease that is being treated is una enfermedad. Cada uno de estos sustantivos dice una sola cosa, and mixing them up is the usual mistake.",
+        "examples": [
+          { "es": "El paciente lleva dos semanas con fiebre.", "en": "The patient has had a fever for two weeks." },
+          { "es": "El diagnóstico llegó tres días más tarde.", "en": "The diagnosis arrived three days later." },
+          { "es": "El tratamiento dura seis semanas.", "en": "The treatment lasts six weeks." }
+        ]
+      },
+      {
+        "heading": "A body over a lifetime",
+        "body": "Antes de la enfermedad está la prevención: la vacunación y una buena nutrición. Después, el cuerpo envejece, y una de las consecuencias es una inmunidad más débil. La edad, por sí sola, no es una enfermedad, pero sí cambia el pronóstico, y por eso la historia clínica del paciente importa tanto como los análisis de hoy.",
+        "examples": [
+          { "es": "La vacunación anual es la mejor prevención.", "en": "Annual vaccination is the best prevention." },
+          { "es": "Una buena nutrición sostiene la inmunidad.", "en": "Good nutrition supports immunity." },
+          { "es": "El pronóstico depende de los análisis.", "en": "The prognosis depends on the test results." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "paciente", "en": "the patient", "article": "el", "note": "Masculine: el paciente.", "tags": ["health"] },
+    { "es": "síntoma", "en": "the symptom", "article": "el", "note": "Masculine: el síntoma. The accent marks the stress.", "tags": ["health"] },
+    { "es": "diagnóstico", "en": "the diagnosis", "article": "el", "note": "Masculine: el diagnóstico. The accent marks the stress.", "tags": ["health"] },
+    { "es": "tratamiento", "en": "the treatment", "article": "el", "note": "Masculine: el tratamiento.", "tags": ["health"] },
+    { "es": "medicamento", "en": "the medicine, the drug", "article": "el", "note": "Masculine: el medicamento.", "tags": ["health"] },
+    { "es": "enfermedad", "en": "the illness, the disease", "article": "la", "note": "Feminine: la enfermedad.", "tags": ["health"] },
+    { "es": "nutrición", "en": "nutrition", "article": "la", "note": "Feminine: la nutrición. The accent marks the stress.", "tags": ["health"] },
+    { "es": "inmunidad", "en": "immunity", "article": "la", "note": "Feminine: la inmunidad.", "tags": ["health"] },
+    { "es": "vacunación", "en": "vaccination", "article": "la", "note": "Feminine: la vacunación. From vacunar.", "tags": ["health"] },
+    { "es": "pronóstico", "en": "the prognosis", "article": "el", "note": "Masculine: el pronóstico. The accent marks the stress.", "tags": ["health"] }
+  ],
+  "drills": [
+    { "prompt": "El ___ llegó tres días más tarde.", "answer": "diagnóstico", "meaning": "the diagnosis arrived three days later", "note": "El diagnóstico is masculine." },
+    { "prompt": "El ___ dura seis semanas.", "answer": "tratamiento", "meaning": "the treatment lasts six weeks", "note": "El tratamiento is masculine." },
+    { "prompt": "El paciente explica su ___.", "answer": "síntoma", "meaning": "the patient explains his symptom", "note": "El síntoma is masculine." },
+    { "prompt": "La ___ anual es la mejor prevención.", "answer": "vacunación", "meaning": "annual vaccination is the best prevention", "note": "La vacunación is feminine." },
+    { "prompt": "El ___ depende de los análisis.", "answer": "pronóstico", "meaning": "the prognosis depends on the test results", "note": "El pronóstico is masculine." }
+  ]
+}

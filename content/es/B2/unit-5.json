@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to depend”.",
       "options": [
-        "haga",
-        "sea",
-        "diga",
+        "llegar",
+        "ser",
+        "hablar",
         "depender"
       ],
       "answer": "depender",
@@ -94,9 +94,9 @@
       "prompt": "What did you hear?",
       "answer": "insistir",
       "options": [
-        "comeré",
-        "viviré",
-        "hablaré",
+        "hablara",
+        "comiera",
+        "contar",
         "insistir"
       ],
       "audio": {
@@ -151,10 +151,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to dream”.",
       "options": [
-        "hablara",
-        "había salido",
+        "pelar",
+        "hornear",
         "soñar",
-        "comiera"
+        "reservar"
       ],
       "answer": "soñar",
       "translation": "to dream",

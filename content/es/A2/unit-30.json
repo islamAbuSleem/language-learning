@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 30,
+  "title": "Films and the cinema",
+  "description": "Name the parts of a film and talk about its world.",
+  "explanation": {
+    "summary": "A film is a machine with parts: el guion, la cámara, la pantalla, la escena, la banda sonora. The imperfect is the tense of the world of the story, because everything that is around the action stays there while the action happens.",
+    "sections": [
+      {
+        "heading": "The machinery of a film",
+        "body": "El guion says what happens, la cámara records it, and el director decides how it is filmed. The finished film is shown on la pantalla in el cine. La banda sonora is the music, and it is made separately from the pictures. A film that tells real events is un documental.",
+        "examples": [
+          {
+            "es": "La banda sonora de la película es muy buena.",
+            "en": "The soundtrack of the film is very good."
+          },
+          {
+            "es": "El documental dura noventa minutos.",
+            "en": "The documentary lasts ninety minutes."
+          }
+        ]
+      },
+      {
+        "heading": "The people on the screen",
+        "body": "El actor says the words and la actriz does the same job. El director gives notes to everybody and decides how many times each escena is filmed, because the first take is rarely the one that works. To act is actuar, and to shoot a film is rodar.",
+        "examples": [
+          {
+            "es": "La escena del final se rodó doce veces.",
+            "en": "The final scene was shot twelve times."
+          },
+          {
+            "es": "El actor principal no hablaba nada en inglés.",
+            "en": "The leading actor did not say anything in English."
+          }
+        ]
+      },
+      {
+        "heading": "The world of the film",
+        "body": "Everything that is around the action is in the imperfect: la película duraba dos horas, la ciudad estaba en invierno, el protagonista vivía con su madre. The actions are in the preterite: el protagonista se despertó, corrió a la estación y perdió el tren. So the imperfect is the world and the preterite is what happens in it.",
+        "examples": [
+          {
+            "es": "La ciudad estaba cubierta de nieve.",
+            "en": "The city was covered in snow."
+          },
+          {
+            "es": "El protagonista llegó a la estación y no había ningún tren.",
+            "en": "The main character got to the station and there was no train at all."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u30/match/pelicula",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the film",
+          "right": "la película"
+        },
+        {
+          "left": "the cinema",
+          "right": "el cine"
+        },
+        {
+          "left": "the scene",
+          "right": "la escena"
+        },
+        {
+          "left": "the director",
+          "right": "el director"
+        },
+        {
+          "left": "the script",
+          "right": "el guion"
+        }
+      ],
+      "note": "The world of a film lives in the imperfect: la película duraba dos horas, el protagonista vivía en un pueblo."
+    },
+    {
+      "id": "es/a2/u30/select/pelicula",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the film”.",
+      "options": [
+        "la humedad",
+        "la helada",
+        "el chubasco",
+        "la película"
+      ],
+      "answer": "la película",
+      "translation": "the film",
+      "note": "Feminine: la película. A story told in pictures and sound."
+    },
+    {
+      "id": "es/a2/u30/listen/cine",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el cine",
+      "options": [
+        "el cine",
+        "la reseña",
+        "el prólogo",
+        "el final"
+      ],
+      "audio": {
+        "text": "cine",
+        "lang": "es",
+        "file": "/audio/es/cine-33f3156f.mp3"
+      },
+      "translation": "the cinema",
+      "note": "Masculine: el cine. The place where films are shown, and also the art of making them."
+    },
+    {
+      "id": "es/a2/u30/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ es el texto de la película.",
+      "answer": "guion",
+      "acceptedAnswers": [
+        "guion"
+      ],
+      "translation": "the script is the text of the film",
+      "note": "El guion is the script."
+    },
+    {
+      "id": "es/a2/u30/match/camara",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the camera",
+          "right": "la cámara"
+        },
+        {
+          "left": "the soundtrack",
+          "right": "la banda sonora"
+        },
+        {
+          "left": "the documentary",
+          "right": "el documental"
+        },
+        {
+          "left": "to shoot",
+          "right": "rodar"
+        },
+        {
+          "left": "to act",
+          "right": "actuar"
+        }
+      ],
+      "note": "The world of a film lives in the imperfect: la película duraba dos horas, el protagonista vivía en un pueblo."
+    },
+    {
+      "id": "es/a2/u30/select/escena",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the scene”.",
+      "options": [
+        "la verdura",
+        "la servilleta",
+        "la jarra",
+        "la escena"
+      ],
+      "answer": "la escena",
+      "translation": "the scene",
+      "note": "Feminine: la escena. One part of a film, in one place and at one time."
+    },
+    {
+      "id": "es/a2/u30/drill/2",
+      "type": "type_in",
+      "prompt": "La película ___ dos horas.",
+      "answer": "dura",
+      "acceptedAnswers": [
+        "dura"
+      ],
+      "translation": "the film lasts two hours",
+      "note": "The present for a fixed length."
+    },
+    {
+      "id": "es/a2/u30/drill/3",
+      "type": "type_in",
+      "prompt": "La banda ___ de la película es muy buena.",
+      "answer": "sonora",
+      "acceptedAnswers": [
+        "sonora"
+      ],
+      "translation": "the soundtrack of the film is very good",
+      "note": "La banda sonora is the soundtrack."
+    },
+    {
+      "id": "es/a2/u30/drill/4",
+      "type": "type_in",
+      "prompt": "El equipo ___ la película en tres semanas.",
+      "answer": "rodó",
+      "acceptedAnswers": [
+        "rodo"
+      ],
+      "translation": "the team shot the film in three weeks",
+      "note": "Rodar in the preterite is rodó."
+    },
+    {
+      "id": "es/a2/u30/drill/5",
+      "type": "type_in",
+      "prompt": "Vamos al ___ a ver la película.",
+      "answer": "cine",
+      "acceptedAnswers": [
+        "cine"
+      ],
+      "translation": "we are going to the cinema to see the film",
+      "note": "El cine is the cinema."
+    }
+  ]
+}

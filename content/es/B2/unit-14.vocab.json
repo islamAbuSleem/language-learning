@@ -1,0 +1,49 @@
+{
+  "unit": 14,
+  "title": "The law and the rights",
+  "description": "Say what the law says about ordinary life, and what you can do about it.",
+  "grammar": "el vocabulario del derecho: la norma, el juicio y el recurso",
+  "grammarNote": "The law is a noun (la legislación) and what a court does is another noun (la sentencia).",
+  "explanation": {
+    "summary": "The law has its own precise nouns, and they are not decorative: la legislación is the whole body of rules, la normativa is the set that applies to your case, un tribunal is the body that applies it. Once you can name the thing you are talking about, you can say what is allowed, what is owed to you, and what you can do when it is not.",
+    "sections": [
+      {
+        "heading": "The rules and the court",
+        "body": "la legislación is the whole body of law, and la normativa is the set of rules that applies to one sector or one company. When a rule is broken there is una denuncia, the complaint or the report; it goes to un tribunal, and the court gives su sentencia, the ruling. la multa, the fine, is what usually happens first in practice, and the whole procedure is un recurso, the appeal.",
+        "examples": [
+          { "es": "La normativa laboral cambió el año pasado.", "en": "The labour regulations changed last year." },
+          { "es": "Presentó una denuncia contra la empresa.", "en": "He filed a complaint against the company." },
+          { "es": "El tribunal dictó su sentencia en marzo.", "en": "The court handed down its ruling in March." }
+        ]
+      },
+      {
+        "heading": "What you are owed",
+        "body": "un derecho is a right, and it is a countable noun: la ley le reconoce ese derecho. un testigo is a witness, and what a testigo says carries weight. un contrato is where most rights are written down, and reclamar is to claim what the contract gives you. Note that el derecho also means the straight thing, and the law is only one of its meanings.",
+        "examples": [
+          { "es": "El contrato recoge los derechos de ambas partes.", "en": "The contract sets out the rights of both parties." },
+          { "es": "Reclamó una indemnización tras el accidente.", "en": "He claimed compensation after the accident." },
+          { "es": "La testigo declaró que no vio nada.", "en": "The witness declared that she saw nothing." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "legislación", "en": "the legislation", "article": "la", "note": "Feminine: la legislación.", "tags": ["law"] },
+    { "es": "normativa", "en": "the regulations", "article": "la", "note": "Feminine: la normativa. It is the rules that apply to a case.", "tags": ["law"] },
+    { "es": "derecho", "en": "the right, the law", "article": "el", "note": "Masculine: el derecho. It also means the straight thing.", "tags": ["law"] },
+    { "es": "contrato", "en": "the contract", "article": "el", "note": "Masculine: el contrato.", "tags": ["law"] },
+    { "es": "tribunal", "en": "the court", "article": "el", "note": "Masculine: el tribunal. It is the body that applies the law.", "tags": ["law"] },
+    { "es": "sentencia", "en": "the ruling, the sentence", "article": "la", "note": "Feminine: la sentencia.", "tags": ["law"] },
+    { "es": "denuncia", "en": "the complaint, the report", "article": "la", "note": "Feminine: la denuncia. It also means an advertisement.", "tags": ["law"] },
+    { "es": "testigo", "en": "the witness", "article": "el", "note": "Masculine: el testigo.", "tags": ["law"] },
+    { "es": "multa", "en": "the fine", "article": "la", "note": "Feminine: la multa.", "tags": ["law"] },
+    { "es": "reclamar", "en": "to claim", "article": null, "note": "An infinitive ending in -ar: reclamo, reclamas, reclama.", "tags": ["law", "verb"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ cambió en enero.", "answer": "normativa", "meaning": "the regulations changed in January", "note": "La normativa is feminine." },
+    { "prompt": "El ___ dictó la sentencia.", "answer": "tribunal", "meaning": "the court handed down the ruling", "note": "El tribunal is masculine." },
+    { "prompt": "Presentó una ___ contra la empresa.", "answer": "denuncia", "meaning": "he filed a complaint against the company", "note": "La denuncia is feminine." },
+    { "prompt": "El ___ recoge los derechos de las partes.", "answer": "contrato", "meaning": "the contract sets out the rights of the parties", "note": "El contrato is masculine." },
+    { "prompt": "Si no pagan, hay que ___ el dinero.", "answer": "reclamar", "meaning": "if they do not pay, you have to claim the money", "note": "Reclamar is an infinitive: reclamar algo." }
+  ]
+}

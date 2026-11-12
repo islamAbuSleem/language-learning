@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "doblar",
-        "fregar",
-        "cortar",
+        "había hablado",
+        "había comido",
+        "había vivido",
         "tener que"
       ],
       "answer": "tener que",
@@ -94,9 +94,9 @@
       "prompt": "What did you hear?",
       "answer": "haber que",
       "options": [
-        "haya hablado",
-        "haya comido",
-        "haya vivido",
+        "vender",
+        "correr",
+        "perder",
         "haber que"
       ],
       "audio": {
@@ -151,9 +151,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "había estudiado",
-        "había visto",
-        "había trabajado",
+        "nadar",
+        "pescar",
+        "cortar",
         "deber"
       ],
       "answer": "deber",

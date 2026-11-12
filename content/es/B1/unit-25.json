@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 25,
+  "title": "Work and technology",
+  "description": "Name the tools of a modern job and say what each one is for.",
+  "explanation": {
+    "summary": "A modern job runs on a small set of tools, and each one has a purpose. Para plus the infinitive says what each tool is for, and that is the whole grammar of this unit.",
+    "sections": [
+      {
+        "heading": "The tools",
+        "body": "El portátil is the computer you carry, and la pantalla is what you look at. El clic is what the finger does, and el cursor is what moves. La contraseña opens everything, and el programa is what runs inside.",
+        "examples": [
+          {
+            "es": "El portátil es para trabajar.",
+            "en": "The laptop is for working."
+          },
+          {
+            "es": "La contraseña abre el programa.",
+            "en": "The password opens the program."
+          },
+          {
+            "es": "Muevo el cursor con un clic.",
+            "en": "I move the cursor with a click."
+          }
+        ]
+      },
+      {
+        "heading": "The new way of working",
+        "body": "El teletrabajo is work from home, and la videollamada is the meeting on the screen. El robot does the repeated part of a job, and descargar is what you do with a file before you can use it.",
+        "examples": [
+          {
+            "es": "Hago teletrabajo tres días por semana.",
+            "en": "I work from home three days a week."
+          },
+          {
+            "es": "La videollamada es a las diez.",
+            "en": "The video call is at ten."
+          },
+          {
+            "es": "Descargo el archivo para leerlo.",
+            "en": "I download the file in order to read it."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u25/match/portatil",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the laptop",
+          "right": "el portátil"
+        },
+        {
+          "left": "the password",
+          "right": "la contraseña"
+        },
+        {
+          "left": "the click",
+          "right": "el clic"
+        },
+        {
+          "left": "the cursor",
+          "right": "el cursor"
+        },
+        {
+          "left": "the screen",
+          "right": "la pantalla"
+        }
+      ],
+      "note": "Para says what a thing is for: el portátil es para trabajar."
+    },
+    {
+      "id": "es/b1/u25/select/portatil",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the laptop”.",
+      "options": [
+        "la tarea",
+        "el proyecto",
+        "el turno",
+        "el portátil"
+      ],
+      "answer": "el portátil",
+      "translation": "the laptop",
+      "note": "Masculine: el portátil. The accent marks the stress."
+    },
+    {
+      "id": "es/b1/u25/listen/contrasena",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la contraseña",
+      "options": [
+        "el abogado",
+        "el cocinero",
+        "descargar",
+        "la contraseña"
+      ],
+      "audio": {
+        "text": "contraseña",
+        "lang": "es",
+        "file": "/audio/es/contrasena-c0c80830.mp3"
+      },
+      "translation": "the password",
+      "note": "Feminine: la contraseña. The ñ is its own letter."
+    },
+    {
+      "id": "es/b1/u25/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ es para trabajar.",
+      "answer": "portátil",
+      "acceptedAnswers": [
+        "portatil"
+      ],
+      "translation": "the laptop is for working",
+      "note": "Portátil is masculine."
+    },
+    {
+      "id": "es/b1/u25/match/programa",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the program",
+          "right": "el programa"
+        },
+        {
+          "left": "the video call",
+          "right": "la videollamada"
+        },
+        {
+          "left": "the remote work",
+          "right": "el teletrabajo"
+        },
+        {
+          "left": "the robot",
+          "right": "el robot"
+        },
+        {
+          "left": "to download",
+          "right": "descargar"
+        }
+      ],
+      "note": "Para says what a thing is for: el portátil es para trabajar."
+    },
+    {
+      "id": "es/b1/u25/select/clic",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the click”.",
+      "options": [
+        "el cursor",
+        "el programa",
+        "la pantalla",
+        "el clic"
+      ],
+      "answer": "el clic",
+      "translation": "the click",
+      "note": "Masculine: el clic."
+    },
+    {
+      "id": "es/b1/u25/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ abre el programa.",
+      "answer": "contraseña",
+      "acceptedAnswers": [
+        "contrasena"
+      ],
+      "translation": "the password opens the program",
+      "note": "Contraseña is feminine."
+    },
+    {
+      "id": "es/b1/u25/drill/3",
+      "type": "type_in",
+      "prompt": "Hago ___ tres días por semana.",
+      "answer": "teletrabajo",
+      "acceptedAnswers": [
+        "teletrabajo"
+      ],
+      "translation": "I work from home three days a week",
+      "note": "Teletrabajo is masculine: el teletrabajo."
+    },
+    {
+      "id": "es/b1/u25/drill/4",
+      "type": "type_in",
+      "prompt": "___ el archivo para leerlo.",
+      "answer": "Descargo",
+      "acceptedAnswers": [
+        "Descargo"
+      ],
+      "translation": "I download the file in order to read it",
+      "note": "Descargar with yo is descargo."
+    },
+    {
+      "id": "es/b1/u25/drill/5",
+      "type": "type_in",
+      "prompt": "La ___ es a las diez.",
+      "answer": "videollamada",
+      "acceptedAnswers": [
+        "videollamada"
+      ],
+      "translation": "the video call is at ten",
+      "note": "Videollamada is feminine."
+    }
+  ]
+}

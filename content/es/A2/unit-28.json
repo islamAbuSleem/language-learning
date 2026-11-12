@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 28,
+  "title": "Staying the night",
+  "description": "Book a room, describe it and check out.",
+  "explanation": {
+    "summary": "A hotel has its own small set of words: the reception, the key, the lift, the corridor. The present tense is what you need to describe the place you are standing in, and to say what a room has.",
+    "sections": [
+      {
+        "heading": "Arriving at the hotel",
+        "body": "You give your name at la recepción and they give you la llave. The rooms are on the floors of the building, so you take el ascensor. If your room is at the end of el pasillo, you walk a long way. La salida de emergencia is at the other end. La maleta is with you, or in the room, or down in the luggage room.",
+        "examples": [
+          {
+            "es": "Tengo una habitación reservada a nombre de García.",
+            "en": "I have a room booked under the name García."
+          },
+          {
+            "es": "El ascensor está al fondo del pasillo.",
+            "en": "The lift is at the end of the corridor."
+          }
+        ]
+      },
+      {
+        "heading": "The room",
+        "body": "Describe the room with the present: la habitación tiene dos camas y un baño, la ventana da al jardín, el suelo está frío, la toalla es pequeña. If something is wrong, say it simply: el grifo no funciona, la caldera no da agua caliente, no hay papel en el baño.",
+        "examples": [
+          {
+            "es": "La habitación tiene una vista al mar.",
+            "en": "The room has a view of the sea."
+          },
+          {
+            "es": "La cama es grande y el suelo está frío.",
+            "en": "The bed is big and the floor is cold."
+          }
+        ]
+      },
+      {
+        "heading": "Paying and leaving",
+        "body": "El desayuno is usually included in la tarifa, and the price of a night depends on the season. To book a room is reservar: he reservado una habitación para tres noches. When you leave you pay at the reception and you get el recibo. Some people ask: ¿está incluido el desayuno?",
+        "examples": [
+          {
+            "es": "He reservado una habitación para tres noches.",
+            "en": "I have booked a room for three nights."
+          },
+          {
+            "es": "¿Está incluido el desayuno en la tarifa?",
+            "en": "Is breakfast included in the rate?"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u28/match/habitacion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the room",
+          "right": "la habitación"
+        },
+        {
+          "left": "the reception",
+          "right": "la recepción"
+        },
+        {
+          "left": "the key",
+          "right": "la llave"
+        },
+        {
+          "left": "the lift",
+          "right": "el ascensor"
+        },
+        {
+          "left": "the towel",
+          "right": "la toalla"
+        }
+      ],
+      "note": "Describe the place as it is now: la habitación está limpia, el ascensor no funciona."
+    },
+    {
+      "id": "es/a2/u28/select/habitacion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the room”.",
+      "options": [
+        "el mapa",
+        "el libro",
+        "el número",
+        "la habitación"
+      ],
+      "answer": "la habitación",
+      "translation": "the room",
+      "note": "Feminine: la habitación. The room you sleep in, and also a part of a building."
+    },
+    {
+      "id": "es/a2/u28/listen/recepcion",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la recepción",
+      "options": [
+        "el cuello",
+        "la cremallera",
+        "la tela",
+        "la recepción"
+      ],
+      "audio": {
+        "text": "recepción",
+        "lang": "es",
+        "file": "/audio/es/recepcion-64dec784.mp3"
+      },
+      "translation": "the reception",
+      "note": "Feminine: la recepción. The desk where you arrive and pay."
+    },
+    {
+      "id": "es/a2/u28/drill/1",
+      "type": "type_in",
+      "prompt": "Dejé la ___ en la habitación.",
+      "answer": "maleta",
+      "acceptedAnswers": [
+        "maleta"
+      ],
+      "translation": "I left the suitcase in the room",
+      "note": "La maleta is the suitcase."
+    },
+    {
+      "id": "es/a2/u28/match/vista",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the view",
+          "right": "la vista"
+        },
+        {
+          "left": "the exit",
+          "right": "la salida"
+        },
+        {
+          "left": "the breakfast",
+          "right": "el desayuno"
+        },
+        {
+          "left": "the rate",
+          "right": "la tarifa"
+        },
+        {
+          "left": "to book",
+          "right": "reservar"
+        }
+      ],
+      "note": "Describe the place as it is now: la habitación está limpia, el ascensor no funciona."
+    },
+    {
+      "id": "es/a2/u28/select/llave",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the key”.",
+      "options": [
+        "la mezcla",
+        "el aceite",
+        "la harina",
+        "la llave"
+      ],
+      "answer": "la llave",
+      "translation": "the key",
+      "note": "Feminine: la llave. It opens the door of your room."
+    },
+    {
+      "id": "es/a2/u28/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está al fondo del pasillo.",
+      "answer": "ascensor",
+      "acceptedAnswers": [
+        "ascensor"
+      ],
+      "translation": "the lift is at the end of the corridor",
+      "note": "El ascensor is the lift."
+    },
+    {
+      "id": "es/a2/u28/drill/3",
+      "type": "type_in",
+      "prompt": "La habitación tiene una ___ al mar.",
+      "answer": "vista",
+      "acceptedAnswers": [
+        "vista"
+      ],
+      "translation": "the room has a view of the sea",
+      "note": "La vista is the view."
+    },
+    {
+      "id": "es/a2/u28/drill/4",
+      "type": "type_in",
+      "prompt": "___ una habitación para dos noches.",
+      "answer": "He reservado",
+      "acceptedAnswers": [
+        "He reservado"
+      ],
+      "translation": "I have booked a room for two nights",
+      "note": "The perfect for a booking that is already made."
+    },
+    {
+      "id": "es/a2/u28/drill/5",
+      "type": "type_in",
+      "prompt": "Necesito una ___ limpia.",
+      "answer": "toalla",
+      "acceptedAnswers": [
+        "toalla"
+      ],
+      "translation": "I need a clean towel",
+      "note": "La toalla is the towel."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 17,
+  "title": "The city at night",
+  "description": "Describe a town after dark, and say what people do at night.",
+  "explanation": {
+    "summary": "A town at night has its own lights, its own sounds and its own crowds. This unit gives you the words for a street after dark and for the people still out in it, so you can describe what you saw on the way home.",
+    "sections": [
+      {
+        "heading": "Lights and doorways",
+        "body": "At night a street is described by its light: el alumbrado, the neón of the signs, the dark of a portal. These three nouns are masculine, and they take el. A doorway is el portal, the covered entrance of a building.",
+        "examples": [
+          {
+            "es": "El alumbrado de la calle es muy antiguo.",
+            "en": "The street lighting is very old."
+          },
+          {
+            "es": "El neón de la discoteca ilumina toda la esquina.",
+            "en": "The neon sign of the disco lights up the whole corner."
+          },
+          {
+            "es": "Esperaba a alguien en el portal.",
+            "en": "He was waiting for someone in the doorway."
+          }
+        ]
+      },
+      {
+        "heading": "How busy it is",
+        "body": "A street at night can be concurrido or quiet, and the hour matters more than the place. La madrugada is the small hours after midnight, and la hora punta is the rush. El silencio is the silence, and it is a masculine noun: el silencio.",
+        "examples": [
+          {
+            "es": "El bar está muy concurrido a las once.",
+            "en": "The bar is very busy at eleven."
+          },
+          {
+            "es": "En la madrugada la ciudad está en silencio.",
+            "en": "In the small hours the city is silent."
+          },
+          {
+            "es": "A esa hora siempre hay hora punta.",
+            "en": "At that hour there is always the rush."
+          }
+        ]
+      },
+      {
+        "heading": "The streets after dark",
+        "body": "Un callejón is a narrow street with no pavement to speak of, and people hurry through it. The other side of the night is the bar and the discoteca, where the day ends. Cerrar takes the -er ending like beber: el bar cierra a las dos.",
+        "examples": [
+          {
+            "es": "El callejón está oscuro y vacío.",
+            "en": "The alley is dark and empty."
+          },
+          {
+            "es": "Cierran a las dos, así que nos vamos.",
+            "en": "They close at two, so we are leaving."
+          },
+          {
+            "es": "Nos vemos en el bar de la esquina.",
+            "en": "See you at the bar on the corner."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u17/match/alumbrado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the street lighting",
+          "right": "el alumbrado"
+        },
+        {
+          "left": "the neon sign",
+          "right": "el neón"
+        },
+        {
+          "left": "the bar",
+          "right": "el bar"
+        },
+        {
+          "left": "the disco",
+          "right": "la discoteca"
+        },
+        {
+          "left": "the doorway",
+          "right": "el portal"
+        }
+      ],
+      "note": "Say where you are with estar and what you do with the present tense: la discoteca está abierta, cierran a las dos."
+    },
+    {
+      "id": "es/b1/u17/select/alumbrado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the street lighting”.",
+      "options": [
+        "el callejón",
+        "la hora punta",
+        "el alumbrado",
+        "el silencio"
+      ],
+      "answer": "el alumbrado",
+      "translation": "the street lighting",
+      "note": "Masculine: el alumbrado."
+    },
+    {
+      "id": "es/b1/u17/listen/neon",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el neón",
+      "options": [
+        "la deuda",
+        "el préstamo",
+        "el gasto",
+        "el neón"
+      ],
+      "audio": {
+        "text": "neón",
+        "lang": "es",
+        "file": "/audio/es/neon-d21bebf0.mp3"
+      },
+      "translation": "the neon sign",
+      "note": "Masculine: el neón."
+    },
+    {
+      "id": "es/b1/u17/drill/1",
+      "type": "type_in",
+      "prompt": "___ bar de la esquina está lleno.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the bar on the corner is full",
+      "note": "Bar is masculine: el bar."
+    },
+    {
+      "id": "es/b1/u17/match/concurrido",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "busy, crowded",
+          "right": "concurrido"
+        },
+        {
+          "left": "the small hours",
+          "right": "la madrugada"
+        },
+        {
+          "left": "the silence",
+          "right": "el silencio"
+        },
+        {
+          "left": "the alley",
+          "right": "el callejón"
+        },
+        {
+          "left": "rush hour",
+          "right": "la hora punta"
+        }
+      ],
+      "note": "Say where you are with estar and what you do with the present tense: la discoteca está abierta, cierran a las dos."
+    },
+    {
+      "id": "es/b1/u17/select/bar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the bar”.",
+      "options": [
+        "la plaza",
+        "la avenida",
+        "el edificio",
+        "el bar"
+      ],
+      "answer": "el bar",
+      "translation": "the bar",
+      "note": "Masculine: el bar."
+    },
+    {
+      "id": "es/b1/u17/drill/2",
+      "type": "type_in",
+      "prompt": "La plaza está muy ___ a las nueve.",
+      "answer": "concurrida",
+      "acceptedAnswers": [
+        "concurrida"
+      ],
+      "translation": "the square is very busy at nine",
+      "note": "Concurrido takes -a for a thing: una plaza concurrida."
+    },
+    {
+      "id": "es/b1/u17/drill/3",
+      "type": "type_in",
+      "prompt": "En la ___ la ciudad está dormida.",
+      "answer": "madrugada",
+      "acceptedAnswers": [
+        "madrugada"
+      ],
+      "translation": "in the small hours the city is asleep",
+      "note": "Madrugada is feminine: la madrugada."
+    },
+    {
+      "id": "es/b1/u17/drill/4",
+      "type": "type_in",
+      "prompt": "Caminamos por un ___ oscuro.",
+      "answer": "callejón",
+      "acceptedAnswers": [
+        "callejon"
+      ],
+      "translation": "we walked through a dark alley",
+      "note": "Callejón is masculine: el callejón."
+    },
+    {
+      "id": "es/b1/u17/drill/5",
+      "type": "type_in",
+      "prompt": "A esa hora siempre hay ___.",
+      "answer": "hora punta",
+      "acceptedAnswers": [
+        "hora punta"
+      ],
+      "translation": "at that hour there is always the rush",
+      "note": "The phrase is la hora punta, and hora is feminine."
+    }
+  ]
+}

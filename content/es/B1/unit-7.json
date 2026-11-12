@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to finish”.",
       "options": [
-        "escribir",
-        "abrir",
-        "recibir",
+        "barrer",
+        "lavar",
+        "planchar",
         "acabar"
       ],
       "answer": "acabar",

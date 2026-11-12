@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 18,
+  "title": "The body and the senses",
+  "description": "Say what you can see, hear, smell, taste and touch.",
+  "explanation": {
+    "summary": "You already know the parts of the body. This unit gives you the senses that use them and the verbs that go with the senses, so you can say what you notice in the world around you.",
+    "sections": [
+      {
+        "heading": "The five senses",
+        "body": "Each sense has a noun of its own. Sight is la vista, hearing is el oído, smell is el olfato, taste is el gusto, and touch is el tacto. A person who cannot see is ciego, and one who cannot hear is sordo. The nouns are all masculine except la vista.",
+        "examples": [
+          {
+            "es": "La vista le está fallando.",
+            "en": "His eyesight is failing."
+          },
+          {
+            "es": "El olfato es más fuerte de lo que crees.",
+            "en": "The sense of smell is stronger than you think."
+          },
+          {
+            "es": "Es ciego de un ojo.",
+            "en": "He is blind in one eye."
+          }
+        ]
+      },
+      {
+        "heading": "What you notice",
+        "body": "To say you smell something use oler, and to say you taste something use saborear. Oír is the way to say that you hear. La fragancia is the pleasant smell of a thing, and it is feminine: la fragancia de las flores.",
+        "examples": [
+          {
+            "es": "Huelo el jazmín desde la ventana.",
+            "en": "I smell jasmine from the window."
+          },
+          {
+            "es": "Saboreó el vino poco a poco.",
+            "en": "He tasted the wine slowly."
+          },
+          {
+            "es": "Oí un ruido en el pasillo.",
+            "en": "I heard a noise in the corridor."
+          }
+        ]
+      },
+      {
+        "heading": "Sight and light",
+        "body": "Sight depends on light. When the light is strong, la vista dazzles you, and when it is weak you see only a penumbra. El resplandor is the glare, and it is masculine: el resplandor de las farolas llega hasta la plaza.",
+        "examples": [
+          {
+            "es": "Con tanta luz la vista se cansa.",
+            "en": "With so much light the eyesight tires."
+          },
+          {
+            "es": "El resplandor del sol me hizo cerrar los ojos.",
+            "en": "The glare of the sun made me close my eyes."
+          },
+          {
+            "es": "De noche veo mejor que de día.",
+            "en": "At night I see better than in the daytime."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u18/match/vista",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the sight",
+          "right": "la vista"
+        },
+        {
+          "left": "the hearing",
+          "right": "el oído"
+        },
+        {
+          "left": "the sense of smell",
+          "right": "el olfato"
+        },
+        {
+          "left": "the sense of taste",
+          "right": "el gusto"
+        },
+        {
+          "left": "the sense of touch",
+          "right": "el tacto"
+        }
+      ],
+      "note": "Use la vista for sight, and el for the other four: el oído, el olfato, el gusto, el tacto."
+    },
+    {
+      "id": "es/b1/u18/select/vista",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the sight”.",
+      "options": [
+        "el gusto",
+        "el tacto",
+        "el olfato",
+        "la vista"
+      ],
+      "answer": "la vista",
+      "translation": "the sight",
+      "note": "Feminine: la vista."
+    },
+    {
+      "id": "es/b1/u18/listen/oido",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el oído",
+      "options": [
+        "ciego",
+        "el cuerpo",
+        "la fragancia",
+        "el oído"
+      ],
+      "audio": {
+        "text": "oído",
+        "lang": "es",
+        "file": "/audio/es/oido-36322644.mp3"
+      },
+      "translation": "the hearing",
+      "note": "Masculine: el oído. It takes an accent on the o."
+    },
+    {
+      "id": "es/b1/u18/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ es el sentido que uso para oler.",
+      "answer": "olfato",
+      "acceptedAnswers": [
+        "olfato"
+      ],
+      "translation": "the sense of smell is the sense I use to smell",
+      "note": "Olfato is masculine: el olfato."
+    },
+    {
+      "id": "es/b1/u18/match/oler",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to smell",
+          "right": "oler"
+        },
+        {
+          "left": "to taste",
+          "right": "saborear"
+        },
+        {
+          "left": "to hear",
+          "right": "oír"
+        },
+        {
+          "left": "the fragrance",
+          "right": "la fragancia"
+        },
+        {
+          "left": "blind",
+          "right": "ciego"
+        }
+      ],
+      "note": "Use la vista for sight, and el for the other four: el oído, el olfato, el gusto, el tacto."
+    },
+    {
+      "id": "es/b1/u18/select/olfato",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the sense of smell”.",
+      "options": [
+        "el cuerpo",
+        "el brazo",
+        "ciego",
+        "el olfato"
+      ],
+      "answer": "el olfato",
+      "translation": "the sense of smell",
+      "note": "Masculine: el olfato."
+    },
+    {
+      "id": "es/b1/u18/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ es lo que usas para leer.",
+      "answer": "vista",
+      "acceptedAnswers": [
+        "vista"
+      ],
+      "translation": "sight is what you use to read",
+      "note": "Vista is feminine: la vista."
+    },
+    {
+      "id": "es/b1/u18/drill/3",
+      "type": "type_in",
+      "prompt": "___ algo raro en la cocina.",
+      "answer": "Huelo",
+      "acceptedAnswers": [
+        "Huelo"
+      ],
+      "translation": "I smell something strange in the kitchen",
+      "note": "Oler in the first person: huelo."
+    },
+    {
+      "id": "es/b1/u18/drill/4",
+      "type": "type_in",
+      "prompt": "Anoche ___ un ruido en el pasillo.",
+      "answer": "oí",
+      "acceptedAnswers": [
+        "oi"
+      ],
+      "translation": "last night I heard a noise in the corridor",
+      "note": "Oír in the preterite: oí."
+    },
+    {
+      "id": "es/b1/u18/drill/5",
+      "type": "type_in",
+      "prompt": "El ___ es uno de los cinco sentidos.",
+      "answer": "tacto",
+      "acceptedAnswers": [
+        "tacto"
+      ],
+      "translation": "touch is one of the five senses",
+      "note": "Tacto is masculine: el tacto."
+    }
+  ]
+}

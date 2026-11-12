@@ -1,0 +1,188 @@
+{
+  "unit": 32,
+  "title": "The farm",
+  "description": "Talk about the field, the animals and the harvest.",
+  "grammar": "the present tense, and the words of the farm",
+  "grammarNote": "A day on the farm is the present: el granjero trabaja el campo y las gallinas ponen huevos.",
+  "explanation": {
+    "summary": "A farm is fields, animals and one season a year. The present tense carries the whole routine, because a farm is made of things that happen again and again: the sowing, the feeding, the rain, and the harvest that comes at the end.",
+    "sections": [
+      {
+        "heading": "The place and the work",
+        "body": "El campo is the land where things grow, and el tractor does the hard work on it. To plant the seeds is sembrar, and to pick what you planted is cosechar. El cereal is what grows in the field, trigo, cebada, avena, and el abono is what you give the land so that it grows. The farm where all this happens is la granja.",
+        "examples": [
+          {
+            "es": "Sembramos trigo en octubre y lo cosechamos en junio.",
+            "en": "We sow wheat in October and harvest it in June."
+          },
+          {
+            "es": "El tractor trabaja el campo desde primera hora.",
+            "en": "The tractor works the field from early on."
+          }
+        ]
+      },
+      {
+        "heading": "The animals",
+        "body": "La vaca gives milk and la gallina gives huevos. La oveja gives wool, and el cerdo is for meat. They live in el establo and they eat in el corral, and they need the same food and water twice a day all year round.",
+        "examples": [
+          {
+            "es": "Las vacas están en el establo hasta las ocho.",
+            "en": "The cows are in the stable until eight."
+          },
+          {
+            "es": "Las gallinas ponen dos huevos cada día.",
+            "en": "The hens lay two eggs every day."
+          }
+        ]
+      },
+      {
+        "heading": "The year round",
+        "body": "Farming is a year, not a day. In primavera you plant, in verano you water, in otoño you harvest, and in invierno the fields rest. The harvest is la cosecha, and it comes once a year, in the same months every time. To talk about last year you move to the preterite: el año pasado cosechamos el doble.",
+        "examples": [
+          {
+            "es": "La cosecha de uva empieza en septiembre.",
+            "en": "The grape harvest starts in September."
+          },
+          {
+            "es": "El año pasado cosechamos mucho.",
+            "en": "Last year we harvested a lot."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "vaca",
+      "en": "the cow",
+      "article": "la",
+      "note": "Feminine: la vaca. It gives milk.",
+      "tags": [
+        "farm",
+        "animal"
+      ]
+    },
+    {
+      "es": "gallina",
+      "en": "the hen",
+      "article": "la",
+      "note": "Feminine: la gallina. It gives huevos.",
+      "tags": [
+        "farm",
+        "animal"
+      ]
+    },
+    {
+      "es": "huevo",
+      "en": "the egg",
+      "article": "el",
+      "note": "Masculine: el huevo. The plural is huevos.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "tractor",
+      "en": "the tractor",
+      "article": "el",
+      "note": "Masculine: el tractor. The machine that works the field.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "cosecha",
+      "en": "the harvest",
+      "article": "la",
+      "note": "Feminine: la cosecha. What you pick in the fields at the end of the season.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "abono",
+      "en": "the fertilizer",
+      "article": "el",
+      "note": "Masculine: el abono. What you give the land to make it grow.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "cereal",
+      "en": "the cereal",
+      "article": "el",
+      "note": "Masculine: el cereal. Wheat, barley or oats in the field.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "establo",
+      "en": "the stable",
+      "article": "el",
+      "note": "Masculine: el establo. The building where the animals sleep.",
+      "tags": [
+        "farm",
+        "object"
+      ]
+    },
+    {
+      "es": "sembrar",
+      "en": "to sow",
+      "article": null,
+      "note": "An infinitive: siembro, siembras, siembra. To put the seeds in the ground.",
+      "tags": [
+        "farm",
+        "verb"
+      ]
+    },
+    {
+      "es": "cosechar",
+      "en": "to harvest",
+      "article": null,
+      "note": "An infinitive: cosecho, cosechas, cosecha. To pick what you planted.",
+      "tags": [
+        "farm",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "En la ___ hay vacas y ovejas.",
+      "answer": "granja",
+      "meaning": "on the farm there are cows and sheep",
+      "note": "La granja is the farm."
+    },
+    {
+      "prompt": "La ___ da leche.",
+      "answer": "vaca",
+      "meaning": "the cow gives milk",
+      "note": "La vaca is the cow."
+    },
+    {
+      "prompt": "En primavera hay que ___ el campo.",
+      "answer": "sembrar",
+      "meaning": "in spring you have to sow the field",
+      "note": "Sembrar is to put the seeds in the ground."
+    },
+    {
+      "prompt": "El ___ ayuda mucho en el campo.",
+      "answer": "tractor",
+      "meaning": "the tractor helps a lot in the field",
+      "note": "El tractor does the hard work."
+    },
+    {
+      "prompt": "La ___ de trigo fue buena este año.",
+      "answer": "cosecha",
+      "meaning": "the wheat harvest was good this year",
+      "note": "La cosecha is the harvest."
+    }
+  ]
+}

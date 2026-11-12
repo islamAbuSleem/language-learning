@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 22,
+  "title": "Friends and friendship",
+  "description": "Say what friendship is and what happens between friends.",
+  "explanation": {
+    "summary": "Friendship is not only being nice to someone. It has trust, support, shared jokes and the occasional row. This unit gives you the words for all of that, so you can describe what a friend is really like.",
+    "sections": [
+      {
+        "heading": "What a friend gives you",
+        "body": "La amistad is the friendship itself, and la confianza is what you build inside it. El apoyo is the help you can count on, and la compañía is simply being together: no siempre hablamos, pero nos gusta estar juntos.",
+        "examples": [
+          {
+            "es": "La amistad dura más que el trabajo.",
+            "en": "Friendship lasts longer than work."
+          },
+          {
+            "es": "En ella hay mucha confianza.",
+            "en": "There is a lot of trust in it."
+          },
+          {
+            "es": "Te ofrece apoyo cuando lo necesitas.",
+            "en": "He offers you support when you need it."
+          }
+        ]
+      },
+      {
+        "heading": "Being with other people",
+        "body": "Una riña is a quarrel, and it is usually over soon: casi siempre hacemos las paces. El chiste is the joke that keeps a group together, and el grupo is the people you keep coming back to. Both nouns are masculine, except la riña.",
+        "examples": [
+          {
+            "es": "Tuvimos una riña, pero ya no hablamos de eso.",
+            "en": "We had a row, but we do not talk about it any more."
+          },
+          {
+            "es": "Siempre cuenta el mismo chiste.",
+            "en": "He always tells the same joke."
+          },
+          {
+            "es": "El grupo de amigos queda los viernes.",
+            "en": "The group of friends meets on Fridays."
+          }
+        ]
+      },
+      {
+        "heading": "The hard part",
+        "body": "A friendship also has envidia. La envidia is when you want what someone else has, and a little of it can push you to do more. Discutir is to argue, and perdonar is to forgive: what goes wrong can be put right.",
+        "examples": [
+          {
+            "es": "Siente envidia del éxito de su hermano.",
+            "en": "He feels envy of his brother's success."
+          },
+          {
+            "es": "Discutimos, pero seguimos siendo amigos.",
+            "en": "We argued, but we are still friends."
+          },
+          {
+            "es": "Me pide que lo perdone.",
+            "en": "He asks me to forgive him."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u22/match/amistad",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the friendship",
+          "right": "la amistad"
+        },
+        {
+          "left": "the trust",
+          "right": "la confianza"
+        },
+        {
+          "left": "the company",
+          "right": "la compañía"
+        },
+        {
+          "left": "the support",
+          "right": "el apoyo"
+        },
+        {
+          "left": "the envy",
+          "right": "la envidia"
+        }
+      ],
+      "note": "Say what is true now: confío en ella, discutimos a menudo, nos llevamos bien."
+    },
+    {
+      "id": "es/b1/u22/select/amistad",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the friendship”.",
+      "options": [
+        "el profesor",
+        "el amigo",
+        "la chica",
+        "la amistad"
+      ],
+      "answer": "la amistad",
+      "translation": "the friendship",
+      "note": "Feminine: la amistad."
+    },
+    {
+      "id": "es/b1/u22/listen/confianza",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la confianza",
+      "options": [
+        "la confianza",
+        "el miedo",
+        "las ganas",
+        "el sueño"
+      ],
+      "audio": {
+        "text": "confianza",
+        "lang": "es",
+        "file": "/audio/es/confianza-a466e8f0.mp3"
+      },
+      "translation": "the trust",
+      "note": "Feminine: la confianza."
+    },
+    {
+      "id": "es/b1/u22/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ entre ellos dura desde hace diez años.",
+      "answer": "amistad",
+      "acceptedAnswers": [
+        "amistad"
+      ],
+      "translation": "the friendship between them has lasted ten years",
+      "note": "Amistad is feminine: la amistad."
+    },
+    {
+      "id": "es/b1/u22/match/rina",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the quarrel",
+          "right": "la riña"
+        },
+        {
+          "left": "to argue",
+          "right": "discutir"
+        },
+        {
+          "left": "to forgive",
+          "right": "perdonar"
+        },
+        {
+          "left": "the joke",
+          "right": "el chiste"
+        },
+        {
+          "left": "the group",
+          "right": "el grupo"
+        }
+      ],
+      "note": "Say what is true now: confío en ella, discutimos a menudo, nos llevamos bien."
+    },
+    {
+      "id": "es/b1/u22/select/compania",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the company”.",
+      "options": [
+        "la compañía",
+        "orgulloso",
+        "curioso",
+        "paciente"
+      ],
+      "answer": "la compañía",
+      "translation": "the company",
+      "note": "Feminine: la compañía. It also means a company, a business."
+    },
+    {
+      "id": "es/b1/u22/drill/2",
+      "type": "type_in",
+      "prompt": "Tengo mucha ___ en mi hermana.",
+      "answer": "confianza",
+      "acceptedAnswers": [
+        "confianza"
+      ],
+      "translation": "I have a lot of trust in my sister",
+      "note": "Confianza is feminine: la confianza."
+    },
+    {
+      "id": "es/b1/u22/drill/3",
+      "type": "type_in",
+      "prompt": "Hicimos las paces después de la ___.",
+      "answer": "riña",
+      "acceptedAnswers": [
+        "rina"
+      ],
+      "translation": "we made up after the row",
+      "note": "Riña is feminine: la riña."
+    },
+    {
+      "id": "es/b1/u22/drill/4",
+      "type": "type_in",
+      "prompt": "Siempre cuenta el mismo ___.",
+      "answer": "chiste",
+      "acceptedAnswers": [
+        "chiste"
+      ],
+      "translation": "he always tells the same joke",
+      "note": "Chiste is masculine: el chiste."
+    },
+    {
+      "id": "es/b1/u22/drill/5",
+      "type": "type_in",
+      "prompt": "___ mucho con mi hermano.",
+      "answer": "Discuto",
+      "acceptedAnswers": [
+        "Discuto"
+      ],
+      "translation": "I argue a lot with my brother",
+      "note": "Discutir in the first person: discuto."
+    }
+  ]
+}

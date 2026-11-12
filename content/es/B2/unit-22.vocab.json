@@ -1,0 +1,49 @@
+{
+  "unit": 22,
+  "title": "Society and how it changes",
+  "description": "Say what moves in a society and what stays.",
+  "grammar": "el vocabulario de lo social, y las fuerzas que cambian una sociedad",
+  "grammarNote": "A society is described with nouns of groups (la generación, la comunidad) and nouns of processes (la migración, la adaptación).",
+  "explanation": {
+    "summary": "Social Spanish is the vocabulary of groups and of slow change: a generation, a migration, a custom that survives, an inequality that does not. To describe a society you need both kinds of word, because the parts that move quickly and the parts that stay put need different names.",
+    "sections": [
+      {
+        "heading": "Groups",
+        "body": "la sociedad is the whole, and la población is the people in it at a given moment. Dentro de la población, una generación shares a stretch of history that the others did not, and la comunidad is the smaller group that binds them. When a group is left out, the word is la inclusión, and when it is pushed to one side, la desigualdad.",
+        "examples": [
+          { "es": "La población de la ciudad ha crecido un doce por ciento.", "en": "The population of the city has grown by twelve per cent." },
+          { "es": "La generación joven trabaja menos horas que sus padres.", "en": "The young generation works fewer hours than their parents." },
+          { "es": "La desigualdad no se mide solo por el dinero.", "en": "Inequality is not measured by money alone." }
+        ]
+      },
+      {
+        "heading": "What moves and what stays",
+        "body": "una costumbre is what people do without being asked, and la tradición is the version of it that gets handed down. la migración moves people and money, and la adaptación is what the society does about it. What does not move is often said with el consenso: what everybody agrees on is what holds the thing together. Y el resultado no es una sociedad nueva, es una sociedad distinta.",
+        "examples": [
+          { "es": "La tradición del mercado se mantiene desde hace siglos.", "en": "The market tradition has been kept for centuries." },
+          { "es": "La migración ha cambiado la composición de la ciudad.", "en": "Migration has changed the composition of the city." },
+          { "es": "La adaptación de la sociedad no fue rápida.", "en": "The adaptation of society was not quick." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "sociedad", "en": "society", "article": "la", "note": "Feminine: la sociedad.", "tags": ["society"] },
+    { "es": "población", "en": "the population", "article": "la", "note": "Feminine: la población. The accent marks the stress.", "tags": ["society"] },
+    { "es": "generación", "en": "the generation", "article": "la", "note": "Feminine: la generación. The accent marks the stress.", "tags": ["society"] },
+    { "es": "migración", "en": "migration", "article": "la", "note": "Feminine: la migración. The accent marks the stress.", "tags": ["society"] },
+    { "es": "adaptación", "en": "adaptation", "article": "la", "note": "Feminine: la adaptación. The accent marks the stress.", "tags": ["society"] },
+    { "es": "inclusión", "en": "inclusion", "article": "la", "note": "Feminine: la inclusión. The accent marks the stress.", "tags": ["society"] },
+    { "es": "desigualdad", "en": "inequality", "article": "la", "note": "Feminine: la desigualdad. It comes from igual, equal.", "tags": ["society"] },
+    { "es": "costumbre", "en": "the custom", "article": "la", "note": "Feminine: la costumbre.", "tags": ["society"] },
+    { "es": "tradición", "en": "tradition", "article": "la", "note": "Feminine: la tradición. The accent marks the stress.", "tags": ["society"] },
+    { "es": "consenso", "en": "the consensus", "article": "el", "note": "Masculine: el consenso.", "tags": ["society"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ de la ciudad ha crecido un doce por ciento.", "answer": "población", "meaning": "the population of the city has grown by twelve per cent", "note": "La población is feminine." },
+    { "prompt": "La ___ joven trabaja menos horas que sus padres.", "answer": "generación", "meaning": "the young generation works fewer hours than their parents", "note": "La generación is feminine." },
+    { "prompt": "La ___ no se mide solo por el dinero.", "answer": "desigualdad", "meaning": "inequality is not measured by money alone", "note": "La desigualdad is feminine." },
+    { "prompt": "La ___ del mercado se mantiene desde hace siglos.", "answer": "tradición", "meaning": "the market tradition has been kept for centuries", "note": "La tradición is feminine." },
+    { "prompt": "La ___ de la sociedad no fue rápida.", "answer": "adaptación", "meaning": "the adaptation of society was not quick", "note": "La adaptación is feminine." }
+  ]
+}

@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “speak”.",
       "options": [
-        "cocinar",
-        "necesitar",
-        "mirar",
+        "poder",
+        "hay",
+        "deber",
         "hable"
       ],
       "answer": "hable",
@@ -109,9 +109,9 @@
       "answer": "coma",
       "options": [
         "coma",
-        "viva",
-        "hable",
-        "trabaje"
+        "relajarse",
+        "levantarse",
+        "acabar"
       ],
       "audio": {
         "text": "coma",
@@ -165,9 +165,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “live”.",
       "options": [
-        "comía",
-        "vivía",
-        "hablaba",
+        "estudiar",
+        "caminar",
+        "trabajar",
         "viva"
       ],
       "answer": "viva",

@@ -1,0 +1,49 @@
+{
+  "unit": 18,
+  "title": "Art and what it means",
+  "description": "Read a work of art, and say what you think it says.",
+  "grammar": "el lenguaje del arte: la obra, el estilo y la interpretación",
+  "grammarNote": "The work is the object (la obra) and the reading of it is a separate thing (la interpretación).",
+  "explanation": {
+    "summary": "To talk about art in Spanish is to separate two things: the work itself, with its style and its material, and the reading of it, which is an interpretation and can differ from one viewer to the next. A good description names the object first and the reading second.",
+    "sections": [
+      {
+        "heading": "The object",
+        "body": "una obra is any work of art, and el estilo is the way it is made. la pintura, la escultura and el boceto, the sketch, name the technique and the stage. Where the works hang is el museo, and the book that explains them is el catálogo. Una restauración is the repair of something old, and it is also the account of how the original was put back together.",
+        "examples": [
+          { "es": "La exposición reúne cien obras de tres siglos.", "en": "The exhibition brings together a hundred works from three centuries." },
+          { "es": "El boceto es anterior a la pintura final.", "en": "The sketch comes before the finished painting." },
+          { "es": "El catálogo explica cada pieza de la colección.", "en": "The catalogue explains each piece in the collection." }
+        ]
+      },
+      {
+        "heading": "The reading",
+        "body": "la crítica is what a critic writes, and la interpretación is what a viewer or a scholar sees in the work. The two are not the same: una crítica puede discrepar de la interpretación del museo. Quien hace la obra es el artista, and quien la mira es el público, and el público rarely sees the same thing twice.",
+        "examples": [
+          { "es": "La crítica coincide con la interpretación del museo.", "en": "The review agrees with the museum's interpretation." },
+          { "es": "Cada visitante hace su propia interpretación.", "en": "Every visitor makes their own interpretation." },
+          { "es": "La restauración de la cúpula tomó diez años.", "en": "The restoration of the dome took ten years." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "obra", "en": "the work of art", "article": "la", "note": "Feminine: la obra. It also means the work in general.", "tags": ["art"] },
+    { "es": "artista", "en": "the artist", "article": "el", "note": "Masculine: el artista. Feminine: la artista.", "tags": ["art"] },
+    { "es": "estilo", "en": "the style", "article": "el", "note": "Masculine: el estilo. It also means the way somebody writes.", "tags": ["art"] },
+    { "es": "exposición", "en": "the exhibition", "article": "la", "note": "Feminine: la exposición.", "tags": ["art"] },
+    { "es": "catálogo", "en": "the catalogue", "article": "el", "note": "Masculine: el catálogo. The accent marks the stress.", "tags": ["art"] },
+    { "es": "boceto", "en": "the sketch", "article": "el", "note": "Masculine: el boceto.", "tags": ["art"] },
+    { "es": "museo", "en": "the museum", "article": "el", "note": "Masculine: el museo.", "tags": ["art"] },
+    { "es": "interpretación", "en": "the interpretation", "article": "la", "note": "Feminine: la interpretación. From interpretar.", "tags": ["art"] },
+    { "es": "crítica", "en": "the review, the criticism", "article": "la", "note": "Feminine: la crítica. The accent marks the stress.", "tags": ["art"] },
+    { "es": "restauración", "en": "the restoration", "article": "la", "note": "Feminine: la restauración. From restaurar.", "tags": ["art"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ reúne cien obras.", "answer": "exposición", "meaning": "the exhibition brings together a hundred works", "note": "La exposición is feminine." },
+    { "prompt": "El ___ explica cada pieza.", "answer": "catálogo", "meaning": "the catalogue explains each piece", "note": "El catálogo is masculine." },
+    { "prompt": "Cada visitante hace su propia ___.", "answer": "interpretación", "meaning": "every visitor makes their own interpretation", "note": "La interpretación is feminine." },
+    { "prompt": "El ___ es anterior a la pintura final.", "answer": "boceto", "meaning": "the sketch comes before the finished painting", "note": "El boceto is masculine." },
+    { "prompt": "La ___ de la cúpula tomó diez años.", "answer": "restauración", "meaning": "the restoration of the dome took ten years", "note": "La restauración is feminine." }
+  ]
+}

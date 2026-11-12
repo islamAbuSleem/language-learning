@@ -1,0 +1,188 @@
+{
+  "unit": 24,
+  "title": "At the restaurant",
+  "description": "Read the menu, order, and talk about the bill.",
+  "grammar": "the future, and the words of a restaurant",
+  "grammarNote": "Say what is coming with the future: voy a pedir la sopa, después tomaremos el postre.",
+  "explanation": {
+    "summary": "A meal at a restaurant has three stages: you read la carta, you make el pedido, and then the food arrives. The future is how you talk about what is about to happen, which is exactly what an order is.",
+    "sections": [
+      {
+        "heading": "Reading the menu",
+        "body": "La carta is the list of food, and it is written in sections: los entrantes, los platos principales, los postres. The prices are next to each dish. A dish can be con verduras, a la plancha or al vapor. The first thing to drink is una bebida, and the waiter brings it in una jarra.",
+        "examples": [
+          {
+            "es": "La carta de hoy tiene tres entrantes y cuatro postres.",
+            "en": "Today's menu has three starters and four desserts."
+          },
+          {
+            "es": "El pescado de hoy va a la plancha.",
+            "en": "Today's fish is grilled."
+          }
+        ]
+      },
+      {
+        "heading": "Ordering",
+        "body": "The order is el pedido, and you make it with the future: voy a pedir la sopa, quiero el pescado, después encargamos el postre. The waiter answers con una pregunta: ¿algo más? The answer is no, gracias. If you want a little time, say una palabra, por favor, and the waiter will come back.",
+        "examples": [
+          {
+            "es": "Voy a pedir la sopa y el pescado.",
+            "en": "I am going to order the soup and the fish."
+          },
+          {
+            "es": "¿Algo más, señor?",
+            "en": "Anything else, sir?"
+          }
+        ]
+      },
+      {
+        "heading": "At the table",
+        "body": "What arrives on the table is el plato, and what comes with it is la guarnición: unas verduras, una salsa, la sal. The last thing is el postre, and you finish with una servilleta on your lap. At the end you ask for la cuenta, you leave la propina and you get el recibo. If you want the bill for the office, ask por la factura.",
+        "examples": [
+          {
+            "es": "El plato llegó con verduras y una salsa de tomate.",
+            "en": "The dish came with vegetables and a tomato sauce."
+          },
+          {
+            "es": "La cuenta, por favor. ¿Puedo pagar con tarjeta?",
+            "en": "The bill, please. Can I pay by card?"
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "carta",
+      "en": "the menu",
+      "article": "la",
+      "note": "Feminine: la carta. In Spain the list of food is la carta.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "pedido",
+      "en": "the order",
+      "article": "el",
+      "note": "Masculine: el pedido. Everything you ask for at the table.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "entrante",
+      "en": "the starter",
+      "article": "el",
+      "note": "Masculine: el entrante. The first small dish of the meal.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "sopa",
+      "en": "the soup",
+      "article": "la",
+      "note": "Feminine: la sopa. A hot liquid dish at the start of the meal.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "salsa",
+      "en": "the sauce",
+      "article": "la",
+      "note": "Feminine: la salsa. The liquid you pour over the food.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "verdura",
+      "en": "the vegetable",
+      "article": "la",
+      "note": "Feminine: la verdura. Vegetables come with the main dish.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "servilleta",
+      "en": "the napkin",
+      "article": "la",
+      "note": "Feminine: la servilleta. The piece of paper you wipe your hands with.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "jarra",
+      "en": "the jug",
+      "article": "la",
+      "note": "Feminine: la jarra. The big pot they bring the water or the wine in.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "barra",
+      "en": "the bar",
+      "article": "la",
+      "note": "Feminine: la barra. The long counter where the drinks are served.",
+      "tags": [
+        "restaurant",
+        "object"
+      ]
+    },
+    {
+      "es": "traer",
+      "en": "to bring",
+      "article": null,
+      "note": "An infinitive: traigo, traes, trae. To bring the food to the table.",
+      "tags": [
+        "restaurant",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Voy a ___ el postre.",
+      "answer": "encargar",
+      "meaning": "I am going to order the dessert",
+      "note": "Encargar means to place an order."
+    },
+    {
+      "prompt": "Dejé una ___ de dos euros.",
+      "answer": "propina",
+      "meaning": "I left a two-euro tip",
+      "note": "La propina is the tip."
+    },
+    {
+      "prompt": "El camarero ___ la sopa.",
+      "answer": "trae",
+      "meaning": "the waiter brings the soup",
+      "note": "Traer in the present is trae."
+    },
+    {
+      "prompt": "Como entrante, quiero la ___.",
+      "answer": "sopa",
+      "meaning": "as a starter, I want the soup",
+      "note": "La sopa is the soup."
+    },
+    {
+      "prompt": "___ una mesa para dos.",
+      "answer": "He reservado",
+      "meaning": "I have booked a table for two",
+      "note": "The perfect for a booking that is already made."
+    }
+  ]
+}

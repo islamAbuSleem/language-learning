@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 21,
+  "title": "Money matters",
+  "description": "Pay, borrow and count what things cost.",
+  "explanation": {
+    "summary": "Money has a vocabulary of its own: what you owe, what you save and what a thing costs. This unit gives you the nouns and the verbs for paying, borrowing and counting the cost.",
+    "sections": [
+      {
+        "heading": "Paying and counting",
+        "body": "Una factura is the bill you are given, and un recibo is the slip that proves you paid. El coste is what a thing costs in general, and la cuota is the part you pay each time: pago la cuota de la luz. Most of these nouns are feminine, except el coste and el recibo.",
+        "examples": [
+          {
+            "es": "La factura llega por correo.",
+            "en": "The bill arrives by post."
+          },
+          {
+            "es": "Guarda el recibo, por si acaso.",
+            "en": "Keep the receipt, just in case."
+          },
+          {
+            "es": "El coste de la vida sube cada año.",
+            "en": "The cost of living goes up every year."
+          }
+        ]
+      },
+      {
+        "heading": "Borrowing",
+        "body": "Un préstamo is money you borrow and give back, and una deuda is what you owe. El interés is what the loan costs you: el banco me cobra un interés alto. Devolver is to give back, and it is the verb you need when the money goes home.",
+        "examples": [
+          {
+            "es": "Pedí un préstamo al banco.",
+            "en": "I asked the bank for a loan."
+          },
+          {
+            "es": "Tengo una deuda pendiente.",
+            "en": "I have a debt outstanding."
+          },
+          {
+            "es": "Le devolví el dinero el lunes.",
+            "en": "I gave him the money back on Monday."
+          }
+        ]
+      },
+      {
+        "heading": "Spending and saving",
+        "body": "Gastar is to spend, and el ahorro is what you keep: ahorra una parte de cada mes. If you spend more than you earn, you say what you would do: no pagaría eso. Pagar takes a con when you say how you paid: pago con tarjeta.",
+        "examples": [
+          {
+            "es": "Gasto demasiado en comida.",
+            "en": "I spend too much on food."
+          },
+          {
+            "es": "Mi ahorro está en el banco.",
+            "en": "My savings are at the bank."
+          },
+          {
+            "es": "No pagaría nunca por eso.",
+            "en": "I would never pay for that."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u21/match/prestamo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the loan",
+          "right": "el préstamo"
+        },
+        {
+          "left": "to give back",
+          "right": "devolver"
+        },
+        {
+          "left": "the debt",
+          "right": "la deuda"
+        },
+        {
+          "left": "the interest",
+          "right": "el interés"
+        },
+        {
+          "left": "the instalment",
+          "right": "la cuota"
+        }
+      ],
+      "note": "The conditional says what would happen: pagaría todo, no me prestaría el dinero."
+    },
+    {
+      "id": "es/b1/u21/select/prestamo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the loan”.",
+      "options": [
+        "la cuenta",
+        "el ahorro",
+        "el gasto",
+        "el préstamo"
+      ],
+      "answer": "el préstamo",
+      "translation": "the loan",
+      "note": "Masculine: el préstamo. It takes an accent on the e."
+    },
+    {
+      "id": "es/b1/u21/listen/devolver",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "devolver",
+      "options": [
+        "molestar",
+        "importar",
+        "interesar",
+        "devolver"
+      ],
+      "audio": {
+        "text": "devolver",
+        "lang": "es",
+        "file": "/audio/es/devolver-ba6d2d94.mp3"
+      },
+      "translation": "to give back",
+      "note": "The verb devolver: devuelvo, devuelves, devuelve."
+    },
+    {
+      "id": "es/b1/u21/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ dice cuánto tengo que pagar.",
+      "answer": "factura",
+      "acceptedAnswers": [
+        "factura"
+      ],
+      "translation": "the bill says how much I have to pay",
+      "note": "Factura is feminine: la factura."
+    },
+    {
+      "id": "es/b1/u21/match/gastar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to spend",
+          "right": "gastar"
+        },
+        {
+          "left": "the savings",
+          "right": "el ahorro"
+        },
+        {
+          "left": "the bill",
+          "right": "la factura"
+        },
+        {
+          "left": "the receipt",
+          "right": "el recibo"
+        },
+        {
+          "left": "the cost",
+          "right": "el coste"
+        }
+      ],
+      "note": "The conditional says what would happen: pagaría todo, no me prestaría el dinero."
+    },
+    {
+      "id": "es/b1/u21/select/deuda",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the debt”.",
+      "options": [
+        "el interés",
+        "la cuota",
+        "gastar",
+        "la deuda"
+      ],
+      "answer": "la deuda",
+      "translation": "the debt",
+      "note": "Feminine: la deuda."
+    },
+    {
+      "id": "es/b1/u21/drill/2",
+      "type": "type_in",
+      "prompt": "Pedí un ___ de dos mil euros.",
+      "answer": "préstamo",
+      "acceptedAnswers": [
+        "prestamo"
+      ],
+      "translation": "I asked for a loan of two thousand euros",
+      "note": "Préstamo is masculine: el préstamo."
+    },
+    {
+      "id": "es/b1/u21/drill/3",
+      "type": "type_in",
+      "prompt": "Pago una ___ de ochenta euros cada mes.",
+      "answer": "cuota",
+      "acceptedAnswers": [
+        "cuota"
+      ],
+      "translation": "I pay an instalment of eighty euros every month",
+      "note": "Cuota is feminine: la cuota."
+    },
+    {
+      "id": "es/b1/u21/drill/4",
+      "type": "type_in",
+      "prompt": "Le ___ el dinero el lunes.",
+      "answer": "devolví",
+      "acceptedAnswers": [
+        "devolvi"
+      ],
+      "translation": "I gave him the money back on Monday",
+      "note": "The preterite of devolver: devolví."
+    },
+    {
+      "id": "es/b1/u21/drill/5",
+      "type": "type_in",
+      "prompt": "El ___ de la vida ha subido mucho.",
+      "answer": "coste",
+      "acceptedAnswers": [
+        "coste"
+      ],
+      "translation": "the cost of living has gone up a lot",
+      "note": "Coste is masculine: el coste."
+    }
+  ]
+}

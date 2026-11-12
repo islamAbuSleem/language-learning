@@ -1,0 +1,197 @@
+{
+  "unit": 20,
+  "title": "Travel plans",
+  "description": "Plan a trip and say what it will be like.",
+  "grammar": "the future for plans, and the words of the trip",
+  "grammarNote": "The future says what will happen: reservaré el alojamiento, el avión despegará a las ocho.",
+  "explanation": {
+    "summary": "A trip is a plan, and a plan is a list of bookings with times on them. This unit gives you the words for that list and the future tense you need to talk about what a trip will be like.",
+    "sections": [
+      {
+        "heading": "The plan",
+        "body": "El itinerario is the whole plan, written out in order, with a day for each part of the trip. El alojamiento is where you will sleep, and you reserve it before you go: he reservado el alojamiento para tres noches. El viaje empieza en un sitio y acaba en otro.",
+        "examples": [
+          {
+            "es": "El itinerario tiene siete días.",
+            "en": "The itinerary has seven days."
+          },
+          {
+            "es": "He reservado el alojamiento para tres noches.",
+            "en": "I have booked the accommodation for three nights."
+          },
+          {
+            "es": "El viaje empieza en el norte y baja hasta el sur.",
+            "en": "The trip starts in the north and goes down to the south."
+          }
+        ]
+      },
+      {
+        "heading": "Getting there and back",
+        "body": "Un retraso is a delay, and la escala is a stop on the way: el vuelo hace una escala en Valencia. El avión despega por la mañana y aterriza por la tarde. Aterrizar and despegar are regular verbs, and they are a pair you will use together.",
+        "examples": [
+          {
+            "es": "El vuelo tiene un retraso de una hora.",
+            "en": "The flight has a one-hour delay."
+          },
+          {
+            "es": "Hacemos una escala en Valencia.",
+            "en": "We have a stopover in Valencia."
+          },
+          {
+            "es": "El avión aterrizó con veinte minutos de retraso.",
+            "en": "The plane landed twenty minutes late."
+          }
+        ]
+      },
+      {
+        "heading": "On the trip",
+        "body": "El visado is the permission to enter a country, and el pasajero is the person travelling. Una excursión is a day out that you book in advance. All four are words you will read on a ticket, a form or a screen.",
+        "examples": [
+          {
+            "es": "Necesito el visado para entrar.",
+            "en": "I need the visa to enter."
+          },
+          {
+            "es": "El pasajero de al lado dormía todo el viaje.",
+            "en": "The passenger next to me slept the whole trip."
+          },
+          {
+            "es": "He reservado la excursión del sábado.",
+            "en": "I have booked Saturday's excursion."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "itinerario",
+      "en": "the itinerary",
+      "article": "el",
+      "note": "Masculine: el itinerario.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "alojamiento",
+      "en": "the accommodation",
+      "article": "el",
+      "note": "Masculine: el alojamiento.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "reservar",
+      "en": "to book",
+      "article": null,
+      "note": "The verb reservar: reservo, reservas, reserva.",
+      "tags": [
+        "verb",
+        "travel"
+      ]
+    },
+    {
+      "es": "escala",
+      "en": "the stopover",
+      "article": "la",
+      "note": "Feminine: la escala. It is a stop before the final destination.",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "es": "retraso",
+      "en": "the delay",
+      "article": "el",
+      "note": "Masculine: el retraso.",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "es": "aterrizar",
+      "en": "to land",
+      "article": null,
+      "note": "The verb aterrizar: aterrizo, aterrizas, aterriza.",
+      "tags": [
+        "verb",
+        "transport"
+      ]
+    },
+    {
+      "es": "despegar",
+      "en": "to take off",
+      "article": null,
+      "note": "The verb despegar: despego, despegas, despega.",
+      "tags": [
+        "verb",
+        "transport"
+      ]
+    },
+    {
+      "es": "excursión",
+      "en": "the excursion",
+      "article": "la",
+      "note": "Feminine: la excursión.",
+      "tags": [
+        "travel",
+        "activity"
+      ]
+    },
+    {
+      "es": "visado",
+      "en": "the visa",
+      "article": "el",
+      "note": "Masculine: el visado.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "pasajero",
+      "en": "the passenger",
+      "article": "el",
+      "note": "Masculine: el pasajero.",
+      "tags": [
+        "person",
+        "travel"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "El ___ dice qué hacemos cada día.",
+      "answer": "itinerario",
+      "meaning": "the itinerary says what we do each day",
+      "note": "Itinerario is masculine: el itinerario."
+    },
+    {
+      "prompt": "He ___ el alojamiento con tres semanas de antelación.",
+      "answer": "reservado",
+      "meaning": "I have booked the accommodation three weeks in advance",
+      "note": "The present perfect of reservar: he reservado."
+    },
+    {
+      "prompt": "El vuelo de mañana tiene un ___ de dos horas.",
+      "answer": "retraso",
+      "meaning": "tomorrow's flight has a two-hour delay",
+      "note": "Retraso is masculine: el retraso."
+    },
+    {
+      "prompt": "El avión ___ hace un rato.",
+      "answer": "aterrizó",
+      "meaning": "the plane landed a while ago",
+      "note": "The preterite of aterrizar: aterrizó."
+    },
+    {
+      "prompt": "Necesito el ___ para entrar en el país.",
+      "answer": "visado",
+      "meaning": "I need the visa to enter the country",
+      "note": "Visado is masculine: el visado."
+    }
+  ]
+}

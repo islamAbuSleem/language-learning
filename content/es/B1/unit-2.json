@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “good”.",
       "options": [
-        "alto",
-        "gordo",
-        "delgado",
+        "tímido",
+        "generoso",
+        "amable",
         "bueno"
       ],
       "answer": "bueno",
@@ -112,9 +112,9 @@
       "prompt": "What did you hear?",
       "answer": "malo",
       "options": [
-        "feo",
-        "bueno",
         "bonito",
+        "feo",
+        "serio",
         "malo"
       ],
       "audio": {
@@ -169,9 +169,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “big”.",
       "options": [
-        "pequeño",
-        "joven",
-        "nuevo",
+        "generoso",
+        "orgulloso",
+        "amable",
         "grande"
       ],
       "answer": "grande",

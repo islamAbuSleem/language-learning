@@ -28,9 +28,9 @@ content.
 | --- | --- | --- | --- |
 | **A0** | First steps | greetings and courtesy · saying who you are | 2 |
 | **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* · prepositions of place · the weather · adjectives that change · possessives · days of the week · shopping · ordering food · the body · the neighbourhood · home and its rooms · food and drink · the town and the street · work and study · health · the telephone · feelings · the months and the date · describing people · size and shape · sport, music, books · travel, money and the countryside | 50 |
-| **A2** | Elementary | regular *-er* and *-ir* verbs · *ir* · time · *tener* · question words · *saber* and *conocer* · *hay* and *gustar* · *por* and *para* · the future · the preterite · the imperfect · the imperative · the preterite perfect | 17 |
-| **B1** | Intermediate | stem-changing verbs · the progressive · object pronouns · demonstratives · reflexives · the recent past · comparisons · indirect objects · the conditional · the subjunctive · reported speech · relative clauses · the pluperfect | 14 |
-| **B2** | Upper intermediate | the passive voice · the past and perfect subjunctive · the compound infinitive · verbs with a preposition · nominalisation · connectors · adjective position · *ser* and *estar* in their advanced difference · reporting · the participle as an adjective · formal register | 12 |
+| **A2** | Elementary | regular *-er* and *-ir* verbs · *ir* · time · *tener* · question words · *saber* and *conocer* · *hay* and *gustar* · *por* and *para* · the future · the preterite · the imperfect · the imperative · the preterite perfect · then the world: cooking, the doctor, money, repairs, the post, the news, restaurants, forecasts, clothes, sport, hotels, books, film, character, the farm | 32 |
+| **B1** | Intermediate | stem-changing verbs · the progressive · object pronouns · demonstratives · reflexives · the recent past · comparisons · indirect objects · the conditional · the subjunctive · reported speech · relative clauses · the pluperfect · then the world: work, people, the night city, the senses, food, travel, money, friendship, study, weather, technology, stories | 26 |
+| **B2** | Upper intermediate | the passive voice · the past and perfect subjunctive · the compound infinitive · verbs with a preposition · nominalisation · connectors · adjective position · *ser* and *estar* in their advanced difference · reporting · the participle as an adjective · formal register · then the world: work, law, the environment, technology, health, art, politics, history, science, society | 22 |
 
 ## A0 — First steps
 
@@ -135,6 +135,21 @@ organised vocabulary.
 | 15 | What you used to do | the preterite imperfecto | 10 | yes |
 | 16 | Giving orders | el imperativo | 10 | yes |
 | 17 | Already happened | el pretérito perfecto | 10 | yes |
+| 18 | Cooking at home | the imperative with tú, and the words of cooking | 10 | yes |
+| 19 | At the doctor's | the imperfect, and the words of the body | 10 | yes |
+| 20 | Money and the bank | por and para with money | 10 | yes |
+| 21 | The house and its repairs | the preterite, and the words of repairs | 10 | yes |
+| 22 | The post office | the preterite perfect, and the words of the post | 10 | yes |
+| 23 | The news | the preterite and the imperfect, and the words of the news | 10 | yes |
+| 24 | At the restaurant | the future, and the words of a restaurant | 10 | yes |
+| 25 | The forecast | the present tense for weather | 10 | yes |
+| 26 | Clothes and how they are made | the polite imperative, and the words of clothes | 10 | yes |
+| 27 | Training and the match | the future, and the words of sport | 10 | yes |
+| 28 | Staying the night | the present tense, and the words of a hotel | 10 | yes |
+| 29 | Books and reading | the preterite, and the words of books | 10 | yes |
+| 30 | Films and the cinema | the imperfect, and the words of film | 10 | yes |
+| 31 | Character and personality | ser and estar, and the words of character | 10 | yes |
+| 32 | The farm | the present tense, and the words of the farm | 10 | yes |
 
 **The preterite sits at 13 and 14, before the imperfect at 15.** That order is
 not an accident: the imperfect unit leans on the preterite to explain what the
@@ -161,6 +176,18 @@ caught it — it was ten units too late.
 | 12 | What they said | reported speech |
 | 13 | The person, not the thing | relative clauses |
 | 14 | Before that | el pretérito pluscuamperfecto |
+| 15 | The working week | regular *-ar* verbs, and the words for a working week |
+| 16 | Talking about people | adjectives of character, and the verbs that go with them |
+| 17 | The city at night | the present tense for places and habits, and the words for the night |
+| 18 | The body and the senses | the five senses, and the verbs of the body |
+| 19 | Food and how it is made | the verbs of cooking, and the words from the market to the plate |
+| 20 | Travel plans | the future for plans, and the words of the trip |
+| 21 | Money matters | the conditional for money problems, and the words of paying |
+| 22 | Friends and friendship | the present tense for feelings, and the words of a quarrel |
+| 23 | Learning and study | the present perfect for study habits, and the words of learning |
+| 24 | Weather and seasons | the future for a forecast, and the nouns of extreme weather |
+| 25 | Work and technology | *para* and the infinitive: what a tool is for |
+| 26 | Stories and what happens in them | the preterite for telling a story, and the verb *contar* |
 
 ## B2 — Upper intermediate
 
@@ -180,6 +207,16 @@ caught it — it was ten units too late.
 | 10 | Writing the news | el estilo indirecto |
 | 11 | The participle as an adjective | el participio adjetival |
 | 12 | Writing for others | el registro formal |
+| 13 | The job and the career | nominalisation, and the language of professional work |
+| 14 | The law and the rights | the vocabulary of law: the rule, the trial, the appeal |
+| 15 | The environment | the vocabulary of the environment: resources, emissions, waste |
+| 16 | Technology and how it changes things | the language of technology, and its effect on behaviour |
+| 17 | Health and the body over a lifetime | the vocabulary of medicine, and describing a process |
+| 18 | Art and what it means | the language of art: the work, the style, the reading |
+| 19 | Politics and public life | the vocabulary of public life, and the verbs of deciding |
+| 20 | History and how it is told | the vocabulary of history, and the voice of the teller |
+| 21 | Science and how it argues | the vocabulary of science, and the shape of an argument |
+| 22 | Society and how it changes | the vocabulary of society, and the forces that change it |
 
 ## Rules for writing a unit
 
@@ -234,12 +271,14 @@ itself was only taught in B1.
 
 ## Content gap
 
-95 units × 10 words = **950 words** for the Spanish track. At ten words a
-unit, that is ninety-five small vocabulary files rather than ninety-five large
-exercise files — the generator does the rest.
+132 units × 10 words = **1320 words** for the Spanish track. At ten words a
+unit, that is one hundred and thirty-two small vocabulary files rather than
+one hundred and thirty-two large exercise files — the generator does the rest.
 
-A1 alone holds 500 words across 50 units, which is the size a real A1 course
-is. The other levels are thinner for now, and that is the next thing to grow.
+A0 holds 20 words, A1 holds 500, A2 holds 320, B1 holds 260 and B2 holds 220.
+Every level now has the size of a real course at its stage: A1 is complete
+at 500, and the higher levels widen the world instead of reteaching the
+grammar.
 
 `listen` needs audio. The schema, the renderer and the browser's own voice are
 in place; recorded audio would replace the voice and change nothing else.

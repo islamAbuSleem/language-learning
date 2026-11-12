@@ -1,0 +1,49 @@
+{
+  "unit": 13,
+  "title": "The job and the career",
+  "description": "Talk about professional work with the precision the subject needs.",
+  "grammar": "nominalisation, and the language of professional work",
+  "grammarNote": "A job and a task are both nouns in Spanish: el puesto de trabajo, la contratación.",
+  "explanation": {
+    "summary": "Professional Spanish is built out of nouns. The role, the paper, the meeting, the decision and the result each have their own noun, so a professional conversation never needs a vague word like \"cosas de la oficina\". This unit gives you the ten words that a job talk is actually built from.",
+    "sections": [
+      {
+        "heading": "The job and the steps around it",
+        "body": "el puesto de trabajo is the job as it is written down, and el currículum is the paper that gets you it. la entrevista is the meeting, and la contratación is the decision that comes out of it: la contratación de personal means hiring staff, and it is a process, not a single moment. Everything here is a noun, because professional Spanish thinks in nouns.",
+        "examples": [
+          { "es": "El puesto de trabajo incluye dos días de teletrabajo.", "en": "The job includes two days of remote work." },
+          { "es": "La contratación de personal tardó tres meses.", "en": "The hiring of staff took three months." },
+          { "es": "El currículum se envía antes de la entrevista.", "en": "The CV is sent before the interview." }
+        ]
+      },
+      {
+        "heading": "Moving up, and moving out",
+        "body": "un ascenso is a promotion inside the company, and una jubilación is the retirement at the end of a working life. Between them sits el rendimiento, the performance that decides whether you get the next step, and la plantilla, the staff as a whole. Y la experiencia es lo que se escribe en el currículum. When a manager has too much on the desk, the verb is delegar: to hand the work to somebody else without losing it.",
+        "examples": [
+          { "es": "Consiguió un ascenso tras diez años en la empresa.", "en": "She got a promotion after ten years at the company." },
+          { "es": "La plantilla se redujo un veinte por ciento.", "en": "The workforce was cut by twenty per cent." },
+          { "es": "Un buen responsable delega las tareas menos importantes.", "en": "A good manager delegates the least important tasks." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "puesto de trabajo", "en": "the job, the post", "article": "el", "note": "Masculine: el puesto de trabajo.", "tags": ["work"] },
+    { "es": "currículum", "en": "the CV, the resume", "article": "el", "note": "Masculine: el currículum. The accent marks the stress.", "tags": ["work"] },
+    { "es": "entrevista", "en": "the interview", "article": "la", "note": "Feminine: la entrevista.", "tags": ["work"] },
+    { "es": "contratación", "en": "the hiring", "article": "la", "note": "Feminine: la contratación. From contratar.", "tags": ["work"] },
+    { "es": "ascenso", "en": "the promotion", "article": "el", "note": "Masculine: el ascenso.", "tags": ["work"] },
+    { "es": "jubilación", "en": "retirement", "article": "la", "note": "Feminine: la jubilación.", "tags": ["work"] },
+    { "es": "rendimiento", "en": "performance", "article": "el", "note": "Masculine: el rendimiento. It means how well somebody works.", "tags": ["work"] },
+    { "es": "plantilla", "en": "the workforce, the staff", "article": "la", "note": "Feminine: la plantilla.", "tags": ["work"] },
+    { "es": "experiencia", "en": "experience", "article": "la", "note": "Feminine: la experiencia.", "tags": ["work"] },
+    { "es": "delegar", "en": "to delegate", "article": null, "note": "An infinitive ending in -ar: delego, delegas, delega.", "tags": ["work", "verb"] }
+  ],
+  "drills": [
+    { "prompt": "___ de trabajo incluye teletrabajo.", "answer": "El puesto", "meaning": "the job includes remote work", "note": "Puesto de trabajo is masculine: el puesto." },
+    { "prompt": "___ se envía antes de la entrevista.", "answer": "El currículum", "meaning": "the CV is sent before the interview", "note": "El currículum takes the masculine article." },
+    { "prompt": "La ___ de personal tardó tres meses.", "answer": "contratación", "meaning": "the hiring of staff took three months", "note": "Contratación is feminine." },
+    { "prompt": "La empresa redujo su ___.", "answer": "plantilla", "meaning": "the company cut its workforce", "note": "La plantilla means the staff as a whole." },
+    { "prompt": "Un buen responsable sabe ___.", "answer": "delegar", "meaning": "a good manager knows how to delegate", "note": "Delegar is an infinitive, so it has no article." }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 31,
+  "title": "Character and personality",
+  "description": "Say what a person is made of, and how they are doing.",
+  "explanation": {
+    "summary": "Character is what somebody is made of, and Spanish splits it in two: ser says what a person is, estar says how a person is at this moment. Choosing the right one is the difference between describing a person and describing a moment.",
+    "sections": [
+      {
+        "heading": "What somebody is",
+        "body": "Ser with an adjective says what a person is, and it does not change: mi hermana es generosa, mi hermano es orgulloso, mis vecinos son amables. To say who somebody is, ser is the verb: ¿quién es él? — es mi primo. El carácter is the word for the whole of it, and la personalidad is the way a person usually behaves.",
+        "examples": [
+          {
+            "es": "Mi hermana es generosa y mi hermano es orgulloso.",
+            "en": "My sister is generous and my brother is proud."
+          },
+          {
+            "es": "Mi padre tiene un carácter fuerte.",
+            "en": "My father has a strong character."
+          }
+        ]
+      },
+      {
+        "heading": "How somebody is doing",
+        "body": "Estar with an adjective says how a person is right now: el niño está cansado, mi madre está enferma, el jugador está nervioso. La actitud is how somebody behaves in front of you, and it can be good or bad: el jefe tiene una actitud muy seria. Some adjectives change their meaning with the two verbs: ser aburrido is to be boring, and estar aburrido is to be bored.",
+        "examples": [
+          {
+            "es": "El jugador está nervioso antes del partido.",
+            "en": "The player is nervous before the match."
+          },
+          {
+            "es": "Mi madre está enferma y no ha venido.",
+            "en": "My mother is ill and she did not come."
+          }
+        ]
+      },
+      {
+        "heading": "The words you use",
+        "body": "Choose the adjective that fits: una persona valiente, tímida, generosa, amable, orgullosa, humilde, egoísta. The ending of the adjective changes with the noun: un chico valiente, una chica valiente. And when you describe a person to somebody else, describe what they do as well as what they are: mi vecino es amable y siempre ayuda a todo el mundo.",
+        "examples": [
+          {
+            "es": "Mi abuela es una persona humilde y nunca presume.",
+            "en": "My grandmother is a humble person and never shows off."
+          },
+          {
+            "es": "Mi hermana es tímida, pero yo no.",
+            "en": "My sister is shy, but I am not."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u31/match/caracter",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the character",
+          "right": "el carácter"
+        },
+        {
+          "left": "the personality",
+          "right": "la personalidad"
+        },
+        {
+          "left": "the attitude",
+          "right": "la actitud"
+        },
+        {
+          "left": "brave",
+          "right": "valiente"
+        },
+        {
+          "left": "shy",
+          "right": "tímido"
+        }
+      ],
+      "note": "Say what somebody is with ser: es generoso, es tímido. Say how they are doing with estar: está cansado, está orgulloso."
+    },
+    {
+      "id": "es/a2/u31/select/caracter",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the character”.",
+      "options": [
+        "el carácter",
+        "el vecino",
+        "la esquina",
+        "el jefe"
+      ],
+      "answer": "el carácter",
+      "translation": "the character",
+      "note": "Masculine: el carácter. How a person is made, with the good and the bad."
+    },
+    {
+      "id": "es/a2/u31/listen/personalidad",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la personalidad",
+      "options": [
+        "valiente",
+        "la actitud",
+        "la personalidad",
+        "tímido"
+      ],
+      "audio": {
+        "text": "personalidad",
+        "lang": "es",
+        "file": "/audio/es/personalidad-49a0c838.mp3"
+      },
+      "translation": "the personality",
+      "note": "Feminine: la personalidad. The way a person usually is."
+    },
+    {
+      "id": "es/a2/u31/drill/1",
+      "type": "type_in",
+      "prompt": "Mi hermana es ___; siempre ayuda a todo el mundo.",
+      "answer": "generosa",
+      "acceptedAnswers": [
+        "generosa"
+      ],
+      "translation": "my sister is generous; she always helps everybody",
+      "note": "Ser with an adjective says what a person is."
+    },
+    {
+      "id": "es/a2/u31/match/generoso",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "generous",
+          "right": "generoso"
+        },
+        {
+          "left": "kind",
+          "right": "amable"
+        },
+        {
+          "left": "proud",
+          "right": "orgulloso"
+        },
+        {
+          "left": "humble",
+          "right": "humilde"
+        },
+        {
+          "left": "selfish",
+          "right": "egoísta"
+        }
+      ],
+      "note": "Say what somebody is with ser: es generoso, es tímido. Say how they are doing with estar: está cansado, está orgulloso."
+    },
+    {
+      "id": "es/a2/u31/select/actitud",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the attitude”.",
+      "options": [
+        "la cuenta",
+        "el ahorro",
+        "el banco",
+        "la actitud"
+      ],
+      "answer": "la actitud",
+      "translation": "the attitude",
+      "note": "Feminine: la actitud. How somebody behaves towards you."
+    },
+    {
+      "id": "es/a2/u31/drill/2",
+      "type": "type_in",
+      "prompt": "El niño es ___; no habla con nadie.",
+      "answer": "tímido",
+      "acceptedAnswers": [
+        "timido"
+      ],
+      "translation": "the boy is shy; he does not talk to anybody",
+      "note": "Ser says what a person is."
+    },
+    {
+      "id": "es/a2/u31/drill/3",
+      "type": "type_in",
+      "prompt": "El jugador es ___; nunca se rinde.",
+      "answer": "valiente",
+      "acceptedAnswers": [
+        "valiente"
+      ],
+      "translation": "the player is brave; he never gives up",
+      "note": "Valiente is the same for men and women."
+    },
+    {
+      "id": "es/a2/u31/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ de mi hermana es muy fuerte.",
+      "answer": "carácter",
+      "acceptedAnswers": [
+        "caracter"
+      ],
+      "translation": "my sister's character is very strong",
+      "note": "El carácter is how a person is made."
+    },
+    {
+      "id": "es/a2/u31/drill/5",
+      "type": "type_in",
+      "prompt": "Mi madre es ___; dice que sus hijos son los mejores.",
+      "answer": "orgullosa",
+      "acceptedAnswers": [
+        "orgullosa"
+      ],
+      "translation": "my mother is proud; she says her children are the best",
+      "note": "The adjective agrees with the noun: una madre orgullosa."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "unit": 26,
+  "title": "Clothes and how they are made",
+  "description": "Name the parts of a garment and say how it is made.",
+  "grammar": "the polite imperative, and the words of clothes",
+  "grammarNote": "Labels and instructions speak to you with usted: lave en frío, no use la secadora.",
+  "explanation": {
+    "summary": "A garment is not one word but a set of named parts, and each part has its own name in Spanish. Once you can name the parts, you can say exactly what is wrong with a piece of clothing and how it was made.",
+    "sections": [
+      {
+        "heading": "The parts of a garment",
+        "body": "Una camisa tiene cuello, mangas y botones. Un pantalón tiene una cremallera y un dobladillo, que es la parte de abajo. Los zapatos tienen suela. Every part has its own word, and when something is wrong you say which part: se ha roto la cremallera del chaquetón, me queda grande el cuello de la camisa.",
+        "examples": [
+          {
+            "es": "El cuello de la camisa es de algodón.",
+            "en": "The collar of the shirt is cotton."
+          },
+          {
+            "es": "La cremallera del pantalón no funciona.",
+            "en": "The zip of the trousers does not work."
+          }
+        ]
+      },
+      {
+        "heading": "How it is made",
+        "body": "Making clothes is sewing: la aguja carries el hilo through la tela, and the pieces are cut before they are joined. El forro is the cloth inside the garment, and la costura is the line where two pieces meet. The person who makes clothes is un sastre, and where they work is un taller. To sew is coser, and a mend is un remiendo.",
+        "examples": [
+          {
+            "es": "El forro de la chaqueta es de seda.",
+            "en": "The lining of the jacket is silk."
+          },
+          {
+            "es": "Mi abuela cosió este vestido hace veinte años.",
+            "en": "My grandmother sewed this dress twenty years ago."
+          }
+        ]
+      },
+      {
+        "heading": "The label and the size",
+        "body": "Every garment has a label with la talla, and it has instructions. The labels usually use the infinitive: lavar a máquina, no planchar, secar en sombra. The same instructions can use the polite form of the imperative: lave en frío, no use la secadora. The label also tells you how to wash the tela: a mano o en la lavadora.",
+        "examples": [
+          {
+            "es": "Lave en frío para no encoger la lana.",
+            "en": "Wash in cold water so as not to shrink the wool."
+          },
+          {
+            "es": "La etiqueta dice que hay que lavar la prenda a mano.",
+            "en": "The label says that the garment has to be washed by hand."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "manga",
+      "en": "the sleeve",
+      "article": "la",
+      "note": "Feminine: la manga. The part of a shirt or jacket that covers the arm.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "cuello",
+      "en": "the collar",
+      "article": "el",
+      "note": "Masculine: el cuello. It also means the neck.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "cremallera",
+      "en": "the zip",
+      "article": "la",
+      "note": "Feminine: la cremallera. The line of teeth that closes a jacket or trousers.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "tela",
+      "en": "the fabric",
+      "article": "la",
+      "note": "Feminine: la tela. The cloth itself, before it becomes a garment.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "hilo",
+      "en": "the thread",
+      "article": "el",
+      "note": "Masculine: el hilo. The thin string you sew with.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "aguja",
+      "en": "the needle",
+      "article": "la",
+      "note": "Feminine: la aguja. It has a small hole at the point and it is sharp.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "dobladillo",
+      "en": "the hem",
+      "article": "el",
+      "note": "Masculine: el dobladillo. The folded edge at the bottom of a garment.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "costura",
+      "en": "the seam",
+      "article": "la",
+      "note": "Feminine: la costura. The line where two pieces of cloth are joined.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "forro",
+      "en": "the lining",
+      "article": "el",
+      "note": "Masculine: el forro. The cloth inside a coat or jacket.",
+      "tags": [
+        "clothes",
+        "object"
+      ]
+    },
+    {
+      "es": "coser",
+      "en": "to sew",
+      "article": null,
+      "note": "An infinitive: coso, coses, cose. To join two pieces of cloth with thread.",
+      "tags": [
+        "clothes",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "La ___ del pantalón está rota.",
+      "answer": "cremallera",
+      "meaning": "the zip of the trousers is broken",
+      "note": "La cremallera is the zip."
+    },
+    {
+      "prompt": "El ___ de la camisa es de algodón.",
+      "answer": "cuello",
+      "meaning": "the collar of the shirt is cotton",
+      "note": "El cuello is the collar."
+    },
+    {
+      "prompt": "___ en frío para no encoger la lana.",
+      "answer": "Lave",
+      "meaning": "wash in cold water so as not to shrink the wool",
+      "note": "The usted form of lavar."
+    },
+    {
+      "prompt": "Necesito una aguja y ___ para coser el botón.",
+      "answer": "hilo",
+      "meaning": "I need a needle and thread to sew the button",
+      "note": "El hilo is the thread."
+    },
+    {
+      "prompt": "¿Qué ___ tienes, la S o la M?",
+      "answer": "talla",
+      "meaning": "what size do you have, S or M?",
+      "note": "La talla is the size."
+    }
+  ]
+}

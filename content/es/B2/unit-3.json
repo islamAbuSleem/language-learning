@@ -80,9 +80,9 @@
       "prompt": "Pick the Spanish word for “has spoken”.",
       "options": [
         "haya hablado",
-        "había estudiado",
-        "había trabajado",
-        "había visto"
+        "respondió",
+        "explicó",
+        "exclamó"
       ],
       "answer": "haya hablado",
       "translation": "has spoken",
@@ -94,9 +94,9 @@
       "prompt": "What did you hear?",
       "answer": "haya comido",
       "options": [
-        "hemos abierto",
-        "querer",
-        "poder",
+        "publicar",
+        "traer",
+        "coser",
         "haya comido"
       ],
       "audio": {
@@ -151,9 +151,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “has lived”.",
       "options": [
-        "salió",
-        "comía",
-        "hablaba",
+        "he hablado",
+        "he vivido",
+        "he comido",
         "haya vivido"
       ],
       "answer": "haya vivido",

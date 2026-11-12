@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 26,
+  "title": "Stories and what happens in them",
+  "description": "Tell what happened, from the first line to the end.",
+  "explanation": {
+    "summary": "B1 ends where a story begins: somebody tells what happened. The preterite carries it, and a small set of nouns names the parts of every story ever told.",
+    "sections": [
+      {
+        "heading": "The parts of a story",
+        "body": "El relato is the story itself, and la trama is what happens in it. El personaje is who it happens to. El nudo is where everything tangles, and el desenlace is where it comes undone.",
+        "examples": [
+          {
+            "es": "El relato empieza en un pueblo pequeño.",
+            "en": "The story starts in a small town."
+          },
+          {
+            "es": "La trama me tuvo despierto toda la noche.",
+            "en": "The plot kept me awake all night."
+          },
+          {
+            "es": "El desenlace me sorprendió.",
+            "en": "The ending surprised me."
+          }
+        ]
+      },
+      {
+        "heading": "Who tells it",
+        "body": "El narrador is the voice that tells the story. El héroe wins and el villano loses, and la moraleja is what the story was trying to say. Contar is the verb for the whole act: cuento, cuentas, cuenta.",
+        "examples": [
+          {
+            "es": "El narrador cuenta lo que vio.",
+            "en": "The narrator tells what he saw."
+          },
+          {
+            "es": "El héroe venció al villano.",
+            "en": "The hero defeated the villain."
+          },
+          {
+            "es": "La moraleja es no rendirse nunca.",
+            "en": "The moral is never to give up."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u26/match/relato",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the story",
+          "right": "el relato"
+        },
+        {
+          "left": "the plot",
+          "right": "la trama"
+        },
+        {
+          "left": "the character",
+          "right": "el personaje"
+        },
+        {
+          "left": "the crux",
+          "right": "el nudo"
+        },
+        {
+          "left": "the ending",
+          "right": "el desenlace"
+        }
+      ],
+      "note": "A story is told in the preterite: empezó, pasó, terminó."
+    },
+    {
+      "id": "es/b1/u26/select/relato",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the story”.",
+      "options": [
+        "la trama",
+        "el personaje",
+        "contar",
+        "el relato"
+      ],
+      "answer": "el relato",
+      "translation": "the story",
+      "note": "Masculine: el relato."
+    },
+    {
+      "id": "es/b1/u26/listen/trama",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la trama",
+      "options": [
+        "el narrador",
+        "el villano",
+        "el héroe",
+        "la trama"
+      ],
+      "audio": {
+        "text": "trama",
+        "lang": "es",
+        "file": "/audio/es/trama-387870a4.mp3"
+      },
+      "translation": "the plot",
+      "note": "Feminine: la trama."
+    },
+    {
+      "id": "es/b1/u26/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ empieza en un pueblo pequeño.",
+      "answer": "relato",
+      "acceptedAnswers": [
+        "relato"
+      ],
+      "translation": "the story starts in a small town",
+      "note": "Relato is masculine."
+    },
+    {
+      "id": "es/b1/u26/match/narrador",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the narrator",
+          "right": "el narrador"
+        },
+        {
+          "left": "the hero",
+          "right": "el héroe"
+        },
+        {
+          "left": "the villain",
+          "right": "el villano"
+        },
+        {
+          "left": "the moral",
+          "right": "la moraleja"
+        },
+        {
+          "left": "to tell",
+          "right": "contar"
+        }
+      ],
+      "note": "A story is told in the preterite: empezó, pasó, terminó."
+    },
+    {
+      "id": "es/b1/u26/select/personaje",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the character”.",
+      "options": [
+        "el narrador",
+        "el héroe",
+        "el desenlace",
+        "el personaje"
+      ],
+      "answer": "el personaje",
+      "translation": "the character",
+      "note": "Masculine: el personaje."
+    },
+    {
+      "id": "es/b1/u26/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ me tuvo despierto toda la noche.",
+      "answer": "trama",
+      "acceptedAnswers": [
+        "trama"
+      ],
+      "translation": "the plot kept me awake all night",
+      "note": "Trama is feminine."
+    },
+    {
+      "id": "es/b1/u26/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ venció al villano.",
+      "answer": "héroe",
+      "acceptedAnswers": [
+        "heroe"
+      ],
+      "translation": "the hero defeated the villain",
+      "note": "Héroe is masculine."
+    },
+    {
+      "id": "es/b1/u26/drill/4",
+      "type": "type_in",
+      "prompt": "El narrador ___ lo que vio.",
+      "answer": "cuenta",
+      "acceptedAnswers": [
+        "cuenta"
+      ],
+      "translation": "the narrator tells what he saw",
+      "note": "Contar with él is cuenta."
+    },
+    {
+      "id": "es/b1/u26/drill/5",
+      "type": "type_in",
+      "prompt": "La ___ es no rendirse nunca.",
+      "answer": "moraleja",
+      "acceptedAnswers": [
+        "moraleja"
+      ],
+      "translation": "the moral is never to give up",
+      "note": "Moraleja is feminine."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 16,
+  "title": "Technology and how it changes things",
+  "description": "Say what a tool does to a habit, not only what the tool is.",
+  "explanation": {
+    "summary": "Technology Spanish borrows a lot from English, but the grammar of cause and effect stays Spanish. You name the device, you name the process it replaces, and you name the habit that changes as a result. That structure lets you argue about what a tool does, which is the point of this unit.",
+    "sections": [
+      {
+        "heading": "The parts",
+        "body": "un dispositivo is any piece of hardware, la aplicación is the software on it, and la interfaz is the part you touch. The rules that decide what you see are un algoritmo, and the way everything is joined together is la conectividad. Where that connectivity does not reach you there is la brecha digital, and the whole field of new ways of doing things is la innovación.",
+        "examples": [
+          {
+            "es": "La aplicación se actualiza cada mes.",
+            "en": "The app updates every month."
+          },
+          {
+            "es": "El algoritmo decide qué noticias ves.",
+            "en": "The algorithm decides which news you see."
+          },
+          {
+            "es": "La brecha digital se nota en las zonas rurales.",
+            "en": "The digital divide is visible in rural areas."
+          }
+        ]
+      },
+      {
+        "heading": "What it does to the person",
+        "body": "la automatización is the process of doing the work without people, and it is where the argument usually starts. The cost of a tool is often la privacidad, because the device knows more about you than you would like. Y al final lo que se altera es un hábito: la manera de trabajar, de estudiar o de descansar. El nombre del hábito nuevo es la palabra que hay que usar para decir lo que la pantalla ha hecho con nosotros.",
+        "examples": [
+          {
+            "es": "La automatización de las tiendas ha reducido el empleo.",
+            "en": "The automation of shops has reduced employment."
+          },
+          {
+            "es": "El coste es la privacidad.",
+            "en": "The cost is privacy."
+          },
+          {
+            "es": "El móvil cambió su hábito de lectura.",
+            "en": "The phone changed his reading habit."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u16/match/dispositivo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the device",
+          "right": "el dispositivo"
+        },
+        {
+          "left": "the app, the application",
+          "right": "la aplicación"
+        },
+        {
+          "left": "the algorithm",
+          "right": "el algoritmo"
+        },
+        {
+          "left": "the interface",
+          "right": "la interfaz"
+        },
+        {
+          "left": "automation",
+          "right": "la automatización"
+        }
+      ],
+      "note": "A tool is a noun and its effect is another noun: la aplicación, la automatización, el hábito."
+    },
+    {
+      "id": "es/b2/u16/select/dispositivo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the device”.",
+      "options": [
+        "la aplicación",
+        "el algoritmo",
+        "la interfaz",
+        "el dispositivo"
+      ],
+      "answer": "el dispositivo",
+      "translation": "the device",
+      "note": "Masculine: el dispositivo. It means any piece of hardware."
+    },
+    {
+      "id": "es/b2/u16/listen/aplicacion",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la aplicación",
+      "options": [
+        "descargar",
+        "el dispositivo",
+        "el algoritmo",
+        "la aplicación"
+      ],
+      "audio": {
+        "text": "aplicación",
+        "lang": "es",
+        "file": "/audio/es/aplicacion-27a29a51.mp3"
+      },
+      "translation": "the app, the application",
+      "note": "Feminine: la aplicación."
+    },
+    {
+      "id": "es/b2/u16/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ se actualiza cada mes.",
+      "answer": "aplicación",
+      "acceptedAnswers": [
+        "aplicacion"
+      ],
+      "translation": "the app updates every month",
+      "note": "La aplicación is feminine."
+    },
+    {
+      "id": "es/b2/u16/match/privacidad",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "privacy",
+          "right": "la privacidad"
+        },
+        {
+          "left": "innovation",
+          "right": "la innovación"
+        },
+        {
+          "left": "the digital divide",
+          "right": "la brecha digital"
+        },
+        {
+          "left": "connectivity",
+          "right": "la conectividad"
+        },
+        {
+          "left": "the habit",
+          "right": "el hábito"
+        }
+      ],
+      "note": "A tool is a noun and its effect is another noun: la aplicación, la automatización, el hábito."
+    },
+    {
+      "id": "es/b2/u16/select/algoritmo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the algorithm”.",
+      "options": [
+        "la privacidad",
+        "la brecha digital",
+        "la innovación",
+        "el algoritmo"
+      ],
+      "answer": "el algoritmo",
+      "translation": "the algorithm",
+      "note": "Masculine: el algoritmo."
+    },
+    {
+      "id": "es/b2/u16/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ decide qué noticias ves.",
+      "answer": "algoritmo",
+      "acceptedAnswers": [
+        "algoritmo"
+      ],
+      "translation": "the algorithm decides which news you see",
+      "note": "El algoritmo is masculine."
+    },
+    {
+      "id": "es/b2/u16/drill/3",
+      "type": "type_in",
+      "prompt": "Hay una ___ enorme entre el campo y la ciudad.",
+      "answer": "brecha digital",
+      "acceptedAnswers": [
+        "brecha digital"
+      ],
+      "translation": "there is a huge digital divide between the countryside and the city",
+      "note": "La brecha digital is feminine."
+    },
+    {
+      "id": "es/b2/u16/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ es cualquier aparato con una pantalla.",
+      "answer": "dispositivo",
+      "acceptedAnswers": [
+        "dispositivo"
+      ],
+      "translation": "the device is any apparatus with a screen",
+      "note": "Un dispositivo means any piece of hardware."
+    },
+    {
+      "id": "es/b2/u16/drill/5",
+      "type": "type_in",
+      "prompt": "La pantalla cambió su ___.",
+      "answer": "hábito",
+      "acceptedAnswers": [
+        "habito"
+      ],
+      "translation": "the screen changed his habit",
+      "note": "El hábito is masculine."
+    }
+  ]
+}

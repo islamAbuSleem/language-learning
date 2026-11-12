@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 13,
+  "title": "The job and the career",
+  "description": "Talk about professional work with the precision the subject needs.",
+  "explanation": {
+    "summary": "Professional Spanish is built out of nouns. The role, the paper, the meeting, the decision and the result each have their own noun, so a professional conversation never needs a vague word like \"cosas de la oficina\". This unit gives you the ten words that a job talk is actually built from.",
+    "sections": [
+      {
+        "heading": "The job and the steps around it",
+        "body": "el puesto de trabajo is the job as it is written down, and el currículum is the paper that gets you it. la entrevista is the meeting, and la contratación is the decision that comes out of it: la contratación de personal means hiring staff, and it is a process, not a single moment. Everything here is a noun, because professional Spanish thinks in nouns.",
+        "examples": [
+          {
+            "es": "El puesto de trabajo incluye dos días de teletrabajo.",
+            "en": "The job includes two days of remote work."
+          },
+          {
+            "es": "La contratación de personal tardó tres meses.",
+            "en": "The hiring of staff took three months."
+          },
+          {
+            "es": "El currículum se envía antes de la entrevista.",
+            "en": "The CV is sent before the interview."
+          }
+        ]
+      },
+      {
+        "heading": "Moving up, and moving out",
+        "body": "un ascenso is a promotion inside the company, and una jubilación is the retirement at the end of a working life. Between them sits el rendimiento, the performance that decides whether you get the next step, and la plantilla, the staff as a whole. Y la experiencia es lo que se escribe en el currículum. When a manager has too much on the desk, the verb is delegar: to hand the work to somebody else without losing it.",
+        "examples": [
+          {
+            "es": "Consiguió un ascenso tras diez años en la empresa.",
+            "en": "She got a promotion after ten years at the company."
+          },
+          {
+            "es": "La plantilla se redujo un veinte por ciento.",
+            "en": "The workforce was cut by twenty per cent."
+          },
+          {
+            "es": "Un buen responsable delega las tareas menos importantes.",
+            "en": "A good manager delegates the least important tasks."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u13/match/puesto-de-trabajo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the job, the post",
+          "right": "el puesto de trabajo"
+        },
+        {
+          "left": "the CV, the resume",
+          "right": "el currículum"
+        },
+        {
+          "left": "the interview",
+          "right": "la entrevista"
+        },
+        {
+          "left": "the hiring",
+          "right": "la contratación"
+        },
+        {
+          "left": "the promotion",
+          "right": "el ascenso"
+        }
+      ],
+      "note": "A job and a task are both nouns in Spanish: el puesto de trabajo, la contratación."
+    },
+    {
+      "id": "es/b2/u13/select/puesto-de-trabajo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the job, the post”.",
+      "options": [
+        "el portátil",
+        "el clic",
+        "la contraseña",
+        "el puesto de trabajo"
+      ],
+      "answer": "el puesto de trabajo",
+      "translation": "the job, the post",
+      "note": "Masculine: el puesto de trabajo."
+    },
+    {
+      "id": "es/b2/u13/listen/curriculum",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el currículum",
+      "options": [
+        "el teletrabajo",
+        "el robot",
+        "la videollamada",
+        "el currículum"
+      ],
+      "audio": {
+        "text": "currículum",
+        "lang": "es",
+        "file": "/audio/es/curriculum-5372c7c8.mp3"
+      },
+      "translation": "the CV, the resume",
+      "note": "Masculine: el currículum. The accent marks the stress."
+    },
+    {
+      "id": "es/b2/u13/drill/1",
+      "type": "type_in",
+      "prompt": "___ de trabajo incluye teletrabajo.",
+      "answer": "El puesto",
+      "acceptedAnswers": [
+        "El puesto"
+      ],
+      "translation": "the job includes remote work",
+      "note": "Puesto de trabajo is masculine: el puesto."
+    },
+    {
+      "id": "es/b2/u13/match/jubilacion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "retirement",
+          "right": "la jubilación"
+        },
+        {
+          "left": "performance",
+          "right": "el rendimiento"
+        },
+        {
+          "left": "the workforce, the staff",
+          "right": "la plantilla"
+        },
+        {
+          "left": "experience",
+          "right": "la experiencia"
+        },
+        {
+          "left": "to delegate",
+          "right": "delegar"
+        }
+      ],
+      "note": "A job and a task are both nouns in Spanish: el puesto de trabajo, la contratación."
+    },
+    {
+      "id": "es/b2/u13/select/entrevista",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the interview”.",
+      "options": [
+        "el teletrabajo",
+        "el robot",
+        "la videollamada",
+        "la entrevista"
+      ],
+      "answer": "la entrevista",
+      "translation": "the interview",
+      "note": "Feminine: la entrevista."
+    },
+    {
+      "id": "es/b2/u13/drill/2",
+      "type": "type_in",
+      "prompt": "___ se envía antes de la entrevista.",
+      "answer": "El currículum",
+      "acceptedAnswers": [
+        "El curriculum"
+      ],
+      "translation": "the CV is sent before the interview",
+      "note": "El currículum takes the masculine article."
+    },
+    {
+      "id": "es/b2/u13/drill/3",
+      "type": "type_in",
+      "prompt": "La ___ de personal tardó tres meses.",
+      "answer": "contratación",
+      "acceptedAnswers": [
+        "contratacion"
+      ],
+      "translation": "the hiring of staff took three months",
+      "note": "Contratación is feminine."
+    },
+    {
+      "id": "es/b2/u13/drill/4",
+      "type": "type_in",
+      "prompt": "La empresa redujo su ___.",
+      "answer": "plantilla",
+      "acceptedAnswers": [
+        "plantilla"
+      ],
+      "translation": "the company cut its workforce",
+      "note": "La plantilla means the staff as a whole."
+    },
+    {
+      "id": "es/b2/u13/drill/5",
+      "type": "type_in",
+      "prompt": "Un buen responsable sabe ___.",
+      "answer": "delegar",
+      "acceptedAnswers": [
+        "delegar"
+      ],
+      "translation": "a good manager knows how to delegate",
+      "note": "Delegar is an infinitive, so it has no article."
+    }
+  ]
+}

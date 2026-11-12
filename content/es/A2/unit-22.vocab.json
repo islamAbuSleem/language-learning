@@ -1,0 +1,188 @@
+{
+  "unit": 22,
+  "title": "The post office",
+  "description": "Send a parcel and deal with the paper that goes with it.",
+  "grammar": "the preterite perfect, and the words of the post",
+  "grammarNote": "What is done and still on its way: he enviado el paquete, he pagado el envío.",
+  "explanation": {
+    "summary": "Sending something means a box, a weight, a stamp and a form. The perfect is the right tense for a parcel that is already on its way, because the story of that parcel is not finished yet.",
+    "sections": [
+      {
+        "heading": "The parcel",
+        "body": "El paquete needs an address, a weight and a stamp. At the counter you say: quiero enviar este paquete a Madrid, ¿cuánto cuesta el envío?, pesa dos kilos. El envío is what you pay for and what travels, el sello is the stamp you put on it, and the person who sends it is el remitente.",
+        "examples": [
+          {
+            "es": "Quiero enviar este paquete a Madrid.",
+            "en": "I want to send this parcel to Madrid."
+          },
+          {
+            "es": "El paquete pesa dos kilos y medio.",
+            "en": "The parcel weighs two and a half kilos."
+          }
+        ]
+      },
+      {
+        "heading": "What you have already done",
+        "body": "When the parcel is already on its way, use the perfect: he enviado el paquete, he pagado el envío, he escrito la dirección. These say the job is done and something is still happening because of it. If you name a finished time, use the preterite instead: envié el paquete ayer, lo envié por la mañana.",
+        "examples": [
+          {
+            "es": "He enviado el paquete esta mañana.",
+            "en": "I have sent the parcel this morning."
+          },
+          {
+            "es": "Envié el paquete ayer.",
+            "en": "I sent the parcel yesterday."
+          }
+        ]
+      },
+      {
+        "heading": "The paper that travels",
+        "body": "A lot of the work of a post office is paper. El formulario is the form you fill in at the counter, la carta is a letter and el recibo is the slip of paper that proves you paid. El código postal goes in the corner of the envelope. If the parcel leaves the country, pasa por la aduana, and there is another form to fill in.",
+        "examples": [
+          {
+            "es": "Rellené el formulario y firmé el recibo.",
+            "en": "I filled in the form and signed the receipt."
+          },
+          {
+            "es": "Escribe el código postal en la esquina.",
+            "en": "Write the postcode in the corner."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "paquete",
+      "en": "the parcel",
+      "article": "el",
+      "note": "Masculine: el paquete. A box or packet you send to somebody.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "envío",
+      "en": "the posting",
+      "article": "el",
+      "note": "Masculine: el envío. The sending, and what you pay for it.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "sello",
+      "en": "the stamp",
+      "article": "el",
+      "note": "Masculine: el sello. The small piece of paper you stick on the envelope.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "entrega",
+      "en": "the delivery",
+      "article": "la",
+      "note": "Feminine: la entrega. When the parcel arrives is la entrega.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "formulario",
+      "en": "the form",
+      "article": "el",
+      "note": "Masculine: el formulario. The paper with boxes you fill in.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "remitente",
+      "en": "the sender",
+      "article": "el",
+      "note": "Masculine: el remitente. The person who sends the parcel.",
+      "tags": [
+        "post",
+        "person"
+      ]
+    },
+    {
+      "es": "recibo",
+      "en": "the receipt",
+      "article": "el",
+      "note": "Masculine: el recibo. The slip of paper that shows what you paid.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "código postal",
+      "en": "the postcode",
+      "article": "el",
+      "note": "Masculine: el código postal. Five digits in Spain.",
+      "tags": [
+        "post",
+        "object"
+      ]
+    },
+    {
+      "es": "enviar",
+      "en": "to send",
+      "article": null,
+      "note": "An infinitive: envío, envías, envía. To send a parcel or a letter.",
+      "tags": [
+        "post",
+        "verb"
+      ]
+    },
+    {
+      "es": "recoger",
+      "en": "to collect",
+      "article": null,
+      "note": "An infinitive: recojo, recoges, recoge. To pick something up from the post office.",
+      "tags": [
+        "post",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ enviado el paquete.",
+      "answer": "He",
+      "meaning": "I have sent the parcel",
+      "note": "The perfect for something that is done and still on its way."
+    },
+    {
+      "prompt": "¿___ pegado la etiqueta del paquete?",
+      "answer": "Has",
+      "meaning": "have you stuck the label on the parcel?",
+      "note": "Has plus the verb form: has enviado, has pegado."
+    },
+    {
+      "prompt": "Quiero ___ este paquete a Madrid.",
+      "answer": "enviar",
+      "meaning": "I want to send this parcel to Madrid",
+      "note": "Querer takes an infinitive."
+    },
+    {
+      "prompt": "El envío ___ ocho euros.",
+      "answer": "cuesta",
+      "meaning": "the posting costs eight euros",
+      "note": "The present for a price that is true now."
+    },
+    {
+      "prompt": "___ un recibo al enviar el paquete.",
+      "answer": "Recibí",
+      "meaning": "I received a receipt when sending the parcel",
+      "note": "Recibir in the preterite is recibí."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "unit": 28,
+  "title": "Staying the night",
+  "description": "Book a room, describe it and check out.",
+  "grammar": "the present tense, and the words of a hotel",
+  "grammarNote": "Describe the place as it is now: la habitación está limpia, el ascensor no funciona.",
+  "explanation": {
+    "summary": "A hotel has its own small set of words: the reception, the key, the lift, the corridor. The present tense is what you need to describe the place you are standing in, and to say what a room has.",
+    "sections": [
+      {
+        "heading": "Arriving at the hotel",
+        "body": "You give your name at la recepción and they give you la llave. The rooms are on the floors of the building, so you take el ascensor. If your room is at the end of el pasillo, you walk a long way. La salida de emergencia is at the other end. La maleta is with you, or in the room, or down in the luggage room.",
+        "examples": [
+          {
+            "es": "Tengo una habitación reservada a nombre de García.",
+            "en": "I have a room booked under the name García."
+          },
+          {
+            "es": "El ascensor está al fondo del pasillo.",
+            "en": "The lift is at the end of the corridor."
+          }
+        ]
+      },
+      {
+        "heading": "The room",
+        "body": "Describe the room with the present: la habitación tiene dos camas y un baño, la ventana da al jardín, el suelo está frío, la toalla es pequeña. If something is wrong, say it simply: el grifo no funciona, la caldera no da agua caliente, no hay papel en el baño.",
+        "examples": [
+          {
+            "es": "La habitación tiene una vista al mar.",
+            "en": "The room has a view of the sea."
+          },
+          {
+            "es": "La cama es grande y el suelo está frío.",
+            "en": "The bed is big and the floor is cold."
+          }
+        ]
+      },
+      {
+        "heading": "Paying and leaving",
+        "body": "El desayuno is usually included in la tarifa, and the price of a night depends on the season. To book a room is reservar: he reservado una habitación para tres noches. When you leave you pay at the reception and you get el recibo. Some people ask: ¿está incluido el desayuno?",
+        "examples": [
+          {
+            "es": "He reservado una habitación para tres noches.",
+            "en": "I have booked a room for three nights."
+          },
+          {
+            "es": "¿Está incluido el desayuno en la tarifa?",
+            "en": "Is breakfast included in the rate?"
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "habitación",
+      "en": "the room",
+      "article": "la",
+      "note": "Feminine: la habitación. The room you sleep in, and also a part of a building.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "recepción",
+      "en": "the reception",
+      "article": "la",
+      "note": "Feminine: la recepción. The desk where you arrive and pay.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "llave",
+      "en": "the key",
+      "article": "la",
+      "note": "Feminine: la llave. It opens the door of your room.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "ascensor",
+      "en": "the lift",
+      "article": "el",
+      "note": "Masculine: el ascensor. The machine that takes you up the floors.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "toalla",
+      "en": "the towel",
+      "article": "la",
+      "note": "Feminine: la toalla. The big cloth you dry yourself with.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "vista",
+      "en": "the view",
+      "article": "la",
+      "note": "Feminine: la vista. What you can see from the window.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "salida",
+      "en": "the exit",
+      "article": "la",
+      "note": "Feminine: la salida. Where you go out; the opposite of la entrada.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "desayuno",
+      "en": "the breakfast",
+      "article": "el",
+      "note": "Masculine: el desayuno. The first meal of the day.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "tarifa",
+      "en": "the rate",
+      "article": "la",
+      "note": "Feminine: la tarifa. The price of a night or of a service.",
+      "tags": [
+        "hotel",
+        "object"
+      ]
+    },
+    {
+      "es": "reservar",
+      "en": "to book",
+      "article": null,
+      "note": "An infinitive: reservo, reservas, reserva. To keep a room for a night.",
+      "tags": [
+        "hotel",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Dejé la ___ en la habitación.",
+      "answer": "maleta",
+      "meaning": "I left the suitcase in the room",
+      "note": "La maleta is the suitcase."
+    },
+    {
+      "prompt": "El ___ está al fondo del pasillo.",
+      "answer": "ascensor",
+      "meaning": "the lift is at the end of the corridor",
+      "note": "El ascensor is the lift."
+    },
+    {
+      "prompt": "La habitación tiene una ___ al mar.",
+      "answer": "vista",
+      "meaning": "the room has a view of the sea",
+      "note": "La vista is the view."
+    },
+    {
+      "prompt": "___ una habitación para dos noches.",
+      "answer": "He reservado",
+      "meaning": "I have booked a room for two nights",
+      "note": "The perfect for a booking that is already made."
+    },
+    {
+      "prompt": "Necesito una ___ limpia.",
+      "answer": "toalla",
+      "meaning": "I need a clean towel",
+      "note": "La toalla is the towel."
+    }
+  ]
+}

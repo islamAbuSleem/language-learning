@@ -1,0 +1,188 @@
+{
+  "unit": 18,
+  "title": "Cooking at home",
+  "description": "Follow a recipe and cook something simple.",
+  "grammar": "the imperative with tú, and the words of cooking",
+  "grammarNote": "A recipe speaks to you directly: mezcla, ralla, hierve, añade.",
+  "explanation": {
+    "summary": "A recipe is a list of ingredients and a list of steps, and the steps are written as orders to the person who will cook. In Spanish that is the imperative, so a recipe gives you a set of useful verbs in a new shape at the same time.",
+    "sections": [
+      {
+        "heading": "The recipe speaks to you",
+        "body": "Every step begins with a verb in the imperative, the form used to tell somebody to do something. With tú you add -e to an -ar verb and you drop the -r and add -e for an -er or -ir verb: mezcla la harina, ralla el queso, hierve el agua. It looks like the present tense, but the meaning is an order, which is why a recipe reads as a list of short sentences and not as a story.",
+        "examples": [
+          {
+            "es": "Mezcla la harina con la sal.",
+            "en": "Mix the flour with the salt."
+          },
+          {
+            "es": "Ralla el queso sobre la sopa.",
+            "en": "Grate the cheese over the soup."
+          }
+        ]
+      },
+      {
+        "heading": "What goes into the dish",
+        "body": "The ingredients come first, with a quantity in front of each one: dos huevos, un poco de sal, medio litro de leche. The word for the ingredient is el ingrediente, and the word for the whole dish is la receta. When a recipe is too big for one person, you say que es para cuatro personas, and the quantity for each person is la ración.",
+        "examples": [
+          {
+            "es": "La receta de paella es para cuatro personas.",
+            "en": "The paella recipe is for four people."
+          },
+          {
+            "es": "Necesito un ingrediente más: el colador.",
+            "en": "I need one more ingredient: the colander."
+          }
+        ]
+      },
+      {
+        "heading": "Order and quantity",
+        "body": "The order of the steps matters, so read the whole recipe before you start. Some steps are about quantity: un poco, un puñado, lo justo. Some are about time: durante diez minutos, hasta que hierva. And the last step is often the serving: sirve la sopa en un plato hondo.",
+        "examples": [
+          {
+            "es": "Remueve hasta que la mezcla esté lista.",
+            "en": "Stir until the mixture is ready."
+          },
+          {
+            "es": "Deja la masa en un lugar frío durante dos horas.",
+            "en": "Leave the dough in a cold place for two hours."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "receta",
+      "en": "the recipe",
+      "article": "la",
+      "note": "Feminine: la receta. It also means what the doctor writes for you.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "ingrediente",
+      "en": "the ingredient",
+      "article": "el",
+      "note": "Masculine: el ingrediente. One of the things you put in the dish.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "mezcla",
+      "en": "the mixture",
+      "article": "la",
+      "note": "Feminine: la mezcla. What you get when you mix things together.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "harina",
+      "en": "the flour",
+      "article": "la",
+      "note": "Feminine: la harina. The white powder you use for dough and bread.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "aceite",
+      "en": "the oil",
+      "article": "el",
+      "note": "Masculine: el aceite. You put it in the pan, not in the water.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "sal",
+      "en": "the salt",
+      "article": "la",
+      "note": "Feminine: la sal. It is never plural: no sales.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "colador",
+      "en": "the colander",
+      "article": "el",
+      "note": "Masculine: el colador. The bowl with holes you drain pasta in.",
+      "tags": [
+        "cooking",
+        "object"
+      ]
+    },
+    {
+      "es": "hervir",
+      "en": "to boil",
+      "article": null,
+      "note": "An infinitive: hiervo, hierves, hierve. You use it for water and for vegetables.",
+      "tags": [
+        "cooking",
+        "verb"
+      ]
+    },
+    {
+      "es": "mezclar",
+      "en": "to mix",
+      "article": null,
+      "note": "An infinitive: mezclo, mezclas, mezcla. To mix two things together.",
+      "tags": [
+        "cooking",
+        "verb"
+      ]
+    },
+    {
+      "es": "rallar",
+      "en": "to grate",
+      "article": null,
+      "note": "An infinitive: rallo, rallas, ralla. To grate cheese, garlic or lemon.",
+      "tags": [
+        "cooking",
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ la harina con la sal.",
+      "answer": "Mezcla",
+      "meaning": "mix the flour with the salt",
+      "note": "The tu form of mezclar: -ar verbs add -e."
+    },
+    {
+      "prompt": "___ el agua hasta que hierva.",
+      "answer": "Hierve",
+      "meaning": "boil the water until it boils",
+      "note": "The tu form of hervir is hierve."
+    },
+    {
+      "prompt": "___ el queso sobre la sopa.",
+      "answer": "Ralla",
+      "meaning": "grate the cheese over the soup",
+      "note": "The tu form of rallar is ralla."
+    },
+    {
+      "prompt": "La ___ lleva todos los ingredientes.",
+      "answer": "receta",
+      "meaning": "the recipe carries all the ingredients",
+      "note": "La receta is the recipe."
+    },
+    {
+      "prompt": "Echa la pasta en el ___.",
+      "answer": "colador",
+      "meaning": "put the pasta in the colander",
+      "note": "El colador is the colander you drain pasta in."
+    }
+  ]
+}

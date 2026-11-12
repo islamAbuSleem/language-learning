@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to shower”.",
       "options": [
-        "descubrir",
-        "pedir",
-        "compartir",
+        "volver",
+        "salir",
+        "venir",
         "ducharse"
       ],
       "answer": "ducharse",
@@ -112,9 +112,9 @@
       "prompt": "What did you hear?",
       "answer": "vestirse",
       "options": [
-        "he hablado",
-        "he vivido",
-        "he comido",
+        "ahorrar",
+        "reparar",
+        "gastar",
         "vestirse"
       ],
       "audio": {
@@ -169,9 +169,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to go to bed”.",
       "options": [
-        "recibir",
-        "abrir",
-        "compartir",
+        "descubrir",
+        "pedir",
+        "servir",
         "acostarse"
       ],
       "answer": "acostarse",

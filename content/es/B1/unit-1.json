@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to want”.",
       "options": [
-        "gustar",
-        "encantar",
-        "molestar",
+        "hablar",
+        "trabajar",
+        "estudiar",
         "querer"
       ],
       "answer": "querer",
@@ -95,9 +95,9 @@
       "answer": "poder",
       "options": [
         "poder",
-        "ser",
-        "llegar",
-        "sentir"
+        "gastar",
+        "ahorrar",
+        "doler"
       ],
       "audio": {
         "text": "poder",
@@ -151,9 +151,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to sleep”.",
       "options": [
-        "he hablado",
-        "he comido",
-        "era",
+        "encantar",
+        "molestar",
+        "gustar",
         "dormir"
       ],
       "answer": "dormir",

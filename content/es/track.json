@@ -36,11 +36,13 @@
       "title": "Elementary",
       "description": "Talk about routines, plans, and what happened yesterday.",
       "grammar": [
-        "preterite and imperfect",
-        "reflexive verbs",
-        "demonstratives",
+        "regular -er and -ir verbs",
+        "ir, tener, saber and conocer",
         "por and para",
-        "expressing plans"
+        "the future",
+        "the preterite and the imperfect",
+        "the imperative",
+        "the preterite perfect"
       ]
     },
     {
@@ -48,11 +50,13 @@
       "title": "Intermediate",
       "description": "Hold a conversation about familiar topics and tell a story.",
       "grammar": [
-        "present perfect",
-        "subjunctive after cuando and although",
-        "relative clauses",
-        "indirect speech",
-        "the conditional"
+        "stem-changing verbs",
+        "the progressive",
+        "object pronouns and reflexives",
+        "comparisons",
+        "the conditional and the subjunctive",
+        "reported speech and relative clauses",
+        "the pluperfect"
       ]
     },
     {

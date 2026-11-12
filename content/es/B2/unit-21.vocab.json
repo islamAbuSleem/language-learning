@@ -1,0 +1,49 @@
+{
+  "unit": 21,
+  "title": "Science and how it argues",
+  "description": "Follow an argument: claim, evidence, objection, answer.",
+  "grammar": "el vocabulario de la ciencia, y la estructura de una discusión",
+  "grammarNote": "A scientific claim travels with its own evidence: la hipótesis, la muestra, la evidencia.",
+  "explanation": {
+    "summary": "Science in Spanish is a set of named steps: a hypothesis, a method, a sample, a set of results, and a debate about what they mean. The vocabulary is technical on purpose, because precision is what lets an argument survive disagreement.",
+    "sections": [
+      {
+        "heading": "The steps",
+        "body": "una hipótesis is what you propose, and un método is how you test it. la muestra is the part of the world you actually study, and el experimento is the test itself. Lo que se encuentra es la evidencia, and a relationship between two things is una correlación. el término general for the shared way of seeing is un paradigma, and the way a result enters the public record is una publicación.",
+        "examples": [
+          { "es": "La hipótesis se formuló a partir de una muestra pequeña.", "en": "The hypothesis was formulated from a small sample." },
+          { "es": "El experimento se repitió con resultados similares.", "en": "The experiment was repeated with similar results." },
+          { "es": "Una correlación no prueba una causa.", "en": "A correlation does not prove a cause." }
+        ]
+      },
+      {
+        "heading": "The argument",
+        "body": "una teoría is not a guess: it is an explanation that has survived the evidence. The debate around it is healthy, and the word for the attitude that keeps it going is el escepticismo. Un buen científico no lo evita: lo exige. Y la publicación is where the claim becomes public, and there anybody can check it.",
+        "examples": [
+          { "es": "La teoría explica lo observado en la muestra.", "en": "The theory explains what was observed in the sample." },
+          { "es": "El escepticismo es parte del método.", "en": "Scepticism is part of the method." },
+          { "es": "Cada publicación puede ser comprobada por otros.", "en": "Every publication can be checked by others." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "hipótesis", "en": "the hypothesis", "article": "la", "note": "Feminine: la hipótesis. The accent marks the stress.", "tags": ["science"] },
+    { "es": "teoría", "en": "the theory", "article": "la", "note": "Feminine: la teoría. The accent marks the stress.", "tags": ["science"] },
+    { "es": "método", "en": "the method", "article": "el", "note": "Masculine: el método. The accent marks the stress.", "tags": ["science"] },
+    { "es": "muestra", "en": "the sample", "article": "la", "note": "Feminine: la muestra. It also means the shop window.", "tags": ["science"] },
+    { "es": "experimento", "en": "the experiment", "article": "el", "note": "Masculine: el experimento.", "tags": ["science"] },
+    { "es": "evidencia", "en": "the evidence", "article": "la", "note": "Feminine: la evidencia.", "tags": ["science"] },
+    { "es": "correlación", "en": "the correlation", "article": "la", "note": "Feminine: la correlación. The accent marks the stress.", "tags": ["science"] },
+    { "es": "paradigma", "en": "the paradigm", "article": "el", "note": "Masculine: el paradigma.", "tags": ["science"] },
+    { "es": "escepticismo", "en": "scepticism", "article": "el", "note": "Masculine: el escepticismo.", "tags": ["science"] },
+    { "es": "publicación", "en": "the publication", "article": "la", "note": "Feminine: la publicación. It also means the act of publishing.", "tags": ["science"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ se formuló en 2019.", "answer": "hipótesis", "meaning": "the hypothesis was formulated in 2019", "note": "La hipótesis is feminine." },
+    { "prompt": "El ___ se repitió con resultados similares.", "answer": "experimento", "meaning": "the experiment was repeated with similar results", "note": "El experimento is masculine." },
+    { "prompt": "Una ___ no prueba una causa.", "answer": "correlación", "meaning": "a correlation does not prove a cause", "note": "La correlación is feminine." },
+    { "prompt": "El ___ es parte del buen trabajo.", "answer": "método", "meaning": "the method is part of good work", "note": "El método is masculine." },
+    { "prompt": "Cada ___ puede ser comprobada por otros.", "answer": "publicación", "meaning": "every publication can be checked by others", "note": "La publicación is feminine." }
+  ]
+}

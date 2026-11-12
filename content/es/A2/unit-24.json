@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 24,
+  "title": "At the restaurant",
+  "description": "Read the menu, order, and talk about the bill.",
+  "explanation": {
+    "summary": "A meal at a restaurant has three stages: you read la carta, you make el pedido, and then the food arrives. The future is how you talk about what is about to happen, which is exactly what an order is.",
+    "sections": [
+      {
+        "heading": "Reading the menu",
+        "body": "La carta is the list of food, and it is written in sections: los entrantes, los platos principales, los postres. The prices are next to each dish. A dish can be con verduras, a la plancha or al vapor. The first thing to drink is una bebida, and the waiter brings it in una jarra.",
+        "examples": [
+          {
+            "es": "La carta de hoy tiene tres entrantes y cuatro postres.",
+            "en": "Today's menu has three starters and four desserts."
+          },
+          {
+            "es": "El pescado de hoy va a la plancha.",
+            "en": "Today's fish is grilled."
+          }
+        ]
+      },
+      {
+        "heading": "Ordering",
+        "body": "The order is el pedido, and you make it with the future: voy a pedir la sopa, quiero el pescado, después encargamos el postre. The waiter answers con una pregunta: ¿algo más? The answer is no, gracias. If you want a little time, say una palabra, por favor, and the waiter will come back.",
+        "examples": [
+          {
+            "es": "Voy a pedir la sopa y el pescado.",
+            "en": "I am going to order the soup and the fish."
+          },
+          {
+            "es": "¿Algo más, señor?",
+            "en": "Anything else, sir?"
+          }
+        ]
+      },
+      {
+        "heading": "At the table",
+        "body": "What arrives on the table is el plato, and what comes with it is la guarnición: unas verduras, una salsa, la sal. The last thing is el postre, and you finish with una servilleta on your lap. At the end you ask for la cuenta, you leave la propina and you get el recibo. If you want the bill for the office, ask por la factura.",
+        "examples": [
+          {
+            "es": "El plato llegó con verduras y una salsa de tomate.",
+            "en": "The dish came with vegetables and a tomato sauce."
+          },
+          {
+            "es": "La cuenta, por favor. ¿Puedo pagar con tarjeta?",
+            "en": "The bill, please. Can I pay by card?"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u24/match/carta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the menu",
+          "right": "la carta"
+        },
+        {
+          "left": "the order",
+          "right": "el pedido"
+        },
+        {
+          "left": "the starter",
+          "right": "el entrante"
+        },
+        {
+          "left": "the soup",
+          "right": "la sopa"
+        },
+        {
+          "left": "the sauce",
+          "right": "la salsa"
+        }
+      ],
+      "note": "Say what is coming with the future: voy a pedir la sopa, después tomaremos el postre."
+    },
+    {
+      "id": "es/a2/u24/select/carta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the menu”.",
+      "options": [
+        "la salsa",
+        "la servilleta",
+        "la verdura",
+        "la carta"
+      ],
+      "answer": "la carta",
+      "translation": "the menu",
+      "note": "Feminine: la carta. In Spain the list of food is la carta."
+    },
+    {
+      "id": "es/a2/u24/listen/pedido",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el pedido",
+      "options": [
+        "el resumen",
+        "el reportaje",
+        "la sección",
+        "el pedido"
+      ],
+      "audio": {
+        "text": "pedido",
+        "lang": "es",
+        "file": "/audio/es/pedido-008b4a44.mp3"
+      },
+      "translation": "the order",
+      "note": "Masculine: el pedido. Everything you ask for at the table."
+    },
+    {
+      "id": "es/a2/u24/drill/1",
+      "type": "type_in",
+      "prompt": "Voy a ___ el postre.",
+      "answer": "encargar",
+      "acceptedAnswers": [
+        "encargar"
+      ],
+      "translation": "I am going to order the dessert",
+      "note": "Encargar means to place an order."
+    },
+    {
+      "id": "es/a2/u24/match/verdura",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the vegetable",
+          "right": "la verdura"
+        },
+        {
+          "left": "the napkin",
+          "right": "la servilleta"
+        },
+        {
+          "left": "the jug",
+          "right": "la jarra"
+        },
+        {
+          "left": "the bar",
+          "right": "la barra"
+        },
+        {
+          "left": "to bring",
+          "right": "traer"
+        }
+      ],
+      "note": "Say what is coming with the future: voy a pedir la sopa, después tomaremos el postre."
+    },
+    {
+      "id": "es/a2/u24/select/entrante",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the starter”.",
+      "options": [
+        "la avería",
+        "el techo",
+        "la tubería",
+        "el entrante"
+      ],
+      "answer": "el entrante",
+      "translation": "the starter",
+      "note": "Masculine: el entrante. The first small dish of the meal."
+    },
+    {
+      "id": "es/a2/u24/drill/2",
+      "type": "type_in",
+      "prompt": "Dejé una ___ de dos euros.",
+      "answer": "propina",
+      "acceptedAnswers": [
+        "propina"
+      ],
+      "translation": "I left a two-euro tip",
+      "note": "La propina is the tip."
+    },
+    {
+      "id": "es/a2/u24/drill/3",
+      "type": "type_in",
+      "prompt": "El camarero ___ la sopa.",
+      "answer": "trae",
+      "acceptedAnswers": [
+        "trae"
+      ],
+      "translation": "the waiter brings the soup",
+      "note": "Traer in the present is trae."
+    },
+    {
+      "id": "es/a2/u24/drill/4",
+      "type": "type_in",
+      "prompt": "Como entrante, quiero la ___.",
+      "answer": "sopa",
+      "acceptedAnswers": [
+        "sopa"
+      ],
+      "translation": "as a starter, I want the soup",
+      "note": "La sopa is the soup."
+    },
+    {
+      "id": "es/a2/u24/drill/5",
+      "type": "type_in",
+      "prompt": "___ una mesa para dos.",
+      "answer": "He reservado",
+      "acceptedAnswers": [
+        "He reservado"
+      ],
+      "translation": "I have booked a table for two",
+      "note": "The perfect for a booking that is already made."
+    }
+  ]
+}

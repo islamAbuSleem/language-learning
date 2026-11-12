@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 20,
+  "title": "History and how it is told",
+  "description": "Tell the same event two ways, and say why they differ.",
+  "explanation": {
+    "summary": "History in Spanish is not one story but a set of accounts, and the words for those accounts are the point of this unit. la fuente is where a claim comes from, la memoria is what is kept of it, and la perspectiva decides what is inside the frame and what is left out of it.",
+    "sections": [
+      {
+        "heading": "Where the account comes from",
+        "body": "una fuente is anything you can check: un archivo, un documento, un testimonio. la crónica is the written telling of a period, and una época is the period itself; la historia se mide en siglos. Cuando dos fuentes no coinciden, el asunto no se resuelve: se explica. Lo que se conserva de todo eso es la memoria, y lo que se transmite a las siguientes generaciones es la herencia.",
+        "examples": [
+          {
+            "es": "El archivo conserva cartas de aquel siglo.",
+            "en": "The archive preserves letters from that century."
+          },
+          {
+            "es": "El testimonio contradice la crónica oficial.",
+            "en": "The testimony contradicts the official chronicle."
+          },
+          {
+            "es": "Cada época cuenta la historia desde su memoria.",
+            "en": "Each period tells the story from its own memory."
+          }
+        ]
+      },
+      {
+        "heading": "Two accounts of the same thing",
+        "body": "la perspectiva is the position from which a story is told, and no eyewitness has a neutral one. Un imperio looks different from inside the capital of the empire, and una conquista is a conquest for one side and a disaster for the other. The words of history do not hide this: la memoria de un pueblo and la memoria de otro rarely say the same thing.",
+        "examples": [
+          {
+            "es": "Un imperio no se ve igual desde dentro.",
+            "en": "An empire is not seen the same way from the inside."
+          },
+          {
+            "es": "Para unos fue una conquista y para otros una catástrofe.",
+            "en": "For some it was a conquest and for others a catastrophe."
+          },
+          {
+            "es": "La herencia de aquel tiempo sigue viva.",
+            "en": "The legacy of that time is still alive."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u20/match/epoca",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the period, the era",
+          "right": "la época"
+        },
+        {
+          "left": "the century",
+          "right": "el siglo"
+        },
+        {
+          "left": "the source",
+          "right": "la fuente"
+        },
+        {
+          "left": "the archive",
+          "right": "el archivo"
+        },
+        {
+          "left": "the testimony",
+          "right": "el testimonio"
+        }
+      ],
+      "note": "A source is a noun (la fuente) and a telling is another noun (la crónica): the same past, described from different places."
+    },
+    {
+      "id": "es/b2/u20/select/epoca",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the period, the era”.",
+      "options": [
+        "el imperio",
+        "la perspectiva",
+        "la época",
+        "la herencia"
+      ],
+      "answer": "la época",
+      "translation": "the period, the era",
+      "note": "Feminine: la época. The accent marks the stress."
+    },
+    {
+      "id": "es/b2/u20/listen/siglo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el siglo",
+      "options": [
+        "la herencia",
+        "el imperio",
+        "la perspectiva",
+        "el siglo"
+      ],
+      "audio": {
+        "text": "siglo",
+        "lang": "es",
+        "file": "/audio/es/siglo-08db4934.mp3"
+      },
+      "translation": "the century",
+      "note": "Masculine: el siglo."
+    },
+    {
+      "id": "es/b2/u20/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ conserva cartas antiguas.",
+      "answer": "archivo",
+      "acceptedAnswers": [
+        "archivo"
+      ],
+      "translation": "the archive preserves old letters",
+      "note": "El archivo is masculine."
+    },
+    {
+      "id": "es/b2/u20/match/cronica",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the chronicle",
+          "right": "la crónica"
+        },
+        {
+          "left": "memory",
+          "right": "la memoria"
+        },
+        {
+          "left": "the legacy",
+          "right": "la herencia"
+        },
+        {
+          "left": "the empire",
+          "right": "el imperio"
+        },
+        {
+          "left": "the perspective",
+          "right": "la perspectiva"
+        }
+      ],
+      "note": "A source is a noun (la fuente) and a telling is another noun (la crónica): the same past, described from different places."
+    },
+    {
+      "id": "es/b2/u20/select/fuente",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the source”.",
+      "options": [
+        "el archivo",
+        "el testimonio",
+        "la crónica",
+        "la fuente"
+      ],
+      "answer": "la fuente",
+      "translation": "the source",
+      "note": "Feminine: la fuente. It also means the tap."
+    },
+    {
+      "id": "es/b2/u20/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ contradice la crónica oficial.",
+      "answer": "testimonio",
+      "acceptedAnswers": [
+        "testimonio"
+      ],
+      "translation": "the testimony contradicts the official chronicle",
+      "note": "El testimonio is masculine."
+    },
+    {
+      "id": "es/b2/u20/drill/3",
+      "type": "type_in",
+      "prompt": "La ___ no es neutral.",
+      "answer": "perspectiva",
+      "acceptedAnswers": [
+        "perspectiva"
+      ],
+      "translation": "the perspective is not neutral",
+      "note": "La perspectiva is feminine."
+    },
+    {
+      "id": "es/b2/u20/drill/4",
+      "type": "type_in",
+      "prompt": "La ___ de aquel tiempo sigue viva.",
+      "answer": "herencia",
+      "acceptedAnswers": [
+        "herencia"
+      ],
+      "translation": "the legacy of that time is still alive",
+      "note": "La herencia is feminine."
+    },
+    {
+      "id": "es/b2/u20/drill/5",
+      "type": "type_in",
+      "prompt": "La historia se cuenta por ___.",
+      "answer": "siglos",
+      "acceptedAnswers": [
+        "siglos"
+      ],
+      "translation": "history is told in centuries",
+      "note": "El siglo is masculine, and here it is plural."
+    }
+  ]
+}

@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would speak”.",
       "options": [
-        "dormir",
-        "preferir",
-        "seguir",
+        "estudiar",
+        "cocinar",
+        "caminar",
         "hablaría"
       ],
       "answer": "hablaría",
@@ -112,9 +112,9 @@
       "prompt": "What did you hear?",
       "answer": "comería",
       "options": [
-        "estar",
-        "planchar",
-        "barrer",
+        "hemos abierto",
+        "mezclar",
+        "hervir",
         "comería"
       ],
       "audio": {
@@ -169,9 +169,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would live”.",
       "options": [
-        "he hecho",
-        "he dicho",
-        "he visto",
+        "afeitarse",
+        "cepillarse",
+        "acostarse",
         "viviría"
       ],
       "answer": "viviría",

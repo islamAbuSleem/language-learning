@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 29,
+  "title": "Books and reading",
+  "description": "Name the parts of a novel and tell its story.",
+  "explanation": {
+    "summary": "A novel is made of named parts: la portada, el prólogo, los capítulos, el final. Once you can name them, you can talk about what happens in the book, because a story is told with the preterite.",
+    "sections": [
+      {
+        "heading": "The parts of a book",
+        "body": "La portada is the cover you see in a shop, and el prólogo comes before the first chapter. Then there are los capítulos, and at the end el final. El índice lists the chapters at the front, and el argumento is the story that holds them together. La librería is the shop where you buy them, and la biblioteca is the place where you keep them.",
+        "examples": [
+          {
+            "es": "El índice de la novela ocupa cuatro páginas.",
+            "en": "The index of the novel takes four pages."
+          },
+          {
+            "es": "El final fue una sorpresa.",
+            "en": "The ending was a surprise."
+          }
+        ]
+      },
+      {
+        "heading": "The people in the story",
+        "body": "El protagonista is the one the story follows, and there are other people around him. El lector is you, the person holding the book. El autor wrote it, and la reseña is what a critic writes about it: a short summary and an opinion, usually in one column of a newspaper.",
+        "examples": [
+          {
+            "es": "El protagonista es un panadero de un pueblo pequeño.",
+            "en": "The main character is a baker from a small town."
+          },
+          {
+            "es": "La reseña dice que la novela merece el premio.",
+            "en": "The review says that the novel deserves the prize."
+          }
+        ]
+      },
+      {
+        "heading": "Telling the story",
+        "body": "When you tell somebody what happens in a book, use the preterite: el protagonista escribió una carta, la leyó y decidió partir. El capítulo termina con una pregunta y el siguiente empieza con la respuesta. When you only want the idea of the book, you give el resumen, and el lector se hace una idea sin leer las trescientas páginas.",
+        "examples": [
+          {
+            "es": "El protagonista abrió la carta y no dijo nada.",
+            "en": "The main character opened the letter and said nothing."
+          },
+          {
+            "es": "Leí el último capítulo en una sola tarde.",
+            "en": "I read the last chapter in a single afternoon."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u29/match/novela",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the novel",
+          "right": "la novela"
+        },
+        {
+          "left": "the chapter",
+          "right": "el capítulo"
+        },
+        {
+          "left": "the main character",
+          "right": "el protagonista"
+        },
+        {
+          "left": "the plot",
+          "right": "el argumento"
+        },
+        {
+          "left": "the ending",
+          "right": "el final"
+        }
+      ],
+      "note": "Tell the story of a book in the preterite: el protagonista llegó a la ciudad y abrió la carta."
+    },
+    {
+      "id": "es/a2/u29/select/novela",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the novel”.",
+      "options": [
+        "la tormenta",
+        "el chubasco",
+        "la temperatura",
+        "la novela"
+      ],
+      "answer": "la novela",
+      "translation": "the novel",
+      "note": "Feminine: la novela. A long story in book form."
+    },
+    {
+      "id": "es/a2/u29/listen/capitulo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el capítulo",
+      "options": [
+        "el capítulo",
+        "la cremallera",
+        "el cuello",
+        "la manga"
+      ],
+      "audio": {
+        "text": "capítulo",
+        "lang": "es",
+        "file": "/audio/es/capitulo-dcdd3fd0.mp3"
+      },
+      "translation": "the chapter",
+      "note": "Masculine: el capítulo. One of the parts of a book."
+    },
+    {
+      "id": "es/a2/u29/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ llegó a la ciudad.",
+      "answer": "protagonista",
+      "acceptedAnswers": [
+        "protagonista"
+      ],
+      "translation": "the main character arrived in the city",
+      "note": "El protagonista is the main character."
+    },
+    {
+      "id": "es/a2/u29/match/prologo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the prologue",
+          "right": "el prólogo"
+        },
+        {
+          "left": "the reader",
+          "right": "el lector"
+        },
+        {
+          "left": "the review",
+          "right": "la reseña"
+        },
+        {
+          "left": "the bookshop",
+          "right": "la librería"
+        },
+        {
+          "left": "the index",
+          "right": "el índice"
+        }
+      ],
+      "note": "Tell the story of a book in the preterite: el protagonista llegó a la ciudad y abrió la carta."
+    },
+    {
+      "id": "es/a2/u29/select/protagonista",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the main character”.",
+      "options": [
+        "la página",
+        "el título",
+        "el autor",
+        "el protagonista"
+      ],
+      "answer": "el protagonista",
+      "translation": "the main character",
+      "note": "Masculine: el protagonista. The character the story follows. The feminine is la protagonista."
+    },
+    {
+      "id": "es/a2/u29/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ tiene ocho capítulos.",
+      "answer": "novela",
+      "acceptedAnswers": [
+        "novela"
+      ],
+      "translation": "the novel has eight chapters",
+      "note": "La novela is the novel."
+    },
+    {
+      "id": "es/a2/u29/drill/3",
+      "type": "type_in",
+      "prompt": "___ prólogo cuenta quién escribió el libro.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the prologue tells you who wrote the book",
+      "note": "El prólogo comes before the first chapter."
+    },
+    {
+      "id": "es/a2/u29/drill/4",
+      "type": "type_in",
+      "prompt": "Leí la última ___ del libro.",
+      "answer": "página",
+      "acceptedAnswers": [
+        "pagina"
+      ],
+      "translation": "I read the last page of the book",
+      "note": "La página is the page."
+    },
+    {
+      "id": "es/a2/u29/drill/5",
+      "type": "type_in",
+      "prompt": "El ___ fue triste.",
+      "answer": "final",
+      "acceptedAnswers": [
+        "final"
+      ],
+      "translation": "the ending was sad",
+      "note": "El final is the ending."
+    }
+  ]
+}

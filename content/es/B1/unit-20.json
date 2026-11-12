@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 20,
+  "title": "Travel plans",
+  "description": "Plan a trip and say what it will be like.",
+  "explanation": {
+    "summary": "A trip is a plan, and a plan is a list of bookings with times on them. This unit gives you the words for that list and the future tense you need to talk about what a trip will be like.",
+    "sections": [
+      {
+        "heading": "The plan",
+        "body": "El itinerario is the whole plan, written out in order, with a day for each part of the trip. El alojamiento is where you will sleep, and you reserve it before you go: he reservado el alojamiento para tres noches. El viaje empieza en un sitio y acaba en otro.",
+        "examples": [
+          {
+            "es": "El itinerario tiene siete días.",
+            "en": "The itinerary has seven days."
+          },
+          {
+            "es": "He reservado el alojamiento para tres noches.",
+            "en": "I have booked the accommodation for three nights."
+          },
+          {
+            "es": "El viaje empieza en el norte y baja hasta el sur.",
+            "en": "The trip starts in the north and goes down to the south."
+          }
+        ]
+      },
+      {
+        "heading": "Getting there and back",
+        "body": "Un retraso is a delay, and la escala is a stop on the way: el vuelo hace una escala en Valencia. El avión despega por la mañana y aterriza por la tarde. Aterrizar and despegar are regular verbs, and they are a pair you will use together.",
+        "examples": [
+          {
+            "es": "El vuelo tiene un retraso de una hora.",
+            "en": "The flight has a one-hour delay."
+          },
+          {
+            "es": "Hacemos una escala en Valencia.",
+            "en": "We have a stopover in Valencia."
+          },
+          {
+            "es": "El avión aterrizó con veinte minutos de retraso.",
+            "en": "The plane landed twenty minutes late."
+          }
+        ]
+      },
+      {
+        "heading": "On the trip",
+        "body": "El visado is the permission to enter a country, and el pasajero is the person travelling. Una excursión is a day out that you book in advance. All four are words you will read on a ticket, a form or a screen.",
+        "examples": [
+          {
+            "es": "Necesito el visado para entrar.",
+            "en": "I need the visa to enter."
+          },
+          {
+            "es": "El pasajero de al lado dormía todo el viaje.",
+            "en": "The passenger next to me slept the whole trip."
+          },
+          {
+            "es": "He reservado la excursión del sábado.",
+            "en": "I have booked Saturday's excursion."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u20/match/itinerario",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the itinerary",
+          "right": "el itinerario"
+        },
+        {
+          "left": "the accommodation",
+          "right": "el alojamiento"
+        },
+        {
+          "left": "to book",
+          "right": "reservar"
+        },
+        {
+          "left": "the stopover",
+          "right": "la escala"
+        },
+        {
+          "left": "the delay",
+          "right": "el retraso"
+        }
+      ],
+      "note": "The future says what will happen: reservaré el alojamiento, el avión despegará a las ocho."
+    },
+    {
+      "id": "es/b1/u20/select/itinerario",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the itinerary”.",
+      "options": [
+        "el andén",
+        "el viaje",
+        "el itinerario",
+        "el conductor"
+      ],
+      "answer": "el itinerario",
+      "translation": "the itinerary",
+      "note": "Masculine: el itinerario."
+    },
+    {
+      "id": "es/b1/u20/listen/alojamiento",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el alojamiento",
+      "options": [
+        "el conductor",
+        "el andén",
+        "el viaje",
+        "el alojamiento"
+      ],
+      "audio": {
+        "text": "alojamiento",
+        "lang": "es",
+        "file": "/audio/es/alojamiento-4911e8d0.mp3"
+      },
+      "translation": "the accommodation",
+      "note": "Masculine: el alojamiento."
+    },
+    {
+      "id": "es/b1/u20/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ dice qué hacemos cada día.",
+      "answer": "itinerario",
+      "acceptedAnswers": [
+        "itinerario"
+      ],
+      "translation": "the itinerary says what we do each day",
+      "note": "Itinerario is masculine: el itinerario."
+    },
+    {
+      "id": "es/b1/u20/match/aterrizar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to land",
+          "right": "aterrizar"
+        },
+        {
+          "left": "to take off",
+          "right": "despegar"
+        },
+        {
+          "left": "the excursion",
+          "right": "la excursión"
+        },
+        {
+          "left": "the visa",
+          "right": "el visado"
+        },
+        {
+          "left": "the passenger",
+          "right": "el pasajero"
+        }
+      ],
+      "note": "The future says what will happen: reservaré el alojamiento, el avión despegará a las ocho."
+    },
+    {
+      "id": "es/b1/u20/select/reservar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to book”.",
+      "options": [
+        "entrar",
+        "salir",
+        "ducharse",
+        "reservar"
+      ],
+      "answer": "reservar",
+      "translation": "to book",
+      "note": "The verb reservar: reservo, reservas, reserva."
+    },
+    {
+      "id": "es/b1/u20/drill/2",
+      "type": "type_in",
+      "prompt": "He ___ el alojamiento con tres semanas de antelación.",
+      "answer": "reservado",
+      "acceptedAnswers": [
+        "reservado"
+      ],
+      "translation": "I have booked the accommodation three weeks in advance",
+      "note": "The present perfect of reservar: he reservado."
+    },
+    {
+      "id": "es/b1/u20/drill/3",
+      "type": "type_in",
+      "prompt": "El vuelo de mañana tiene un ___ de dos horas.",
+      "answer": "retraso",
+      "acceptedAnswers": [
+        "retraso"
+      ],
+      "translation": "tomorrow's flight has a two-hour delay",
+      "note": "Retraso is masculine: el retraso."
+    },
+    {
+      "id": "es/b1/u20/drill/4",
+      "type": "type_in",
+      "prompt": "El avión ___ hace un rato.",
+      "answer": "aterrizó",
+      "acceptedAnswers": [
+        "aterrizo"
+      ],
+      "translation": "the plane landed a while ago",
+      "note": "The preterite of aterrizar: aterrizó."
+    },
+    {
+      "id": "es/b1/u20/drill/5",
+      "type": "type_in",
+      "prompt": "Necesito el ___ para entrar en el país.",
+      "answer": "visado",
+      "acceptedAnswers": [
+        "visado"
+      ],
+      "translation": "I need the visa to enter the country",
+      "note": "Visado is masculine: el visado."
+    }
+  ]
+}

@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I spoke”.",
       "options": [
-        "dice",
-        "preguntó",
-        "cuenta",
+        "mentir",
+        "cerrar",
+        "despertar",
         "hablara"
       ],
       "answer": "hablara",
@@ -94,9 +94,9 @@
       "prompt": "What did you hear?",
       "answer": "comiera",
       "options": [
-        "venir",
-        "volver",
-        "ir",
+        "reservar",
+        "aterrizar",
+        "pelar",
         "comiera"
       ],
       "audio": {
@@ -151,9 +151,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I lived”.",
       "options": [
-        "quisiera",
-        "ser",
-        "llegar",
+        "recoger",
+        "traer",
+        "publicar",
         "viviera"
       ],
       "answer": "viviera",

@@ -1,0 +1,208 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 19,
+  "title": "Politics and public life",
+  "description": "Say how a country decides, and say it without caricature.",
+  "explanation": {
+    "summary": "Public life in Spanish has its own precise nouns: who votes, who stands, what is decided and by which body. The subject is easy to get wrong in the details, so the language matters. These words let you describe a process without turning the description into an argument about it.",
+    "sections": [
+      {
+        "heading": "Who and what",
+        "body": "el electorado is the body of people who vote, and el voto is the act and the paper that carries it. Quien se presenta es el candidato, and el partido is the group behind him. Todo esto ocurre en unas elecciones, and when the question is too big for a parliament, se convoca un referéndum. Each noun names one step of the process, and no two of them can do each other's job.",
+        "examples": [
+          {
+            "es": "El electorado votó por primera vez en tres décadas.",
+            "en": "The electorate voted for the first time in three decades."
+          },
+          {
+            "es": "El partido publicó su programa la semana pasada.",
+            "en": "The party published its programme last week."
+          },
+          {
+            "es": "El referéndum se celebrará en primavera.",
+            "en": "The referendum will be held in spring."
+          }
+        ]
+      },
+      {
+        "heading": "The bodies and the decisions",
+        "body": "el parlamento es la cámara que aprueba las leyes, and una legislatura is the time that a mandate lasts. la constitución es el texto que está por encima de todo lo demás, and el impuesto is the way the state pays for what it does. Una decisión no se queda en el papel: se explica, se discute y se vota otra vez en la comisión.",
+        "examples": [
+          {
+            "es": "El parlamento aprobó la ley por mayoría.",
+            "en": "The parliament passed the law by a majority."
+          },
+          {
+            "es": "La legislatura dura cuatro años.",
+            "en": "The term of office lasts four years."
+          },
+          {
+            "es": "El impuesto subió un dos por ciento este año.",
+            "en": "The tax went up by two per cent this year."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u19/match/elecciones",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the elections",
+          "right": "la elecciones"
+        },
+        {
+          "left": "the electorate",
+          "right": "el electorado"
+        },
+        {
+          "left": "the vote",
+          "right": "el voto"
+        },
+        {
+          "left": "the candidate",
+          "right": "el candidato"
+        },
+        {
+          "left": "the party",
+          "right": "el partido"
+        }
+      ],
+      "note": "Public life has nouns for the actors (el partido, el electorado) and nouns for the acts (las elecciones, el referéndum)."
+    },
+    {
+      "id": "es/b2/u19/select/elecciones",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the elections”.",
+      "options": [
+        "el referéndum",
+        "la constitución",
+        "el impuesto",
+        "la elecciones"
+      ],
+      "answer": "la elecciones",
+      "translation": "the elections",
+      "note": "Feminine plural: las elecciones."
+    },
+    {
+      "id": "es/b2/u19/listen/electorado",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el electorado",
+      "options": [
+        "el voto",
+        "el partido",
+        "el candidato",
+        "el electorado"
+      ],
+      "audio": {
+        "text": "electorado",
+        "lang": "es",
+        "file": "/audio/es/electorado-c8773888.mp3"
+      },
+      "translation": "the electorate",
+      "note": "Masculine: el electorado."
+    },
+    {
+      "id": "es/b2/u19/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ votó por primera vez en tres décadas.",
+      "answer": "electorado",
+      "acceptedAnswers": [
+        "electorado"
+      ],
+      "translation": "the electorate voted for the first time in three decades",
+      "note": "El electorado is masculine."
+    },
+    {
+      "id": "es/b2/u19/match/parlamento",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the parliament",
+          "right": "el parlamento"
+        },
+        {
+          "left": "the term of office, the legislature",
+          "right": "la legislatura"
+        },
+        {
+          "left": "the referendum",
+          "right": "el referéndum"
+        },
+        {
+          "left": "the constitution",
+          "right": "la constitución"
+        },
+        {
+          "left": "the tax",
+          "right": "el impuesto"
+        }
+      ],
+      "note": "Public life has nouns for the actors (el partido, el electorado) and nouns for the acts (las elecciones, el referéndum)."
+    },
+    {
+      "id": "es/b2/u19/select/voto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the vote”.",
+      "options": [
+        "el candidato",
+        "el partido",
+        "el electorado",
+        "el voto"
+      ],
+      "answer": "el voto",
+      "translation": "the vote",
+      "note": "Masculine: el voto. It also means the vow."
+    },
+    {
+      "id": "es/b2/u19/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ dura cuatro años.",
+      "answer": "legislatura",
+      "acceptedAnswers": [
+        "legislatura"
+      ],
+      "translation": "the term of office lasts four years",
+      "note": "La legislatura is feminine."
+    },
+    {
+      "id": "es/b2/u19/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ se celebrará en primavera.",
+      "answer": "referéndum",
+      "acceptedAnswers": [
+        "referendum"
+      ],
+      "translation": "the referendum will be held in spring",
+      "note": "El referéndum is masculine."
+    },
+    {
+      "id": "es/b2/u19/drill/4",
+      "type": "type_in",
+      "prompt": "La ___ recoge los derechos y los deberes.",
+      "answer": "constitución",
+      "acceptedAnswers": [
+        "constitucion"
+      ],
+      "translation": "the constitution sets out the rights and the duties",
+      "note": "La constitución is feminine."
+    },
+    {
+      "id": "es/b2/u19/drill/5",
+      "type": "type_in",
+      "prompt": "El ___ subió un dos por ciento este año.",
+      "answer": "impuesto",
+      "acceptedAnswers": [
+        "impuesto"
+      ],
+      "translation": "the tax went up by two per cent this year",
+      "note": "El impuesto is masculine."
+    }
+  ]
+}

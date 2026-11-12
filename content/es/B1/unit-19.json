@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 19,
+  "title": "Food and how it is made",
+  "description": "Follow a dish from the market stall to the table.",
+  "explanation": {
+    "summary": "A dish has a history: what it is made of, who made it and how it was cooked. This unit follows a meal from the stall where you buy it to the plate, and gives you the verbs and the nouns of that process.",
+    "sections": [
+      {
+        "heading": "What it is made of",
+        "body": "La masa is the dough of bread or pastry, and la cazuela is the pot it cooks in. At the market, cada puesto sells a few things. El aliño is what you pour over a dish, and una pizca is the smallest amount of anything: una pizca de sal.",
+        "examples": [
+          {
+            "es": "Compré la masa en el puesto de la esquina.",
+            "en": "I bought the dough at the stall on the corner."
+          },
+          {
+            "es": "Echa una pizca de sal a la cazuela.",
+            "en": "Throw a pinch of salt into the pot."
+          },
+          {
+            "es": "El aliño lleva aceite y limón.",
+            "en": "The dressing is made with oil and lemon."
+          }
+        ]
+      },
+      {
+        "heading": "The verbs of cooking",
+        "body": "Asar is to roast, hornear is to bake, and pelar is to peel. These verbs take a direct object: asa el pollo, hornea el pan, pela las patatas. All three keep the -ar ending in every form.",
+        "examples": [
+          {
+            "es": "Asa el pollo hasta que esté dorado.",
+            "en": "Roast the chicken until it is golden."
+          },
+          {
+            "es": "Horneo el pan cada mañana.",
+            "en": "I bake bread every morning."
+          },
+          {
+            "es": "Pela las patatas antes de cocerlas.",
+            "en": "Peel the potatoes before boiling them."
+          }
+        ]
+      },
+      {
+        "heading": "The taste at the end",
+        "body": "La marinada is the liquid a piece of food sits in before it is cooked, and la textura is how the food feels in the mouth. A dish can be ligero or pesado, and those two words tell you how much you will enjoy it.",
+        "examples": [
+          {
+            "es": "Dejé el pollo en la marinada toda la noche.",
+            "en": "I left the chicken in the marinade all night."
+          },
+          {
+            "es": "La textura del arroz es muy suave.",
+            "en": "The texture of the rice is very soft."
+          },
+          {
+            "es": "Este plato es más pesado de lo que parece.",
+            "en": "This dish is heavier than it seems."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u19/match/puesto",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the stall",
+          "right": "el puesto"
+        },
+        {
+          "left": "the dough",
+          "right": "la masa"
+        },
+        {
+          "left": "the casserole pot",
+          "right": "la cazuela"
+        },
+        {
+          "left": "the dressing",
+          "right": "el aliño"
+        },
+        {
+          "left": "the pinch",
+          "right": "la pizca"
+        }
+      ],
+      "note": "Most cooking verbs are regular: asar, hornear, pelar. They take the food as a direct object."
+    },
+    {
+      "id": "es/b1/u19/select/puesto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the stall”.",
+      "options": [
+        "la zanahoria",
+        "el calabacín",
+        "el pimiento",
+        "el puesto"
+      ],
+      "answer": "el puesto",
+      "translation": "the stall",
+      "note": "Masculine: el puesto. It is a stall at a market."
+    },
+    {
+      "id": "es/b1/u19/listen/masa",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la masa",
+      "options": [
+        "la comida",
+        "saborear",
+        "el restaurante",
+        "la masa"
+      ],
+      "audio": {
+        "text": "masa",
+        "lang": "es",
+        "file": "/audio/es/masa-ed774edc.mp3"
+      },
+      "translation": "the dough",
+      "note": "Feminine: la masa."
+    },
+    {
+      "id": "es/b1/u19/drill/1",
+      "type": "type_in",
+      "prompt": "Echa una ___ de sal a la sopa.",
+      "answer": "pizca",
+      "acceptedAnswers": [
+        "pizca"
+      ],
+      "translation": "throw a pinch of salt into the soup",
+      "note": "Pizca is feminine: una pizca."
+    },
+    {
+      "id": "es/b1/u19/match/asar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to roast",
+          "right": "asar"
+        },
+        {
+          "left": "to bake",
+          "right": "hornear"
+        },
+        {
+          "left": "to peel",
+          "right": "pelar"
+        },
+        {
+          "left": "the marinade",
+          "right": "la marinada"
+        },
+        {
+          "left": "the texture",
+          "right": "la textura"
+        }
+      ],
+      "note": "Most cooking verbs are regular: asar, hornear, pelar. They take the food as a direct object."
+    },
+    {
+      "id": "es/b1/u19/select/cazuela",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the casserole pot”.",
+      "options": [
+        "la prensa",
+        "la sección",
+        "la entrevista",
+        "la cazuela"
+      ],
+      "answer": "la cazuela",
+      "translation": "the casserole pot",
+      "note": "Feminine: la cazuela. The deep pot a stew cooks in."
+    },
+    {
+      "id": "es/b1/u19/drill/2",
+      "type": "type_in",
+      "prompt": "El pollo se hace en la ___.",
+      "answer": "cazuela",
+      "acceptedAnswers": [
+        "cazuela"
+      ],
+      "translation": "the chicken is cooked in the casserole pot",
+      "note": "Cazuela is feminine: la cazuela."
+    },
+    {
+      "id": "es/b1/u19/drill/3",
+      "type": "type_in",
+      "prompt": "La ensalada lleva un ___ de aceite.",
+      "answer": "aliño",
+      "acceptedAnswers": [
+        "alino"
+      ],
+      "translation": "the salad has an oil dressing on it",
+      "note": "Aliño is masculine: un aliño."
+    },
+    {
+      "id": "es/b1/u19/drill/4",
+      "type": "type_in",
+      "prompt": "Vamos a ___ el pan en el horno.",
+      "answer": "hornear",
+      "acceptedAnswers": [
+        "hornear"
+      ],
+      "translation": "we are going to bake the bread in the oven",
+      "note": "Hornear: horneo, horneas, hornea."
+    },
+    {
+      "id": "es/b1/u19/drill/5",
+      "type": "type_in",
+      "prompt": "Dejamos el pollo en la ___ toda la noche.",
+      "answer": "marinada",
+      "acceptedAnswers": [
+        "marinada"
+      ],
+      "translation": "we left the chicken in the marinade all night",
+      "note": "Marinada is feminine: la marinada."
+    }
+  ]
+}

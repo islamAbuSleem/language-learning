@@ -1,0 +1,49 @@
+{
+  "unit": 16,
+  "title": "Technology and how it changes things",
+  "description": "Say what a tool does to a habit, not only what the tool is.",
+  "grammar": "el lenguaje de la tecnología, y el efecto sobre la conducta",
+  "grammarNote": "A tool is a noun and its effect is another noun: la aplicación, la automatización, el hábito.",
+  "explanation": {
+    "summary": "Technology Spanish borrows a lot from English, but the grammar of cause and effect stays Spanish. You name the device, you name the process it replaces, and you name the habit that changes as a result. That structure lets you argue about what a tool does, which is the point of this unit.",
+    "sections": [
+      {
+        "heading": "The parts",
+        "body": "un dispositivo is any piece of hardware, la aplicación is the software on it, and la interfaz is the part you touch. The rules that decide what you see are un algoritmo, and the way everything is joined together is la conectividad. Where that connectivity does not reach you there is la brecha digital, and the whole field of new ways of doing things is la innovación.",
+        "examples": [
+          { "es": "La aplicación se actualiza cada mes.", "en": "The app updates every month." },
+          { "es": "El algoritmo decide qué noticias ves.", "en": "The algorithm decides which news you see." },
+          { "es": "La brecha digital se nota en las zonas rurales.", "en": "The digital divide is visible in rural areas." }
+        ]
+      },
+      {
+        "heading": "What it does to the person",
+        "body": "la automatización is the process of doing the work without people, and it is where the argument usually starts. The cost of a tool is often la privacidad, because the device knows more about you than you would like. Y al final lo que se altera es un hábito: la manera de trabajar, de estudiar o de descansar. El nombre del hábito nuevo es la palabra que hay que usar para decir lo que la pantalla ha hecho con nosotros.",
+        "examples": [
+          { "es": "La automatización de las tiendas ha reducido el empleo.", "en": "The automation of shops has reduced employment." },
+          { "es": "El coste es la privacidad.", "en": "The cost is privacy." },
+          { "es": "El móvil cambió su hábito de lectura.", "en": "The phone changed his reading habit." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "dispositivo", "en": "the device", "article": "el", "note": "Masculine: el dispositivo. It means any piece of hardware.", "tags": ["technology"] },
+    { "es": "aplicación", "en": "the app, the application", "article": "la", "note": "Feminine: la aplicación.", "tags": ["technology"] },
+    { "es": "algoritmo", "en": "the algorithm", "article": "el", "note": "Masculine: el algoritmo.", "tags": ["technology"] },
+    { "es": "interfaz", "en": "the interface", "article": "la", "note": "Feminine: la interfaz.", "tags": ["technology"] },
+    { "es": "automatización", "en": "automation", "article": "la", "note": "Feminine: la automatización. From automatizar.", "tags": ["technology"] },
+    { "es": "privacidad", "en": "privacy", "article": "la", "note": "Feminine: la privacidad.", "tags": ["technology"] },
+    { "es": "innovación", "en": "innovation", "article": "la", "note": "Feminine: la innovación. The accent marks the stress.", "tags": ["technology"] },
+    { "es": "brecha digital", "en": "the digital divide", "article": "la", "note": "Feminine: la brecha digital.", "tags": ["technology"] },
+    { "es": "conectividad", "en": "connectivity", "article": "la", "note": "Feminine: la conectividad.", "tags": ["technology"] },
+    { "es": "hábito", "en": "the habit", "article": "el", "note": "Masculine: el hábito. The accent marks the stress.", "tags": ["technology"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ se actualiza cada mes.", "answer": "aplicación", "meaning": "the app updates every month", "note": "La aplicación is feminine." },
+    { "prompt": "El ___ decide qué noticias ves.", "answer": "algoritmo", "meaning": "the algorithm decides which news you see", "note": "El algoritmo is masculine." },
+    { "prompt": "Hay una ___ enorme entre el campo y la ciudad.", "answer": "brecha digital", "meaning": "there is a huge digital divide between the countryside and the city", "note": "La brecha digital is feminine." },
+    { "prompt": "El ___ es cualquier aparato con una pantalla.", "answer": "dispositivo", "meaning": "the device is any apparatus with a screen", "note": "Un dispositivo means any piece of hardware." },
+    { "prompt": "La pantalla cambió su ___.", "answer": "hábito", "meaning": "the screen changed his habit", "note": "El hábito is masculine." }
+  ]
+}

@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he said”.",
       "options": [
-        "poder",
-        "deber",
-        "querer",
+        "hablar",
+        "trabajar",
+        "ser",
         "dijo"
       ],
       "answer": "dijo",
@@ -108,10 +108,10 @@
       "prompt": "What did you hear?",
       "answer": "dice",
       "options": [
-        "relajarse",
         "acabar",
+        "entregar",
         "dice",
-        "levantarse"
+        "relajarse"
       ],
       "audio": {
         "text": "dice",
@@ -165,9 +165,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he asked”.",
       "options": [
-        "beber",
-        "aprender",
-        "leer",
+        "vender",
+        "correr",
+        "perder",
         "preguntó"
       ],
       "answer": "preguntó",

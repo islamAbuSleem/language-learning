@@ -1,0 +1,214 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 25,
+  "title": "The forecast",
+  "description": "Talk about the weather and about what the weather will do.",
+  "explanation": {
+    "summary": "In Spain the weather is more a plan than a fact. The present tense says what the sky is doing now, and the forecast says what it is going to do, so a forecast is really the future with the sky in it.",
+    "sections": [
+      {
+        "heading": "What the sky is doing",
+        "body": "The present tense describes the weather now. Hace calor, hace frío, hay viento, hay sol. With estar the sky has a state: está nublado, está despejado, está bochornoso. And some weather verbs stand on their own: llueve, nieva, truena. The general word for the air outside is el tiempo.",
+        "examples": [
+          {
+            "es": "Hoy está nublado y hace frío.",
+            "en": "Today it is cloudy and cold."
+          },
+          {
+            "es": "En la costa hace bochorno todo el día.",
+            "en": "On the coast it is muggy all day."
+          }
+        ]
+      },
+      {
+        "heading": "The forecast",
+        "body": "A forecast is not the weather, it is a plan for the weather, so it uses va a: va a llover, va a hacer frío, va a nevar en la montaña. El pronóstico gives you the whole picture: the temperatures for each day, the wind, and how much rain will fall. La temperatura is the number, in grados.",
+        "examples": [
+          {
+            "es": "El pronóstico dice que mañana lloverá por la tarde.",
+            "en": "The forecast says that it will rain in the afternoon."
+          },
+          {
+            "es": "La temperatura máxima será de veinte grados.",
+            "en": "The maximum temperature will be twenty degrees."
+          }
+        ]
+      },
+      {
+        "heading": "Wind, rain and storms",
+        "body": "Rain is la lluvia, and a short burst of it is un chubasco: hay chubascos por la tarde. A storm is la tormenta, with wind and thunder. When there is water in the air, hay humedad, and when the temperature drops below zero at night, hay una helada. When you cannot see far, hay bruma.",
+        "examples": [
+          {
+            "es": "La tormenta llegó por la noche y hubo un corte de luz.",
+            "en": "The storm arrived at night and there was a power cut."
+          },
+          {
+            "es": "El domingo habrá chubascos y viento fuerte.",
+            "en": "On Sunday there will be showers and strong wind."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u25/match/pronostico",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the forecast",
+          "right": "el pronóstico"
+        },
+        {
+          "left": "the temperature",
+          "right": "la temperatura"
+        },
+        {
+          "left": "the storm",
+          "right": "la tormenta"
+        },
+        {
+          "left": "the shower",
+          "right": "el chubasco"
+        },
+        {
+          "left": "the humidity",
+          "right": "la humedad"
+        }
+      ],
+      "note": "The sky in the present: hace calor, está nublado, llueve, hay viento."
+    },
+    {
+      "id": "es/a2/u25/select/pronostico",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the forecast”.",
+      "options": [
+        "la entrega",
+        "el formulario",
+        "el sello",
+        "el pronóstico"
+      ],
+      "answer": "el pronóstico",
+      "translation": "the forecast",
+      "note": "Masculine: el pronóstico. The forecast in the news or on the phone."
+    },
+    {
+      "id": "es/a2/u25/listen/temperatura",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la temperatura",
+      "options": [
+        "la verdura",
+        "la servilleta",
+        "la salsa",
+        "la temperatura"
+      ],
+      "audio": {
+        "text": "temperatura",
+        "lang": "es",
+        "file": "/audio/es/temperatura-4f32ef54.mp3"
+      },
+      "translation": "the temperature",
+      "note": "Feminine: la temperatura. The number the forecast gives in grados."
+    },
+    {
+      "id": "es/a2/u25/drill/1",
+      "type": "type_in",
+      "prompt": "Hoy ___ nublado.",
+      "answer": "Está",
+      "acceptedAnswers": [
+        "Esta"
+      ],
+      "translation": "it is cloudy today",
+      "note": "Estar for the state of the sky."
+    },
+    {
+      "id": "es/a2/u25/match/helada",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the frost",
+          "right": "la helada"
+        },
+        {
+          "left": "the heat",
+          "right": "el bochorno"
+        },
+        {
+          "left": "windy",
+          "right": "ventoso"
+        },
+        {
+          "left": "sunny",
+          "right": "soleado"
+        },
+        {
+          "left": "the mist",
+          "right": "la bruma"
+        }
+      ],
+      "note": "The sky in the present: hace calor, está nublado, llueve, hay viento."
+    },
+    {
+      "id": "es/a2/u25/select/tormenta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the storm”.",
+      "options": [
+        "el músculo",
+        "el tratamiento",
+        "la fractura",
+        "la tormenta"
+      ],
+      "answer": "la tormenta",
+      "translation": "the storm",
+      "note": "Feminine: la tormenta. Bad weather with wind and thunder."
+    },
+    {
+      "id": "es/a2/u25/drill/2",
+      "type": "type_in",
+      "prompt": "Va a ___ en la montaña.",
+      "answer": "nevar",
+      "acceptedAnswers": [
+        "nevar"
+      ],
+      "translation": "it is going to snow in the mountains",
+      "note": "Va a plus an infinitive for the forecast."
+    },
+    {
+      "id": "es/a2/u25/drill/3",
+      "type": "type_in",
+      "prompt": "La ___ es de dieciocho grados.",
+      "answer": "temperatura",
+      "acceptedAnswers": [
+        "temperatura"
+      ],
+      "translation": "the temperature is eighteen degrees",
+      "note": "La temperatura is the number in degrees."
+    },
+    {
+      "id": "es/a2/u25/drill/4",
+      "type": "type_in",
+      "prompt": "Hoy ___ mucho viento.",
+      "answer": "hay",
+      "acceptedAnswers": [
+        "hay"
+      ],
+      "translation": "there is a lot of wind today",
+      "note": "Hay for what is there."
+    },
+    {
+      "id": "es/a2/u25/drill/5",
+      "type": "type_in",
+      "prompt": "El ___ dice que mañana lloverá.",
+      "answer": "pronóstico",
+      "acceptedAnswers": [
+        "pronostico"
+      ],
+      "translation": "the forecast says that it will rain tomorrow",
+      "note": "El pronóstico is the forecast."
+    }
+  ]
+}
