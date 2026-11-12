@@ -175,7 +175,7 @@
       "note": "Cada goes before the noun."
     },
     {
-      "prompt": "Todo ___ habla español.",
+      "prompt": "Todo el ___ habla español.",
       "answer": "mundo",
       "meaning": "everybody speaks Spanish",
       "note": "Todo el mundo means everyone."

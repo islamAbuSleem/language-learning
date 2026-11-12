@@ -27,7 +27,7 @@ content.
 | Level | Label | Grammar introduced | Units |
 | --- | --- | --- | --- |
 | **A0** | First steps | greetings and courtesy · saying who you are | 2 |
-| **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* · prepositions of place · the weather · adjectives that change · possessives · days of the week · shopping · ordering food · the body · the neighbourhood · home and its rooms · food and drink · the town and the street · work and study · health · the telephone · feelings · the months and the date · describing people · size and shape · sport, music, books · travel, money and the countryside | 50 |
+| **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* · prepositions of place · the weather · adjectives that change · possessives · days of the week · shopping · ordering food · the body · the neighbourhood · home and its rooms · food and drink · the town and the street · work and study · health · the telephone · feelings · the months and the date · describing people · size and shape · sport, music, books · travel, money and the countryside · the whole numbers, zero to a million | 53 |
 | **A2** | Elementary | regular *-er* and *-ir* verbs · *ir* · time · *tener* · question words · *saber* and *conocer* · *hay* and *gustar* · *por* and *para* · the future · the preterite · the imperfect · the imperative · the preterite perfect · then the world: cooking, the doctor, money, repairs, the post, the news, restaurants, forecasts, clothes, sport, hotels, books, film, character, the farm | 32 |
 | **B1** | Intermediate | stem-changing verbs · the progressive · object pronouns · demonstratives · reflexives · the recent past · comparisons · indirect objects · the conditional · the subjunctive · reported speech · relative clauses · the pluperfect · then the world: work, people, the night city, the senses, food, travel, money, friendship, study, weather, technology, stories | 26 |
 | **B2** | Upper intermediate | the passive voice · the past and perfect subjunctive · the compound infinitive · verbs with a preposition · nominalisation · connectors · adjective position · *ser* and *estar* in their advanced difference · reporting · the participle as an adjective · formal register · then the world: work, law, the environment, technology, health, art, politics, history, science, society | 22 |
@@ -100,17 +100,22 @@ their name, and thank them.
 | 48 | In the countryside | gender and articles, prepositions of place | 10 | yes |
 | 49 | The rooms of the house | gender and articles, prepositions of place | 10 | yes |
 | 50 | Every day | regular *-ar* verbs, the words for a day at home | 10 | yes |
+| 51 | Counting on | the numbers from zero to fourteen | 10 | yes |
+| 52 | Big numbers | the numbers from fifteen to seventy | 10 | yes |
+| 53 | Hundreds and thousands | the hundreds, the thousands, and the words around numbers | 10 | yes |
 
 **Exit criteria** — a learner has finished A1 when they can order, ask for
 directions, introduce themselves and describe their routine, in short exchanges.
 
 **The first fifteen units teach the grammar; the next thirty-five build the
-vocabulary.** The first fifteen are the ones that carry a new rule each, so
-they are the spine of the level. After that the course widens: home, food,
-the town, work, health, time, and the words for describing things, all built
-on the rules the first fifteen taught. That is how a real A1 course is
-weighted: a small set of grammar units, and a large set of thematically
-organised vocabulary.
+vocabulary; the last three close the numbers.** The first fifteen are the ones
+that carry a new rule each, so they are the spine of the level. After that the
+course widens: home, food, the town, work, health, time, and the words for
+describing things, all built on the rules the first fifteen taught. And the
+last three do what unit 5 promised: every number from zero to a million,
+each drilled until it sticks. That is how a real A1 course is weighted: a
+small set of grammar units, a large set of thematically organised vocabulary,
+and no set left half finished.
 
 ## A2 — Elementary
 
@@ -277,13 +282,13 @@ itself was only taught in B1.
 
 ## Content gap
 
-132 units × 10 words = **1320 words** for the Spanish track. At ten words a
-unit, that is one hundred and thirty-two small vocabulary files rather than
-one hundred and thirty-two large exercise files — the generator does the rest.
+135 units × 10 words = **1350 words** for the Spanish track. At ten words a
+unit, that is one hundred and thirty-five small vocabulary files rather than
+one hundred and thirty-five large exercise files — the generator does the rest.
 
-A0 holds 20 words, A1 holds 500, A2 holds 320, B1 holds 260 and B2 holds 220.
+A0 holds 20 words, A1 holds 530, A2 holds 320, B1 holds 260 and B2 holds 220.
 Every level now has the size of a real course at its stage: A1 is complete
-at 500, and the higher levels widen the world instead of reteaching the
+at 530, and the higher levels widen the world instead of reteaching the
 grammar.
 
 `listen` needs audio. The schema, the renderer and the browser's own voice are

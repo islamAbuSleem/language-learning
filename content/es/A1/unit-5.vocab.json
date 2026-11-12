@@ -9,11 +9,12 @@
     "sections": [
       {
         "heading": "The regular ones",
-        "body": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez. Then the pattern changes at sixteen: dieciséis, veintiuno, veintidós, and the tens are veinti, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. A number over fifteen is written as one word.",
+        "body": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez. Then the pattern changes at sixteen: dieciséis, veintiuno, veintidós, and the tens are veinti, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. A number over fifteen is written as one word. Cuánto asks how many: ¿Cuántos libros tienes?",
         "examples": [
           { "es": "tres cafés", "en": "three coffees" },
           { "es": "veintiún libros", "en": "twenty-one books" },
-          { "es": "cien euros", "en": "a hundred euros" }
+          { "es": "cien euros", "en": "a hundred euros" },
+          { "es": "¿Cuántos años tienes?", "en": "How old are you?" }
         ]
       },
       {

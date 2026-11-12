@@ -83,16 +83,16 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “for”.",
       "options": [
-        "el año nuevo",
-        "el otoño",
-        "la primavera",
+        "el barrio",
+        "el edificio",
+        "la plaza",
         "para"
       ],
       "audioFiles": {
         "para": "/audio/es/para-a5efc8a0.mp3",
-        "el año nuevo": "/audio/es/ano-nuevo-42a878ec.mp3",
-        "la primavera": "/audio/es/primavera-019ae070.mp3",
-        "el otoño": "/audio/es/otono-a8305a88.mp3"
+        "el barrio": "/audio/es/barrio-b1e1a5b9.mp3",
+        "la plaza": "/audio/es/plaza-e3f155b4.mp3",
+        "el edificio": "/audio/es/edificio-7bac50bd.mp3"
       },
       "answer": "para",
       "translation": "for",
@@ -104,16 +104,16 @@
       "prompt": "What did you hear?",
       "answer": "por",
       "options": [
-        "tener",
-        "poder",
-        "querer",
+        "necesitar",
+        "el día",
+        "la casa",
         "por"
       ],
       "audioFiles": {
         "por": "/audio/es/por-6d7f6c2c.mp3",
-        "tener": "/audio/es/tener-025878e0.mp3",
-        "querer": "/audio/es/querer-16152346.mp3",
-        "poder": "/audio/es/poder-a9404618.mp3"
+        "necesitar": "/audio/es/necesitar-e24649a0.mp3",
+        "la casa": "/audio/es/casa-c9ec2443.mp3",
+        "el día": "/audio/es/dia-f59db8ce.mp3"
       },
       "audio": {
         "text": "por",

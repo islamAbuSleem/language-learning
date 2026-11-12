@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 52,
+  "title": "Big numbers",
+  "description": "Count from fifteen to seventy the way Spanish builds them.",
+  "explanation": {
+    "summary": "Fifteen to nineteen are each one word, and thirty to seventy are single words you stack the small numbers after. This unit finishes every number you need below eighty.",
+    "sections": [
+      {
+        "heading": "Fifteen to nineteen",
+        "body": "Quince, dieciséis, diecisiete, dieciocho and diecinueve. Each is one word, and only dieciséis keeps its accent. You met veintiún in unit 5; these are built the same way, ten plus the small number.",
+        "examples": [
+          {
+            "es": "quince días",
+            "en": "fifteen days"
+          },
+          {
+            "es": "dieciséis años",
+            "en": "sixteen years old"
+          },
+          {
+            "es": "diecinueve euros",
+            "en": "nineteen euros"
+          }
+        ]
+      },
+      {
+        "heading": "Thirty to seventy",
+        "body": "Treinta, cuarenta, cincuenta, sesenta and setenta never change, whatever follows them. Treinta y dos is thirty-two, and the y is the only thing between the ten and the unit.",
+        "examples": [
+          {
+            "es": "treinta y dos",
+            "en": "thirty-two"
+          },
+          {
+            "es": "cuarenta sillas",
+            "en": "forty chairs"
+          },
+          {
+            "es": "sesenta euros",
+            "en": "sixty euros"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u52/match/quince",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "fifteen",
+          "right": "quince"
+        },
+        {
+          "left": "sixteen",
+          "right": "dieciséis"
+        },
+        {
+          "left": "seventeen",
+          "right": "diecisiete"
+        },
+        {
+          "left": "eighteen",
+          "right": "dieciocho"
+        },
+        {
+          "left": "nineteen",
+          "right": "diecinueve"
+        }
+      ],
+      "note": "Fifteen to nineteen are one word each, and the tens never change."
+    },
+    {
+      "id": "es/a1/u52/select/quince",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “fifteen”.",
+      "options": [
+        "trece",
+        "catorce",
+        "doce",
+        "quince"
+      ],
+      "audioFiles": {
+        "quince": "/audio/es/quince-44503153.mp3",
+        "doce": "/audio/es/doce-b3ffaf58.mp3",
+        "trece": "/audio/es/trece-d2c111d4.mp3",
+        "catorce": "/audio/es/catorce-c5d9cb7c.mp3"
+      },
+      "answer": "quince",
+      "translation": "fifteen",
+      "note": "One word: quince."
+    },
+    {
+      "id": "es/a1/u52/listen/dieciseis",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "dieciséis",
+      "options": [
+        "tres",
+        "cinco",
+        "diez",
+        "dieciséis"
+      ],
+      "audioFiles": {
+        "dieciséis": "/audio/es/dieciseis-e4c1b9b8.mp3",
+        "tres": "/audio/es/tres-7f35efd4.mp3",
+        "cinco": "/audio/es/cinco-c7a591d2.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3"
+      },
+      "audio": {
+        "text": "dieciséis",
+        "lang": "es",
+        "file": "/audio/es/dieciseis-e4c1b9b8.mp3"
+      },
+      "translation": "sixteen",
+      "note": "One word, keeps its accent: dieciséis."
+    },
+    {
+      "id": "es/a1/u52/drill/1",
+      "type": "type_in",
+      "prompt": "Tengo ___ años.",
+      "answer": "quince",
+      "acceptedAnswers": [
+        "quince"
+      ],
+      "translation": "I am fifteen years old",
+      "note": "Fifteen is quince."
+    },
+    {
+      "id": "es/a1/u52/match/treinta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "thirty",
+          "right": "treinta"
+        },
+        {
+          "left": "forty",
+          "right": "cuarenta"
+        },
+        {
+          "left": "fifty",
+          "right": "cincuenta"
+        },
+        {
+          "left": "sixty",
+          "right": "sesenta"
+        },
+        {
+          "left": "seventy",
+          "right": "setenta"
+        }
+      ],
+      "note": "Fifteen to nineteen are one word each, and the tens never change."
+    },
+    {
+      "id": "es/a1/u52/select/diecisiete",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “seventeen”.",
+      "options": [
+        "cuarenta",
+        "sesenta",
+        "cincuenta",
+        "diecisiete"
+      ],
+      "audioFiles": {
+        "diecisiete": "/audio/es/diecisiete-91e32680.mp3",
+        "cuarenta": "/audio/es/cuarenta-f572592f.mp3",
+        "cincuenta": "/audio/es/cincuenta-89716694.mp3",
+        "sesenta": "/audio/es/sesenta-c0cdfb78.mp3"
+      },
+      "answer": "diecisiete",
+      "translation": "seventeen",
+      "note": "One word: diecisiete."
+    },
+    {
+      "id": "es/a1/u52/drill/2",
+      "type": "type_in",
+      "prompt": "Llego a las ___.",
+      "answer": "siete",
+      "acceptedAnswers": [
+        "siete"
+      ],
+      "translation": "I arrive at seven",
+      "note": "Siete was taught in unit 51."
+    },
+    {
+      "id": "es/a1/u52/drill/3",
+      "type": "type_in",
+      "prompt": "Hay ___ personas.",
+      "answer": "treinta",
+      "acceptedAnswers": [
+        "treinta"
+      ],
+      "translation": "there are thirty people",
+      "note": "Thirty is treinta."
+    },
+    {
+      "id": "es/a1/u52/drill/4",
+      "type": "type_in",
+      "prompt": "Cuesta ___ euros.",
+      "answer": "cincuenta",
+      "acceptedAnswers": [
+        "cincuenta"
+      ],
+      "translation": "it costs fifty euros",
+      "note": "Fifty is cincuenta."
+    },
+    {
+      "id": "es/a1/u52/drill/5",
+      "type": "type_in",
+      "prompt": "Tiene ___ años.",
+      "answer": "dieciocho",
+      "acceptedAnswers": [
+        "dieciocho"
+      ],
+      "translation": "he is eighteen years old",
+      "note": "Eighteen is one word: dieciocho."
+    }
+  ]
+}

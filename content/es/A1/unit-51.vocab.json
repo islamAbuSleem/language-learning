@@ -1,0 +1,49 @@
+{
+  "unit": 51,
+  "title": "Counting on",
+  "description": "Count from zero to fourteen without stopping.",
+  "grammar": "the numbers from zero to fourteen",
+  "grammarNote": "Every number has one form, and it never changes for gender.",
+  "explanation": {
+    "summary": "Unit 5 taught the shape of Spanish numbers. This unit fills in the ones it skipped: zero, and four through fourteen. After it there is no small number you cannot say.",
+    "sections": [
+      {
+        "heading": "Zero and four to nine",
+        "body": "Cero is nothing at all. Cuatro, seis, siete, ocho and nueve work exactly like the numbers you know: they go in front of the noun and never change. Cinco was in unit 5; these sit on either side of it.",
+        "examples": [
+          { "es": "cero euros", "en": "zero euros" },
+          { "es": "siete días", "en": "seven days" },
+          { "es": "nueve noches", "en": "nine nights" }
+        ]
+      },
+      {
+        "heading": "Eleven to fourteen",
+        "body": "Once, doce, trece and catorce are each one word, like the tens. Diez was in unit 5 and quince comes in the next unit; these four close the gap between them. Quince keeps its accent; the others need none.",
+        "examples": [
+          { "es": "once personas", "en": "eleven people" },
+          { "es": "doce meses", "en": "twelve months" },
+          { "es": "catorce sillas", "en": "fourteen chairs" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "cero", "en": "zero", "article": null, "note": "No article, no gender: cero.", "tags": ["number"] },
+    { "es": "cuatro", "en": "four", "article": null, "note": "Never changes: cuatro.", "tags": ["number"] },
+    { "es": "seis", "en": "six", "article": null, "note": "Never changes: seis.", "tags": ["number"] },
+    { "es": "siete", "en": "seven", "article": null, "note": "Never changes: siete.", "tags": ["number"] },
+    { "es": "ocho", "en": "eight", "article": null, "note": "Never changes: ocho.", "tags": ["number"] },
+    { "es": "nueve", "en": "nine", "article": null, "note": "Never changes: nueve.", "tags": ["number"] },
+    { "es": "once", "en": "eleven", "article": null, "note": "One word: once.", "tags": ["number"] },
+    { "es": "doce", "en": "twelve", "article": null, "note": "One word: doce.", "tags": ["number"] },
+    { "es": "trece", "en": "thirteen", "article": null, "note": "One word: trece.", "tags": ["number"] },
+    { "es": "catorce", "en": "fourteen", "article": null, "note": "One word: catorce.", "tags": ["number"] }
+  ],
+  "drills": [
+    { "prompt": "Tengo ___ años.", "answer": "siete", "meaning": "I am seven years old", "note": "Seven is siete." },
+    { "prompt": "Hay ___ sillas.", "answer": "catorce", "meaning": "there are fourteen chairs", "note": "Fourteen is one word: catorce." },
+    { "prompt": "___ euros en la cuenta.", "answer": "Cero", "meaning": "zero euros in the account", "note": "Zero is cero." },
+    { "prompt": "Son las ___ de la mañana.", "answer": "ocho", "meaning": "it is eight in the morning", "note": "Eight is ocho." },
+    { "prompt": "Hay ___ meses en un año.", "answer": "doce", "meaning": "there are twelve months in a year", "note": "Twelve is doce." }
+  ]
+}

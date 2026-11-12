@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 53,
+  "title": "Hundreds and thousands",
+  "description": "Count to a million, and split things in halves and dozens.",
+  "explanation": {
+    "summary": "Eighty and ninety close the tens, and then come the hundreds and the thousands. A few small words around numbers — half, a dozen, even and odd — finish the system, and after this unit there is no number from zero to a million you cannot say.",
+    "sections": [
+      {
+        "heading": "Eighty and above",
+        "body": "Ochenta and noventa work like the other tens. Cien is a hundred on its own, and doscientos and quinientos are two and five hundred. Mil is a thousand and never takes an -s, and un millón is a million.",
+        "examples": [
+          {
+            "es": "ochenta euros",
+            "en": "eighty euros"
+          },
+          {
+            "es": "doscientos libros",
+            "en": "two hundred books"
+          },
+          {
+            "es": "mil personas",
+            "en": "a thousand people"
+          }
+        ]
+      },
+      {
+        "heading": "Around the numbers",
+        "body": "Medio is half, and una docena is twelve of something. Par is even and impar is odd. None of them change, and they go where any other number goes.",
+        "examples": [
+          {
+            "es": "medio kilo",
+            "en": "half a kilo"
+          },
+          {
+            "es": "una docena de huevos",
+            "en": "a dozen eggs"
+          },
+          {
+            "es": "un número par",
+            "en": "an even number"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u53/match/ochenta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "eighty",
+          "right": "ochenta"
+        },
+        {
+          "left": "ninety",
+          "right": "noventa"
+        },
+        {
+          "left": "a thousand",
+          "right": "mil"
+        },
+        {
+          "left": "a million",
+          "right": "el millón"
+        },
+        {
+          "left": "two hundred",
+          "right": "doscientos"
+        }
+      ],
+      "note": "Cien becomes cientos inside a bigger number, and mil never takes an -s."
+    },
+    {
+      "id": "es/a1/u53/select/ochenta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “eighty”.",
+      "options": [
+        "una",
+        "tres",
+        "dos",
+        "ochenta"
+      ],
+      "audioFiles": {
+        "ochenta": "/audio/es/ochenta-2585c7d8.mp3",
+        "una": "/audio/es/una-57d4aae0.mp3",
+        "dos": "/audio/es/dos-d2665ef8.mp3",
+        "tres": "/audio/es/tres-7f35efd4.mp3"
+      },
+      "answer": "ochenta",
+      "translation": "eighty",
+      "note": "Never changes: ochenta."
+    },
+    {
+      "id": "es/a1/u53/listen/noventa",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "noventa",
+      "options": [
+        "nueve",
+        "doce",
+        "once",
+        "noventa"
+      ],
+      "audioFiles": {
+        "noventa": "/audio/es/noventa-14491420.mp3",
+        "nueve": "/audio/es/nueve-fa64e255.mp3",
+        "once": "/audio/es/once-19dbb8cc.mp3",
+        "doce": "/audio/es/doce-b3ffaf58.mp3"
+      },
+      "audio": {
+        "text": "noventa",
+        "lang": "es",
+        "file": "/audio/es/noventa-14491420.mp3"
+      },
+      "translation": "ninety",
+      "note": "Never changes: noventa."
+    },
+    {
+      "id": "es/a1/u53/drill/1",
+      "type": "type_in",
+      "prompt": "Cuesta ___ euros.",
+      "answer": "noventa",
+      "acceptedAnswers": [
+        "noventa"
+      ],
+      "translation": "it costs ninety euros",
+      "note": "Ninety is noventa."
+    },
+    {
+      "id": "es/a1/u53/match/quinientos",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "five hundred",
+          "right": "quinientos"
+        },
+        {
+          "left": "half",
+          "right": "medio"
+        },
+        {
+          "left": "the dozen",
+          "right": "la docena"
+        },
+        {
+          "left": "even",
+          "right": "par"
+        },
+        {
+          "left": "odd",
+          "right": "impar"
+        }
+      ],
+      "note": "Cien becomes cientos inside a bigger number, and mil never takes an -s."
+    },
+    {
+      "id": "es/a1/u53/select/mil",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “a thousand”.",
+      "options": [
+        "cien",
+        "cero",
+        "cuatro",
+        "mil"
+      ],
+      "audioFiles": {
+        "mil": "/audio/es/mil-cb8f487c.mp3",
+        "cien": "/audio/es/cien-4008eea2.mp3",
+        "cero": "/audio/es/cero-694cff45.mp3",
+        "cuatro": "/audio/es/cuatro-cc2076dc.mp3"
+      },
+      "answer": "mil",
+      "translation": "a thousand",
+      "note": "Never takes an -s: dos mil."
+    },
+    {
+      "id": "es/a1/u53/drill/2",
+      "type": "type_in",
+      "prompt": "Hay ___ personas.",
+      "answer": "mil",
+      "acceptedAnswers": [
+        "mil"
+      ],
+      "translation": "there are a thousand people",
+      "note": "Mil never takes an -s."
+    },
+    {
+      "id": "es/a1/u53/drill/3",
+      "type": "type_in",
+      "prompt": "Quiero ___ kilo de manzanas.",
+      "answer": "medio",
+      "acceptedAnswers": [
+        "medio"
+      ],
+      "translation": "I want half a kilo of apples",
+      "note": "Half is medio."
+    },
+    {
+      "id": "es/a1/u53/drill/4",
+      "type": "type_in",
+      "prompt": "Una ___ de huevos.",
+      "answer": "docena",
+      "acceptedAnswers": [
+        "docena"
+      ],
+      "translation": "a dozen eggs",
+      "note": "Docena is feminine."
+    },
+    {
+      "id": "es/a1/u53/drill/5",
+      "type": "type_in",
+      "prompt": "El ocho es un número ___.",
+      "answer": "par",
+      "acceptedAnswers": [
+        "par"
+      ],
+      "translation": "eight is an even number",
+      "note": "Even is par."
+    }
+  ]
+}

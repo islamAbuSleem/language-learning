@@ -5,10 +5,10 @@
   "title": "Asking",
   "description": "Ask the questions you need answered.",
   "explanation": {
-    "summary": "There are six question words, and each one asks for a different kind of answer. Spanish marks them with an accent, which is how you can tell a question from a statement.",
+    "summary": "There are seven question words, and each one asks for a different kind of answer. Spanish marks them with an accent, which is how you can tell a question from a statement.",
     "sections": [
       {
-        "heading": "The six",
+        "heading": "The seven",
         "body": "Qué asks for a thing: ¿Qué es esto? Quién asks for a person: ¿Quién es? Dónde asks for a place: ¿Dónde está? Cuándo asks for a time: ¿Cuándo llegas? Por qué asks for a reason: ¿Por qué no vienes? Cómo asks about a way: ¿Cómo se dice? Cuánto asks for a quantity: ¿Cuánto cuesta?",
         "examples": [
           {
@@ -22,6 +22,20 @@
           {
             "es": "¿Por qué no vienes?",
             "en": "Why are you not coming?"
+          }
+        ]
+      },
+      {
+        "heading": "Which one",
+        "body": "Cuánto asks how much, and cuál asks which one: ¿Cuál prefieres, té o café? Use cuál when the choice is in front of you, and qué when it is open: ¿Qué quieres? The plural is cuáles: ¿Cuáles prefieres?",
+        "examples": [
+          {
+            "es": "¿Cuál prefieres, té o café?",
+            "en": "Which one do you prefer, tea or coffee?"
+          },
+          {
+            "es": "¿Cuáles son tus días libres?",
+            "en": "Which are your days off?"
           }
         ]
       },
@@ -177,26 +191,6 @@
       "note": "The question words carry accents in a question: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
-      "id": "es/a2/u6/select/donde",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “where”.",
-      "options": [
-        "quién",
-        "cuándo",
-        "por qué",
-        "dónde"
-      ],
-      "audioFiles": {
-        "dónde": "/audio/es/donde-440401dc.mp3",
-        "quién": "/audio/es/quien-f2f1fd28.mp3",
-        "cuándo": "/audio/es/cuando-2258d058.mp3",
-        "por qué": "/audio/es/por-que-65c11022.mp3"
-      },
-      "answer": "dónde",
-      "translation": "where",
-      "note": "Where. It carries an accent in a question."
-    },
-    {
       "id": "es/a2/u6/drill/2",
       "type": "type_in",
       "prompt": "¿___ cuesta el café?",
@@ -239,6 +233,17 @@
       ],
       "translation": "who is it? — Ana.",
       "note": "Quién asks for a person."
+    },
+    {
+      "id": "es/a2/u6/drill/6",
+      "type": "type_in",
+      "prompt": "¿___ prefieres, té o café?",
+      "answer": "Cuál",
+      "acceptedAnswers": [
+        "Cual"
+      ],
+      "translation": "which one do you prefer, tea or coffee?",
+      "note": "Cuál asks which one, when the choice is in front of you."
     }
   ]
 }

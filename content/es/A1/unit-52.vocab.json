@@ -1,0 +1,49 @@
+{
+  "unit": 52,
+  "title": "Big numbers",
+  "description": "Count from fifteen to seventy the way Spanish builds them.",
+  "grammar": "the numbers from fifteen to seventy",
+  "grammarNote": "Fifteen to nineteen are one word each, and the tens never change.",
+  "explanation": {
+    "summary": "Fifteen to nineteen are each one word, and thirty to seventy are single words you stack the small numbers after. This unit finishes every number you need below eighty.",
+    "sections": [
+      {
+        "heading": "Fifteen to nineteen",
+        "body": "Quince, dieciséis, diecisiete, dieciocho and diecinueve. Each is one word, and only dieciséis keeps its accent. You met veintiún in unit 5; these are built the same way, ten plus the small number.",
+        "examples": [
+          { "es": "quince días", "en": "fifteen days" },
+          { "es": "dieciséis años", "en": "sixteen years old" },
+          { "es": "diecinueve euros", "en": "nineteen euros" }
+        ]
+      },
+      {
+        "heading": "Thirty to seventy",
+        "body": "Treinta, cuarenta, cincuenta, sesenta and setenta never change, whatever follows them. Treinta y dos is thirty-two, and the y is the only thing between the ten and the unit.",
+        "examples": [
+          { "es": "treinta y dos", "en": "thirty-two" },
+          { "es": "cuarenta sillas", "en": "forty chairs" },
+          { "es": "sesenta euros", "en": "sixty euros" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "quince", "en": "fifteen", "article": null, "note": "One word: quince.", "tags": ["number"] },
+    { "es": "dieciséis", "en": "sixteen", "article": null, "note": "One word, keeps its accent: dieciséis.", "tags": ["number"] },
+    { "es": "diecisiete", "en": "seventeen", "article": null, "note": "One word: diecisiete.", "tags": ["number"] },
+    { "es": "dieciocho", "en": "eighteen", "article": null, "note": "One word: dieciocho.", "tags": ["number"] },
+    { "es": "diecinueve", "en": "nineteen", "article": null, "note": "One word: diecinueve.", "tags": ["number"] },
+    { "es": "treinta", "en": "thirty", "article": null, "note": "Never changes: treinta.", "tags": ["number"] },
+    { "es": "cuarenta", "en": "forty", "article": null, "note": "Never changes: cuarenta.", "tags": ["number"] },
+    { "es": "cincuenta", "en": "fifty", "article": null, "note": "Never changes: cincuenta.", "tags": ["number"] },
+    { "es": "sesenta", "en": "sixty", "article": null, "note": "Never changes: sesenta.", "tags": ["number"] },
+    { "es": "setenta", "en": "seventy", "article": null, "note": "Never changes: setenta.", "tags": ["number"] }
+  ],
+  "drills": [
+    { "prompt": "Tengo ___ años.", "answer": "quince", "meaning": "I am fifteen years old", "note": "Fifteen is quince." },
+    { "prompt": "Llego a las ___.", "answer": "siete", "meaning": "I arrive at seven", "note": "Siete was taught in unit 51." },
+    { "prompt": "Hay ___ personas.", "answer": "treinta", "meaning": "there are thirty people", "note": "Thirty is treinta." },
+    { "prompt": "Cuesta ___ euros.", "answer": "cincuenta", "meaning": "it costs fifty euros", "note": "Fifty is cincuenta." },
+    { "prompt": "Tiene ___ años.", "answer": "dieciocho", "meaning": "he is eighteen years old", "note": "Eighteen is one word: dieciocho." }
+  ]
+}

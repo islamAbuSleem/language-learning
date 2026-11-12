@@ -1,0 +1,49 @@
+{
+  "unit": 53,
+  "title": "Hundreds and thousands",
+  "description": "Count to a million, and split things in halves and dozens.",
+  "grammar": "the hundreds, the thousands, and the words around numbers",
+  "grammarNote": "Cien becomes cientos inside a bigger number, and mil never takes an -s.",
+  "explanation": {
+    "summary": "Eighty and ninety close the tens, and then come the hundreds and the thousands. A few small words around numbers — half, a dozen, even and odd — finish the system, and after this unit there is no number from zero to a million you cannot say.",
+    "sections": [
+      {
+        "heading": "Eighty and above",
+        "body": "Ochenta and noventa work like the other tens. Cien is a hundred on its own, and doscientos and quinientos are two and five hundred. Mil is a thousand and never takes an -s, and un millón is a million.",
+        "examples": [
+          { "es": "ochenta euros", "en": "eighty euros" },
+          { "es": "doscientos libros", "en": "two hundred books" },
+          { "es": "mil personas", "en": "a thousand people" }
+        ]
+      },
+      {
+        "heading": "Around the numbers",
+        "body": "Medio is half, and una docena is twelve of something. Par is even and impar is odd. None of them change, and they go where any other number goes.",
+        "examples": [
+          { "es": "medio kilo", "en": "half a kilo" },
+          { "es": "una docena de huevos", "en": "a dozen eggs" },
+          { "es": "un número par", "en": "an even number" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "ochenta", "en": "eighty", "article": null, "note": "Never changes: ochenta.", "tags": ["number"] },
+    { "es": "noventa", "en": "ninety", "article": null, "note": "Never changes: noventa.", "tags": ["number"] },
+    { "es": "mil", "en": "a thousand", "article": null, "note": "Never takes an -s: dos mil.", "tags": ["number"] },
+    { "es": "millón", "en": "a million", "article": "el", "note": "Masculine: un millón. The accent marks the stress.", "tags": ["number"] },
+    { "es": "doscientos", "en": "two hundred", "article": null, "note": "Two hundred: doscientos.", "tags": ["number"] },
+    { "es": "quinientos", "en": "five hundred", "article": null, "note": "Five hundred: quinientos.", "tags": ["number"] },
+    { "es": "medio", "en": "half", "article": null, "note": "Half: medio. The feminine is media.", "tags": ["number"] },
+    { "es": "docena", "en": "the dozen", "article": "la", "note": "Feminine: la docena.", "tags": ["number"] },
+    { "es": "par", "en": "even", "article": null, "note": "Even, of a number: par.", "tags": ["number"] },
+    { "es": "impar", "en": "odd", "article": null, "note": "Odd, of a number: impar.", "tags": ["number"] }
+  ],
+  "drills": [
+    { "prompt": "Cuesta ___ euros.", "answer": "noventa", "meaning": "it costs ninety euros", "note": "Ninety is noventa." },
+    { "prompt": "Hay ___ personas.", "answer": "mil", "meaning": "there are a thousand people", "note": "Mil never takes an -s." },
+    { "prompt": "Quiero ___ kilo de manzanas.", "answer": "medio", "meaning": "I want half a kilo of apples", "note": "Half is medio." },
+    { "prompt": "Una ___ de huevos.", "answer": "docena", "meaning": "a dozen eggs", "note": "Docena is feminine." },
+    { "prompt": "El ocho es un número ___.", "answer": "par", "meaning": "eight is an even number", "note": "Even is par." }
+  ]
+}

@@ -221,7 +221,7 @@
     {
       "id": "es/b1/u5/drill/4",
       "type": "type_in",
-      "prompt": "Todo ___ habla español.",
+      "prompt": "Todo el ___ habla español.",
       "answer": "mundo",
       "acceptedAnswers": [
         "mundo"

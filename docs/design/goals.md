@@ -40,7 +40,7 @@ part of the course, not part of the browser.
 
 | Step | What | Done when |
 | --- | --- | --- |
-| 1 | **Richer A1 content.** A real A1 course is 500 words, not 150. | **Done.** A1 holds 50 units and 500 words, the path audit is green, and the app plays all of it. |
+| 1 | **Richer A1 content.** A real A1 course is 500 words, not 150. | **Done.** A1 holds 53 units and 530 words, the path audit is green, and the app plays all of it. |
 | 2 | **A unit-revisit model.** A learner must be able to go back to a unit they are weak in, and see why. | **Done.** The path shows the status of every unit, weak units are offered back under *Worth another look*, and a unit can be done again. |
 | 3 | **Recorded audio.** | **Done.** The definition of done above. |
 

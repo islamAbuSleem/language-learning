@@ -1,0 +1,226 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 51,
+  "title": "Counting on",
+  "description": "Count from zero to fourteen without stopping.",
+  "explanation": {
+    "summary": "Unit 5 taught the shape of Spanish numbers. This unit fills in the ones it skipped: zero, and four through fourteen. After it there is no small number you cannot say.",
+    "sections": [
+      {
+        "heading": "Zero and four to nine",
+        "body": "Cero is nothing at all. Cuatro, seis, siete, ocho and nueve work exactly like the numbers you know: they go in front of the noun and never change. Cinco was in unit 5; these sit on either side of it.",
+        "examples": [
+          {
+            "es": "cero euros",
+            "en": "zero euros"
+          },
+          {
+            "es": "siete días",
+            "en": "seven days"
+          },
+          {
+            "es": "nueve noches",
+            "en": "nine nights"
+          }
+        ]
+      },
+      {
+        "heading": "Eleven to fourteen",
+        "body": "Once, doce, trece and catorce are each one word, like the tens. Diez was in unit 5 and quince comes in the next unit; these four close the gap between them. Quince keeps its accent; the others need none.",
+        "examples": [
+          {
+            "es": "once personas",
+            "en": "eleven people"
+          },
+          {
+            "es": "doce meses",
+            "en": "twelve months"
+          },
+          {
+            "es": "catorce sillas",
+            "en": "fourteen chairs"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u51/match/cero",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "zero",
+          "right": "cero"
+        },
+        {
+          "left": "four",
+          "right": "cuatro"
+        },
+        {
+          "left": "six",
+          "right": "seis"
+        },
+        {
+          "left": "seven",
+          "right": "siete"
+        },
+        {
+          "left": "eight",
+          "right": "ocho"
+        }
+      ],
+      "note": "Every number has one form, and it never changes for gender."
+    },
+    {
+      "id": "es/a1/u51/select/cero",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “zero”.",
+      "options": [
+        "diez",
+        "veinte",
+        "cien",
+        "cero"
+      ],
+      "audioFiles": {
+        "cero": "/audio/es/cero-694cff45.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3",
+        "veinte": "/audio/es/veinte-96939c3c.mp3",
+        "cien": "/audio/es/cien-4008eea2.mp3"
+      },
+      "answer": "cero",
+      "translation": "zero",
+      "note": "No article, no gender: cero."
+    },
+    {
+      "id": "es/a1/u51/listen/cuatro",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "cuatro",
+      "options": [
+        "tres",
+        "cinco",
+        "diez",
+        "cuatro"
+      ],
+      "audioFiles": {
+        "cuatro": "/audio/es/cuatro-cc2076dc.mp3",
+        "tres": "/audio/es/tres-7f35efd4.mp3",
+        "cinco": "/audio/es/cinco-c7a591d2.mp3",
+        "diez": "/audio/es/diez-921f4056.mp3"
+      },
+      "audio": {
+        "text": "cuatro",
+        "lang": "es",
+        "file": "/audio/es/cuatro-cc2076dc.mp3"
+      },
+      "translation": "four",
+      "note": "Never changes: cuatro."
+    },
+    {
+      "id": "es/a1/u51/drill/1",
+      "type": "type_in",
+      "prompt": "Tengo ___ años.",
+      "answer": "siete",
+      "acceptedAnswers": [
+        "siete"
+      ],
+      "translation": "I am seven years old",
+      "note": "Seven is siete."
+    },
+    {
+      "id": "es/a1/u51/match/nueve",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "nine",
+          "right": "nueve"
+        },
+        {
+          "left": "eleven",
+          "right": "once"
+        },
+        {
+          "left": "twelve",
+          "right": "doce"
+        },
+        {
+          "left": "thirteen",
+          "right": "trece"
+        },
+        {
+          "left": "fourteen",
+          "right": "catorce"
+        }
+      ],
+      "note": "Every number has one form, and it never changes for gender."
+    },
+    {
+      "id": "es/a1/u51/select/seis",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “six”.",
+      "options": [
+        "una",
+        "dos",
+        "tres",
+        "seis"
+      ],
+      "audioFiles": {
+        "seis": "/audio/es/seis-8431ae03.mp3",
+        "una": "/audio/es/una-57d4aae0.mp3",
+        "dos": "/audio/es/dos-d2665ef8.mp3",
+        "tres": "/audio/es/tres-7f35efd4.mp3"
+      },
+      "answer": "seis",
+      "translation": "six",
+      "note": "Never changes: seis."
+    },
+    {
+      "id": "es/a1/u51/drill/2",
+      "type": "type_in",
+      "prompt": "Hay ___ sillas.",
+      "answer": "catorce",
+      "acceptedAnswers": [
+        "catorce"
+      ],
+      "translation": "there are fourteen chairs",
+      "note": "Fourteen is one word: catorce."
+    },
+    {
+      "id": "es/a1/u51/drill/3",
+      "type": "type_in",
+      "prompt": "___ euros en la cuenta.",
+      "answer": "Cero",
+      "acceptedAnswers": [
+        "Cero"
+      ],
+      "translation": "zero euros in the account",
+      "note": "Zero is cero."
+    },
+    {
+      "id": "es/a1/u51/drill/4",
+      "type": "type_in",
+      "prompt": "Son las ___ de la mañana.",
+      "answer": "ocho",
+      "acceptedAnswers": [
+        "ocho"
+      ],
+      "translation": "it is eight in the morning",
+      "note": "Eight is ocho."
+    },
+    {
+      "id": "es/a1/u51/drill/5",
+      "type": "type_in",
+      "prompt": "Hay ___ meses en un año.",
+      "answer": "doce",
+      "acceptedAnswers": [
+        "doce"
+      ],
+      "translation": "there are twelve months in a year",
+      "note": "Twelve is doce."
+    }
+  ]
+}
