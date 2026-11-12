@@ -34,7 +34,7 @@ const { data: progress } = await useFetch<{
 
 const profile = computed(() => progress.value?.profile ?? null)
 
-/** Items the learner has met and is still shaky on. */
+/** The units the learner has met and is still shaky on. */
 const weakItems = computed(
   () => (progress.value?.items ?? []).filter((item) => item.mastery < PRACTICE_MASTERY_CEILING),
 )
@@ -43,6 +43,42 @@ const weakItems = computed(
 const dueItems = computed(
   () => weakItems.value.filter((item) => item.dueAt <= Date.now()),
 )
+
+interface UnitSummary {
+  unit: number
+  title: string
+  description: string
+  exerciseCount: number
+  completed: boolean
+  locked: boolean
+}
+
+/** Every unit of every track, in the order the learner meets them. */
+const allUnits = computed<{ track: string; level: string; unit: UnitSummary }[]>(() => {
+  const units: { track: string; level: string; unit: UnitSummary }[] = []
+
+  for (const track of tracks.value?.tracks ?? []) {
+    for (const level of track.levels) {
+      for (const unit of level.units) {
+        units.push({ track: track.id, level: level.level, unit })
+      }
+    }
+  }
+
+  return units
+})
+
+/** Where the learner is: the first unit they have not finished. */
+const currentUnit = computed(() => allUnits.value.find((entry) => !entry.unit.completed) ?? null)
+
+const unitsDone = computed(() => allUnits.value.filter((entry) => entry.unit.completed).length)
+
+const progressPercent = computed(() => {
+  const total = allUnits.value.length
+  if (total === 0) return 0
+
+  return Math.round((unitsDone.value / total) * 100)
+})
 </script>
 
 <template>
@@ -64,6 +100,36 @@ const dueItems = computed(
         </div>
       </dl>
     </header>
+
+    <section v-if="currentUnit" class="continue">
+      <div class="continue__body">
+        <p class="continue__eyebrow">
+          {{ currentUnit.level }} · Unit {{ currentUnit.unit.unit }}
+        </p>
+        <h2 class="continue__title">{{ currentUnit.unit.title }}</h2>
+        <p class="continue__note">{{ currentUnit.unit.description }}</p>
+      </div>
+      <NuxtLink
+        class="btn btn--primary"
+        :to="{
+          path: `/lesson/${currentUnit.track}/${currentUnit.level}/${currentUnit.unit.unit}`,
+        }"
+      >
+        Continue
+      </NuxtLink>
+    </section>
+
+    <section class="progress">
+      <div class="progress__row">
+        <span class="progress__label">Path</span>
+        <span class="progress__value">
+          {{ unitsDone }} of {{ allUnits.length }} units · {{ progressPercent }}%
+        </span>
+      </div>
+      <div class="progress__bar">
+        <div class="progress__fill" :style="{ width: `${progressPercent}%` }" />
+      </div>
+    </section>
 
     <section class="practice">
       <h2 class="practice__title">Practice</h2>
@@ -192,6 +258,78 @@ const dueItems = computed(
 
 .track {
   margin-bottom: var(--space-6);
+}
+
+.continue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.continue__body {
+  display: grid;
+  gap: 2px;
+}
+
+.continue__eyebrow {
+  margin: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent-strong);
+  font-weight: 700;
+}
+
+.continue__title {
+  font-size: 1.35rem;
+}
+
+.continue__note {
+  margin: 0;
+  color: var(--color-ink-soft);
+}
+
+.progress {
+  margin-bottom: var(--space-4);
+}
+
+.progress__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-2);
+}
+
+.progress__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-soft);
+}
+
+.progress__value {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+}
+
+.progress__bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.progress__fill {
+  height: 100%;
+  background: var(--color-accent);
+  transition: width 200ms ease;
 }
 
 .practice {
