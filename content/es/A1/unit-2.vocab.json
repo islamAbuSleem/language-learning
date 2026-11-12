@@ -2,78 +2,57 @@
   "unit": 2,
   "title": "Getting around",
   "description": "Ask for directions, read a map, and find your way.",
-  "grammar": "question words",
-  "grammarNote": "Some words take an article, some do not: está cerca, but la calle.",
+  "grammar": "nouns and their articles",
+  "grammarNote": "Some places take de as well: en la tienda, en la calle, but a través de la ciudad.",
+  "explanation": {
+    "summary": "Places and things take an article that says whether you mean a particular one or just the kind of thing. This unit is mostly vocabulary for asking your way, with the articles that go with it.",
+    "sections": [
+      {
+        "heading": "A particular one or any one",
+        "body": "The article el or la names a specific thing: el mapa, the map on the table. Without an article you are talking about the kind of thing, or about a place in general: vivo en Madrid, I live in Madrid, but trabajo en la tienda, I work in the shop, where the shop is one the listener knows.",
+        "examples": [
+          { "es": "El mapa está en la mesa.", "en": "The map is on the table." },
+          { "es": "Vivo en Madrid.", "en": "I live in Madrid." },
+          { "es": "Trabajo en la tienda.", "en": "I work in the shop." }
+        ]
+      },
+      {
+        "heading": "Asking your way",
+        "body": "To ask where something is, use dónde está. To ask how to get somewhere, the useful phrase is cómo llego a, and the answer gives a direction: está a la derecha, it is on the right. Derecha and izquierda are feminine, because la dirección is feminine.",
+        "examples": [
+          { "es": "¿Dónde está la estación?", "en": "Where is the station?" },
+          { "es": "¿Cómo llego al mercado?", "en": "How do I get to the market?" },
+          { "es": "Gire a la izquierda.", "en": "Turn left." }
+        ]
+      },
+      {
+        "heading": "Near and far",
+        "body": "Cerca and lejos are adjectives, and they take the preposition de before a place: cerca de la estación, lejos del centro. They also work on their own: el mapa está cerca. As with the weather, the verb for distance is estar.",
+        "examples": [
+          { "es": "El hotel está cerca de la estación.", "en": "The hotel is near the station." },
+          { "es": "Mi casa está lejos.", "en": "My house is far away." },
+          { "es": "El mercado está en el centro.", "en": "The market is in the centre." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "calle",
-      "en": "street",
-      "article": "la",
-      "note": "Feminine: la calle.",
-      "tags": ["place"]
-    },
-    {
-      "es": "tienda",
-      "en": "shop",
-      "article": "la",
-      "note": "Feminine: la tienda.",
-      "tags": ["place"]
-    },
-    {
-      "es": "cerca",
-      "en": "near",
-      "article": null,
-      "note": "No article on its own: está cerca.",
-      "tags": ["direction"]
-    },
-    {
-      "es": "lejos",
-      "en": "far",
-      "article": null,
-      "note": "No article on its own: está lejos.",
-      "tags": ["direction"]
-    },
-    {
-      "es": "mercado",
-      "en": "market",
-      "article": "el",
-      "note": "Masculine: el mercado.",
-      "tags": ["place"]
-    },
-    {
-      "es": "estación",
-      "en": "station",
-      "article": "la",
-      "note": "Feminine: la estación. The accent marks the stress.",
-      "tags": ["place"]
-    },
-    {
-      "es": "mapa",
-      "en": "map",
-      "article": "el",
-      "note": "Masculine: el mapa.",
-      "tags": ["object"]
-    },
-    {
-      "es": "izquierda",
-      "en": "left",
-      "article": "la",
-      "note": "Feminine: la izquierda. Directions keep the article.",
-      "tags": ["direction"]
-    },
-    {
-      "es": "derecha",
-      "en": "right",
-      "article": "la",
-      "note": "Feminine: la derecha.",
-      "tags": ["direction"]
-    },
-    {
-      "es": "llegar",
-      "en": "to arrive",
-      "article": null,
-      "note": "An infinitive: to arrive. It ends in -ar.",
-      "tags": ["verb"]
-    }
+    { "es": "calle", "en": "street", "article": "la", "note": "Feminine: la calle.", "tags": ["place"] },
+    { "es": "tienda", "en": "shop", "article": "la", "note": "Feminine: la tienda.", "tags": ["place"] },
+    { "es": "cerca", "en": "near", "article": null, "note": "It is an adjective and takes de before a place: cerca de.", "tags": ["direction"] },
+    { "es": "lejos", "en": "far", "article": null, "note": "It is an adjective and takes de before a place: lejos de.", "tags": ["direction"] },
+    { "es": "mercado", "en": "market", "article": "el", "note": "Masculine: el mercado.", "tags": ["place"] },
+    { "es": "estación", "en": "station", "article": "la", "note": "Feminine: la estación. The accent marks the stress.", "tags": ["place"] },
+    { "es": "mapa", "en": "map", "article": "el", "note": "Masculine: el mapa.", "tags": ["object"] },
+    { "es": "izquierda", "en": "left", "article": "la", "note": "Feminine: la izquierda.", "tags": ["direction"] },
+    { "es": "derecha", "en": "right", "article": "la", "note": "Feminine: la derecha.", "tags": ["direction"] },
+    { "es": "llegar", "en": "to arrive", "article": null, "note": "An infinitive ending in -ar: llego, llegas, llega.", "tags": ["verb"] }
+  ],
+  "drills": [
+    { "prompt": "¿Dónde ___ la estación?", "answer": "está", "meaning": "where is the station?", "note": "Estar says where a thing is." },
+    { "prompt": "El hotel está ___ de la estación.", "answer": "cerca", "meaning": "the hotel is near the station", "note": "Cerca takes de before a place." },
+    { "prompt": "Gire a la ___.", "answer": "izquierda", "meaning": "turn left", "note": "Izquierda is feminine." },
+    { "prompt": "Vivo ___ Madrid.", "answer": "en", "meaning": "I live in Madrid", "note": "A city in general takes no article." },
+    { "prompt": "___ mapa está en la mesa.", "answer": "El", "meaning": "the map is on the table", "note": "A particular thing takes the article." }
   ]
 }

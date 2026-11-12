@@ -1,0 +1,49 @@
+{
+  "unit": 9,
+  "title": "Ser and estar, the hard part",
+  "description": "Say what something is, and how it is.",
+  "grammar": "ser y estar, uso avanzado",
+  "grammarNote": "Ser says what something is. Estar says how it is, where it is, or how it is going.",
+  "explanation": {
+    "summary": "By now ser and estar are familiar. The advanced part is knowing which one a particular meaning needs, and knowing the fixed phrases where Spanish does not follow the rule you would expect.",
+    "sections": [
+      {
+        "heading": "The three jobs of estar",
+        "body": "Estar is for where a thing is, how a thing is right now, and how a thing is going. Ser is for what a thing is, who a thing is, and what it is made of. The tricky part is that some words change meaning with the verb: un café es frío, coffee is a cold thing, and el café está frío, the coffee has gone cold.",
+        "examples": [
+          { "es": "La reunión es a las nueve.", "en": "The meeting is at nine.", "note": "A scheduled event uses ser." },
+          { "es": "La reunión está a las nueve.", "en": "The meeting is running at nine.", "note": "A meeting in progress uses estar." },
+          { "es": "Es un problema grave.", "en": "It is a serious problem.", "note": "What it is uses ser." }
+        ]
+      },
+      {
+        "heading": "The fixed phrases",
+        "body": "Some expressions take one verb in Spanish and the other in English. Ser rico is to be rich, but estar rico means to be delicious. Estar listo means to be ready, but ser listo means to be clever. And estar bien means to be well, while ser bueno means to be a good person.",
+        "examples": [
+          { "es": "El restaurante está muy rico.", "en": "The restaurant is very delicious.", "note": "Estar rico is about the food." },
+          { "es": "El restaurante es muy rico.", "en": "The restaurant is very expensive.", "note": "Ser rico is about the price." },
+          { "es": "Estoy listo para salir.", "en": "I am ready to leave.", "note": "Estar listo is to be ready." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "en marcha", "en": "under way", "article": null, "note": "It goes with estar: el proyecto está en marcha.", "tags": ["phrase"] },
+    { "es": "en su sitio", "en": "in its place", "article": null, "note": "Everything está en su sitio.", "tags": ["phrase"] },
+    { "es": "a punto de", "en": "about to", "article": null, "note": "A point of the infinitive: está a punto de salir.", "tags": ["phrase"] },
+    { "es": "de acuerdo", "en": "agreed", "article": null, "note": "De acuerdo con: de acuerdo con el plan.", "tags": ["phrase"] },
+    { "es": "en efecto", "en": "indeed", "article": null, "note": "It agrees with what was just said.", "tags": ["phrase"] },
+    { "es": "sin embargo", "en": "however", "article": null, "note": "A formal but, with a comma before it.", "tags": ["phrase"] },
+    { "es": "en suma", "en": "in short", "article": null, "note": "It sums up what has been said.", "tags": ["phrase"] },
+    { "es": "en resumen", "en": "to sum up", "article": null, "note": "It closes a text.", "tags": ["phrase"] },
+    { "es": "por ahora", "en": "for now", "article": null, "note": "Por ahora no sé, I do not know for now.", "tags": ["phrase"] },
+    { "es": "a largo plazo", "en": "in the long run", "article": null, "note": "Opposite of a corto plazo.", "tags": ["phrase"] }
+  ],
+  "drills": [
+    { "prompt": "El restaurante está muy ___.", "answer": "rico", "meaning": "the restaurant is very delicious", "note": "Estar rico is about the food." },
+    { "prompt": "El restaurante es muy ___.", "answer": "rico", "meaning": "the restaurant is very expensive", "note": "Ser rico is about the price." },
+    { "prompt": "Estoy ___ para salir.", "answer": "listo", "meaning": "I am ready to leave", "note": "Estar listo is to be ready." },
+    { "prompt": "El proyecto está ___ marcha.", "answer": "en", "meaning": "the project is under way", "note": "En marcha is a fixed phrase with estar." },
+    { "prompt": "Está ___ de salir.", "answer": "a punto", "meaning": "he is about to leave", "note": "A punto de plus an infinitive." }
+  ]
+}

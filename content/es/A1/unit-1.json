@@ -4,6 +4,65 @@
   "unit": 1,
   "title": "At the café",
   "description": "Order a drink, read the room, and ask for the bill.",
+  "explanation": {
+    "summary": "Spanish nouns have a gender, and the article shows it. Usually el is masculine and la is feminine. You have to learn the gender with the word, because there is no way to work it out from the word itself.",
+    "sections": [
+      {
+        "heading": "The two articles",
+        "body": "El is masculine and la is feminine, and they are the only articles you need for a countable noun in the singular. In the plural they become los and las. A few nouns change their vowel in the plural: el café becomes los cafés, el sofá becomes los sofás.",
+        "examples": [
+          {
+            "es": "el café",
+            "en": "the coffee"
+          },
+          {
+            "es": "la leche",
+            "en": "the milk"
+          },
+          {
+            "es": "el azúcar",
+            "en": "the sugar"
+          }
+        ]
+      },
+      {
+        "heading": "The endings that usually tell you",
+        "body": "Most nouns ending in -o are masculine and most ending in -a are feminine: el trabajo, la casa. Nouns ending in -e are usually feminine: la leche, el café is the exception. Nouns ending in a consonant are usually masculine: el reloj, el vaso. But there are exceptions, and they are common enough that you should learn the gender with the noun.",
+        "examples": [
+          {
+            "es": "el vaso",
+            "en": "the glass"
+          },
+          {
+            "es": "la silla",
+            "en": "the chair"
+          },
+          {
+            "es": "el problema",
+            "en": "the problem"
+          }
+        ]
+      },
+      {
+        "heading": "When there is no article",
+        "body": "The article goes missing in three common cases. After a verb of wanting or needing you use un or una: quiero un café. After a number you use de: dos cafés. And with a description the article stays: el café caliente. After ser with a profession you leave it out: soy médico.",
+        "examples": [
+          {
+            "es": "quiero un café",
+            "en": "I want a coffee"
+          },
+          {
+            "es": "dos cafés",
+            "en": "two coffees"
+          },
+          {
+            "es": "el café caliente",
+            "en": "the hot coffee"
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a1/u1/match/cafe",
@@ -31,7 +90,7 @@
           "right": "la mesa"
         }
       ],
-      "note": "Every noun takes an article: el or la."
+      "note": "Every noun is either masculine or feminine, and the article says which."
     },
     {
       "id": "es/a1/u1/select/cafe",
@@ -45,36 +104,18 @@
       ],
       "answer": "el café",
       "translation": "coffee",
-      "note": "Café is masculine: el café."
+      "note": "Masculine: el café. The plural is los cafés."
     },
     {
-      "id": "es/a1/u1/type_in/agua",
+      "id": "es/a1/u1/drill/1",
       "type": "type_in",
-      "prompt": "Write “water” in Spanish.",
-      "answer": "agua",
+      "prompt": "___ leche, por favor.",
+      "answer": "La",
       "acceptedAnswers": [
-        "agua"
+        "La"
       ],
-      "translation": "water",
-      "note": "Agua is feminine but keeps el in the singular, because it begins with a vowel sound."
-    },
-    {
-      "id": "es/a1/u1/listen/leche",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la leche",
-      "options": [
-        "la leche",
-        "el café",
-        "el té",
-        "el agua"
-      ],
-      "audio": {
-        "text": "leche",
-        "lang": "es"
-      },
-      "translation": "milk",
-      "note": "Feminine: la leche."
+      "translation": "milk, please",
+      "note": "Leche is feminine."
     },
     {
       "id": "es/a1/u1/match/silla",
@@ -102,78 +143,79 @@
           "right": "la cuenta"
         }
       ],
-      "note": "Every noun takes an article: el or la."
+      "note": "Every noun is either masculine or feminine, and the article says which."
     },
     {
-      "id": "es/a1/u1/select/te",
+      "id": "es/a1/u1/select/agua",
       "type": "select",
-      "prompt": "Pick the Spanish word for “tea”.",
+      "prompt": "Pick the Spanish word for “water”.",
       "options": [
-        "la leche",
         "el café",
-        "el agua",
-        "el té"
-      ],
-      "answer": "el té",
-      "translation": "tea",
-      "note": "Té is masculine: el té."
-    },
-    {
-      "id": "es/a1/u1/type_in/mesa",
-      "type": "type_in",
-      "prompt": "Write “table” in Spanish.",
-      "answer": "mesa",
-      "acceptedAnswers": [
-        "mesa"
-      ],
-      "translation": "table",
-      "note": "Feminine: la mesa."
-    },
-    {
-      "id": "es/a1/u1/listen/silla",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la silla",
-      "options": [
-        "la mesa",
-        "el azúcar",
+        "la leche",
         "el té",
-        "la silla"
+        "el agua"
       ],
-      "audio": {
-        "text": "silla",
-        "lang": "es"
-      },
-      "translation": "chair",
-      "note": "Feminine: la silla."
+      "answer": "el agua",
+      "translation": "water",
+      "note": "Feminine but keeps el in the singular, because it begins with a vowel sound."
     },
     {
-      "id": "es/a1/u1/select/azucar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “sugar”.",
-      "options": [
-        "sí",
-        "no",
-        "el azúcar",
-        "por favor"
+      "id": "es/a1/u1/drill/2",
+      "type": "type_in",
+      "prompt": "Quiero ___ café.",
+      "answer": "un",
+      "acceptedAnswers": [
+        "un"
       ],
-      "answer": "el azúcar",
-      "translation": "sugar",
-      "note": "Masculine: el azúcar, even though it ends in -z."
+      "translation": "I want a coffee",
+      "note": "After querer you use un or una."
     },
     {
-      "id": "es/a1/u1/select/caliente",
+      "id": "es/a1/u1/select/leche",
       "type": "select",
-      "prompt": "Pick the Spanish word for “hot”.",
+      "prompt": "Pick the Spanish word for “milk”.",
       "options": [
-        "frío",
-        "la silla",
-        "el azúcar",
-        "caliente"
+        "el agua",
+        "el té",
+        "el café",
+        "la leche"
       ],
-      "answer": "caliente",
-      "translation": "hot",
-      "note": "No article on its own: está caliente."
+      "answer": "la leche",
+      "translation": "milk",
+      "note": "Feminine: la leche."
+    },
+    {
+      "id": "es/a1/u1/drill/3",
+      "type": "type_in",
+      "prompt": "___ café caliente.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the hot coffee",
+      "note": "A description keeps the article."
+    },
+    {
+      "id": "es/a1/u1/drill/4",
+      "type": "type_in",
+      "prompt": "___ azúcar, por favor.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "sugar, please",
+      "note": "Azúcar is masculine."
+    },
+    {
+      "id": "es/a1/u1/drill/5",
+      "type": "type_in",
+      "prompt": "Quiero ___ silla.",
+      "answer": "una",
+      "acceptedAnswers": [
+        "una"
+      ],
+      "translation": "I want a chair",
+      "note": "Silla is feminine, so una."
     }
   ]
 }

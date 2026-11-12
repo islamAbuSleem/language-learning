@@ -1,0 +1,203 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 10,
+  "title": "Writing the news",
+  "description": "Report what happened, and put it in writing.",
+  "explanation": {
+    "summary": "Reporting and writing have their own verbs and their own rules. The verbs of saying change what follows them, and the register of a text changes the vocabulary.",
+    "sections": [
+      {
+        "heading": "The verbs that report",
+        "body": "Decir, contar and quedar are the plain ones: dijo que, contó que. Anunciar, informar and confirmar are the ones of official news: el gobierno anunció que. And comentar is what a radio host does: el presentador comentó que. After all of them the verb moves one step back in time, and the question word stays in front.",
+        "examples": [
+          {
+            "es": "El gobierno anunció que las medidas empezarían en enero.",
+            "en": "The government announced that the measures would start in January."
+          },
+          {
+            "es": "La prensa informó que la situación había cambiado.",
+            "en": "The press reported that the situation had changed."
+          },
+          {
+            "es": "El presentador comentó que sería un año difícil.",
+            "en": "The presenter said it would be a difficult year."
+          }
+        ]
+      },
+      {
+        "heading": "Writing, and the register",
+        "body": "A formal text avoids the spoken fillers and uses the written connectives: no obstante, por consiguiente, en consecuencia. It also uses the third person and the passive, and it avoids the tú. An informal text does the opposite, and uses contractions like al and del.",
+        "examples": [
+          {
+            "es": "No obstante, los resultados fueron positivos.",
+            "en": "Nevertheless, the results were positive."
+          },
+          {
+            "es": "En consecuencia, se tomarán nuevas medidas.",
+            "en": "Consequently, new measures will be taken."
+          },
+          {
+            "es": "Al final del día, todo había vuelto a su sitio.",
+            "en": "By the end of the day, everything was back in its place."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u10/match/anunciar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to announce",
+          "right": "anunciar"
+        },
+        {
+          "left": "to report",
+          "right": "informar"
+        },
+        {
+          "left": "to comment",
+          "right": "comentar"
+        },
+        {
+          "left": "to confirm",
+          "right": "confirmar"
+        },
+        {
+          "left": "consequence",
+          "right": "la consecuencia"
+        }
+      ],
+      "note": "To report, you use the verb of saying and then que: dijo que, contó que."
+    },
+    {
+      "id": "es/b2/u10/select/anunciar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to announce”.",
+      "options": [
+        "poder",
+        "hay",
+        "deber",
+        "anunciar"
+      ],
+      "answer": "anunciar",
+      "translation": "to announce",
+      "note": "An infinitive ending in -ar: anuncio, anuncias, anuncia."
+    },
+    {
+      "id": "es/b2/u10/drill/1",
+      "type": "type_in",
+      "prompt": "El gobierno ___ que las medidas empezarían en enero.",
+      "answer": "anunció",
+      "acceptedAnswers": [
+        "anuncio"
+      ],
+      "translation": "the government announced that the measures would start in January",
+      "note": "Anunciar que, and the verb moves back a step."
+    },
+    {
+      "id": "es/b2/u10/match/medida",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "measure",
+          "right": "la medida"
+        },
+        {
+          "left": "increase",
+          "right": "el aumento"
+        },
+        {
+          "left": "decrease",
+          "right": "el descenso"
+        },
+        {
+          "left": "figure",
+          "right": "el dato"
+        },
+        {
+          "left": "report",
+          "right": "el informe"
+        }
+      ],
+      "note": "To report, you use the verb of saying and then que: dijo que, contó que."
+    },
+    {
+      "id": "es/b2/u10/select/informar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to report”.",
+      "options": [
+        "descubrir",
+        "pedir",
+        "compartir",
+        "informar"
+      ],
+      "answer": "informar",
+      "translation": "to report",
+      "note": "An infinitive ending in -ar: informo, informas, informa."
+    },
+    {
+      "id": "es/b2/u10/drill/2",
+      "type": "type_in",
+      "prompt": "En ___, se tomarán nuevas medidas.",
+      "answer": "consecuencia",
+      "acceptedAnswers": [
+        "consecuencia"
+      ],
+      "translation": "consequently, new measures will be taken",
+      "note": "A written connective."
+    },
+    {
+      "id": "es/b2/u10/select/comentar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to comment”.",
+      "options": [
+        "viajar",
+        "tener",
+        "querer",
+        "comentar"
+      ],
+      "answer": "comentar",
+      "translation": "to comment",
+      "note": "An infinitive ending in -ar: comento, comentas, comenta."
+    },
+    {
+      "id": "es/b2/u10/drill/3",
+      "type": "type_in",
+      "prompt": "No ___, los resultados fueron positivos.",
+      "answer": "obstante",
+      "acceptedAnswers": [
+        "obstante"
+      ],
+      "translation": "nevertheless, the results were positive",
+      "note": "Sin embargo is fixed: no obstante."
+    },
+    {
+      "id": "es/b2/u10/drill/4",
+      "type": "type_in",
+      "prompt": "La prensa ___ que las ventas habían subido.",
+      "answer": "informó",
+      "acceptedAnswers": [
+        "informo"
+      ],
+      "translation": "the press reported that sales had risen",
+      "note": "Informar que."
+    },
+    {
+      "id": "es/b2/u10/drill/5",
+      "type": "type_in",
+      "prompt": "Al ___ del día, todo había vuelto a su sitio.",
+      "answer": "final",
+      "acceptedAnswers": [
+        "final"
+      ],
+      "translation": "by the end of the day, everything was back in its place",
+      "note": "Al final del, with al contracted."
+    }
+  ]
+}

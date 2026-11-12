@@ -4,6 +4,38 @@
   "description": "Say what you do every day.",
   "grammar": "regular -ar verbs in the present",
   "grammarNote": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan.",
+  "explanation": {
+    "summary": "Most Spanish verbs end in -ar, and they all work the same way. Learn the pattern once and you can conjugate every verb in this unit without another word.",
+    "sections": [
+      {
+        "heading": "The six endings",
+        "body": "Take the infinitive, drop the -ar, and add the ending: -o, -as, -a, -amos, -áis, -an. Hablar becomes hablo, hablas, habla, hablamos, habláis, hablan. The accent on habláis is what keeps it different from hablo, so do not drop it.",
+        "examples": [
+          { "es": "Hablo español.", "en": "I speak Spanish." },
+          { "es": "Mi hermana estudia inglés.", "en": "My sister studies English." },
+          { "es": "Trabajamos por la mañana.", "en": "We work in the morning." }
+        ]
+      },
+      {
+        "heading": "Tú and usted",
+        "body": "You take the tú form for people you know well, and the usted form for anyone you should be polite to. The usted form adds an r to the yo form: hablo becomes hable, hablas becomes hable. Talking to a friend you use hablas; talking to a stranger you use hable.",
+        "examples": [
+          { "es": "¿Hablas inglés?", "en": "Do you speak English?" },
+          { "es": "¿Habla usted inglés?", "en": "Do you speak English?" },
+          { "es": "Hablamos español en casa.", "en": "We speak Spanish at home." }
+        ]
+      },
+      {
+        "heading": "What happens every day",
+        "body": "To say how often, the adverb goes after the verb: siempre, todos los días, a veces. With a time you use a: trabajo por la mañana. The word for every day is todos los días, and it is plural even though it means one day.",
+        "examples": [
+          { "es": "Estudio todos los días.", "en": "I study every day." },
+          { "es": "Siempre desayuno café.", "en": "I always have coffee for breakfast." },
+          { "es": "A veces cocino en casa.", "en": "Sometimes I cook at home." }
+        ]
+      }
+    ]
+  },
   "items": [
     { "es": "hablar", "en": "to speak", "article": null, "note": "An infinitive ending in -ar: hablo, hablas, habla.", "tags": ["verb"] },
     { "es": "trabajar", "en": "to work", "article": null, "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja.", "tags": ["verb"] },
@@ -14,6 +46,13 @@
     { "es": "necesitar", "en": "to need", "article": null, "note": "An infinitive ending in -ar: necesito, necesitas, necesita.", "tags": ["verb"] },
     { "es": "casa", "en": "house", "article": "la", "note": "Feminine: la casa. It also means home.", "tags": ["place"] },
     { "es": "día", "en": "day", "article": "el", "note": "Masculine: el día. The plural is los días.", "tags": ["time"] },
-    { "es": "mañana", "en": "morning", "article": null, "note": "Also means tomorrow. With a time it means in the morning.", "tags": ["time"] }
+    { "es": "mañana", "en": "morning", "article": null, "note": "In the phrase por la mañana. On its own it also means tomorrow.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "Yo ___ español.", "answer": "hablo", "meaning": "I speak Spanish", "note": "The yo form of an -ar verb." },
+    { "prompt": "¿___ usted inglés?", "answer": "Habla", "meaning": "do you speak English?", "note": "The usted form adds an r to the yo form." },
+    { "prompt": "Mi hermana ___ inglés.", "answer": "estudia", "meaning": "my sister studies English", "note": "Ella estudia." },
+    { "prompt": "Nosotros ___ por la mañana.", "answer": "trabajamos", "meaning": "we work in the morning", "note": "The nosotros form of trabajar." },
+    { "prompt": "Yo ___ café por la mañana.", "answer": "desayuno", "meaning": "I have coffee for breakfast", "note": "Desayunar is an -ar verb: desayuno." }
   ]
 }

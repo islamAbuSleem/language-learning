@@ -1,0 +1,203 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 6,
+  "title": "Turning verbs into nouns",
+  "description": "Say what a thing is, and what it is for.",
+  "explanation": {
+    "summary": "Spanish turns verbs into nouns with endings, and the endings follow a pattern. It is a very productive way to write, and it is everywhere in formal Spanish.",
+    "sections": [
+      {
+        "heading": "The four endings",
+        "body": "An -ar verb makes a noun ending in -ción: hablar becomes la comunicación, or a noun ending in -amiento: emplear becomes el empleo. An -er or -ir verb makes -ción: comer becomes la reunión, or -imiento: vivir becomes el movimiento. The -ción nouns are always feminine, and the -amiento and -imiento nouns are usually masculine.",
+        "examples": [
+          {
+            "es": "La comunicación es importante.",
+            "en": "Communication is important."
+          },
+          {
+            "es": "El alojamiento era caro.",
+            "en": "The accommodation was expensive."
+          },
+          {
+            "es": "La reunión empieza a las nueve.",
+            "en": "The meeting starts at nine."
+          }
+        ]
+      },
+      {
+        "heading": "Why it matters",
+        "body": "The noun often takes a preposition that the verb did not: decidir takes en, and la decisión takes sobre or de. Cambiar takes por and el cambio takes de. So the noun is not only a new word, it comes with its own grammar.",
+        "examples": [
+          {
+            "es": "La decisión sobre el presupuesto fue difícil.",
+            "en": "The decision about the budget was difficult."
+          },
+          {
+            "es": "El cambio de idioma no fue fácil.",
+            "en": "The change of language was not easy."
+          },
+          {
+            "es": "La satisfacción del cliente es lo primero.",
+            "en": "Customer satisfaction comes first."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u6/match/comunicacion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "communication",
+          "right": "la comunicación"
+        },
+        {
+          "left": "meeting",
+          "right": "la reunión"
+        },
+        {
+          "left": "decision",
+          "right": "la decisión"
+        },
+        {
+          "left": "movement",
+          "right": "el movimiento"
+        },
+        {
+          "left": "employment",
+          "right": "el empleo"
+        }
+      ],
+      "note": "A verb can become a noun: hablar becomes la hablar, el hablar; llegar becomes la llegada."
+    },
+    {
+      "id": "es/b2/u6/select/comunicacion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “communication”.",
+      "options": [
+        "la reunión",
+        "la decisión",
+        "el logro",
+        "la comunicación"
+      ],
+      "answer": "la comunicación",
+      "translation": "communication",
+      "note": "Feminine: la comunicación. From comunicar."
+    },
+    {
+      "id": "es/b2/u6/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ es importante.",
+      "answer": "comunicación",
+      "acceptedAnswers": [
+        "comunicacion"
+      ],
+      "translation": "communication is important",
+      "note": "Comunicar makes la comunicación."
+    },
+    {
+      "id": "es/b2/u6/match/cambio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "change",
+          "right": "el cambio"
+        },
+        {
+          "left": "agreement",
+          "right": "el acuerdo"
+        },
+        {
+          "left": "result",
+          "right": "el resultado"
+        },
+        {
+          "left": "satisfaction",
+          "right": "la satisfacción"
+        },
+        {
+          "left": "achievement",
+          "right": "el logro"
+        }
+      ],
+      "note": "A verb can become a noun: hablar becomes la hablar, el hablar; llegar becomes la llegada."
+    },
+    {
+      "id": "es/b2/u6/select/reunion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “meeting”.",
+      "options": [
+        "la reunión",
+        "el cambio",
+        "el acuerdo",
+        "el resultado"
+      ],
+      "answer": "la reunión",
+      "translation": "meeting",
+      "note": "Feminine: la reunión. From reunir."
+    },
+    {
+      "id": "es/b2/u6/drill/2",
+      "type": "type_in",
+      "prompt": "La ___ empieza a las nueve.",
+      "answer": "reunión",
+      "acceptedAnswers": [
+        "reunion"
+      ],
+      "translation": "the meeting starts at nine",
+      "note": "Reunir makes la reunión."
+    },
+    {
+      "id": "es/b2/u6/select/decision",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “decision”.",
+      "options": [
+        "el resultado",
+        "la satisfacción",
+        "el logro",
+        "la decisión"
+      ],
+      "answer": "la decisión",
+      "translation": "decision",
+      "note": "Feminine: la decisión. From decidir."
+    },
+    {
+      "id": "es/b2/u6/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ de idioma no fue fácil.",
+      "answer": "cambio",
+      "acceptedAnswers": [
+        "cambio"
+      ],
+      "translation": "the change of language was not easy",
+      "note": "Cambiar makes el cambio, and it takes de."
+    },
+    {
+      "id": "es/b2/u6/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ fue una buena idea.",
+      "answer": "acuerdo",
+      "acceptedAnswers": [
+        "acuerdo"
+      ],
+      "translation": "the agreement was a good idea",
+      "note": "Acordar makes el acuerdo."
+    },
+    {
+      "id": "es/b2/u6/drill/5",
+      "type": "type_in",
+      "prompt": "La ___ del cliente es lo primero.",
+      "answer": "satisfacción",
+      "acceptedAnswers": [
+        "satisfaccion"
+      ],
+      "translation": "customer satisfaction comes first",
+      "note": "Satisfacer makes la satisfacción."
+    }
+  ]
+}

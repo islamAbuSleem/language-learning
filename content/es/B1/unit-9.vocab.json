@@ -4,96 +4,55 @@
   "description": "More of the past, with the other two verb endings.",
   "grammar": "the preterite with -er and -ir verbs",
   "grammarNote": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron.",
+  "explanation": {
+    "summary": "The -er and -ir verbs share one set of preterite endings, and the pattern is the same as the -ar verbs with the accent moved. The irregular verbs are the ones to watch.",
+    "sections": [
+      {
+        "heading": "One set of endings",
+        "body": "Both families take -í, -iste, -ió, -imos, -isteis, -ieron. Comer becomes comí, comiste, comió, comimos, comisteis, comieron. Vivir becomes viví, viviste, vivió, vivimos, vivisteis, vivieron. Compare with the -ar form, which ends in ó for the third person: habló.",
+        "examples": [
+          { "es": "Comí a las dos.", "en": "I ate at two." },
+          { "es": "Viviste en Madrid dos años.", "en": "You lived in Madrid for two years." },
+          { "es": "Escribieron una carta.", "en": "They wrote a letter." }
+        ]
+      },
+      {
+        "heading": "The yo form changes the stem",
+        "body": "A number of -er and -ir verbs change the stem in the yo form of the preterite, and drop the ending: pedir becomes pedí, venir becomes vine, decir becomes dije, poder became pude, tener became tuve, hacer became hice. And the third person of the very irregular verbs changes too: dijo, hizo, tuvo, vino, pudo.",
+        "examples": [
+          { "es": "Pedí un taxi.", "en": "I ordered a taxi." },
+          { "es": "Vino a visitarnos.", "en": "He came to visit us." },
+          { "es": "Dijo la verdad.", "en": "He told the truth." }
+        ]
+      },
+      {
+        "heading": "Choosing between the two pasts",
+        "body": "Use the preterite for a finished event with a time attached, and the imperfect for how things were. The imperfect is the one you use for the background of a story: de niño jugaba en el parque. The preterite moves the story forward: un día, jugué en el parque.",
+        "examples": [
+          { "es": "Un día, jugué en el parque.", "en": "One day, I played in the park." },
+          { "es": "De niño, jugaba en el parque.", "en": "As a child, I used to play in the park." },
+          { "es": "Cuando era pequeño, no leía.", "en": "When I was small, I did not read." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "pidió",
-      "en": "he asked for",
-      "article": null,
-      "note": "The preterite of pedir. The yo form drops the e: pedí.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "entendió",
-      "en": "he understood",
-      "article": null,
-      "note": "The preterite of entender. The yo form drops the e: entendí.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "llegó",
-      "en": "he arrived",
-      "article": null,
-      "note": "The preterite of llegar. The yo form takes an accent: llegué.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "salió",
-      "en": "he left",
-      "article": null,
-      "note": "The preterite of salir. The yo form takes an accent: salí.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "artículo",
-      "en": "item",
-      "article": "el",
-      "note": "Masculine: el artículo. It also means an article in a newspaper.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "reunión",
-      "en": "meeting",
-      "article": "la",
-      "note": "Feminine: la reunión. The accent marks the stress.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "problema",
-      "en": "problem",
-      "article": "el",
-      "note": "Masculine: el problema.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "solución",
-      "en": "solution",
-      "article": "la",
-      "note": "Feminine: la solución. The accent marks the stress.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "respuesta",
-      "en": "answer",
-      "article": "la",
-      "note": "Feminine: la respuesta.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "decisión",
-      "en": "decision",
-      "article": "la",
-      "note": "Feminine: la decisión. The accent marks the stress.",
-      "tags": [
-        "object"
-      ]
-    }
+    { "es": "pidió", "en": "he asked for", "article": null, "note": "The preterite of pedir. The yo form is pedí.", "tags": ["verb"] },
+    { "es": "entendió", "en": "he understood", "article": null, "note": "The preterite of entender. The yo form is entendí.", "tags": ["verb"] },
+    { "es": "llegó", "en": "he arrived", "article": null, "note": "The preterite of llegar. The yo form is llegué.", "tags": ["verb"] },
+    { "es": "salió", "en": "he left", "article": null, "note": "The preterite of salir. The yo form is salí.", "tags": ["verb"] },
+    { "es": "artículo", "en": "item", "article": "el", "note": "Masculine: el artículo. It also means an article in a newspaper.", "tags": ["object"] },
+    { "es": "reunión", "en": "meeting", "article": "la", "note": "Feminine: la reunión. The accent marks the stress.", "tags": ["object"] },
+    { "es": "problema", "en": "problem", "article": "el", "note": "Masculine: el problema.", "tags": ["object"] },
+    { "es": "solución", "en": "solution", "article": "la", "note": "Feminine: la solución. The accent marks the stress.", "tags": ["object"] },
+    { "es": "respuesta", "en": "answer", "article": "la", "note": "Feminine: la respuesta.", "tags": ["object"] },
+    { "es": "decisión", "en": "decision", "article": "la", "note": "Feminine: la decisión. The accent marks the stress.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "Comí ___ las dos.", "answer": "a", "meaning": "I ate at two", "note": "A specific time takes a." },
+    { "prompt": "___ un taxi.", "answer": "Pedí", "meaning": "I ordered a taxi", "note": "Pedir is irregular in the yo form." },
+    { "prompt": "___ a visitarnos.", "answer": "Vino", "meaning": "he came to visit us", "note": "Venir is irregular in the preterite." },
+    { "prompt": "___ la verdad.", "answer": "Dijo", "meaning": "he told the truth", "note": "Decir is irregular." },
+    { "prompt": "Cuando era pequeño, no ___.", "answer": "leía", "meaning": "when I was small, I did not read", "note": "How things were takes the imperfect." }
   ]
 }

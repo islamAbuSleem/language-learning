@@ -1,0 +1,203 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 3,
+  "title": "Whatever happens next",
+  "description": "Say what may happen, and what must be done.",
+  "explanation": {
+    "summary": "The perfect subjunctive is the present perfect with the -se ending instead of the -o ending. It appears in a handful of fixed phrases, and it is the natural way to say that something must happen before something else can.",
+    "sections": [
+      {
+        "heading": "How it is formed",
+        "body": "Take the present perfect and change the ending: he hablado becomes haya hablado, has comido becomes haya comido. The forms only exist for haber, which is why you only learn one set: haya, hayas, haya, hayamos, hayáis, hayan.",
+        "examples": [
+          {
+            "es": "Espero que haya terminado.",
+            "en": "I hope it has finished."
+          },
+          {
+            "es": "Es posible que haya llegado.",
+            "en": "It is possible that he has arrived."
+          },
+          {
+            "es": "Necesito que hayan enviado el paquete.",
+            "en": "I need them to have sent the parcel."
+          }
+        ]
+      },
+      {
+        "heading": "Where it appears",
+        "body": "The commonest use is with esperar, to hope: espero que haya llegado. Then it comes after expressions of doubt and possibility: es posible que, no creo que, es dudoso que. And it says something must be done first: necesito que hayan pagado.",
+        "examples": [
+          {
+            "es": "Espero que hayáis visto el mensaje.",
+            "en": "I hope you have seen the message."
+          },
+          {
+            "es": "No creo que hayan llegado todavía.",
+            "en": "I do not think they have arrived yet."
+          },
+          {
+            "es": "Es dudoso que haya sido posible.",
+            "en": "It is doubtful that it was possible."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u3/match/haya-hablado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "has spoken",
+          "right": "haya hablado"
+        },
+        {
+          "left": "has eaten",
+          "right": "haya comido"
+        },
+        {
+          "left": "has lived",
+          "right": "haya vivido"
+        },
+        {
+          "left": "has worked",
+          "right": "haya trabajado"
+        },
+        {
+          "left": "has studied",
+          "right": "haya estudiado"
+        }
+      ],
+      "note": "The perfect subjunctive is the -se form of the past subjunctive: haya hablado, haya comido."
+    },
+    {
+      "id": "es/b2/u3/select/haya-hablado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “has spoken”.",
+      "options": [
+        "haya hablado",
+        "responder",
+        "perder",
+        "escribir"
+      ],
+      "answer": "haya hablado",
+      "translation": "has spoken",
+      "note": "The perfect subjunctive of hablar."
+    },
+    {
+      "id": "es/b2/u3/drill/1",
+      "type": "type_in",
+      "prompt": "Espero que ___ terminado.",
+      "answer": "haya",
+      "acceptedAnswers": [
+        "haya"
+      ],
+      "translation": "I hope it has finished",
+      "note": "The perfect subjunctive of haber."
+    },
+    {
+      "id": "es/b2/u3/match/haya-salido",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "has left",
+          "right": "haya salido"
+        },
+        {
+          "left": "has done",
+          "right": "haya hecho"
+        },
+        {
+          "left": "has said",
+          "right": "haya dicho"
+        },
+        {
+          "left": "has written",
+          "right": "haya escrito"
+        },
+        {
+          "left": "hopefully",
+          "right": "ojalá"
+        }
+      ],
+      "note": "The perfect subjunctive is the -se form of the past subjunctive: haya hablado, haya comido."
+    },
+    {
+      "id": "es/b2/u3/select/haya-comido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “has eaten”.",
+      "options": [
+        "he comido",
+        "he trabajado",
+        "he vivido",
+        "haya comido"
+      ],
+      "answer": "haya comido",
+      "translation": "has eaten",
+      "note": "The perfect subjunctive of comer."
+    },
+    {
+      "id": "es/b2/u3/drill/2",
+      "type": "type_in",
+      "prompt": "Es posible que ___ llegado.",
+      "answer": "haya",
+      "acceptedAnswers": [
+        "haya"
+      ],
+      "translation": "it is possible that he has arrived",
+      "note": "Possibility takes the perfect subjunctive."
+    },
+    {
+      "id": "es/b2/u3/select/haya-vivido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “has lived”.",
+      "options": [
+        "haré",
+        "podré",
+        "vendré",
+        "haya vivido"
+      ],
+      "answer": "haya vivido",
+      "translation": "has lived",
+      "note": "The perfect subjunctive of vivir."
+    },
+    {
+      "id": "es/b2/u3/drill/3",
+      "type": "type_in",
+      "prompt": "No creo que ___ llegado todavía.",
+      "answer": "hayan",
+      "acceptedAnswers": [
+        "hayan"
+      ],
+      "translation": "I do not think they have arrived yet",
+      "note": "Doubt takes the perfect subjunctive."
+    },
+    {
+      "id": "es/b2/u3/drill/4",
+      "type": "type_in",
+      "prompt": "Espero que ___ visto el mensaje.",
+      "answer": "hayáis",
+      "acceptedAnswers": [
+        "hayais"
+      ],
+      "translation": "I hope you have seen the message",
+      "note": "The vosotros form."
+    },
+    {
+      "id": "es/b2/u3/drill/5",
+      "type": "type_in",
+      "prompt": "Necesito que ___ enviado el paquete.",
+      "answer": "hayan",
+      "acceptedAnswers": [
+        "hayan"
+      ],
+      "translation": "I need them to have sent the parcel",
+      "note": "Necesitar que plus the perfect subjunctive."
+    }
+  ]
+}

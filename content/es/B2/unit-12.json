@@ -1,0 +1,203 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 12,
+  "title": "Writing for others",
+  "description": "Write a formal letter, and sign it properly.",
+  "explanation": {
+    "summary": "The last level is about register: the same Spanish, said in the way that fits the reader. A letter to a company is not a message to a friend, and Spanish marks the difference clearly.",
+    "sections": [
+      {
+        "heading": "How a formal letter is built",
+        "body": "It opens with Estimado señor or Estimada señora, or with the job title: Estimado director. The body uses usted and the third person, and the verbs are formal: le escribo, me permito adjuntar. It closes with an offer, Atentamente, and the name.",
+        "examples": [
+          {
+            "es": "Estimado señor López: Le escribo para informarle de que su solicitud ha sido aprobada.",
+            "en": "Dear Mr López: I am writing to inform you that your application has been approved."
+          },
+          {
+            "es": "Me permito adjuntar el informe solicitado.",
+            "en": "I take the liberty of attaching the requested report."
+          },
+          {
+            "es": "Atentamente, Ana García.",
+            "en": "Yours faithfully, Ana García."
+          }
+        ]
+      },
+      {
+        "heading": "Formal words, and what to avoid",
+        "body": "A formal text avoids the contracted al and del, and it says por este motivo instead of por eso. It uses the words for saying that a business uses: solicitar, to request; adjuntar, to attach. And it does not use the word for a thing you have just found out informally, the news in the press.",
+        "examples": [
+          {
+            "es": "Por este motivo, le solicito una respuesta.",
+            "en": "For this reason, I request a reply from you."
+          },
+          {
+            "es": "Se adjunta la documentación requerida.",
+            "en": "The required documentation is attached."
+          },
+          {
+            "es": "Quedo a la espera de sus comentarios.",
+            "en": "I look forward to your comments."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u12/match/estimado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "dear",
+          "right": "estimado"
+        },
+        {
+          "left": "yours faithfully",
+          "right": "atentamente"
+        },
+        {
+          "left": "to request",
+          "right": "solicitar"
+        },
+        {
+          "left": "to attach",
+          "right": "adjuntar"
+        },
+        {
+          "left": "awaiting your reply",
+          "right": "a su espera"
+        }
+      ],
+      "note": "A formal letter uses usted, and it opens with Estimado señor or Estimada señora."
+    },
+    {
+      "id": "es/b2/u12/select/estimado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “dear”.",
+      "options": [
+        "adjuntar",
+        "a su espera",
+        "solicitar",
+        "estimado"
+      ],
+      "answer": "estimado",
+      "translation": "dear",
+      "note": "It opens a formal letter: estimado señor."
+    },
+    {
+      "id": "es/b2/u12/drill/1",
+      "type": "type_in",
+      "prompt": "___ señor López: Le escribo para informarle.",
+      "answer": "Estimado",
+      "acceptedAnswers": [
+        "Estimado"
+      ],
+      "translation": "dear Mr López: I am writing to inform you",
+      "note": "A formal letter opens with estimado."
+    },
+    {
+      "id": "es/b2/u12/match/por-este-motivo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "for this reason",
+          "right": "por este motivo"
+        },
+        {
+          "left": "it is attached",
+          "right": "se adjunta"
+        },
+        {
+          "left": "cordially",
+          "right": "cordialmente"
+        },
+        {
+          "left": "far",
+          "right": "lejos"
+        },
+        {
+          "left": "subject",
+          "right": "el asunto"
+        }
+      ],
+      "note": "A formal letter uses usted, and it opens with Estimado señor or Estimada señora."
+    },
+    {
+      "id": "es/b2/u12/select/atentamente",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “yours faithfully”.",
+      "options": [
+        "solicitar",
+        "a su espera",
+        "adjuntar",
+        "atentamente"
+      ],
+      "answer": "atentamente",
+      "translation": "yours faithfully",
+      "note": "It closes a formal letter."
+    },
+    {
+      "id": "es/b2/u12/drill/2",
+      "type": "type_in",
+      "prompt": "___ , Ana García.",
+      "answer": "Atentamente",
+      "acceptedAnswers": [
+        "Atentamente"
+      ],
+      "translation": "yours faithfully, Ana García",
+      "note": "It closes a formal letter."
+    },
+    {
+      "id": "es/b2/u12/select/solicitar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to request”.",
+      "options": [
+        "adjuntar",
+        "por este motivo",
+        "a su espera",
+        "solicitar"
+      ],
+      "answer": "solicitar",
+      "translation": "to request",
+      "note": "A formal verb: solicitar una reunión."
+    },
+    {
+      "id": "es/b2/u12/drill/3",
+      "type": "type_in",
+      "prompt": "___ este motivo, le solicito una respuesta.",
+      "answer": "Por",
+      "acceptedAnswers": [
+        "Por"
+      ],
+      "translation": "for this reason, I request a reply",
+      "note": "The formal way to say por eso."
+    },
+    {
+      "id": "es/b2/u12/drill/4",
+      "type": "type_in",
+      "prompt": "Me permito ___ el informe.",
+      "answer": "adjuntar",
+      "acceptedAnswers": [
+        "adjuntar"
+      ],
+      "translation": "I take the liberty of attaching the report",
+      "note": "A formal verb."
+    },
+    {
+      "id": "es/b2/u12/drill/5",
+      "type": "type_in",
+      "prompt": "Quedo ___ su respuesta.",
+      "answer": "la espera",
+      "acceptedAnswers": [
+        "la espera"
+      ],
+      "translation": "I look forward to your reply",
+      "note": "Quedo a la espera de su respuesta."
+    }
+  ]
+}

@@ -4,96 +4,55 @@
   "description": "Say what someone is like, and what they do.",
   "grammar": "the irregular verbs and their adjectives",
   "grammarNote": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña.",
+  "explanation": {
+    "summary": "Two things meet in this unit. The irregular verbs are the ones Spanish uses most, so their forms are worth learning early. And the adjectives that describe people change their ending to match the noun.",
+    "sections": [
+      {
+        "heading": "The verbs you cannot avoid",
+        "body": "Eight verbs are irregular in the present, and they are the ones you use every day: ser, estar, ir, haber, dar, saber, querer, poder. Their forms are worth learning as whole words rather than as a pattern: estoy, estás, está, estamos, estáis, están.",
+        "examples": [
+          { "es": "Soy profesor de español.", "en": "I am a Spanish teacher." },
+          { "es": "Está en la cocina.", "en": "He is in the kitchen." },
+          { "es": "No sé su nombre.", "en": "I do not know his name." }
+        ]
+      },
+      {
+        "heading": "The adjective endings",
+        "body": "An adjective ending in -o changes to -a before a feminine noun: un trabajo difícil, una casa difícil. One ending in -e or a consonant does not change: un hombre grande, una mujer grande. And the adjectives of nationality drop their ending in front of a noun: un español alto, una española alta.",
+        "examples": [
+          { "es": "Es una niña pequeña.", "en": "She is a small girl." },
+          { "es": "Es un hombre grande.", "en": "He is a big man." },
+          { "es": "Mi padre es un médico joven.", "en": "My father is a young doctor." }
+        ]
+      },
+      {
+        "heading": "Where the adjective goes",
+        "body": "The adjective goes after the noun: un trabajo difícil. It can also go before, but then it means something more literary, and it is not used with every adjective. In everyday Spanish, put it after.",
+        "examples": [
+          { "es": "Una casa muy antigua.", "en": "A very old house." },
+          { "es": "El café está caliente.", "en": "The coffee is hot." },
+          { "es": "Somos una familia grande.", "en": "We are a big family." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "bueno",
-      "en": "good",
-      "article": null,
-      "note": "Good. It changes to buena before a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "malo",
-      "en": "bad",
-      "article": null,
-      "note": "Bad. It changes to mala before a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "grande",
-      "en": "big",
-      "article": null,
-      "note": "Big. It does not change for a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "pequeño",
-      "en": "small",
-      "article": null,
-      "note": "Small. It changes to pequeña before a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "nuevo",
-      "en": "new",
-      "article": null,
-      "note": "New. It changes to nueva before a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "joven",
-      "en": "young",
-      "article": null,
-      "note": "Young. It does not change for a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "viejo",
-      "en": "old",
-      "article": null,
-      "note": "Old. It changes to vieja before a feminine noun.",
-      "tags": [
-        "adjective"
-      ]
-    },
-    {
-      "es": "dinero",
-      "en": "money",
-      "article": "el",
-      "note": "Masculine: el dinero.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "trabajo",
-      "en": "work",
-      "article": "el",
-      "note": "Masculine: el trabajo. It also means a job.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "médico",
-      "en": "doctor",
-      "article": "el",
-      "note": "Masculine: el médico. The feminine is la médica.",
-      "tags": [
-        "person"
-      ]
-    }
+    { "es": "bueno", "en": "good", "article": null, "note": "It changes to buena before a feminine noun.", "tags": ["adjective"] },
+    { "es": "malo", "en": "bad", "article": null, "note": "It changes to mala before a feminine noun.", "tags": ["adjective"] },
+    { "es": "grande", "en": "big", "article": null, "note": "It does not change for a feminine noun.", "tags": ["adjective"] },
+    { "es": "pequeño", "en": "small", "article": null, "note": "It changes to pequeña before a feminine noun.", "tags": ["adjective"] },
+    { "es": "nuevo", "en": "new", "article": null, "note": "It changes to nueva before a feminine noun.", "tags": ["adjective"] },
+    { "es": "joven", "en": "young", "article": null, "note": "It does not change for a feminine noun.", "tags": ["adjective"] },
+    { "es": "viejo", "en": "old", "article": null, "note": "It changes to vieja before a feminine noun.", "tags": ["adjective"] },
+    { "es": "dinero", "en": "money", "article": "el", "note": "Masculine: el dinero.", "tags": ["object"] },
+    { "es": "trabajo", "en": "work", "article": "el", "note": "Masculine: el trabajo. It also means a job.", "tags": ["object"] },
+    { "es": "médico", "en": "doctor", "article": "el", "note": "Masculine: el médico. The feminine is la médica.", "tags": ["person"] }
+  ],
+  "drills": [
+    { "prompt": "Es una niña ___.", "answer": "pequeña", "meaning": "she is a small girl", "note": "Pequeño changes to pequeña before a feminine noun." },
+    { "prompt": "Es un hombre ___.", "answer": "grande", "meaning": "he is a big man", "note": "Grande does not change." },
+    { "prompt": "Mi padre es un médico ___.", "answer": "joven", "meaning": "my father is a young doctor", "note": "Joven does not change." },
+    { "prompt": "___ profesor de español.", "answer": "Soy", "meaning": "I am a Spanish teacher", "note": "A profession uses ser." },
+    { "prompt": "Es una casa muy ___.", "answer": "nueva", "meaning": "it is a very new house", "note": "Nuevo changes to nueva before a feminine noun." }
   ]
 }

@@ -4,6 +4,65 @@
   "unit": 6,
   "title": "Asking",
   "description": "Ask the questions you need answered.",
+  "explanation": {
+    "summary": "There are six question words, and each one asks for a different kind of answer. Spanish marks them with an accent, which is how you can tell a question from a statement.",
+    "sections": [
+      {
+        "heading": "The six",
+        "body": "Qué asks for a thing: ¿Qué es esto? Quién asks for a person: ¿Quién es? Dónde asks for a place: ¿Dónde está? Cuándo asks for a time: ¿Cuándo llegas? Por qué asks for a reason: ¿Por qué no vienes? Cómo asks about a way: ¿Cómo se dice? Cuánto asks for a quantity: ¿Cuánto cuesta?",
+        "examples": [
+          {
+            "es": "¿Dónde está la estación?",
+            "en": "Where is the station?"
+          },
+          {
+            "es": "¿Cuánto cuesta el café?",
+            "en": "How much is the coffee?"
+          },
+          {
+            "es": "¿Por qué no vienes?",
+            "en": "Why are you not coming?"
+          }
+        ]
+      },
+      {
+        "heading": "Making a question out of a statement",
+        "body": "Spanish does not use word order for questions. You take a statement and put the question word in front, and the accent does the rest: Tú eres estudiante becomes ¿Eres estudiante? There is no do, and the subject stays where it is.",
+        "examples": [
+          {
+            "es": "El café está frío. → ¿Está frío el café?",
+            "en": "Is the coffee cold?"
+          },
+          {
+            "es": "Vienes mañana. → ¿Vienes mañana?",
+            "en": "Are you coming tomorrow?"
+          },
+          {
+            "es": "La reunión es a las tres. → ¿Es a las tres la reunión?",
+            "en": "Is the meeting at three?"
+          }
+        ]
+      },
+      {
+        "heading": "Hacer, to make and to do",
+        "body": "Hacer is the verb for making and for doing. In the question how do you say it, you use the word for what you are saying, not hacer: ¿Cómo se dice hello? It also means to make a phone call: llamar, and it appears in the expression qué haces, what are you doing.",
+        "examples": [
+          {
+            "es": "¿Cómo se dice gracias?",
+            "en": "How do you say thank you?"
+          },
+          {
+            "es": "¿Qué haces?",
+            "en": "What are you doing?"
+          },
+          {
+            "es": "¿Cómo lo haces?",
+            "en": "How do you do it?"
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u6/match/que",
@@ -31,7 +90,7 @@
           "right": "por qué"
         }
       ],
-      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+      "note": "The question words carry accents in a question: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
       "id": "es/a2/u6/select/que",
@@ -48,33 +107,15 @@
       "note": "What. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u6/type_in/quien",
+      "id": "es/a2/u6/drill/1",
       "type": "type_in",
-      "prompt": "Write “who” in Spanish.",
-      "answer": "quién",
+      "prompt": "¿___ está la estación?",
+      "answer": "Dónde",
       "acceptedAnswers": [
-        "quien"
+        "Donde"
       ],
-      "translation": "who",
-      "note": "Who. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u6/listen/donde",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "dónde",
-      "options": [
-        "dónde",
-        "cómo estás",
-        "qué",
-        "quién"
-      ],
-      "audio": {
-        "text": "dónde",
-        "lang": "es"
-      },
-      "translation": "where",
-      "note": "Where. It carries an accent in a question."
+      "translation": "where is the station?",
+      "note": "Dónde asks for a place."
     },
     {
       "id": "es/a2/u6/match/como",
@@ -102,78 +143,79 @@
           "right": "la ayuda"
         }
       ],
-      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+      "note": "The question words carry accents in a question: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
-      "id": "es/a2/u6/select/cuando",
+      "id": "es/a2/u6/select/quien",
       "type": "select",
-      "prompt": "Pick the Spanish word for “when”.",
+      "prompt": "Pick the Spanish word for “who”.",
       "options": [
         "quién",
-        "dónde",
+        "cuándo",
         "por qué",
-        "cuándo"
+        "cómo"
       ],
-      "answer": "cuándo",
-      "translation": "when",
-      "note": "When. It carries an accent in a question."
+      "answer": "quién",
+      "translation": "who",
+      "note": "Who. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u6/type_in/por-que",
+      "id": "es/a2/u6/drill/2",
       "type": "type_in",
-      "prompt": "Write “why” in Spanish.",
-      "answer": "por qué",
+      "prompt": "¿___ cuesta el café?",
+      "answer": "Cuánto",
       "acceptedAnswers": [
-        "por que"
+        "Cuanto"
       ],
-      "translation": "why",
-      "note": "Why. Por and qué are written separately."
+      "translation": "how much is the coffee?",
+      "note": "Cuánto asks for a quantity."
     },
     {
-      "id": "es/a2/u6/listen/como",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "cómo",
+      "id": "es/a2/u6/select/donde",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “where”.",
       "options": [
-        "por qué",
-        "cuánto",
         "cómo",
-        "cuándo"
-      ],
-      "audio": {
-        "text": "cómo",
-        "lang": "es"
-      },
-      "translation": "how",
-      "note": "How. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u6/select/cuanto",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “how much”.",
-      "options": [
         "cuánto",
-        "qué",
-        "quién",
-        "cómo estás"
+        "la pregunta",
+        "dónde"
       ],
-      "answer": "cuánto",
-      "translation": "how much",
-      "note": "How much or how many. It carries an accent in a question."
+      "answer": "dónde",
+      "translation": "where",
+      "note": "Where. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u6/select/hacer",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to do”.",
-      "options": [
-        "hay",
-        "llegar",
-        "hacer",
-        "deber"
+      "id": "es/a2/u6/drill/3",
+      "type": "type_in",
+      "prompt": "¿___ se dice gracias?",
+      "answer": "Cómo",
+      "acceptedAnswers": [
+        "Como"
       ],
-      "answer": "hacer",
-      "translation": "to do",
-      "note": "An infinitive. Its forms are irregular: hago, haces, hace."
+      "translation": "how do you say thank you?",
+      "note": "How do you say it uses cómo se dice."
+    },
+    {
+      "id": "es/a2/u6/drill/4",
+      "type": "type_in",
+      "prompt": "¿___ no vienes?",
+      "answer": "Por qué",
+      "acceptedAnswers": [
+        "Por que"
+      ],
+      "translation": "why are you not coming?",
+      "note": "Por qué asks for a reason."
+    },
+    {
+      "id": "es/a2/u6/drill/5",
+      "type": "type_in",
+      "prompt": "¿___ es? — Ana.",
+      "answer": "Quién",
+      "acceptedAnswers": [
+        "Quien"
+      ],
+      "translation": "who is it? — Ana.",
+      "note": "Quién asks for a person."
     }
   ]
 }

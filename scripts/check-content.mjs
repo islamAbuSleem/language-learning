@@ -11,7 +11,7 @@ import { join } from "node:path"
 const root = process.cwd()
 const contentRoot = join(root, "content")
 
-const ALLOWED = /[A-Za-zÀ-ÿ¡¿ñÑáéíóúüÁÉÍÓÚÜ0-9\s.,;:!?'"‘’“”()\-–—/…&+*=%$#@[\]{}<>|_\n\r\t]/u
+const ALLOWED = /[A-Za-zÀ-ÿ¡¿ñÑáéíóúüÁÉÍÓÚÜ0-9\s.,;:!?'"‘’“”()\-–—/…&+*=%$#@[\]{}<>|_\n\r\t→]/u
 
 function walk(dir, out = []) {
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -41,6 +41,16 @@ for (const file of walk(contentRoot)) {
     for (const char of value) {
       if (!ALLOWED.test(char)) {
         problems.push(`${file.replace(root + "\\", "")} ${path}: "${char}" (U+${char.codePointAt(0).toString(16).toUpperCase()})`)
+      }
+    }
+
+    // Three underscores are the blank in a drill. Any other use of an
+    // underscore is the mark of a half-finished sentence.
+    const isIdentifier = path.endsWith(".id") || path.endsWith(".type")
+    if (!isIdentifier) {
+      const stray = value.replace(/___/g, "").includes("_")
+      if (stray) {
+        problems.push(`${file.replace(root + "\\", "")} ${path}: a stray underscore: "${value.slice(0, 80)}"`)
       }
     }
   }

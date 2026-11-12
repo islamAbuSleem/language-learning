@@ -3,11 +3,43 @@
   "title": "Numbers",
   "description": "Count things, and say how many there are.",
   "grammar": "indefinite articles and numbers to 100",
-  "grammarNote": "Un and una mean one, and match the noun: un libro, una casa.",
+  "grammarNote": "Un and una mean one, and they match the noun: un libro, una casa.",
+  "explanation": {
+    "summary": "Numbers from one to a hundred are almost all regular, and the article un and una is the number one in front of a noun. Once you know uno, dieciséis, veintiún and cien, you can count anything.",
+    "sections": [
+      {
+        "heading": "The regular ones",
+        "body": "Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez. Then the pattern changes at sixteen: dieciséis, veintiuno, veintidós, and the tens are veinti, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. A number over fifteen is written as one word.",
+        "examples": [
+          { "es": "tres cafés", "en": "three coffees" },
+          { "es": "veintiún libros", "en": "twenty-one books" },
+          { "es": "cien euros", "en": "a hundred euros" }
+        ]
+      },
+      {
+        "heading": "Un and una",
+        "body": "Un is masculine and una is feminine, and it is only used in front of a noun. On its own you say uno: uno, dos, tres. There is also un as a word meaning a, for something you have not mentioned: un amigo, a friend, someone.",
+        "examples": [
+          { "es": "un café", "en": "a coffee" },
+          { "es": "una casa", "en": "a house" },
+          { "es": "quiero uno", "en": "I want one" }
+        ]
+      },
+      {
+        "heading": "When you count things",
+        "body": "After a number greater than one you use de before the noun: dos cafés, tres sillas. So you say dos cafés, not dos cafés de. With a person you count how many there are, and the number comes first: hay dos personas, there are two people. There is no plural form of the number itself.",
+        "examples": [
+          { "es": "Hay dos sillas en la cocina.", "en": "There are two chairs in the kitchen." },
+          { "es": "Compré tres cafés.", "en": "I bought three coffees." },
+          { "es": "Cuento veinte personas.", "en": "I count twenty people." }
+        ]
+      }
+    ]
+  },
   "items": [
-    { "es": "uno", "en": "one", "article": null, "note": "The number one. Before a noun it becomes un or una.", "tags": ["number"] },
-    { "es": "un", "en": "a", "article": null, "note": "Masculine, one: un libro.", "tags": ["number"] },
-    { "es": "una", "en": "a", "article": null, "note": "Feminine, one: una casa.", "tags": ["number"] },
+    { "es": "uno", "en": "one", "article": null, "note": "One. Before a noun it becomes un or una.", "tags": ["number"] },
+    { "es": "un", "en": "a", "article": null, "note": "Masculine one: un libro.", "tags": ["number"] },
+    { "es": "una", "en": "a", "article": null, "note": "Feminine one: una casa.", "tags": ["number"] },
     { "es": "dos", "en": "two", "article": null, "note": "The number two.", "tags": ["number"] },
     { "es": "tres", "en": "three", "article": null, "note": "The number three.", "tags": ["number"] },
     { "es": "cinco", "en": "five", "article": null, "note": "The number five.", "tags": ["number"] },
@@ -15,5 +47,12 @@
     { "es": "veinte", "en": "twenty", "article": null, "note": "The number twenty.", "tags": ["number"] },
     { "es": "cien", "en": "a hundred", "article": null, "note": "Cien is one hundred. For hundreds it is ciento.", "tags": ["number"] },
     { "es": "número", "en": "number", "article": "el", "note": "Masculine: el número.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "___ café, por favor.", "answer": "Un", "meaning": "a coffee, please", "note": "Un agrees with the noun." },
+    { "prompt": "___ casa grande.", "answer": "Una", "meaning": "a big house", "note": "Una is the feminine one." },
+    { "prompt": "Hay ___ sillas en la cocina.", "answer": "dos", "meaning": "there are two chairs in the kitchen", "note": "The number comes first and the noun follows directly." },
+    { "prompt": "Compré ___ cafés.", "answer": "tres", "meaning": "I bought three coffees", "note": "After a number the noun takes de." },
+    { "prompt": "Quiero ___.", "answer": "uno", "meaning": "I want one", "note": "On its own you say uno, not un." }
   ]
 }

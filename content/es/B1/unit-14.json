@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he said”.",
       "options": [
-        "ir",
-        "venir",
-        "volver",
+        "llegó",
+        "salió",
+        "entregar",
         "dijo"
       ],
       "answer": "dijo",
@@ -147,9 +147,9 @@
       "prompt": "Pick the Spanish word for “he says”.",
       "options": [
         "dice",
-        "dijo",
-        "diga",
-        "preguntó"
+        "sea",
+        "haga",
+        "diga"
       ],
       "answer": "dice",
       "translation": "he says",
@@ -171,9 +171,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he asked”.",
       "options": [
-        "dormir",
-        "preferir",
-        "seguir",
+        "compartir",
+        "pedir",
+        "descubrir",
         "preguntó"
       ],
       "answer": "preguntó",

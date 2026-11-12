@@ -4,6 +4,65 @@
   "unit": 2,
   "title": "Your name",
   "description": "Say who you are, and how you are doing.",
+  "explanation": {
+    "summary": "Two questions cover almost every first meeting: what is your name, and how are you. Spanish has a fixed way of asking both.",
+    "sections": [
+      {
+        "heading": "Asking and answering the name",
+        "body": "The question is cómo te llamas, literally how do you call yourself. The answer is me llamo, and it is followed by the name: me llamo Ana. There is also the shorter yo soy, but me llamo is the ordinary way to introduce yourself.",
+        "examples": [
+          {
+            "es": "¿Cómo te llamas?",
+            "en": "What is your name?"
+          },
+          {
+            "es": "Me llamo Ana.",
+            "en": "My name is Ana."
+          },
+          {
+            "es": "Mucho gusto.",
+            "en": "Pleased to meet you."
+          }
+        ]
+      },
+      {
+        "heading": "How are you",
+        "body": "Cómo estás asks how you are. The answer is short: estoy bien, I am well. Estoy mal is I am badly. You can add a reason with porque: estoy bien, porque hace buen tiempo.",
+        "examples": [
+          {
+            "es": "¿Cómo estás?",
+            "en": "How are you?"
+          },
+          {
+            "es": "Estoy bien, gracias.",
+            "en": "I am well, thank you."
+          },
+          {
+            "es": "Estoy mal: estoy cansado.",
+            "en": "I am not well: I am tired."
+          }
+        ]
+      },
+      {
+        "heading": "How much, and how many",
+        "body": "Mucho and poco are the two amounts you need. They are used on their own: mucho, poco. Before a noun they take the article: mucha agua, poco tiempo. The verb for have is tener, which is irregular: tengo, tienes, tiene.",
+        "examples": [
+          {
+            "es": "Tengo mucha agua.",
+            "en": "I have a lot of water."
+          },
+          {
+            "es": "Tengo poco tiempo.",
+            "en": "I have little time."
+          },
+          {
+            "es": "También hablo un poco de inglés.",
+            "en": "I also speak a little English."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a0/u2/match/como-te-llamas",
@@ -48,33 +107,15 @@
       "note": "What is your name. You answer: me llamo..."
     },
     {
-      "id": "es/a0/u2/type_in/me-llamo",
+      "id": "es/a0/u2/drill/1",
       "type": "type_in",
-      "prompt": "Write “my name is” in Spanish.",
-      "answer": "me llamo",
+      "prompt": "¿___ te llamas?",
+      "answer": "Cómo",
       "acceptedAnswers": [
-        "me llamo"
+        "Como"
       ],
-      "translation": "my name is",
-      "note": "My name is. Me llamo Ana."
-    },
-    {
-      "id": "es/a0/u2/listen/como-estas",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "cómo estás",
-      "options": [
-        "cómo te llamas",
-        "bien",
-        "me llamo",
-        "cómo estás"
-      ],
-      "audio": {
-        "text": "cómo estás",
-        "lang": "es"
-      },
-      "translation": "how are you",
-      "note": "How are you. You answer: estoy bien."
+      "translation": "what is your name?",
+      "note": "The question word goes first."
     },
     {
       "id": "es/a0/u2/match/mucho",
@@ -105,75 +146,76 @@
       "note": "Me llamo means my name is. It is how you introduce yourself."
     },
     {
-      "id": "es/a0/u2/select/bien",
+      "id": "es/a0/u2/select/me-llamo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “well”.",
+      "prompt": "Pick the Spanish word for “my name is”.",
       "options": [
-        "sí",
         "me llamo",
         "no",
+        "sí",
         "bien"
       ],
-      "answer": "bien",
-      "translation": "well",
-      "note": "Well, fine. Estoy bien."
+      "answer": "me llamo",
+      "translation": "my name is",
+      "note": "My name is. Me llamo Ana."
     },
     {
-      "id": "es/a0/u2/type_in/mal",
+      "id": "es/a0/u2/drill/2",
       "type": "type_in",
-      "prompt": "Write “badly” in Spanish.",
-      "answer": "mal",
+      "prompt": "___ llamo Ana.",
+      "answer": "Me",
       "acceptedAnswers": [
-        "mal"
+        "Me"
       ],
-      "translation": "badly",
-      "note": "Badly. The opposite of bien."
+      "translation": "my name is Ana",
+      "note": "Me llamo."
     },
     {
-      "id": "es/a0/u2/listen/mucho",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "mucho",
+      "id": "es/a0/u2/select/como-estas",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “how are you”.",
       "options": [
-        "por favor",
+        "cómo te llamas",
         "sí",
-        "mucho",
-        "poco"
+        "por favor",
+        "cómo estás"
       ],
-      "audio": {
-        "text": "mucho",
-        "lang": "es"
-      },
-      "translation": "a lot",
-      "note": "A lot. It also means much."
+      "answer": "cómo estás",
+      "translation": "how are you",
+      "note": "How are you. You answer: estoy bien."
     },
     {
-      "id": "es/a0/u2/select/poco",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “a little”.",
-      "options": [
-        "mucho",
-        "hola",
-        "adiós",
-        "poco"
+      "id": "es/a0/u2/drill/3",
+      "type": "type_in",
+      "prompt": "Estoy ___, gracias.",
+      "answer": "bien",
+      "acceptedAnswers": [
+        "bien"
       ],
-      "answer": "poco",
-      "translation": "a little",
-      "note": "A little. The opposite of mucho."
+      "translation": "I am well, thank you",
+      "note": "Estoy bien."
     },
     {
-      "id": "es/a0/u2/select/tambien",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “also”.",
-      "options": [
-        "buenas tardes",
-        "buenas noches",
-        "buenos días",
-        "también"
+      "id": "es/a0/u2/drill/4",
+      "type": "type_in",
+      "prompt": "Tengo ___ agua.",
+      "answer": "mucha",
+      "acceptedAnswers": [
+        "mucha"
       ],
-      "answer": "también",
-      "translation": "also",
-      "note": "Also, too."
+      "translation": "I have a lot of water",
+      "note": "Mucho becomes mucha before a feminine noun."
+    },
+    {
+      "id": "es/a0/u2/drill/5",
+      "type": "type_in",
+      "prompt": "___ gusto.",
+      "answer": "Mucho",
+      "acceptedAnswers": [
+        "Mucho"
+      ],
+      "translation": "pleased to meet you",
+      "note": "Mucho gusto."
     }
   ]
 }

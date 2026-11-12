@@ -4,6 +4,47 @@
   "unit": 1,
   "title": "Changing verbs",
   "description": "Verbs that change their ending in the present.",
+  "explanation": {
+    "summary": "About thirty Spanish verbs change their stem in the present instead of changing their ending. The change is only in the stressed vowel, and it never happens in the nosotros and vosotros forms.",
+    "sections": [
+      {
+        "heading": "Three kinds of change",
+        "body": "E becomes ie: querer, querer to quiere, dormir to duerme. O becomes ue: poder to puede, volver to vuelve. And E becomes i: pedir to pide, seguir to sigue. The nosotros and vosotros forms keep the original stem:queremos, dormimos, pedimos.",
+        "examples": [
+          {
+            "es": "Quiero aprender más.",
+            "en": "I want to learn more."
+          },
+          {
+            "es": "No puedo venir hoy.",
+            "en": "I cannot come today."
+          },
+          {
+            "es": "Pido un café, por favor.",
+            "en": "I order a coffee, please."
+          }
+        ]
+      },
+      {
+        "heading": "The yo form is often the odd one",
+        "body": "The three changes only apply to the stressed vowel, and in the yo form that vowel is the one before the ending. Some verbs also change the ending in the yo form: dormir becomes duermo, not duemo. And a few verbs change everywhere except the nosotros form: querer is quiero, quieres, quiere, queremos, queréis, quieren.",
+        "examples": [
+          {
+            "es": "Dormo ocho horas.",
+            "en": "I sleep eight hours."
+          },
+          {
+            "es": "Sigo el curso.",
+            "en": "I follow the course."
+          },
+          {
+            "es": "We want to leave.",
+            "en": "We want to leave."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u1/match/querer",
@@ -48,33 +89,15 @@
       "note": "The e changes to ie: quiero, quieres, quiere."
     },
     {
-      "id": "es/b1/u1/type_in/poder",
+      "id": "es/b1/u1/drill/1",
       "type": "type_in",
-      "prompt": "Write “to be able to” in Spanish.",
-      "answer": "poder",
+      "prompt": "Yo ___ aprender más.",
+      "answer": "quiero",
       "acceptedAnswers": [
-        "poder"
+        "quiero"
       ],
-      "translation": "to be able to",
-      "note": "The o changes to ue: puedo, puedes, puede."
-    },
-    {
-      "id": "es/b1/u1/listen/dormir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "dormir",
-      "options": [
-        "dormir",
-        "querré",
-        "vendré",
-        "podré"
-      ],
-      "audio": {
-        "text": "dormir",
-        "lang": "es"
-      },
-      "translation": "to sleep",
-      "note": "The o changes to ue: duermo, duermes, duerme."
+      "translation": "I want to learn more",
+      "note": "Querer changes e to ie."
     },
     {
       "id": "es/b1/u1/match/mentir",
@@ -105,75 +128,76 @@
       "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
     },
     {
-      "id": "es/b1/u1/select/seguir",
+      "id": "es/b1/u1/select/poder",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to follow”.",
+      "prompt": "Pick the Spanish word for “to be able to”.",
       "options": [
-        "escribir",
+        "abrir",
+        "compartir",
         "recibir",
-        "responder",
-        "seguir"
+        "poder"
       ],
-      "answer": "seguir",
-      "translation": "to follow",
-      "note": "The e changes to ie: sigo, sigues, sigue. It also means to continue."
+      "answer": "poder",
+      "translation": "to be able to",
+      "note": "The o changes to ue: puedo, puedes, puede."
     },
     {
-      "id": "es/b1/u1/type_in/preferir",
+      "id": "es/b1/u1/drill/2",
       "type": "type_in",
-      "prompt": "Write “to prefer” in Spanish.",
-      "answer": "preferir",
+      "prompt": "No ___ venir hoy.",
+      "answer": "puedo",
       "acceptedAnswers": [
-        "preferir"
+        "puedo"
       ],
-      "translation": "to prefer",
-      "note": "The e changes to ie: prefiero, prefieres, prefiere."
+      "translation": "I cannot come today",
+      "note": "Poder changes o to ue."
     },
     {
-      "id": "es/b1/u1/listen/mentir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "mentir",
-      "options": [
-        "ser",
-        "trabajar",
-        "hablar",
-        "mentir"
-      ],
-      "audio": {
-        "text": "mentir",
-        "lang": "es"
-      },
-      "translation": "to lie",
-      "note": "The e changes to ie: miento, mientes, miente."
-    },
-    {
-      "id": "es/b1/u1/select/cerrar",
+      "id": "es/b1/u1/select/dormir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to close”.",
+      "prompt": "Pick the Spanish word for “to sleep”.",
       "options": [
-        "sentir",
-        "llegar",
-        "cerrar",
-        "despertar"
+        "hay",
+        "hacer",
+        "saber",
+        "dormir"
       ],
-      "answer": "cerrar",
-      "translation": "to close",
-      "note": "The e changes to ie: cierro, cierras, cierra."
+      "answer": "dormir",
+      "translation": "to sleep",
+      "note": "The o changes to ue: duermo, duermes, duerme."
     },
     {
-      "id": "es/b1/u1/select/despertar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to wake up”.",
-      "options": [
-        "comeré",
-        "viviré",
-        "trabajaré",
-        "despertar"
+      "id": "es/b1/u1/drill/3",
+      "type": "type_in",
+      "prompt": "Yo ___ ocho horas.",
+      "answer": "duermo",
+      "acceptedAnswers": [
+        "duermo"
       ],
-      "answer": "despertar",
-      "translation": "to wake up",
-      "note": "The e changes to ie: despierto, despiertas, despierta."
+      "translation": "I sleep eight hours",
+      "note": "Dormir also changes the ending in the yo form."
+    },
+    {
+      "id": "es/b1/u1/drill/4",
+      "type": "type_in",
+      "prompt": "Yo ___ un café.",
+      "answer": "pido",
+      "acceptedAnswers": [
+        "pido"
+      ],
+      "translation": "I order a coffee",
+      "note": "Pedir changes e to i and drops the e."
+    },
+    {
+      "id": "es/b1/u1/drill/5",
+      "type": "type_in",
+      "prompt": "Nosotros ___ el curso.",
+      "answer": "seguimos",
+      "acceptedAnswers": [
+        "seguimos"
+      ],
+      "translation": "we follow the course",
+      "note": "The nosotros form keeps the original stem."
     }
   ]
 }

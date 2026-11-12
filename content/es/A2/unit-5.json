@@ -4,6 +4,65 @@
   "unit": 5,
   "title": "Having and needing",
   "description": "Say what you have, what you want, and what you must do.",
+  "explanation": {
+    "summary": "Spanish says many feelings and states with tener plus a noun, where English uses a separate verb. I am hungry is tengo hambre. This is the same pattern as the weather, and it comes up all the time.",
+    "sections": [
+      {
+        "heading": "Tener and the states",
+        "body": "Tengo hambre is I am hungry. Tengo sed, tengo sueño, tengo miedo, tengo fiebre, tengo ganas de. The noun never takes an article: tengo hambre, not tengo la hambre. And the two nouns that do take one are exceptions you will meet later: tengo una coche is wrong, but tengo el coche is right.",
+        "examples": [
+          {
+            "es": "Tengo hambre.",
+            "en": "I am hungry."
+          },
+          {
+            "es": "El niño tiene sueño.",
+            "en": "The child is sleepy."
+          },
+          {
+            "es": "Tengo ganas de salir.",
+            "en": "I feel like going out."
+          }
+        ]
+      },
+      {
+        "heading": "The four verbs you cannot live without",
+        "body": "Tener is to have. Querer is to want, and its yo form is quiero. Poder is to be able to, and its yo form is puedo. Deber is to owe, and to must: debo ir means I must go. All four have irregular yo forms, and those are the forms you use most.",
+        "examples": [
+          {
+            "es": "Quiero aprender más.",
+            "en": "I want to learn more."
+          },
+          {
+            "es": "No puedo venir hoy.",
+            "en": "I cannot come today."
+          },
+          {
+            "es": "Debo estudiar más.",
+            "en": "I must study more."
+          }
+        ]
+      },
+      {
+        "heading": "Hay, and how much there is",
+        "body": "Hay means there is, and it never changes: hay un banco, hay dos bancos, no hay bancos. To ask how much of something there is, use cuánto: ¿cuánta agua hay? To ask who is there, use quién: ¿quién está aquí?",
+        "examples": [
+          {
+            "es": "Hay un parque cerca.",
+            "en": "There is a park nearby."
+          },
+          {
+            "es": "¿Cuánto dinero tienes?",
+            "en": "How much money do you have?"
+          },
+          {
+            "es": "¿Quién está en la cocina?",
+            "en": "Who is in the kitchen?"
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u5/match/tener",
@@ -45,36 +104,18 @@
       ],
       "answer": "tener",
       "translation": "to have",
-      "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene."
+      "note": "Its forms are irregular: tengo, tienes, tiene, tenemos, tenéis, tienen."
     },
     {
-      "id": "es/a2/u5/type_in/querer",
+      "id": "es/a2/u5/drill/1",
       "type": "type_in",
-      "prompt": "Write “to want” in Spanish.",
-      "answer": "querer",
+      "prompt": "Tengo ___: quiero comer.",
+      "answer": "hambre",
       "acceptedAnswers": [
-        "querer"
+        "hambre"
       ],
-      "translation": "to want",
-      "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere."
-    },
-    {
-      "id": "es/a2/u5/listen/poder",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "poder",
-      "options": [
-        "poder",
-        "caminar",
-        "cocinar",
-        "estudiar"
-      ],
-      "audio": {
-        "text": "poder",
-        "lang": "es"
-      },
-      "translation": "to be able to",
-      "note": "An infinitive. Its forms are irregular: puedo, puedes, puede."
+      "translation": "I am hungry: I want to eat",
+      "note": "The noun takes no article."
     },
     {
       "id": "es/a2/u5/match/hambre",
@@ -98,82 +139,83 @@
           "right": "el miedo"
         },
         {
-          "left": "it pays",
-          "right": "gana"
+          "left": "the urge",
+          "right": "las ganas"
         }
       ],
       "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
     },
     {
-      "id": "es/a2/u5/select/deber",
+      "id": "es/a2/u5/select/querer",
       "type": "select",
-      "prompt": "Pick the Spanish word for “must”.",
+      "prompt": "Pick the Spanish word for “to want”.",
       "options": [
-        "caminar",
-        "estudiar",
-        "deber",
-        "cocinar"
+        "necesitar",
+        "estar",
+        "comer",
+        "querer"
       ],
-      "answer": "deber",
-      "translation": "must",
-      "note": "An infinitive. Its forms are irregular: debo, debes, debe."
+      "answer": "querer",
+      "translation": "to want",
+      "note": "Its forms are irregular: quiero, quieres, quiere."
     },
     {
-      "id": "es/a2/u5/type_in/hay",
+      "id": "es/a2/u5/drill/2",
       "type": "type_in",
-      "prompt": "Write “there is” in Spanish.",
-      "answer": "hay",
+      "prompt": "No ___ venir hoy.",
+      "answer": "puedo",
       "acceptedAnswers": [
-        "hay"
+        "puedo"
       ],
-      "translation": "there is",
-      "note": "There is, there are. It never changes form."
+      "translation": "I cannot come today",
+      "note": "Poder is irregular in the yo form."
     },
     {
-      "id": "es/a2/u5/listen/hambre",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la hambre",
-      "options": [
-        "el miedo",
-        "el sueño",
-        "la sed",
-        "la hambre"
-      ],
-      "audio": {
-        "text": "hambre",
-        "lang": "es"
-      },
-      "translation": "hunger",
-      "note": "Feminine: la hambre. You say tener hambre."
-    },
-    {
-      "id": "es/a2/u5/select/sed",
+      "id": "es/a2/u5/select/poder",
       "type": "select",
-      "prompt": "Pick the Spanish word for “thirst”.",
+      "prompt": "Pick the Spanish word for “to be able to”.",
       "options": [
-        "la hambre",
-        "el sueño",
-        "el miedo",
-        "la sed"
+        "necesitar",
+        "estar",
+        "comer",
+        "poder"
       ],
-      "answer": "la sed",
-      "translation": "thirst",
-      "note": "Feminine: la sed. You say tener sed."
+      "answer": "poder",
+      "translation": "to be able to",
+      "note": "Its forms are irregular: puedo, puedes, puede."
     },
     {
-      "id": "es/a2/u5/select/sueno",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “sleep”.",
-      "options": [
-        "la hambre",
-        "la sed",
-        "el miedo",
-        "el sueño"
+      "id": "es/a2/u5/drill/3",
+      "type": "type_in",
+      "prompt": "___ un parque cerca.",
+      "answer": "Hay",
+      "acceptedAnswers": [
+        "Hay"
       ],
-      "answer": "el sueño",
-      "translation": "sleep",
-      "note": "Masculine: el sueño. You say tener sueño."
+      "translation": "there is a park nearby",
+      "note": "Hay never changes."
+    },
+    {
+      "id": "es/a2/u5/drill/4",
+      "type": "type_in",
+      "prompt": "El niño tiene ___.",
+      "answer": "sueño",
+      "acceptedAnswers": [
+        "sueno"
+      ],
+      "translation": "the child is sleepy",
+      "note": "Tener sueño means to be sleepy."
+    },
+    {
+      "id": "es/a2/u5/drill/5",
+      "type": "type_in",
+      "prompt": "Tengo ___ de salir.",
+      "answer": "ganas",
+      "acceptedAnswers": [
+        "ganas"
+      ],
+      "translation": "I feel like going out",
+      "note": "Las ganas de takes an infinitive after it."
     }
   ]
 }

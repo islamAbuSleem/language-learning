@@ -4,16 +4,55 @@
   "description": "Say who you are, and how you are doing.",
   "grammar": "saying who you are",
   "grammarNote": "Me llamo means my name is. It is how you introduce yourself.",
+  "explanation": {
+    "summary": "Two questions cover almost every first meeting: what is your name, and how are you. Spanish has a fixed way of asking both.",
+    "sections": [
+      {
+        "heading": "Asking and answering the name",
+        "body": "The question is cómo te llamas, literally how do you call yourself. The answer is me llamo, and it is followed by the name: me llamo Ana. There is also the shorter yo soy, but me llamo is the ordinary way to introduce yourself.",
+        "examples": [
+          { "es": "¿Cómo te llamas?", "en": "What is your name?" },
+          { "es": "Me llamo Ana.", "en": "My name is Ana." },
+          { "es": "Mucho gusto.", "en": "Pleased to meet you." }
+        ]
+      },
+      {
+        "heading": "How are you",
+        "body": "Cómo estás asks how you are. The answer is short: estoy bien, I am well. Estoy mal is I am badly. You can add a reason with porque: estoy bien, porque hace buen tiempo.",
+        "examples": [
+          { "es": "¿Cómo estás?", "en": "How are you?" },
+          { "es": "Estoy bien, gracias.", "en": "I am well, thank you." },
+          { "es": "Estoy mal: estoy cansado.", "en": "I am not well: I am tired." }
+        ]
+      },
+      {
+        "heading": "How much, and how many",
+        "body": "Mucho and poco are the two amounts you need. They are used on their own: mucho, poco. Before a noun they take the article: mucha agua, poco tiempo. The verb for have is tener, which is irregular: tengo, tienes, tiene.",
+        "examples": [
+          { "es": "Tengo mucha agua.", "en": "I have a lot of water." },
+          { "es": "Tengo poco tiempo.", "en": "I have little time." },
+          { "es": "También hablo un poco de inglés.", "en": "I also speak a little English." }
+        ]
+      }
+    ]
+  },
   "items": [
     { "es": "cómo te llamas", "en": "what is your name", "article": null, "note": "What is your name. You answer: me llamo...", "tags": ["question"] },
     { "es": "me llamo", "en": "my name is", "article": null, "note": "My name is. Me llamo Ana.", "tags": ["answer"] },
     { "es": "cómo estás", "en": "how are you", "article": null, "note": "How are you. You answer: estoy bien.", "tags": ["question"] },
     { "es": "bien", "en": "well", "article": null, "note": "Well, fine. Estoy bien.", "tags": ["answer"] },
     { "es": "mal", "en": "badly", "article": null, "note": "Badly. The opposite of bien.", "tags": ["answer"] },
-    { "es": "mucho", "en": "a lot", "article": null, "note": "A lot. It also means much.", "tags": ["quantity"] },
-    { "es": "poco", "en": "a little", "article": null, "note": "A little. The opposite of mucho.", "tags": ["quantity"] },
+    { "es": "mucho", "en": "a lot", "article": null, "note": "A lot. It becomes mucha before a feminine noun.", "tags": ["quantity"] },
+    { "es": "poco", "en": "a little", "article": null, "note": "A little. It becomes poca before a feminine noun.", "tags": ["quantity"] },
     { "es": "también", "en": "also", "article": null, "note": "Also, too.", "tags": ["link"] },
     { "es": "hasta luego", "en": "see you later", "article": null, "note": "See you later. You say it when you leave.", "tags": ["greeting"] },
     { "es": "de nada", "en": "you are welcome", "article": null, "note": "You are welcome. The answer to thank you.", "tags": ["courtesy"] }
+  ],
+  "drills": [
+    { "prompt": "¿___ te llamas?", "answer": "Cómo", "meaning": "what is your name?", "note": "The question word goes first." },
+    { "prompt": "___ llamo Ana.", "answer": "Me", "meaning": "my name is Ana", "note": "Me llamo." },
+    { "prompt": "Estoy ___, gracias.", "answer": "bien", "meaning": "I am well, thank you", "note": "Estoy bien." },
+    { "prompt": "Tengo ___ agua.", "answer": "mucha", "meaning": "I have a lot of water", "note": "Mucho becomes mucha before a feminine noun." },
+    { "prompt": "___ gusto.", "answer": "Mucho", "meaning": "pleased to meet you", "note": "Mucho gusto." }
   ]
 }

@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would eat”.",
       "options": [
-        "veré",
-        "podré",
-        "haré",
+        "cepillarse",
+        "relajarse",
+        "levantarse",
         "comería"
       ],
       "answer": "comería",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would live”.",
       "options": [
-        "vender",
-        "perder",
-        "correr",
+        "dormir",
+        "preferir",
+        "seguir",
         "viviría"
       ],
       "answer": "viviría",

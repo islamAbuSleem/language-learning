@@ -75,9 +75,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “me”.",
       "options": [
-        "te",
-        "nos",
-        "se",
+        "los",
+        "vosotros",
+        "las",
         "me"
       ],
       "answer": "me",
@@ -128,9 +128,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “you”.",
       "options": [
-        "aquel",
-        "esto",
-        "eso",
+        "yo",
+        "él",
+        "ella",
         "te"
       ],
       "answer": "te",
@@ -153,9 +153,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “him”.",
       "options": [
-        "yo",
-        "tú",
-        "él",
+        "la",
+        "nos",
+        "los",
         "se"
       ],
       "answer": "se",

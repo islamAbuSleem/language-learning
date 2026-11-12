@@ -4,6 +4,61 @@
   "unit": 1,
   "title": "Hello",
   "description": "Greet someone, and be polite about it.",
+  "explanation": {
+    "summary": "Greeting someone in Spanish is mostly a matter of picking the right phrase for the time of day. Hola works at any hour, and the rest are built around buenos and buenas.",
+    "sections": [
+      {
+        "heading": "The three good ones",
+        "body": "Buenos días is for the morning, buenas tardes for the afternoon, and buenas noches for the evening. The adjective agrees: buenos and buenas. The noun that goes with them is singular, and that is what makes them look odd: literally good days, good afternoon and good evenings.",
+        "examples": [
+          {
+            "es": "Buenos días, señora.",
+            "en": "Good morning, madam."
+          },
+          {
+            "es": "Buenas tardes, ¿cómo está?",
+            "en": "Good afternoon, how are you?"
+          },
+          {
+            "es": "Buenas noches, hasta mañana.",
+            "en": "Good evening, see you tomorrow."
+          }
+        ]
+      },
+      {
+        "heading": "Saying hello and goodbye",
+        "body": "Hola works at any time of day, and it is the safest greeting. Adiós is a goodbye for leaving or ending a conversation. Hasta luego is see you later, and it works for leaving. Adiós carries a slight formality that hasta luego does not.",
+        "examples": [
+          {
+            "es": "Hola, me llamo Ana.",
+            "en": "Hello, my name is Ana."
+          },
+          {
+            "es": "Adiós, hasta mañana.",
+            "en": "Goodbye, see you tomorrow."
+          }
+        ]
+      },
+      {
+        "heading": "Being polite",
+        "body": "Gracias is thank you, and it never changes. De nada is the answer, and it means literally it is nothing. Por favor goes before the thing you are asking for: un café, por favor. Yes is sí, with an accent, and no is no.",
+        "examples": [
+          {
+            "es": "Gracias por tu ayuda.",
+            "en": "Thank you for your help."
+          },
+          {
+            "es": "Un café con leche, por favor.",
+            "en": "A coffee with milk, please."
+          },
+          {
+            "es": "De nada.",
+            "en": "You are welcome."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a0/u1/match/hola",
@@ -48,33 +103,15 @@
       "note": "Hello. It is used at any time of day."
     },
     {
-      "id": "es/a0/u1/type_in/adios",
+      "id": "es/a0/u1/drill/1",
       "type": "type_in",
-      "prompt": "Write “goodbye” in Spanish.",
-      "answer": "adiós",
+      "prompt": "___ días, señora.",
+      "answer": "Buenos",
       "acceptedAnswers": [
-        "adios"
+        "Buenos"
       ],
-      "translation": "goodbye",
-      "note": "Goodbye. The accent marks the stress."
-    },
-    {
-      "id": "es/a0/u1/listen/buenos-dias",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "buenos días",
-      "options": [
-        "buenos días",
-        "adiós",
-        "hola",
-        "qué tal"
-      ],
-      "audio": {
-        "text": "buenos días",
-        "lang": "es"
-      },
-      "translation": "good morning",
-      "note": "Good morning. Literally good days."
+      "translation": "good morning, madam",
+      "note": "Buenos agrees with días."
     },
     {
       "id": "es/a0/u1/match/gracias",
@@ -105,75 +142,76 @@
       "note": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening."
     },
     {
-      "id": "es/a0/u1/select/buenas-tardes",
+      "id": "es/a0/u1/select/adios",
       "type": "select",
-      "prompt": "Pick the Spanish word for “good afternoon”.",
+      "prompt": "Pick the Spanish word for “goodbye”.",
       "options": [
-        "qué tal",
         "hola",
-        "buenas noches",
-        "buenas tardes"
-      ],
-      "answer": "buenas tardes",
-      "translation": "good afternoon",
-      "note": "Good afternoon. It also means good evening."
-    },
-    {
-      "id": "es/a0/u1/type_in/buenas-noches",
-      "type": "type_in",
-      "prompt": "Write “good night” in Spanish.",
-      "answer": "buenas noches",
-      "acceptedAnswers": [
-        "buenas noches"
-      ],
-      "translation": "good night",
-      "note": "Good night, and good evening."
-    },
-    {
-      "id": "es/a0/u1/listen/gracias",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "gracias",
-      "options": [
-        "por favor",
-        "hola",
-        "qué tal",
-        "gracias"
-      ],
-      "audio": {
-        "text": "gracias",
-        "lang": "es"
-      },
-      "translation": "thank you",
-      "note": "Thank you. You can say gracias, or muchas gracias."
-    },
-    {
-      "id": "es/a0/u1/select/por-favor",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “please”.",
-      "options": [
-        "no",
-        "qué tal",
-        "por favor",
-        "gracias"
-      ],
-      "answer": "por favor",
-      "translation": "please",
-      "note": "Please. It always comes before what you are asking for."
-    },
-    {
-      "id": "es/a0/u1/select/si",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “yes”.",
-      "options": [
-        "no",
-        "adiós",
         "buenos días",
-        "sí"
+        "qué tal",
+        "adiós"
       ],
-      "answer": "sí",
-      "translation": "yes",
-      "note": "Yes. The accent marks the stress."
+      "answer": "adiós",
+      "translation": "goodbye",
+      "note": "Goodbye. The accent marks the stress."
+    },
+    {
+      "id": "es/a0/u1/drill/2",
+      "type": "type_in",
+      "prompt": "Un café con leche, ___ favor.",
+      "answer": "por",
+      "acceptedAnswers": [
+        "por"
+      ],
+      "translation": "a coffee with milk, please",
+      "note": "Por favor goes before the thing you are asking for."
+    },
+    {
+      "id": "es/a0/u1/select/buenos-dias",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “good morning”.",
+      "options": [
+        "adiós",
+        "buenas tardes",
+        "buenas noches",
+        "buenos días"
+      ],
+      "answer": "buenos días",
+      "translation": "good morning",
+      "note": "Good morning. Literally good days."
+    },
+    {
+      "id": "es/a0/u1/drill/3",
+      "type": "type_in",
+      "prompt": "___ por tu ayuda.",
+      "answer": "Gracias",
+      "acceptedAnswers": [
+        "Gracias"
+      ],
+      "translation": "thank you for your help",
+      "note": "Gracias never changes."
+    },
+    {
+      "id": "es/a0/u1/drill/4",
+      "type": "type_in",
+      "prompt": "— ___ — De nada.",
+      "answer": "Gracias",
+      "acceptedAnswers": [
+        "Gracias"
+      ],
+      "translation": "thank you — you are welcome",
+      "note": "De nada is the answer to gracias."
+    },
+    {
+      "id": "es/a0/u1/drill/5",
+      "type": "type_in",
+      "prompt": "Buenas ___ , ¿cómo está?",
+      "answer": "tardes",
+      "acceptedAnswers": [
+        "tardes"
+      ],
+      "translation": "good afternoon, how are you?",
+      "note": "Tardes takes the feminine buenas."
     }
   ]
 }

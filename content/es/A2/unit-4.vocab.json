@@ -4,96 +4,55 @@
   "description": "Say when it is, and when things happen.",
   "grammar": "expressing time in Spanish",
   "grammarNote": "Tell the time with es la una, es la dos: es la una y media, es las tres.",
+  "explanation": {
+    "summary": "Telling the time in Spanish has one irregularity that catches everybody: after la una you do not say las, and after every other hour you do.",
+    "sections": [
+      {
+        "heading": "La una and las demás",
+        "body": "Es la una is one o'clock. Everything else is es las: es las dos, es las cinco, es las once. After la una you say la una y media, but after any other hour you say las tres y media. The same rule applies to the quarter: las cuatro y cuarto, but la una y cuarto.",
+        "examples": [
+          { "es": "Es la una.", "en": "It is one o'clock." },
+          { "es": "Son las tres y media.", "en": "It is half past three." },
+          { "es": "Son las diez menos veinte.", "en": "It is twenty to ten." }
+        ]
+      },
+      {
+        "heading": "A time of day is feminine",
+        "body": "La mañana, la tarde and la noche are all feminine, so you say por la mañana, por la tarde, por la noche. A day of the week is masculine instead, which is the opposite of English: el lunes, el martes. Do not mix them up.",
+        "examples": [
+          { "es": "Trabajo por la mañana.", "en": "I work in the morning." },
+          { "es": "El lunes tengo una reunión.", "en": "On Monday I have a meeting." },
+          { "es": "Estudio por la tarde.", "en": "I study in the afternoon." }
+        ]
+      },
+      {
+        "heading": "Saying when something happens",
+        "body": "A specific time goes with a, not con: a las tres, a las nueve de la noche. To say something happens every day, use todos los días or cada día. And for a time range, de a: de nueve a cinco.",
+        "examples": [
+          { "es": "La reunión es a las tres.", "en": "The meeting is at three." },
+          { "es": "Trabajo de nueve a cinco.", "en": "I work from nine to five." },
+          { "es": "Estudio todos los días.", "en": "I study every day." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "hora",
-      "en": "hour",
-      "article": "la",
-      "note": "Feminine: la hora. It also means the time.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "minuto",
-      "en": "minute",
-      "article": "el",
-      "note": "Masculine: el minuto.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "mediodía",
-      "en": "noon",
-      "article": "el",
-      "note": "Masculine: el mediodía.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "medianoche",
-      "en": "midnight",
-      "article": "la",
-      "note": "Feminine: la medianoche.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "tarde",
-      "en": "afternoon",
-      "article": "la",
-      "note": "Feminine: la tarde. It also means late.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "noche",
-      "en": "night",
-      "article": "la",
-      "note": "Feminine: la noche.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "semana",
-      "en": "week",
-      "article": "la",
-      "note": "Feminine: la semana.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "mes",
-      "en": "month",
-      "article": "el",
-      "note": "Masculine: el mes.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "reloj",
-      "en": "clock",
-      "article": "el",
-      "note": "Masculine: el reloj. It also means watch.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "ahora",
-      "en": "now",
-      "article": null,
-      "note": "No article: ahora mismo.",
-      "tags": [
-        "time"
-      ]
-    }
+    { "es": "hora", "en": "hour", "article": "la", "note": "Feminine: la hora. It also means the time.", "tags": ["time"] },
+    { "es": "minuto", "en": "minute", "article": "el", "note": "Masculine: el minuto.", "tags": ["time"] },
+    { "es": "mediodía", "en": "noon", "article": "el", "note": "Masculine: el mediodía.", "tags": ["time"] },
+    { "es": "medianoche", "en": "midnight", "article": "la", "note": "Feminine: la medianoche.", "tags": ["time"] },
+    { "es": "tarde", "en": "afternoon", "article": null, "note": "In the phrase por la tarde. On its own it also means late.", "tags": ["time"] },
+    { "es": "noche", "en": "night", "article": null, "note": "In the phrase por la noche. It also means the night itself.", "tags": ["time"] },
+    { "es": "semana", "en": "week", "article": "la", "note": "Feminine: la semana.", "tags": ["time"] },
+    { "es": "mes", "en": "month", "article": "el", "note": "Masculine: el mes.", "tags": ["time"] },
+    { "es": "reloj", "en": "clock", "article": "el", "note": "Masculine: el reloj. It also means a watch.", "tags": ["object"] },
+    { "es": "ahora", "en": "now", "article": null, "note": "No article: ahora mismo.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "Es la ___.", "answer": "una", "meaning": "it is one o'clock", "note": "After la una you do not say las." },
+    { "prompt": "Son las tres y ___.", "answer": "media", "meaning": "it is half past three", "note": "After any other hour it is las and y media." },
+    { "prompt": "Trabajo por la ___.", "answer": "mañana", "meaning": "I work in the morning", "note": "A time of day is feminine." },
+    { "prompt": "La reunión es ___ las tres.", "answer": "a", "meaning": "the meeting is at three", "note": "A specific time takes a." },
+    { "prompt": "___ lunes tengo una reunión.", "answer": "El", "meaning": "on Monday I have a meeting", "note": "A day of the week is masculine." }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "unit": 11,
+  "title": "The participle as an adjective",
+  "description": "Describe a person by what they have done, or what is being done to them.",
+  "grammar": "el participio adjetival",
+  "grammarNote": "A participle can work as an adjective: una casa abandonada, an abandoned house.",
+  "explanation": {
+    "summary": "The participle is not only for the passive. It can describe a thing or a person on its own, and then it behaves like an adjective, including the agreement.",
+    "sections": [
+      {
+        "heading": "Describing with the participle",
+        "body": "A participle after the noun describes it: un coche aparcado, a parked car; una mujer cansada, a tired woman. It agrees with the noun like any other adjective: un coche aparcado, but una coche aparcada. And the difference from an adjective is that the participle keeps the action inside it: cansado means tired because of the doing.",
+        "examples": [
+          { "es": "Encontramos un coche aparcado.", "en": "We found a parked car." },
+          { "es": "Es una mujer cansada.", "en": "She is a tired woman." },
+          { "es": "Tenía las manos heladas.", "en": "Her hands were cold." }
+        ]
+      },
+      {
+        "heading": "How it differs from estar",
+        "body": "Estar plus a participle says the action is happening now: está quemando, it is burning. The participle on its own says the state it left behind: la cocina está sucia, the kitchen is dirty, but la cocina está ensuciada, the kitchen has been made dirty, by somebody. Spanish makes that difference, and English mostly does not.",
+        "examples": [
+          { "es": "El motor está recalentado.", "en": "The engine is overheated.", "note": "The participle goes after the noun." },
+          { "es": "La puerta está cerrada.", "en": "The door is closed." },
+          { "es": "El cristal está roto.", "en": "The window is broken." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "abandonado", "en": "abandoned", "article": null, "note": "The participle of abandonar. It agrees: abandonada.", "tags": ["participle"] },
+    { "es": "cansado", "en": "tired", "article": null, "note": "The participle of cansar. It agrees: cansada.", "tags": ["participle"] },
+    { "es": "aparcado", "en": "parked", "article": null, "note": "The participle of aparcar.", "tags": ["participle"] },
+    { "es": "roto", "en": "broken", "article": null, "note": "The participle of romper.", "tags": ["participle"] },
+    { "es": "sucio", "en": "dirty", "article": null, "note": "The participle of ensuciar.", "tags": ["participle"] },
+    { "es": "cerrado", "en": "closed", "article": null, "note": "The participle of cerrar.", "tags": ["participle"] },
+    { "es": "helado", "en": "cold", "article": null, "note": "The participle of enfriar.", "tags": ["participle"] },
+    { "es": "perdido", "en": "lost", "article": null, "note": "The participle of perder.", "tags": ["participle"] },
+    { "es": "encontrado", "en": "found", "article": null, "note": "The participle of encontrar.", "tags": ["participle"] },
+    { "es": "herido", "en": "hurt", "article": null, "note": "The participle of herir.", "tags": ["participle"] }
+  ],
+  "drills": [
+    { "prompt": "Encontramos un coche ___.", "answer": "aparcado", "meaning": "we found a parked car", "note": "The participle goes after the noun." },
+    { "prompt": "Es una mujer ___.", "answer": "cansada", "meaning": "she is a tired woman", "note": "The participle agrees with the noun." },
+    { "prompt": "La puerta está ___.", "answer": "cerrada", "meaning": "the door is closed", "note": "Estar plus the participle." },
+    { "prompt": "El cristal está ___.", "answer": "roto", "meaning": "the window is broken", "note": "A participle on its own describes the state." },
+    { "prompt": "Tenía las manos ___.", "answer": "heladas", "meaning": "her hands were cold", "note": "Heladas agrees with the feminine plural manos." }
+  ]
+}

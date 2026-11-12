@@ -4,6 +4,65 @@
   "unit": 2,
   "title": "Getting around",
   "description": "Ask for directions, read a map, and find your way.",
+  "explanation": {
+    "summary": "Places and things take an article that says whether you mean a particular one or just the kind of thing. This unit is mostly vocabulary for asking your way, with the articles that go with it.",
+    "sections": [
+      {
+        "heading": "A particular one or any one",
+        "body": "The article el or la names a specific thing: el mapa, the map on the table. Without an article you are talking about the kind of thing, or about a place in general: vivo en Madrid, I live in Madrid, but trabajo en la tienda, I work in the shop, where the shop is one the listener knows.",
+        "examples": [
+          {
+            "es": "El mapa está en la mesa.",
+            "en": "The map is on the table."
+          },
+          {
+            "es": "Vivo en Madrid.",
+            "en": "I live in Madrid."
+          },
+          {
+            "es": "Trabajo en la tienda.",
+            "en": "I work in the shop."
+          }
+        ]
+      },
+      {
+        "heading": "Asking your way",
+        "body": "To ask where something is, use dónde está. To ask how to get somewhere, the useful phrase is cómo llego a, and the answer gives a direction: está a la derecha, it is on the right. Derecha and izquierda are feminine, because la dirección is feminine.",
+        "examples": [
+          {
+            "es": "¿Dónde está la estación?",
+            "en": "Where is the station?"
+          },
+          {
+            "es": "¿Cómo llego al mercado?",
+            "en": "How do I get to the market?"
+          },
+          {
+            "es": "Gire a la izquierda.",
+            "en": "Turn left."
+          }
+        ]
+      },
+      {
+        "heading": "Near and far",
+        "body": "Cerca and lejos are adjectives, and they take the preposition de before a place: cerca de la estación, lejos del centro. They also work on their own: el mapa está cerca. As with the weather, the verb for distance is estar.",
+        "examples": [
+          {
+            "es": "El hotel está cerca de la estación.",
+            "en": "The hotel is near the station."
+          },
+          {
+            "es": "Mi casa está lejos.",
+            "en": "My house is far away."
+          },
+          {
+            "es": "El mercado está en el centro.",
+            "en": "The market is in the centre."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a1/u2/match/calle",
@@ -31,7 +90,7 @@
           "right": "el mercado"
         }
       ],
-      "note": "Some words take an article, some do not: está cerca, but la calle."
+      "note": "Some places take de as well: en la tienda, en la calle, but a través de la ciudad."
     },
     {
       "id": "es/a1/u2/select/calle",
@@ -48,33 +107,15 @@
       "note": "Feminine: la calle."
     },
     {
-      "id": "es/a1/u2/type_in/tienda",
+      "id": "es/a1/u2/drill/1",
       "type": "type_in",
-      "prompt": "Write “shop” in Spanish.",
-      "answer": "tienda",
+      "prompt": "¿Dónde ___ la estación?",
+      "answer": "está",
       "acceptedAnswers": [
-        "tienda"
+        "esta"
       ],
-      "translation": "shop",
-      "note": "Feminine: la tienda."
-    },
-    {
-      "id": "es/a1/u2/listen/cerca",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "cerca",
-      "options": [
-        "la izquierda",
-        "lejos",
-        "la derecha",
-        "cerca"
-      ],
-      "audio": {
-        "text": "cerca",
-        "lang": "es"
-      },
-      "translation": "near",
-      "note": "No article on its own: está cerca."
+      "translation": "where is the station?",
+      "note": "Estar says where a thing is."
     },
     {
       "id": "es/a1/u2/match/estacion",
@@ -102,78 +143,79 @@
           "right": "llegar"
         }
       ],
-      "note": "Some words take an article, some do not: está cerca, but la calle."
+      "note": "Some places take de as well: en la tienda, en la calle, but a través de la ciudad."
     },
     {
-      "id": "es/a1/u2/select/lejos",
+      "id": "es/a1/u2/select/tienda",
       "type": "select",
-      "prompt": "Pick the Spanish word for “far”.",
-      "options": [
-        "la derecha",
-        "la izquierda",
-        "cerca",
-        "lejos"
-      ],
-      "answer": "lejos",
-      "translation": "far",
-      "note": "No article on its own: está lejos."
-    },
-    {
-      "id": "es/a1/u2/type_in/mercado",
-      "type": "type_in",
-      "prompt": "Write “market” in Spanish.",
-      "answer": "mercado",
-      "acceptedAnswers": [
-        "mercado"
-      ],
-      "translation": "market",
-      "note": "Masculine: el mercado."
-    },
-    {
-      "id": "es/a1/u2/listen/estacion",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la estación",
+      "prompt": "Pick the Spanish word for “shop”.",
       "options": [
         "la tienda",
-        "el mercado",
+        "la calle",
         "la estación",
-        "la calle"
+        "el mercado"
       ],
-      "audio": {
-        "text": "estación",
-        "lang": "es"
-      },
-      "translation": "station",
-      "note": "Feminine: la estación. The accent marks the stress."
+      "answer": "la tienda",
+      "translation": "shop",
+      "note": "Feminine: la tienda."
     },
     {
-      "id": "es/a1/u2/select/mapa",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “map”.",
-      "options": [
-        "el agua",
-        "la leche",
-        "el té",
-        "el mapa"
+      "id": "es/a1/u2/drill/2",
+      "type": "type_in",
+      "prompt": "El hotel está ___ de la estación.",
+      "answer": "cerca",
+      "acceptedAnswers": [
+        "cerca"
       ],
-      "answer": "el mapa",
-      "translation": "map",
-      "note": "Masculine: el mapa."
+      "translation": "the hotel is near the station",
+      "note": "Cerca takes de before a place."
     },
     {
-      "id": "es/a1/u2/select/izquierda",
+      "id": "es/a1/u2/select/cerca",
       "type": "select",
-      "prompt": "Pick the Spanish word for “left”.",
+      "prompt": "Pick the Spanish word for “near”.",
       "options": [
-        "cerca",
         "lejos",
         "la derecha",
-        "la izquierda"
+        "la izquierda",
+        "cerca"
       ],
-      "answer": "la izquierda",
-      "translation": "left",
-      "note": "Feminine: la izquierda. Directions keep the article."
+      "answer": "cerca",
+      "translation": "near",
+      "note": "It is an adjective and takes de before a place: cerca de."
+    },
+    {
+      "id": "es/a1/u2/drill/3",
+      "type": "type_in",
+      "prompt": "Gire a la ___.",
+      "answer": "izquierda",
+      "acceptedAnswers": [
+        "izquierda"
+      ],
+      "translation": "turn left",
+      "note": "Izquierda is feminine."
+    },
+    {
+      "id": "es/a1/u2/drill/4",
+      "type": "type_in",
+      "prompt": "Vivo ___ Madrid.",
+      "answer": "en",
+      "acceptedAnswers": [
+        "en"
+      ],
+      "translation": "I live in Madrid",
+      "note": "A city in general takes no article."
+    },
+    {
+      "id": "es/a1/u2/drill/5",
+      "type": "type_in",
+      "prompt": "___ mapa está en la mesa.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the map is on the table",
+      "note": "A particular thing takes the article."
     }
   ]
 }

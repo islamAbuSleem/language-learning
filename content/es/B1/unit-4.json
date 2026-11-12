@@ -4,6 +4,65 @@
   "unit": 4,
   "title": "Him, her, them",
   "description": "Say who an action is for, without repeating the noun.",
+  "explanation": {
+    "summary": "The direct object is the thing an action happens to. When you have already mentioned it, Spanish replaces it with a pronoun instead of repeating the noun.",
+    "sections": [
+      {
+        "heading": "The five",
+        "body": "Me, te, lo, la, nos, os, los, las. Lo and la replace a thing: lo veo, I see it. La and lo are the same word in meaning when there is no noun to tell them apart, so you use la for a feminine object and lo for a masculine one, or either for a thing whose gender you do not know.",
+        "examples": [
+          {
+            "es": "Lo veo.",
+            "en": "I see it."
+          },
+          {
+            "es": "La escucho.",
+            "en": "I listen to her."
+          },
+          {
+            "es": "Los veo.",
+            "en": "I see them."
+          }
+        ]
+      },
+      {
+        "heading": "Where it goes",
+        "body": "The pronoun goes before the conjugated verb: lo veo, no veo lo. With the infinitive, the pronoun goes after it and is attached to it: verlo, quiero verlo. With a gerund it goes before: lo estoy viendo. And a pronoun that is attached to the infinitive or the gerund turns into the reflexive se: bañarse, I'm washing myself.",
+        "examples": [
+          {
+            "es": "Quiero verlo.",
+            "en": "I want to see it."
+          },
+          {
+            "es": "Lo estoy viendo.",
+            "en": "I am watching it."
+          },
+          {
+            "es": "Voy a cogerlo.",
+            "en": "I am going to get it."
+          }
+        ]
+      },
+      {
+        "heading": "The one that is easy to miss",
+        "body": "The pronouns lo and la are also the words for the neuter article, and Spanish uses them in a lot of fixed phrases where there is no object at all: lo bueno, the good part; lo mismo, the same; lo de siempre, the usual.",
+        "examples": [
+          {
+            "es": "Lo de siempre, por favor.",
+            "en": "The usual, please."
+          },
+          {
+            "es": "Me gusta lo bueno.",
+            "en": "I like the good part."
+          },
+          {
+            "es": "Es lo mismo.",
+            "en": "It is the same."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u4/match/me",
@@ -38,53 +97,31 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “me”.",
       "options": [
-        "ese",
-        "aquel",
         "yo",
+        "tú",
+        "él",
         "me"
       ],
       "answer": "me",
       "translation": "me",
-      "note": "Me, and also myself: me llamo."
+      "note": "Me, or myself: me llamo."
     },
     {
-      "id": "es/b1/u4/type_in/te",
+      "id": "es/b1/u4/drill/1",
       "type": "type_in",
-      "prompt": "Write “you” in Spanish.",
-      "answer": "te",
+      "prompt": "___ veo.",
+      "answer": "Lo",
       "acceptedAnswers": [
-        "te"
+        "Lo"
       ],
-      "translation": "you",
-      "note": "You, singular. It also means to yourself."
+      "translation": "I see it.",
+      "note": "The object pronoun goes before the verb."
     },
     {
-      "id": "es/b1/u4/listen/lo",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "lo",
-      "options": [
-        "lo",
-        "ese",
-        "aquel",
-        "yo"
-      ],
-      "audio": {
-        "text": "lo",
-        "lang": "es"
-      },
-      "translation": "it",
-      "note": "It, him or it. It takes the place of a masculine object."
-    },
-    {
-      "id": "es/b1/u4/match/os",
+      "id": "es/b1/u4/match/los",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
-        {
-          "left": "you",
-          "right": "os"
-        },
         {
           "left": "them",
           "right": "los"
@@ -94,86 +131,91 @@
           "right": "las"
         },
         {
-          "left": "that one",
-          "right": "ese"
+          "left": "you",
+          "right": "vosotros"
         },
         {
-          "left": "that one over there",
-          "right": "aquel"
+          "left": "to enter",
+          "right": "entrar"
+        },
+        {
+          "left": "to leave",
+          "right": "salir"
         }
       ],
       "note": "The object pronoun goes before the verb: lo veo, la escucho."
     },
     {
-      "id": "es/b1/u4/select/la",
+      "id": "es/b1/u4/select/te",
       "type": "select",
-      "prompt": "Pick the Spanish word for “her”.",
-      "options": [
-        "ella",
-        "me",
-        "él",
-        "la"
-      ],
-      "answer": "la",
-      "translation": "her",
-      "note": "It, her. It takes the place of a feminine object."
-    },
-    {
-      "id": "es/b1/u4/type_in/nos",
-      "type": "type_in",
-      "prompt": "Write “us” in Spanish.",
-      "answer": "nos",
-      "acceptedAnswers": [
-        "nos"
-      ],
-      "translation": "us",
-      "note": "Us. It also means to ourselves."
-    },
-    {
-      "id": "es/b1/u4/listen/os",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "os",
+      "prompt": "Pick the Spanish word for “you”.",
       "options": [
         "la",
         "nos",
         "lo",
-        "os"
+        "te"
       ],
-      "audio": {
-        "text": "os",
-        "lang": "es"
-      },
+      "answer": "te",
       "translation": "you",
-      "note": "You, plural. It is used in Spain."
+      "note": "You, singular. It goes before the verb: te veo."
     },
     {
-      "id": "es/b1/u4/select/los",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “them”.",
-      "options": [
-        "os",
-        "ese",
-        "nos",
-        "los"
+      "id": "es/b1/u4/drill/2",
+      "type": "type_in",
+      "prompt": "Quiero ___.",
+      "answer": "verlo",
+      "acceptedAnswers": [
+        "verlo"
       ],
-      "answer": "los",
-      "translation": "them",
-      "note": "Them, masculine or mixed."
+      "translation": "I want to see it.",
+      "note": "With an infinitive the pronoun goes after it and is attached."
     },
     {
-      "id": "es/b1/u4/select/las",
+      "id": "es/b1/u4/select/lo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “them”.",
+      "prompt": "Pick the Spanish word for “it”.",
       "options": [
-        "te",
-        "lo",
+        "ella",
         "me",
-        "las"
+        "lo",
+        "él"
       ],
-      "answer": "las",
-      "translation": "them",
-      "note": "Them, feminine."
+      "answer": "lo",
+      "translation": "it",
+      "note": "It, him or it. It takes the place of a masculine object."
+    },
+    {
+      "id": "es/b1/u4/drill/3",
+      "type": "type_in",
+      "prompt": "___ estoy viendo.",
+      "answer": "Lo",
+      "acceptedAnswers": [
+        "Lo"
+      ],
+      "translation": "I am watching it.",
+      "note": "With a gerund the pronoun goes before."
+    },
+    {
+      "id": "es/b1/u4/drill/4",
+      "type": "type_in",
+      "prompt": "___ veo, son mis amigos.",
+      "answer": "Los",
+      "acceptedAnswers": [
+        "Los"
+      ],
+      "translation": "I see them, they are my friends.",
+      "note": "Los is masculine or mixed."
+    },
+    {
+      "id": "es/b1/u4/drill/5",
+      "type": "type_in",
+      "prompt": "Me ___ por favor.",
+      "answer": "llamo",
+      "acceptedAnswers": [
+        "llamo"
+      ],
+      "translation": "call me, please",
+      "note": "Me llamo, and the pronoun is attached to the verb."
     }
   ]
 }

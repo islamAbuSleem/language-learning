@@ -4,6 +4,65 @@
   "unit": 8,
   "title": "Yesterday",
   "description": "Say what you did, and who you did it with.",
+  "explanation": {
+    "summary": "The preterite is the tense for something that happened and is finished. With -ar verbs it is almost entirely regular, and the one irregular part is the yo form.",
+    "sections": [
+      {
+        "heading": "The endings",
+        "body": "The -ar preterite has its own set of endings: -é, -aste, -ó, -amos, -asteis, -aron. They are not the same as the present endings, which is why the tense is easy to spot. Hablar becomes hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+        "examples": [
+          {
+            "es": "Ayer hablé con mi madre.",
+            "en": "Yesterday I spoke to my mother."
+          },
+          {
+            "es": "Estudiaste toda la tarde.",
+            "en": "You studied all afternoon."
+          },
+          {
+            "es": "Llegaron tarde.",
+            "en": "They arrived late."
+          }
+        ]
+      },
+      {
+        "heading": "The yo form",
+        "body": "The yo form takes an accent, and for most verbs it is the infinitive with the final vowel changed to é. But some verbs change their stem instead: tener becomes tuve, estar became estuviste, poder became pude, hacer became hice, ir and ser became fui, and estar and tener also have irregular third person forms: estuvo, tuvo.",
+        "examples": [
+          {
+            "es": "Tuve una idea.",
+            "en": "I had an idea."
+          },
+          {
+            "es": "Hice la cena.",
+            "en": "I made dinner."
+          },
+          {
+            "es": "Estuve en casa.",
+            "en": "I was at home."
+          }
+        ]
+      },
+      {
+        "heading": "When you use it",
+        "body": "The preterite belongs to a finished period: ayer, la semana pasada, en 2020, hace dos años. It is also what you use when something interrupts another past action: dormía cuando sonó el teléfono, I was sleeping when the phone rang. The phone rang is the interruption, so it takes the preterite.",
+        "examples": [
+          {
+            "es": "El año pasado viajé mucho.",
+            "en": "Last year I travelled a lot."
+          },
+          {
+            "es": "Dormía cuando sonó el teléfono.",
+            "en": "I was sleeping when the phone rang."
+          },
+          {
+            "es": "Comí a las dos.",
+            "en": "I ate at two."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u8/match/hablo",
@@ -38,43 +97,25 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he spoke”.",
       "options": [
-        "leer",
-        "vender",
-        "aprender",
+        "volver",
+        "salir",
+        "venir",
         "habló"
       ],
       "answer": "habló",
       "translation": "he spoke",
-      "note": "The preterite of hablar. The yo form takes an accent: hablé."
+      "note": "The preterite of hablar. The yo form is hablé."
     },
     {
-      "id": "es/b1/u8/type_in/comio",
+      "id": "es/b1/u8/drill/1",
       "type": "type_in",
-      "prompt": "Write “he ate” in Spanish.",
-      "answer": "comió",
+      "prompt": "Ayer ___ con mi madre.",
+      "answer": "hablé",
       "acceptedAnswers": [
-        "comio"
+        "hable"
       ],
-      "translation": "he ate",
-      "note": "The preterite of comer. The yo form takes an accent: comí."
-    },
-    {
-      "id": "es/b1/u8/listen/escribio",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "escribió",
-      "options": [
-        "escribió",
-        "he escrito",
-        "he dicho",
-        "he hecho"
-      ],
-      "audio": {
-        "text": "escribió",
-        "lang": "es"
-      },
-      "translation": "he wrote",
-      "note": "The preterite of escribir. The yo form takes an accent: escribí."
+      "translation": "yesterday I spoke to my mother",
+      "note": "The yo form takes an accent."
     },
     {
       "id": "es/b1/u8/match/primo",
@@ -105,75 +146,76 @@
       "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
     },
     {
-      "id": "es/b1/u8/select/vivio",
+      "id": "es/b1/u8/select/comio",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he lived”.",
+      "prompt": "Pick the Spanish word for “he ate”.",
       "options": [
-        "vivió",
-        "deber",
-        "hay",
-        "poder"
+        "comió",
+        "hacer",
+        "saber",
+        "hay"
       ],
-      "answer": "vivió",
-      "translation": "he lived",
-      "note": "The preterite of vivir. The yo form takes an accent: viví."
+      "answer": "comió",
+      "translation": "he ate",
+      "note": "The preterite of comer. The yo form is comí."
     },
     {
-      "id": "es/b1/u8/type_in/familia",
+      "id": "es/b1/u8/drill/2",
       "type": "type_in",
-      "prompt": "Write “family” in Spanish.",
-      "answer": "familia",
+      "prompt": "___ una idea.",
+      "answer": "Tuve",
       "acceptedAnswers": [
-        "familia"
+        "Tuve"
       ],
-      "translation": "family",
-      "note": "Feminine: la familia."
+      "translation": "I had an idea",
+      "note": "Tener is irregular in the preterite."
     },
     {
-      "id": "es/b1/u8/listen/primo",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el primo",
-      "options": [
-        "el abuelo",
-        "la abuela",
-        "la hermana",
-        "el primo"
-      ],
-      "audio": {
-        "text": "primo",
-        "lang": "es"
-      },
-      "translation": "cousin",
-      "note": "Masculine: el primo. The feminine is la prima."
-    },
-    {
-      "id": "es/b1/u8/select/vecino",
+      "id": "es/b1/u8/select/escribio",
       "type": "select",
-      "prompt": "Pick the Spanish word for “neighbour”.",
+      "prompt": "Pick the Spanish word for “he wrote”.",
       "options": [
-        "el vecino",
-        "el profesor",
-        "el amigo",
-        "el médico"
+        "habló",
+        "comió",
+        "acabar",
+        "escribió"
       ],
-      "answer": "el vecino",
-      "translation": "neighbour",
-      "note": "Masculine: el vecino. The feminine is la vecina."
+      "answer": "escribió",
+      "translation": "he wrote",
+      "note": "The preterite of escribir. The yo form is escribí."
     },
     {
-      "id": "es/b1/u8/select/jefe",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “boss”.",
-      "options": [
-        "el profesor",
-        "el amigo",
-        "el médico",
-        "el jefe"
+      "id": "es/b1/u8/drill/3",
+      "type": "type_in",
+      "prompt": "___ la cena.",
+      "answer": "Hice",
+      "acceptedAnswers": [
+        "Hice"
       ],
-      "answer": "el jefe",
-      "translation": "boss",
-      "note": "Masculine: el jefe. The feminine is la jefa."
+      "translation": "I made dinner",
+      "note": "Hacer is irregular in the preterite."
+    },
+    {
+      "id": "es/b1/u8/drill/4",
+      "type": "type_in",
+      "prompt": "Dormía cuando ___ el teléfono.",
+      "answer": "sonó",
+      "acceptedAnswers": [
+        "sono"
+      ],
+      "translation": "I was sleeping when the phone rang",
+      "note": "The interruption takes the preterite."
+    },
+    {
+      "id": "es/b1/u8/drill/5",
+      "type": "type_in",
+      "prompt": "Ellos ___ tarde.",
+      "answer": "llegaron",
+      "acceptedAnswers": [
+        "llegaron"
+      ],
+      "translation": "they arrived late",
+      "note": "The ellos form of llegar in the preterite."
     }
   ]
 }

@@ -4,16 +4,54 @@
   "description": "Greet someone, and be polite about it.",
   "grammar": "greetings and courtesy",
   "grammarNote": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening.",
+  "explanation": {
+    "summary": "Greeting someone in Spanish is mostly a matter of picking the right phrase for the time of day. Hola works at any hour, and the rest are built around buenos and buenas.",
+    "sections": [
+      {
+        "heading": "The three good ones",
+        "body": "Buenos días is for the morning, buenas tardes for the afternoon, and buenas noches for the evening. The adjective agrees: buenos and buenas. The noun that goes with them is singular, and that is what makes them look odd: literally good days, good afternoon and good evenings.",
+        "examples": [
+          { "es": "Buenos días, señora.", "en": "Good morning, madam." },
+          { "es": "Buenas tardes, ¿cómo está?", "en": "Good afternoon, how are you?" },
+          { "es": "Buenas noches, hasta mañana.", "en": "Good evening, see you tomorrow." }
+        ]
+      },
+      {
+        "heading": "Saying hello and goodbye",
+        "body": "Hola works at any time of day, and it is the safest greeting. Adiós is a goodbye for leaving or ending a conversation. Hasta luego is see you later, and it works for leaving. Adiós carries a slight formality that hasta luego does not.",
+        "examples": [
+          { "es": "Hola, me llamo Ana.", "en": "Hello, my name is Ana." },
+          { "es": "Adiós, hasta mañana.", "en": "Goodbye, see you tomorrow." }
+        ]
+      },
+      {
+        "heading": "Being polite",
+        "body": "Gracias is thank you, and it never changes. De nada is the answer, and it means literally it is nothing. Por favor goes before the thing you are asking for: un café, por favor. Yes is sí, with an accent, and no is no.",
+        "examples": [
+          { "es": "Gracias por tu ayuda.", "en": "Thank you for your help." },
+          { "es": "Un café con leche, por favor.", "en": "A coffee with milk, please." },
+          { "es": "De nada.", "en": "You are welcome." }
+        ]
+      }
+    ]
+  },
   "items": [
     { "es": "hola", "en": "hello", "article": null, "note": "Hello. It is used at any time of day.", "tags": ["greeting"] },
     { "es": "adiós", "en": "goodbye", "article": null, "note": "Goodbye. The accent marks the stress.", "tags": ["greeting"] },
     { "es": "buenos días", "en": "good morning", "article": null, "note": "Good morning. Literally good days.", "tags": ["greeting"] },
     { "es": "buenas tardes", "en": "good afternoon", "article": null, "note": "Good afternoon. It also means good evening.", "tags": ["greeting"] },
     { "es": "buenas noches", "en": "good night", "article": null, "note": "Good night, and good evening.", "tags": ["greeting"] },
-    { "es": "gracias", "en": "thank you", "article": null, "note": "Thank you. You can say gracias, or muchas gracias.", "tags": ["courtesy"] },
+    { "es": "gracias", "en": "thank you", "article": null, "note": "Thank you. It never changes form.", "tags": ["courtesy"] },
     { "es": "por favor", "en": "please", "article": null, "note": "Please. It always comes before what you are asking for.", "tags": ["courtesy"] },
     { "es": "sí", "en": "yes", "article": null, "note": "Yes. The accent marks the stress.", "tags": ["answer"] },
     { "es": "no", "en": "no", "article": null, "note": "No.", "tags": ["answer"] },
     { "es": "qué tal", "en": "how is it going", "article": null, "note": "How is it going. It is an informal greeting.", "tags": ["greeting"] }
+  ],
+  "drills": [
+    { "prompt": "___ días, señora.", "answer": "Buenos", "meaning": "good morning, madam", "note": "Buenos agrees with días." },
+    { "prompt": "Un café con leche, ___ favor.", "answer": "por", "meaning": "a coffee with milk, please", "note": "Por favor goes before the thing you are asking for." },
+    { "prompt": "___ por tu ayuda.", "answer": "Gracias", "meaning": "thank you for your help", "note": "Gracias never changes." },
+    { "prompt": "— ___ — De nada.", "answer": "Gracias", "meaning": "thank you — you are welcome", "note": "De nada is the answer to gracias." },
+    { "prompt": "Buenas ___ , ¿cómo está?", "answer": "tardes", "meaning": "good afternoon, how are you?", "note": "Tardes takes the feminine buenas." }
   ]
 }

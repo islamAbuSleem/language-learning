@@ -4,96 +4,55 @@
   "description": "Talk about leaving, arriving, and the journey.",
   "grammar": "the verb ir in the present",
   "grammarNote": "Ir is irregular: voy, vas, va, vamos, vais, van.",
+  "explanation": {
+    "summary": "Ir means to go, and it is one of the most irregular verbs in Spanish. It is also the verb that carries almost all of the near future, which is why it matters more than it looks.",
+    "sections": [
+      {
+        "heading": "The forms",
+        "body": "Only the nosotros and vosotros forms are regular: vamos, vais. The rest are irregular: voy, vas, va, van. The word for the place goes after a, not de: voy a la playa, vas al trabajo.",
+        "examples": [
+          { "es": "Voy al trabajo.", "en": "I am going to work." },
+          { "es": "¿Vas a venir?", "en": "Are you going to come?" },
+          { "es": "Vamos de compras.", "en": "We are going shopping." }
+        ]
+      },
+      {
+        "heading": "Going to somewhere, going to do something",
+        "body": "Two patterns that look alike. Ir + a + a place says where you are going: voy a Madrid. Ir + a + an infinitive says what you are going to do: voy a estudiar. The difference is what follows the a: a place, or a verb.",
+        "examples": [
+          { "es": "Voy a Madrid.", "en": "I am going to Madrid." },
+          { "es": "Voy a estudiar.", "en": "I am going to study." },
+          { "es": "Vamos a ver.", "en": "We are going to see." }
+        ]
+      },
+      {
+        "heading": "Coming and going",
+        "body": "Volver is to come back, and it is irregular in the yo form: vuelvo. Salir is to leave or to go out, and it is irregular: salgo. And ir and venir are opposites that do not need a preposition between them: ir y venir.",
+        "examples": [
+          { "es": "Vuelvo a las tres.", "en": "I am back at three." },
+          { "es": "Salgo ahora.", "en": "I am leaving now." },
+          { "es": "Voy y vengo en el día.", "en": "I go and come during the day." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "ir",
-      "en": "to go",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "venir",
-      "en": "to come",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: vengo, vienes, viene.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "volver",
-      "en": "to return",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "salir",
-      "en": "to leave",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: salgo, sales, sale.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "viajar",
-      "en": "to travel",
-      "article": null,
-      "note": "An infinitive ending in -ar: viajo, viajas, viaja.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "tren",
-      "en": "train",
-      "article": "el",
-      "note": "Masculine: el tren.",
-      "tags": [
-        "transport"
-      ]
-    },
-    {
-      "es": "coche",
-      "en": "car",
-      "article": "el",
-      "note": "Masculine: el coche.",
-      "tags": [
-        "transport"
-      ]
-    },
-    {
-      "es": "avión",
-      "en": "plane",
-      "article": "el",
-      "note": "Masculine: el avión. The accent marks the stress.",
-      "tags": [
-        "transport"
-      ]
-    },
-    {
-      "es": "billete",
-      "en": "ticket",
-      "article": "el",
-      "note": "Masculine: el billete. A travel ticket is un billete de viaje.",
-      "tags": [
-        "transport"
-      ]
-    },
-    {
-      "es": "aeropuerto",
-      "en": "airport",
-      "article": "el",
-      "note": "Masculine: el aeropuerto.",
-      "tags": [
-        "transport"
-      ]
-    }
+    { "es": "ir", "en": "to go", "article": null, "note": "Its forms are irregular: voy, vas, va, vamos, vais, van.", "tags": ["verb"] },
+    { "es": "venir", "en": "to come", "article": null, "note": "Its forms are irregular: vengo, vienes, viene.", "tags": ["verb"] },
+    { "es": "volver", "en": "to return", "article": null, "note": "Its forms are irregular: vuelvo, vuelves, vuelve.", "tags": ["verb"] },
+    { "es": "salir", "en": "to leave", "article": null, "note": "Its forms are irregular: salgo, sales, sale.", "tags": ["verb"] },
+    { "es": "viajar", "en": "to travel", "article": null, "note": "An infinitive ending in -ar: viajo, viajas, viaja.", "tags": ["verb"] },
+    { "es": "tren", "en": "train", "article": "el", "note": "Masculine: el tren.", "tags": ["transport"] },
+    { "es": "coche", "en": "car", "article": "el", "note": "Masculine: el coche.", "tags": ["transport"] },
+    { "es": "avión", "en": "plane", "article": "el", "note": "Masculine: el avión. The accent marks the stress.", "tags": ["transport"] },
+    { "es": "billete", "en": "ticket", "article": "el", "note": "Masculine: el billete. A travel ticket is un billete de viaje.", "tags": ["transport"] },
+    { "es": "aeropuerto", "en": "airport", "article": "el", "note": "Masculine: el aeropuerto.", "tags": ["transport"] }
+  ],
+  "drills": [
+    { "prompt": "Yo ___ al trabajo.", "answer": "voy", "meaning": "I am going to work", "note": "Ir is irregular in the yo form." },
+    { "prompt": "Nosotros ___ de compras.", "answer": "vamos", "meaning": "we are going shopping", "note": "Vamos is the regular form of ir." },
+    { "prompt": "Voy ___ estudiar.", "answer": "a", "meaning": "I am going to study", "note": "Ir a plus an infinitive is a plan." },
+    { "prompt": "Yo ___ a las tres.", "answer": "vuelvo", "meaning": "I am back at three", "note": "Volver is irregular in the yo form." },
+    { "prompt": "Tú ___ ahora.", "answer": "sales", "meaning": "you are leaving now", "note": "Salir is irregular." }
   ]
 }

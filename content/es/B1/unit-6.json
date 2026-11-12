@@ -4,6 +4,65 @@
   "unit": 6,
   "title": "Myself",
   "description": "Say what you do to yourself.",
+  "explanation": {
+    "summary": "A reflexive verb is an action you do to yourself. The pronoun it takes is called reflexive, and it comes from the person doing the action. Not all of them are about your body: acordarse, to remember, is reflexive too.",
+    "sections": [
+      {
+        "heading": "The forms",
+        "body": "The reflexive pronouns are me, te, se, nos, os, se. They are the same for every reflexive verb: me ducho, te duchas, se ducha, nos duchamos, os ducháis, se duchan. The verbs themselves keep their normal ending, with the addition of -se: duchar becomes ducharse, and in the infinitive the se is attached: ducharse.",
+        "examples": [
+          {
+            "es": "Me ducho por la mañana.",
+            "en": "I shower in the morning."
+          },
+          {
+            "es": "¿Te acuestas tarde?",
+            "en": "Do you go to bed late?"
+          },
+          {
+            "es": "Ella se viste muy bien.",
+            "en": "She dresses very well."
+          }
+        ]
+      },
+      {
+        "heading": "Not only about the body",
+        "body": "Several verbs take a reflexive pronoun for a meaning that is not about the body. Acordarse is to remember, beware is to be careful, and legalization is to get legalised. And the pronoun can be dropped when it is obvious:voy a duchar, I am going to shower.",
+        "examples": [
+          {
+            "es": "¿Te acuerdas de mi nombre?",
+            "en": "Do you remember my name?"
+          },
+          {
+            "es": "Hay que tener cuidado con el agua.",
+            "en": "You have to be careful with the water."
+          },
+          {
+            "es": "Me voy a duchar.",
+            "en": "I am going to shower."
+          }
+        ]
+      },
+      {
+        "heading": "When the pronoun changes the meaning",
+        "body": "With a reflexive pronoun the action is done to yourself, and without it it is done to someone else. Levantar is to lift: levanto la caja, I lift the box. Levantarse is to get up: me levanto, I get up. And in the negative, the reflexive pronoun is what makes it reflexive: no me levanto, I do not get up.",
+        "examples": [
+          {
+            "es": "Levanta la caja, por favor.",
+            "en": "Lift the box, please."
+          },
+          {
+            "es": "Me levanto a las siete.",
+            "en": "I get up at seven."
+          },
+          {
+            "es": "No me levanto hoy.",
+            "en": "I am not getting up today."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u6/match/ducharse",
@@ -38,43 +97,25 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to shower”.",
       "options": [
-        "compartir",
-        "descubrir",
-        "abrir",
+        "conocer",
+        "recordar",
+        "saber",
         "ducharse"
       ],
       "answer": "ducharse",
       "translation": "to shower",
-      "note": "Me ducho every morning. It keeps the -se ending."
+      "note": "A reflexive verb: me ducho, te duchas, se ducha."
     },
     {
-      "id": "es/b1/u6/type_in/vestirse",
+      "id": "es/b1/u6/drill/1",
       "type": "type_in",
-      "prompt": "Write “to get dressed” in Spanish.",
-      "answer": "vestirse",
+      "prompt": "___ ducho por la mañana.",
+      "answer": "Me",
       "acceptedAnswers": [
-        "vestirse"
+        "Me"
       ],
-      "translation": "to get dressed",
-      "note": "Me visto. It keeps the -se ending."
-    },
-    {
-      "id": "es/b1/u6/listen/acostarse",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "acostarse",
-      "options": [
-        "acostarse",
-        "recibir",
-        "abrir",
-        "compartir"
-      ],
-      "audio": {
-        "text": "acostarse",
-        "lang": "es"
-      },
-      "translation": "to go to bed",
-      "note": "Me acuesto. It keeps the -se ending."
+      "translation": "I shower in the morning",
+      "note": "The reflexive pronoun comes before the verb."
     },
     {
       "id": "es/b1/u6/match/levantarse",
@@ -105,75 +146,76 @@
       "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
     },
     {
-      "id": "es/b1/u6/select/afeitarse",
+      "id": "es/b1/u6/select/vestirse",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to shave”.",
+      "prompt": "Pick the Spanish word for “to get dressed”.",
       "options": [
-        "escribir",
-        "recibir",
-        "abrir",
-        "afeitarse"
+        "vestirse",
+        "querer",
+        "poder",
+        "dormir"
       ],
-      "answer": "afeitarse",
-      "translation": "to shave",
-      "note": "Me afeito. It keeps the -se ending."
+      "answer": "vestirse",
+      "translation": "to get dressed",
+      "note": "A reflexive verb: me visto, te vistes, se viste."
     },
     {
-      "id": "es/b1/u6/type_in/cepillarse",
+      "id": "es/b1/u6/drill/2",
       "type": "type_in",
-      "prompt": "Write “to brush” in Spanish.",
-      "answer": "cepillarse",
+      "prompt": "¿___ acuerdas de mi nombre?",
+      "answer": "te",
       "acceptedAnswers": [
-        "cepillarse"
+        "te"
       ],
-      "translation": "to brush",
-      "note": "Me cepillo los dientes. It keeps the -se ending."
+      "translation": "do you remember my name?",
+      "note": "Acordarse takes a reflexive pronoun."
     },
     {
-      "id": "es/b1/u6/listen/levantarse",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "levantarse",
-      "options": [
-        "escribir",
-        "recibir",
-        "levantarse",
-        "responder"
-      ],
-      "audio": {
-        "text": "levantarse",
-        "lang": "es"
-      },
-      "translation": "to get up",
-      "note": "Me levanto. It keeps the -se ending."
-    },
-    {
-      "id": "es/b1/u6/select/relajarse",
+      "id": "es/b1/u6/select/acostarse",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to relax”.",
+      "prompt": "Pick the Spanish word for “to go to bed”.",
       "options": [
-        "relajarse",
-        "he trabajado",
-        "he estudiado",
-        "he vivido"
+        "he dicho",
+        "he escrito",
+        "hemos abierto",
+        "acostarse"
       ],
-      "answer": "relajarse",
-      "translation": "to relax",
-      "note": "Me relajo. It keeps the -se ending."
+      "answer": "acostarse",
+      "translation": "to go to bed",
+      "note": "A reflexive verb: me acuesto, te acuestas, se acuesta."
     },
     {
-      "id": "es/b1/u6/select/espejo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “mirror”.",
-      "options": [
-        "el jabón",
-        "la toalla",
-        "el espejo",
-        "el trabajo"
+      "id": "es/b1/u6/drill/3",
+      "type": "type_in",
+      "prompt": "___ levanto a las siete.",
+      "answer": "Me",
+      "acceptedAnswers": [
+        "Me"
       ],
-      "answer": "el espejo",
-      "translation": "mirror",
-      "note": "Masculine: el espejo."
+      "translation": "I get up at seven",
+      "note": "Levantarse is reflexive."
+    },
+    {
+      "id": "es/b1/u6/drill/4",
+      "type": "type_in",
+      "prompt": "___ levanta la caja, por favor.",
+      "answer": "Levanta",
+      "acceptedAnswers": [
+        "Levanta"
+      ],
+      "translation": "lift the box, please",
+      "note": "Without the reflexive pronoun the verb is transitive."
+    },
+    {
+      "id": "es/b1/u6/drill/5",
+      "type": "type_in",
+      "prompt": "___ visto muy bien.",
+      "answer": "Ella se",
+      "acceptedAnswers": [
+        "Ella se"
+      ],
+      "translation": "she dresses very well",
+      "note": "Ella se viste."
     }
   ]
 }

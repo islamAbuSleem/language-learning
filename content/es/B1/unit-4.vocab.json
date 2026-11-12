@@ -4,96 +4,55 @@
   "description": "Say who an action is for, without repeating the noun.",
   "grammar": "direct object pronouns",
   "grammarNote": "The object pronoun goes before the verb: lo veo, la escucho.",
+  "explanation": {
+    "summary": "The direct object is the thing an action happens to. When you have already mentioned it, Spanish replaces it with a pronoun instead of repeating the noun.",
+    "sections": [
+      {
+        "heading": "The five",
+        "body": "Me, te, lo, la, nos, os, los, las. Lo and la replace a thing: lo veo, I see it. La and lo are the same word in meaning when there is no noun to tell them apart, so you use la for a feminine object and lo for a masculine one, or either for a thing whose gender you do not know.",
+        "examples": [
+          { "es": "Lo veo.", "en": "I see it." },
+          { "es": "La escucho.", "en": "I listen to her." },
+          { "es": "Los veo.", "en": "I see them." }
+        ]
+      },
+      {
+        "heading": "Where it goes",
+        "body": "The pronoun goes before the conjugated verb: lo veo, no veo lo. With the infinitive, the pronoun goes after it and is attached to it: verlo, quiero verlo. With a gerund it goes before: lo estoy viendo. And a pronoun that is attached to the infinitive or the gerund turns into the reflexive se: bañarse, I'm washing myself.",
+        "examples": [
+          { "es": "Quiero verlo.", "en": "I want to see it." },
+          { "es": "Lo estoy viendo.", "en": "I am watching it." },
+          { "es": "Voy a cogerlo.", "en": "I am going to get it." }
+        ]
+      },
+      {
+        "heading": "The one that is easy to miss",
+        "body": "The pronouns lo and la are also the words for the neuter article, and Spanish uses them in a lot of fixed phrases where there is no object at all: lo bueno, the good part; lo mismo, the same; lo de siempre, the usual.",
+        "examples": [
+          { "es": "Lo de siempre, por favor.", "en": "The usual, please." },
+          { "es": "Me gusta lo bueno.", "en": "I like the good part." },
+          { "es": "Es lo mismo.", "en": "It is the same." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "me",
-      "en": "me",
-      "article": null,
-      "note": "Me, and also myself: me llamo.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "te",
-      "en": "you",
-      "article": null,
-      "note": "You, singular. It also means to yourself.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "lo",
-      "en": "it",
-      "article": null,
-      "note": "It, him or it. It takes the place of a masculine object.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "la",
-      "en": "her",
-      "article": null,
-      "note": "It, her. It takes the place of a feminine object.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "nos",
-      "en": "us",
-      "article": null,
-      "note": "Us. It also means to ourselves.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "os",
-      "en": "you",
-      "article": null,
-      "note": "You, plural. It is used in Spain.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "los",
-      "en": "them",
-      "article": null,
-      "note": "Them, masculine or mixed.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "las",
-      "en": "them",
-      "article": null,
-      "note": "Them, feminine.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "ese",
-      "en": "that one",
-      "article": null,
-      "note": "That one, close to you. It changes to esa before a feminine noun.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "aquel",
-      "en": "that one over there",
-      "article": null,
-      "note": "That one, far from you. It changes to aquella.",
-      "tags": [
-        "pronoun"
-      ]
-    }
+    { "es": "me", "en": "me", "article": null, "note": "Me, or myself: me llamo.", "tags": ["pronoun"] },
+    { "es": "te", "en": "you", "article": null, "note": "You, singular. It goes before the verb: te veo.", "tags": ["pronoun"] },
+    { "es": "lo", "en": "it", "article": null, "note": "It, him or it. It takes the place of a masculine object.", "tags": ["pronoun"] },
+    { "es": "la", "en": "her", "article": null, "note": "It, her. It takes the place of a feminine object.", "tags": ["pronoun"] },
+    { "es": "nos", "en": "us", "article": null, "note": "Us. It goes before the verb: nos ve.", "tags": ["pronoun"] },
+    { "es": "los", "en": "them", "article": null, "note": "Them, masculine or mixed.", "tags": ["pronoun"] },
+    { "es": "las", "en": "them", "article": null, "note": "Them, feminine.", "tags": ["pronoun"] },
+    { "es": "vosotros", "en": "you", "article": null, "note": "You, plural. It is used in Spain.", "tags": ["pronoun"] },
+    { "es": "entrar", "en": "to enter", "article": null, "note": "An infinitive ending in -ar: entro, entras, entra.", "tags": ["verb"] },
+    { "es": "salir", "en": "to leave", "article": null, "note": "Its forms are irregular: salgo, sales, sale.", "tags": ["verb"] }
+  ],
+  "drills": [
+    { "prompt": "___ veo.", "answer": "Lo", "meaning": "I see it.", "note": "The object pronoun goes before the verb." },
+    { "prompt": "Quiero ___.", "answer": "verlo", "meaning": "I want to see it.", "note": "With an infinitive the pronoun goes after it and is attached." },
+    { "prompt": "___ estoy viendo.", "answer": "Lo", "meaning": "I am watching it.", "note": "With a gerund the pronoun goes before." },
+    { "prompt": "___ veo, son mis amigos.", "answer": "Los", "meaning": "I see them, they are my friends.", "note": "Los is masculine or mixed." },
+    { "prompt": "Me ___ por favor.", "answer": "llamo", "meaning": "call me, please", "note": "Me llamo, and the pronoun is attached to the verb." }
   ]
 }

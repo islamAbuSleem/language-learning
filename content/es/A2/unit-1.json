@@ -4,6 +4,65 @@
   "unit": 1,
   "title": "Things you do",
   "description": "Say what you eat, drink, read, and learn.",
+  "explanation": {
+    "summary": "The -er verbs follow exactly the same pattern as the -ar verbs, with two endings changed. Once you know the -ar pattern, the -er pattern is a two-minute job.",
+    "sections": [
+      {
+        "heading": "The six endings",
+        "body": "Drop the -er and add -o, -es, -e, -emos, -éis, -en. Comer becomes como, comes, come, comemos, coméis, comen. Compare with the -ar pattern: the endings are -o, -as, -a, -amos, -áis, -an. Only the second and third endings differ.",
+        "examples": [
+          {
+            "es": "Como verduras.",
+            "en": "I eat vegetables."
+          },
+          {
+            "es": "¿Dónde vives?",
+            "en": "Where do you live?"
+          },
+          {
+            "es": "Aprendemos español juntos.",
+            "en": "We learn Spanish together."
+          }
+        ]
+      },
+      {
+        "heading": "A spelling change to watch",
+        "body": "A few -er verbs change their stem in the yo form. Querer becomes quiero, poder becomes puedo, and the -er verbs with a yo ending in -go are irregular: venir becomes vengo, decir becomes digo. Learn the yo form separately from the rest.",
+        "examples": [
+          {
+            "es": "Quiero aprender más.",
+            "en": "I want to learn more."
+          },
+          {
+            "es": "No puedo venir hoy.",
+            "en": "I cannot come today."
+          },
+          {
+            "es": "Leo el libro en la mesa.",
+            "en": "I read the book at the table."
+          }
+        ]
+      },
+      {
+        "heading": "Before and after",
+        "body": "Some verbs take a preposition, and it is fixed: hablar con, hablar de, soñar con, depender de. The preposition goes before the infinitive: hablo con Ana, sueño con la casa. The order is subject, verb, preposition, infinitive.",
+        "examples": [
+          {
+            "es": "Hablamos con el profesor.",
+            "en": "We spoke with the teacher."
+          },
+          {
+            "es": "Sueño con viajar.",
+            "en": "I dream of travelling."
+          },
+          {
+            "es": "Depende del tiempo.",
+            "en": "It depends on the weather."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u1/match/comer",
@@ -48,33 +107,15 @@
       "note": "An infinitive ending in -er: como, comes, come."
     },
     {
-      "id": "es/a2/u1/type_in/beber",
+      "id": "es/a2/u1/drill/1",
       "type": "type_in",
-      "prompt": "Write “to drink” in Spanish.",
-      "answer": "beber",
+      "prompt": "Yo ___ verduras.",
+      "answer": "como",
       "acceptedAnswers": [
-        "beber"
+        "como"
       ],
-      "translation": "to drink",
-      "note": "An infinitive ending in -er: bebo, bebes, bebe."
-    },
-    {
-      "id": "es/a2/u1/listen/aprender",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "aprender",
-      "options": [
-        "aprender",
-        "mirar",
-        "cocinar",
-        "caminar"
-      ],
-      "audio": {
-        "text": "aprender",
-        "lang": "es"
-      },
-      "translation": "to learn",
-      "note": "An infinitive ending in -er: aprendo, aprendes, aprende."
+      "translation": "I eat vegetables",
+      "note": "The yo form of comer."
     },
     {
       "id": "es/a2/u1/match/correr",
@@ -105,75 +146,76 @@
       "note": "An -er verb in the present: como, comes, come, comemos, coméis, comen."
     },
     {
-      "id": "es/a2/u1/select/leer",
+      "id": "es/a2/u1/select/beber",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to read”.",
+      "prompt": "Pick the Spanish word for “to drink”.",
       "options": [
-        "responder",
-        "llegar",
-        "perder",
-        "leer"
-      ],
-      "answer": "leer",
-      "translation": "to read",
-      "note": "An infinitive ending in -er: leo, lees, lee."
-    },
-    {
-      "id": "es/a2/u1/type_in/vender",
-      "type": "type_in",
-      "prompt": "Write “to sell” in Spanish.",
-      "answer": "vender",
-      "acceptedAnswers": [
-        "vender"
-      ],
-      "translation": "to sell",
-      "note": "An infinitive ending in -er: vendo, vendes, vende."
-    },
-    {
-      "id": "es/a2/u1/listen/correr",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "correr",
-      "options": [
-        "cocinar",
-        "necesitar",
-        "mirar",
-        "correr"
-      ],
-      "audio": {
-        "text": "correr",
-        "lang": "es"
-      },
-      "translation": "to run",
-      "note": "An infinitive ending in -er: corro, corres, corre."
-    },
-    {
-      "id": "es/a2/u1/select/perder",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to lose”.",
-      "options": [
+        "trabajar",
         "estudiar",
-        "caminar",
-        "perder",
-        "trabajar"
+        "hablar",
+        "beber"
       ],
-      "answer": "perder",
-      "translation": "to lose",
-      "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular."
+      "answer": "beber",
+      "translation": "to drink",
+      "note": "An infinitive ending in -er: bebo, bebes, bebe."
     },
     {
-      "id": "es/a2/u1/select/responder",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to answer”.",
-      "options": [
-        "perder",
-        "llegar",
-        "ser",
-        "responder"
+      "id": "es/a2/u1/drill/2",
+      "type": "type_in",
+      "prompt": "Nosotros ___ español juntos.",
+      "answer": "aprendemos",
+      "acceptedAnswers": [
+        "aprendemos"
       ],
-      "answer": "responder",
-      "translation": "to answer",
-      "note": "An infinitive ending in -er: respondo, respondes, responde."
+      "translation": "we learn Spanish together",
+      "note": "The nosotros form of aprender."
+    },
+    {
+      "id": "es/a2/u1/select/aprender",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to learn”.",
+      "options": [
+        "comer",
+        "beber",
+        "leer",
+        "aprender"
+      ],
+      "answer": "aprender",
+      "translation": "to learn",
+      "note": "An infinitive ending in -er: aprendo, aprendes, aprende."
+    },
+    {
+      "id": "es/a2/u1/drill/3",
+      "type": "type_in",
+      "prompt": "Quiero ___ más.",
+      "answer": "aprender",
+      "acceptedAnswers": [
+        "aprender"
+      ],
+      "translation": "I want to learn more",
+      "note": "Querer is irregular in the yo form."
+    },
+    {
+      "id": "es/a2/u1/drill/4",
+      "type": "type_in",
+      "prompt": "Hablamos ___ el profesor.",
+      "answer": "con",
+      "acceptedAnswers": [
+        "con"
+      ],
+      "translation": "we spoke with the teacher",
+      "note": "Hablar con."
+    },
+    {
+      "id": "es/a2/u1/drill/5",
+      "type": "type_in",
+      "prompt": "No ___ venir hoy.",
+      "answer": "puedo",
+      "acceptedAnswers": [
+        "puedo"
+      ],
+      "translation": "I cannot come today",
+      "note": "Poder is irregular in the yo form."
     }
   ]
 }

@@ -3,97 +3,53 @@
   "title": "Review",
   "description": "Everything A2 has taught, put together.",
   "grammar": "mixed",
-  "grammarNote": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest.",
+  "grammarNote": "This unit repeats what came before. Every word here is one you have already met.",
+  "explanation": {
+    "summary": "A review unit puts the whole level in one place. Nothing new is introduced: the verbs you have met, the words you have met, and the ways you have learned to put them together.",
+    "sections": [
+      {
+        "heading": "The journey so far",
+        "body": "You started with regular verbs, and you have met the irregular ones. You can ask where things are, say what you want, say what you know, and talk about where you are going and what you are doing. This unit uses all of it at once, which is what a real conversation sounds like.",
+        "examples": [
+          { "es": "Voy a viajar a Madrid; ¿conoces un buen restaurante?", "en": "I am going to travel to Madrid; do you know a good restaurant?" },
+          { "es": "¿Sabes dónde está la estación? Estoy un poco perdido.", "en": "Do you know where the station is? I am a little lost." }
+        ]
+      },
+      {
+        "heading": "Joining the pieces",
+        "body": "The order of a Spanish sentence is usually subject, verb, preposition, object, and the time comes at the end or the beginning: por la mañana trabajo. A question word goes in front of the verb. And when two verbs meet, the verb of wanting or needing comes first: quiero comer.",
+        "examples": [
+          { "es": "Mañana por la tarde quiero aprender a cocinar.", "en": "Tomorrow afternoon I want to learn to cook." },
+          { "es": "Necesito un billete para Madrid.", "en": "I need a ticket to Madrid." }
+        ]
+      },
+      {
+        "heading": "What to say when you do not know",
+        "body": "A learner needs three phrases more than anything else: no sé, it means I do not know. No entiendo, I do not understand. No hablo bien español, I do not speak Spanish well. Saying them is not a failure, it is the start of the conversation.",
+        "examples": [
+          { "es": "No sé, pero lo busco.", "en": "I do not know, but I am looking for it." },
+          { "es": "No entiendo. ¿Puede repetir, por favor?", "en": "I do not understand. Can you repeat, please?" }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "viaje",
-      "en": "trip",
-      "article": "el",
-      "note": "Masculine: el viaje. You take un viaje.",
-      "tags": [
-        "travel"
-      ]
-    },
-    {
-      "es": "recuerdo",
-      "en": "souvenir",
-      "article": "el",
-      "note": "Masculine: el recuerdo. It also means memory.",
-      "tags": [
-        "travel"
-      ]
-    },
-    {
-      "es": "museo",
-      "en": "museum",
-      "article": "el",
-      "note": "Masculine: el museo.",
-      "tags": [
-        "place"
-      ]
-    },
-    {
-      "es": "ciudad",
-      "en": "city",
-      "article": "la",
-      "note": "Feminine: la ciudad.",
-      "tags": [
-        "place"
-      ]
-    },
-    {
-      "es": "país",
-      "en": "country",
-      "article": "el",
-      "note": "Masculine: el país. The accent marks the stress.",
-      "tags": [
-        "place"
-      ]
-    },
-    {
-      "es": "comida",
-      "en": "food",
-      "article": "la",
-      "note": "Feminine: la comida.",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "es": "restaurante",
-      "en": "restaurant",
-      "article": "el",
-      "note": "Masculine: el restaurante.",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "es": "fiesta",
-      "en": "party",
-      "article": "la",
-      "note": "Feminine: la fiesta. It also means a holiday.",
-      "tags": [
-        "travel"
-      ]
-    },
-    {
-      "es": "regalo",
-      "en": "gift",
-      "article": "el",
-      "note": "Masculine: el regalo.",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "es": "postal",
-      "en": "postcard",
-      "article": "la",
-      "note": "Feminine: la postal. The card you send is una tarjeta postal.",
-      "tags": [
-        "object"
-      ]
-    }
+    { "es": "viaje", "en": "trip", "article": "el", "note": "Masculine: el viaje. You take un viaje.", "tags": ["travel"] },
+    { "es": "recuerdo", "en": "souvenir", "article": "el", "note": "Masculine: el recuerdo. It also means memory.", "tags": ["travel"] },
+    { "es": "museo", "en": "museum", "article": "el", "note": "Masculine: el museo.", "tags": ["place"] },
+    { "es": "ciudad", "en": "city", "article": "la", "note": "Feminine: la ciudad.", "tags": ["place"] },
+    { "es": "país", "en": "country", "article": "el", "note": "Masculine: el país. The accent marks the stress.", "tags": ["place"] },
+    { "es": "comida", "en": "food", "article": "la", "note": "Feminine: la comida.", "tags": ["food"] },
+    { "es": "restaurante", "en": "restaurant", "article": "el", "note": "Masculine: el restaurante.", "tags": ["food"] },
+    { "es": "fiesta", "en": "party", "article": "la", "note": "Feminine: la fiesta. It also means a holiday.", "tags": ["travel"] },
+    { "es": "regalo", "en": "gift", "article": "el", "note": "Masculine: el regalo.", "tags": ["object"] },
+    { "es": "postal", "en": "postcard", "article": "la", "note": "Feminine: la postal. The card you send is una tarjeta postal.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "___ sé, pero lo busco.", "answer": "No", "meaning": "I do not know, but I am looking for it", "note": "No sé is the phrase for I do not know." },
+    { "prompt": "___ entiendo. ¿Puede repetir?", "answer": "No", "meaning": "I do not understand. Can you repeat?", "note": "No entiendo." },
+    { "prompt": "Necesito ___ billete para Madrid.", "answer": "un", "meaning": "I need a ticket to Madrid", "note": "After necesitar you use un or una." },
+    { "prompt": "___ es un restaurante bueno.", "answer": "Este", "meaning": "this is a good restaurant", "note": "Este is the demonstrative." },
+    { "prompt": "Mañana por la ___ quiero aprender a cocinar.", "answer": "tarde", "meaning": "tomorrow afternoon I want to learn to cook", "note": "Por la tarde is feminine." }
   ]
 }

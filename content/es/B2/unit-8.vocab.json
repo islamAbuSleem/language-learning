@@ -1,0 +1,49 @@
+{
+  "unit": 8,
+  "title": "Where the adjective goes",
+  "description": "Say what something is like, in the right order.",
+  "grammar": "la posición de los adjetivos",
+  "grammarNote": "An adjective usually goes after the noun: un coche rojo. Some go before, and then they are more literary.",
+  "explanation": {
+    "summary": "In everyday Spanish the adjective comes after the noun. A few adjectives go before it, and they then carry a different feel, usually more literary or more emphatic.",
+    "sections": [
+      {
+        "heading": "After, or before",
+        "body": "The usual order is noun then adjective: un problema grave, una casa pequeña. A small set of adjectives go before the noun, and they are the ones that are more literary or more emphatic: un gran hombre, las buenas intenciones, el propio médico. The verb ser is what tells you which is which: un gran hombre is a great man, and un hombre grande is a big man.",
+        "examples": [
+          { "es": "Es un gran hombre.", "en": "He is a great man.", "note": "Gran goes before the noun." },
+          { "es": "Es un hombre grande.", "en": "He is a big man.", "note": "Grande goes after the noun." },
+          { "es": "Tiene buenas intenciones.", "en": "He has good intentions.", "note": "Buenas goes before the noun." }
+        ]
+      },
+      {
+        "heading": "Two adjectives together",
+        "body": "When two adjectives describe the same noun, they normally come after it and are joined by y: un informe largo y detallado. But there is one exception: a colour goes straight after the noun and the other adjective follows: un abrigo azul oscuro. A noun that names a material goes after the adjective: un reloj de oro.",
+        "examples": [
+          { "es": "Es un informe largo y detallado.", "en": "It is a long and detailed report.", "note": "Two adjectives joined by y, after the noun." },
+          { "es": "Tiene un abrigo azul oscuro.", "en": "He has a dark blue coat.", "note": "A colour comes first of the two." },
+          { "es": "Es un reloj de oro.", "en": "It is a gold watch.", "note": "A material goes after the adjective." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "grande", "en": "big", "article": null, "note": "Grande goes after the noun. Gran goes before it.", "tags": ["adjective"] },
+    { "es": "pequeño", "en": "small", "article": null, "note": "Pequeño goes after the noun. Pequeño is the same in both positions.", "tags": ["adjective"] },
+    { "es": "excelente", "en": "excellent", "article": null, "note": "Excelente goes before the noun, usually.", "tags": ["adjective"] },
+    { "es": "terrible", "en": "terrible", "article": null, "note": "Terrible goes after the noun.", "tags": ["adjective"] },
+    { "es": "oscuro", "en": "dark", "article": null, "note": "A colour goes straight after the noun.", "tags": ["adjective"] },
+    { "es": "claro", "en": "light", "article": null, "note": "Claro goes after the noun. Claro also means of course.", "tags": ["adjective"] },
+    { "es": "propio", "en": "own", "article": null, "note": "Propio goes before the noun: mi propio hijo.", "tags": ["adjective"] },
+    { "es": "mismo", "en": "same", "article": null, "note": "Mismo goes after the noun: la misma razón.", "tags": ["adjective"] },
+    { "es": "informe", "en": "report", "article": "el", "note": "Masculine: el informe.", "tags": ["object"] },
+    { "es": "abrigo", "en": "coat", "article": "el", "note": "Masculine: el abrigo.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "Es un ___ hombre.", "answer": "gran", "meaning": "he is a great man", "note": "Gran goes before the noun." },
+    { "prompt": "Es un hombre ___.", "answer": "grande", "meaning": "he is a big man", "note": "Grande goes after the noun." },
+    { "prompt": "Tiene un abrigo azul ___.", "answer": "oscuro", "meaning": "he has a dark blue coat", "note": "A colour comes first of the two adjectives." },
+    { "prompt": "Es un informe largo y ___.", "answer": "detallado", "meaning": "it is a long and detailed report", "note": "Two adjectives joined by y, after the noun." },
+    { "prompt": "Es mi ___ hijo.", "answer": "propio", "meaning": "he is my own son", "note": "Propio goes before the noun." }
+  ]
+}

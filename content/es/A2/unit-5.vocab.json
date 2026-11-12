@@ -4,96 +4,55 @@
   "description": "Say what you have, what you want, and what you must do.",
   "grammar": "expressions with the verb tener",
   "grammarNote": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+  "explanation": {
+    "summary": "Spanish says many feelings and states with tener plus a noun, where English uses a separate verb. I am hungry is tengo hambre. This is the same pattern as the weather, and it comes up all the time.",
+    "sections": [
+      {
+        "heading": "Tener and the states",
+        "body": "Tengo hambre is I am hungry. Tengo sed, tengo sueño, tengo miedo, tengo fiebre, tengo ganas de. The noun never takes an article: tengo hambre, not tengo la hambre. And the two nouns that do take one are exceptions you will meet later: tengo una coche is wrong, but tengo el coche is right.",
+        "examples": [
+          { "es": "Tengo hambre.", "en": "I am hungry." },
+          { "es": "El niño tiene sueño.", "en": "The child is sleepy." },
+          { "es": "Tengo ganas de salir.", "en": "I feel like going out." }
+        ]
+      },
+      {
+        "heading": "The four verbs you cannot live without",
+        "body": "Tener is to have. Querer is to want, and its yo form is quiero. Poder is to be able to, and its yo form is puedo. Deber is to owe, and to must: debo ir means I must go. All four have irregular yo forms, and those are the forms you use most.",
+        "examples": [
+          { "es": "Quiero aprender más.", "en": "I want to learn more." },
+          { "es": "No puedo venir hoy.", "en": "I cannot come today." },
+          { "es": "Debo estudiar más.", "en": "I must study more." }
+        ]
+      },
+      {
+        "heading": "Hay, and how much there is",
+        "body": "Hay means there is, and it never changes: hay un banco, hay dos bancos, no hay bancos. To ask how much of something there is, use cuánto: ¿cuánta agua hay? To ask who is there, use quién: ¿quién está aquí?",
+        "examples": [
+          { "es": "Hay un parque cerca.", "en": "There is a park nearby." },
+          { "es": "¿Cuánto dinero tienes?", "en": "How much money do you have?" },
+          { "es": "¿Quién está en la cocina?", "en": "Who is in the kitchen?" }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "tener",
-      "en": "to have",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "querer",
-      "en": "to want",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "poder",
-      "en": "to be able to",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: puedo, puedes, puede.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "deber",
-      "en": "must",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: debo, debes, debe.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "hay",
-      "en": "there is",
-      "article": null,
-      "note": "There is, there are. It never changes form.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "hambre",
-      "en": "hunger",
-      "article": "la",
-      "note": "Feminine: la hambre. You say tener hambre.",
-      "tags": [
-        "feeling"
-      ]
-    },
-    {
-      "es": "sed",
-      "en": "thirst",
-      "article": "la",
-      "note": "Feminine: la sed. You say tener sed.",
-      "tags": [
-        "feeling"
-      ]
-    },
-    {
-      "es": "sueño",
-      "en": "sleep",
-      "article": "el",
-      "note": "Masculine: el sueño. You say tener sueño.",
-      "tags": [
-        "feeling"
-      ]
-    },
-    {
-      "es": "miedo",
-      "en": "fear",
-      "article": "el",
-      "note": "Masculine: el miedo. You say tener miedo.",
-      "tags": [
-        "feeling"
-      ]
-    },
-    {
-      "es": "gana",
-      "en": "it pays",
-      "article": null,
-      "note": "No article: esto gana. It also means wins.",
-      "tags": [
-        "object"
-      ]
-    }
+    { "es": "tener", "en": "to have", "article": null, "note": "Its forms are irregular: tengo, tienes, tiene, tenemos, tenéis, tienen.", "tags": ["verb"] },
+    { "es": "querer", "en": "to want", "article": null, "note": "Its forms are irregular: quiero, quieres, quiere.", "tags": ["verb"] },
+    { "es": "poder", "en": "to be able to", "article": null, "note": "Its forms are irregular: puedo, puedes, puede.", "tags": ["verb"] },
+    { "es": "deber", "en": "must", "article": null, "note": "Its forms are irregular: debo, debes, debe.", "tags": ["verb"] },
+    { "es": "hay", "en": "there is", "article": null, "note": "There is. It never changes form.", "tags": ["verb"] },
+    { "es": "hambre", "en": "hunger", "article": "la", "note": "Feminine: la hambre. You say tener hambre.", "tags": ["feeling"] },
+    { "es": "sed", "en": "thirst", "article": "la", "note": "Feminine: la sed. You say tener sed.", "tags": ["feeling"] },
+    { "es": "sueño", "en": "sleep", "article": "el", "note": "Masculine: el sueño. You say tener sueño.", "tags": ["feeling"] },
+    { "es": "miedo", "en": "fear", "article": "el", "note": "Masculine: el miedo. You say tener miedo.", "tags": ["feeling"] },
+    { "es": "ganas", "en": "the urge", "article": "las", "note": "Las ganas de plus an infinitive: tengo ganas de salir.", "tags": ["feeling"] }
+  ],
+  "drills": [
+    { "prompt": "Tengo ___: quiero comer.", "answer": "hambre", "meaning": "I am hungry: I want to eat", "note": "The noun takes no article." },
+    { "prompt": "No ___ venir hoy.", "answer": "puedo", "meaning": "I cannot come today", "note": "Poder is irregular in the yo form." },
+    { "prompt": "___ un parque cerca.", "answer": "Hay", "meaning": "there is a park nearby", "note": "Hay never changes." },
+    { "prompt": "El niño tiene ___.", "answer": "sueño", "meaning": "the child is sleepy", "note": "Tener sueño means to be sleepy." },
+    { "prompt": "Tengo ___ de salir.", "answer": "ganas", "meaning": "I feel like going out", "note": "Las ganas de takes an infinitive after it." }
   ]
 }

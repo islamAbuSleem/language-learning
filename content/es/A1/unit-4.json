@@ -4,6 +4,65 @@
   "unit": 4,
   "title": "Daily routine",
   "description": "Say what you do every day.",
+  "explanation": {
+    "summary": "Most Spanish verbs end in -ar, and they all work the same way. Learn the pattern once and you can conjugate every verb in this unit without another word.",
+    "sections": [
+      {
+        "heading": "The six endings",
+        "body": "Take the infinitive, drop the -ar, and add the ending: -o, -as, -a, -amos, -áis, -an. Hablar becomes hablo, hablas, habla, hablamos, habláis, hablan. The accent on habláis is what keeps it different from hablo, so do not drop it.",
+        "examples": [
+          {
+            "es": "Hablo español.",
+            "en": "I speak Spanish."
+          },
+          {
+            "es": "Mi hermana estudia inglés.",
+            "en": "My sister studies English."
+          },
+          {
+            "es": "Trabajamos por la mañana.",
+            "en": "We work in the morning."
+          }
+        ]
+      },
+      {
+        "heading": "Tú and usted",
+        "body": "You take the tú form for people you know well, and the usted form for anyone you should be polite to. The usted form adds an r to the yo form: hablo becomes hable, hablas becomes hable. Talking to a friend you use hablas; talking to a stranger you use hable.",
+        "examples": [
+          {
+            "es": "¿Hablas inglés?",
+            "en": "Do you speak English?"
+          },
+          {
+            "es": "¿Habla usted inglés?",
+            "en": "Do you speak English?"
+          },
+          {
+            "es": "Hablamos español en casa.",
+            "en": "We speak Spanish at home."
+          }
+        ]
+      },
+      {
+        "heading": "What happens every day",
+        "body": "To say how often, the adverb goes after the verb: siempre, todos los días, a veces. With a time you use a: trabajo por la mañana. The word for every day is todos los días, and it is plural even though it means one day.",
+        "examples": [
+          {
+            "es": "Estudio todos los días.",
+            "en": "I study every day."
+          },
+          {
+            "es": "Siempre desayuno café.",
+            "en": "I always have coffee for breakfast."
+          },
+          {
+            "es": "A veces cocino en casa.",
+            "en": "Sometimes I cook at home."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a1/u4/match/hablar",
@@ -48,33 +107,15 @@
       "note": "An infinitive ending in -ar: hablo, hablas, habla."
     },
     {
-      "id": "es/a1/u4/type_in/trabajar",
+      "id": "es/a1/u4/drill/1",
       "type": "type_in",
-      "prompt": "Write “to work” in Spanish.",
-      "answer": "trabajar",
+      "prompt": "Yo ___ español.",
+      "answer": "hablo",
       "acceptedAnswers": [
-        "trabajar"
+        "hablo"
       ],
-      "translation": "to work",
-      "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja."
-    },
-    {
-      "id": "es/a1/u4/listen/estudiar",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "estudiar",
-      "options": [
-        "estudiar",
-        "caminar",
-        "cocinar",
-        "mirar"
-      ],
-      "audio": {
-        "text": "estudiar",
-        "lang": "es"
-      },
-      "translation": "to study",
-      "note": "An infinitive ending in -ar: estudio, estudias, estudia."
+      "translation": "I speak Spanish",
+      "note": "The yo form of an -ar verb."
     },
     {
       "id": "es/a1/u4/match/mirar",
@@ -105,75 +146,76 @@
       "note": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan."
     },
     {
-      "id": "es/a1/u4/select/caminar",
+      "id": "es/a1/u4/select/trabajar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to walk”.",
+      "prompt": "Pick the Spanish word for “to work”.",
+      "options": [
+        "ser",
+        "hablar",
+        "llegar",
+        "trabajar"
+      ],
+      "answer": "trabajar",
+      "translation": "to work",
+      "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja."
+    },
+    {
+      "id": "es/a1/u4/drill/2",
+      "type": "type_in",
+      "prompt": "¿___ usted inglés?",
+      "answer": "Habla",
+      "acceptedAnswers": [
+        "Habla"
+      ],
+      "translation": "do you speak English?",
+      "note": "The usted form adds an r to the yo form."
+    },
+    {
+      "id": "es/a1/u4/select/estudiar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to study”.",
       "options": [
         "cocinar",
         "mirar",
         "estudiar",
         "caminar"
       ],
-      "answer": "caminar",
-      "translation": "to walk",
-      "note": "An infinitive ending in -ar: camino, caminas, camina."
+      "answer": "estudiar",
+      "translation": "to study",
+      "note": "An infinitive ending in -ar: estudio, estudias, estudia."
     },
     {
-      "id": "es/a1/u4/type_in/cocinar",
+      "id": "es/a1/u4/drill/3",
       "type": "type_in",
-      "prompt": "Write “to cook” in Spanish.",
-      "answer": "cocinar",
+      "prompt": "Mi hermana ___ inglés.",
+      "answer": "estudia",
       "acceptedAnswers": [
-        "cocinar"
+        "estudia"
       ],
-      "translation": "to cook",
-      "note": "An infinitive ending in -ar: cocino, cocinas, cocina."
+      "translation": "my sister studies English",
+      "note": "Ella estudia."
     },
     {
-      "id": "es/a1/u4/listen/mirar",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "mirar",
-      "options": [
-        "ser",
-        "hablar",
-        "llegar",
-        "mirar"
+      "id": "es/a1/u4/drill/4",
+      "type": "type_in",
+      "prompt": "Nosotros ___ por la mañana.",
+      "answer": "trabajamos",
+      "acceptedAnswers": [
+        "trabajamos"
       ],
-      "audio": {
-        "text": "mirar",
-        "lang": "es"
-      },
-      "translation": "to watch",
-      "note": "An infinitive ending in -ar: miro, miras, mira."
+      "translation": "we work in the morning",
+      "note": "The nosotros form of trabajar."
     },
     {
-      "id": "es/a1/u4/select/necesitar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to need”.",
-      "options": [
-        "ser",
-        "hablar",
-        "llegar",
-        "necesitar"
+      "id": "es/a1/u4/drill/5",
+      "type": "type_in",
+      "prompt": "Yo ___ café por la mañana.",
+      "answer": "desayuno",
+      "acceptedAnswers": [
+        "desayuno"
       ],
-      "answer": "necesitar",
-      "translation": "to need",
-      "note": "An infinitive ending in -ar: necesito, necesitas, necesita."
-    },
-    {
-      "id": "es/a1/u4/select/casa",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “house”.",
-      "options": [
-        "la tienda",
-        "el mercado",
-        "la calle",
-        "la casa"
-      ],
-      "answer": "la casa",
-      "translation": "house",
-      "note": "Feminine: la casa. It also means home."
+      "translation": "I have coffee for breakfast",
+      "note": "Desayunar is an -ar verb: desayuno."
     }
   ]
 }

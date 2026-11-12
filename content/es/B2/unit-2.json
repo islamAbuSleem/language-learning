@@ -1,0 +1,203 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 2,
+  "title": "The past that never was",
+  "description": "Say what would have happened, or what you hoped for.",
+  "explanation": {
+    "summary": "The past subjunctive is used for things that did not happen, or that may still not have happened. In English it survives only in a few formulas, so it is worth learning as a set of phrases.",
+    "sections": [
+      {
+        "heading": "How it is formed",
+        "body": "Take the yo form of the preterite and use the -ra endings: habló becomes hablara, comió becomes comiera, vivió becomes viviera. There is a second form with -se, and it means the same thing in almost every case: hablase, comiese. Use -ra, because it is the one you hear.",
+        "examples": [
+          {
+            "es": "Si tuviera tiempo, viajaría.",
+            "en": "If I had time, I would travel."
+          },
+          {
+            "es": "Ojalá fuera más joven.",
+            "en": "I wish I were younger."
+          },
+          {
+            "es": "Como si fuera experto, no hablaría.",
+            "en": "As if I were an expert, I would not speak."
+          }
+        ]
+      },
+      {
+        "heading": "Where it appears",
+        "body": "After si with an unreal condition: si tuviera, si pudiera. After como si, as if. After ojalá, a wish. After the past tenses of wishing or doubting: esperaba que viniera. And in polite requests about the past: quisiera un café.",
+        "examples": [
+          {
+            "es": "Quisiera un café, por favor.",
+            "en": "I would like a coffee, please."
+          },
+          {
+            "es": "Esperaba que llegaras a tiempo.",
+            "en": "I was hoping you would arrive on time."
+          },
+          {
+            "es": "Si pudiera, te ayudaría.",
+            "en": "If I could, I would help you."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u2/match/hablara",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I spoke",
+          "right": "hablara"
+        },
+        {
+          "left": "I ate",
+          "right": "comiera"
+        },
+        {
+          "left": "I lived",
+          "right": "viviera"
+        },
+        {
+          "left": "I worked",
+          "right": "trabajara"
+        },
+        {
+          "left": "I studied",
+          "right": "estudiara"
+        }
+      ],
+      "note": "The past subjunctive is the -ra form: hablara, comiera, viviera."
+    },
+    {
+      "id": "es/b2/u2/select/hablara",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I spoke”.",
+      "options": [
+        "necesitar",
+        "estar",
+        "comer",
+        "hablara"
+      ],
+      "answer": "hablara",
+      "translation": "I spoke",
+      "note": "The past subjunctive of hablar. It is the -ra form."
+    },
+    {
+      "id": "es/b2/u2/drill/1",
+      "type": "type_in",
+      "prompt": "Si ___ tiempo, viajaría.",
+      "answer": "tuviera",
+      "acceptedAnswers": [
+        "tuviera"
+      ],
+      "translation": "if I had time, I would travel",
+      "note": "An unreal condition takes the past subjunctive."
+    },
+    {
+      "id": "es/b2/u2/match/tuviera",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I had",
+          "right": "tuviera"
+        },
+        {
+          "left": "I could",
+          "right": "pudiera"
+        },
+        {
+          "left": "I was",
+          "right": "fuera"
+        },
+        {
+          "left": "I would like",
+          "right": "quisiera"
+        },
+        {
+          "left": "hopefully",
+          "right": "ojalá"
+        }
+      ],
+      "note": "The past subjunctive is the -ra form: hablara, comiera, viviera."
+    },
+    {
+      "id": "es/b2/u2/select/comiera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I ate”.",
+      "options": [
+        "comiera",
+        "repetir",
+        "servir",
+        "decidir"
+      ],
+      "answer": "comiera",
+      "translation": "I ate",
+      "note": "The past subjunctive of comer. It is the -ra form."
+    },
+    {
+      "id": "es/b2/u2/drill/2",
+      "type": "type_in",
+      "prompt": "___ un café, por favor.",
+      "answer": "Quisiera",
+      "acceptedAnswers": [
+        "Quisiera"
+      ],
+      "translation": "I would like a coffee, please",
+      "note": "A polite request uses the past subjunctive."
+    },
+    {
+      "id": "es/b2/u2/select/viviera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I lived”.",
+      "options": [
+        "coma",
+        "trabaje",
+        "viva",
+        "viviera"
+      ],
+      "answer": "viviera",
+      "translation": "I lived",
+      "note": "The past subjunctive of vivir. It is the -ra form."
+    },
+    {
+      "id": "es/b2/u2/drill/3",
+      "type": "type_in",
+      "prompt": "Ojalá ___ más joven.",
+      "answer": "fuera",
+      "acceptedAnswers": [
+        "fuera"
+      ],
+      "translation": "I wish I were younger",
+      "note": "Ojalá takes the past subjunctive."
+    },
+    {
+      "id": "es/b2/u2/drill/4",
+      "type": "type_in",
+      "prompt": "Esperaba que ___ a tiempo.",
+      "answer": "llegaras",
+      "acceptedAnswers": [
+        "llegaras"
+      ],
+      "translation": "I was hoping you would arrive on time",
+      "note": "A past verb of expecting takes the past subjunctive."
+    },
+    {
+      "id": "es/b2/u2/drill/5",
+      "type": "type_in",
+      "prompt": "Si ___ , te ayudaría.",
+      "answer": "pudiera",
+      "acceptedAnswers": [
+        "pudiera"
+      ],
+      "translation": "if I could, I would help you",
+      "note": "Pudiera is the past subjunctive of poder."
+    }
+  ]
+}

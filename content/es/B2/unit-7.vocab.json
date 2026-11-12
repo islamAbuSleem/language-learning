@@ -1,0 +1,49 @@
+{
+  "unit": 7,
+  "title": "Joining ideas",
+  "description": "Link your sentences together.",
+  "grammar": "los conectores",
+  "grammarNote": "A connector can join two ideas: porque, aunque, sin embargo, además, por tanto.",
+  "explanation": {
+    "summary": "Connectors are the words that make writing flow. Some join two clauses, and some join two words. They are the difference between a list of sentences and a piece of writing.",
+    "sections": [
+      {
+        "heading": "Joining clauses",
+        "body": "Because is porque, although is aunque, so it is por tanto or entonces, and but is pero or sin embargo. The word goes at the start of the second clause, and a comma goes before it. Y is not the equivalent of and: y joins two independent sentences, but for ideas that belong together use sino, but rather.",
+        "examples": [
+          { "es": "No fui porque estaba cansado.", "en": "I did not go because I was tired." },
+          { "es": "Iré, aunque no quiero.", "en": "I will go, although I do not want to." },
+          { "es": "No es caro; sin embargo, es malo.", "en": "It is not expensive; however, it is bad." }
+        ]
+      },
+      {
+        "heading": "Joining words and lists",
+        "body": "To join words use y, o, ni and e. Y becomes e before a word starting with i or hi: innecesario, and Spanish says e in that case. To join a list of more than two, use y before the last one: Madrid, Toledo y Sevilla.",
+        "examples": [
+          { "es": "Es barato e interesante.", "en": "It is cheap and interesting.", "note": "E before a word starting with i." },
+          { "es": "Fuimos a Madrid y a Sevilla.", "en": "We went to Madrid and to Seville.", "note": "Y before the last item in a list." },
+          { "es": "No habla inglés ni francés.", "en": "He speaks neither English nor French.", "note": "Ni joins negatives." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "porque", "en": "because", "article": null, "note": "It joins two clauses.", "tags": ["connector"] },
+    { "es": "aunque", "en": "although", "article": null, "note": "It joins two clauses.", "tags": ["connector"] },
+    { "es": "sin embargo", "en": "however", "article": null, "note": "It is a formal but, with a comma before it.", "tags": ["connector"] },
+    { "es": "además", "en": "moreover", "article": null, "note": "It adds something. Además, with a comma.", "tags": ["connector"] },
+    { "es": "por tanto", "en": "therefore", "article": null, "note": "It draws a conclusion.", "tags": ["connector"] },
+    { "es": "sin", "en": "without", "article": null, "note": "It joins two verbs or nouns.", "tags": ["connector"] },
+    { "es": "además de", "en": "as well as", "article": null, "note": "It joins two nouns.", "tags": ["connector"] },
+    { "es": "en cuanto a", "en": "as for", "article": null, "note": "It introduces a topic. En cuanto al trabajo...", "tags": ["connector"] },
+    { "es": "no obstante", "en": "nevertheless", "article": null, "note": "A formal however, with a comma before it.", "tags": ["connector"] },
+    { "es": "por consiguiente", "en": "accordingly", "article": null, "note": "A formal therefore.", "tags": ["connector"] }
+  ],
+  "drills": [
+    { "prompt": "No fui ___ estaba cansado.", "answer": "porque", "meaning": "I did not go because I was tired", "note": "Porque joins two clauses." },
+    { "prompt": "Iré, ___ no quiero.", "answer": "aunque", "meaning": "I will go, although I do not want to", "note": "Aunque joins two clauses." },
+    { "prompt": "Es barato ___ interesante.", "answer": "e", "meaning": "it is cheap and interesting", "note": "E before a word starting with i." },
+    { "prompt": "No habla inglés ___ francés.", "answer": "ni", "meaning": "he speaks neither English nor French", "note": "Ni joins negatives." },
+    { "prompt": "Es caro; ___, es malo.", "answer": "sin embargo", "meaning": "it is expensive; however, it is bad", "note": "Sin embargo is a formal but." }
+  ]
+}

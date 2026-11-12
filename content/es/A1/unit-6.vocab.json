@@ -3,9 +3,40 @@
   "title": "Where things are",
   "description": "Say where something is, and where it is not.",
   "grammar": "the verb estar",
-  "grammarNote": "Estar says where something is: la casa está cerca.",
+  "grammarNote": "Estar says where something is: la casa está cerca. The forms are irregular.",
+  "explanation": {
+    "summary": "Estar is the verb for position, and it is irregular in the same way ser is. The forms are the ones you need on the first day: estoy, estás, está, estamos, estáis, están.",
+    "sections": [
+      {
+        "heading": "The forms",
+        "body": "Only the yo form is regular: estoy. The rest change: estás, está, estamos, estáis, están. You can use estar with an adjective, with a place, and with a state: la puerta está cerrada, la casa está en la calle, estoy cansado.",
+        "examples": [
+          { "es": "El libro está en la mesa.", "en": "The book is on the table." },
+          { "es": "La puerta está cerrada.", "en": "The door is closed." },
+          { "es": "Estamos en el parque.", "en": "We are in the park." }
+        ]
+      },
+      {
+        "heading": "Ser and estar, side by side",
+        "body": "The difference is between what a thing is and how it is now. El café está frío means the coffee has gone cold. El café es frío means cold is what coffee is. Same for the place: estar is where it is, ser is what it is. The pair más and menos are for ser: es más grande, it is bigger. The pair muy and tan are for estar: está muy frío, it is very cold.",
+        "examples": [
+          { "es": "El café es frío.", "en": "Coffee is a cold thing." },
+          { "es": "El café está frío.", "en": "The coffee is cold." },
+          { "es": "El museo es muy grande.", "en": "The museum is very big." }
+        ]
+      },
+      {
+        "heading": "Saying where it is not",
+        "body": "Negatives put no in front: no está, no estoy. And there is a difference between not being somewhere and not doing something: no está en casa means it is not here, and no está trabajando means he is not working right now.",
+        "examples": [
+          { "es": "La mochila no está aquí.", "en": "The bag is not here." },
+          { "es": "Hoy no estoy trabajando.", "en": "Today I am not working." }
+        ]
+      }
+    ]
+  },
   "items": [
-    { "es": "estar", "en": "to be", "article": null, "note": "An infinitive. Its forms are irregular: estoy, estás, está, estamos, estáis, están.", "tags": ["verb"] },
+    { "es": "estar", "en": "to be", "article": null, "note": "Its forms are irregular: estoy, estás, está, estamos, estáis, están.", "tags": ["verb"] },
     { "es": "aquí", "en": "here", "article": null, "note": "No article: está aquí.", "tags": ["place"] },
     { "es": "allí", "en": "there", "article": null, "note": "No article: está allí.", "tags": ["place"] },
     { "es": "encima", "en": "on top of", "article": null, "note": "No article: está encima.", "tags": ["place"] },
@@ -15,5 +46,12 @@
     { "es": "bajo", "en": "under", "article": null, "note": "No article: está bajo. It also means low.", "tags": ["place"] },
     { "es": "primero", "en": "first", "article": null, "note": "No article on its own: el primero, la primera.", "tags": ["order"] },
     { "es": "después", "en": "afterwards", "article": null, "note": "No article: después de.", "tags": ["order"] }
+  ],
+  "drills": [
+    { "prompt": "El libro está ___ la mesa.", "answer": "en", "meaning": "the book is on the table", "note": "En is in or on." },
+    { "prompt": "La puerta ___ cerrada.", "answer": "está", "meaning": "the door is closed", "note": "A state uses estar." },
+    { "prompt": "Nosotros ___ en el parque.", "answer": "estamos", "meaning": "we are in the park", "note": "Estamos is irregular." },
+    { "prompt": "Hoy no ___ trabajando.", "answer": "estoy", "meaning": "today I am not working", "note": "No goes in front of estar." },
+    { "prompt": "El café ___ frío.", "answer": "está", "meaning": "the coffee is cold", "note": "How it is now uses estar, not ser." }
   ]
 }

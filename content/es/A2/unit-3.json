@@ -4,6 +4,65 @@
   "unit": 3,
   "title": "Going somewhere",
   "description": "Talk about leaving, arriving, and the journey.",
+  "explanation": {
+    "summary": "Ir means to go, and it is one of the most irregular verbs in Spanish. It is also the verb that carries almost all of the near future, which is why it matters more than it looks.",
+    "sections": [
+      {
+        "heading": "The forms",
+        "body": "Only the nosotros and vosotros forms are regular: vamos, vais. The rest are irregular: voy, vas, va, van. The word for the place goes after a, not de: voy a la playa, vas al trabajo.",
+        "examples": [
+          {
+            "es": "Voy al trabajo.",
+            "en": "I am going to work."
+          },
+          {
+            "es": "¿Vas a venir?",
+            "en": "Are you going to come?"
+          },
+          {
+            "es": "Vamos de compras.",
+            "en": "We are going shopping."
+          }
+        ]
+      },
+      {
+        "heading": "Going to somewhere, going to do something",
+        "body": "Two patterns that look alike. Ir + a + a place says where you are going: voy a Madrid. Ir + a + an infinitive says what you are going to do: voy a estudiar. The difference is what follows the a: a place, or a verb.",
+        "examples": [
+          {
+            "es": "Voy a Madrid.",
+            "en": "I am going to Madrid."
+          },
+          {
+            "es": "Voy a estudiar.",
+            "en": "I am going to study."
+          },
+          {
+            "es": "Vamos a ver.",
+            "en": "We are going to see."
+          }
+        ]
+      },
+      {
+        "heading": "Coming and going",
+        "body": "Volver is to come back, and it is irregular in the yo form: vuelvo. Salir is to leave or to go out, and it is irregular: salgo. And ir and venir are opposites that do not need a preposition between them: ir y venir.",
+        "examples": [
+          {
+            "es": "Vuelvo a las tres.",
+            "en": "I am back at three."
+          },
+          {
+            "es": "Salgo ahora.",
+            "en": "I am leaving now."
+          },
+          {
+            "es": "Voy y vengo en el día.",
+            "en": "I go and come during the day."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u3/match/ir",
@@ -45,36 +104,18 @@
       ],
       "answer": "ir",
       "translation": "to go",
-      "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van."
+      "note": "Its forms are irregular: voy, vas, va, vamos, vais, van."
     },
     {
-      "id": "es/a2/u3/type_in/venir",
+      "id": "es/a2/u3/drill/1",
       "type": "type_in",
-      "prompt": "Write “to come” in Spanish.",
-      "answer": "venir",
+      "prompt": "Yo ___ al trabajo.",
+      "answer": "voy",
       "acceptedAnswers": [
-        "venir"
+        "voy"
       ],
-      "translation": "to come",
-      "note": "An infinitive. Its forms are irregular: vengo, vienes, viene."
-    },
-    {
-      "id": "es/a2/u3/listen/volver",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "volver",
-      "options": [
-        "volver",
-        "aprender",
-        "leer",
-        "beber"
-      ],
-      "audio": {
-        "text": "volver",
-        "lang": "es"
-      },
-      "translation": "to return",
-      "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve."
+      "translation": "I am going to work",
+      "note": "Ir is irregular in the yo form."
     },
     {
       "id": "es/a2/u3/match/tren",
@@ -105,75 +146,76 @@
       "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
     },
     {
-      "id": "es/a2/u3/select/salir",
+      "id": "es/a2/u3/select/venir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to leave”.",
+      "prompt": "Pick the Spanish word for “to come”.",
       "options": [
-        "necesitar",
-        "comer",
-        "estar",
-        "salir"
+        "decidir",
+        "volver",
+        "ir",
+        "venir"
       ],
-      "answer": "salir",
-      "translation": "to leave",
-      "note": "An infinitive. Its forms are irregular: salgo, sales, sale."
+      "answer": "venir",
+      "translation": "to come",
+      "note": "Its forms are irregular: vengo, vienes, viene."
     },
     {
-      "id": "es/a2/u3/type_in/viajar",
+      "id": "es/a2/u3/drill/2",
       "type": "type_in",
-      "prompt": "Write “to travel” in Spanish.",
-      "answer": "viajar",
+      "prompt": "Nosotros ___ de compras.",
+      "answer": "vamos",
       "acceptedAnswers": [
-        "viajar"
+        "vamos"
       ],
-      "translation": "to travel",
-      "note": "An infinitive ending in -ar: viajo, viajas, viaja."
+      "translation": "we are going shopping",
+      "note": "Vamos is the regular form of ir."
     },
     {
-      "id": "es/a2/u3/listen/tren",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el tren",
-      "options": [
-        "el coche",
-        "el billete",
-        "el avión",
-        "el tren"
-      ],
-      "audio": {
-        "text": "tren",
-        "lang": "es"
-      },
-      "translation": "train",
-      "note": "Masculine: el tren."
-    },
-    {
-      "id": "es/a2/u3/select/coche",
+      "id": "es/a2/u3/select/volver",
       "type": "select",
-      "prompt": "Pick the Spanish word for “car”.",
+      "prompt": "Pick the Spanish word for “to return”.",
       "options": [
-        "el avión",
-        "el billete",
-        "el tren",
-        "el coche"
+        "pedir",
+        "servir",
+        "repetir",
+        "volver"
       ],
-      "answer": "el coche",
-      "translation": "car",
-      "note": "Masculine: el coche."
+      "answer": "volver",
+      "translation": "to return",
+      "note": "Its forms are irregular: vuelvo, vuelves, vuelve."
     },
     {
-      "id": "es/a2/u3/select/avion",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “plane”.",
-      "options": [
-        "el avión",
-        "el tren",
-        "el coche",
-        "el billete"
+      "id": "es/a2/u3/drill/3",
+      "type": "type_in",
+      "prompt": "Voy ___ estudiar.",
+      "answer": "a",
+      "acceptedAnswers": [
+        "a"
       ],
-      "answer": "el avión",
-      "translation": "plane",
-      "note": "Masculine: el avión. The accent marks the stress."
+      "translation": "I am going to study",
+      "note": "Ir a plus an infinitive is a plan."
+    },
+    {
+      "id": "es/a2/u3/drill/4",
+      "type": "type_in",
+      "prompt": "Yo ___ a las tres.",
+      "answer": "vuelvo",
+      "acceptedAnswers": [
+        "vuelvo"
+      ],
+      "translation": "I am back at three",
+      "note": "Volver is irregular in the yo form."
+    },
+    {
+      "id": "es/a2/u3/drill/5",
+      "type": "type_in",
+      "prompt": "Tú ___ ahora.",
+      "answer": "sales",
+      "acceptedAnswers": [
+        "sales"
+      ],
+      "translation": "you are leaving now",
+      "note": "Salir is irregular."
     }
   ]
 }

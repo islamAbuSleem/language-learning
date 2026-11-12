@@ -1,0 +1,209 @@
+{
+  "track": "es",
+  "level": "B2",
+  "unit": 9,
+  "title": "Ser and estar, the hard part",
+  "description": "Say what something is, and how it is.",
+  "explanation": {
+    "summary": "By now ser and estar are familiar. The advanced part is knowing which one a particular meaning needs, and knowing the fixed phrases where Spanish does not follow the rule you would expect.",
+    "sections": [
+      {
+        "heading": "The three jobs of estar",
+        "body": "Estar is for where a thing is, how a thing is right now, and how a thing is going. Ser is for what a thing is, who a thing is, and what it is made of. The tricky part is that some words change meaning with the verb: un café es frío, coffee is a cold thing, and el café está frío, the coffee has gone cold.",
+        "examples": [
+          {
+            "es": "La reunión es a las nueve.",
+            "en": "The meeting is at nine.",
+            "note": "A scheduled event uses ser."
+          },
+          {
+            "es": "La reunión está a las nueve.",
+            "en": "The meeting is running at nine.",
+            "note": "A meeting in progress uses estar."
+          },
+          {
+            "es": "Es un problema grave.",
+            "en": "It is a serious problem.",
+            "note": "What it is uses ser."
+          }
+        ]
+      },
+      {
+        "heading": "The fixed phrases",
+        "body": "Some expressions take one verb in Spanish and the other in English. Ser rico is to be rich, but estar rico means to be delicious. Estar listo means to be ready, but ser listo means to be clever. And estar bien means to be well, while ser bueno means to be a good person.",
+        "examples": [
+          {
+            "es": "El restaurante está muy rico.",
+            "en": "The restaurant is very delicious.",
+            "note": "Estar rico is about the food."
+          },
+          {
+            "es": "El restaurante es muy rico.",
+            "en": "The restaurant is very expensive.",
+            "note": "Ser rico is about the price."
+          },
+          {
+            "es": "Estoy listo para salir.",
+            "en": "I am ready to leave.",
+            "note": "Estar listo is to be ready."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b2/u9/match/en-marcha",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "under way",
+          "right": "en marcha"
+        },
+        {
+          "left": "in its place",
+          "right": "en su sitio"
+        },
+        {
+          "left": "about to",
+          "right": "a punto de"
+        },
+        {
+          "left": "agreed",
+          "right": "de acuerdo"
+        },
+        {
+          "left": "indeed",
+          "right": "en efecto"
+        }
+      ],
+      "note": "Ser says what something is. Estar says how it is, where it is, or how it is going."
+    },
+    {
+      "id": "es/b2/u9/select/en-marcha",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “under way”.",
+      "options": [
+        "en suma",
+        "en resumen",
+        "por ahora",
+        "en marcha"
+      ],
+      "answer": "en marcha",
+      "translation": "under way",
+      "note": "It goes with estar: el proyecto está en marcha."
+    },
+    {
+      "id": "es/b2/u9/drill/1",
+      "type": "type_in",
+      "prompt": "El restaurante está muy ___.",
+      "answer": "rico",
+      "acceptedAnswers": [
+        "rico"
+      ],
+      "translation": "the restaurant is very delicious",
+      "note": "Estar rico is about the food."
+    },
+    {
+      "id": "es/b2/u9/match/sin-embargo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "however",
+          "right": "sin embargo"
+        },
+        {
+          "left": "in short",
+          "right": "en suma"
+        },
+        {
+          "left": "to sum up",
+          "right": "en resumen"
+        },
+        {
+          "left": "for now",
+          "right": "por ahora"
+        },
+        {
+          "left": "in the long run",
+          "right": "a largo plazo"
+        }
+      ],
+      "note": "Ser says what something is. Estar says how it is, where it is, or how it is going."
+    },
+    {
+      "id": "es/b2/u9/select/en-su-sitio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “in its place”.",
+      "options": [
+        "de acuerdo",
+        "sin embargo",
+        "en su sitio",
+        "en efecto"
+      ],
+      "answer": "en su sitio",
+      "translation": "in its place",
+      "note": "Everything está en su sitio."
+    },
+    {
+      "id": "es/b2/u9/drill/2",
+      "type": "type_in",
+      "prompt": "El restaurante es muy ___.",
+      "answer": "rico",
+      "acceptedAnswers": [
+        "rico"
+      ],
+      "translation": "the restaurant is very expensive",
+      "note": "Ser rico is about the price."
+    },
+    {
+      "id": "es/b2/u9/select/a-punto-de",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “about to”.",
+      "options": [
+        "en suma",
+        "en resumen",
+        "sin embargo",
+        "a punto de"
+      ],
+      "answer": "a punto de",
+      "translation": "about to",
+      "note": "A point of the infinitive: está a punto de salir."
+    },
+    {
+      "id": "es/b2/u9/drill/3",
+      "type": "type_in",
+      "prompt": "Estoy ___ para salir.",
+      "answer": "listo",
+      "acceptedAnswers": [
+        "listo"
+      ],
+      "translation": "I am ready to leave",
+      "note": "Estar listo is to be ready."
+    },
+    {
+      "id": "es/b2/u9/drill/4",
+      "type": "type_in",
+      "prompt": "El proyecto está ___ marcha.",
+      "answer": "en",
+      "acceptedAnswers": [
+        "en"
+      ],
+      "translation": "the project is under way",
+      "note": "En marcha is a fixed phrase with estar."
+    },
+    {
+      "id": "es/b2/u9/drill/5",
+      "type": "type_in",
+      "prompt": "Está ___ de salir.",
+      "answer": "a punto",
+      "acceptedAnswers": [
+        "a punto"
+      ],
+      "translation": "he is about to leave",
+      "note": "A punto de plus an infinitive."
+    }
+  ]
+}

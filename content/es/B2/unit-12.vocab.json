@@ -1,0 +1,49 @@
+{
+  "unit": 12,
+  "title": "Writing for others",
+  "description": "Write a formal letter, and sign it properly.",
+  "grammar": "el registro formal",
+  "grammarNote": "A formal letter uses usted, and it opens with Estimado señor or Estimada señora.",
+  "explanation": {
+    "summary": "The last level is about register: the same Spanish, said in the way that fits the reader. A letter to a company is not a message to a friend, and Spanish marks the difference clearly.",
+    "sections": [
+      {
+        "heading": "How a formal letter is built",
+        "body": "It opens with Estimado señor or Estimada señora, or with the job title: Estimado director. The body uses usted and the third person, and the verbs are formal: le escribo, me permito adjuntar. It closes with an offer, Atentamente, and the name.",
+        "examples": [
+          { "es": "Estimado señor López: Le escribo para informarle de que su solicitud ha sido aprobada.", "en": "Dear Mr López: I am writing to inform you that your application has been approved." },
+          { "es": "Me permito adjuntar el informe solicitado.", "en": "I take the liberty of attaching the requested report." },
+          { "es": "Atentamente, Ana García.", "en": "Yours faithfully, Ana García." }
+        ]
+      },
+      {
+        "heading": "Formal words, and what to avoid",
+        "body": "A formal text avoids the contracted al and del, and it says por este motivo instead of por eso. It uses the words for saying that a business uses: solicitar, to request; adjuntar, to attach. And it does not use the word for a thing you have just found out informally, the news in the press.",
+        "examples": [
+          { "es": "Por este motivo, le solicito una respuesta.", "en": "For this reason, I request a reply from you." },
+          { "es": "Se adjunta la documentación requerida.", "en": "The required documentation is attached." },
+          { "es": "Quedo a la espera de sus comentarios.", "en": "I look forward to your comments." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "estimado", "en": "dear", "article": null, "note": "It opens a formal letter: estimado señor.", "tags": ["formal"] },
+    { "es": "atentamente", "en": "yours faithfully", "article": null, "note": "It closes a formal letter.", "tags": ["formal"] },
+    { "es": "solicitar", "en": "to request", "article": null, "note": "A formal verb: solicitar una reunión.", "tags": ["formal"] },
+    { "es": "adjuntar", "en": "to attach", "article": null, "note": "A formal verb: adjuntar un archivo.", "tags": ["formal"] },
+    { "es": "a su espera", "en": "awaiting your reply", "article": null, "note": "Quedo a la espera de su respuesta.", "tags": ["formal"] },
+    { "es": "por este motivo", "en": "for this reason", "article": null, "note": "The formal way to say por eso.", "tags": ["formal"] },
+    { "es": "se adjunta", "en": "it is attached", "article": null, "note": "It is often used as a heading on an attachment.", "tags": ["formal"] },
+    { "es": "cordialmente", "en": "cordially", "article": null, "note": "It closes a friendly but formal letter.", "tags": ["formal"] },
+    { "es": "lejos", "en": "far", "article": null, "note": "It is in the unit on where exactly.", "tags": ["word"] },
+    { "es": "asunto", "en": "subject", "article": "el", "note": "Masculine: el asunto. It is also what an email subject line is.", "tags": ["word"] }
+  ],
+  "drills": [
+    { "prompt": "___ señor López: Le escribo para informarle.", "answer": "Estimado", "meaning": "dear Mr López: I am writing to inform you", "note": "A formal letter opens with estimado." },
+    { "prompt": "___ , Ana García.", "answer": "Atentamente", "meaning": "yours faithfully, Ana García", "note": "It closes a formal letter." },
+    { "prompt": "___ este motivo, le solicito una respuesta.", "answer": "Por", "meaning": "for this reason, I request a reply", "note": "The formal way to say por eso." },
+    { "prompt": "Me permito ___ el informe.", "answer": "adjuntar", "meaning": "I take the liberty of attaching the report", "note": "A formal verb." },
+    { "prompt": "Quedo ___ su respuesta.", "answer": "la espera", "meaning": "I look forward to your reply", "note": "Quedo a la espera de su respuesta." }
+  ]
+}

@@ -4,96 +4,55 @@
   "description": "Say what is happening at this moment.",
   "grammar": "the present progressive",
   "grammarNote": "The progressive is estar plus a gerund: estoy leyendo. An -ar verb makes -ando, an -er or -ir verb makes -iendo.",
+  "explanation": {
+    "summary": "The present progressive is for something that is happening now, or that is going on around you. It is estar plus a gerund, and the gerund is made by changing the ending of the infinitive.",
+    "sections": [
+      {
+        "heading": "Making the gerund",
+        "body": "An -ar verb drops the ar and adds ando: hablar becomes hablando. An -er or -ir verb drops the er or ir and adds iendo: comer becomes comiendo, vivir becomes viviendo. Ver becomes viendo, and the stem-changing verbs lose their change: dormir becomes durmiendo.",
+        "examples": [
+          { "es": "Estoy leyendo un libro.", "en": "I am reading a book." },
+          { "es": "Estamos comiendo.", "en": "We are eating." },
+          { "es": "El niño está durmiendo.", "en": "The child is sleeping." }
+        ]
+      },
+      {
+        "heading": "When to use it",
+        "body": "The progressive says what is in progress: ahora estoy trabajando. It also covers the near future, because Spanish has no other way to say what you are about to do: estoy yendo, I am going. And it can be used for a routine that is happening now, like esta semana estoy viajando.",
+        "examples": [
+          { "es": "Ahora estoy trabajando.", "en": "Right now I am working." },
+          { "es": "Estoy yendo al mercado.", "en": "I am going to the market." },
+          { "es": "Esta semana estoy de vacaciones.", "en": "This week I am on holiday." }
+        ]
+      },
+      {
+        "heading": "With the word for right now",
+        "body": "The word ahora goes at the start or the end, and either is fine. But the verb comes before it when it is at the end: estoy trabajando ahora. And Spanish often adds the gerund with estar for something that is going on around you: está lloviendo, it is raining.",
+        "examples": [
+          { "es": "Ahora está lloviendo.", "en": "Now it is raining." },
+          { "es": "Está nevando.", "en": "It is snowing." },
+          { "es": "Estoy trabajando ahora.", "en": "I am working now." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "conversación",
-      "en": "conversation",
-      "article": "la",
-      "note": "Feminine: la conversación.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "televisión",
-      "en": "television",
-      "article": "la",
-      "note": "Feminine: la televisión. You watch it: ver la televisión.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "música",
-      "en": "music",
-      "article": "la",
-      "note": "Feminine: la música. It has no plural in everyday use.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "película",
-      "en": "film",
-      "article": "la",
-      "note": "Feminine: la película.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "canción",
-      "en": "song",
-      "article": "la",
-      "note": "Feminine: la canción.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "deporte",
-      "en": "sport",
-      "article": "el",
-      "note": "Masculine: el deporte.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "partido",
-      "en": "match",
-      "article": "el",
-      "note": "Masculine: el partido. It also means a party.",
-      "tags": [
-        "activity"
-      ]
-    },
-    {
-      "es": "parque",
-      "en": "park",
-      "article": "el",
-      "note": "Masculine: el parque.",
-      "tags": [
-        "place"
-      ]
-    },
-    {
-      "es": "playa",
-      "en": "beach",
-      "article": "la",
-      "note": "Feminine: la playa.",
-      "tags": [
-        "place"
-      ]
-    },
-    {
-      "es": "cielo",
-      "en": "sky",
-      "article": "el",
-      "note": "Masculine: el cielo.",
-      "tags": [
-        "place"
-      ]
-    }
+    { "es": "conversación", "en": "conversation", "article": "la", "note": "Feminine: la conversación.", "tags": ["activity"] },
+    { "es": "televisión", "en": "television", "article": "la", "note": "Feminine: la televisión. You watch it: ver la televisión.", "tags": ["activity"] },
+    { "es": "música", "en": "music", "article": "la", "note": "Feminine: la música. It has no plural in everyday use.", "tags": ["activity"] },
+    { "es": "película", "en": "film", "article": "la", "note": "Feminine: la película.", "tags": ["activity"] },
+    { "es": "canción", "en": "song", "article": "la", "note": "Feminine: la canción.", "tags": ["activity"] },
+    { "es": "deporte", "en": "sport", "article": "el", "note": "Masculine: el deporte.", "tags": ["activity"] },
+    { "es": "partido", "en": "match", "article": "el", "note": "Masculine: el partido. It also means a party.", "tags": ["activity"] },
+    { "es": "parque", "en": "park", "article": "el", "note": "Masculine: el parque.", "tags": ["place"] },
+    { "es": "playa", "en": "beach", "article": "la", "note": "Feminine: la playa.", "tags": ["place"] },
+    { "es": "cielo", "en": "sky", "article": "el", "note": "Masculine: el cielo.", "tags": ["place"] }
+  ],
+  "drills": [
+    { "prompt": "Estoy ___ un libro.", "answer": "leyendo", "meaning": "I am reading a book", "note": "Leer makes leyendo." },
+    { "prompt": "El niño está ___.", "answer": "durmiendo", "meaning": "the child is sleeping", "note": "Dormir makes durmiendo and loses the stem change." },
+    { "prompt": "Ahora está ___.", "answer": "lloviendo", "meaning": "now it is raining", "note": "Llover makes lloviendo." },
+    { "prompt": "Estamos ___ en casa.", "answer": "comiendo", "meaning": "we are eating at home", "note": "Comer makes comiendo." },
+    { "prompt": "Está ___ un café.", "answer": "bebiendo", "meaning": "he is having a coffee", "note": "Beber makes bebiendo." }
   ]
 }

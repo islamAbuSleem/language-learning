@@ -4,6 +4,61 @@
   "unit": 6,
   "title": "Where things are",
   "description": "Say where something is, and where it is not.",
+  "explanation": {
+    "summary": "Estar is the verb for position, and it is irregular in the same way ser is. The forms are the ones you need on the first day: estoy, estás, está, estamos, estáis, están.",
+    "sections": [
+      {
+        "heading": "The forms",
+        "body": "Only the yo form is regular: estoy. The rest change: estás, está, estamos, estáis, están. You can use estar with an adjective, with a place, and with a state: la puerta está cerrada, la casa está en la calle, estoy cansado.",
+        "examples": [
+          {
+            "es": "El libro está en la mesa.",
+            "en": "The book is on the table."
+          },
+          {
+            "es": "La puerta está cerrada.",
+            "en": "The door is closed."
+          },
+          {
+            "es": "Estamos en el parque.",
+            "en": "We are in the park."
+          }
+        ]
+      },
+      {
+        "heading": "Ser and estar, side by side",
+        "body": "The difference is between what a thing is and how it is now. El café está frío means the coffee has gone cold. El café es frío means cold is what coffee is. Same for the place: estar is where it is, ser is what it is. The pair más and menos are for ser: es más grande, it is bigger. The pair muy and tan are for estar: está muy frío, it is very cold.",
+        "examples": [
+          {
+            "es": "El café es frío.",
+            "en": "Coffee is a cold thing."
+          },
+          {
+            "es": "El café está frío.",
+            "en": "The coffee is cold."
+          },
+          {
+            "es": "El museo es muy grande.",
+            "en": "The museum is very big."
+          }
+        ]
+      },
+      {
+        "heading": "Saying where it is not",
+        "body": "Negatives put no in front: no está, no estoy. And there is a difference between not being somewhere and not doing something: no está en casa means it is not here, and no está trabajando means he is not working right now.",
+        "examples": [
+          {
+            "es": "La mochila no está aquí.",
+            "en": "The bag is not here."
+          },
+          {
+            "es": "Hoy no estoy trabajando.",
+            "en": "Today I am not working."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a1/u6/match/estar",
@@ -31,7 +86,7 @@
           "right": "debajo"
         }
       ],
-      "note": "Estar says where something is: la casa está cerca."
+      "note": "Estar says where something is: la casa está cerca. The forms are irregular."
     },
     {
       "id": "es/a1/u6/select/estar",
@@ -45,36 +100,18 @@
       ],
       "answer": "estar",
       "translation": "to be",
-      "note": "An infinitive. Its forms are irregular: estoy, estás, está, estamos, estáis, están."
+      "note": "Its forms are irregular: estoy, estás, está, estamos, estáis, están."
     },
     {
-      "id": "es/a1/u6/type_in/aqui",
+      "id": "es/a1/u6/drill/1",
       "type": "type_in",
-      "prompt": "Write “here” in Spanish.",
-      "answer": "aquí",
+      "prompt": "El libro está ___ la mesa.",
+      "answer": "en",
       "acceptedAnswers": [
-        "aqui"
+        "en"
       ],
-      "translation": "here",
-      "note": "No article: está aquí."
-    },
-    {
-      "id": "es/a1/u6/listen/alli",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "allí",
-      "options": [
-        "allí",
-        "fuera",
-        "bajo",
-        "la calle"
-      ],
-      "audio": {
-        "text": "allí",
-        "lang": "es"
-      },
-      "translation": "there",
-      "note": "No article: está allí."
+      "translation": "the book is on the table",
+      "note": "En is in or on."
     },
     {
       "id": "es/a1/u6/match/dentro",
@@ -102,78 +139,79 @@
           "right": "después"
         }
       ],
-      "note": "Estar says where something is: la casa está cerca."
+      "note": "Estar says where something is: la casa está cerca. The forms are irregular."
     },
     {
-      "id": "es/a1/u6/select/encima",
+      "id": "es/a1/u6/select/aqui",
       "type": "select",
-      "prompt": "Pick the Spanish word for “on top of”.",
+      "prompt": "Pick the Spanish word for “here”.",
       "options": [
-        "debajo",
-        "dentro",
-        "fuera",
-        "encima"
-      ],
-      "answer": "encima",
-      "translation": "on top of",
-      "note": "No article: está encima."
-    },
-    {
-      "id": "es/a1/u6/type_in/debajo",
-      "type": "type_in",
-      "prompt": "Write “underneath” in Spanish.",
-      "answer": "debajo",
-      "acceptedAnswers": [
-        "debajo"
-      ],
-      "translation": "underneath",
-      "note": "No article: está debajo."
-    },
-    {
-      "id": "es/a1/u6/listen/dentro",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "dentro",
-      "options": [
-        "allí",
+        "aquí",
         "encima",
-        "dentro",
-        "aquí"
-      ],
-      "audio": {
-        "text": "dentro",
-        "lang": "es"
-      },
-      "translation": "inside",
-      "note": "No article: está dentro."
-    },
-    {
-      "id": "es/a1/u6/select/fuera",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “outside”.",
-      "options": [
-        "fuera",
         "debajo",
-        "dentro",
-        "encima"
+        "dentro"
       ],
-      "answer": "fuera",
-      "translation": "outside",
-      "note": "No article: está fuera."
+      "answer": "aquí",
+      "translation": "here",
+      "note": "No article: está aquí."
     },
     {
-      "id": "es/a1/u6/select/bajo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “under”.",
-      "options": [
-        "dentro",
-        "fuera",
-        "bajo",
-        "debajo"
+      "id": "es/a1/u6/drill/2",
+      "type": "type_in",
+      "prompt": "La puerta ___ cerrada.",
+      "answer": "está",
+      "acceptedAnswers": [
+        "esta"
       ],
-      "answer": "bajo",
-      "translation": "under",
-      "note": "No article: está bajo. It also means low."
+      "translation": "the door is closed",
+      "note": "A state uses estar."
+    },
+    {
+      "id": "es/a1/u6/select/alli",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “there”.",
+      "options": [
+        "la casa",
+        "aquí",
+        "encima",
+        "allí"
+      ],
+      "answer": "allí",
+      "translation": "there",
+      "note": "No article: está allí."
+    },
+    {
+      "id": "es/a1/u6/drill/3",
+      "type": "type_in",
+      "prompt": "Nosotros ___ en el parque.",
+      "answer": "estamos",
+      "acceptedAnswers": [
+        "estamos"
+      ],
+      "translation": "we are in the park",
+      "note": "Estamos is irregular."
+    },
+    {
+      "id": "es/a1/u6/drill/4",
+      "type": "type_in",
+      "prompt": "Hoy no ___ trabajando.",
+      "answer": "estoy",
+      "acceptedAnswers": [
+        "estoy"
+      ],
+      "translation": "today I am not working",
+      "note": "No goes in front of estar."
+    },
+    {
+      "id": "es/a1/u6/drill/5",
+      "type": "type_in",
+      "prompt": "El café ___ frío.",
+      "answer": "está",
+      "acceptedAnswers": [
+        "esta"
+      ],
+      "translation": "the coffee is cold",
+      "note": "How it is now uses estar, not ser."
     }
   ]
 }

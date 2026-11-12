@@ -4,6 +4,65 @@
   "unit": 2,
   "title": "Describing people",
   "description": "Say what someone is like, and what they do.",
+  "explanation": {
+    "summary": "Two things meet in this unit. The irregular verbs are the ones Spanish uses most, so their forms are worth learning early. And the adjectives that describe people change their ending to match the noun.",
+    "sections": [
+      {
+        "heading": "The verbs you cannot avoid",
+        "body": "Eight verbs are irregular in the present, and they are the ones you use every day: ser, estar, ir, haber, dar, saber, querer, poder. Their forms are worth learning as whole words rather than as a pattern: estoy, estás, está, estamos, estáis, están.",
+        "examples": [
+          {
+            "es": "Soy profesor de español.",
+            "en": "I am a Spanish teacher."
+          },
+          {
+            "es": "Está en la cocina.",
+            "en": "He is in the kitchen."
+          },
+          {
+            "es": "No sé su nombre.",
+            "en": "I do not know his name."
+          }
+        ]
+      },
+      {
+        "heading": "The adjective endings",
+        "body": "An adjective ending in -o changes to -a before a feminine noun: un trabajo difícil, una casa difícil. One ending in -e or a consonant does not change: un hombre grande, una mujer grande. And the adjectives of nationality drop their ending in front of a noun: un español alto, una española alta.",
+        "examples": [
+          {
+            "es": "Es una niña pequeña.",
+            "en": "She is a small girl."
+          },
+          {
+            "es": "Es un hombre grande.",
+            "en": "He is a big man."
+          },
+          {
+            "es": "Mi padre es un médico joven.",
+            "en": "My father is a young doctor."
+          }
+        ]
+      },
+      {
+        "heading": "Where the adjective goes",
+        "body": "The adjective goes after the noun: un trabajo difícil. It can also go before, but then it means something more literary, and it is not used with every adjective. In everyday Spanish, put it after.",
+        "examples": [
+          {
+            "es": "Una casa muy antigua.",
+            "en": "A very old house."
+          },
+          {
+            "es": "El café está caliente.",
+            "en": "The coffee is hot."
+          },
+          {
+            "es": "Somos una familia grande.",
+            "en": "We are a big family."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u2/match/bueno",
@@ -45,36 +104,18 @@
       ],
       "answer": "bueno",
       "translation": "good",
-      "note": "Good. It changes to buena before a feminine noun."
+      "note": "It changes to buena before a feminine noun."
     },
     {
-      "id": "es/b1/u2/type_in/malo",
+      "id": "es/b1/u2/drill/1",
       "type": "type_in",
-      "prompt": "Write “bad” in Spanish.",
-      "answer": "malo",
+      "prompt": "Es una niña ___.",
+      "answer": "pequeña",
       "acceptedAnswers": [
-        "malo"
+        "pequena"
       ],
-      "translation": "bad",
-      "note": "Bad. It changes to mala before a feminine noun."
-    },
-    {
-      "id": "es/b1/u2/listen/grande",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "grande",
-      "options": [
-        "joven",
-        "bueno",
-        "viejo",
-        "grande"
-      ],
-      "audio": {
-        "text": "grande",
-        "lang": "es"
-      },
-      "translation": "big",
-      "note": "Big. It does not change for a feminine noun."
+      "translation": "she is a small girl",
+      "note": "Pequeño changes to pequeña before a feminine noun."
     },
     {
       "id": "es/b1/u2/match/joven",
@@ -105,75 +146,76 @@
       "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
     },
     {
-      "id": "es/b1/u2/select/pequeno",
+      "id": "es/b1/u2/select/malo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “small”.",
-      "options": [
-        "grande",
-        "joven",
-        "nuevo",
-        "pequeño"
-      ],
-      "answer": "pequeño",
-      "translation": "small",
-      "note": "Small. It changes to pequeña before a feminine noun."
-    },
-    {
-      "id": "es/b1/u2/type_in/nuevo",
-      "type": "type_in",
-      "prompt": "Write “new” in Spanish.",
-      "answer": "nuevo",
-      "acceptedAnswers": [
-        "nuevo"
-      ],
-      "translation": "new",
-      "note": "New. It changes to nueva before a feminine noun."
-    },
-    {
-      "id": "es/b1/u2/listen/joven",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "joven",
+      "prompt": "Pick the Spanish word for “bad”.",
       "options": [
         "malo",
-        "grande",
-        "joven",
-        "bueno"
+        "nuevo",
+        "pequeño",
+        "joven"
       ],
-      "audio": {
-        "text": "joven",
-        "lang": "es"
-      },
-      "translation": "young",
-      "note": "Young. It does not change for a feminine noun."
+      "answer": "malo",
+      "translation": "bad",
+      "note": "It changes to mala before a feminine noun."
     },
     {
-      "id": "es/b1/u2/select/viejo",
+      "id": "es/b1/u2/drill/2",
+      "type": "type_in",
+      "prompt": "Es un hombre ___.",
+      "answer": "grande",
+      "acceptedAnswers": [
+        "grande"
+      ],
+      "translation": "he is a big man",
+      "note": "Grande does not change."
+    },
+    {
+      "id": "es/b1/u2/select/grande",
       "type": "select",
-      "prompt": "Pick the Spanish word for “old”.",
+      "prompt": "Pick the Spanish word for “big”.",
       "options": [
         "bueno",
+        "pequeño",
         "malo",
-        "grande",
-        "viejo"
+        "grande"
       ],
-      "answer": "viejo",
-      "translation": "old",
-      "note": "Old. It changes to vieja before a feminine noun."
+      "answer": "grande",
+      "translation": "big",
+      "note": "It does not change for a feminine noun."
     },
     {
-      "id": "es/b1/u2/select/dinero",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “money”.",
-      "options": [
-        "el mapa",
-        "el número",
-        "el trabajo",
-        "el dinero"
+      "id": "es/b1/u2/drill/3",
+      "type": "type_in",
+      "prompt": "Mi padre es un médico ___.",
+      "answer": "joven",
+      "acceptedAnswers": [
+        "joven"
       ],
-      "answer": "el dinero",
-      "translation": "money",
-      "note": "Masculine: el dinero."
+      "translation": "my father is a young doctor",
+      "note": "Joven does not change."
+    },
+    {
+      "id": "es/b1/u2/drill/4",
+      "type": "type_in",
+      "prompt": "___ profesor de español.",
+      "answer": "Soy",
+      "acceptedAnswers": [
+        "Soy"
+      ],
+      "translation": "I am a Spanish teacher",
+      "note": "A profession uses ser."
+    },
+    {
+      "id": "es/b1/u2/drill/5",
+      "type": "type_in",
+      "prompt": "Es una casa muy ___.",
+      "answer": "nueva",
+      "acceptedAnswers": [
+        "nueva"
+      ],
+      "translation": "it is a very new house",
+      "note": "Nuevo changes to nueva before a feminine noun."
     }
   ]
 }

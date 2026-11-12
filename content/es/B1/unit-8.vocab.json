@@ -4,96 +4,55 @@
   "description": "Say what you did, and who you did it with.",
   "grammar": "the preterite with -ar verbs",
   "grammarNote": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+  "explanation": {
+    "summary": "The preterite is the tense for something that happened and is finished. With -ar verbs it is almost entirely regular, and the one irregular part is the yo form.",
+    "sections": [
+      {
+        "heading": "The endings",
+        "body": "The -ar preterite has its own set of endings: -é, -aste, -ó, -amos, -asteis, -aron. They are not the same as the present endings, which is why the tense is easy to spot. Hablar becomes hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+        "examples": [
+          { "es": "Ayer hablé con mi madre.", "en": "Yesterday I spoke to my mother." },
+          { "es": "Estudiaste toda la tarde.", "en": "You studied all afternoon." },
+          { "es": "Llegaron tarde.", "en": "They arrived late." }
+        ]
+      },
+      {
+        "heading": "The yo form",
+        "body": "The yo form takes an accent, and for most verbs it is the infinitive with the final vowel changed to é. But some verbs change their stem instead: tener becomes tuve, estar became estuviste, poder became pude, hacer became hice, ir and ser became fui, and estar and tener also have irregular third person forms: estuvo, tuvo.",
+        "examples": [
+          { "es": "Tuve una idea.", "en": "I had an idea." },
+          { "es": "Hice la cena.", "en": "I made dinner." },
+          { "es": "Estuve en casa.", "en": "I was at home." }
+        ]
+      },
+      {
+        "heading": "When you use it",
+        "body": "The preterite belongs to a finished period: ayer, la semana pasada, en 2020, hace dos años. It is also what you use when something interrupts another past action: dormía cuando sonó el teléfono, I was sleeping when the phone rang. The phone rang is the interruption, so it takes the preterite.",
+        "examples": [
+          { "es": "El año pasado viajé mucho.", "en": "Last year I travelled a lot." },
+          { "es": "Dormía cuando sonó el teléfono.", "en": "I was sleeping when the phone rang." },
+          { "es": "Comí a las dos.", "en": "I ate at two." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "habló",
-      "en": "he spoke",
-      "article": null,
-      "note": "The preterite of hablar. The yo form takes an accent: hablé.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "comió",
-      "en": "he ate",
-      "article": null,
-      "note": "The preterite of comer. The yo form takes an accent: comí.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "escribió",
-      "en": "he wrote",
-      "article": null,
-      "note": "The preterite of escribir. The yo form takes an accent: escribí.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "vivió",
-      "en": "he lived",
-      "article": null,
-      "note": "The preterite of vivir. The yo form takes an accent: viví.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "familia",
-      "en": "family",
-      "article": "la",
-      "note": "Feminine: la familia.",
-      "tags": [
-        "family"
-      ]
-    },
-    {
-      "es": "primo",
-      "en": "cousin",
-      "article": "el",
-      "note": "Masculine: el primo. The feminine is la prima.",
-      "tags": [
-        "family"
-      ]
-    },
-    {
-      "es": "vecino",
-      "en": "neighbour",
-      "article": "el",
-      "note": "Masculine: el vecino. The feminine is la vecina.",
-      "tags": [
-        "person"
-      ]
-    },
-    {
-      "es": "jefe",
-      "en": "boss",
-      "article": "el",
-      "note": "Masculine: el jefe. The feminine is la jefa.",
-      "tags": [
-        "person"
-      ]
-    },
-    {
-      "es": "invierno",
-      "en": "winter",
-      "article": "el",
-      "note": "Masculine: el invierno.",
-      "tags": [
-        "time"
-      ]
-    },
-    {
-      "es": "verano",
-      "en": "summer",
-      "article": "el",
-      "note": "Masculine: el verano.",
-      "tags": [
-        "time"
-      ]
-    }
+    { "es": "habló", "en": "he spoke", "article": null, "note": "The preterite of hablar. The yo form is hablé.", "tags": ["verb"] },
+    { "es": "comió", "en": "he ate", "article": null, "note": "The preterite of comer. The yo form is comí.", "tags": ["verb"] },
+    { "es": "escribió", "en": "he wrote", "article": null, "note": "The preterite of escribir. The yo form is escribí.", "tags": ["verb"] },
+    { "es": "vivió", "en": "he lived", "article": null, "note": "The preterite of vivir. The yo form is viví.", "tags": ["verb"] },
+    { "es": "familia", "en": "family", "article": "la", "note": "Feminine: la familia.", "tags": ["family"] },
+    { "es": "primo", "en": "cousin", "article": "el", "note": "Masculine: el primo. The feminine is la prima.", "tags": ["family"] },
+    { "es": "vecino", "en": "neighbour", "article": "el", "note": "Masculine: el vecino. The feminine is la vecina.", "tags": ["person"] },
+    { "es": "jefe", "en": "boss", "article": "el", "note": "Masculine: el jefe. The feminine is la jefa.", "tags": ["person"] },
+    { "es": "invierno", "en": "winter", "article": "el", "note": "Masculine: el invierno.", "tags": ["time"] },
+    { "es": "verano", "en": "summer", "article": "el", "note": "Masculine: el verano.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "Ayer ___ con mi madre.", "answer": "hablé", "meaning": "yesterday I spoke to my mother", "note": "The yo form takes an accent." },
+    { "prompt": "___ una idea.", "answer": "Tuve", "meaning": "I had an idea", "note": "Tener is irregular in the preterite." },
+    { "prompt": "___ la cena.", "answer": "Hice", "meaning": "I made dinner", "note": "Hacer is irregular in the preterite." },
+    { "prompt": "Dormía cuando ___ el teléfono.", "answer": "sonó", "meaning": "I was sleeping when the phone rang", "note": "The interruption takes the preterite." },
+    { "prompt": "Ellos ___ tarde.", "answer": "llegaron", "meaning": "they arrived late", "note": "The ellos form of llegar in the preterite." }
   ]
 }

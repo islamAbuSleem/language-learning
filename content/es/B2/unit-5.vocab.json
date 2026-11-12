@@ -1,0 +1,49 @@
+{
+  "unit": 5,
+  "title": "The verb and its preposition",
+  "description": "Say what you depend on, what you insist on, and what you dream of.",
+  "grammar": "verbos con preposición",
+  "grammarNote": "Some verbs take a fixed preposition: depender de, insistir en, soñar con.",
+  "explanation": {
+    "summary": "Many Spanish verbs come with a preposition, and the preposition is part of the verb. You cannot leave it out, and you cannot change it. This is one of the places where Spanish and English stop matching.",
+    "sections": [
+      {
+        "heading": "Verbs that look different in English",
+        "body": "Insistir takes en in Spanish and in on in English: insistir en algo. Soñar takes con: soñar con ser padre. Depender takes de: depender de la suerte. Jugar takes a: jugar al fútbol. Some verbs use the same preposition as English: pensar en, hablar de, depender de.",
+        "examples": [
+          { "es": "Insistió en venir.", "en": "He insisted on coming." },
+          { "es": "Sueño con viajar.", "en": "I dream of travelling." },
+          { "es": "Juega al fútbol los domingos.", "en": "He plays football on Sundays." }
+        ]
+      },
+      {
+        "heading": "Asking about the link",
+        "body": "When the verb and the preposition come apart, the preposition is what you ask about. Depender de becomes en qué depende, and soñar con becomes con qué sueñas. This is why the preposition is worth learning as its own word.",
+        "examples": [
+          { "es": "En qué depende?", "en": "What does it depend on?" },
+          { "es": "Con qué sueñas?", "en": "What do you dream about?" },
+          { "es": "Insiste en hacerlo él mismo.", "en": "He insists on doing it himself." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "depender", "en": "to depend", "article": null, "note": "It always takes de: depender de algo.", "tags": ["verb"] },
+    { "es": "insistir", "en": "to insist", "article": null, "note": "It always takes en: insistir en algo.", "tags": ["verb"] },
+    { "es": "soñar", "en": "to dream", "article": null, "note": "It always takes con: soñar con algo.", "tags": ["verb"] },
+    { "es": "jugar", "en": "to play", "article": null, "note": "It takes a for a sport: jugar al fútbol.", "tags": ["verb"] },
+    { "es": "darse cuenta", "en": "to realise", "article": null, "note": "Darse cuenta de: me di cuenta de que era tarde.", "tags": ["verb"] },
+    { "es": "enterarse", "en": "to find out", "article": null, "note": "Enterarse de: me enteré de la noticia.", "tags": ["verb"] },
+    { "es": "acordarse", "en": "to remember", "article": null, "note": "Acordarse de: me acuerdo de ti.", "tags": ["verb"] },
+    { "es": "olvidarse", "en": "to forget", "article": null, "note": "Olvidarse de: lo olvidé de todo.", "tags": ["verb"] },
+    { "es": "sueldo", "en": "salary", "article": "el", "note": "Masculine: el sueldo.", "tags": ["object"] },
+    { "es": "noticia", "en": "news", "article": "la", "note": "Feminine: la noticia.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "Insistió ___ venir.", "answer": "en", "meaning": "he insisted on coming", "note": "Insistir takes en." },
+    { "prompt": "Sueño ___ viajar.", "answer": "con", "meaning": "I dream of travelling", "note": "Soñar takes con." },
+    { "prompt": "En qué ___ depende?", "answer": "qué", "meaning": "what does it depend on?", "note": "The preposition is what you ask about." },
+    { "prompt": "Me di ___ de que era tarde.", "answer": "cuenta", "meaning": "I realised it was late", "note": "Darse cuenta de." },
+    { "prompt": "Me ___ de la noticia.", "answer": "enteré", "meaning": "I found out the news", "note": "Enterarse de." }
+  ]
+}

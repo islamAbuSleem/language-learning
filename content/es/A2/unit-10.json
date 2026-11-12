@@ -161,9 +161,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “detail”.",
       "options": [
-        "el propósito",
-        "el destino",
-        "el motivo",
+        "el reloj",
+        "la ayuda",
+        "la palabra",
         "el detalle"
       ],
       "answer": "el detalle",

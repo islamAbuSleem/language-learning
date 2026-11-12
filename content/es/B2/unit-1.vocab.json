@@ -1,0 +1,49 @@
+{
+  "unit": 1,
+  "title": "The passive voice",
+  "description": "Say what was done, without saying who did it.",
+  "grammar": "la voz pasiva",
+  "grammarNote": "The passive is ser plus the participle: el cuadro fue pintado por Ana.",
+  "explanation": {
+    "summary": "Spanish has a passive voice for the same reason English does: sometimes the action matters more than the doer. The structure is ser plus the participle, and it needs a por to say who did it.",
+    "sections": [
+      {
+        "heading": "Ser and the participle",
+        "body": "The participle is the -ado or -ido form: pintado, escrito, hecho. The tense goes on ser, not on the participle: el cuadro fue pintado, the painting was made. If you do not say who did it, you do not need por at all: el cuadro fue pintado, and that is a complete sentence.",
+        "examples": [
+          { "es": "El cuadro fue pintado por Ana.", "en": "The painting was done by Ana." },
+          { "es": "La carta fue enviada ayer.", "en": "The letter was sent yesterday." },
+          { "es": "El problema fue resuelto.", "en": "The problem was solved." }
+        ]
+      },
+      {
+        "heading": "When to use it",
+        "body": "The passive is for when the doer is unknown, obvious or unimportant, and for a polite way of saying who did something: ha sido recompensado por el comité. It is much more common in writing than in speech.",
+        "examples": [
+          { "es": "Se ha publicado un nuevo libro.", "en": "A new book has been published." },
+          { "es": "Han arrestado a dos hombres.", "en": "Two men have been arrested." },
+          { "es": "Fue honrado por el comité.", "en": "He was honoured by the committee." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "fue pintado", "en": "it was painted", "article": null, "note": "The passive of pintar, in the preterite.", "tags": ["passive"] },
+    { "es": "fue enviado", "en": "it was sent", "article": null, "note": "The passive of enviar, in the preterite.", "tags": ["passive"] },
+    { "es": "fue construido", "en": "it was built", "article": null, "note": "The passive of construir, in the preterite.", "tags": ["passive"] },
+    { "es": "fue decidido", "en": "it was decided", "article": null, "note": "The passive of decidir, in the preterite.", "tags": ["passive"] },
+    { "es": "ha sido firmado", "en": "it has been signed", "article": null, "note": "The passive in the present perfect.", "tags": ["passive"] },
+    { "es": "han sido encontrados", "en": "they have been found", "article": null, "note": "The passive in the present perfect, plural.", "tags": ["passive"] },
+    { "es": "cuadro", "en": "painting", "article": "el", "note": "Masculine: el cuadro. It also means a square.", "tags": ["object"] },
+    { "es": "informe", "en": "report", "article": "el", "note": "Masculine: el informe.", "tags": ["object"] },
+    { "es": "construcción", "en": "construction", "article": "la", "note": "Feminine: la construcción.", "tags": ["object"] },
+    { "es": "decisión", "en": "decision", "article": "la", "note": "Feminine: la decisión. The accent marks the stress.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "El cuadro ___ pintado por Ana.", "answer": "fue", "meaning": "the painting was done by Ana", "note": "The tense goes on ser, not on the participle." },
+    { "prompt": "La carta ___ enviada ayer.", "answer": "fue", "meaning": "the letter was sent yesterday", "note": "Fue plus the participle." },
+    { "prompt": "El problema ___ resuelto.", "answer": "fue", "meaning": "the problem was solved", "note": "Without a doer you do not need por." },
+    { "prompt": "Se ___ publicado un nuevo libro.", "answer": "ha", "meaning": "a new book has been published", "note": "Se ha plus the participle." },
+    { "prompt": "Dos hombres ___ arrestados.", "answer": "han", "meaning": "two men have been arrested", "note": "Han sido plus the participle." }
+  ]
+}

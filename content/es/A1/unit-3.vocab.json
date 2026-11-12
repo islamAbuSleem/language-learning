@@ -3,17 +3,56 @@
   "title": "Who are you",
   "description": "Introduce yourself, and say who other people are.",
   "grammar": "subject pronouns and the verb ser",
-  "grammarNote": "The pronoun comes before the verb: yo soy, tú eres.",
+  "grammarNote": "The pronoun comes before the verb: yo soy, tú eres, él es.",
+  "explanation": {
+    "summary": "Spanish has five subject pronouns where English has three, and the verb ser is irregular in every form that matters. The two things a learner gets wrong first are dropping the pronoun and using the wrong one for usted.",
+    "sections": [
+      {
+        "heading": "Five pronouns",
+        "body": "Yo, tú, él, ella, usted. He and she are two different words in Spanish, and usted is a polite form that is also the third person singular. A beginner can drop the pronoun when the verb makes it obvious, but in the present tense it is safer to use it: yo soy estudiante is much clearer than soy estudiante.",
+        "examples": [
+          { "es": "Yo soy Ana.", "en": "I am Ana." },
+          { "es": "Tú eres estudiante.", "en": "You are a student." },
+          { "es": "Él es médico.", "en": "He is a doctor." }
+        ]
+      },
+      {
+        "heading": "Ser is irregular",
+        "body": "Only the yo form is regular: soy. The rest change: eres, es, somos, sois, son. This is the pattern you should expect, because it happens in the present, the preterite and the imperfect of ser. There is also another form, eres for tú and usted is the polite third person with es.",
+        "examples": [
+          { "es": "Somos estudiantes.", "en": "We are students." },
+          { "es": "Ellos son amigos.", "en": "They are friends." },
+          { "es": "¿Es usted el profesor?", "en": "Are you the teacher?" }
+        ]
+      },
+      {
+        "heading": "Saying what someone does",
+        "body": "There is a third verb for what you are doing, and it is not ser. Working and studying are what you do, and they use estar: estoy trabajando, estoy estudiando. But a profession uses ser: soy profesor. The difference is that a profession is what you are, and a place is where you are: soy de Madrid, estoy en Madrid.",
+        "examples": [
+          { "es": "Soy profesor.", "en": "I am a teacher." },
+          { "es": "Estoy en la cocina.", "en": "I am in the kitchen." },
+          { "es": "Soy de Arabia.", "en": "I am from Saudi Arabia." }
+        ]
+      }
+    ]
+  },
   "items": [
     { "es": "yo", "en": "I", "article": null, "note": "The first person: yo soy.", "tags": ["pronoun"] },
     { "es": "tú", "en": "you", "article": null, "note": "The second person: tú eres.", "tags": ["pronoun"] },
     { "es": "él", "en": "he", "article": null, "note": "Third person masculine: él es.", "tags": ["pronoun"] },
     { "es": "ella", "en": "she", "article": null, "note": "Third person feminine: ella es.", "tags": ["pronoun"] },
-    { "es": "ser", "en": "to be", "article": null, "note": "An infinitive. Its forms are irregular: soy, eres, es, somos, sois, son.", "tags": ["verb"] },
+    { "es": "ser", "en": "to be", "article": null, "note": "Its forms are irregular: soy, eres, es, somos, sois, son.", "tags": ["verb"] },
     { "es": "nombre", "en": "name", "article": "el", "note": "Masculine: el nombre.", "tags": ["person"] },
     { "es": "estudiante", "en": "student", "article": "el", "note": "Masculine: el estudiante. The feminine is la estudiante.", "tags": ["person"] },
     { "es": "profesor", "en": "teacher", "article": "el", "note": "Masculine: el profesor. The feminine is la profesora.", "tags": ["person"] },
     { "es": "amigo", "en": "friend", "article": "el", "note": "Masculine: el amigo. The feminine is la amiga.", "tags": ["person"] },
     { "es": "madre", "en": "mother", "article": "la", "note": "Feminine: la madre.", "tags": ["family"] }
+  ],
+  "drills": [
+    { "prompt": "___ soy Ana.", "answer": "Yo", "meaning": "I am Ana", "note": "The pronoun comes before the verb." },
+    { "prompt": "___ es médico.", "answer": "Él", "meaning": "he is a doctor", "note": "Él is masculine, ella is feminine." },
+    { "prompt": "___ estudiantes.", "answer": "Somos", "meaning": "we are students", "note": "Somos is irregular." },
+    { "prompt": "___ profesor.", "answer": "Soy", "meaning": "I am a teacher", "note": "A profession uses ser." },
+    { "prompt": "___ en la cocina.", "answer": "Estoy", "meaning": "I am in the kitchen", "note": "A place uses estar." }
   ]
 }

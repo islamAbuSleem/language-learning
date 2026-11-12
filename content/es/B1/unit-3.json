@@ -4,6 +4,65 @@
   "unit": 3,
   "title": "Right now",
   "description": "Say what is happening at this moment.",
+  "explanation": {
+    "summary": "The present progressive is for something that is happening now, or that is going on around you. It is estar plus a gerund, and the gerund is made by changing the ending of the infinitive.",
+    "sections": [
+      {
+        "heading": "Making the gerund",
+        "body": "An -ar verb drops the ar and adds ando: hablar becomes hablando. An -er or -ir verb drops the er or ir and adds iendo: comer becomes comiendo, vivir becomes viviendo. Ver becomes viendo, and the stem-changing verbs lose their change: dormir becomes durmiendo.",
+        "examples": [
+          {
+            "es": "Estoy leyendo un libro.",
+            "en": "I am reading a book."
+          },
+          {
+            "es": "Estamos comiendo.",
+            "en": "We are eating."
+          },
+          {
+            "es": "El niño está durmiendo.",
+            "en": "The child is sleeping."
+          }
+        ]
+      },
+      {
+        "heading": "When to use it",
+        "body": "The progressive says what is in progress: ahora estoy trabajando. It also covers the near future, because Spanish has no other way to say what you are about to do: estoy yendo, I am going. And it can be used for a routine that is happening now, like esta semana estoy viajando.",
+        "examples": [
+          {
+            "es": "Ahora estoy trabajando.",
+            "en": "Right now I am working."
+          },
+          {
+            "es": "Estoy yendo al mercado.",
+            "en": "I am going to the market."
+          },
+          {
+            "es": "Esta semana estoy de vacaciones.",
+            "en": "This week I am on holiday."
+          }
+        ]
+      },
+      {
+        "heading": "With the word for right now",
+        "body": "The word ahora goes at the start or the end, and either is fine. But the verb comes before it when it is at the end: estoy trabajando ahora. And Spanish often adds the gerund with estar for something that is going on around you: está lloviendo, it is raining.",
+        "examples": [
+          {
+            "es": "Ahora está lloviendo.",
+            "en": "Now it is raining."
+          },
+          {
+            "es": "Está nevando.",
+            "en": "It is snowing."
+          },
+          {
+            "es": "Estoy trabajando ahora.",
+            "en": "I am working now."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u3/match/conversacion",
@@ -48,33 +107,15 @@
       "note": "Feminine: la conversación."
     },
     {
-      "id": "es/b1/u3/type_in/television",
+      "id": "es/b1/u3/drill/1",
       "type": "type_in",
-      "prompt": "Write “television” in Spanish.",
-      "answer": "televisión",
+      "prompt": "Estoy ___ un libro.",
+      "answer": "leyendo",
       "acceptedAnswers": [
-        "television"
+        "leyendo"
       ],
-      "translation": "television",
-      "note": "Feminine: la televisión. You watch it: ver la televisión."
-    },
-    {
-      "id": "es/b1/u3/listen/musica",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la música",
-      "options": [
-        "la música",
-        "la canción",
-        "el deporte",
-        "la película"
-      ],
-      "audio": {
-        "text": "música",
-        "lang": "es"
-      },
-      "translation": "music",
-      "note": "Feminine: la música. It has no plural in everyday use."
+      "translation": "I am reading a book",
+      "note": "Leer makes leyendo."
     },
     {
       "id": "es/b1/u3/match/deporte",
@@ -105,75 +146,76 @@
       "note": "The progressive is estar plus a gerund: estoy leyendo. An -ar verb makes -ando, an -er or -ir verb makes -iendo."
     },
     {
-      "id": "es/b1/u3/select/pelicula",
+      "id": "es/b1/u3/select/television",
       "type": "select",
-      "prompt": "Pick the Spanish word for “film”.",
+      "prompt": "Pick the Spanish word for “television”.",
       "options": [
+        "la conversación",
+        "la película",
         "la música",
-        "el deporte",
-        "la canción",
-        "la película"
+        "la televisión"
       ],
-      "answer": "la película",
-      "translation": "film",
-      "note": "Feminine: la película."
+      "answer": "la televisión",
+      "translation": "television",
+      "note": "Feminine: la televisión. You watch it: ver la televisión."
     },
     {
-      "id": "es/b1/u3/type_in/cancion",
+      "id": "es/b1/u3/drill/2",
       "type": "type_in",
-      "prompt": "Write “song” in Spanish.",
-      "answer": "canción",
+      "prompt": "El niño está ___.",
+      "answer": "durmiendo",
       "acceptedAnswers": [
-        "cancion"
+        "durmiendo"
       ],
-      "translation": "song",
-      "note": "Feminine: la canción."
+      "translation": "the child is sleeping",
+      "note": "Dormir makes durmiendo and loses the stem change."
     },
     {
-      "id": "es/b1/u3/listen/deporte",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el deporte",
+      "id": "es/b1/u3/select/musica",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “music”.",
       "options": [
         "la conversación",
-        "la música",
         "la televisión",
-        "el deporte"
+        "la película",
+        "la música"
       ],
-      "audio": {
-        "text": "deporte",
-        "lang": "es"
-      },
-      "translation": "sport",
-      "note": "Masculine: el deporte."
+      "answer": "la música",
+      "translation": "music",
+      "note": "Feminine: la música. It has no plural in everyday use."
     },
     {
-      "id": "es/b1/u3/select/partido",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “match”.",
-      "options": [
-        "la televisión",
-        "la música",
-        "la conversación",
-        "el partido"
+      "id": "es/b1/u3/drill/3",
+      "type": "type_in",
+      "prompt": "Ahora está ___.",
+      "answer": "lloviendo",
+      "acceptedAnswers": [
+        "lloviendo"
       ],
-      "answer": "el partido",
-      "translation": "match",
-      "note": "Masculine: el partido. It also means a party."
+      "translation": "now it is raining",
+      "note": "Llover makes lloviendo."
     },
     {
-      "id": "es/b1/u3/select/parque",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “park”.",
-      "options": [
-        "el parque",
-        "allí",
-        "encima",
-        "debajo"
+      "id": "es/b1/u3/drill/4",
+      "type": "type_in",
+      "prompt": "Estamos ___ en casa.",
+      "answer": "comiendo",
+      "acceptedAnswers": [
+        "comiendo"
       ],
-      "answer": "el parque",
-      "translation": "park",
-      "note": "Masculine: el parque."
+      "translation": "we are eating at home",
+      "note": "Comer makes comiendo."
+    },
+    {
+      "id": "es/b1/u3/drill/5",
+      "type": "type_in",
+      "prompt": "Está ___ un café.",
+      "answer": "bebiendo",
+      "acceptedAnswers": [
+        "bebiendo"
+      ],
+      "translation": "he is having a coffee",
+      "note": "Beber makes bebiendo."
     }
   ]
 }

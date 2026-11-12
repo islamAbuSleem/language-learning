@@ -4,6 +4,65 @@
   "unit": 10,
   "title": "Bigger, better, different",
   "description": "Compare things, and say what should happen.",
+  "explanation": {
+    "summary": "Comparing two things uses más, menos, mejor and peor. Saying which one is the biggest of a set uses the superlative, and the most useful form is the short one: más grande, not el más grande.",
+    "sections": [
+      {
+        "heading": "Two things",
+        "body": "For the adjectives that can take it, the comparison is más or menos plus the adjective: más grande, menos caro. For a small set of adjectives the comparative has its own word: mejor, peor, más, menos. And the comparison uses than, which is que: es más grande que el mío.",
+        "examples": [
+          {
+            "es": "Esta casa es más grande que la otra.",
+            "en": "This house is bigger than the other one."
+          },
+          {
+            "es": "Este café es mejor que aquel.",
+            "en": "This coffee is better than that one."
+          },
+          {
+            "es": "Es más barato de lo que parece.",
+            "en": "It is cheaper than it looks."
+          }
+        ]
+      },
+      {
+        "heading": "The most of a set",
+        "body": "To say which one is the biggest of a group, you do not need an article: el más grande becomes simply más grande. The word for the group goes after: el más grande de los libros. The intensifier -ísimo is another way to say it, and it is stronger: grandísimo, the very biggest.",
+        "examples": [
+          {
+            "es": "Es el más grande de los almacenes.",
+            "en": "It is the biggest of the storerooms."
+          },
+          {
+            "es": "Es el más grande de la clase.",
+            "en": "It is the biggest in the class."
+          },
+          {
+            "es": "Es grandísimo.",
+            "en": "It is enormous."
+          }
+        ]
+      },
+      {
+        "heading": "Equal, and not equal",
+        "body": "Equality uses tan plus an adjective plus como: es tan alto como tú. Inequality can also be expressed with como with tan: no es tan alto como tú. And an equal comparison of two nouns uses igual de: es igual de grande.",
+        "examples": [
+          {
+            "es": "Es tan alto como tú.",
+            "en": "He is as tall as you."
+          },
+          {
+            "es": "No es tan caro como el otro.",
+            "en": "It is not as expensive as the other one."
+          },
+          {
+            "es": "Es igual de grande.",
+            "en": "It is equally big."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u10/match/mas",
@@ -48,33 +107,15 @@
       "note": "More. It also means most. It takes an accent in a question."
     },
     {
-      "id": "es/b1/u10/type_in/menos",
+      "id": "es/b1/u10/drill/1",
       "type": "type_in",
-      "prompt": "Write “less” in Spanish.",
-      "answer": "menos",
+      "prompt": "Esta casa es ___ grande que la otra.",
+      "answer": "más",
       "acceptedAnswers": [
-        "menos"
+        "mas"
       ],
-      "translation": "less",
-      "note": "Less. It also means fewest."
-    },
-    {
-      "id": "es/b1/u10/listen/mejor",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "mejor",
-      "options": [
-        "más",
-        "menos",
-        "inferior",
-        "mejor"
-      ],
-      "audio": {
-        "text": "mejor",
-        "lang": "es"
-      },
-      "translation": "better",
-      "note": "Better. It has no comparative form: es mejor, es el mejor."
+      "translation": "this house is bigger than the other one",
+      "note": "Más plus the adjective, then que."
     },
     {
       "id": "es/b1/u10/match/inferior",
@@ -105,75 +146,76 @@
       "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
     },
     {
-      "id": "es/b1/u10/select/peor",
+      "id": "es/b1/u10/select/menos",
       "type": "select",
-      "prompt": "Pick the Spanish word for “worse”.",
+      "prompt": "Pick the Spanish word for “less”.",
       "options": [
-        "mejor",
+        "peor",
         "superior",
-        "menos",
-        "peor"
+        "mejor",
+        "menos"
       ],
-      "answer": "peor",
-      "translation": "worse",
-      "note": "Worse. Like mejor, it never changes."
+      "answer": "menos",
+      "translation": "less",
+      "note": "Less. It also means fewest."
     },
     {
-      "id": "es/b1/u10/type_in/superior",
+      "id": "es/b1/u10/drill/2",
       "type": "type_in",
-      "prompt": "Write “higher” in Spanish.",
-      "answer": "superior",
+      "prompt": "Es ___ grande de la clase.",
+      "answer": "el más",
       "acceptedAnswers": [
-        "superior"
+        "el mas"
       ],
-      "translation": "higher",
-      "note": "Higher, superior. It also means better."
+      "translation": "it is the biggest in the class",
+      "note": "The superlative of the group."
     },
     {
-      "id": "es/b1/u10/listen/inferior",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "inferior",
+      "id": "es/b1/u10/select/mejor",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “better”.",
       "options": [
         "más",
-        "mejor",
         "menos",
-        "inferior"
+        "peor",
+        "mejor"
       ],
-      "audio": {
-        "text": "inferior",
-        "lang": "es"
-      },
-      "translation": "lower",
-      "note": "Lower, inferior. It also means worse."
+      "answer": "mejor",
+      "translation": "better",
+      "note": "Better. It has no comparative form: es mejor, es el mejor."
     },
     {
-      "id": "es/b1/u10/select/principal",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “main”.",
-      "options": [
-        "cada",
-        "todo",
-        "principal",
-        "viejo"
+      "id": "es/b1/u10/drill/3",
+      "type": "type_in",
+      "prompt": "Este café es ___ que aquel.",
+      "answer": "mejor",
+      "acceptedAnswers": [
+        "mejor"
       ],
-      "answer": "principal",
-      "translation": "main",
-      "note": "Main, most important. It does not change for a feminine noun."
+      "translation": "this coffee is better than that one",
+      "note": "Mejor has no comparative form."
     },
     {
-      "id": "es/b1/u10/select/especial",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “special”.",
-      "options": [
-        "nuevo",
-        "viejo",
-        "joven",
-        "especial"
+      "id": "es/b1/u10/drill/4",
+      "type": "type_in",
+      "prompt": "Es ___ alto como tú.",
+      "answer": "tan",
+      "acceptedAnswers": [
+        "tan"
       ],
-      "answer": "especial",
-      "translation": "special",
-      "note": "Special. It does not change for a feminine noun."
+      "translation": "he is as tall as you",
+      "note": "Equality uses tan and como."
+    },
+    {
+      "id": "es/b1/u10/drill/5",
+      "type": "type_in",
+      "prompt": "No es ___ caro como el otro.",
+      "answer": "tan",
+      "acceptedAnswers": [
+        "tan"
+      ],
+      "translation": "it is not as expensive as the other one",
+      "note": "Inequality also uses tan plus como."
     }
   ]
 }

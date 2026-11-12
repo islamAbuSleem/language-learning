@@ -89,9 +89,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I had spoken”.",
       "options": [
-        "llegar",
-        "ser",
-        "hablar",
+        "viva",
+        "trabaje",
+        "estudie",
         "había hablado"
       ],
       "answer": "había hablado",
@@ -142,9 +142,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I had eaten”.",
       "options": [
-        "vivía",
-        "trabajaba",
-        "estudiaba",
+        "he hecho",
+        "he dicho",
+        "he escrito",
         "había comido"
       ],
       "answer": "había comido",
@@ -167,9 +167,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I had lived”.",
       "options": [
-        "haga",
-        "sea",
-        "diga",
+        "miraba",
+        "buscaba",
+        "caminaba",
         "había vivido"
       ],
       "answer": "había vivido",

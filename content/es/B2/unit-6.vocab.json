@@ -1,0 +1,49 @@
+{
+  "unit": 6,
+  "title": "Turning verbs into nouns",
+  "description": "Say what a thing is, and what it is for.",
+  "grammar": "la nominalización",
+  "grammarNote": "A verb can become a noun: hablar becomes la hablar, el hablar; llegar becomes la llegada.",
+  "explanation": {
+    "summary": "Spanish turns verbs into nouns with endings, and the endings follow a pattern. It is a very productive way to write, and it is everywhere in formal Spanish.",
+    "sections": [
+      {
+        "heading": "The four endings",
+        "body": "An -ar verb makes a noun ending in -ción: hablar becomes la comunicación, or a noun ending in -amiento: emplear becomes el empleo. An -er or -ir verb makes -ción: comer becomes la reunión, or -imiento: vivir becomes el movimiento. The -ción nouns are always feminine, and the -amiento and -imiento nouns are usually masculine.",
+        "examples": [
+          { "es": "La comunicación es importante.", "en": "Communication is important." },
+          { "es": "El alojamiento era caro.", "en": "The accommodation was expensive." },
+          { "es": "La reunión empieza a las nueve.", "en": "The meeting starts at nine." }
+        ]
+      },
+      {
+        "heading": "Why it matters",
+        "body": "The noun often takes a preposition that the verb did not: decidir takes en, and la decisión takes sobre or de. Cambiar takes por and el cambio takes de. So the noun is not only a new word, it comes with its own grammar.",
+        "examples": [
+          { "es": "La decisión sobre el presupuesto fue difícil.", "en": "The decision about the budget was difficult." },
+          { "es": "El cambio de idioma no fue fácil.", "en": "The change of language was not easy." },
+          { "es": "La satisfacción del cliente es lo primero.", "en": "Customer satisfaction comes first." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "comunicación", "en": "communication", "article": "la", "note": "Feminine: la comunicación. From comunicar.", "tags": ["noun"] },
+    { "es": "reunión", "en": "meeting", "article": "la", "note": "Feminine: la reunión. From reunir.", "tags": ["noun"] },
+    { "es": "decisión", "en": "decision", "article": "la", "note": "Feminine: la decisión. From decidir.", "tags": ["noun"] },
+    { "es": "movimiento", "en": "movement", "article": "el", "note": "Masculine: el movimiento. From mover.", "tags": ["noun"] },
+    { "es": "empleo", "en": "employment", "article": "el", "note": "Masculine: el empleo. From emplear.", "tags": ["noun"] },
+    { "es": "cambio", "en": "change", "article": "el", "note": "Masculine: el cambio. From cambiar.", "tags": ["noun"] },
+    { "es": "acuerdo", "en": "agreement", "article": "el", "note": "Masculine: el acuerdo. From acordar.", "tags": ["noun"] },
+    { "es": "resultado", "en": "result", "article": "el", "note": "Masculine: el resultado. From resultar.", "tags": ["noun"] },
+    { "es": "satisfacción", "en": "satisfaction", "article": "la", "note": "Feminine: la satisfacción. From satisfacer.", "tags": ["noun"] },
+    { "es": "logro", "en": "achievement", "article": "el", "note": "Masculine: el logro. From lograr.", "tags": ["noun"] }
+  ],
+  "drills": [
+    { "prompt": "La ___ es importante.", "answer": "comunicación", "meaning": "communication is important", "note": "Comunicar makes la comunicación." },
+    { "prompt": "La ___ empieza a las nueve.", "answer": "reunión", "meaning": "the meeting starts at nine", "note": "Reunir makes la reunión." },
+    { "prompt": "El ___ de idioma no fue fácil.", "answer": "cambio", "meaning": "the change of language was not easy", "note": "Cambiar makes el cambio, and it takes de." },
+    { "prompt": "El ___ fue una buena idea.", "answer": "acuerdo", "meaning": "the agreement was a good idea", "note": "Acordar makes el acuerdo." },
+    { "prompt": "La ___ del cliente es lo primero.", "answer": "satisfacción", "meaning": "customer satisfaction comes first", "note": "Satisfacer makes la satisfacción." }
+  ]
+}

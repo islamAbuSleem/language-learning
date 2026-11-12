@@ -3,97 +3,56 @@
   "title": "Knowing",
   "description": "Say what you know, and what you remember.",
   "grammar": "the verbs saber and conocer",
-  "grammarNote": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid.",
+  "grammarNote": "Saber is for facts, conocer is for people and places: sé la respuesta, conozco Madrid.",
+  "explanation": {
+    "summary": "Spanish splits to know into two verbs. Saber is for facts and for how well you know something. Conocer is for people, places and things you get to know.",
+    "sections": [
+      {
+        "heading": "Saber and conocer",
+        "body": "Saber is for a fact: sé la respuesta, no sé su nombre, sabes español. Conocer is for a person or a place: conozco a Ana, conozco Madrid, no conozco esta canción. When you meet someone, you use conocer. When you learn a fact, you use saber.",
+        "examples": [
+          { "es": "¿Sabes dónde está el hotel?", "en": "Do you know where the hotel is?" },
+          { "es": "¿Conoces a mi hermana?", "en": "Do you know my sister?" },
+          { "es": "No sé su teléfono.", "en": "I do not know his phone number." }
+        ]
+      },
+      {
+        "heading": "The forms",
+        "body": "Saber is irregular in the yo form: sé, sé, sabe, sabemos, sabéis, saben. Conocer is regular except for the yo form: conozco, conoces, conoce. Both verbs take a direct object: sé la respuesta, no conozco el restaurante.",
+        "examples": [
+          { "es": "Sé la respuesta.", "en": "I know the answer." },
+          { "es": "Conozco bien la ciudad.", "en": "I know the city well." },
+          { "es": "¿Sabes la hora?", "en": "Do you know the time?" }
+        ]
+      },
+      {
+        "heading": "When they come together",
+        "body": "You can use either, and the meaning changes. Conocer means to be acquainted with: conozco a Pedro. Saber means to know about, which is deeper: sé todo sobre Pedro. And after saber, a following word goes in the sentence with an article: sé la contraseña, but sé español without one.",
+        "examples": [
+          { "es": "Conozco a Pedro.", "en": "I know Pedro." },
+          { "es": "Sé todo sobre Pedro.", "en": "I know everything about Pedro." },
+          { "es": "Hablamos español.", "en": "We speak Spanish." }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "saber",
-      "en": "to know",
-      "article": null,
-      "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "conocer",
-      "en": "to know",
-      "article": null,
-      "note": "For people and places. Its forms are irregular: conozco, conoces, conoce.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "recordar",
-      "en": "to remember",
-      "article": null,
-      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "olvidar",
-      "en": "to forget",
-      "article": null,
-      "note": "An infinitive ending in -ar: olvido, olvidas, olvida.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "entender",
-      "en": "to understand",
-      "article": null,
-      "note": "An infinitive ending in -er: entiendo, entiendes, entiende.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "idioma",
-      "en": "language",
-      "article": "el",
-      "note": "Masculine: el idioma. A particular language takes its own name: el español.",
-      "tags": [
-        "subject"
-      ]
-    },
-    {
-      "es": "español",
-      "en": "Spanish",
-      "article": "el",
-      "note": "Masculine: el español.",
-      "tags": [
-        "subject"
-      ]
-    },
-    {
-      "es": "inglés",
-      "en": "English",
-      "article": "el",
-      "note": "Masculine: el inglés.",
-      "tags": [
-        "subject"
-      ]
-    },
-    {
-      "es": "francés",
-      "en": "French",
-      "article": "el",
-      "note": "Masculine: el francés.",
-      "tags": [
-        "subject"
-      ]
-    },
-    {
-      "es": "palabra",
-      "en": "word",
-      "article": "la",
-      "note": "Feminine: la palabra.",
-      "tags": [
-        "object"
-      ]
-    }
+    { "es": "saber", "en": "to know", "article": null, "note": "For facts. Its forms are irregular: sé, sabes, sabe.", "tags": ["verb"] },
+    { "es": "conocer", "en": "to know", "article": null, "note": "For people and places. Its yo form is conozco.", "tags": ["verb"] },
+    { "es": "recordar", "en": "to remember", "article": null, "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda.", "tags": ["verb"] },
+    { "es": "olvidar", "en": "to forget", "article": null, "note": "An infinitive ending in -ar: olvido, olvidas, olvida.", "tags": ["verb"] },
+    { "es": "entender", "en": "to understand", "article": null, "note": "An infinitive ending in -er: entiendo, entiendes, entiende.", "tags": ["verb"] },
+    { "es": "idioma", "en": "language", "article": "el", "note": "Masculine: el idioma. A particular language takes its own name: el español.", "tags": ["subject"] },
+    { "es": "español", "en": "Spanish", "article": "el", "note": "Masculine: el español.", "tags": ["subject"] },
+    { "es": "inglés", "en": "English", "article": "el", "note": "Masculine: el inglés.", "tags": ["subject"] },
+    { "es": "francés", "en": "French", "article": "el", "note": "Masculine: el francés.", "tags": ["subject"] },
+    { "es": "palabra", "en": "word", "article": "la", "note": "Feminine: la palabra.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "¿___ a mi hermana?", "answer": "Conoces", "meaning": "do you know my sister?", "note": "Conocer is for people." },
+    { "prompt": "No ___ su teléfono.", "answer": "sé", "meaning": "I do not know his phone number", "note": "Saber is for facts, and the yo form is sé." },
+    { "prompt": "¿___ español?", "answer": "Sabes", "meaning": "do you know Spanish?", "note": "Saber for a language." },
+    { "prompt": "___ bien la ciudad.", "answer": "Conozco", "meaning": "I know the city well", "note": "Conocer for a place." },
+    { "prompt": "Hay que ___ la contraseña.", "answer": "saber", "meaning": "you have to know the password", "note": "The infinitive of saber is regular: saber." }
   ]
 }

@@ -4,6 +4,65 @@
   "unit": 7,
   "title": "Just now",
   "description": "Say how long ago something happened.",
+  "explanation": {
+    "summary": "Spanish has two ways to talk about the recent past, and one of them is an idiom rather than a verb form. Acabar de plus an infinitive means to have just done something.",
+    "sections": [
+      {
+        "heading": "Acabar de",
+        "body": "The verb acabar means to finish, and the phrase acabar de plus an infinitive means to have just done that thing: acabo de llegar, I have just arrived. It is the everyday way to say something happened a moment ago, and it works with any verb: acabo de comer, I have just eaten.",
+        "examples": [
+          {
+            "es": "Acabo de llegar.",
+            "en": "I have just arrived."
+          },
+          {
+            "es": "¿Acabas de comer?",
+            "en": "Have you just eaten?"
+          },
+          {
+            "es": "Acaba de terminar la película.",
+            "en": "He has just finished the film."
+          }
+        ]
+      },
+      {
+        "heading": "Hace, ago",
+        "body": "Hace plus a time means how long ago: hace dos horas, two hours ago; hace una semana, a week ago. The verb is hacer and the phrase works with a period. Yesterday is ayer, and just now is recién.",
+        "examples": [
+          {
+            "es": "Lo vi hace dos horas.",
+            "en": "I saw it two hours ago."
+          },
+          {
+            "es": "Llegamos hace una semana.",
+            "en": "We arrived a week ago."
+          },
+          {
+            "es": "Lo terminé recién.",
+            "en": "I have just finished it."
+          }
+        ]
+      },
+      {
+        "heading": "Since, for",
+        "body": "Desde says since, and for how long something has lasted: desde enero, since January; desde hace dos años, for two years. The phrase desde hace is fixed, and it is the way to say for in this sense.",
+        "examples": [
+          {
+            "es": "Vivo en Madrid desde enero.",
+            "en": "I have lived in Madrid since January."
+          },
+          {
+            "es": "Estudio español desde hace dos años.",
+            "en": "I have studied Spanish for two years."
+          },
+          {
+            "es": "Desde que llegué, no he salido.",
+            "en": "Since I arrived, I have not gone out."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u7/match/acabar",
@@ -38,43 +97,25 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to finish”.",
       "options": [
-        "he escrito",
-        "querer",
-        "hemos abierto",
+        "estudiaré",
+        "haré",
+        "veré",
         "acabar"
       ],
       "answer": "acabar",
       "translation": "to finish",
-      "note": "Acabar de plus an infinitive means to have just: acabo de llegar."
+      "note": "Acabar de plus an infinitive means to have just done it."
     },
     {
-      "id": "es/b1/u7/type_in/hace",
+      "id": "es/b1/u7/drill/1",
       "type": "type_in",
-      "prompt": "Write “ago” in Spanish.",
-      "answer": "hace",
+      "prompt": "___ de llegar.",
+      "answer": "Acabo",
       "acceptedAnswers": [
-        "hace"
+        "Acabo"
       ],
-      "translation": "ago",
-      "note": "Ago. Make hace dos horas, hace un año."
-    },
-    {
-      "id": "es/b1/u7/listen/ayer",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "ayer",
-      "options": [
-        "hace",
-        "hace poco",
-        "recién",
-        "ayer"
-      ],
-      "audio": {
-        "text": "ayer",
-        "lang": "es"
-      },
-      "translation": "yesterday",
-      "note": "Yesterday."
+      "translation": "I have just arrived",
+      "note": "Acabar de plus an infinitive."
     },
     {
       "id": "es/b1/u7/match/pasado",
@@ -105,75 +146,76 @@
       "note": "Acabar de plus an infinitive means to have just done something: acabar de comer."
     },
     {
-      "id": "es/b1/u7/select/recien",
+      "id": "es/b1/u7/select/hace",
       "type": "select",
-      "prompt": "Pick the Spanish word for “just”.",
+      "prompt": "Pick the Spanish word for “ago”.",
       "options": [
-        "recién",
-        "la semana",
-        "la noche",
+        "ahora",
+        "ayer",
+        "hace",
         "el mes"
       ],
-      "answer": "recién",
-      "translation": "just",
-      "note": "Just now. Acabo de llegar, recién llegué."
+      "answer": "hace",
+      "translation": "ago",
+      "note": "Ago. Make hace dos horas, hace un año."
     },
     {
-      "id": "es/b1/u7/type_in/hace-poco",
+      "id": "es/b1/u7/drill/2",
       "type": "type_in",
-      "prompt": "Write “a little while ago” in Spanish.",
-      "answer": "hace poco",
+      "prompt": "Lo vi ___ dos horas.",
+      "answer": "hace",
       "acceptedAnswers": [
-        "hace poco"
+        "hace"
       ],
-      "translation": "a little while ago",
-      "note": "A little while ago. It is often used with acabar de."
+      "translation": "I saw it two hours ago",
+      "note": "Hace plus a time."
     },
     {
-      "id": "es/b1/u7/listen/pasado",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "pasado",
-      "options": [
-        "la noche",
-        "la semana",
-        "el mes",
-        "pasado"
-      ],
-      "audio": {
-        "text": "pasado",
-        "lang": "es"
-      },
-      "translation": "last",
-      "note": "Last, as in el pasado año, last year. It also means passed."
-    },
-    {
-      "id": "es/b1/u7/select/antes",
+      "id": "es/b1/u7/select/ayer",
       "type": "select",
-      "prompt": "Pick the Spanish word for “before”.",
+      "prompt": "Pick the Spanish word for “yesterday”.",
       "options": [
-        "el año",
-        "el día",
-        "el siglo",
-        "antes"
+        "la medianoche",
+        "noche",
+        "tarde",
+        "ayer"
       ],
-      "answer": "antes",
-      "translation": "before",
-      "note": "Before, earlier. Antes de plus an infinitive."
+      "answer": "ayer",
+      "translation": "yesterday",
+      "note": "Yesterday."
     },
     {
-      "id": "es/b1/u7/select/durante",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “during”.",
-      "options": [
-        "el día",
-        "mañana",
-        "mañana",
-        "durante"
+      "id": "es/b1/u7/drill/3",
+      "type": "type_in",
+      "prompt": "Vivo en Madrid ___ enero.",
+      "answer": "desde",
+      "acceptedAnswers": [
+        "desde"
       ],
-      "answer": "durante",
-      "translation": "during",
-      "note": "During. It goes with a period: durante el viaje."
+      "translation": "I have lived in Madrid since January",
+      "note": "Desde means since."
+    },
+    {
+      "id": "es/b1/u7/drill/4",
+      "type": "type_in",
+      "prompt": "Estudio español ___ hace dos años.",
+      "answer": "desde",
+      "acceptedAnswers": [
+        "desde"
+      ],
+      "translation": "I have studied Spanish for two years",
+      "note": "Desde hace means for."
+    },
+    {
+      "id": "es/b1/u7/drill/5",
+      "type": "type_in",
+      "prompt": "Llegamos ___ una semana.",
+      "answer": "hace",
+      "acceptedAnswers": [
+        "hace"
+      ],
+      "translation": "we arrived a week ago",
+      "note": "Hace una semana."
     }
   ]
 }

@@ -4,6 +4,65 @@
   "unit": 2,
   "title": "Writing and asking",
   "description": "Say what you write, what you send, and what you ask for.",
+  "explanation": {
+    "summary": "The -ir verbs are the third family, and they are the easiest of the three: the endings are the -er endings with an extra i in the tú and nosotros forms.",
+    "sections": [
+      {
+        "heading": "The six endings",
+        "body": "Drop the -ir and add -o, -es, -e, -imos, -ís, -en. Escribir becomes escribo, escribes, escribe, escribimos, escribís, escriben. Compare with the -er form: comes, comemos, coméis. The -ir form adds an i: escribes, escribimos, escribís.",
+        "examples": [
+          {
+            "es": "Escribo una carta.",
+            "en": "I write a letter."
+          },
+          {
+            "es": "Recibes el paquete mañana.",
+            "en": "You receive the parcel tomorrow."
+          },
+          {
+            "es": "Abrimos la tienda a las diez.",
+            "en": "We open the shop at ten."
+          }
+        ]
+      },
+      {
+        "heading": "The yo form that changes",
+        "body": "A few -ir verbs change in the yo form only. Pedir becomes pido, which is irregular: the e is dropped. Servir becomes sirvo, and the e is dropped too. Most others are regular: comparto, decido, descubro.",
+        "examples": [
+          {
+            "es": "Pido un café.",
+            "en": "I order a coffee."
+          },
+          {
+            "es": "Sirvo la cena.",
+            "en": "I serve dinner."
+          },
+          {
+            "es": "Decido seguir adelante.",
+            "en": "I decide to carry on."
+          }
+        ]
+      },
+      {
+        "heading": "Which one to use",
+        "body": "The three families are close enough that you can often guess the wrong one, so learn the ending of the infinitive with the verb: hablar, comer, vivir. The -ir verbs are the ones used for writing, opening, sharing and repeating, which is why they feel a little more modern than the rest.",
+        "examples": [
+          {
+            "es": "Repito, por favor.",
+            "en": "I repeat, please."
+          },
+          {
+            "es": "Comparto la mesa contigo.",
+            "en": "I share the table with you."
+          },
+          {
+            "es": "Descubre un restaurante nuevo.",
+            "en": "You discover a new restaurant."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u2/match/escribir",
@@ -48,33 +107,15 @@
       "note": "An infinitive ending in -ir: escribo, escribes, escribe."
     },
     {
-      "id": "es/a2/u2/type_in/recibir",
+      "id": "es/a2/u2/drill/1",
       "type": "type_in",
-      "prompt": "Write “to receive” in Spanish.",
-      "answer": "recibir",
+      "prompt": "Yo ___ una carta.",
+      "answer": "escribo",
       "acceptedAnswers": [
-        "recibir"
+        "escribo"
       ],
-      "translation": "to receive",
-      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
-    },
-    {
-      "id": "es/a2/u2/listen/abrir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "abrir",
-      "options": [
-        "vender",
-        "perder",
-        "correr",
-        "abrir"
-      ],
-      "audio": {
-        "text": "abrir",
-        "lang": "es"
-      },
-      "translation": "to open",
-      "note": "An infinitive ending in -ir: abro, abres, abre."
+      "translation": "I write a letter",
+      "note": "The yo form of escribir."
     },
     {
       "id": "es/a2/u2/match/pedir",
@@ -105,75 +146,76 @@
       "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
     },
     {
-      "id": "es/a2/u2/select/compartir",
+      "id": "es/a2/u2/select/recibir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to share”.",
-      "options": [
-        "escribir",
-        "abrir",
-        "recibir",
-        "compartir"
-      ],
-      "answer": "compartir",
-      "translation": "to share",
-      "note": "An infinitive ending in -ir: comparto, compartes, comparte."
-    },
-    {
-      "id": "es/a2/u2/type_in/descubrir",
-      "type": "type_in",
-      "prompt": "Write “to discover” in Spanish.",
-      "answer": "descubrir",
-      "acceptedAnswers": [
-        "descubrir"
-      ],
-      "translation": "to discover",
-      "note": "An infinitive ending in -ir: descubro, descubres, descubre."
-    },
-    {
-      "id": "es/a2/u2/listen/pedir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "pedir",
+      "prompt": "Pick the Spanish word for “to receive”.",
       "options": [
         "recibir",
-        "abrir",
-        "pedir",
+        "responder",
+        "perder",
         "escribir"
       ],
-      "audio": {
-        "text": "pedir",
-        "lang": "es"
-      },
-      "translation": "to ask for",
-      "note": "An infinitive ending in -ir: pido, pides, pide. The yo form drops the e."
+      "answer": "recibir",
+      "translation": "to receive",
+      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
     },
     {
-      "id": "es/a2/u2/select/servir",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to serve”.",
-      "options": [
-        "necesitar",
-        "estar",
-        "comer",
-        "servir"
+      "id": "es/a2/u2/drill/2",
+      "type": "type_in",
+      "prompt": "Nosotros ___ la tienda a las diez.",
+      "answer": "abrimos",
+      "acceptedAnswers": [
+        "abrimos"
       ],
-      "answer": "servir",
-      "translation": "to serve",
-      "note": "An infinitive ending in -ir: sirvo, sirves, sirve."
+      "translation": "we open the shop at ten",
+      "note": "The nosotros form of abrir."
     },
     {
-      "id": "es/a2/u2/select/repetir",
+      "id": "es/a2/u2/select/abrir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to repeat”.",
+      "prompt": "Pick the Spanish word for “to open”.",
       "options": [
-        "mirar",
-        "necesitar",
-        "cocinar",
-        "repetir"
+        "perder",
+        "escribir",
+        "responder",
+        "abrir"
       ],
-      "answer": "repetir",
-      "translation": "to repeat",
-      "note": "An infinitive ending in -ir: repito, repites, repite."
+      "answer": "abrir",
+      "translation": "to open",
+      "note": "An infinitive ending in -ir: abro, abres, abre."
+    },
+    {
+      "id": "es/a2/u2/drill/3",
+      "type": "type_in",
+      "prompt": "___ un café, por favor.",
+      "answer": "Pido",
+      "acceptedAnswers": [
+        "Pido"
+      ],
+      "translation": "I order a coffee, please",
+      "note": "Pedir is irregular in the yo form."
+    },
+    {
+      "id": "es/a2/u2/drill/4",
+      "type": "type_in",
+      "prompt": "Tú ___ el paquete mañana.",
+      "answer": "recibes",
+      "acceptedAnswers": [
+        "recibes"
+      ],
+      "translation": "you receive the parcel tomorrow",
+      "note": "The tú form of recibir."
+    },
+    {
+      "id": "es/a2/u2/drill/5",
+      "type": "type_in",
+      "prompt": "Ellos ___ la mesa conmigo.",
+      "answer": "comparten",
+      "acceptedAnswers": [
+        "comparten"
+      ],
+      "translation": "they share the table with me",
+      "note": "The ellos form of compartir."
     }
   ]
 }

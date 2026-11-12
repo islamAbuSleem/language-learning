@@ -1,0 +1,49 @@
+{
+  "unit": 4,
+  "title": "What you have to do",
+  "description": "Say what is necessary, and what ought to happen.",
+  "grammar": "el infinitivo compuesto, and the verbs of obligation",
+  "grammarNote": "Tener que plus a participle is a compound infinitive: tengo que trabajar, I have to work.",
+  "explanation": {
+    "summary": "Spanish has a compound infinitive: tener que, deber, poder, querer followed by a participle instead of a plain infinitive. It says what is necessary, what you should do, and what you are able to do.",
+    "sections": [
+      {
+        "heading": "The three that take a participle",
+        "body": "Tener que plus a participle is an obligation that comes from outside: tengo que trabajar, I have to work. Poder plus a participle is what you are able to do: no puedo ir, I cannot go, but puedo ir mañana. Querer plus a participle is what you want to do: quiero ir, I want to go.",
+        "examples": [
+          { "es": "Tengo que trabajar hasta las seis.", "en": "I have to work until six." },
+          { "es": "No puedo ir mañana.", "en": "I cannot go tomorrow." },
+          { "es": "Quiero ir, pero no puedo.", "en": "I want to go, but I cannot." }
+        ]
+      },
+      {
+        "heading": "Haber que, and who it is for",
+        "body": "Haber que is like tener que, but it says everybody has to: hay que esperar, we have to wait. And deber plus a plain infinitive says what you ought to do: debo llamar, I should call. The difference between deber and tener que is who says so: deber is your own judgement, tener que is a rule.",
+        "examples": [
+          { "es": "Hay que pagar antes de entrar.", "en": "You have to pay before going in." },
+          { "es": "Debería llamar al médico.", "en": "I should call the doctor." },
+          { "es": "Tengo que irme ya.", "en": "I have to go now." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "tener que", "en": "to have to", "article": null, "note": "Obligation from outside. Tengo que trabajar.", "tags": ["verb"] },
+    { "es": "haber que", "en": "to have to", "article": null, "note": "Obligation for everybody. Hay que esperar.", "tags": ["verb"] },
+    { "es": "deber", "en": "to have to", "article": null, "note": "What you ought to do. Debo llamar.", "tags": ["verb"] },
+    { "es": "poder", "en": "to be able to", "article": null, "note": "Ability. No puedo ir.", "tags": ["verb"] },
+    { "es": "quedar", "en": "to arrange", "article": null, "note": "Quedar con alguien is to arrange to meet someone.", "tags": ["verb"] },
+    { "es": "ayudar", "en": "to help", "article": null, "note": "Ayudar a plus an infinitive: ayuda a cuidar a los niños.", "tags": ["verb"] },
+    { "es": "obligación", "en": "obligation", "article": "la", "note": "Feminine: la obligación. The accent marks the stress.", "tags": ["object"] },
+    { "es": "requisito", "en": "requirement", "article": "el", "note": "Masculine: el requisito.", "tags": ["object"] },
+    { "es": "trámite", "en": "procedure", "article": "el", "note": "Masculine: el trámite. It also means an errand.", "tags": ["object"] },
+    { "es": "plazo", "en": "deadline", "article": "el", "note": "Masculine: el plazo.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "Tengo ___ trabajar hasta las seis.", "answer": "que", "meaning": "I have to work until six", "note": "Tener que plus a participle." },
+    { "prompt": "Hay ___ pagar antes de entrar.", "answer": "que", "meaning": "you have to pay before going in", "note": "Haber que says everybody has to." },
+    { "prompt": "Debería ___ al médico.", "answer": "llamar", "meaning": "I should call the doctor", "note": "Deber takes a plain infinitive." },
+    { "prompt": "No ___ ir mañana.", "answer": "puedo", "meaning": "I cannot go tomorrow", "note": "Poder plus a participle." },
+    { "prompt": "Quiero ___, pero no puedo.", "answer": "ir", "meaning": "I want to go, but I cannot", "note": "Querer plus a participle." }
+  ]
+}

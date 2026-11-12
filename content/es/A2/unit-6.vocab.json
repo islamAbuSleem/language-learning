@@ -3,97 +3,56 @@
   "title": "Asking",
   "description": "Ask the questions you need answered.",
   "grammar": "question words and the verb hacer",
-  "grammarNote": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto.",
+  "grammarNote": "The question words carry accents in a question: qué, quién, dónde, cuándo, cómo, cuánto.",
+  "explanation": {
+    "summary": "There are six question words, and each one asks for a different kind of answer. Spanish marks them with an accent, which is how you can tell a question from a statement.",
+    "sections": [
+      {
+        "heading": "The six",
+        "body": "Qué asks for a thing: ¿Qué es esto? Quién asks for a person: ¿Quién es? Dónde asks for a place: ¿Dónde está? Cuándo asks for a time: ¿Cuándo llegas? Por qué asks for a reason: ¿Por qué no vienes? Cómo asks about a way: ¿Cómo se dice? Cuánto asks for a quantity: ¿Cuánto cuesta?",
+        "examples": [
+          { "es": "¿Dónde está la estación?", "en": "Where is the station?" },
+          { "es": "¿Cuánto cuesta el café?", "en": "How much is the coffee?" },
+          { "es": "¿Por qué no vienes?", "en": "Why are you not coming?" }
+        ]
+      },
+      {
+        "heading": "Making a question out of a statement",
+        "body": "Spanish does not use word order for questions. You take a statement and put the question word in front, and the accent does the rest: Tú eres estudiante becomes ¿Eres estudiante? There is no do, and the subject stays where it is.",
+        "examples": [
+          { "es": "El café está frío. → ¿Está frío el café?", "en": "Is the coffee cold?" },
+          { "es": "Vienes mañana. → ¿Vienes mañana?", "en": "Are you coming tomorrow?" },
+          { "es": "La reunión es a las tres. → ¿Es a las tres la reunión?", "en": "Is the meeting at three?" }
+        ]
+      },
+      {
+        "heading": "Hacer, to make and to do",
+        "body": "Hacer is the verb for making and for doing. In the question how do you say it, you use the word for what you are saying, not hacer: ¿Cómo se dice hello? It also means to make a phone call: llamar, and it appears in the expression qué haces, what are you doing.",
+        "examples": [
+          { "es": "¿Cómo se dice gracias?", "en": "How do you say thank you?" },
+          { "es": "¿Qué haces?", "en": "What are you doing?" },
+          { "es": "¿Cómo lo haces?", "en": "How do you do it?" }
+        ]
+      }
+    ]
+  },
   "items": [
-    {
-      "es": "qué",
-      "en": "what",
-      "article": null,
-      "note": "What. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "quién",
-      "en": "who",
-      "article": null,
-      "note": "Who. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "dónde",
-      "en": "where",
-      "article": null,
-      "note": "Where. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "cuándo",
-      "en": "when",
-      "article": null,
-      "note": "When. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "por qué",
-      "en": "why",
-      "article": null,
-      "note": "Why. Por and qué are written separately.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "cómo",
-      "en": "how",
-      "article": null,
-      "note": "How. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "cuánto",
-      "en": "how much",
-      "article": null,
-      "note": "How much or how many. It carries an accent in a question.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "hacer",
-      "en": "to do",
-      "article": null,
-      "note": "An infinitive. Its forms are irregular: hago, haces, hace.",
-      "tags": [
-        "verb"
-      ]
-    },
-    {
-      "es": "pregunta",
-      "en": "question",
-      "article": "la",
-      "note": "Feminine: la pregunta.",
-      "tags": [
-        "question"
-      ]
-    },
-    {
-      "es": "ayuda",
-      "en": "help",
-      "article": "la",
-      "note": "Feminine: la ayuda. You say pedir ayuda.",
-      "tags": [
-        "object"
-      ]
-    }
+    { "es": "qué", "en": "what", "article": null, "note": "What. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "quién", "en": "who", "article": null, "note": "Who. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "dónde", "en": "where", "article": null, "note": "Where. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "cuándo", "en": "when", "article": null, "note": "When. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "por qué", "en": "why", "article": null, "note": "Why. Por and qué are written separately.", "tags": ["question"] },
+    { "es": "cómo", "en": "how", "article": null, "note": "How. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "cuánto", "en": "how much", "article": null, "note": "How much or how many. It carries an accent in a question.", "tags": ["question"] },
+    { "es": "hacer", "en": "to do", "article": null, "note": "Its forms are irregular: hago, haces, hace.", "tags": ["verb"] },
+    { "es": "pregunta", "en": "question", "article": "la", "note": "Feminine: la pregunta.", "tags": ["question"] },
+    { "es": "ayuda", "en": "help", "article": "la", "note": "Feminine: la ayuda. You ask for it with pedir ayuda.", "tags": ["object"] }
+  ],
+  "drills": [
+    { "prompt": "¿___ está la estación?", "answer": "Dónde", "meaning": "where is the station?", "note": "Dónde asks for a place." },
+    { "prompt": "¿___ cuesta el café?", "answer": "Cuánto", "meaning": "how much is the coffee?", "note": "Cuánto asks for a quantity." },
+    { "prompt": "¿___ se dice gracias?", "answer": "Cómo", "meaning": "how do you say thank you?", "note": "How do you say it uses cómo se dice." },
+    { "prompt": "¿___ no vienes?", "answer": "Por qué", "meaning": "why are you not coming?", "note": "Por qué asks for a reason." },
+    { "prompt": "¿___ es? — Ana.", "answer": "Quién", "meaning": "who is it? — Ana.", "note": "Quién asks for a person." }
   ]
 }

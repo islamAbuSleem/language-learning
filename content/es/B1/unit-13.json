@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “speak”.",
       "options": [
-        "entender",
-        "encantar",
-        "gustar",
+        "ir",
+        "volver",
+        "venir",
         "hable"
       ],
       "answer": "hable",
@@ -146,10 +146,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “eat”.",
       "options": [
-        "servir",
-        "repetir",
+        "querría",
+        "hable",
         "coma",
-        "pedir"
+        "vendría"
       ],
       "answer": "coma",
       "translation": "eat",
@@ -171,9 +171,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “live”.",
       "options": [
-        "hacer",
-        "conocer",
-        "saber",
+        "hablaba",
+        "vivía",
+        "comía",
         "viva"
       ],
       "answer": "viva",

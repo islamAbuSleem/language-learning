@@ -4,6 +4,65 @@
   "unit": 4,
   "title": "The day",
   "description": "Say when it is, and when things happen.",
+  "explanation": {
+    "summary": "Telling the time in Spanish has one irregularity that catches everybody: after la una you do not say las, and after every other hour you do.",
+    "sections": [
+      {
+        "heading": "La una and las demás",
+        "body": "Es la una is one o'clock. Everything else is es las: es las dos, es las cinco, es las once. After la una you say la una y media, but after any other hour you say las tres y media. The same rule applies to the quarter: las cuatro y cuarto, but la una y cuarto.",
+        "examples": [
+          {
+            "es": "Es la una.",
+            "en": "It is one o'clock."
+          },
+          {
+            "es": "Son las tres y media.",
+            "en": "It is half past three."
+          },
+          {
+            "es": "Son las diez menos veinte.",
+            "en": "It is twenty to ten."
+          }
+        ]
+      },
+      {
+        "heading": "A time of day is feminine",
+        "body": "La mañana, la tarde and la noche are all feminine, so you say por la mañana, por la tarde, por la noche. A day of the week is masculine instead, which is the opposite of English: el lunes, el martes. Do not mix them up.",
+        "examples": [
+          {
+            "es": "Trabajo por la mañana.",
+            "en": "I work in the morning."
+          },
+          {
+            "es": "El lunes tengo una reunión.",
+            "en": "On Monday I have a meeting."
+          },
+          {
+            "es": "Estudio por la tarde.",
+            "en": "I study in the afternoon."
+          }
+        ]
+      },
+      {
+        "heading": "Saying when something happens",
+        "body": "A specific time goes with a, not con: a las tres, a las nueve de la noche. To say something happens every day, use todos los días or cada día. And for a time range, de a: de nueve a cinco.",
+        "examples": [
+          {
+            "es": "La reunión es a las tres.",
+            "en": "The meeting is at three."
+          },
+          {
+            "es": "Trabajo de nueve a cinco.",
+            "en": "I work from nine to five."
+          },
+          {
+            "es": "Estudio todos los días.",
+            "en": "I study every day."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/a2/u4/match/hora",
@@ -28,7 +87,7 @@
         },
         {
           "left": "afternoon",
-          "right": "la tarde"
+          "right": "tarde"
         }
       ],
       "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
@@ -48,33 +107,15 @@
       "note": "Feminine: la hora. It also means the time."
     },
     {
-      "id": "es/a2/u4/type_in/minuto",
+      "id": "es/a2/u4/drill/1",
       "type": "type_in",
-      "prompt": "Write “minute” in Spanish.",
-      "answer": "minuto",
+      "prompt": "Es la ___.",
+      "answer": "una",
       "acceptedAnswers": [
-        "minuto"
+        "una"
       ],
-      "translation": "minute",
-      "note": "Masculine: el minuto."
-    },
-    {
-      "id": "es/a2/u4/listen/mediodia",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el mediodía",
-      "options": [
-        "el mediodía",
-        "el mes",
-        "ahora",
-        "el día"
-      ],
-      "audio": {
-        "text": "mediodía",
-        "lang": "es"
-      },
-      "translation": "noon",
-      "note": "Masculine: el mediodía."
+      "translation": "it is one o'clock",
+      "note": "After la una you do not say las."
     },
     {
       "id": "es/a2/u4/match/noche",
@@ -83,7 +124,7 @@
       "pairs": [
         {
           "left": "night",
-          "right": "la noche"
+          "right": "noche"
         },
         {
           "left": "week",
@@ -105,75 +146,76 @@
       "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
     },
     {
-      "id": "es/a2/u4/select/medianoche",
+      "id": "es/a2/u4/select/minuto",
       "type": "select",
-      "prompt": "Pick the Spanish word for “midnight”.",
+      "prompt": "Pick the Spanish word for “minute”.",
       "options": [
-        "tarde",
-        "noche",
         "mañana",
-        "la medianoche"
+        "mañana",
+        "el día",
+        "el minuto"
       ],
-      "answer": "la medianoche",
-      "translation": "midnight",
-      "note": "Feminine: la medianoche."
+      "answer": "el minuto",
+      "translation": "minute",
+      "note": "Masculine: el minuto."
     },
     {
-      "id": "es/a2/u4/type_in/tarde",
+      "id": "es/a2/u4/drill/2",
       "type": "type_in",
-      "prompt": "Write “afternoon” in Spanish.",
-      "answer": "tarde",
+      "prompt": "Son las tres y ___.",
+      "answer": "media",
       "acceptedAnswers": [
-        "tarde"
+        "media"
       ],
-      "translation": "afternoon",
-      "note": "Feminine: la tarde. It also means late."
+      "translation": "it is half past three",
+      "note": "After any other hour it is las and y media."
     },
     {
-      "id": "es/a2/u4/listen/noche",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la noche",
-      "options": [
-        "la semana",
-        "el mes",
-        "la tarde",
-        "la noche"
-      ],
-      "audio": {
-        "text": "noche",
-        "lang": "es"
-      },
-      "translation": "night",
-      "note": "Feminine: la noche."
-    },
-    {
-      "id": "es/a2/u4/select/semana",
+      "id": "es/a2/u4/select/mediodia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “week”.",
+      "prompt": "Pick the Spanish word for “noon”.",
       "options": [
-        "el minuto",
+        "mañana",
+        "mañana",
         "el mediodía",
-        "la hora",
-        "la semana"
+        "el día"
       ],
-      "answer": "la semana",
-      "translation": "week",
-      "note": "Feminine: la semana."
+      "answer": "el mediodía",
+      "translation": "noon",
+      "note": "Masculine: el mediodía."
     },
     {
-      "id": "es/a2/u4/select/mes",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “month”.",
-      "options": [
-        "noche",
-        "la hora",
-        "tarde",
-        "el mes"
+      "id": "es/a2/u4/drill/3",
+      "type": "type_in",
+      "prompt": "Trabajo por la ___.",
+      "answer": "mañana",
+      "acceptedAnswers": [
+        "manana"
       ],
-      "answer": "el mes",
-      "translation": "month",
-      "note": "Masculine: el mes."
+      "translation": "I work in the morning",
+      "note": "A time of day is feminine."
+    },
+    {
+      "id": "es/a2/u4/drill/4",
+      "type": "type_in",
+      "prompt": "La reunión es ___ las tres.",
+      "answer": "a",
+      "acceptedAnswers": [
+        "a"
+      ],
+      "translation": "the meeting is at three",
+      "note": "A specific time takes a."
+    },
+    {
+      "id": "es/a2/u4/drill/5",
+      "type": "type_in",
+      "prompt": "___ lunes tengo una reunión.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "on Monday I have a meeting",
+      "note": "A day of the week is masculine."
     }
   ]
 }

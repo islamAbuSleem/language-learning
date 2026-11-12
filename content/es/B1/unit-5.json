@@ -4,6 +4,65 @@
   "unit": 5,
   "title": "This, that, someone",
   "description": "Point at things, and talk about people without naming them.",
+  "explanation": {
+    "summary": "Spanish has three words for this, depending on where the thing is, and four for that. It also has words that mean someone, nobody, something and nothing, and they behave like pronouns.",
+    "sections": [
+      {
+        "heading": "This and that",
+        "body": "Este means this, close to me. Ese means that, close to you. Aquello means that, far from both. And the neuter forms esto, eso and aquello point at a whole thing rather than a thing you could touch: esto es un restaurante, this is a restaurant.",
+        "examples": [
+          {
+            "es": "Este libro es mío.",
+            "en": "This book is mine."
+          },
+          {
+            "es": "Esa casa es la de Ana.",
+            "en": "That house is Ana's."
+          },
+          {
+            "es": "Aquello es un castillo.",
+            "en": "That over there is a castle."
+          }
+        ]
+      },
+      {
+        "heading": "Someone, nobody, something, nothing",
+        "body": "Alguien is someone, nadie is nobody, algo is something and nada is nothing. They are pronouns, so they take the verb directly: hay alguien, there is someone. The negative nada and nadie need a no in front: no hay nadie, there is nobody.",
+        "examples": [
+          {
+            "es": "Hay alguien en la cocina.",
+            "en": "There is someone in the kitchen."
+          },
+          {
+            "es": "No hay nadie hoy.",
+            "en": "There is nobody today."
+          },
+          {
+            "es": "¿Quieres algo?",
+            "en": "Do you want something?"
+          }
+        ]
+      },
+      {
+        "heading": "Every, all, none",
+        "body": "Cada is every or each, and it goes before a noun: cada día, every day. Todo is all or everything: todo el mundo, everyone. Ninguno is none, and it agrees with the noun: ninguno de ellos, none of them.",
+        "examples": [
+          {
+            "es": "Cada mañana leo el periódico.",
+            "en": "Every morning I read the newspaper."
+          },
+          {
+            "es": "Todo el mundo habla español.",
+            "en": "Everybody speaks Spanish."
+          },
+          {
+            "es": "Ninguno de ellos vino.",
+            "en": "None of them came."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
       "id": "es/b1/u5/match/esto",
@@ -38,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “this”.",
       "options": [
-        "nos",
-        "os",
-        "los",
+        "yo",
+        "tú",
+        "él",
         "esto"
       ],
       "answer": "esto",
@@ -48,33 +107,15 @@
       "note": "This, close to the speaker. It never changes."
     },
     {
-      "id": "es/b1/u5/type_in/eso",
+      "id": "es/b1/u5/drill/1",
       "type": "type_in",
-      "prompt": "Write “that” in Spanish.",
-      "answer": "eso",
+      "prompt": "Hay ___ en la cocina.",
+      "answer": "alguien",
       "acceptedAnswers": [
-        "eso"
+        "alguien"
       ],
-      "translation": "that",
-      "note": "That, close to the listener. It never changes."
-    },
-    {
-      "id": "es/b1/u5/listen/aquello",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "aquello",
-      "options": [
-        "aquello",
-        "aquel",
-        "esto",
-        "ese"
-      ],
-      "audio": {
-        "text": "aquello",
-        "lang": "es"
-      },
-      "translation": "that over there",
-      "note": "That, far from both. It never changes."
+      "translation": "there is someone in the kitchen",
+      "note": "Alguien is a pronoun, so it takes the verb directly."
     },
     {
       "id": "es/b1/u5/match/algo",
@@ -105,75 +146,76 @@
       "note": "These words stand in for a noun: eso es mi coche. Alguien and nadie work the same way."
     },
     {
-      "id": "es/b1/u5/select/alguien",
+      "id": "es/b1/u5/select/eso",
       "type": "select",
-      "prompt": "Pick the Spanish word for “someone”.",
+      "prompt": "Pick the Spanish word for “that”.",
       "options": [
-        "aquel",
-        "ese",
-        "alguien",
-        "esto"
+        "nos",
+        "los",
+        "las",
+        "eso"
       ],
-      "answer": "alguien",
-      "translation": "someone",
-      "note": "Someone. The negative is nadie."
+      "answer": "eso",
+      "translation": "that",
+      "note": "That, close to the listener. It never changes."
     },
     {
-      "id": "es/b1/u5/type_in/nadie",
+      "id": "es/b1/u5/drill/2",
       "type": "type_in",
-      "prompt": "Write “nobody” in Spanish.",
+      "prompt": "No hay ___ hoy.",
       "answer": "nadie",
       "acceptedAnswers": [
         "nadie"
       ],
-      "translation": "nobody",
-      "note": "Nobody. You say no, nadie."
+      "translation": "there is nobody today",
+      "note": "Nadie needs no in front."
     },
     {
-      "id": "es/b1/u5/listen/algo",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "algo",
-      "options": [
-        "aquello",
-        "nadie",
-        "alguien",
-        "algo"
-      ],
-      "audio": {
-        "text": "algo",
-        "lang": "es"
-      },
-      "translation": "something",
-      "note": "Something. The negative is nada."
-    },
-    {
-      "id": "es/b1/u5/select/nada",
+      "id": "es/b1/u5/select/aquello",
       "type": "select",
-      "prompt": "Pick the Spanish word for “nothing”.",
+      "prompt": "Pick the Spanish word for “that over there”.",
       "options": [
-        "alguien",
-        "nadie",
-        "aquello",
-        "nada"
+        "nos",
+        "los",
+        "las",
+        "aquello"
       ],
-      "answer": "nada",
-      "translation": "nothing",
-      "note": "Nothing. You say no, nada."
+      "answer": "aquello",
+      "translation": "that over there",
+      "note": "That, far from both. It never changes."
     },
     {
-      "id": "es/b1/u5/select/cada",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “each”.",
-      "options": [
-        "bueno",
-        "malo",
-        "ninguno",
-        "cada"
+      "id": "es/b1/u5/drill/3",
+      "type": "type_in",
+      "prompt": "Cada ___ leo el periódico.",
+      "answer": "mañana",
+      "acceptedAnswers": [
+        "manana"
       ],
-      "answer": "cada",
-      "translation": "each",
-      "note": "Each, every. It is used before a noun."
+      "translation": "every morning I read the newspaper",
+      "note": "Cada goes before the noun."
+    },
+    {
+      "id": "es/b1/u5/drill/4",
+      "type": "type_in",
+      "prompt": "Todo ___ habla español.",
+      "answer": "mundo",
+      "acceptedAnswers": [
+        "mundo"
+      ],
+      "translation": "everybody speaks Spanish",
+      "note": "Todo el mundo means everyone."
+    },
+    {
+      "id": "es/b1/u5/drill/5",
+      "type": "type_in",
+      "prompt": "___ libro es mío.",
+      "answer": "Este",
+      "acceptedAnswers": [
+        "Este"
+      ],
+      "translation": "this book is mine",
+      "note": "Este is the demonstrative close to the speaker."
     }
   ]
 }

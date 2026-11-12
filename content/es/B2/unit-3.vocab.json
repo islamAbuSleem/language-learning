@@ -1,0 +1,49 @@
+{
+  "unit": 3,
+  "title": "Whatever happens next",
+  "description": "Say what may happen, and what must be done.",
+  "grammar": "el pretérito perfecto de subjuntivo",
+  "grammarNote": "The perfect subjunctive is the -se form of the past subjunctive: haya hablado, haya comido.",
+  "explanation": {
+    "summary": "The perfect subjunctive is the present perfect with the -se ending instead of the -o ending. It appears in a handful of fixed phrases, and it is the natural way to say that something must happen before something else can.",
+    "sections": [
+      {
+        "heading": "How it is formed",
+        "body": "Take the present perfect and change the ending: he hablado becomes haya hablado, has comido becomes haya comido. The forms only exist for haber, which is why you only learn one set: haya, hayas, haya, hayamos, hayáis, hayan.",
+        "examples": [
+          { "es": "Espero que haya terminado.", "en": "I hope it has finished." },
+          { "es": "Es posible que haya llegado.", "en": "It is possible that he has arrived." },
+          { "es": "Necesito que hayan enviado el paquete.", "en": "I need them to have sent the parcel." }
+        ]
+      },
+      {
+        "heading": "Where it appears",
+        "body": "The commonest use is with esperar, to hope: espero que haya llegado. Then it comes after expressions of doubt and possibility: es posible que, no creo que, es dudoso que. And it says something must be done first: necesito que hayan pagado.",
+        "examples": [
+          { "es": "Espero que hayáis visto el mensaje.", "en": "I hope you have seen the message." },
+          { "es": "No creo que hayan llegado todavía.", "en": "I do not think they have arrived yet." },
+          { "es": "Es dudoso que haya sido posible.", "en": "It is doubtful that it was possible." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "haya hablado", "en": "has spoken", "article": null, "note": "The perfect subjunctive of hablar.", "tags": ["verb"] },
+    { "es": "haya comido", "en": "has eaten", "article": null, "note": "The perfect subjunctive of comer.", "tags": ["verb"] },
+    { "es": "haya vivido", "en": "has lived", "article": null, "note": "The perfect subjunctive of vivir.", "tags": ["verb"] },
+    { "es": "haya trabajado", "en": "has worked", "article": null, "note": "The perfect subjunctive of trabajar.", "tags": ["verb"] },
+    { "es": "haya estudiado", "en": "has studied", "article": null, "note": "The perfect subjunctive of estudiar.", "tags": ["verb"] },
+    { "es": "haya salido", "en": "has left", "article": null, "note": "The perfect subjunctive of salir.", "tags": ["verb"] },
+    { "es": "haya hecho", "en": "has done", "article": null, "note": "The perfect subjunctive of hacer.", "tags": ["verb"] },
+    { "es": "haya dicho", "en": "has said", "article": null, "note": "The perfect subjunctive of decir.", "tags": ["verb"] },
+    { "es": "haya escrito", "en": "has written", "article": null, "note": "The perfect subjunctive of escribir.", "tags": ["verb"] },
+    { "es": "ojalá", "en": "hopefully", "article": null, "note": "It introduces a wish: ojalá sea, if only it were.", "tags": ["link"] }
+  ],
+  "drills": [
+    { "prompt": "Espero que ___ terminado.", "answer": "haya", "meaning": "I hope it has finished", "note": "The perfect subjunctive of haber." },
+    { "prompt": "Es posible que ___ llegado.", "answer": "haya", "meaning": "it is possible that he has arrived", "note": "Possibility takes the perfect subjunctive." },
+    { "prompt": "No creo que ___ llegado todavía.", "answer": "hayan", "meaning": "I do not think they have arrived yet", "note": "Doubt takes the perfect subjunctive." },
+    { "prompt": "Espero que ___ visto el mensaje.", "answer": "hayáis", "meaning": "I hope you have seen the message", "note": "The vosotros form." },
+    { "prompt": "Necesito que ___ enviado el paquete.", "answer": "hayan", "meaning": "I need them to have sent the parcel", "note": "Necesitar que plus the perfect subjunctive." }
+  ]
+}
