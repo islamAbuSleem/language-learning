@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 15,
+  "title": "Changing verbs",
+  "description": "Verbs that change their ending in the present.",
+  "exercises": [
+    {
+      "id": "es/b1/u15/match/querer",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to want",
+          "right": "querer"
+        },
+        {
+          "left": "to be able to",
+          "right": "poder"
+        },
+        {
+          "left": "to sleep",
+          "right": "dormir"
+        },
+        {
+          "left": "to follow",
+          "right": "seguir"
+        },
+        {
+          "left": "to prefer",
+          "right": "preferir"
+        }
+      ],
+      "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
+    },
+    {
+      "id": "es/b1/u15/select/querer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to want”.",
+      "options": [
+        "estar",
+        "beber",
+        "comer",
+        "querer"
+      ],
+      "answer": "querer",
+      "translation": "to want",
+      "note": "The e changes to ie: quiero, quieres, quiere."
+    },
+    {
+      "id": "es/b1/u15/type_in/poder",
+      "type": "type_in",
+      "prompt": "Write “to be able to” in Spanish.",
+      "answer": "poder",
+      "acceptedAnswers": [
+        "poder"
+      ],
+      "translation": "to be able to",
+      "note": "The o changes to ue: puedo, puedes, puede."
+    },
+    {
+      "id": "es/b1/u15/listen/dormir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "dormir",
+      "options": [
+        "conocer",
+        "recordar",
+        "saber",
+        "dormir"
+      ],
+      "audio": {
+        "text": "dormir",
+        "lang": "es"
+      },
+      "translation": "to sleep",
+      "note": "The o changes to ue: duermo, duermes, duerme."
+    },
+    {
+      "id": "es/b1/u15/match/mentir",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to lie",
+          "right": "mentir"
+        },
+        {
+          "left": "to close",
+          "right": "cerrar"
+        },
+        {
+          "left": "to wake up",
+          "right": "despertar"
+        },
+        {
+          "left": "to feel",
+          "right": "sentir"
+        },
+        {
+          "left": "advice",
+          "right": "el consejo"
+        }
+      ],
+      "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
+    },
+    {
+      "id": "es/b1/u15/select/seguir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to follow”.",
+      "options": [
+        "vender",
+        "correr",
+        "perder",
+        "seguir"
+      ],
+      "answer": "seguir",
+      "translation": "to follow",
+      "note": "The e changes to ie: sigo, sigues, sigue. It also means to continue."
+    },
+    {
+      "id": "es/b1/u15/type_in/preferir",
+      "type": "type_in",
+      "prompt": "Write “to prefer” in Spanish.",
+      "answer": "preferir",
+      "acceptedAnswers": [
+        "preferir"
+      ],
+      "translation": "to prefer",
+      "note": "The e changes to ie: prefiero, prefieres, prefiere."
+    },
+    {
+      "id": "es/b1/u15/listen/mentir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "mentir",
+      "options": [
+        "descubrir",
+        "servir",
+        "pedir",
+        "mentir"
+      ],
+      "audio": {
+        "text": "mentir",
+        "lang": "es"
+      },
+      "translation": "to lie",
+      "note": "The e changes to ie: miento, mientes, miente."
+    },
+    {
+      "id": "es/b1/u15/select/cerrar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to close”.",
+      "options": [
+        "hablar",
+        "estudiar",
+        "trabajar",
+        "cerrar"
+      ],
+      "answer": "cerrar",
+      "translation": "to close",
+      "note": "The e changes to ie: cierro, cierras, cierra."
+    },
+    {
+      "id": "es/b1/u15/select/despertar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to wake up”.",
+      "options": [
+        "sentir",
+        "llegar",
+        "cerrar",
+        "despertar"
+      ],
+      "answer": "despertar",
+      "translation": "to wake up",
+      "note": "The e changes to ie: despierto, despiertas, despierta."
+    }
+  ]
+}

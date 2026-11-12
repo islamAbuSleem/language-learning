@@ -1,0 +1,19 @@
+{
+  "unit": 22,
+  "title": "Yesterday",
+  "description": "Say what you did, and who you did it with.",
+  "grammar": "the preterite with -ar verbs",
+  "grammarNote": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+  "items": [
+    { "es": "habló", "en": "he spoke", "article": null, "note": "The preterite of hablar. The yo form takes an accent: hablé.", "tags": ["verb"] },
+    { "es": "comió", "en": "he ate", "article": null, "note": "The preterite of comer. The yo form takes an accent: comí.", "tags": ["verb"] },
+    { "es": "escribió", "en": "he wrote", "article": null, "note": "The preterite of escribir. The yo form takes an accent: escribí.", "tags": ["verb"] },
+    { "es": "vivió", "en": "he lived", "article": null, "note": "The preterite of vivir. The yo form takes an accent: viví.", "tags": ["verb"] },
+    { "es": "familia", "en": "family", "article": "la", "note": "Feminine: la familia.", "tags": ["family"] },
+    { "es": "primo", "en": "cousin", "article": "el", "note": "Masculine: el primo. The feminine is la prima.", "tags": ["family"] },
+    { "es": "vecino", "en": "neighbour", "article": "el", "note": "Masculine: el vecino. The feminine is la vecina.", "tags": ["person"] },
+    { "es": "jefe", "en": "boss", "article": "el", "note": "Masculine: el jefe. The feminine is la jefa.", "tags": ["person"] },
+    { "es": "invierno", "en": "winter", "article": "el", "note": "Masculine: el invierno.", "tags": ["time"] },
+    { "es": "verano", "en": "summer", "article": "el", "note": "Masculine: el verano.", "tags": ["time"] }
+  ]
+}

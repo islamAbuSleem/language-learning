@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 23,
+  "title": "Yesterday, again",
+  "description": "More of the past, with the other two verb endings.",
+  "exercises": [
+    {
+      "id": "es/b1/u23/match/pidio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "he asked for",
+          "right": "pidió"
+        },
+        {
+          "left": "he understood",
+          "right": "entendió"
+        },
+        {
+          "left": "he arrived",
+          "right": "llegó"
+        },
+        {
+          "left": "he left",
+          "right": "salió"
+        },
+        {
+          "left": "item",
+          "right": "el artículo"
+        }
+      ],
+      "note": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron."
+    },
+    {
+      "id": "es/b1/u23/select/pidio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he asked for”.",
+      "options": [
+        "pidió",
+        "perder",
+        "correr",
+        "vender"
+      ],
+      "answer": "pidió",
+      "translation": "he asked for",
+      "note": "The preterite of pedir. The yo form drops the e: pedí."
+    },
+    {
+      "id": "es/b1/u23/type_in/entendio",
+      "type": "type_in",
+      "prompt": "Write “he understood” in Spanish.",
+      "answer": "entendió",
+      "acceptedAnswers": [
+        "entendio"
+      ],
+      "translation": "he understood",
+      "note": "The preterite of entender. The yo form drops the e: entendí."
+    },
+    {
+      "id": "es/b1/u23/listen/llego",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "llegó",
+      "options": [
+        "entender",
+        "poder",
+        "querer",
+        "llegó"
+      ],
+      "audio": {
+        "text": "llegó",
+        "lang": "es"
+      },
+      "translation": "he arrived",
+      "note": "The preterite of llegar. The yo form takes an accent: llegué."
+    },
+    {
+      "id": "es/b1/u23/match/reunion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "meeting",
+          "right": "la reunión"
+        },
+        {
+          "left": "problem",
+          "right": "el problema"
+        },
+        {
+          "left": "solution",
+          "right": "la solución"
+        },
+        {
+          "left": "answer",
+          "right": "la respuesta"
+        },
+        {
+          "left": "decision",
+          "right": "la decisión"
+        }
+      ],
+      "note": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron."
+    },
+    {
+      "id": "es/b1/u23/select/salio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he left”.",
+      "options": [
+        "necesitar",
+        "estar",
+        "salió",
+        "mirar"
+      ],
+      "answer": "salió",
+      "translation": "he left",
+      "note": "The preterite of salir. The yo form takes an accent: salí."
+    },
+    {
+      "id": "es/b1/u23/type_in/articulo",
+      "type": "type_in",
+      "prompt": "Write “item” in Spanish.",
+      "answer": "artículo",
+      "acceptedAnswers": [
+        "articulo"
+      ],
+      "translation": "item",
+      "note": "Masculine: el artículo. It also means an article in a newspaper."
+    },
+    {
+      "id": "es/b1/u23/listen/reunion",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la reunión",
+      "options": [
+        "la reunión",
+        "el consejo",
+        "el dinero",
+        "la postal"
+      ],
+      "audio": {
+        "text": "reunión",
+        "lang": "es"
+      },
+      "translation": "meeting",
+      "note": "Feminine: la reunión. The accent marks the stress."
+    },
+    {
+      "id": "es/b1/u23/select/problema",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “problem”.",
+      "options": [
+        "la respuesta",
+        "el mapa",
+        "la decisión",
+        "el problema"
+      ],
+      "answer": "el problema",
+      "translation": "problem",
+      "note": "Masculine: el problema."
+    },
+    {
+      "id": "es/b1/u23/select/solucion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “solution”.",
+      "options": [
+        "el reloj",
+        "gana",
+        "la ayuda",
+        "la solución"
+      ],
+      "answer": "la solución",
+      "translation": "solution",
+      "note": "Feminine: la solución. The accent marks the stress."
+    }
+  ]
+}

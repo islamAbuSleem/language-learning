@@ -1,0 +1,19 @@
+{
+  "unit": 21,
+  "title": "Just now",
+  "description": "Say how long ago something happened.",
+  "grammar": "talking about the recent past",
+  "grammarNote": "Acabar de plus an infinitive means to have just done something: acabar de comer.",
+  "items": [
+    { "es": "acabar", "en": "to finish", "article": null, "note": "Acabar de plus an infinitive means to have just: acabo de llegar.", "tags": ["verb"] },
+    { "es": "hace", "en": "ago", "article": null, "note": "Ago. Make hace dos horas, hace un año.", "tags": ["time"] },
+    { "es": "ayer", "en": "yesterday", "article": null, "note": "Yesterday.", "tags": ["time"] },
+    { "es": "recién", "en": "just", "article": null, "note": "Just now. Acabo de llegar, recién llegué.", "tags": ["time"] },
+    { "es": "hace poco", "en": "a little while ago", "article": null, "note": "A little while ago. It is often used with acabar de.", "tags": ["time"] },
+    { "es": "pasado", "en": "last", "article": null, "note": "Last, as in el pasado año, last year. It also means passed.", "tags": ["time"] },
+    { "es": "antes", "en": "before", "article": null, "note": "Before, earlier. Antes de plus an infinitive.", "tags": ["time"] },
+    { "es": "durante", "en": "during", "article": null, "note": "During. It goes with a period: durante el viaje.", "tags": ["time"] },
+    { "es": "año", "en": "year", "article": "el", "note": "Masculine: el año.", "tags": ["time"] },
+    { "es": "siglo", "en": "century", "article": "el", "note": "Masculine: el siglo.", "tags": ["time"] }
+  ]
+}

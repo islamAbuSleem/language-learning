@@ -1,0 +1,19 @@
+{
+  "unit": 20,
+  "title": "Myself",
+  "description": "Say what you do to yourself.",
+  "grammar": "reflexive verbs",
+  "grammarNote": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first.",
+  "items": [
+    { "es": "ducharse", "en": "to shower", "article": null, "note": "Me ducho every morning. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "vestirse", "en": "to get dressed", "article": null, "note": "Me visto. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "acostarse", "en": "to go to bed", "article": null, "note": "Me acuesto. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "afeitarse", "en": "to shave", "article": null, "note": "Me afeito. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "cepillarse", "en": "to brush", "article": null, "note": "Me cepillo los dientes. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "levantarse", "en": "to get up", "article": null, "note": "Me levanto. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "relajarse", "en": "to relax", "article": null, "note": "Me relajo. It keeps the -se ending.", "tags": ["verb"] },
+    { "es": "espejo", "en": "mirror", "article": "el", "note": "Masculine: el espejo.", "tags": ["object"] },
+    { "es": "jabón", "en": "soap", "article": "el", "note": "Masculine: el jabón. The accent marks the stress.", "tags": ["object"] },
+    { "es": "toalla", "en": "towel", "article": "la", "note": "Feminine: la toalla.", "tags": ["object"] }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 17,
+  "title": "Right now",
+  "description": "Say what is happening at this moment.",
+  "exercises": [
+    {
+      "id": "es/b1/u17/match/conversacion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "conversation",
+          "right": "la conversación"
+        },
+        {
+          "left": "television",
+          "right": "la televisión"
+        },
+        {
+          "left": "music",
+          "right": "la música"
+        },
+        {
+          "left": "film",
+          "right": "la película"
+        },
+        {
+          "left": "song",
+          "right": "la canción"
+        }
+      ],
+      "note": "The progressive is estar plus a gerund: estoy leyendo. An -ar verb makes -ando, an -er or -ir verb makes -iendo."
+    },
+    {
+      "id": "es/b1/u17/select/conversacion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “conversation”.",
+      "options": [
+        "el deporte",
+        "el partido",
+        "la conversación",
+        "la canción"
+      ],
+      "answer": "la conversación",
+      "translation": "conversation",
+      "note": "Feminine: la conversación."
+    },
+    {
+      "id": "es/b1/u17/type_in/television",
+      "type": "type_in",
+      "prompt": "Write “television” in Spanish.",
+      "answer": "televisión",
+      "acceptedAnswers": [
+        "television"
+      ],
+      "translation": "television",
+      "note": "Feminine: la televisión. You watch it: ver la televisión."
+    },
+    {
+      "id": "es/b1/u17/listen/musica",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la música",
+      "options": [
+        "el partido",
+        "la conversación",
+        "la televisión",
+        "la música"
+      ],
+      "audio": {
+        "text": "música",
+        "lang": "es"
+      },
+      "translation": "music",
+      "note": "Feminine: la música. It has no plural in everyday use."
+    },
+    {
+      "id": "es/b1/u17/match/deporte",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "sport",
+          "right": "el deporte"
+        },
+        {
+          "left": "match",
+          "right": "el partido"
+        },
+        {
+          "left": "park",
+          "right": "el parque"
+        },
+        {
+          "left": "beach",
+          "right": "la playa"
+        },
+        {
+          "left": "sky",
+          "right": "el cielo"
+        }
+      ],
+      "note": "The progressive is estar plus a gerund: estoy leyendo. An -ar verb makes -ando, an -er or -ir verb makes -iendo."
+    },
+    {
+      "id": "es/b1/u17/select/pelicula",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “film”.",
+      "options": [
+        "la televisión",
+        "la canción",
+        "la música",
+        "la película"
+      ],
+      "answer": "la película",
+      "translation": "film",
+      "note": "Feminine: la película."
+    },
+    {
+      "id": "es/b1/u17/type_in/cancion",
+      "type": "type_in",
+      "prompt": "Write “song” in Spanish.",
+      "answer": "canción",
+      "acceptedAnswers": [
+        "cancion"
+      ],
+      "translation": "song",
+      "note": "Feminine: la canción."
+    },
+    {
+      "id": "es/b1/u17/listen/deporte",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el deporte",
+      "options": [
+        "la película",
+        "la canción",
+        "el partido",
+        "el deporte"
+      ],
+      "audio": {
+        "text": "deporte",
+        "lang": "es"
+      },
+      "translation": "sport",
+      "note": "Masculine: el deporte."
+    },
+    {
+      "id": "es/b1/u17/select/partido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “match”.",
+      "options": [
+        "la conversación",
+        "la música",
+        "la televisión",
+        "el partido"
+      ],
+      "answer": "el partido",
+      "translation": "match",
+      "note": "Masculine: el partido. It also means a party."
+    },
+    {
+      "id": "es/b1/u17/select/parque",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “park”.",
+      "options": [
+        "allí",
+        "encima",
+        "aquí",
+        "el parque"
+      ],
+      "answer": "el parque",
+      "translation": "park",
+      "note": "Masculine: el parque."
+    }
+  ]
+}

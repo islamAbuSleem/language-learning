@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 20,
+  "title": "Myself",
+  "description": "Say what you do to yourself.",
+  "exercises": [
+    {
+      "id": "es/b1/u20/match/ducharse",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to shower",
+          "right": "ducharse"
+        },
+        {
+          "left": "to get dressed",
+          "right": "vestirse"
+        },
+        {
+          "left": "to go to bed",
+          "right": "acostarse"
+        },
+        {
+          "left": "to shave",
+          "right": "afeitarse"
+        },
+        {
+          "left": "to brush",
+          "right": "cepillarse"
+        }
+      ],
+      "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
+    },
+    {
+      "id": "es/b1/u20/select/ducharse",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to shower”.",
+      "options": [
+        "estar",
+        "comer",
+        "ducharse",
+        "necesitar"
+      ],
+      "answer": "ducharse",
+      "translation": "to shower",
+      "note": "Me ducho every morning. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/type_in/vestirse",
+      "type": "type_in",
+      "prompt": "Write “to get dressed” in Spanish.",
+      "answer": "vestirse",
+      "acceptedAnswers": [
+        "vestirse"
+      ],
+      "translation": "to get dressed",
+      "note": "Me visto. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/listen/acostarse",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "acostarse",
+      "options": [
+        "olvidar",
+        "entender",
+        "recordar",
+        "acostarse"
+      ],
+      "audio": {
+        "text": "acostarse",
+        "lang": "es"
+      },
+      "translation": "to go to bed",
+      "note": "Me acuesto. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/match/levantarse",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to get up",
+          "right": "levantarse"
+        },
+        {
+          "left": "to relax",
+          "right": "relajarse"
+        },
+        {
+          "left": "mirror",
+          "right": "el espejo"
+        },
+        {
+          "left": "soap",
+          "right": "el jabón"
+        },
+        {
+          "left": "towel",
+          "right": "la toalla"
+        }
+      ],
+      "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
+    },
+    {
+      "id": "es/b1/u20/select/afeitarse",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to shave”.",
+      "options": [
+        "escribir",
+        "recibir",
+        "abrir",
+        "afeitarse"
+      ],
+      "answer": "afeitarse",
+      "translation": "to shave",
+      "note": "Me afeito. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/type_in/cepillarse",
+      "type": "type_in",
+      "prompt": "Write “to brush” in Spanish.",
+      "answer": "cepillarse",
+      "acceptedAnswers": [
+        "cepillarse"
+      ],
+      "translation": "to brush",
+      "note": "Me cepillo los dientes. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/listen/levantarse",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "levantarse",
+      "options": [
+        "despertar",
+        "ducharse",
+        "sentir",
+        "levantarse"
+      ],
+      "audio": {
+        "text": "levantarse",
+        "lang": "es"
+      },
+      "translation": "to get up",
+      "note": "Me levanto. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/select/relajarse",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to relax”.",
+      "options": [
+        "comer",
+        "aprender",
+        "beber",
+        "relajarse"
+      ],
+      "answer": "relajarse",
+      "translation": "to relax",
+      "note": "Me relajo. It keeps the -se ending."
+    },
+    {
+      "id": "es/b1/u20/select/espejo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “mirror”.",
+      "options": [
+        "el consejo",
+        "el dinero",
+        "el trabajo",
+        "el espejo"
+      ],
+      "answer": "el espejo",
+      "translation": "mirror",
+      "note": "Masculine: el espejo."
+    }
+  ]
+}

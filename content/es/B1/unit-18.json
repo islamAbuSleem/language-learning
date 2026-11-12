@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 18,
+  "title": "Him, her, them",
+  "description": "Say who an action is for, without repeating the noun.",
+  "exercises": [
+    {
+      "id": "es/b1/u18/match/me",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "me",
+          "right": "me"
+        },
+        {
+          "left": "you",
+          "right": "te"
+        },
+        {
+          "left": "it",
+          "right": "lo"
+        },
+        {
+          "left": "her",
+          "right": "la"
+        },
+        {
+          "left": "us",
+          "right": "nos"
+        }
+      ],
+      "note": "The object pronoun goes before the verb: lo veo, la escucho."
+    },
+    {
+      "id": "es/b1/u18/select/me",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “me”.",
+      "options": [
+        "él",
+        "ella",
+        "tú",
+        "me"
+      ],
+      "answer": "me",
+      "translation": "me",
+      "note": "Me, and also myself: me llamo."
+    },
+    {
+      "id": "es/b1/u18/type_in/te",
+      "type": "type_in",
+      "prompt": "Write “you” in Spanish.",
+      "answer": "te",
+      "acceptedAnswers": [
+        "te"
+      ],
+      "translation": "you",
+      "note": "You, singular. It also means to yourself."
+    },
+    {
+      "id": "es/b1/u18/listen/lo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "lo",
+      "options": [
+        "lo",
+        "tú",
+        "yo",
+        "aquel"
+      ],
+      "audio": {
+        "text": "lo",
+        "lang": "es"
+      },
+      "translation": "it",
+      "note": "It, him or it. It takes the place of a masculine object."
+    },
+    {
+      "id": "es/b1/u18/match/os",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "you",
+          "right": "os"
+        },
+        {
+          "left": "them",
+          "right": "los"
+        },
+        {
+          "left": "them",
+          "right": "las"
+        },
+        {
+          "left": "that one",
+          "right": "ese"
+        },
+        {
+          "left": "that one over there",
+          "right": "aquel"
+        }
+      ],
+      "note": "The object pronoun goes before the verb: lo veo, la escucho."
+    },
+    {
+      "id": "es/b1/u18/select/la",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “her”.",
+      "options": [
+        "lo",
+        "nos",
+        "te",
+        "la"
+      ],
+      "answer": "la",
+      "translation": "her",
+      "note": "It, her. It takes the place of a feminine object."
+    },
+    {
+      "id": "es/b1/u18/type_in/nos",
+      "type": "type_in",
+      "prompt": "Write “us” in Spanish.",
+      "answer": "nos",
+      "acceptedAnswers": [
+        "nos"
+      ],
+      "translation": "us",
+      "note": "Us. It also means to ourselves."
+    },
+    {
+      "id": "es/b1/u18/listen/os",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "os",
+      "options": [
+        "ella",
+        "me",
+        "él",
+        "os"
+      ],
+      "audio": {
+        "text": "os",
+        "lang": "es"
+      },
+      "translation": "you",
+      "note": "You, plural. It is used in Spain."
+    },
+    {
+      "id": "es/b1/u18/select/los",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “them”.",
+      "options": [
+        "él",
+        "ella",
+        "me",
+        "los"
+      ],
+      "answer": "los",
+      "translation": "them",
+      "note": "Them, masculine or mixed."
+    },
+    {
+      "id": "es/b1/u18/select/las",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “them”.",
+      "options": [
+        "tú",
+        "ella",
+        "él",
+        "las"
+      ],
+      "answer": "las",
+      "translation": "them",
+      "note": "Them, feminine."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 19,
+  "title": "This, that, someone",
+  "description": "Point at things, and talk about people without naming them.",
+  "exercises": [
+    {
+      "id": "es/b1/u19/match/esto",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "this",
+          "right": "esto"
+        },
+        {
+          "left": "that",
+          "right": "eso"
+        },
+        {
+          "left": "that over there",
+          "right": "aquello"
+        },
+        {
+          "left": "someone",
+          "right": "alguien"
+        },
+        {
+          "left": "nobody",
+          "right": "nadie"
+        }
+      ],
+      "note": "These words stand in for a noun: eso es mi coche. Alguien and nadie work the same way."
+    },
+    {
+      "id": "es/b1/u19/select/esto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “this”.",
+      "options": [
+        "me",
+        "te",
+        "lo",
+        "esto"
+      ],
+      "answer": "esto",
+      "translation": "this",
+      "note": "This, close to the speaker. It never changes."
+    },
+    {
+      "id": "es/b1/u19/type_in/eso",
+      "type": "type_in",
+      "prompt": "Write “that” in Spanish.",
+      "answer": "eso",
+      "acceptedAnswers": [
+        "eso"
+      ],
+      "translation": "that",
+      "note": "That, close to the listener. It never changes."
+    },
+    {
+      "id": "es/b1/u19/listen/aquello",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "aquello",
+      "options": [
+        "os",
+        "los",
+        "nos",
+        "aquello"
+      ],
+      "audio": {
+        "text": "aquello",
+        "lang": "es"
+      },
+      "translation": "that over there",
+      "note": "That, far from both. It never changes."
+    },
+    {
+      "id": "es/b1/u19/match/algo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "something",
+          "right": "algo"
+        },
+        {
+          "left": "nothing",
+          "right": "nada"
+        },
+        {
+          "left": "each",
+          "right": "cada"
+        },
+        {
+          "left": "all",
+          "right": "todo"
+        },
+        {
+          "left": "none",
+          "right": "ninguno"
+        }
+      ],
+      "note": "These words stand in for a noun: eso es mi coche. Alguien and nadie work the same way."
+    },
+    {
+      "id": "es/b1/u19/select/alguien",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “someone”.",
+      "options": [
+        "os",
+        "los",
+        "nos",
+        "alguien"
+      ],
+      "answer": "alguien",
+      "translation": "someone",
+      "note": "Someone. The negative is nadie."
+    },
+    {
+      "id": "es/b1/u19/type_in/nadie",
+      "type": "type_in",
+      "prompt": "Write “nobody” in Spanish.",
+      "answer": "nadie",
+      "acceptedAnswers": [
+        "nadie"
+      ],
+      "translation": "nobody",
+      "note": "Nobody. You say no, nadie."
+    },
+    {
+      "id": "es/b1/u19/listen/algo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "algo",
+      "options": [
+        "algo",
+        "aquel",
+        "esto",
+        "ese"
+      ],
+      "audio": {
+        "text": "algo",
+        "lang": "es"
+      },
+      "translation": "something",
+      "note": "Something. The negative is nada."
+    },
+    {
+      "id": "es/b1/u19/select/nada",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “nothing”.",
+      "options": [
+        "ese",
+        "aquel",
+        "esto",
+        "nada"
+      ],
+      "answer": "nada",
+      "translation": "nothing",
+      "note": "Nothing. You say no, nada."
+    },
+    {
+      "id": "es/b1/u19/select/cada",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “each”.",
+      "options": [
+        "viejo",
+        "todo",
+        "joven",
+        "cada"
+      ],
+      "answer": "cada",
+      "translation": "each",
+      "note": "Each, every. It is used before a noun."
+    }
+  ]
+}

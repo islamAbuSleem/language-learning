@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 21,
+  "title": "Just now",
+  "description": "Say how long ago something happened.",
+  "exercises": [
+    {
+      "id": "es/b1/u21/match/acabar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to finish",
+          "right": "acabar"
+        },
+        {
+          "left": "ago",
+          "right": "hace"
+        },
+        {
+          "left": "yesterday",
+          "right": "ayer"
+        },
+        {
+          "left": "just",
+          "right": "recién"
+        },
+        {
+          "left": "a little while ago",
+          "right": "hace poco"
+        }
+      ],
+      "note": "Acabar de plus an infinitive means to have just done something: acabar de comer."
+    },
+    {
+      "id": "es/b1/u21/select/acabar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to finish”.",
+      "options": [
+        "caminar",
+        "cocinar",
+        "mirar",
+        "acabar"
+      ],
+      "answer": "acabar",
+      "translation": "to finish",
+      "note": "Acabar de plus an infinitive means to have just: acabo de llegar."
+    },
+    {
+      "id": "es/b1/u21/type_in/hace",
+      "type": "type_in",
+      "prompt": "Write “ago” in Spanish.",
+      "answer": "hace",
+      "acceptedAnswers": [
+        "hace"
+      ],
+      "translation": "ago",
+      "note": "Ago. Make hace dos horas, hace un año."
+    },
+    {
+      "id": "es/b1/u21/listen/ayer",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "ayer",
+      "options": [
+        "el minuto",
+        "el mediodía",
+        "la hora",
+        "ayer"
+      ],
+      "audio": {
+        "text": "ayer",
+        "lang": "es"
+      },
+      "translation": "yesterday",
+      "note": "Yesterday."
+    },
+    {
+      "id": "es/b1/u21/match/pasado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "last",
+          "right": "pasado"
+        },
+        {
+          "left": "before",
+          "right": "antes"
+        },
+        {
+          "left": "during",
+          "right": "durante"
+        },
+        {
+          "left": "year",
+          "right": "el año"
+        },
+        {
+          "left": "century",
+          "right": "el siglo"
+        }
+      ],
+      "note": "Acabar de plus an infinitive means to have just done something: acabar de comer."
+    },
+    {
+      "id": "es/b1/u21/select/recien",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “just”.",
+      "options": [
+        "la noche",
+        "la semana",
+        "el mes",
+        "recién"
+      ],
+      "answer": "recién",
+      "translation": "just",
+      "note": "Just now. Acabo de llegar, recién llegué."
+    },
+    {
+      "id": "es/b1/u21/type_in/hace-poco",
+      "type": "type_in",
+      "prompt": "Write “a little while ago” in Spanish.",
+      "answer": "hace poco",
+      "acceptedAnswers": [
+        "hace poco"
+      ],
+      "translation": "a little while ago",
+      "note": "A little while ago. It is often used with acabar de."
+    },
+    {
+      "id": "es/b1/u21/listen/pasado",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "pasado",
+      "options": [
+        "la semana",
+        "el mes",
+        "ahora",
+        "pasado"
+      ],
+      "audio": {
+        "text": "pasado",
+        "lang": "es"
+      },
+      "translation": "last",
+      "note": "Last, as in el pasado año, last year. It also means passed."
+    },
+    {
+      "id": "es/b1/u21/select/antes",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “before”.",
+      "options": [
+        "la hora",
+        "el minuto",
+        "mañana",
+        "antes"
+      ],
+      "answer": "antes",
+      "translation": "before",
+      "note": "Before, earlier. Antes de plus an infinitive."
+    },
+    {
+      "id": "es/b1/u21/select/durante",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “during”.",
+      "options": [
+        "recién",
+        "pasado",
+        "hace poco",
+        "durante"
+      ],
+      "answer": "durante",
+      "translation": "during",
+      "note": "During. It goes with a period: durante el viaje."
+    }
+  ]
+}

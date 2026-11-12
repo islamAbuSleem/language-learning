@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 24,
+  "title": "Bigger, better, different",
+  "description": "Compare things, and say what should happen.",
+  "exercises": [
+    {
+      "id": "es/b1/u24/match/mas",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "more",
+          "right": "más"
+        },
+        {
+          "left": "less",
+          "right": "menos"
+        },
+        {
+          "left": "better",
+          "right": "mejor"
+        },
+        {
+          "left": "worse",
+          "right": "peor"
+        },
+        {
+          "left": "higher",
+          "right": "superior"
+        }
+      ],
+      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
+    },
+    {
+      "id": "es/b1/u24/select/mas",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “more”.",
+      "options": [
+        "superior",
+        "menos",
+        "inferior",
+        "más"
+      ],
+      "answer": "más",
+      "translation": "more",
+      "note": "More. It also means most. It takes an accent in a question."
+    },
+    {
+      "id": "es/b1/u24/type_in/menos",
+      "type": "type_in",
+      "prompt": "Write “less” in Spanish.",
+      "answer": "menos",
+      "acceptedAnswers": [
+        "menos"
+      ],
+      "translation": "less",
+      "note": "Less. It also means fewest."
+    },
+    {
+      "id": "es/b1/u24/listen/mejor",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "mejor",
+      "options": [
+        "inferior",
+        "más",
+        "menos",
+        "mejor"
+      ],
+      "audio": {
+        "text": "mejor",
+        "lang": "es"
+      },
+      "translation": "better",
+      "note": "Better. It has no comparative form: es mejor, es el mejor."
+    },
+    {
+      "id": "es/b1/u24/match/inferior",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "lower",
+          "right": "inferior"
+        },
+        {
+          "left": "main",
+          "right": "principal"
+        },
+        {
+          "left": "special",
+          "right": "especial"
+        },
+        {
+          "left": "strong",
+          "right": "fuerte"
+        },
+        {
+          "left": "soft",
+          "right": "suave"
+        }
+      ],
+      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
+    },
+    {
+      "id": "es/b1/u24/select/peor",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “worse”.",
+      "options": [
+        "más",
+        "menos",
+        "inferior",
+        "peor"
+      ],
+      "answer": "peor",
+      "translation": "worse",
+      "note": "Worse. Like mejor, it never changes."
+    },
+    {
+      "id": "es/b1/u24/type_in/superior",
+      "type": "type_in",
+      "prompt": "Write “higher” in Spanish.",
+      "answer": "superior",
+      "acceptedAnswers": [
+        "superior"
+      ],
+      "translation": "higher",
+      "note": "Higher, superior. It also means better."
+    },
+    {
+      "id": "es/b1/u24/listen/inferior",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "inferior",
+      "options": [
+        "menos",
+        "mejor",
+        "más",
+        "inferior"
+      ],
+      "audio": {
+        "text": "inferior",
+        "lang": "es"
+      },
+      "translation": "lower",
+      "note": "Lower, inferior. It also means worse."
+    },
+    {
+      "id": "es/b1/u24/select/principal",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “main”.",
+      "options": [
+        "ninguno",
+        "especial",
+        "principal",
+        "todo"
+      ],
+      "answer": "principal",
+      "translation": "main",
+      "note": "Main, most important. It does not change for a feminine noun."
+    },
+    {
+      "id": "es/b1/u24/select/especial",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “special”.",
+      "options": [
+        "principal",
+        "fuerte",
+        "suave",
+        "especial"
+      ],
+      "answer": "especial",
+      "translation": "special",
+      "note": "Special. It does not change for a feminine noun."
+    }
+  ]
+}

@@ -12,8 +12,19 @@ import {
 
 const CONTENT_STORAGE = "assets:content"
 
-/** The highest unit number any level may hold. */
-const MAX_UNIT_NUMBER = 20
+/**
+ * The highest unit number any level may hold.
+ */
+const MAX_UNIT_NUMBER = 60
+
+/**
+ * Units that are known not to exist.
+ *
+ * The unit numbers run on across the levels, so a level can start at seven
+ * and the probe cannot stop at the first gap. The misses are remembered
+ * instead, so the probing is paid for once.
+ */
+const missingUnits = new Set<string>()
 
 /** Parsed units, kept so a session does not re-read and re-parse the file. */
 const unitCache = new Map<string, Unit>()
@@ -89,13 +100,27 @@ export async function findExercise(exerciseId: string): Promise<Exercise | null>
   return content.exercises.find((exercise) => exercise.id === exerciseId) ?? null
 }
 
-/** The units of one level, in order. */
+/**
+ * The units of one level, in order.
+ *
+ * The units are found by probing the numbers, because the asset storage does
+ * not give a reliable listing.
+ */
 export async function loadLevelUnits(track: TrackId, level: CefrLevel): Promise<Unit[]> {
   const units: Unit[] = []
 
   for (let unit = 1; unit <= MAX_UNIT_NUMBER; unit += 1) {
+    const key = `${track}/${level}/${unit}`
+    if (missingUnits.has(key)) continue
+
     const content = await loadUnit(track, level, unit)
-    if (content) units.push(content)
+
+    if (!content) {
+      missingUnits.add(key)
+      continue
+    }
+
+    units.push(content)
   }
 
   return units.sort((a, b) => a.unit - b.unit)

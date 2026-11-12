@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 22,
+  "title": "Yesterday",
+  "description": "Say what you did, and who you did it with.",
+  "exercises": [
+    {
+      "id": "es/b1/u22/match/hablo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "he spoke",
+          "right": "habló"
+        },
+        {
+          "left": "he ate",
+          "right": "comió"
+        },
+        {
+          "left": "he wrote",
+          "right": "escribió"
+        },
+        {
+          "left": "he lived",
+          "right": "vivió"
+        },
+        {
+          "left": "family",
+          "right": "la familia"
+        }
+      ],
+      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+    },
+    {
+      "id": "es/b1/u22/select/hablo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he spoke”.",
+      "options": [
+        "tener",
+        "querer",
+        "poder",
+        "habló"
+      ],
+      "answer": "habló",
+      "translation": "he spoke",
+      "note": "The preterite of hablar. The yo form takes an accent: hablé."
+    },
+    {
+      "id": "es/b1/u22/type_in/comio",
+      "type": "type_in",
+      "prompt": "Write “he ate” in Spanish.",
+      "answer": "comió",
+      "acceptedAnswers": [
+        "comio"
+      ],
+      "translation": "he ate",
+      "note": "The preterite of comer. The yo form takes an accent: comí."
+    },
+    {
+      "id": "es/b1/u22/listen/escribio",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "escribió",
+      "options": [
+        "recibir",
+        "compartir",
+        "abrir",
+        "escribió"
+      ],
+      "audio": {
+        "text": "escribió",
+        "lang": "es"
+      },
+      "translation": "he wrote",
+      "note": "The preterite of escribir. The yo form takes an accent: escribí."
+    },
+    {
+      "id": "es/b1/u22/match/primo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "cousin",
+          "right": "el primo"
+        },
+        {
+          "left": "neighbour",
+          "right": "el vecino"
+        },
+        {
+          "left": "boss",
+          "right": "el jefe"
+        },
+        {
+          "left": "winter",
+          "right": "el invierno"
+        },
+        {
+          "left": "summer",
+          "right": "el verano"
+        }
+      ],
+      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+    },
+    {
+      "id": "es/b1/u22/select/vivio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he lived”.",
+      "options": [
+        "vivió",
+        "beber",
+        "aprender",
+        "comer"
+      ],
+      "answer": "vivió",
+      "translation": "he lived",
+      "note": "The preterite of vivir. The yo form takes an accent: viví."
+    },
+    {
+      "id": "es/b1/u22/type_in/familia",
+      "type": "type_in",
+      "prompt": "Write “family” in Spanish.",
+      "answer": "familia",
+      "acceptedAnswers": [
+        "familia"
+      ],
+      "translation": "family",
+      "note": "Feminine: la familia."
+    },
+    {
+      "id": "es/b1/u22/listen/primo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el primo",
+      "options": [
+        "la familia",
+        "la madre",
+        "el primo",
+        "por favor"
+      ],
+      "audio": {
+        "text": "primo",
+        "lang": "es"
+      },
+      "translation": "cousin",
+      "note": "Masculine: el primo. The feminine is la prima."
+    },
+    {
+      "id": "es/b1/u22/select/vecino",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “neighbour”.",
+      "options": [
+        "el médico",
+        "el jefe",
+        "el nombre",
+        "el vecino"
+      ],
+      "answer": "el vecino",
+      "translation": "neighbour",
+      "note": "Masculine: el vecino. The feminine is la vecina."
+    },
+    {
+      "id": "es/b1/u22/select/jefe",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “boss”.",
+      "options": [
+        "el médico",
+        "el nombre",
+        "el vecino",
+        "el jefe"
+      ],
+      "answer": "el jefe",
+      "translation": "boss",
+      "note": "Masculine: el jefe. The feminine is la jefa."
+    }
+  ]
+}

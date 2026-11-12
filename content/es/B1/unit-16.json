@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 16,
+  "title": "Describing people",
+  "description": "Say what someone is like, and what they do.",
+  "exercises": [
+    {
+      "id": "es/b1/u16/match/bueno",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "good",
+          "right": "bueno"
+        },
+        {
+          "left": "bad",
+          "right": "malo"
+        },
+        {
+          "left": "big",
+          "right": "grande"
+        },
+        {
+          "left": "small",
+          "right": "pequeño"
+        },
+        {
+          "left": "new",
+          "right": "nuevo"
+        }
+      ],
+      "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
+    },
+    {
+      "id": "es/b1/u16/select/bueno",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “good”.",
+      "options": [
+        "nuevo",
+        "joven",
+        "viejo",
+        "bueno"
+      ],
+      "answer": "bueno",
+      "translation": "good",
+      "note": "Good. It changes to buena before a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/type_in/malo",
+      "type": "type_in",
+      "prompt": "Write “bad” in Spanish.",
+      "answer": "malo",
+      "acceptedAnswers": [
+        "malo"
+      ],
+      "translation": "bad",
+      "note": "Bad. It changes to mala before a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/listen/grande",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "grande",
+      "options": [
+        "malo",
+        "pequeño",
+        "nuevo",
+        "grande"
+      ],
+      "audio": {
+        "text": "grande",
+        "lang": "es"
+      },
+      "translation": "big",
+      "note": "Big. It does not change for a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/match/joven",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "young",
+          "right": "joven"
+        },
+        {
+          "left": "old",
+          "right": "viejo"
+        },
+        {
+          "left": "money",
+          "right": "el dinero"
+        },
+        {
+          "left": "work",
+          "right": "el trabajo"
+        },
+        {
+          "left": "doctor",
+          "right": "el médico"
+        }
+      ],
+      "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
+    },
+    {
+      "id": "es/b1/u16/select/pequeno",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “small”.",
+      "options": [
+        "malo",
+        "nuevo",
+        "grande",
+        "pequeño"
+      ],
+      "answer": "pequeño",
+      "translation": "small",
+      "note": "Small. It changes to pequeña before a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/type_in/nuevo",
+      "type": "type_in",
+      "prompt": "Write “new” in Spanish.",
+      "answer": "nuevo",
+      "acceptedAnswers": [
+        "nuevo"
+      ],
+      "translation": "new",
+      "note": "New. It changes to nueva before a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/listen/joven",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "joven",
+      "options": [
+        "bueno",
+        "malo",
+        "viejo",
+        "joven"
+      ],
+      "audio": {
+        "text": "joven",
+        "lang": "es"
+      },
+      "translation": "young",
+      "note": "Young. It does not change for a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/select/viejo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “old”.",
+      "options": [
+        "malo",
+        "grande",
+        "bueno",
+        "viejo"
+      ],
+      "answer": "viejo",
+      "translation": "old",
+      "note": "Old. It changes to vieja before a feminine noun."
+    },
+    {
+      "id": "es/b1/u16/select/dinero",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “money”.",
+      "options": [
+        "el trabajo",
+        "el mapa",
+        "el número",
+        "el dinero"
+      ],
+      "answer": "el dinero",
+      "translation": "money",
+      "note": "Masculine: el dinero."
+    }
+  ]
+}
