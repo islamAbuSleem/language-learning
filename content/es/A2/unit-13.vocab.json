@@ -1,19 +1,176 @@
 {
   "unit": 13,
-  "title": "Knowing",
-  "description": "Say what you know, and what you remember.",
-  "grammar": "the verbs saber and conocer",
-  "grammarNote": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid.",
+  "title": "What you used to do",
+  "description": "Describe the past, the way it really was.",
+  "grammar": "the preterite imperfecto",
+  "grammarNote": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs.",
+  "explanation": {
+    "summary": "Spanish has two past tenses and the difference is about the camera, not the clock. The preterite says something happened at a moment. The imperfect says how things were, or what used to happen.",
+    "sections": [
+      {
+        "heading": "The two pasts",
+        "body": "The preterite is for a completed event: Ayer hablé con mi madre. The imperfect is for a background: De niño Jugaba en el parque. When a past event is interrupted by another past event, the interrupted one is imperfect: Leía cuando llamó. When one past event interrupts another, the interrupting one is preterite: Leía cuando llamó — the call is the interruption.",
+        "examples": [
+          {
+            "es": "Ayer hablé con mi madre.",
+            "en": "Yesterday I spoke to my mother."
+          },
+          {
+            "es": "De niño jugaba en el parque.",
+            "en": "As a child I used to play in the park."
+          },
+          {
+            "es": "Dormía cuando sonó el teléfono.",
+            "en": "I was sleeping when the phone rang."
+          }
+        ]
+      },
+      {
+        "heading": "How the forms are built",
+        "body": "For -ar verbs the imperfect ends in -aba: hablar, hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban. For -er and -ir verbs it ends in -ía: comer, comía, comías, comía, comíamos, comíais, comían. There are only three irregular verbs in the imperfect: ser was era, ir went iba, and ver saw veía.",
+        "examples": [
+          {
+            "es": "Hablaba español todos los días.",
+            "en": "I spoke Spanish every day."
+          },
+          {
+            "es": "Comía en casa.",
+            "en": "I ate at home."
+          },
+          {
+            "es": "Era muy pequeño.",
+            "en": "He was very small."
+          }
+        ]
+      },
+      {
+        "heading": "The one-liner",
+        "body": "The imperfect is for things you cannot put a time on: how things were, what you used to do, what you were doing. The preterite is for things that happened."
+      }
+    ]
+  },
   "items": [
-    { "es": "saber", "en": "to know", "article": null, "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben.", "tags": ["verb"] },
-    { "es": "conocer", "en": "to know", "article": null, "note": "For people and places. Its forms are irregular: conozco, conoces, conoce.", "tags": ["verb"] },
-    { "es": "recordar", "en": "to remember", "article": null, "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda.", "tags": ["verb"] },
-    { "es": "olvidar", "en": "to forget", "article": null, "note": "An infinitive ending in -ar: olvido, olvidas, olvida.", "tags": ["verb"] },
-    { "es": "entender", "en": "to understand", "article": null, "note": "An infinitive ending in -er: entiendo, entiendes, entiende.", "tags": ["verb"] },
-    { "es": "idioma", "en": "language", "article": "el", "note": "Masculine: el idioma. A particular language takes its own name: el español.", "tags": ["subject"] },
-    { "es": "español", "en": "Spanish", "article": "el", "note": "Masculine: el español.", "tags": ["subject"] },
-    { "es": "inglés", "en": "English", "article": "el", "note": "Masculine: el inglés.", "tags": ["subject"] },
-    { "es": "francés", "en": "French", "article": "el", "note": "Masculine: el francés.", "tags": ["subject"] },
-    { "es": "palabra", "en": "word", "article": "la", "note": "Feminine: la palabra.", "tags": ["object"] }
+    {
+      "es": "hablaba",
+      "en": "I spoke",
+      "article": null,
+      "note": "The imperfect of hablar. It describes how things were.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "comía",
+      "en": "I ate",
+      "article": null,
+      "note": "The imperfect of comer. It describes how things were.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vivía",
+      "en": "I lived",
+      "article": null,
+      "note": "The imperfect of vivir. It describes how things were.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "trabajaba",
+      "en": "I worked",
+      "article": null,
+      "note": "The imperfect of trabajar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "estudiaba",
+      "en": "I studied",
+      "article": null,
+      "note": "The imperfect of estudiar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "miraba",
+      "en": "I watched",
+      "article": null,
+      "note": "The imperfect of mirar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "buscaba",
+      "en": "I looked for",
+      "article": null,
+      "note": "The imperfect of buscar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "caminaba",
+      "en": "I walked",
+      "article": null,
+      "note": "The imperfect of caminar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "jugaba",
+      "en": "I played",
+      "article": null,
+      "note": "The imperfect of jugar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "era",
+      "en": "he was",
+      "article": null,
+      "note": "The imperfect of ser. It is irregular, like ir and ver.",
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "De niño ___ en el parque.",
+      "answer": "jugaba",
+      "meaning": "as a child I used to play in the park",
+      "note": "The imperfect for what you used to do."
+    },
+    {
+      "prompt": "Mientras yo ___ , sonó el teléfono.",
+      "answer": "dormía",
+      "meaning": "while I was sleeping, the phone rang",
+      "note": "The interrupted past is imperfect."
+    },
+    {
+      "prompt": "Ayer ___ con mi madre.",
+      "answer": "hablé",
+      "meaning": "yesterday I spoke to my mother",
+      "note": "A completed event takes the preterite."
+    },
+    {
+      "prompt": "Cuando era niño, ___ en casa.",
+      "answer": "vivía",
+      "meaning": "when I was a child, I lived at home",
+      "note": "The imperfect for how things were."
+    },
+    {
+      "prompt": "Él ___ muy alto.",
+      "answer": "era",
+      "meaning": "he was very tall",
+      "note": "Era is the imperfect of ser."
+    }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "unit": 15,
+  "title": "Your neighbourhood",
+  "description": "Say where you are from, and describe the place you live.",
+  "grammar": "ser de + a place, and estar cerca",
+  "grammarNote": "Where you are from is ser de: soy de Madrid. Where you are now is estar: estoy cerca.",
+  "explanation": {
+    "summary": "Spanish uses two different verbs for two different kinds of place. Ser de says where something comes from, and estar says where it is right now. Getting this the right way round is one of the first things a learner notices.",
+    "sections": [
+      {
+        "heading": "Where you are from",
+        "body": "Ser de + a place says where you come from: soy de Madrid, eres de Arabia. It does not change with estar, because being from somewhere is not a position, it is a fact. You can also say eres de + a city with no article: soy de Sevilla.",
+        "examples": [
+          { "es": "¿De dónde eres?", "en": "Where are you from?" },
+          { "es": "Soy de Riad.", "en": "I am from Riyadh." },
+          { "es": "Ella es de Barcelona.", "en": "She is from Barcelona." }
+        ]
+      },
+      {
+        "heading": "Where you are now",
+        "body": "Estar says where a thing or a person is at this moment: el banco está en la plaza, mi casa está cerca de la estación. Near and far are adjectives, not prepositions: está cerca, está lejos.",
+        "examples": [
+          { "es": "El banco está en la plaza.", "en": "The bench is in the square." },
+          { "es": "El hospital está cerca de la estación.", "en": "The hospital is near the station." },
+          { "es": "Mi casa está en un barrio tranquilo.", "en": "My house is in a quiet neighbourhood." }
+        ]
+      },
+      {
+        "heading": "Describing a place",
+        "body": "A place is described with ser: el barrio es tranquilo, la plaza es grande. A thing is described with estar: el barrio está tranquilo today, la plaza está llena. Ser says what it is, estar says how it is right now.",
+        "examples": [
+          { "es": "El barrio es antiguo.", "en": "The neighbourhood is old." },
+          { "es": "La plaza está llena de gente.", "en": "The square is full of people." },
+          { "es": "La calle es estrecha.", "en": "The street is narrow." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "barrio", "en": "neighbourhood", "article": "el", "note": "Masculine: el barrio. It also means a district of a city.", "tags": ["place"] },
+    { "es": "plaza", "en": "square", "article": "la", "note": "Feminine: la plaza. It is the square in a town.", "tags": ["place"] },
+    { "es": "edificio", "en": "building", "article": "el", "note": "Masculine: el edificio.", "tags": ["place"] },
+    { "es": "avenida", "en": "avenue", "article": "la", "note": "Feminine: la avenida.", "tags": ["place"] },
+    { "es": "esquina", "en": "corner", "article": "la", "note": "Feminine: la esquina.", "tags": ["place"] },
+    { "es": "banco", "en": "bench", "article": "el", "note": "Masculine: el banco. It also means a bank.", "tags": ["place"] },
+    { "es": "puente", "en": "bridge", "article": "el", "note": "Masculine: el puente.", "tags": ["place"] },
+    { "es": "fuente", "en": "fountain", "article": "la", "note": "Feminine: la fuente. It also means a source.", "tags": ["place"] },
+    { "es": "jardín", "en": "garden", "article": "el", "note": "Masculine: el jardín. The accent marks the stress.", "tags": ["place"] },
+    { "es": "ruido", "en": "noise", "article": "el", "note": "Masculine: el ruido.", "tags": ["place"] }
+  ],
+  "drills": [
+    { "prompt": "Soy ___ Madrid.", "answer": "de", "meaning": "I am from Madrid", "note": "Being from is ser de." },
+    { "prompt": "El banco ___ en la plaza.", "answer": "está", "meaning": "the bench is in the square", "note": "Position uses estar." },
+    { "prompt": "Mi casa está ___ de la estación.", "answer": "cerca", "meaning": "my house is near the station", "note": "Near is an adjective, not a preposition." },
+    { "prompt": "El barrio ___ antiguo.", "answer": "es", "meaning": "the neighbourhood is old", "note": "What a place is uses ser." },
+    { "prompt": "La plaza ___ llena de gente.", "answer": "está", "meaning": "the square is full of people", "note": "How a place is now uses estar." }
+  ]
+}

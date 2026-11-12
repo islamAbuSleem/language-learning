@@ -1,0 +1,99 @@
+{
+  "unit": 4,
+  "title": "Him, her, them",
+  "description": "Say who an action is for, without repeating the noun.",
+  "grammar": "direct object pronouns",
+  "grammarNote": "The object pronoun goes before the verb: lo veo, la escucho.",
+  "items": [
+    {
+      "es": "me",
+      "en": "me",
+      "article": null,
+      "note": "Me, and also myself: me llamo.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "te",
+      "en": "you",
+      "article": null,
+      "note": "You, singular. It also means to yourself.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "lo",
+      "en": "it",
+      "article": null,
+      "note": "It, him or it. It takes the place of a masculine object.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "la",
+      "en": "her",
+      "article": null,
+      "note": "It, her. It takes the place of a feminine object.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "nos",
+      "en": "us",
+      "article": null,
+      "note": "Us. It also means to ourselves.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "os",
+      "en": "you",
+      "article": null,
+      "note": "You, plural. It is used in Spain.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "los",
+      "en": "them",
+      "article": null,
+      "note": "Them, masculine or mixed.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "las",
+      "en": "them",
+      "article": null,
+      "note": "Them, feminine.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "ese",
+      "en": "that one",
+      "article": null,
+      "note": "That one, close to you. It changes to esa before a feminine noun.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "aquel",
+      "en": "that one over there",
+      "article": null,
+      "note": "That one, far from you. It changes to aquella.",
+      "tags": [
+        "pronoun"
+      ]
+    }
+  ]
+}

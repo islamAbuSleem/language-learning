@@ -2,178 +2,216 @@
   "track": "es",
   "level": "A2",
   "unit": 9,
-  "title": "Going somewhere",
-  "description": "Talk about leaving, arriving, and the journey.",
+  "title": "Liking things",
+  "description": "Say what you like, and what you do not.",
+  "explanation": {
+    "summary": "Spanish says what you like with gustar, and the thing you like comes first. This is the opposite of English, and it is the first real difference a learner has to unlearn.",
+    "sections": [
+      {
+        "heading": "The order is reversed",
+        "body": "Me gusta el café says the coffee is pleasing to me. The coffee is the subject, and the person is a me, te, le, nos at the front. If more than one thing is liked, it becomes plural: me gustan las pizzas. So you say me gusta for one thing, and me gustan for several.",
+        "examples": [
+          {
+            "es": "Me gusta el café.",
+            "en": "I like coffee."
+          },
+          {
+            "es": "Me gustan las pizzas.",
+            "en": "I like pizzas."
+          },
+          {
+            "es": "A mi hermana le gusta el fútbol.",
+            "en": "My sister likes football."
+          }
+        ]
+      },
+      {
+        "heading": "Stronger and softer",
+        "body": "Gustar is to like. Encantar is to love, and it works the same way: me encanta el chocolate. To say you do not like something, you put no in front and keep the order: no me gusta el pescado. And to say something is boring, use aburrir: la película es aburrida.",
+        "examples": [
+          {
+            "es": "Me encanta el chocolate.",
+            "en": "I love chocolate."
+          },
+          {
+            "es": "No me gusta el pescado.",
+            "en": "I do not like fish."
+          },
+          {
+            "es": "La película es aburrida.",
+            "en": "The film is boring."
+          }
+        ]
+      },
+      {
+        "heading": "There is, and there is not",
+        "body": "Hay says there is, and it never changes: hay un banco, hay dos bancos, no hay bancos. The verb is always hay, whatever the number.",
+        "examples": [
+          {
+            "es": "Hay un parque cerca de la plaza.",
+            "en": "There is a park near the square."
+          },
+          {
+            "es": "No hay agua en la nevera.",
+            "en": "There is no water in the fridge."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u9/match/ir",
+      "id": "es/a2/u9/match/gustar",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to go",
-          "right": "ir"
+          "left": "to like",
+          "right": "gustar"
         },
         {
-          "left": "to come",
-          "right": "venir"
+          "left": "to love",
+          "right": "encantar"
         },
         {
-          "left": "to return",
-          "right": "volver"
+          "left": "to bother",
+          "right": "molestar"
         },
         {
-          "left": "to leave",
-          "right": "salir"
+          "left": "to be interesting",
+          "right": "interesar"
         },
         {
-          "left": "to travel",
-          "right": "viajar"
+          "left": "to matter",
+          "right": "importar"
         }
       ],
-      "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
+      "note": "In English the subject comes first: I like coffee. In Spanish the thing comes first: me gusta el café."
     },
     {
-      "id": "es/a2/u9/select/ir",
+      "id": "es/a2/u9/select/gustar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to go”.",
+      "prompt": "Pick the Spanish word for “to like”.",
       "options": [
-        "llegar",
-        "ser",
-        "hablar",
-        "ir"
+        "abrir",
+        "compartir",
+        "descubrir",
+        "gustar"
       ],
-      "answer": "ir",
-      "translation": "to go",
-      "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van."
+      "answer": "gustar",
+      "translation": "to like",
+      "note": "An infinitive. Me gusta, te gusta, le gusta: the thing you like comes first."
     },
     {
-      "id": "es/a2/u9/type_in/venir",
+      "id": "es/a2/u9/drill/1",
       "type": "type_in",
-      "prompt": "Write “to come” in Spanish.",
-      "answer": "venir",
+      "prompt": "___ gusta el café.",
+      "answer": "Me",
       "acceptedAnswers": [
-        "venir"
+        "Me"
       ],
-      "translation": "to come",
-      "note": "An infinitive. Its forms are irregular: vengo, vienes, viene."
+      "translation": "I like coffee",
+      "note": "The person comes first with gustar."
     },
     {
-      "id": "es/a2/u9/listen/volver",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "volver",
-      "options": [
-        "volver",
-        "ser",
-        "llegar",
-        "viajar"
-      ],
-      "audio": {
-        "text": "volver",
-        "lang": "es"
-      },
-      "translation": "to return",
-      "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve."
-    },
-    {
-      "id": "es/a2/u9/match/tren",
+      "id": "es/a2/u9/match/pintura",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "train",
-          "right": "el tren"
+          "left": "painting",
+          "right": "la pintura"
         },
         {
-          "left": "car",
-          "right": "el coche"
+          "left": "football",
+          "right": "el fútbol"
         },
         {
-          "left": "plane",
-          "right": "el avión"
+          "left": "swimming pool",
+          "right": "la piscina"
         },
         {
-          "left": "ticket",
-          "right": "el billete"
+          "left": "nature",
+          "right": "la naturaleza"
         },
         {
-          "left": "airport",
-          "right": "el aeropuerto"
+          "left": "chocolate",
+          "right": "el chocolate"
         }
       ],
-      "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
+      "note": "In English the subject comes first: I like coffee. In Spanish the thing comes first: me gusta el café."
     },
     {
-      "id": "es/a2/u9/select/salir",
+      "id": "es/a2/u9/select/encantar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to leave”.",
+      "prompt": "Pick the Spanish word for “to love”.",
       "options": [
-        "hablar",
-        "estudiar",
+        "leer",
+        "correr",
+        "encantar",
+        "vender"
+      ],
+      "answer": "encantar",
+      "translation": "to love",
+      "note": "It works like gustar: me encanta el chocolate."
+    },
+    {
+      "id": "es/a2/u9/drill/2",
+      "type": "type_in",
+      "prompt": "Me ___ las pizzas.",
+      "answer": "gustan",
+      "acceptedAnswers": [
+        "gustan"
+      ],
+      "translation": "I like pizzas",
+      "note": "With more than one thing the verb is plural."
+    },
+    {
+      "id": "es/a2/u9/select/molestar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to bother”.",
+      "options": [
         "trabajar",
-        "salir"
+        "estudiar",
+        "hablar",
+        "molestar"
       ],
-      "answer": "salir",
-      "translation": "to leave",
-      "note": "An infinitive. Its forms are irregular: salgo, sales, sale."
+      "answer": "molestar",
+      "translation": "to bother",
+      "note": "It works like gustar: me molesta el ruido."
     },
     {
-      "id": "es/a2/u9/type_in/viajar",
+      "id": "es/a2/u9/drill/3",
       "type": "type_in",
-      "prompt": "Write “to travel” in Spanish.",
-      "answer": "viajar",
+      "prompt": "No ___ gusta el pescado.",
+      "answer": "me",
       "acceptedAnswers": [
-        "viajar"
+        "me"
       ],
-      "translation": "to travel",
-      "note": "An infinitive ending in -ar: viajo, viajas, viaja."
+      "translation": "I do not like fish",
+      "note": "No goes in front, the order stays."
     },
     {
-      "id": "es/a2/u9/listen/tren",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el tren",
-      "options": [
-        "el aeropuerto",
-        "el coche",
-        "el avión",
-        "el tren"
+      "id": "es/a2/u9/drill/4",
+      "type": "type_in",
+      "prompt": "___ un banco en la plaza.",
+      "answer": "Hay",
+      "acceptedAnswers": [
+        "Hay"
       ],
-      "audio": {
-        "text": "tren",
-        "lang": "es"
-      },
-      "translation": "train",
-      "note": "Masculine: el tren."
+      "translation": "there is a bench in the square",
+      "note": "Hay never changes form."
     },
     {
-      "id": "es/a2/u9/select/coche",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “car”.",
-      "options": [
-        "el aeropuerto",
-        "el tren",
-        "el coche",
-        "el billete"
+      "id": "es/a2/u9/drill/5",
+      "type": "type_in",
+      "prompt": "Me ___ el chocolate.",
+      "answer": "encanta",
+      "acceptedAnswers": [
+        "encanta"
       ],
-      "answer": "el coche",
-      "translation": "car",
-      "note": "Masculine: el coche."
-    },
-    {
-      "id": "es/a2/u9/select/avion",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “plane”.",
-      "options": [
-        "el billete",
-        "el aeropuerto",
-        "el coche",
-        "el avión"
-      ],
-      "answer": "el avión",
-      "translation": "plane",
-      "note": "Masculine: el avión. The accent marks the stress."
+      "translation": "I love chocolate",
+      "note": "Encantar works like gustar."
     }
   ]
 }

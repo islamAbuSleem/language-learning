@@ -1,0 +1,217 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 13,
+  "title": "What you hope, and what you doubt",
+  "description": "Say what might happen, and what you are not sure about.",
+  "explanation": {
+    "summary": "Spanish has a mood for things that are not certain: what you hope for, what you doubt, what you want someone to do. It is called the subjunctive, and it is built by taking the yo form and swapping the ending.",
+    "sections": [
+      {
+        "heading": "How the forms are built",
+        "body": "Take the yo form of the present and give it the endings of tú: yo hablo becomes hable, yo como becomes coma, yo vivo becomes viva. The endings are -e, -es, -e, -emos, -éis, -en. The six irregular yo forms change irregularly too: tengo becomes tenga, vengo becomes venga, hago becomes haga, pongo becomes ponga, digo becomes diga, sé becomes sea.",
+        "examples": [
+          {
+            "es": "Quiero que vengas.",
+            "en": "I want you to come."
+          },
+          {
+            "es": "Espero que llueva.",
+            "en": "I hope it rains."
+          },
+          {
+            "es": "No creo que sea verdad.",
+            "en": "I do not think it is true."
+          }
+        ]
+      },
+      {
+        "heading": "The three triggers",
+        "body": "The subjunctive appears after: expressions of will or feeling (quiero que, espero que, me alegro de que), expressions of doubt (no creo que, dudo que, es posible que), and after certain conjunctions (cuando, aunque, para que, porque, antes de que). After these the verb is in the subjunctive even when the subject is the same person: quiero que vengas, even though you are the one speaking.",
+        "examples": [
+          {
+            "es": "Cuando llegue, te llamo.",
+            "en": "When I arrive, I will call you."
+          },
+          {
+            "es": "Aunque sea difícil, lo hago.",
+            "en": "Even if it is difficult, I will do it."
+          },
+          {
+            "es": "Te lo digo para que lo sepas.",
+            "en": "I am telling you so that you know."
+          }
+        ]
+      },
+      {
+        "heading": "The same tense, the same word",
+        "body": "The present indicative and the present subjunctive have the same endings except for the yo form. That is why the yo form is the one that matters: hablo against hable. Learn the six irregular ones and the rest follows.",
+        "examples": [
+          {
+            "es": "Hablo español todos los días.",
+            "en": "I speak Spanish every day."
+          },
+          {
+            "es": "Espero que hables español.",
+            "en": "I hope you speak Spanish."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u13/match/hable",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "speak",
+          "right": "hable"
+        },
+        {
+          "left": "eat",
+          "right": "coma"
+        },
+        {
+          "left": "live",
+          "right": "viva"
+        },
+        {
+          "left": "work",
+          "right": "trabaje"
+        },
+        {
+          "left": "study",
+          "right": "estudie"
+        }
+      ],
+      "note": "The present subjunctive is the opposite of the yo form: hable, coma, viva."
+    },
+    {
+      "id": "es/b1/u13/select/hable",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “speak”.",
+      "options": [
+        "entender",
+        "encantar",
+        "gustar",
+        "hable"
+      ],
+      "answer": "hable",
+      "translation": "speak",
+      "note": "The subjunctive of hablar. It is the opposite of the yo form."
+    },
+    {
+      "id": "es/b1/u13/drill/1",
+      "type": "type_in",
+      "prompt": "Quiero que ___.",
+      "answer": "vengas",
+      "acceptedAnswers": [
+        "vengas"
+      ],
+      "translation": "I want you to come",
+      "note": "Quiero que takes the subjunctive."
+    },
+    {
+      "id": "es/b1/u13/match/venga",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "come",
+          "right": "venga"
+        },
+        {
+          "left": "have",
+          "right": "tenga"
+        },
+        {
+          "left": "do",
+          "right": "haga"
+        },
+        {
+          "left": "be",
+          "right": "sea"
+        },
+        {
+          "left": "say",
+          "right": "diga"
+        }
+      ],
+      "note": "The present subjunctive is the opposite of the yo form: hable, coma, viva."
+    },
+    {
+      "id": "es/b1/u13/select/coma",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “eat”.",
+      "options": [
+        "servir",
+        "repetir",
+        "coma",
+        "pedir"
+      ],
+      "answer": "coma",
+      "translation": "eat",
+      "note": "The subjunctive of comer. It is the opposite of the yo form."
+    },
+    {
+      "id": "es/b1/u13/drill/2",
+      "type": "type_in",
+      "prompt": "Espero que ___ español.",
+      "answer": "hables",
+      "acceptedAnswers": [
+        "hables"
+      ],
+      "translation": "I hope you speak Spanish",
+      "note": "The subjunctive is the opposite of the yo form."
+    },
+    {
+      "id": "es/b1/u13/select/viva",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “live”.",
+      "options": [
+        "hacer",
+        "conocer",
+        "saber",
+        "viva"
+      ],
+      "answer": "viva",
+      "translation": "live",
+      "note": "The subjunctive of vivir. It is the opposite of the yo form."
+    },
+    {
+      "id": "es/b1/u13/drill/3",
+      "type": "type_in",
+      "prompt": "No creo que ___ verdad.",
+      "answer": "sea",
+      "acceptedAnswers": [
+        "sea"
+      ],
+      "translation": "I do not think it is true",
+      "note": "Doubt takes the subjunctive."
+    },
+    {
+      "id": "es/b1/u13/drill/4",
+      "type": "type_in",
+      "prompt": "Cuando ___, te llamo.",
+      "answer": "llegue",
+      "acceptedAnswers": [
+        "llegue"
+      ],
+      "translation": "when I arrive, I will call you",
+      "note": "Cuando takes the subjunctive."
+    },
+    {
+      "id": "es/b1/u13/drill/5",
+      "type": "type_in",
+      "prompt": "Es posible que ___ tiempo.",
+      "answer": "tenga",
+      "acceptedAnswers": [
+        "tenga"
+      ],
+      "translation": "it is possible that I have time",
+      "note": "Es posible que takes the subjunctive, and tenga is irregular."
+    }
+  ]
+}

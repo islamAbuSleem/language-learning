@@ -2,178 +2,206 @@
   "track": "es",
   "level": "A2",
   "unit": 12,
-  "title": "Asking",
-  "description": "Ask the questions you need answered.",
+  "title": "What will happen",
+  "description": "Say what you are going to do, and what will happen.",
+  "explanation": {
+    "summary": "Spanish has two ways to talk about the future. The common one is ir a + an infinitive, which is what people actually use when they are making plans. The other is the simple future, a single verb ending in -é, which is used for predictions and for things that will happen on their own.",
+    "sections": [
+      {
+        "heading": "Plans: ir a + infinitive",
+        "body": "For what you intend to do, Spanish uses ir a followed by an infinitive: voy a estudiar, vas a venir. It is the normal way to talk about plans, and it is often shorter than the simple future. You can also use the simple future with ir: voy a ir al médico, and the two together are not wrong, just more emphatic.",
+        "examples": [
+          {
+            "es": "Voy a estudiar español.",
+            "en": "I am going to study Spanish."
+          },
+          {
+            "es": "¿Vas a venir a la fiesta?",
+            "en": "Are you going to come to the party?"
+          },
+          {
+            "es": "Vamos a comer.",
+            "en": "We are going to eat."
+          }
+        ]
+      },
+      {
+        "heading": "Predictions: the simple future",
+        "body": "The simple future is one verb: hablo, hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán. For -ir verbs it drops the r of the infinitive: comer becomes comeré. For -er and -ar verbs the ending is added to the whole infinitive: hablar becomes hablaré. It is used for predictions and for things that happen by themselves: mañana lloverá, el tren llegará tarde.",
+        "examples": [
+          {
+            "es": "Mañana lloverá.",
+            "en": "It will rain tomorrow."
+          },
+          {
+            "es": "El tren llegará tarde.",
+            "en": "The train will arrive late."
+          },
+          {
+            "es": "No importa, hablaré contigo mañana.",
+            "en": "It does not matter, I will talk to you tomorrow."
+          }
+        ]
+      },
+      {
+        "heading": "Two ways, one meaning",
+        "body": "Voy a ir al médico and iré al médico say the same thing. The first sounds closer to what you have decided. The second sounds more like a fact about the future."
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u12/match/que",
+      "id": "es/a2/u12/match/hablare",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "what",
-          "right": "qué"
+          "left": "I will speak",
+          "right": "hablaré"
         },
         {
-          "left": "who",
-          "right": "quién"
+          "left": "I will eat",
+          "right": "comeré"
         },
         {
-          "left": "where",
-          "right": "dónde"
+          "left": "I will live",
+          "right": "viviré"
         },
         {
-          "left": "when",
-          "right": "cuándo"
+          "left": "I will work",
+          "right": "trabajaré"
         },
         {
-          "left": "why",
-          "right": "por qué"
+          "left": "I will study",
+          "right": "estudiaré"
         }
       ],
-      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+      "note": "The simple future ends in -é, -ás, -á, -emos, -éis, -án: hablaré, hablarás, hablará."
     },
     {
-      "id": "es/a2/u12/select/que",
+      "id": "es/a2/u12/select/hablare",
       "type": "select",
-      "prompt": "Pick the Spanish word for “what”.",
+      "prompt": "Pick the Spanish word for “I will speak”.",
       "options": [
-        "la pregunta",
-        "cómo te llamas",
-        "cuánto",
-        "qué"
+        "caminar",
+        "cocinar",
+        "estudiar",
+        "hablaré"
       ],
-      "answer": "qué",
-      "translation": "what",
-      "note": "What. It carries an accent in a question."
+      "answer": "hablaré",
+      "translation": "I will speak",
+      "note": "The future of hablar. The ending is added to the whole infinitive."
     },
     {
-      "id": "es/a2/u12/type_in/quien",
+      "id": "es/a2/u12/drill/1",
       "type": "type_in",
-      "prompt": "Write “who” in Spanish.",
-      "answer": "quién",
+      "prompt": "Mañana ___ llover.",
+      "answer": "lloverá",
       "acceptedAnswers": [
-        "quien"
+        "llovera"
       ],
-      "translation": "who",
-      "note": "Who. It carries an accent in a question."
+      "translation": "tomorrow it will rain",
+      "note": "The simple future for a prediction."
     },
     {
-      "id": "es/a2/u12/listen/donde",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "dónde",
-      "options": [
-        "cuándo",
-        "quién",
-        "dónde",
-        "por qué"
-      ],
-      "audio": {
-        "text": "dónde",
-        "lang": "es"
-      },
-      "translation": "where",
-      "note": "Where. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u12/match/como",
+      "id": "es/a2/u12/match/vere",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "how",
-          "right": "cómo"
+          "left": "I will see",
+          "right": "veré"
         },
         {
-          "left": "how much",
-          "right": "cuánto"
+          "left": "I will do",
+          "right": "haré"
         },
         {
-          "left": "to do",
-          "right": "hacer"
+          "left": "I will be able to",
+          "right": "podré"
         },
         {
-          "left": "question",
-          "right": "la pregunta"
+          "left": "I will come",
+          "right": "vendré"
         },
         {
-          "left": "help",
-          "right": "la ayuda"
+          "left": "I will want to",
+          "right": "querré"
         }
       ],
-      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+      "note": "The simple future ends in -é, -ás, -á, -emos, -éis, -án: hablaré, hablarás, hablará."
     },
     {
-      "id": "es/a2/u12/select/cuando",
+      "id": "es/a2/u12/select/comere",
       "type": "select",
-      "prompt": "Pick the Spanish word for “when”.",
+      "prompt": "Pick the Spanish word for “I will eat”.",
       "options": [
-        "quién",
-        "dónde",
-        "por qué",
-        "cuándo"
-      ],
-      "answer": "cuándo",
-      "translation": "when",
-      "note": "When. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u12/type_in/por-que",
-      "type": "type_in",
-      "prompt": "Write “why” in Spanish.",
-      "answer": "por qué",
-      "acceptedAnswers": [
-        "por que"
-      ],
-      "translation": "why",
-      "note": "Why. Por and qué are written separately."
-    },
-    {
-      "id": "es/a2/u12/listen/como",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "cómo",
-      "options": [
-        "la pregunta",
-        "cómo te llamas",
-        "cómo estás",
-        "cómo"
-      ],
-      "audio": {
-        "text": "cómo",
-        "lang": "es"
-      },
-      "translation": "how",
-      "note": "How. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u12/select/cuanto",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “how much”.",
-      "options": [
-        "la pregunta",
-        "cómo estás",
-        "cómo te llamas",
-        "cuánto"
-      ],
-      "answer": "cuánto",
-      "translation": "how much",
-      "note": "How much or how many. It carries an accent in a question."
-    },
-    {
-      "id": "es/a2/u12/select/hacer",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to do”.",
-      "options": [
-        "escribir",
-        "responder",
+        "hay",
+        "saber",
         "hacer",
-        "recibir"
+        "comeré"
       ],
-      "answer": "hacer",
-      "translation": "to do",
-      "note": "An infinitive. Its forms are irregular: hago, haces, hace."
+      "answer": "comeré",
+      "translation": "I will eat",
+      "note": "The future of comer. For -er verbs the ending is added to the whole infinitive."
+    },
+    {
+      "id": "es/a2/u12/drill/2",
+      "type": "type_in",
+      "prompt": "Voy ___ estudiar español.",
+      "answer": "a",
+      "acceptedAnswers": [
+        "a"
+      ],
+      "translation": "I am going to study Spanish",
+      "note": "Plans use ir a plus an infinitive."
+    },
+    {
+      "id": "es/a2/u12/select/vivire",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I will live”.",
+      "options": [
+        "querré",
+        "ser",
+        "llegar",
+        "viviré"
+      ],
+      "answer": "viviré",
+      "translation": "I will live",
+      "note": "The future of vivir. For -ir verbs the r of the infinitive is dropped."
+    },
+    {
+      "id": "es/a2/u12/drill/3",
+      "type": "type_in",
+      "prompt": "El tren ___ tarde.",
+      "answer": "llegará",
+      "acceptedAnswers": [
+        "llegara"
+      ],
+      "translation": "the train will arrive late",
+      "note": "A prediction uses the simple future."
+    },
+    {
+      "id": "es/a2/u12/drill/4",
+      "type": "type_in",
+      "prompt": "¿Vas ___ venir?",
+      "answer": "a",
+      "acceptedAnswers": [
+        "a"
+      ],
+      "translation": "are you going to come?",
+      "note": "Ir a before an infinitive."
+    },
+    {
+      "id": "es/a2/u12/drill/5",
+      "type": "type_in",
+      "prompt": "No ___ importa, hablaré contigo.",
+      "answer": "importa",
+      "acceptedAnswers": [
+        "importa"
+      ],
+      "translation": "it does not matter, I will talk to you",
+      "note": "Importar in the negative with the simple future."
     }
   ]
 }

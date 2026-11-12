@@ -1,0 +1,99 @@
+{
+  "unit": 3,
+  "title": "Going somewhere",
+  "description": "Talk about leaving, arriving, and the journey.",
+  "grammar": "the verb ir in the present",
+  "grammarNote": "Ir is irregular: voy, vas, va, vamos, vais, van.",
+  "items": [
+    {
+      "es": "ir",
+      "en": "to go",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "venir",
+      "en": "to come",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: vengo, vienes, viene.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "volver",
+      "en": "to return",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "salir",
+      "en": "to leave",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: salgo, sales, sale.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "viajar",
+      "en": "to travel",
+      "article": null,
+      "note": "An infinitive ending in -ar: viajo, viajas, viaja.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "tren",
+      "en": "train",
+      "article": "el",
+      "note": "Masculine: el tren.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "es": "coche",
+      "en": "car",
+      "article": "el",
+      "note": "Masculine: el coche.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "es": "avión",
+      "en": "plane",
+      "article": "el",
+      "note": "Masculine: el avión. The accent marks the stress.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "es": "billete",
+      "en": "ticket",
+      "article": "el",
+      "note": "Masculine: el billete. A travel ticket is un billete de viaje.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "es": "aeropuerto",
+      "en": "airport",
+      "article": "el",
+      "note": "Masculine: el aeropuerto.",
+      "tags": [
+        "transport"
+      ]
+    }
+  ]
+}

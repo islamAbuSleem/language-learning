@@ -2,178 +2,212 @@
   "track": "es",
   "level": "B1",
   "unit": 15,
-  "title": "Changing verbs",
-  "description": "Verbs that change their ending in the present.",
+  "title": "The person, not the thing",
+  "description": "Describe a person or a thing without repeating the noun.",
+  "explanation": {
+    "summary": "A relative clause describes a noun and goes straight after it. In Spanish the word for who or what you are describing comes first, and the noun it describes follows the clause.",
+    "sections": [
+      {
+        "heading": "The four relative words",
+        "body": "Que is the general one: la mujer que canta. Quien is for people: el amigo que llamaré. Donde is for places: la ciudad donde nací. Cuyo means whose: el hombre cuyo coche es rojo. When the relative clause needs a subject of its own, Spanish uses que for things and quien for people.",
+        "examples": [
+          {
+            "es": "La mujer que canta es mi hermana.",
+            "en": "The woman who sings is my sister."
+          },
+          {
+            "es": "Conozco a un amigo que habla árabe.",
+            "en": "I know a friend who speaks Arabic."
+          },
+          {
+            "es": "La ciudad donde nací es pequeña.",
+            "en": "The city where I was born is small."
+          }
+        ]
+      },
+      {
+        "heading": "The verb goes at the end",
+        "body": "In a relative clause the subject comes first and the verb goes at the end, and there is no word for that. El hombre que vive en Madrid is not el hombre que vive en el Madrid. That is why the clause sounds like a question without the question mark.",
+        "examples": [
+          {
+            "es": "El libro que compré es interesante.",
+            "en": "The book I bought is interesting."
+          },
+          {
+            "es": "La chica que está al lado es Ana.",
+            "en": "The girl who is next door is Ana."
+          }
+        ]
+      },
+      {
+        "heading": "When there is no verb",
+        "body": "If the clause only describes the noun, there is no verb and no word for that either: la casa de mi madre, el coche rojo de mi padre. This is very common in Spanish and it is easier than the English of that.",
+        "examples": [
+          {
+            "es": "El restaurante de mi tío está cerca.",
+            "en": "My uncle's restaurant is close."
+          },
+          {
+            "es": "Las fotos de las vacaciones son bonitas.",
+            "en": "The photos from the holiday are nice."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/b1/u15/match/querer",
+      "id": "es/b1/u15/match/que",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to want",
-          "right": "querer"
+          "left": "that",
+          "right": "que"
         },
         {
-          "left": "to be able to",
-          "right": "poder"
+          "left": "who",
+          "right": "quien"
         },
         {
-          "left": "to sleep",
-          "right": "dormir"
+          "left": "where",
+          "right": "donde"
         },
         {
-          "left": "to follow",
-          "right": "seguir"
+          "left": "whose",
+          "right": "cuyo"
         },
         {
-          "left": "to prefer",
-          "right": "preferir"
+          "left": "neighbour",
+          "right": "el vecino"
         }
       ],
-      "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
+      "note": "The relative word describes the noun: el hombre que trabaja aquí, la casa donde vivo."
     },
     {
-      "id": "es/b1/u15/select/querer",
+      "id": "es/b1/u15/select/que",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to want”.",
+      "prompt": "Pick the Spanish word for “that”.",
       "options": [
-        "estar",
-        "beber",
-        "comer",
-        "querer"
+        "quien",
+        "cuyo",
+        "donde",
+        "que"
       ],
-      "answer": "querer",
-      "translation": "to want",
-      "note": "The e changes to ie: quiero, quieres, quiere."
+      "answer": "que",
+      "translation": "that",
+      "note": "The general relative word: la mujer que canta."
     },
     {
-      "id": "es/b1/u15/type_in/poder",
+      "id": "es/b1/u15/drill/1",
       "type": "type_in",
-      "prompt": "Write “to be able to” in Spanish.",
-      "answer": "poder",
+      "prompt": "La mujer ___ canta es mi hermana.",
+      "answer": "que",
       "acceptedAnswers": [
-        "poder"
+        "que"
       ],
-      "translation": "to be able to",
-      "note": "The o changes to ue: puedo, puedes, puede."
+      "translation": "the woman who sings is my sister",
+      "note": "Que is the general relative word."
     },
     {
-      "id": "es/b1/u15/listen/dormir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "dormir",
-      "options": [
-        "conocer",
-        "recordar",
-        "saber",
-        "dormir"
-      ],
-      "audio": {
-        "text": "dormir",
-        "lang": "es"
-      },
-      "translation": "to sleep",
-      "note": "The o changes to ue: duermo, duermes, duerme."
-    },
-    {
-      "id": "es/b1/u15/match/mentir",
+      "id": "es/b1/u15/match/colega",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to lie",
-          "right": "mentir"
+          "left": "colleague",
+          "right": "el colega"
         },
         {
-          "left": "to close",
-          "right": "cerrar"
+          "left": "boss",
+          "right": "el jefe"
         },
         {
-          "left": "to wake up",
-          "right": "despertar"
+          "left": "relative",
+          "right": "el pariente"
         },
         {
-          "left": "to feel",
-          "right": "sentir"
+          "left": "nickname",
+          "right": "el apodo"
         },
         {
-          "left": "advice",
-          "right": "el consejo"
+          "left": "neighbourhood",
+          "right": "el vecindario"
         }
       ],
-      "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
+      "note": "The relative word describes the noun: el hombre que trabaja aquí, la casa donde vivo."
     },
     {
-      "id": "es/b1/u15/select/seguir",
+      "id": "es/b1/u15/select/quien",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to follow”.",
+      "prompt": "Pick the Spanish word for “who”.",
       "options": [
-        "vender",
-        "correr",
-        "perder",
-        "seguir"
+        "donde",
+        "cuyo",
+        "que",
+        "quien"
       ],
-      "answer": "seguir",
-      "translation": "to follow",
-      "note": "The e changes to ie: sigo, sigues, sigue. It also means to continue."
+      "answer": "quien",
+      "translation": "who",
+      "note": "For people: el amigo que llamaré becomes quien llamaré."
     },
     {
-      "id": "es/b1/u15/type_in/preferir",
+      "id": "es/b1/u15/drill/2",
       "type": "type_in",
-      "prompt": "Write “to prefer” in Spanish.",
-      "answer": "preferir",
+      "prompt": "La ciudad ___ nací es pequeña.",
+      "answer": "donde",
       "acceptedAnswers": [
-        "preferir"
+        "donde"
       ],
-      "translation": "to prefer",
-      "note": "The e changes to ie: prefiero, prefieres, prefiere."
+      "translation": "the city where I was born is small",
+      "note": "Donde is for places."
     },
     {
-      "id": "es/b1/u15/listen/mentir",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "mentir",
-      "options": [
-        "descubrir",
-        "servir",
-        "pedir",
-        "mentir"
-      ],
-      "audio": {
-        "text": "mentir",
-        "lang": "es"
-      },
-      "translation": "to lie",
-      "note": "The e changes to ie: miento, mientes, miente."
-    },
-    {
-      "id": "es/b1/u15/select/cerrar",
+      "id": "es/b1/u15/select/donde",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to close”.",
+      "prompt": "Pick the Spanish word for “where”.",
       "options": [
-        "hablar",
-        "estudiar",
-        "trabajar",
-        "cerrar"
+        "cuyo",
+        "que",
+        "quien",
+        "donde"
       ],
-      "answer": "cerrar",
-      "translation": "to close",
-      "note": "The e changes to ie: cierro, cierras, cierra."
+      "answer": "donde",
+      "translation": "where",
+      "note": "For places: la ciudad donde nací."
     },
     {
-      "id": "es/b1/u15/select/despertar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to wake up”.",
-      "options": [
-        "sentir",
-        "llegar",
-        "cerrar",
-        "despertar"
+      "id": "es/b1/u15/drill/3",
+      "type": "type_in",
+      "prompt": "Conozco a un amigo ___ habla árabe.",
+      "answer": "que",
+      "acceptedAnswers": [
+        "que"
       ],
-      "answer": "despertar",
-      "translation": "to wake up",
-      "note": "The e changes to ie: despierto, despiertas, despierta."
+      "translation": "I know a friend who speaks Arabic",
+      "note": "Que can be used for people too."
+    },
+    {
+      "id": "es/b1/u15/drill/4",
+      "type": "type_in",
+      "prompt": "El hombre ___ coche es rojo.",
+      "answer": "cuyo",
+      "acceptedAnswers": [
+        "cuyo"
+      ],
+      "translation": "the man whose car is red",
+      "note": "Cuyo means whose."
+    },
+    {
+      "id": "es/b1/u15/drill/5",
+      "type": "type_in",
+      "prompt": "La chica ___ está al lado es Ana.",
+      "answer": "que",
+      "acceptedAnswers": [
+        "que"
+      ],
+      "translation": "the girl who is next door is Ana",
+      "note": "The verb goes at the end of the clause."
     }
   ]
 }

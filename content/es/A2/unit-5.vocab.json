@@ -1,0 +1,99 @@
+{
+  "unit": 5,
+  "title": "Having and needing",
+  "description": "Say what you have, what you want, and what you must do.",
+  "grammar": "expressions with the verb tener",
+  "grammarNote": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+  "items": [
+    {
+      "es": "tener",
+      "en": "to have",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "querer",
+      "en": "to want",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "poder",
+      "en": "to be able to",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: puedo, puedes, puede.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "deber",
+      "en": "must",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: debo, debes, debe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "hay",
+      "en": "there is",
+      "article": null,
+      "note": "There is, there are. It never changes form.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "hambre",
+      "en": "hunger",
+      "article": "la",
+      "note": "Feminine: la hambre. You say tener hambre.",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "es": "sed",
+      "en": "thirst",
+      "article": "la",
+      "note": "Feminine: la sed. You say tener sed.",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "es": "sueño",
+      "en": "sleep",
+      "article": "el",
+      "note": "Masculine: el sueño. You say tener sueño.",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "es": "miedo",
+      "en": "fear",
+      "article": "el",
+      "note": "Masculine: el miedo. You say tener miedo.",
+      "tags": [
+        "feeling"
+      ]
+    },
+    {
+      "es": "gana",
+      "en": "it pays",
+      "article": null,
+      "note": "No article: esto gana. It also means wins.",
+      "tags": [
+        "object"
+      ]
+    }
+  ]
+}

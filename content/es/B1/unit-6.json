@@ -1,12 +1,12 @@
 {
   "track": "es",
   "level": "B1",
-  "unit": 20,
+  "unit": 6,
   "title": "Myself",
   "description": "Say what you do to yourself.",
   "exercises": [
     {
-      "id": "es/b1/u20/match/ducharse",
+      "id": "es/b1/u6/match/ducharse",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -34,21 +34,21 @@
       "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
     },
     {
-      "id": "es/b1/u20/select/ducharse",
+      "id": "es/b1/u6/select/ducharse",
       "type": "select",
       "prompt": "Pick the Spanish word for “to shower”.",
       "options": [
-        "estar",
-        "comer",
-        "ducharse",
-        "necesitar"
+        "compartir",
+        "descubrir",
+        "abrir",
+        "ducharse"
       ],
       "answer": "ducharse",
       "translation": "to shower",
       "note": "Me ducho every morning. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/type_in/vestirse",
+      "id": "es/b1/u6/type_in/vestirse",
       "type": "type_in",
       "prompt": "Write “to get dressed” in Spanish.",
       "answer": "vestirse",
@@ -59,15 +59,15 @@
       "note": "Me visto. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/listen/acostarse",
+      "id": "es/b1/u6/listen/acostarse",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "acostarse",
       "options": [
-        "olvidar",
-        "entender",
-        "recordar",
-        "acostarse"
+        "acostarse",
+        "recibir",
+        "abrir",
+        "compartir"
       ],
       "audio": {
         "text": "acostarse",
@@ -77,7 +77,7 @@
       "note": "Me acuesto. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/match/levantarse",
+      "id": "es/b1/u6/match/levantarse",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -105,7 +105,7 @@
       "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
     },
     {
-      "id": "es/b1/u20/select/afeitarse",
+      "id": "es/b1/u6/select/afeitarse",
       "type": "select",
       "prompt": "Pick the Spanish word for “to shave”.",
       "options": [
@@ -119,7 +119,7 @@
       "note": "Me afeito. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/type_in/cepillarse",
+      "id": "es/b1/u6/type_in/cepillarse",
       "type": "type_in",
       "prompt": "Write “to brush” in Spanish.",
       "answer": "cepillarse",
@@ -130,15 +130,15 @@
       "note": "Me cepillo los dientes. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/listen/levantarse",
+      "id": "es/b1/u6/listen/levantarse",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "levantarse",
       "options": [
-        "despertar",
-        "ducharse",
-        "sentir",
-        "levantarse"
+        "escribir",
+        "recibir",
+        "levantarse",
+        "responder"
       ],
       "audio": {
         "text": "levantarse",
@@ -148,28 +148,28 @@
       "note": "Me levanto. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/select/relajarse",
+      "id": "es/b1/u6/select/relajarse",
       "type": "select",
       "prompt": "Pick the Spanish word for “to relax”.",
       "options": [
-        "comer",
-        "aprender",
-        "beber",
-        "relajarse"
+        "relajarse",
+        "he trabajado",
+        "he estudiado",
+        "he vivido"
       ],
       "answer": "relajarse",
       "translation": "to relax",
       "note": "Me relajo. It keeps the -se ending."
     },
     {
-      "id": "es/b1/u20/select/espejo",
+      "id": "es/b1/u6/select/espejo",
       "type": "select",
       "prompt": "Pick the Spanish word for “mirror”.",
       "options": [
-        "el consejo",
-        "el dinero",
-        "el trabajo",
-        "el espejo"
+        "el jabón",
+        "la toalla",
+        "el espejo",
+        "el trabajo"
       ],
       "answer": "el espejo",
       "translation": "mirror",

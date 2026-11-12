@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 5,
+  "title": "Having and needing",
+  "description": "Say what you have, what you want, and what you must do.",
+  "exercises": [
+    {
+      "id": "es/a2/u5/match/tener",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to have",
+          "right": "tener"
+        },
+        {
+          "left": "to want",
+          "right": "querer"
+        },
+        {
+          "left": "to be able to",
+          "right": "poder"
+        },
+        {
+          "left": "must",
+          "right": "deber"
+        },
+        {
+          "left": "there is",
+          "right": "hay"
+        }
+      ],
+      "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
+    },
+    {
+      "id": "es/a2/u5/select/tener",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to have”.",
+      "options": [
+        "llegar",
+        "ser",
+        "hablar",
+        "tener"
+      ],
+      "answer": "tener",
+      "translation": "to have",
+      "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene."
+    },
+    {
+      "id": "es/a2/u5/type_in/querer",
+      "type": "type_in",
+      "prompt": "Write “to want” in Spanish.",
+      "answer": "querer",
+      "acceptedAnswers": [
+        "querer"
+      ],
+      "translation": "to want",
+      "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere."
+    },
+    {
+      "id": "es/a2/u5/listen/poder",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "poder",
+      "options": [
+        "poder",
+        "caminar",
+        "cocinar",
+        "estudiar"
+      ],
+      "audio": {
+        "text": "poder",
+        "lang": "es"
+      },
+      "translation": "to be able to",
+      "note": "An infinitive. Its forms are irregular: puedo, puedes, puede."
+    },
+    {
+      "id": "es/a2/u5/match/hambre",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "hunger",
+          "right": "la hambre"
+        },
+        {
+          "left": "thirst",
+          "right": "la sed"
+        },
+        {
+          "left": "sleep",
+          "right": "el sueño"
+        },
+        {
+          "left": "fear",
+          "right": "el miedo"
+        },
+        {
+          "left": "it pays",
+          "right": "gana"
+        }
+      ],
+      "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
+    },
+    {
+      "id": "es/a2/u5/select/deber",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “must”.",
+      "options": [
+        "caminar",
+        "estudiar",
+        "deber",
+        "cocinar"
+      ],
+      "answer": "deber",
+      "translation": "must",
+      "note": "An infinitive. Its forms are irregular: debo, debes, debe."
+    },
+    {
+      "id": "es/a2/u5/type_in/hay",
+      "type": "type_in",
+      "prompt": "Write “there is” in Spanish.",
+      "answer": "hay",
+      "acceptedAnswers": [
+        "hay"
+      ],
+      "translation": "there is",
+      "note": "There is, there are. It never changes form."
+    },
+    {
+      "id": "es/a2/u5/listen/hambre",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la hambre",
+      "options": [
+        "el miedo",
+        "el sueño",
+        "la sed",
+        "la hambre"
+      ],
+      "audio": {
+        "text": "hambre",
+        "lang": "es"
+      },
+      "translation": "hunger",
+      "note": "Feminine: la hambre. You say tener hambre."
+    },
+    {
+      "id": "es/a2/u5/select/sed",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “thirst”.",
+      "options": [
+        "la hambre",
+        "el sueño",
+        "el miedo",
+        "la sed"
+      ],
+      "answer": "la sed",
+      "translation": "thirst",
+      "note": "Feminine: la sed. You say tener sed."
+    },
+    {
+      "id": "es/a2/u5/select/sueno",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “sleep”.",
+      "options": [
+        "la hambre",
+        "la sed",
+        "el miedo",
+        "el sueño"
+      ],
+      "answer": "el sueño",
+      "translation": "sleep",
+      "note": "Masculine: el sueño. You say tener sueño."
+    }
+  ]
+}

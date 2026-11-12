@@ -1,19 +1,186 @@
 {
   "unit": 9,
-  "title": "Going somewhere",
-  "description": "Talk about leaving, arriving, and the journey.",
-  "grammar": "the verb ir in the present",
-  "grammarNote": "Ir is irregular: voy, vas, va, vamos, vais, van.",
+  "title": "Liking things",
+  "description": "Say what you like, and what you do not.",
+  "grammar": "hay, and the verb gustar",
+  "grammarNote": "In English the subject comes first: I like coffee. In Spanish the thing comes first: me gusta el café.",
+  "explanation": {
+    "summary": "Spanish says what you like with gustar, and the thing you like comes first. This is the opposite of English, and it is the first real difference a learner has to unlearn.",
+    "sections": [
+      {
+        "heading": "The order is reversed",
+        "body": "Me gusta el café says the coffee is pleasing to me. The coffee is the subject, and the person is a me, te, le, nos at the front. If more than one thing is liked, it becomes plural: me gustan las pizzas. So you say me gusta for one thing, and me gustan for several.",
+        "examples": [
+          {
+            "es": "Me gusta el café.",
+            "en": "I like coffee."
+          },
+          {
+            "es": "Me gustan las pizzas.",
+            "en": "I like pizzas."
+          },
+          {
+            "es": "A mi hermana le gusta el fútbol.",
+            "en": "My sister likes football."
+          }
+        ]
+      },
+      {
+        "heading": "Stronger and softer",
+        "body": "Gustar is to like. Encantar is to love, and it works the same way: me encanta el chocolate. To say you do not like something, you put no in front and keep the order: no me gusta el pescado. And to say something is boring, use aburrir: la película es aburrida.",
+        "examples": [
+          {
+            "es": "Me encanta el chocolate.",
+            "en": "I love chocolate."
+          },
+          {
+            "es": "No me gusta el pescado.",
+            "en": "I do not like fish."
+          },
+          {
+            "es": "La película es aburrida.",
+            "en": "The film is boring."
+          }
+        ]
+      },
+      {
+        "heading": "There is, and there is not",
+        "body": "Hay says there is, and it never changes: hay un banco, hay dos bancos, no hay bancos. The verb is always hay, whatever the number.",
+        "examples": [
+          {
+            "es": "Hay un parque cerca de la plaza.",
+            "en": "There is a park near the square."
+          },
+          {
+            "es": "No hay agua en la nevera.",
+            "en": "There is no water in the fridge."
+          }
+        ]
+      }
+    ]
+  },
   "items": [
-    { "es": "ir", "en": "to go", "article": null, "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van.", "tags": ["verb"] },
-    { "es": "venir", "en": "to come", "article": null, "note": "An infinitive. Its forms are irregular: vengo, vienes, viene.", "tags": ["verb"] },
-    { "es": "volver", "en": "to return", "article": null, "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve.", "tags": ["verb"] },
-    { "es": "salir", "en": "to leave", "article": null, "note": "An infinitive. Its forms are irregular: salgo, sales, sale.", "tags": ["verb"] },
-    { "es": "viajar", "en": "to travel", "article": null, "note": "An infinitive ending in -ar: viajo, viajas, viaja.", "tags": ["verb"] },
-    { "es": "tren", "en": "train", "article": "el", "note": "Masculine: el tren.", "tags": ["transport"] },
-    { "es": "coche", "en": "car", "article": "el", "note": "Masculine: el coche.", "tags": ["transport"] },
-    { "es": "avión", "en": "plane", "article": "el", "note": "Masculine: el avión. The accent marks the stress.", "tags": ["transport"] },
-    { "es": "billete", "en": "ticket", "article": "el", "note": "Masculine: el billete. A travel ticket is un billete de viaje.", "tags": ["transport"] },
-    { "es": "aeropuerto", "en": "airport", "article": "el", "note": "Masculine: el aeropuerto.", "tags": ["transport"] }
+    {
+      "es": "gustar",
+      "en": "to like",
+      "article": null,
+      "note": "An infinitive. Me gusta, te gusta, le gusta: the thing you like comes first.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "encantar",
+      "en": "to love",
+      "article": null,
+      "note": "It works like gustar: me encanta el chocolate.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "molestar",
+      "en": "to bother",
+      "article": null,
+      "note": "It works like gustar: me molesta el ruido.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "interesar",
+      "en": "to be interesting",
+      "article": null,
+      "note": "It is used with ser: la película me interesa.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "importar",
+      "en": "to matter",
+      "article": null,
+      "note": "It is used with importar: no me importa.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "pintura",
+      "en": "painting",
+      "article": "la",
+      "note": "Feminine: la pintura. It also means paint.",
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "es": "fútbol",
+      "en": "football",
+      "article": "el",
+      "note": "Masculine: el fútbol. The accent marks the stress.",
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "es": "piscina",
+      "en": "swimming pool",
+      "article": "la",
+      "note": "Feminine: la piscina.",
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "es": "naturaleza",
+      "en": "nature",
+      "article": "la",
+      "note": "Feminine: la naturaleza.",
+      "tags": [
+        "thing"
+      ]
+    },
+    {
+      "es": "chocolate",
+      "en": "chocolate",
+      "article": "el",
+      "note": "Masculine: el chocolate.",
+      "tags": [
+        "thing"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ gusta el café.",
+      "answer": "Me",
+      "meaning": "I like coffee",
+      "note": "The person comes first with gustar."
+    },
+    {
+      "prompt": "Me ___ las pizzas.",
+      "answer": "gustan",
+      "meaning": "I like pizzas",
+      "note": "With more than one thing the verb is plural."
+    },
+    {
+      "prompt": "No ___ gusta el pescado.",
+      "answer": "me",
+      "meaning": "I do not like fish",
+      "note": "No goes in front, the order stays."
+    },
+    {
+      "prompt": "___ un banco en la plaza.",
+      "answer": "Hay",
+      "meaning": "there is a bench in the square",
+      "note": "Hay never changes form."
+    },
+    {
+      "prompt": "Me ___ el chocolate.",
+      "answer": "encanta",
+      "meaning": "I love chocolate",
+      "note": "Encantar works like gustar."
+    }
   ]
 }

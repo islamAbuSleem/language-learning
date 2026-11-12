@@ -101,6 +101,41 @@ only two we have planned.
 
 ---
 
+## What has been filled since
+
+The gaps below have since been written, each as a unit with a lesson, ten words
+and grammar drills:
+
+| Level | Units added | Grammar |
+| --- | --- | --- |
+| A1 | the weather | *hacer* for the weather, degrees |
+| A1 | colours and clothes | adjectives that change with gender, *llevar* |
+| A1 | the house | prepositions of place, *estar* against *ir* |
+| A1 | the family | possessives before the noun |
+| A1 | the days of the week | the seven days, telling the time |
+| A1 | shopping | *ir* + a place, asking the price |
+| A1 | ordering food | *con* and *sin*, the article in an order |
+| A1 | the body and health | *tener* + a noun for how you feel |
+| A1 | your neighbourhood | *ser de* against *estar* |
+| A2 | liking things | *hay*, and the verb *gustar* |
+| A2 | por and para | the two prepositions |
+| A2 | where exactly | prepositions of place, near and far |
+| A2 | what will happen | the future, in two ways |
+| A2 | what you used to do | the preterite imperfecto |
+| A2 | giving orders | el imperativo |
+| A2 | already happened | el pretérito perfecto |
+| B1 | giving things to people | indirect object pronouns |
+| B1 | if it happens | the future and the conditional |
+| B1 | what you hope | the present subjunctive |
+| B1 | what they said | reported speech |
+| B1 | the person, not the thing | relative clauses |
+| B1 | before that | el pretérito pluscuamperfecto |
+
+**Still missing:** the B2 units (passive voice, past subjunctive, the participle,
+compound infinitive, nominalisation, connectors, adjective position, advanced
+*ser* and *estar*), and a lesson for each of the 31 units that predate the
+lessons.
+
 ## What the comparison says
 
 **One structural difference, and it is big.** The reference interleaves

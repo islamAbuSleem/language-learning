@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 3,
+  "title": "Going somewhere",
+  "description": "Talk about leaving, arriving, and the journey.",
+  "exercises": [
+    {
+      "id": "es/a2/u3/match/ir",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to go",
+          "right": "ir"
+        },
+        {
+          "left": "to come",
+          "right": "venir"
+        },
+        {
+          "left": "to return",
+          "right": "volver"
+        },
+        {
+          "left": "to leave",
+          "right": "salir"
+        },
+        {
+          "left": "to travel",
+          "right": "viajar"
+        }
+      ],
+      "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
+    },
+    {
+      "id": "es/a2/u3/select/ir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to go”.",
+      "options": [
+        "ir",
+        "beber",
+        "comer",
+        "aprender"
+      ],
+      "answer": "ir",
+      "translation": "to go",
+      "note": "An infinitive. Its forms are irregular: voy, vas, va, vamos, vais, van."
+    },
+    {
+      "id": "es/a2/u3/type_in/venir",
+      "type": "type_in",
+      "prompt": "Write “to come” in Spanish.",
+      "answer": "venir",
+      "acceptedAnswers": [
+        "venir"
+      ],
+      "translation": "to come",
+      "note": "An infinitive. Its forms are irregular: vengo, vienes, viene."
+    },
+    {
+      "id": "es/a2/u3/listen/volver",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "volver",
+      "options": [
+        "volver",
+        "aprender",
+        "leer",
+        "beber"
+      ],
+      "audio": {
+        "text": "volver",
+        "lang": "es"
+      },
+      "translation": "to return",
+      "note": "An infinitive. Its forms are irregular: vuelvo, vuelves, vuelve."
+    },
+    {
+      "id": "es/a2/u3/match/tren",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "train",
+          "right": "el tren"
+        },
+        {
+          "left": "car",
+          "right": "el coche"
+        },
+        {
+          "left": "plane",
+          "right": "el avión"
+        },
+        {
+          "left": "ticket",
+          "right": "el billete"
+        },
+        {
+          "left": "airport",
+          "right": "el aeropuerto"
+        }
+      ],
+      "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
+    },
+    {
+      "id": "es/a2/u3/select/salir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to leave”.",
+      "options": [
+        "necesitar",
+        "comer",
+        "estar",
+        "salir"
+      ],
+      "answer": "salir",
+      "translation": "to leave",
+      "note": "An infinitive. Its forms are irregular: salgo, sales, sale."
+    },
+    {
+      "id": "es/a2/u3/type_in/viajar",
+      "type": "type_in",
+      "prompt": "Write “to travel” in Spanish.",
+      "answer": "viajar",
+      "acceptedAnswers": [
+        "viajar"
+      ],
+      "translation": "to travel",
+      "note": "An infinitive ending in -ar: viajo, viajas, viaja."
+    },
+    {
+      "id": "es/a2/u3/listen/tren",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el tren",
+      "options": [
+        "el coche",
+        "el billete",
+        "el avión",
+        "el tren"
+      ],
+      "audio": {
+        "text": "tren",
+        "lang": "es"
+      },
+      "translation": "train",
+      "note": "Masculine: el tren."
+    },
+    {
+      "id": "es/a2/u3/select/coche",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “car”.",
+      "options": [
+        "el avión",
+        "el billete",
+        "el tren",
+        "el coche"
+      ],
+      "answer": "el coche",
+      "translation": "car",
+      "note": "Masculine: el coche."
+    },
+    {
+      "id": "es/a2/u3/select/avion",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “plane”.",
+      "options": [
+        "el avión",
+        "el tren",
+        "el coche",
+        "el billete"
+      ],
+      "answer": "el avión",
+      "translation": "plane",
+      "note": "Masculine: el avión. The accent marks the stress."
+    }
+  ]
+}

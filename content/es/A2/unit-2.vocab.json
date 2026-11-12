@@ -1,0 +1,99 @@
+{
+  "unit": 2,
+  "title": "Writing and asking",
+  "description": "Say what you write, what you send, and what you ask for.",
+  "grammar": "regular -ir verbs in the present",
+  "grammarNote": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben.",
+  "items": [
+    {
+      "es": "escribir",
+      "en": "to write",
+      "article": null,
+      "note": "An infinitive ending in -ir: escribo, escribes, escribe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "recibir",
+      "en": "to receive",
+      "article": null,
+      "note": "An infinitive ending in -ir: recibo, recibes, recibe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "abrir",
+      "en": "to open",
+      "article": null,
+      "note": "An infinitive ending in -ir: abro, abres, abre.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "compartir",
+      "en": "to share",
+      "article": null,
+      "note": "An infinitive ending in -ir: comparto, compartes, comparte.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "descubrir",
+      "en": "to discover",
+      "article": null,
+      "note": "An infinitive ending in -ir: descubro, descubres, descubre.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "pedir",
+      "en": "to ask for",
+      "article": null,
+      "note": "An infinitive ending in -ir: pido, pides, pide. The yo form drops the e.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "servir",
+      "en": "to serve",
+      "article": null,
+      "note": "An infinitive ending in -ir: sirvo, sirves, sirve.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "repetir",
+      "en": "to repeat",
+      "article": null,
+      "note": "An infinitive ending in -ir: repito, repites, repite.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "decidir",
+      "en": "to decide",
+      "article": null,
+      "note": "An infinitive ending in -ir: decido, decides, decide.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "mensaje",
+      "en": "message",
+      "article": "el",
+      "note": "Masculine: el mensaje.",
+      "tags": [
+        "object"
+      ]
+    }
+  ]
+}

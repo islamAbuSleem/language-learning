@@ -2,178 +2,216 @@
   "track": "es",
   "level": "A2",
   "unit": 14,
-  "title": "Review",
-  "description": "Everything A2 has taught, put together.",
+  "title": "Giving orders",
+  "description": "Tell someone what to do, politely or not.",
+  "explanation": {
+    "summary": "Spanish has two ways to give an order. The tú form is the one you use with friends, and it is built from the yo form with the endings swapped. The usted form is polite, and it adds an r to the yo form.",
+    "sections": [
+      {
+        "heading": "Tú: swap the endings",
+        "body": "Take the yo form and give it the endings of tú: yo hablo, tú habla. Yo como, tú come. Yo escribo, tú escribe. There are eight verbs that break the rule: the eight irregular verbs in the present, which you already met. venir becomes ven, decir becomes di, and the three with a y change it to the opposite vowel: tengo becomes ten, venir becomes ven.",
+        "examples": [
+          {
+            "es": "Habla más despacio.",
+            "en": "Speak more slowly."
+          },
+          {
+            "es": "Abre la ventana.",
+            "en": "Open the window."
+          },
+          {
+            "es": "Ven aquí.",
+            "en": "Come here."
+          }
+        ]
+      },
+      {
+        "heading": "Usted: add an r",
+        "body": "The usted form adds an r to the yo form: yo hablo becomes hable, yo como becomes coma, yo escribo becomes escriba. It is polite, and it is what you use with anyone you should respect.",
+        "examples": [
+          {
+            "es": "Hable más despacio, por favor.",
+            "en": "Speak more slowly, please."
+          },
+          {
+            "es": "Escriba su nombre aquí.",
+            "en": "Write your name here."
+          },
+          {
+            "es": "Pase.",
+            "en": "Come in."
+          }
+        ]
+      },
+      {
+        "heading": "Saying no",
+        "body": "The negative command is no followed by the command: no hables, no vengas, no sea. And the command for usted is often softened with the word por favor, which is not required but never rude.",
+        "examples": [
+          {
+            "es": "No te preocupes.",
+            "en": "Do not worry."
+          },
+          {
+            "es": "No sea tarde.",
+            "en": "Do not be late."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u14/match/viaje",
+      "id": "es/a2/u14/match/habla",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "trip",
-          "right": "el viaje"
+          "left": "speak",
+          "right": "habla"
         },
         {
-          "left": "souvenir",
-          "right": "el recuerdo"
+          "left": "eat",
+          "right": "come"
         },
         {
-          "left": "museum",
-          "right": "el museo"
+          "left": "write",
+          "right": "escribe"
         },
         {
-          "left": "city",
-          "right": "la ciudad"
+          "left": "read",
+          "right": "lee"
         },
         {
-          "left": "country",
-          "right": "el país"
+          "left": "open",
+          "right": "abre"
         }
       ],
-      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
+      "note": "For tú you use the opposite of the yo form: habla, come, escribe. For usted it adds an r: hable, coma, escriba."
     },
     {
-      "id": "es/a2/u14/select/viaje",
+      "id": "es/a2/u14/select/habla",
       "type": "select",
-      "prompt": "Pick the Spanish word for “trip”.",
+      "prompt": "Pick the Spanish word for “speak”.",
       "options": [
-        "el recuerdo",
-        "la fiesta",
-        "correr",
-        "el viaje"
+        "come",
+        "escribe",
+        "lee",
+        "habla"
       ],
-      "answer": "el viaje",
-      "translation": "trip",
-      "note": "Masculine: el viaje. You take un viaje."
+      "answer": "habla",
+      "translation": "speak",
+      "note": "The tú command of hablar. It is the opposite of the yo form."
     },
     {
-      "id": "es/a2/u14/type_in/recuerdo",
+      "id": "es/a2/u14/drill/1",
       "type": "type_in",
-      "prompt": "Write “souvenir” in Spanish.",
-      "answer": "recuerdo",
+      "prompt": "___ más despacio, por favor.",
+      "answer": "Hable",
       "acceptedAnswers": [
-        "recuerdo"
+        "Hable"
       ],
-      "translation": "souvenir",
-      "note": "Masculine: el recuerdo. It also means memory."
+      "translation": "speak more slowly, please",
+      "note": "The usted command adds an r to the yo form."
     },
     {
-      "id": "es/a2/u14/listen/museo",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el museo",
-      "options": [
-        "la casa",
-        "aquí",
-        "allí",
-        "el museo"
-      ],
-      "audio": {
-        "text": "museo",
-        "lang": "es"
-      },
-      "translation": "museum",
-      "note": "Masculine: el museo."
-    },
-    {
-      "id": "es/a2/u14/match/comida",
+      "id": "es/a2/u14/match/escucha",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "food",
-          "right": "la comida"
+          "left": "listen",
+          "right": "escucha"
         },
         {
-          "left": "restaurant",
-          "right": "el restaurante"
+          "left": "watch",
+          "right": "mira"
         },
         {
-          "left": "party",
-          "right": "la fiesta"
+          "left": "work",
+          "right": "trabaja"
         },
         {
-          "left": "gift",
-          "right": "el regalo"
+          "left": "come",
+          "right": "ven"
         },
         {
-          "left": "postcard",
-          "right": "la postal"
+          "left": "have",
+          "right": "ten"
         }
       ],
-      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
+      "note": "For tú you use the opposite of the yo form: habla, come, escribe. For usted it adds an r: hable, coma, escriba."
     },
     {
-      "id": "es/a2/u14/select/ciudad",
+      "id": "es/a2/u14/select/come",
       "type": "select",
-      "prompt": "Pick the Spanish word for “city”.",
+      "prompt": "Pick the Spanish word for “eat”.",
       "options": [
-        "allí",
-        "encima",
-        "debajo",
-        "la ciudad"
+        "come",
+        "habla",
+        "ten",
+        "escribe"
       ],
-      "answer": "la ciudad",
-      "translation": "city",
-      "note": "Feminine: la ciudad."
+      "answer": "come",
+      "translation": "eat",
+      "note": "The tú command of comer. It is the opposite of the yo form."
     },
     {
-      "id": "es/a2/u14/type_in/pais",
+      "id": "es/a2/u14/drill/2",
       "type": "type_in",
-      "prompt": "Write “country” in Spanish.",
-      "answer": "país",
+      "prompt": "___ la ventana, por favor.",
+      "answer": "Abra",
       "acceptedAnswers": [
-        "pais"
+        "Abra"
       ],
-      "translation": "country",
-      "note": "Masculine: el país. The accent marks the stress."
+      "translation": "open the window, please",
+      "note": "Abra is the usted command of abrir."
     },
     {
-      "id": "es/a2/u14/listen/comida",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la comida",
-      "options": [
-        "el restaurante",
-        "la cena",
-        "el azúcar",
-        "la comida"
-      ],
-      "audio": {
-        "text": "comida",
-        "lang": "es"
-      },
-      "translation": "food",
-      "note": "Feminine: la comida."
-    },
-    {
-      "id": "es/a2/u14/select/restaurante",
+      "id": "es/a2/u14/select/escribe",
       "type": "select",
-      "prompt": "Pick the Spanish word for “restaurant”.",
+      "prompt": "Pick the Spanish word for “write”.",
       "options": [
-        "la cena",
-        "la comida",
-        "el azúcar",
-        "el restaurante"
+        "ten",
+        "come",
+        "habla",
+        "escribe"
       ],
-      "answer": "el restaurante",
-      "translation": "restaurant",
-      "note": "Masculine: el restaurante."
+      "answer": "escribe",
+      "translation": "write",
+      "note": "The tú command of escribir. It is the opposite of the yo form."
     },
     {
-      "id": "es/a2/u14/select/fiesta",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “party”.",
-      "options": [
-        "el viaje",
-        "el recuerdo",
-        "cómo te llamas",
-        "la fiesta"
+      "id": "es/a2/u14/drill/3",
+      "type": "type_in",
+      "prompt": "No ___ preocupa.",
+      "answer": "te",
+      "acceptedAnswers": [
+        "te"
       ],
-      "answer": "la fiesta",
-      "translation": "party",
-      "note": "Feminine: la fiesta. It also means a holiday."
+      "translation": "do not worry",
+      "note": "No followed by the command."
+    },
+    {
+      "id": "es/a2/u14/drill/4",
+      "type": "type_in",
+      "prompt": "___ aquí, por favor.",
+      "answer": "Venga",
+      "acceptedAnswers": [
+        "Venga"
+      ],
+      "translation": "come here, please",
+      "note": "The usted command of venir."
+    },
+    {
+      "id": "es/a2/u14/drill/5",
+      "type": "type_in",
+      "prompt": "___ su nombre aquí.",
+      "answer": "Escriba",
+      "acceptedAnswers": [
+        "Escriba"
+      ],
+      "translation": "write your name here",
+      "note": "Escriba is the usted command of escribir."
     }
   ]
 }

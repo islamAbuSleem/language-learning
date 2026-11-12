@@ -2,178 +2,178 @@
   "track": "es",
   "level": "A2",
   "unit": 8,
-  "title": "Writing and asking",
-  "description": "Say what you write, what you send, and what you ask for.",
+  "title": "Review",
+  "description": "Everything A2 has taught, put together.",
   "exercises": [
     {
-      "id": "es/a2/u8/match/escribir",
+      "id": "es/a2/u8/match/viaje",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to write",
-          "right": "escribir"
+          "left": "trip",
+          "right": "el viaje"
         },
         {
-          "left": "to receive",
-          "right": "recibir"
+          "left": "souvenir",
+          "right": "el recuerdo"
         },
         {
-          "left": "to open",
-          "right": "abrir"
+          "left": "museum",
+          "right": "el museo"
         },
         {
-          "left": "to share",
-          "right": "compartir"
+          "left": "city",
+          "right": "la ciudad"
         },
         {
-          "left": "to discover",
-          "right": "descubrir"
+          "left": "country",
+          "right": "el país"
         }
       ],
-      "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
+      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
     },
     {
-      "id": "es/a2/u8/select/escribir",
+      "id": "es/a2/u8/select/viaje",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to write”.",
+      "prompt": "Pick the Spanish word for “trip”.",
       "options": [
-        "servir",
-        "repetir",
-        "pedir",
-        "escribir"
+        "la fiesta",
+        "la tarde",
+        "el recuerdo",
+        "el viaje"
       ],
-      "answer": "escribir",
-      "translation": "to write",
-      "note": "An infinitive ending in -ir: escribo, escribes, escribe."
+      "answer": "el viaje",
+      "translation": "trip",
+      "note": "Masculine: el viaje. You take un viaje."
     },
     {
-      "id": "es/a2/u8/type_in/recibir",
+      "id": "es/a2/u8/type_in/recuerdo",
       "type": "type_in",
-      "prompt": "Write “to receive” in Spanish.",
-      "answer": "recibir",
+      "prompt": "Write “souvenir” in Spanish.",
+      "answer": "recuerdo",
       "acceptedAnswers": [
-        "recibir"
+        "recuerdo"
       ],
-      "translation": "to receive",
-      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
+      "translation": "souvenir",
+      "note": "Masculine: el recuerdo. It also means memory."
     },
     {
-      "id": "es/a2/u8/listen/abrir",
+      "id": "es/a2/u8/listen/museo",
       "type": "listen",
       "prompt": "What did you hear?",
-      "answer": "abrir",
+      "answer": "el museo",
       "options": [
-        "abrir",
-        "repetir",
-        "servir",
-        "pedir"
+        "el museo",
+        "fuera",
+        "dentro",
+        "debajo"
       ],
       "audio": {
-        "text": "abrir",
+        "text": "museo",
         "lang": "es"
       },
-      "translation": "to open",
-      "note": "An infinitive ending in -ir: abro, abres, abre."
+      "translation": "museum",
+      "note": "Masculine: el museo."
     },
     {
-      "id": "es/a2/u8/match/pedir",
+      "id": "es/a2/u8/match/comida",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to ask for",
-          "right": "pedir"
+          "left": "food",
+          "right": "la comida"
         },
         {
-          "left": "to serve",
-          "right": "servir"
+          "left": "restaurant",
+          "right": "el restaurante"
         },
         {
-          "left": "to repeat",
-          "right": "repetir"
+          "left": "party",
+          "right": "la fiesta"
         },
         {
-          "left": "to decide",
-          "right": "decidir"
+          "left": "gift",
+          "right": "el regalo"
         },
         {
-          "left": "message",
-          "right": "el mensaje"
+          "left": "postcard",
+          "right": "la postal"
         }
       ],
-      "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
+      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
     },
     {
-      "id": "es/a2/u8/select/compartir",
+      "id": "es/a2/u8/select/ciudad",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to share”.",
+      "prompt": "Pick the Spanish word for “city”.",
       "options": [
-        "compartir",
-        "recibir",
-        "abrir",
-        "escribir"
+        "la ciudad",
+        "dentro",
+        "fuera",
+        "debajo"
       ],
-      "answer": "compartir",
-      "translation": "to share",
-      "note": "An infinitive ending in -ir: comparto, compartes, comparte."
+      "answer": "la ciudad",
+      "translation": "city",
+      "note": "Feminine: la ciudad."
     },
     {
-      "id": "es/a2/u8/type_in/descubrir",
+      "id": "es/a2/u8/type_in/pais",
       "type": "type_in",
-      "prompt": "Write “to discover” in Spanish.",
-      "answer": "descubrir",
+      "prompt": "Write “country” in Spanish.",
+      "answer": "país",
       "acceptedAnswers": [
-        "descubrir"
+        "pais"
       ],
-      "translation": "to discover",
-      "note": "An infinitive ending in -ir: descubro, descubres, descubre."
+      "translation": "country",
+      "note": "Masculine: el país. The accent marks the stress."
     },
     {
-      "id": "es/a2/u8/listen/pedir",
+      "id": "es/a2/u8/listen/comida",
       "type": "listen",
       "prompt": "What did you hear?",
-      "answer": "pedir",
+      "answer": "la comida",
       "options": [
-        "recibir",
-        "abrir",
-        "escribir",
-        "pedir"
+        "la propina",
+        "encargar",
+        "el vaso",
+        "la comida"
       ],
       "audio": {
-        "text": "pedir",
+        "text": "comida",
         "lang": "es"
       },
-      "translation": "to ask for",
-      "note": "An infinitive ending in -ir: pido, pides, pide. The yo form drops the e."
+      "translation": "food",
+      "note": "Feminine: la comida."
     },
     {
-      "id": "es/a2/u8/select/servir",
+      "id": "es/a2/u8/select/restaurante",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to serve”.",
+      "prompt": "Pick the Spanish word for “restaurant”.",
       "options": [
-        "servir",
-        "hablar",
-        "trabajar",
-        "estudiar"
+        "el restaurante",
+        "el camarero",
+        "la camarera",
+        "el plato"
       ],
-      "answer": "servir",
-      "translation": "to serve",
-      "note": "An infinitive ending in -ir: sirvo, sirves, sirve."
+      "answer": "el restaurante",
+      "translation": "restaurant",
+      "note": "Masculine: el restaurante."
     },
     {
-      "id": "es/a2/u8/select/repetir",
+      "id": "es/a2/u8/select/fiesta",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to repeat”.",
+      "prompt": "Pick the Spanish word for “party”.",
       "options": [
-        "estudiar",
-        "caminar",
-        "cocinar",
-        "repetir"
+        "el viaje",
+        "el recuerdo",
+        "el martes",
+        "la fiesta"
       ],
-      "answer": "repetir",
-      "translation": "to repeat",
-      "note": "An infinitive ending in -ir: repito, repites, repite."
+      "answer": "la fiesta",
+      "translation": "party",
+      "note": "Feminine: la fiesta. It also means a holiday."
     }
   ]
 }

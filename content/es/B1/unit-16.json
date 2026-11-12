@@ -2,178 +2,212 @@
   "track": "es",
   "level": "B1",
   "unit": 16,
-  "title": "Describing people",
-  "description": "Say what someone is like, and what they do.",
+  "title": "Before that",
+  "description": "Say what had already happened before something else.",
+  "explanation": {
+    "summary": "The pluperfect is the past of the past. It says what had already happened before another past event, and it is how Spanish handles a sequence of past events.",
+    "sections": [
+      {
+        "heading": "How it is built",
+        "body": "The imperfect of haber, which is the same for every verb: había, habías, había, habíamos, habíais, habían, followed by the participle. The participles are the same ones you already know: hablado, comido, vivido, visto, hecho, escrito.",
+        "examples": [
+          {
+            "es": "Cuando llegué, ya habían salido.",
+            "en": "When I arrived, they had already left."
+          },
+          {
+            "es": "No comí porque no había preparado la comida.",
+            "en": "I did not eat because I had not prepared the food."
+          },
+          {
+            "es": "Había visto la película antes.",
+            "en": "I had seen the film before."
+          }
+        ]
+      },
+      {
+        "heading": "Two pasts in a row",
+        "body": "The event that came first takes the pluperfect, and the one after it takes the preterite. Cuando llegué, ya habían salido: the leaving is earlier, so it is a pluperfect, and the arriving is the later event, so it is a preterite.",
+        "examples": [
+          {
+            "es": "Cuando terminé, ya me habían llamado.",
+            "en": "When I finished, they had already called me."
+          },
+          {
+            "es": "Ella dijo que había terminado.",
+            "en": "She said she had finished."
+          }
+        ]
+      },
+      {
+        "heading": "Almost never on its own",
+        "body": "You will not say the pluperfect alone very often. It earns its place when one past event explains another, or when someone reports something that had already happened.",
+        "examples": [
+          {
+            "es": "Cuando llegué a casa, ya había cenado.",
+            "en": "When I got home, I had already eaten."
+          },
+          {
+            "es": "Supuso que yo había sido capaz.",
+            "en": "He assumed I had been able."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/b1/u16/match/bueno",
+      "id": "es/b1/u16/match/habia-hablado",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "good",
-          "right": "bueno"
+          "left": "I had spoken",
+          "right": "había hablado"
         },
         {
-          "left": "bad",
-          "right": "malo"
+          "left": "I had eaten",
+          "right": "había comido"
         },
         {
-          "left": "big",
-          "right": "grande"
+          "left": "I had lived",
+          "right": "había vivido"
         },
         {
-          "left": "small",
-          "right": "pequeño"
+          "left": "I had worked",
+          "right": "había trabajado"
         },
         {
-          "left": "new",
-          "right": "nuevo"
+          "left": "I had studied",
+          "right": "había estudiado"
         }
       ],
-      "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
+      "note": "The pluperfect is the imperfect of haber plus the participle: había hablado, habías comido."
     },
     {
-      "id": "es/b1/u16/select/bueno",
+      "id": "es/b1/u16/select/habia-hablado",
       "type": "select",
-      "prompt": "Pick the Spanish word for “good”.",
+      "prompt": "Pick the Spanish word for “I had spoken”.",
       "options": [
-        "nuevo",
-        "joven",
-        "viejo",
-        "bueno"
+        "llegar",
+        "ser",
+        "hablar",
+        "había hablado"
       ],
-      "answer": "bueno",
-      "translation": "good",
-      "note": "Good. It changes to buena before a feminine noun."
+      "answer": "había hablado",
+      "translation": "I had spoken",
+      "note": "The pluperfect of hablar."
     },
     {
-      "id": "es/b1/u16/type_in/malo",
+      "id": "es/b1/u16/drill/1",
       "type": "type_in",
-      "prompt": "Write “bad” in Spanish.",
-      "answer": "malo",
+      "prompt": "Cuando llegué, ya ___ salido.",
+      "answer": "habían",
       "acceptedAnswers": [
-        "malo"
+        "habian"
       ],
-      "translation": "bad",
-      "note": "Bad. It changes to mala before a feminine noun."
+      "translation": "when I arrived, they had already left",
+      "note": "Habían is the imperfect of haber."
     },
     {
-      "id": "es/b1/u16/listen/grande",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "grande",
-      "options": [
-        "malo",
-        "pequeño",
-        "nuevo",
-        "grande"
-      ],
-      "audio": {
-        "text": "grande",
-        "lang": "es"
-      },
-      "translation": "big",
-      "note": "Big. It does not change for a feminine noun."
-    },
-    {
-      "id": "es/b1/u16/match/joven",
+      "id": "es/b1/u16/match/habia-visto",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "young",
-          "right": "joven"
+          "left": "I had seen",
+          "right": "había visto"
         },
         {
-          "left": "old",
-          "right": "viejo"
+          "left": "I had done",
+          "right": "había hecho"
         },
         {
-          "left": "money",
-          "right": "el dinero"
+          "left": "I had said",
+          "right": "había dicho"
         },
         {
-          "left": "work",
-          "right": "el trabajo"
+          "left": "I had written",
+          "right": "había escrito"
         },
         {
-          "left": "doctor",
-          "right": "el médico"
+          "left": "we had left",
+          "right": "había salido"
         }
       ],
-      "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
+      "note": "The pluperfect is the imperfect of haber plus the participle: había hablado, habías comido."
     },
     {
-      "id": "es/b1/u16/select/pequeno",
+      "id": "es/b1/u16/select/habia-comido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “small”.",
+      "prompt": "Pick the Spanish word for “I had eaten”.",
       "options": [
-        "malo",
-        "nuevo",
-        "grande",
-        "pequeño"
+        "vivía",
+        "trabajaba",
+        "estudiaba",
+        "había comido"
       ],
-      "answer": "pequeño",
-      "translation": "small",
-      "note": "Small. It changes to pequeña before a feminine noun."
+      "answer": "había comido",
+      "translation": "I had eaten",
+      "note": "The pluperfect of comer."
     },
     {
-      "id": "es/b1/u16/type_in/nuevo",
+      "id": "es/b1/u16/drill/2",
       "type": "type_in",
-      "prompt": "Write “new” in Spanish.",
-      "answer": "nuevo",
+      "prompt": "No comí porque no ___ preparado la comida.",
+      "answer": "había",
       "acceptedAnswers": [
-        "nuevo"
+        "habia"
       ],
-      "translation": "new",
-      "note": "New. It changes to nueva before a feminine noun."
+      "translation": "I did not eat because I had not prepared the food",
+      "note": "The pluperfect explains the other past event."
     },
     {
-      "id": "es/b1/u16/listen/joven",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "joven",
-      "options": [
-        "bueno",
-        "malo",
-        "viejo",
-        "joven"
-      ],
-      "audio": {
-        "text": "joven",
-        "lang": "es"
-      },
-      "translation": "young",
-      "note": "Young. It does not change for a feminine noun."
-    },
-    {
-      "id": "es/b1/u16/select/viejo",
+      "id": "es/b1/u16/select/habia-vivido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “old”.",
+      "prompt": "Pick the Spanish word for “I had lived”.",
       "options": [
-        "malo",
-        "grande",
-        "bueno",
-        "viejo"
+        "haga",
+        "sea",
+        "diga",
+        "había vivido"
       ],
-      "answer": "viejo",
-      "translation": "old",
-      "note": "Old. It changes to vieja before a feminine noun."
+      "answer": "había vivido",
+      "translation": "I had lived",
+      "note": "The pluperfect of vivir."
     },
     {
-      "id": "es/b1/u16/select/dinero",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “money”.",
-      "options": [
-        "el trabajo",
-        "el mapa",
-        "el número",
-        "el dinero"
+      "id": "es/b1/u16/drill/3",
+      "type": "type_in",
+      "prompt": "Cuando terminé, ya me ___ llamado.",
+      "answer": "habían",
+      "acceptedAnswers": [
+        "habian"
       ],
-      "answer": "el dinero",
-      "translation": "money",
-      "note": "Masculine: el dinero."
+      "translation": "when I finished, they had already called me",
+      "note": "The earlier event takes the pluperfect."
+    },
+    {
+      "id": "es/b1/u16/drill/4",
+      "type": "type_in",
+      "prompt": "Ella dijo que ___ terminado.",
+      "answer": "había",
+      "acceptedAnswers": [
+        "habia"
+      ],
+      "translation": "she said she had finished",
+      "note": "A report of a past event can carry the pluperfect."
+    },
+    {
+      "id": "es/b1/u16/drill/5",
+      "type": "type_in",
+      "prompt": "___ visto la película antes.",
+      "answer": "Había",
+      "acceptedAnswers": [
+        "Habia"
+      ],
+      "translation": "I had seen the film before",
+      "note": "Había visto."
     }
   ]
 }

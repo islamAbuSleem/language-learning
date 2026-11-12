@@ -1,19 +1,99 @@
 {
   "unit": 7,
-  "title": "Things you do",
-  "description": "Say what you eat, drink, read, and learn.",
-  "grammar": "regular -er verbs in the present",
-  "grammarNote": "An -er verb in the present: como, comes, come, comemos, coméis, comen.",
+  "title": "Knowing",
+  "description": "Say what you know, and what you remember.",
+  "grammar": "the verbs saber and conocer",
+  "grammarNote": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid.",
   "items": [
-    { "es": "comer", "en": "to eat", "article": null, "note": "An infinitive ending in -er: como, comes, come.", "tags": ["verb"] },
-    { "es": "beber", "en": "to drink", "article": null, "note": "An infinitive ending in -er: bebo, bebes, bebe.", "tags": ["verb"] },
-    { "es": "aprender", "en": "to learn", "article": null, "note": "An infinitive ending in -er: aprendo, aprendes, aprende.", "tags": ["verb"] },
-    { "es": "leer", "en": "to read", "article": null, "note": "An infinitive ending in -er: leo, lees, lee.", "tags": ["verb"] },
-    { "es": "vender", "en": "to sell", "article": null, "note": "An infinitive ending in -er: vendo, vendes, vende.", "tags": ["verb"] },
-    { "es": "correr", "en": "to run", "article": null, "note": "An infinitive ending in -er: corro, corres, corre.", "tags": ["verb"] },
-    { "es": "perder", "en": "to lose", "article": null, "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular.", "tags": ["verb"] },
-    { "es": "responder", "en": "to answer", "article": null, "note": "An infinitive ending in -er: respondo, respondes, responde.", "tags": ["verb"] },
-    { "es": "libro", "en": "book", "article": "el", "note": "Masculine: el libro. The plural is los libros.", "tags": ["object"] },
-    { "es": "cena", "en": "dinner", "article": "la", "note": "Feminine: la cena. Also the evening: de cena.", "tags": ["food"] }
+    {
+      "es": "saber",
+      "en": "to know",
+      "article": null,
+      "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "conocer",
+      "en": "to know",
+      "article": null,
+      "note": "For people and places. Its forms are irregular: conozco, conoces, conoce.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "recordar",
+      "en": "to remember",
+      "article": null,
+      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "olvidar",
+      "en": "to forget",
+      "article": null,
+      "note": "An infinitive ending in -ar: olvido, olvidas, olvida.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "entender",
+      "en": "to understand",
+      "article": null,
+      "note": "An infinitive ending in -er: entiendo, entiendes, entiende.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "idioma",
+      "en": "language",
+      "article": "el",
+      "note": "Masculine: el idioma. A particular language takes its own name: el español.",
+      "tags": [
+        "subject"
+      ]
+    },
+    {
+      "es": "español",
+      "en": "Spanish",
+      "article": "el",
+      "note": "Masculine: el español.",
+      "tags": [
+        "subject"
+      ]
+    },
+    {
+      "es": "inglés",
+      "en": "English",
+      "article": "el",
+      "note": "Masculine: el inglés.",
+      "tags": [
+        "subject"
+      ]
+    },
+    {
+      "es": "francés",
+      "en": "French",
+      "article": "el",
+      "note": "Masculine: el francés.",
+      "tags": [
+        "subject"
+      ]
+    },
+    {
+      "es": "palabra",
+      "en": "word",
+      "article": "la",
+      "note": "Feminine: la palabra.",
+      "tags": [
+        "object"
+      ]
+    }
   ]
 }

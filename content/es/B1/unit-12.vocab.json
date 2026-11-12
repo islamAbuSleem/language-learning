@@ -1,0 +1,190 @@
+{
+  "unit": 12,
+  "title": "If it happens",
+  "description": "Talk about what will happen, and what would happen.",
+  "grammar": "the future and the conditional",
+  "grammarNote": "The conditional ends in -ía: hablaría, comería, viviría. It is the same ending as the imperfect of the -er verbs.",
+  "explanation": {
+    "summary": "Spanish has a conditional that English does not: the word would in a sentence like I would go is a real verb form in Spanish, hablaría. It is used for what would happen, and it is the polite way to say what you think should happen.",
+    "sections": [
+      {
+        "heading": "The conditional",
+        "body": "The endings are -ía, -ías, -ía, -íamos, -íais, -ían. For -ar verbs they look like the imperfect of -er verbs: hablar, hablaría, hablarías, hablaría. For -er and -ir verbs they look the same: comer, comería; vivir, viviría. Ir is irregular: iría.",
+        "examples": [
+          {
+            "es": "Yo iría a tu casa.",
+            "en": "I would go to your house."
+          },
+          {
+            "es": "¿Comerías conmigo?",
+            "en": "Would you eat with me?"
+          },
+          {
+            "es": "Viviría en el campo.",
+            "en": "I would live in the countryside."
+          }
+        ]
+      },
+      {
+        "heading": "If, then",
+        "body": "Spanish uses si for if and no then, but the word order changes: the conditional comes first and si comes after it. Si tuviera tiempo, viajaría. If you put si first, as in English, it is wrong.",
+        "examples": [
+          {
+            "es": "Si tuviera tiempo, viajaría.",
+            "en": "If I had time, I would travel."
+          },
+          {
+            "es": "Si hace buen tiempo, iremos a la playa.",
+            "en": "If the weather is good, we will go to the beach."
+          },
+          {
+            "es": "Si no llueve, saldremos.",
+            "en": "If it does not rain, we will go out."
+          }
+        ]
+      },
+      {
+        "heading": "What you think should happen",
+        "body": "The conditional is also how you advise: deberías descansar. You should rest. Deberías comes from deber, which means to owe or must, so the idea is you owe yourself a rest.",
+        "examples": [
+          {
+            "es": "Deberías dormir más.",
+            "en": "You should sleep more."
+          },
+          {
+            "es": "No deberías fumar.",
+            "en": "You should not smoke."
+          },
+          {
+            "es": "Deberíamos irnos.",
+            "en": "We should go."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "hablaría",
+      "en": "I would speak",
+      "article": null,
+      "note": "The conditional of hablar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "comería",
+      "en": "I would eat",
+      "article": null,
+      "note": "The conditional of comer.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "viviría",
+      "en": "I would live",
+      "article": null,
+      "note": "The conditional of vivir.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "trabajaría",
+      "en": "I would work",
+      "article": null,
+      "note": "The conditional of trabajar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "estudiaría",
+      "en": "I would study",
+      "article": null,
+      "note": "The conditional of estudiar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vería",
+      "en": "I would see",
+      "article": null,
+      "note": "The conditional of ver. It keeps the e of the infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "haría",
+      "en": "I would do",
+      "article": null,
+      "note": "The conditional of hacer. It keeps the e of the infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "podría",
+      "en": "I would be able to",
+      "article": null,
+      "note": "The conditional of poder. It is also the polite word for could.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vendría",
+      "en": "I would come",
+      "article": null,
+      "note": "The conditional of venir.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "querría",
+      "en": "I would want to",
+      "article": null,
+      "note": "The conditional of querer.",
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ a tu casa.",
+      "answer": "Iría",
+      "meaning": "I would go to your house",
+      "note": "Ir is irregular in the conditional."
+    },
+    {
+      "prompt": "¿___ conmigo?",
+      "answer": "Comerías",
+      "meaning": "would you eat with me?",
+      "note": "The conditional asks politely."
+    },
+    {
+      "prompt": "Si ___ tiempo, viajaría.",
+      "answer": "tuviera",
+      "meaning": "if I had time, I would travel",
+      "note": "The condition comes first, then si."
+    },
+    {
+      "prompt": "Deberías ___ más.",
+      "answer": "dormir",
+      "meaning": "you should sleep more",
+      "note": "Deberías is the conditional of deber."
+    },
+    {
+      "prompt": "No ___ fumar.",
+      "answer": "deberías",
+      "meaning": "you should not smoke",
+      "note": "Deberías comes with no in front."
+    }
+  ]
+}

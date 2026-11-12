@@ -2,178 +2,206 @@
   "track": "es",
   "level": "A2",
   "unit": 13,
-  "title": "Knowing",
-  "description": "Say what you know, and what you remember.",
+  "title": "What you used to do",
+  "description": "Describe the past, the way it really was.",
+  "explanation": {
+    "summary": "Spanish has two past tenses and the difference is about the camera, not the clock. The preterite says something happened at a moment. The imperfect says how things were, or what used to happen.",
+    "sections": [
+      {
+        "heading": "The two pasts",
+        "body": "The preterite is for a completed event: Ayer hablé con mi madre. The imperfect is for a background: De niño Jugaba en el parque. When a past event is interrupted by another past event, the interrupted one is imperfect: Leía cuando llamó. When one past event interrupts another, the interrupting one is preterite: Leía cuando llamó — the call is the interruption.",
+        "examples": [
+          {
+            "es": "Ayer hablé con mi madre.",
+            "en": "Yesterday I spoke to my mother."
+          },
+          {
+            "es": "De niño jugaba en el parque.",
+            "en": "As a child I used to play in the park."
+          },
+          {
+            "es": "Dormía cuando sonó el teléfono.",
+            "en": "I was sleeping when the phone rang."
+          }
+        ]
+      },
+      {
+        "heading": "How the forms are built",
+        "body": "For -ar verbs the imperfect ends in -aba: hablar, hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban. For -er and -ir verbs it ends in -ía: comer, comía, comías, comía, comíamos, comíais, comían. There are only three irregular verbs in the imperfect: ser was era, ir went iba, and ver saw veía.",
+        "examples": [
+          {
+            "es": "Hablaba español todos los días.",
+            "en": "I spoke Spanish every day."
+          },
+          {
+            "es": "Comía en casa.",
+            "en": "I ate at home."
+          },
+          {
+            "es": "Era muy pequeño.",
+            "en": "He was very small."
+          }
+        ]
+      },
+      {
+        "heading": "The one-liner",
+        "body": "The imperfect is for things you cannot put a time on: how things were, what you used to do, what you were doing. The preterite is for things that happened."
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u13/match/saber",
+      "id": "es/a2/u13/match/hablaba",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to know",
-          "right": "saber"
+          "left": "I spoke",
+          "right": "hablaba"
         },
         {
-          "left": "to know",
-          "right": "conocer"
+          "left": "I ate",
+          "right": "comía"
         },
         {
-          "left": "to remember",
-          "right": "recordar"
+          "left": "I lived",
+          "right": "vivía"
         },
         {
-          "left": "to forget",
-          "right": "olvidar"
+          "left": "I worked",
+          "right": "trabajaba"
         },
         {
-          "left": "to understand",
-          "right": "entender"
+          "left": "I studied",
+          "right": "estudiaba"
         }
       ],
-      "note": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid."
+      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
     },
     {
-      "id": "es/a2/u13/select/saber",
+      "id": "es/a2/u13/select/hablaba",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to know”.",
+      "prompt": "Pick the Spanish word for “I spoke”.",
       "options": [
-        "viajar",
-        "querer",
-        "tener",
-        "saber"
-      ],
-      "answer": "saber",
-      "translation": "to know",
-      "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben."
-    },
-    {
-      "id": "es/a2/u13/type_in/conocer",
-      "type": "type_in",
-      "prompt": "Write “to know” in Spanish.",
-      "answer": "conocer",
-      "acceptedAnswers": [
-        "conocer"
-      ],
-      "translation": "to know",
-      "note": "For people and places. Its forms are irregular: conozco, conoces, conoce."
-    },
-    {
-      "id": "es/a2/u13/listen/recordar",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "recordar",
-      "options": [
-        "recordar",
-        "hay",
-        "deber",
-        "poder"
-      ],
-      "audio": {
-        "text": "recordar",
-        "lang": "es"
-      },
-      "translation": "to remember",
-      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda."
-    },
-    {
-      "id": "es/a2/u13/match/idioma",
-      "type": "match",
-      "prompt": "Pair each word with its translation.",
-      "pairs": [
-        {
-          "left": "language",
-          "right": "el idioma"
-        },
-        {
-          "left": "Spanish",
-          "right": "el español"
-        },
-        {
-          "left": "English",
-          "right": "el inglés"
-        },
-        {
-          "left": "French",
-          "right": "el francés"
-        },
-        {
-          "left": "word",
-          "right": "la palabra"
-        }
-      ],
-      "note": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid."
-    },
-    {
-      "id": "es/a2/u13/select/olvidar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to forget”.",
-      "options": [
-        "compartir",
-        "descubrir",
         "abrir",
-        "olvidar"
+        "descubrir",
+        "compartir",
+        "hablaba"
       ],
-      "answer": "olvidar",
-      "translation": "to forget",
-      "note": "An infinitive ending in -ar: olvido, olvidas, olvida."
+      "answer": "hablaba",
+      "translation": "I spoke",
+      "note": "The imperfect of hablar. It describes how things were."
     },
     {
-      "id": "es/a2/u13/type_in/entender",
+      "id": "es/a2/u13/drill/1",
       "type": "type_in",
-      "prompt": "Write “to understand” in Spanish.",
-      "answer": "entender",
+      "prompt": "De niño ___ en el parque.",
+      "answer": "jugaba",
       "acceptedAnswers": [
-        "entender"
+        "jugaba"
       ],
-      "translation": "to understand",
-      "note": "An infinitive ending in -er: entiendo, entiendes, entiende."
+      "translation": "as a child I used to play in the park",
+      "note": "The imperfect for what you used to do."
     },
     {
-      "id": "es/a2/u13/listen/idioma",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el idioma",
-      "options": [
-        "el español",
-        "el inglés",
-        "el francés",
-        "el idioma"
+      "id": "es/a2/u13/match/miraba",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I watched",
+          "right": "miraba"
+        },
+        {
+          "left": "I looked for",
+          "right": "buscaba"
+        },
+        {
+          "left": "I walked",
+          "right": "caminaba"
+        },
+        {
+          "left": "I played",
+          "right": "jugaba"
+        },
+        {
+          "left": "he was",
+          "right": "era"
+        }
       ],
-      "audio": {
-        "text": "idioma",
-        "lang": "es"
-      },
-      "translation": "language",
-      "note": "Masculine: el idioma. A particular language takes its own name: el español."
+      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
     },
     {
-      "id": "es/a2/u13/select/espanol",
+      "id": "es/a2/u13/select/comia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “Spanish”.",
+      "prompt": "Pick the Spanish word for “I ate”.",
       "options": [
-        "el francés",
-        "el idioma",
-        "el inglés",
-        "el español"
+        "jugaba",
+        "era",
+        "comía",
+        "caminaba"
       ],
-      "answer": "el español",
-      "translation": "Spanish",
-      "note": "Masculine: el español."
+      "answer": "comía",
+      "translation": "I ate",
+      "note": "The imperfect of comer. It describes how things were."
     },
     {
-      "id": "es/a2/u13/select/ingles",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “English”.",
-      "options": [
-        "el francés",
-        "el idioma",
-        "el español",
-        "el inglés"
+      "id": "es/a2/u13/drill/2",
+      "type": "type_in",
+      "prompt": "Mientras yo ___ , sonó el teléfono.",
+      "answer": "dormía",
+      "acceptedAnswers": [
+        "dormia"
       ],
-      "answer": "el inglés",
-      "translation": "English",
-      "note": "Masculine: el inglés."
+      "translation": "while I was sleeping, the phone rang",
+      "note": "The interrupted past is imperfect."
+    },
+    {
+      "id": "es/a2/u13/select/vivia",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I lived”.",
+      "options": [
+        "hay",
+        "saber",
+        "hacer",
+        "vivía"
+      ],
+      "answer": "vivía",
+      "translation": "I lived",
+      "note": "The imperfect of vivir. It describes how things were."
+    },
+    {
+      "id": "es/a2/u13/drill/3",
+      "type": "type_in",
+      "prompt": "Ayer ___ con mi madre.",
+      "answer": "hablé",
+      "acceptedAnswers": [
+        "hable"
+      ],
+      "translation": "yesterday I spoke to my mother",
+      "note": "A completed event takes the preterite."
+    },
+    {
+      "id": "es/a2/u13/drill/4",
+      "type": "type_in",
+      "prompt": "Cuando era niño, ___ en casa.",
+      "answer": "vivía",
+      "acceptedAnswers": [
+        "vivia"
+      ],
+      "translation": "when I was a child, I lived at home",
+      "note": "The imperfect for how things were."
+    },
+    {
+      "id": "es/a2/u13/drill/5",
+      "type": "type_in",
+      "prompt": "Él ___ muy alto.",
+      "answer": "era",
+      "acceptedAnswers": [
+        "era"
+      ],
+      "translation": "he was very tall",
+      "note": "Era is the imperfect of ser."
     }
   ]
 }

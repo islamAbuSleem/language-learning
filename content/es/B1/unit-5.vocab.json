@@ -1,0 +1,99 @@
+{
+  "unit": 5,
+  "title": "This, that, someone",
+  "description": "Point at things, and talk about people without naming them.",
+  "grammar": "demonstratives, and words for people and things",
+  "grammarNote": "These words stand in for a noun: eso es mi coche. Alguien and nadie work the same way.",
+  "items": [
+    {
+      "es": "esto",
+      "en": "this",
+      "article": null,
+      "note": "This, close to the speaker. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "eso",
+      "en": "that",
+      "article": null,
+      "note": "That, close to the listener. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "aquello",
+      "en": "that over there",
+      "article": null,
+      "note": "That, far from both. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "alguien",
+      "en": "someone",
+      "article": null,
+      "note": "Someone. The negative is nadie.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "nadie",
+      "en": "nobody",
+      "article": null,
+      "note": "Nobody. You say no, nadie.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "algo",
+      "en": "something",
+      "article": null,
+      "note": "Something. The negative is nada.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "nada",
+      "en": "nothing",
+      "article": null,
+      "note": "Nothing. You say no, nada.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "cada",
+      "en": "each",
+      "article": null,
+      "note": "Each, every. It is used before a noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "todo",
+      "en": "all",
+      "article": null,
+      "note": "All, everything. Todo el mundo means everyone.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "ninguno",
+      "en": "none",
+      "article": null,
+      "note": "None, not one. It agrees with the noun: ninguno de ellos.",
+      "tags": [
+        "adjective"
+      ]
+    }
+  ]
+}

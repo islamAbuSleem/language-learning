@@ -1,0 +1,199 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 11,
+  "title": "Giving things to people",
+  "description": "Say who you give something to, and who you take it from.",
+  "explanation": {
+    "summary": "Some verbs give something to someone: dar, entregar, enviar, enseñar, traer. The person is an indirect object, and it comes before the verb, with a pronoun for it: le doy el libro, a ella le doy el libro.",
+    "sections": [
+      {
+        "heading": "The eight pronouns",
+        "body": "Me, te, se, nos, os, les. They replace the person, and they go before the verb. Se is used when the person is not named, or when it is third person and you do not want to say who: se lo doy. The form le and les are used for a male and a female person, so there is no distinction in the pronoun itself.",
+        "examples": [
+          {
+            "es": "Le doy el libro.",
+            "en": "I give him the book."
+          },
+          {
+            "es": "Nos trajeron la comida.",
+            "en": "They brought us the food."
+          },
+          {
+            "es": "¿Me lo puedes dar?",
+            "en": "Can you give it to me?"
+          }
+        ]
+      },
+      {
+        "heading": "With dar, it can also mean to take away",
+        "body": "Dar has a second use: quitar. Darle a alguien un paseo means to take someone for a walk. This is the one place where the indirect object can come after the verb, because the whole phrase is a set expression.",
+        "examples": [
+          {
+            "es": "Darle a Pedro un paseo por el parque.",
+            "en": "To take Pedro for a walk in the park."
+          },
+          {
+            "es": "Nos dio una sorpresa.",
+            "en": "He gave us a surprise."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u11/match/me",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "me",
+          "right": "me"
+        },
+        {
+          "left": "you",
+          "right": "te"
+        },
+        {
+          "left": "him",
+          "right": "se"
+        },
+        {
+          "left": "us",
+          "right": "nos"
+        },
+        {
+          "left": "them",
+          "right": "les"
+        }
+      ],
+      "note": "The indirect object comes before the verb: le doy el libro. It answers a quién."
+    },
+    {
+      "id": "es/b1/u11/select/me",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “me”.",
+      "options": [
+        "te",
+        "nos",
+        "se",
+        "me"
+      ],
+      "answer": "me",
+      "translation": "me",
+      "note": "To me. It goes before the verb: me lo das."
+    },
+    {
+      "id": "es/b1/u11/drill/1",
+      "type": "type_in",
+      "prompt": "___ doy el libro.",
+      "answer": "Le",
+      "acceptedAnswers": [
+        "Le"
+      ],
+      "translation": "I give him the book",
+      "note": "The indirect object comes before the verb."
+    },
+    {
+      "id": "es/b1/u11/match/entregar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to hand over",
+          "right": "entregar"
+        },
+        {
+          "left": "to send",
+          "right": "enviar"
+        },
+        {
+          "left": "to bring",
+          "right": "traer"
+        },
+        {
+          "left": "gift",
+          "right": "el regalo"
+        },
+        {
+          "left": "surprise",
+          "right": "la sorpresa"
+        }
+      ],
+      "note": "The indirect object comes before the verb: le doy el libro. It answers a quién."
+    },
+    {
+      "id": "es/b1/u11/select/te",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “you”.",
+      "options": [
+        "aquel",
+        "esto",
+        "eso",
+        "te"
+      ],
+      "answer": "te",
+      "translation": "you",
+      "note": "To you. It goes before the verb: te lo doy."
+    },
+    {
+      "id": "es/b1/u11/drill/2",
+      "type": "type_in",
+      "prompt": "___ trajeron la comida.",
+      "answer": "Nos",
+      "acceptedAnswers": [
+        "Nos"
+      ],
+      "translation": "they brought us the food",
+      "note": "Nos is the indirect object."
+    },
+    {
+      "id": "es/b1/u11/select/se",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “him”.",
+      "options": [
+        "yo",
+        "tú",
+        "él",
+        "se"
+      ],
+      "answer": "se",
+      "translation": "him",
+      "note": "To him, her or them, when the person is not named."
+    },
+    {
+      "id": "es/b1/u11/drill/3",
+      "type": "type_in",
+      "prompt": "¿___ lo puedes dar?",
+      "answer": "Me",
+      "acceptedAnswers": [
+        "Me"
+      ],
+      "translation": "can you give it to me?",
+      "note": "Me comes before the verb."
+    },
+    {
+      "id": "es/b1/u11/drill/4",
+      "type": "type_in",
+      "prompt": "___ dio una sorpresa.",
+      "answer": "Nos",
+      "acceptedAnswers": [
+        "Nos"
+      ],
+      "translation": "he gave us a surprise",
+      "note": "Nos before dio."
+    },
+    {
+      "id": "es/b1/u11/drill/5",
+      "type": "type_in",
+      "prompt": "___ envié el paquete.",
+      "answer": "Te",
+      "acceptedAnswers": [
+        "Te"
+      ],
+      "translation": "I sent you the parcel",
+      "note": "Te is the indirect object."
+    }
+  ]
+}

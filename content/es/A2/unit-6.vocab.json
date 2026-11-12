@@ -1,0 +1,99 @@
+{
+  "unit": 6,
+  "title": "Asking",
+  "description": "Ask the questions you need answered.",
+  "grammar": "question words and the verb hacer",
+  "grammarNote": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto.",
+  "items": [
+    {
+      "es": "qué",
+      "en": "what",
+      "article": null,
+      "note": "What. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "quién",
+      "en": "who",
+      "article": null,
+      "note": "Who. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "dónde",
+      "en": "where",
+      "article": null,
+      "note": "Where. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "cuándo",
+      "en": "when",
+      "article": null,
+      "note": "When. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "por qué",
+      "en": "why",
+      "article": null,
+      "note": "Why. Por and qué are written separately.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "cómo",
+      "en": "how",
+      "article": null,
+      "note": "How. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "cuánto",
+      "en": "how much",
+      "article": null,
+      "note": "How much or how many. It carries an accent in a question.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "hacer",
+      "en": "to do",
+      "article": null,
+      "note": "An infinitive. Its forms are irregular: hago, haces, hace.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "pregunta",
+      "en": "question",
+      "article": "la",
+      "note": "Feminine: la pregunta.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "es": "ayuda",
+      "en": "help",
+      "article": "la",
+      "note": "Feminine: la ayuda. You say pedir ayuda.",
+      "tags": [
+        "object"
+      ]
+    }
+  ]
+}

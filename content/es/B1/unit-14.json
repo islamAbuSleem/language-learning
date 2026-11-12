@@ -1,0 +1,217 @@
+{
+  "track": "es",
+  "level": "B1",
+  "unit": 14,
+  "title": "What they said",
+  "description": "Report what someone else said.",
+  "explanation": {
+    "summary": "Reporting what someone said in Spanish is mostly a matter of moving the words around. A statement becomes dijo que plus the same sentence with the person changed. A question becomes dijo que plus the same question with the question word in front.",
+    "sections": [
+      {
+        "heading": "Reporting a statement",
+        "body": "You use dijo, dice, and the verb after que goes back one step in time. Me dijo que venía means he told me he was coming. If the person speaking is the same as the subject of the reported verb, the verb stays as it is: dijo que viene. The person is usually replaced by a pronoun: dijo, me dijo, nos dijo.",
+        "examples": [
+          {
+            "es": "Me dijo que venía.",
+            "en": "He told me he was coming."
+          },
+          {
+            "es": "Dijo que no podía.",
+            "en": "She said she could not."
+          },
+          {
+            "es": "Nos dijo que ya había llegado.",
+            "en": "He told us he had already arrived."
+          }
+        ]
+      },
+      {
+        "heading": "Reporting a question",
+        "body": "There is no word for that in Spanish. You use the same verb of saying and then que, and the question word stays in front: preguntó que dónde estaba. If the question word is a subject, it becomes a subject too: preguntó que quién era.",
+        "examples": [
+          {
+            "es": "Preguntó que dónde vivía.",
+            "en": "He asked where I lived."
+          },
+          {
+            "es": "Le pregunté que cuándo llegaba.",
+            "en": "I asked him when he was arriving."
+          },
+          {
+            "es": "Preguntó que quién era.",
+            "en": "He asked who it was."
+          }
+        ]
+      },
+      {
+        "heading": "The times move too",
+        "body": "The time words move with the verb: hoy becomes ayer, mañana becomes al día siguiente, ahora becomes entonces. And the mood can change: a question can become a statement in the report.",
+        "examples": [
+          {
+            "es": "Dijo que vendría mañana.",
+            "en": "He said he would come tomorrow."
+          },
+          {
+            "es": "Me dijo que ayer había llegado.",
+            "en": "He told me he had arrived the day before."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/b1/u14/match/dijo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "he said",
+          "right": "dijo"
+        },
+        {
+          "left": "he says",
+          "right": "dice"
+        },
+        {
+          "left": "he asked",
+          "right": "preguntó"
+        },
+        {
+          "left": "he tells",
+          "right": "cuenta"
+        },
+        {
+          "left": "he explained",
+          "right": "explicó"
+        }
+      ],
+      "note": "When you report a question, you use que and the order of the words does not change: no sé qué dijo."
+    },
+    {
+      "id": "es/b1/u14/select/dijo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he said”.",
+      "options": [
+        "ir",
+        "venir",
+        "volver",
+        "dijo"
+      ],
+      "answer": "dijo",
+      "translation": "he said",
+      "note": "The preterite of decir. It is irregular."
+    },
+    {
+      "id": "es/b1/u14/drill/1",
+      "type": "type_in",
+      "prompt": "Me ___ que venía.",
+      "answer": "dijo",
+      "acceptedAnswers": [
+        "dijo"
+      ],
+      "translation": "he told me he was coming",
+      "note": "Dijo que plus a verb one step back in time."
+    },
+    {
+      "id": "es/b1/u14/match/respondio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "he answered",
+          "right": "respondió"
+        },
+        {
+          "left": "he exclaimed",
+          "right": "exclamó"
+        },
+        {
+          "left": "he muttered",
+          "right": "murmuró"
+        },
+        {
+          "left": "he announced",
+          "right": "anunció"
+        },
+        {
+          "left": "he confirmed",
+          "right": "confirmó"
+        }
+      ],
+      "note": "When you report a question, you use que and the order of the words does not change: no sé qué dijo."
+    },
+    {
+      "id": "es/b1/u14/select/dice",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he says”.",
+      "options": [
+        "dice",
+        "dijo",
+        "diga",
+        "preguntó"
+      ],
+      "answer": "dice",
+      "translation": "he says",
+      "note": "The present of decir. It is irregular."
+    },
+    {
+      "id": "es/b1/u14/drill/2",
+      "type": "type_in",
+      "prompt": "___ que dónde vivía.",
+      "answer": "preguntó",
+      "acceptedAnswers": [
+        "pregunto"
+      ],
+      "translation": "he asked where I lived",
+      "note": "A reported question uses que and keeps the question word in front."
+    },
+    {
+      "id": "es/b1/u14/select/pregunto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he asked”.",
+      "options": [
+        "dormir",
+        "preferir",
+        "seguir",
+        "preguntó"
+      ],
+      "answer": "preguntó",
+      "translation": "he asked",
+      "note": "The preterite of preguntar."
+    },
+    {
+      "id": "es/b1/u14/drill/3",
+      "type": "type_in",
+      "prompt": "Ella ___ que no podía.",
+      "answer": "dijo",
+      "acceptedAnswers": [
+        "dijo"
+      ],
+      "translation": "she said she could not",
+      "note": "Dijo que."
+    },
+    {
+      "id": "es/b1/u14/drill/4",
+      "type": "type_in",
+      "prompt": "Nos ___ que ya había llegado.",
+      "answer": "dijo",
+      "acceptedAnswers": [
+        "dijo"
+      ],
+      "translation": "he told us he had already arrived",
+      "note": "The reported verb moves back a step: había llegado."
+    },
+    {
+      "id": "es/b1/u14/drill/5",
+      "type": "type_in",
+      "prompt": "Le ___ cuándo llegaba.",
+      "answer": "pregunté",
+      "acceptedAnswers": [
+        "pregunte"
+      ],
+      "translation": "I asked him when he was arriving",
+      "note": "Pregunté que with the question word in front."
+    }
+  ]
+}

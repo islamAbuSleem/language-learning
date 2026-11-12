@@ -1,0 +1,99 @@
+{
+  "unit": 1,
+  "title": "Changing verbs",
+  "description": "Verbs that change their ending in the present.",
+  "grammar": "stem-changing verbs in the present",
+  "grammarNote": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo.",
+  "items": [
+    {
+      "es": "querer",
+      "en": "to want",
+      "article": null,
+      "note": "The e changes to ie: quiero, quieres, quiere.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "poder",
+      "en": "to be able to",
+      "article": null,
+      "note": "The o changes to ue: puedo, puedes, puede.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "dormir",
+      "en": "to sleep",
+      "article": null,
+      "note": "The o changes to ue: duermo, duermes, duerme.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "seguir",
+      "en": "to follow",
+      "article": null,
+      "note": "The e changes to ie: sigo, sigues, sigue. It also means to continue.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "preferir",
+      "en": "to prefer",
+      "article": null,
+      "note": "The e changes to ie: prefiero, prefieres, prefiere.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "mentir",
+      "en": "to lie",
+      "article": null,
+      "note": "The e changes to ie: miento, mientes, miente.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "cerrar",
+      "en": "to close",
+      "article": null,
+      "note": "The e changes to ie: cierro, cierras, cierra.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "despertar",
+      "en": "to wake up",
+      "article": null,
+      "note": "The e changes to ie: despierto, despiertas, despierta.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "sentir",
+      "en": "to feel",
+      "article": null,
+      "note": "The e changes to ie: siento, sientes, siente.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "consejo",
+      "en": "advice",
+      "article": "el",
+      "note": "Masculine: el consejo.",
+      "tags": [
+        "object"
+      ]
+    }
+  ]
+}

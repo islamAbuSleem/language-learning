@@ -1,19 +1,186 @@
 {
   "unit": 11,
-  "title": "Having and needing",
-  "description": "Say what you have, what you want, and what you must do.",
-  "grammar": "expressions with the verb tener",
-  "grammarNote": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen.",
+  "title": "Where exactly",
+  "description": "Say exactly where something is, and where it is going.",
+  "grammar": "prepositions of place, and the words of direction",
+  "grammarNote": "Near and far take de: cerca de la estación, lejos del centro.",
+  "explanation": {
+    "summary": "Prepositions of place in Spanish are more exact than English ones. English often leaves the preposition out, Spanish nearly always needs it. A unit of distance becomes a phrase with de attached to it.",
+    "sections": [
+      {
+        "heading": "Near and far take de",
+        "body": "In English you say near the station. In Spanish it is cerca de la estación. The same is true of lejos: lejos del centro. The de is not optional, and it attaches to the phrase that follows it.",
+        "examples": [
+          {
+            "es": "El hotel está cerca de la estación.",
+            "en": "The hotel is near the station."
+          },
+          {
+            "es": "Mi casa está lejos del centro.",
+            "en": "My house is far from the centre."
+          },
+          {
+            "es": "El banco está frente al edificio.",
+            "en": "The bench is opposite the building."
+          }
+        ]
+      },
+      {
+        "heading": "Position words",
+        "body": "Entre is between, detrás is behind, delante is in front of, encima is on top of, debajo is underneath. Inside and outside take de as well: dentro de la caja, fuera de la ciudad. And hacia points in a direction without arriving: hacia el norte.",
+        "examples": [
+          {
+            "es": "La tienda está entre el banco y la fuente.",
+            "en": "The shop is between the bench and the fountain."
+          },
+          {
+            "es": "El gato está detrás de la puerta.",
+            "en": "The cat is behind the door."
+          },
+          {
+            "es": "Vamos hacia el puente.",
+            "en": "We are heading towards the bridge."
+          }
+        ]
+      },
+      {
+        "heading": "Where it is, where it went",
+        "body": "Estar says where a thing is now: la caja está encima de la mesa. Ir says where it is going: la caja va encima de la mesa. The preposition does not change; the verb does.",
+        "examples": [
+          {
+            "es": "El libro está debajo del sofá.",
+            "en": "The book is underneath the sofa."
+          },
+          {
+            "es": "Pongo el libro encima de la mesa.",
+            "en": "I put the book on the table."
+          }
+        ]
+      }
+    ]
+  },
   "items": [
-    { "es": "tener", "en": "to have", "article": null, "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene.", "tags": ["verb"] },
-    { "es": "querer", "en": "to want", "article": null, "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere.", "tags": ["verb"] },
-    { "es": "poder", "en": "to be able to", "article": null, "note": "An infinitive. Its forms are irregular: puedo, puedes, puede.", "tags": ["verb"] },
-    { "es": "deber", "en": "must", "article": null, "note": "An infinitive. Its forms are irregular: debo, debes, debe.", "tags": ["verb"] },
-    { "es": "hay", "en": "there is", "article": null, "note": "There is, there are. It never changes form.", "tags": ["verb"] },
-    { "es": "hambre", "en": "hunger", "article": "la", "note": "Feminine: la hambre. You say tener hambre.", "tags": ["feeling"] },
-    { "es": "sed", "en": "thirst", "article": "la", "note": "Feminine: la sed. You say tener sed.", "tags": ["feeling"] },
-    { "es": "sueño", "en": "sleep", "article": "el", "note": "Masculine: el sueño. You say tener sueño.", "tags": ["feeling"] },
-    { "es": "miedo", "en": "fear", "article": "el", "note": "Masculine: el miedo. You say tener miedo.", "tags": ["feeling"] },
-    { "es": "gana", "en": "it pays", "article": null, "note": "No article: esto gana. It also means wins.", "tags": ["object"] }
+    {
+      "es": "entre",
+      "en": "between",
+      "article": null,
+      "note": "Entre la cocina y el salón.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "detrás",
+      "en": "behind",
+      "article": null,
+      "note": "Detrás de la puerta.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "delante",
+      "en": "in front of",
+      "article": null,
+      "note": "Delante de la casa.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "encima",
+      "en": "on top of",
+      "article": null,
+      "note": "Encima de la mesa. It also means above.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "debajo",
+      "en": "underneath",
+      "article": null,
+      "note": "Debajo de la cama.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "dentro",
+      "en": "inside",
+      "article": null,
+      "note": "Dentro de la caja.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "fuera",
+      "en": "outside",
+      "article": null,
+      "note": "Fuera de la ciudad.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "hacia",
+      "en": "towards",
+      "article": null,
+      "note": "Hacia el norte. It points in a direction without arriving.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "frente",
+      "en": "front",
+      "article": "el",
+      "note": "Masculine: el frente. As a preposition: frente a.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "esquina",
+      "en": "corner",
+      "article": "la",
+      "note": "Feminine: la esquina. You already know this one from the neighbourhood unit.",
+      "tags": [
+        "object"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "El hotel está cerca ___ la estación.",
+      "answer": "de",
+      "meaning": "the hotel is near the station",
+      "note": "Cerca takes de."
+    },
+    {
+      "prompt": "La tienda está ___ el banco y la fuente.",
+      "answer": "entre",
+      "meaning": "the shop is between the bench and the fountain",
+      "note": "Entre is between."
+    },
+    {
+      "prompt": "El gato está ___ la puerta.",
+      "answer": "detrás",
+      "meaning": "the cat is behind the door",
+      "note": "Detrás de."
+    },
+    {
+      "prompt": "Vamos ___ el puente.",
+      "answer": "hacia",
+      "meaning": "we are heading towards the bridge",
+      "note": "Hacia points in a direction."
+    },
+    {
+      "prompt": "El libro está ___ el sofá.",
+      "answer": "debajo",
+      "meaning": "the book is underneath the sofa",
+      "note": "Debajo de."
+    }
   ]
 }

@@ -2,178 +2,206 @@
   "track": "es",
   "level": "A2",
   "unit": 10,
-  "title": "The day",
-  "description": "Say when it is, and when things happen.",
+  "title": "Por and para",
+  "description": "Say what something is for, and what it is for.",
+  "explanation": {
+    "summary": "Por and para are both translated as for, and they are not interchangeable. Para points towards a place or a purpose. Por points at a cause, an exchange, or a route. Getting them the wrong way round is one of the most common mistakes a learner makes, and one of the first a native speaker notices.",
+    "sections": [
+      {
+        "heading": "Para is for a place or a purpose",
+        "body": "Para goes towards something: para Madrid, para elAeropuerto, para ti. It also says what something is for: un café para la mañana, un regalo para mi madre. With a person, para means for: un paquete para ti.",
+        "examples": [
+          {
+            "es": "Salgo para Madrid.",
+            "en": "I am leaving for Madrid."
+          },
+          {
+            "es": "Este regalo es para mi madre.",
+            "en": "This gift is for my mother."
+          },
+          {
+            "es": "Es un café para la mañana.",
+            "en": "It is a coffee for the morning."
+          }
+        ]
+      },
+      {
+        "heading": "Por is for a cause or an exchange",
+        "body": "Por points at the reason, the way through, or what you gave to get something: por el tráfico, por Madrid, dos euros por el café. The classic pair is por and para for the same journey: porMadrid is the route, para Madrid is the destination.",
+        "examples": [
+          {
+            "es": "Llegué tarde por el tráfico.",
+            "en": "I arrived late because of the traffic."
+          },
+          {
+            "es": "Pasé por el parque.",
+            "en": "I went through the park."
+          },
+          {
+            "es": "Pagué diez euros por el libro.",
+            "en": "I paid ten euros for the book."
+          }
+        ]
+      },
+      {
+        "heading": "One that catches people out",
+        "body": "Gracias por tu ayuda means thank you for your help, because there is something you were helped with. Gracias por el café means thank you for the coffee, because the coffee is the thing given. The reason always takes por."
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u10/match/hora",
+      "id": "es/a2/u10/match/para",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "hour",
-          "right": "la hora"
+          "left": "for",
+          "right": "para"
         },
         {
-          "left": "minute",
-          "right": "el minuto"
+          "left": "for",
+          "right": "por"
         },
         {
-          "left": "noon",
-          "right": "el mediodía"
+          "left": "detail",
+          "right": "el detalle"
         },
         {
-          "left": "midnight",
-          "right": "la medianoche"
+          "left": "goal",
+          "right": "la meta"
         },
         {
-          "left": "afternoon",
-          "right": "la tarde"
+          "left": "gold",
+          "right": "el oro"
         }
       ],
-      "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
+      "note": "Para is for a destination or a purpose. Por is for a cause, an exchange, or moving through."
     },
     {
-      "id": "es/a2/u10/select/hora",
+      "id": "es/a2/u10/select/para",
       "type": "select",
-      "prompt": "Pick the Spanish word for “hour”.",
+      "prompt": "Pick the Spanish word for “for”.",
       "options": [
-        "ahora",
-        "mañana",
-        "el día",
-        "la hora"
+        "ser",
+        "el estudiante",
+        "el nombre",
+        "para"
       ],
-      "answer": "la hora",
-      "translation": "hour",
-      "note": "Feminine: la hora. It also means the time."
+      "answer": "para",
+      "translation": "for",
+      "note": "Towards a place or a purpose: para Madrid, para ti."
     },
     {
-      "id": "es/a2/u10/type_in/minuto",
+      "id": "es/a2/u10/drill/1",
       "type": "type_in",
-      "prompt": "Write “minute” in Spanish.",
-      "answer": "minuto",
+      "prompt": "Salgo ___ Madrid.",
+      "answer": "para",
       "acceptedAnswers": [
-        "minuto"
+        "para"
       ],
-      "translation": "minute",
-      "note": "Masculine: el minuto."
+      "translation": "I am leaving for Madrid",
+      "note": "Para is for a destination."
     },
     {
-      "id": "es/a2/u10/listen/mediodia",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "el mediodía",
-      "options": [
-        "el día",
-        "mañana",
-        "ahora",
-        "el mediodía"
-      ],
-      "audio": {
-        "text": "mediodía",
-        "lang": "es"
-      },
-      "translation": "noon",
-      "note": "Masculine: el mediodía."
-    },
-    {
-      "id": "es/a2/u10/match/noche",
+      "id": "es/a2/u10/match/plata",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "night",
-          "right": "la noche"
+          "left": "silver",
+          "right": "la plata"
         },
         {
-          "left": "week",
-          "right": "la semana"
+          "left": "tunnel",
+          "right": "el túnel"
         },
         {
-          "left": "month",
-          "right": "el mes"
+          "left": "purpose",
+          "right": "el propósito"
         },
         {
-          "left": "clock",
-          "right": "el reloj"
+          "left": "destination",
+          "right": "el destino"
         },
         {
-          "left": "now",
-          "right": "ahora"
+          "left": "reason",
+          "right": "el motivo"
         }
       ],
-      "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
+      "note": "Para is for a destination or a purpose. Por is for a cause, an exchange, or moving through."
     },
     {
-      "id": "es/a2/u10/select/medianoche",
+      "id": "es/a2/u10/select/por",
       "type": "select",
-      "prompt": "Pick the Spanish word for “midnight”.",
+      "prompt": "Pick the Spanish word for “for”.",
       "options": [
-        "noche",
-        "la hora",
-        "tarde",
-        "la medianoche"
+        "hace mal tiempo",
+        "rojo",
+        "hace buen tiempo",
+        "por"
       ],
-      "answer": "la medianoche",
-      "translation": "midnight",
-      "note": "Feminine: la medianoche."
+      "answer": "por",
+      "translation": "for",
+      "note": "A cause, an exchange or a route: por el tráfico, por diez euros."
     },
     {
-      "id": "es/a2/u10/type_in/tarde",
+      "id": "es/a2/u10/drill/2",
       "type": "type_in",
-      "prompt": "Write “afternoon” in Spanish.",
-      "answer": "tarde",
+      "prompt": "Llegué tarde ___ el tráfico.",
+      "answer": "por",
       "acceptedAnswers": [
-        "tarde"
+        "por"
       ],
-      "translation": "afternoon",
-      "note": "Feminine: la tarde. It also means late."
+      "translation": "I arrived late because of the traffic",
+      "note": "Por is for a cause."
     },
     {
-      "id": "es/a2/u10/listen/noche",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la noche",
-      "options": [
-        "la hora",
-        "el mediodía",
-        "el minuto",
-        "la noche"
-      ],
-      "audio": {
-        "text": "noche",
-        "lang": "es"
-      },
-      "translation": "night",
-      "note": "Feminine: la noche."
-    },
-    {
-      "id": "es/a2/u10/select/semana",
+      "id": "es/a2/u10/select/detalle",
       "type": "select",
-      "prompt": "Pick the Spanish word for “week”.",
+      "prompt": "Pick the Spanish word for “detail”.",
       "options": [
-        "el mediodía",
-        "la medianoche",
-        "la semana",
-        "el minuto"
+        "el propósito",
+        "el destino",
+        "el motivo",
+        "el detalle"
       ],
-      "answer": "la semana",
-      "translation": "week",
-      "note": "Feminine: la semana."
+      "answer": "el detalle",
+      "translation": "detail",
+      "note": "Masculine: el detalle. It also means a shop."
     },
     {
-      "id": "es/a2/u10/select/mes",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “month”.",
-      "options": [
-        "noche",
-        "el minuto",
-        "la hora",
-        "el mes"
+      "id": "es/a2/u10/drill/3",
+      "type": "type_in",
+      "prompt": "Pasé ___ el parque.",
+      "answer": "por",
+      "acceptedAnswers": [
+        "por"
       ],
-      "answer": "el mes",
-      "translation": "month",
-      "note": "Masculine: el mes."
+      "translation": "I went through the park",
+      "note": "Por is the way through."
+    },
+    {
+      "id": "es/a2/u10/drill/4",
+      "type": "type_in",
+      "prompt": "Este regalo es ___ mi madre.",
+      "answer": "para",
+      "acceptedAnswers": [
+        "para"
+      ],
+      "translation": "this gift is for my mother",
+      "note": "Para with a person means for."
+    },
+    {
+      "id": "es/a2/u10/drill/5",
+      "type": "type_in",
+      "prompt": "Pagué diez euros ___ el libro.",
+      "answer": "por",
+      "acceptedAnswers": [
+        "por"
+      ],
+      "translation": "I paid ten euros for the book",
+      "note": "Por is for an exchange."
     }
   ]
 }

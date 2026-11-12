@@ -1,19 +1,176 @@
 {
   "unit": 12,
-  "title": "Asking",
-  "description": "Ask the questions you need answered.",
-  "grammar": "question words and the verb hacer",
-  "grammarNote": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto.",
+  "title": "What will happen",
+  "description": "Say what you are going to do, and what will happen.",
+  "grammar": "the future, in two ways",
+  "grammarNote": "The simple future ends in -é, -ás, -á, -emos, -éis, -án: hablaré, hablarás, hablará.",
+  "explanation": {
+    "summary": "Spanish has two ways to talk about the future. The common one is ir a + an infinitive, which is what people actually use when they are making plans. The other is the simple future, a single verb ending in -é, which is used for predictions and for things that will happen on their own.",
+    "sections": [
+      {
+        "heading": "Plans: ir a + infinitive",
+        "body": "For what you intend to do, Spanish uses ir a followed by an infinitive: voy a estudiar, vas a venir. It is the normal way to talk about plans, and it is often shorter than the simple future. You can also use the simple future with ir: voy a ir al médico, and the two together are not wrong, just more emphatic.",
+        "examples": [
+          {
+            "es": "Voy a estudiar español.",
+            "en": "I am going to study Spanish."
+          },
+          {
+            "es": "¿Vas a venir a la fiesta?",
+            "en": "Are you going to come to the party?"
+          },
+          {
+            "es": "Vamos a comer.",
+            "en": "We are going to eat."
+          }
+        ]
+      },
+      {
+        "heading": "Predictions: the simple future",
+        "body": "The simple future is one verb: hablo, hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán. For -ir verbs it drops the r of the infinitive: comer becomes comeré. For -er and -ar verbs the ending is added to the whole infinitive: hablar becomes hablaré. It is used for predictions and for things that happen by themselves: mañana lloverá, el tren llegará tarde.",
+        "examples": [
+          {
+            "es": "Mañana lloverá.",
+            "en": "It will rain tomorrow."
+          },
+          {
+            "es": "El tren llegará tarde.",
+            "en": "The train will arrive late."
+          },
+          {
+            "es": "No importa, hablaré contigo mañana.",
+            "en": "It does not matter, I will talk to you tomorrow."
+          }
+        ]
+      },
+      {
+        "heading": "Two ways, one meaning",
+        "body": "Voy a ir al médico and iré al médico say the same thing. The first sounds closer to what you have decided. The second sounds more like a fact about the future."
+      }
+    ]
+  },
   "items": [
-    { "es": "qué", "en": "what", "article": null, "note": "What. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "quién", "en": "who", "article": null, "note": "Who. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "dónde", "en": "where", "article": null, "note": "Where. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "cuándo", "en": "when", "article": null, "note": "When. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "por qué", "en": "why", "article": null, "note": "Why. Por and qué are written separately.", "tags": ["question"] },
-    { "es": "cómo", "en": "how", "article": null, "note": "How. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "cuánto", "en": "how much", "article": null, "note": "How much or how many. It carries an accent in a question.", "tags": ["question"] },
-    { "es": "hacer", "en": "to do", "article": null, "note": "An infinitive. Its forms are irregular: hago, haces, hace.", "tags": ["verb"] },
-    { "es": "pregunta", "en": "question", "article": "la", "note": "Feminine: la pregunta.", "tags": ["question"] },
-    { "es": "ayuda", "en": "help", "article": "la", "note": "Feminine: la ayuda. You say pedir ayuda.", "tags": ["object"] }
+    {
+      "es": "hablaré",
+      "en": "I will speak",
+      "article": null,
+      "note": "The future of hablar. The ending is added to the whole infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "comeré",
+      "en": "I will eat",
+      "article": null,
+      "note": "The future of comer. For -er verbs the ending is added to the whole infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "viviré",
+      "en": "I will live",
+      "article": null,
+      "note": "The future of vivir. For -ir verbs the r of the infinitive is dropped.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "trabajaré",
+      "en": "I will work",
+      "article": null,
+      "note": "The future of trabajar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "estudiaré",
+      "en": "I will study",
+      "article": null,
+      "note": "The future of estudiar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "veré",
+      "en": "I will see",
+      "article": null,
+      "note": "The future of ver. It keeps the e of the infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "haré",
+      "en": "I will do",
+      "article": null,
+      "note": "The future of hacer. It keeps the e of the infinitive.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "podré",
+      "en": "I will be able to",
+      "article": null,
+      "note": "The future of poder. It is used for permission.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vendré",
+      "en": "I will come",
+      "article": null,
+      "note": "The future of venir.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "querré",
+      "en": "I will want to",
+      "article": null,
+      "note": "The future of querer.",
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Mañana ___ llover.",
+      "answer": "lloverá",
+      "meaning": "tomorrow it will rain",
+      "note": "The simple future for a prediction."
+    },
+    {
+      "prompt": "Voy ___ estudiar español.",
+      "answer": "a",
+      "meaning": "I am going to study Spanish",
+      "note": "Plans use ir a plus an infinitive."
+    },
+    {
+      "prompt": "El tren ___ tarde.",
+      "answer": "llegará",
+      "meaning": "the train will arrive late",
+      "note": "A prediction uses the simple future."
+    },
+    {
+      "prompt": "¿Vas ___ venir?",
+      "answer": "a",
+      "meaning": "are you going to come?",
+      "note": "Ir a before an infinitive."
+    },
+    {
+      "prompt": "No ___ importa, hablaré contigo.",
+      "answer": "importa",
+      "meaning": "it does not matter, I will talk to you",
+      "note": "Importar in the negative with the simple future."
+    }
   ]
 }

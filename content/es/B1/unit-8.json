@@ -1,12 +1,12 @@
 {
   "track": "es",
   "level": "B1",
-  "unit": 22,
+  "unit": 8,
   "title": "Yesterday",
   "description": "Say what you did, and who you did it with.",
   "exercises": [
     {
-      "id": "es/b1/u22/match/hablo",
+      "id": "es/b1/u8/match/hablo",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -34,13 +34,13 @@
       "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
     },
     {
-      "id": "es/b1/u22/select/hablo",
+      "id": "es/b1/u8/select/hablo",
       "type": "select",
       "prompt": "Pick the Spanish word for “he spoke”.",
       "options": [
-        "tener",
-        "querer",
-        "poder",
+        "leer",
+        "vender",
+        "aprender",
         "habló"
       ],
       "answer": "habló",
@@ -48,7 +48,7 @@
       "note": "The preterite of hablar. The yo form takes an accent: hablé."
     },
     {
-      "id": "es/b1/u22/type_in/comio",
+      "id": "es/b1/u8/type_in/comio",
       "type": "type_in",
       "prompt": "Write “he ate” in Spanish.",
       "answer": "comió",
@@ -59,15 +59,15 @@
       "note": "The preterite of comer. The yo form takes an accent: comí."
     },
     {
-      "id": "es/b1/u22/listen/escribio",
+      "id": "es/b1/u8/listen/escribio",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "escribió",
       "options": [
-        "recibir",
-        "compartir",
-        "abrir",
-        "escribió"
+        "escribió",
+        "he escrito",
+        "he dicho",
+        "he hecho"
       ],
       "audio": {
         "text": "escribió",
@@ -77,7 +77,7 @@
       "note": "The preterite of escribir. The yo form takes an accent: escribí."
     },
     {
-      "id": "es/b1/u22/match/primo",
+      "id": "es/b1/u8/match/primo",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -105,21 +105,21 @@
       "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
     },
     {
-      "id": "es/b1/u22/select/vivio",
+      "id": "es/b1/u8/select/vivio",
       "type": "select",
       "prompt": "Pick the Spanish word for “he lived”.",
       "options": [
         "vivió",
-        "beber",
-        "aprender",
-        "comer"
+        "deber",
+        "hay",
+        "poder"
       ],
       "answer": "vivió",
       "translation": "he lived",
       "note": "The preterite of vivir. The yo form takes an accent: viví."
     },
     {
-      "id": "es/b1/u22/type_in/familia",
+      "id": "es/b1/u8/type_in/familia",
       "type": "type_in",
       "prompt": "Write “family” in Spanish.",
       "answer": "familia",
@@ -130,15 +130,15 @@
       "note": "Feminine: la familia."
     },
     {
-      "id": "es/b1/u22/listen/primo",
+      "id": "es/b1/u8/listen/primo",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "el primo",
       "options": [
-        "la familia",
+        "el abuelo",
         "la abuela",
-        "el primo",
-        "la madre"
+        "la hermana",
+        "el primo"
       ],
       "audio": {
         "text": "primo",
@@ -148,27 +148,27 @@
       "note": "Masculine: el primo. The feminine is la prima."
     },
     {
-      "id": "es/b1/u22/select/vecino",
+      "id": "es/b1/u8/select/vecino",
       "type": "select",
       "prompt": "Pick the Spanish word for “neighbour”.",
       "options": [
-        "el médico",
-        "el jefe",
-        "el nombre",
-        "el vecino"
+        "el vecino",
+        "el profesor",
+        "el amigo",
+        "el médico"
       ],
       "answer": "el vecino",
       "translation": "neighbour",
       "note": "Masculine: el vecino. The feminine is la vecina."
     },
     {
-      "id": "es/b1/u22/select/jefe",
+      "id": "es/b1/u8/select/jefe",
       "type": "select",
       "prompt": "Pick the Spanish word for “boss”.",
       "options": [
+        "el profesor",
+        "el amigo",
         "el médico",
-        "el nombre",
-        "el vecino",
         "el jefe"
       ],
       "answer": "el jefe",

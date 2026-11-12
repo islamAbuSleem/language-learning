@@ -1,0 +1,186 @@
+{
+  "unit": 15,
+  "title": "Already happened",
+  "description": "Say what has already happened today.",
+  "grammar": "el pretérito perfecto, he + the participle",
+  "grammarNote": "The perfect is he + the participle: he hablado, has comido, hemos visto.",
+  "explanation": {
+    "summary": "The preterite perfect joins the preterite of haber with the participle of the main verb. It says something has happened and it still matters now, usually because it happened today.",
+    "sections": [
+      {
+        "heading": "How it is built",
+        "body": "He, has, ha, hemos, habéis, han, followed by the participle. The participle of -ar verbs ends in -ado: hablar, hablado. Of -er and -ir verbs it ends in -ido: comer, comido; vivir, vivido. The eight irregular verbs have irregular participles: escrito, hecho, dicho, puesto, abierto, visto, resuelto, vuelto.",
+        "examples": [
+          {
+            "es": "He hablado con el profesor.",
+            "en": "I have spoken to the teacher."
+          },
+          {
+            "es": "Has comido bien.",
+            "en": "You have eaten well."
+          },
+          {
+            "es": "Hemos visto la película.",
+            "en": "We have seen the film."
+          }
+        ]
+      },
+      {
+        "heading": "When to use it",
+        "body": "The perfect is for the past with a link to now: this morning, today, this week, already, yet. The preterite is for a finished time: yesterday, last year, in 2020. Spanish is stricter about this than English, which often uses the perfect for things with a finished time too.",
+        "examples": [
+          {
+            "es": "He terminado el trabajo hoy.",
+            "en": "I have finished the work today."
+          },
+          {
+            "es": "Terminé el trabajo ayer.",
+            "en": "I finished the work yesterday."
+          },
+          {
+            "es": "¿Ya has comido?",
+            "en": "Have you eaten already?"
+          }
+        ]
+      },
+      {
+        "heading": "The negative",
+        "body": "No he comido means I have not eaten, and it is the normal way to say you have not eaten yet. With the preterite, no comí says you did not eat, which sounds more like you skipped a meal on purpose.",
+        "examples": [
+          {
+            "es": "No he comido todavía.",
+            "en": "I have not eaten yet."
+          },
+          {
+            "es": "No he visto la película.",
+            "en": "I have not seen the film."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "he hablado",
+      "en": "I have spoken",
+      "article": null,
+      "note": "He plus the participle of hablar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he comido",
+      "en": "I have eaten",
+      "article": null,
+      "note": "He plus the participle of comer.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he vivido",
+      "en": "I have lived",
+      "article": null,
+      "note": "He plus the participle of vivir.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he trabajado",
+      "en": "I have worked",
+      "article": null,
+      "note": "He plus the participle of trabajar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he estudiado",
+      "en": "I have studied",
+      "article": null,
+      "note": "He plus the participle of estudiar.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he visto",
+      "en": "I have seen",
+      "article": null,
+      "note": "He plus the participle of ver. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he hecho",
+      "en": "I have done",
+      "article": null,
+      "note": "He plus the participle of hacer. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he dicho",
+      "en": "I have said",
+      "article": null,
+      "note": "He plus the participle of decir. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "he escrito",
+      "en": "I have written",
+      "article": null,
+      "note": "He plus the participle of escribir. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "hemos abierto",
+      "en": "we have opened",
+      "article": null,
+      "note": "Hemos plus the participle of abrir.",
+      "tags": [
+        "verb"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ terminado el trabajo hoy.",
+      "answer": "He",
+      "meaning": "I have finished the work today",
+      "note": "The perfect for something that happened today."
+    },
+    {
+      "prompt": "No ___ comido todavía.",
+      "answer": "he",
+      "meaning": "I have not eaten yet",
+      "note": "No plus the perfect."
+    },
+    {
+      "prompt": "___ visto la película.",
+      "answer": "He",
+      "meaning": "I have seen the film",
+      "note": "Visto is an irregular participle."
+    },
+    {
+      "prompt": "¿Ya ___ has Studiado?",
+      "answer": "he",
+      "meaning": "have you studied already?",
+      "note": "The perfect with ya."
+    },
+    {
+      "prompt": "___ escribí la carta ayer.",
+      "answer": "he",
+      "meaning": "I wrote the letter yesterday",
+      "note": "Ayer takes the preterite, but the auxiliary is still he."
+    }
+  ]
+}

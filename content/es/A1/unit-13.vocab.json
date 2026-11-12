@@ -1,0 +1,57 @@
+{
+  "unit": 13,
+  "title": "Ordering food",
+  "description": "Order a meal, and say what you want with it.",
+  "grammar": "con and sin, and the article in an order",
+  "grammarNote": "Con is with and sin is without: un café con leche, un café sin azúcar.",
+  "explanation": {
+    "summary": "Ordering is simple once you know two small words: con, with, and sin, without. Everything else is the vocabulary of a café, and the rule that an order takes un or una.",
+    "sections": [
+      {
+        "heading": "Con and sin",
+        "body": "Con is with and sin is without. Both go straight after the thing they modify: un café con leche, un café sin azúcar. They are used for what comes with a dish or a drink, not for people: con mi hermana means with my sister.",
+        "examples": [
+          { "es": "Un café con leche, por favor.", "en": "A coffee with milk, please." },
+          { "es": "Un té sin azúcar.", "en": "A tea without sugar." },
+          { "es": "Una ensalada con tomate.", "en": "A salad with tomato." }
+        ]
+      },
+      {
+        "heading": "What you order takes an article",
+        "body": "In an order the noun takes un or una, never el: quiero un café, quiero una tortilla. The article says you mean one of them, which is exactly what an order is.",
+        "examples": [
+          { "es": "Quiero una tortilla española.", "en": "I want a Spanish omelette." },
+          { "es": "Para mí, una sopa de verduras.", "en": "For me, a vegetable soup." }
+        ]
+      },
+      {
+        "heading": "Asking what there is",
+        "body": "¿Qué hay? asks what there is. A waiter answers con una tortilla de patatas y una ensalada. The word for the bill, which you already know, is la cuenta.",
+        "examples": [
+          { "es": "¿Qué hay?", "en": "What is there?" },
+          { "es": "Hay sopa de verduras y pescado.", "en": "There is vegetable soup and fish." },
+          { "es": "La cuenta, por favor.", "en": "The bill, please." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "menú", "en": "menu", "article": "el", "note": "Masculine: el menú. The accent marks the stress.", "tags": ["food"] },
+    { "es": "camarero", "en": "waiter", "article": "el", "note": "Masculine: el camarero. The feminine is la camarera.", "tags": ["food"] },
+    { "es": "camarera", "en": "waitress", "article": "la", "note": "Feminine: la camarera.", "tags": ["food"] },
+    { "es": "plato", "en": "dish", "article": "el", "note": "Masculine: el plato. It also means a plate.", "tags": ["food"] },
+    { "es": "vaso", "en": "glass", "article": "el", "note": "Masculine: el vaso. It also means a drinking glass.", "tags": ["food"] },
+    { "es": "propina", "en": "tip", "article": "la", "note": "Feminine: la propina.", "tags": ["food"] },
+    { "es": "encargar", "en": "to order", "article": null, "note": "An infinitive ending in -ar: encargo, encargas, encarga.", "tags": ["food"] },
+    { "es": "ensalada", "en": "salad", "article": "la", "note": "Feminine: la ensalada.", "tags": ["food"] },
+    { "es": "bebida", "en": "drink", "article": "la", "note": "Feminine: la bebida.", "tags": ["food"] },
+    { "es": "postre", "en": "dessert", "article": "el", "note": "Masculine: el postre.", "tags": ["food"] }
+  ],
+  "drills": [
+    { "prompt": "Un café ___ leche, por favor.", "answer": "con", "meaning": "a coffee with milk, please", "note": "Con is with." },
+    { "prompt": "Un té ___ azúcar.", "answer": "sin", "meaning": "a tea without sugar", "note": "Sin is without." },
+    { "prompt": "Quiero ___ tortilla española.", "answer": "una", "meaning": "I want a Spanish omelette", "note": "An order takes un or una." },
+    { "prompt": "¿___ hay?", "answer": "Qué", "meaning": "what is there?", "note": "Qué asks what there is." },
+    { "prompt": "Una ensalada ___ tomate.", "answer": "con", "meaning": "a salad with tomato", "note": "Con goes straight after the thing it modifies." }
+  ]
+}

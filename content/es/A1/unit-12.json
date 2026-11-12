@@ -1,0 +1,217 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 12,
+  "title": "Shopping",
+  "description": "Say what you are buying, and what it costs.",
+  "explanation": {
+    "summary": "Shopping in Spanish is two pieces of grammar: ir a + a place to say where you are going, and the word for a price. The verb ir is irregular, so it is worth learning its forms now.",
+    "sections": [
+      {
+        "heading": "Going to the shop",
+        "body": "Ir is one of the most irregular verbs in Spanish: voy, vas, va, vamos, vais, van. After ir you use a instead of de: voy a la tienda, voy al mercado. And the everyday phrase for shopping is ir de compras, not ir a comprar.",
+        "examples": [
+          {
+            "es": "Voy a la tienda.",
+            "en": "I am going to the shop."
+          },
+          {
+            "es": "¿Vamos de compras?",
+            "en": "Are we going shopping?"
+          },
+          {
+            "es": "Ella va al mercado.",
+            "en": "She is going to the market."
+          }
+        ]
+      },
+      {
+        "heading": "Asking the price",
+        "body": "The verb for to cost is costar, and it takes the thing first: cuesta diez euros. To ask, put cuánto in front: ¿cuánto cuesta? You can also ask for the price of something specific with cuánto cuesta el abrigo.",
+        "examples": [
+          {
+            "es": "¿Cuánto cuesta?",
+            "en": "How much is it?"
+          },
+          {
+            "es": "¿Cuánto cuesta el abrigo?",
+            "en": "How much is the coat?"
+          },
+          {
+            "es": "Cuesta veinte euros.",
+            "en": "It costs twenty euros."
+          }
+        ]
+      },
+      {
+        "heading": "Saying what you want",
+        "body": "Wanting something uses the verb querer, and the thing you want takes un or una: quiero un café, quiero una camisa. If you are asking for something politely, add por favor, which you already know.",
+        "examples": [
+          {
+            "es": "Quiero este sombrero, por favor.",
+            "en": "I want this hat, please."
+          },
+          {
+            "es": "¿Buscas algo?",
+            "en": "Are you looking for something?"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u12/match/precio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "price",
+          "right": "el precio"
+        },
+        {
+          "left": "to pay",
+          "right": "pagar"
+        },
+        {
+          "left": "to buy",
+          "right": "comprar"
+        },
+        {
+          "left": "expensive",
+          "right": "caro"
+        },
+        {
+          "left": "cheap",
+          "right": "barato"
+        }
+      ],
+      "note": "You say ir a + a place: voy a la tienda. And a price is cuánto cuesta."
+    },
+    {
+      "id": "es/a1/u12/select/precio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “price”.",
+      "options": [
+        "la bolsa",
+        "pagar",
+        "los euros",
+        "el precio"
+      ],
+      "answer": "el precio",
+      "translation": "price",
+      "note": "Masculine: el precio."
+    },
+    {
+      "id": "es/a1/u12/drill/1",
+      "type": "type_in",
+      "prompt": "Voy ___ la tienda.",
+      "answer": "a",
+      "acceptedAnswers": [
+        "a"
+      ],
+      "translation": "I am going to the shop",
+      "note": "After ir you use a, not de."
+    },
+    {
+      "id": "es/a1/u12/match/talla",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "size",
+          "right": "la talla"
+        },
+        {
+          "left": "to try on",
+          "right": "probarse"
+        },
+        {
+          "left": "till",
+          "right": "la caja"
+        },
+        {
+          "left": "euros",
+          "right": "los euros"
+        },
+        {
+          "left": "bag",
+          "right": "la bolsa"
+        }
+      ],
+      "note": "You say ir a + a place: voy a la tienda. And a price is cuánto cuesta."
+    },
+    {
+      "id": "es/a1/u12/select/pagar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to pay”.",
+      "options": [
+        "barato",
+        "probarse",
+        "la talla",
+        "pagar"
+      ],
+      "answer": "pagar",
+      "translation": "to pay",
+      "note": "An infinitive ending in -ar: pago, pagas, paga."
+    },
+    {
+      "id": "es/a1/u12/drill/2",
+      "type": "type_in",
+      "prompt": "¿___ cuesta el abrigo?",
+      "answer": "Cuánto",
+      "acceptedAnswers": [
+        "Cuanto"
+      ],
+      "translation": "how much is the coat",
+      "note": "Cuánto goes before the verb."
+    },
+    {
+      "id": "es/a1/u12/select/comprar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to buy”.",
+      "options": [
+        "la bolsa",
+        "pagar",
+        "el precio",
+        "comprar"
+      ],
+      "answer": "comprar",
+      "translation": "to buy",
+      "note": "An infinitive ending in -ar: compro, compras, compra."
+    },
+    {
+      "id": "es/a1/u12/drill/3",
+      "type": "type_in",
+      "prompt": "Este reloj ___ veinte euros.",
+      "answer": "cuesta",
+      "acceptedAnswers": [
+        "cuesta"
+      ],
+      "translation": "this watch costs twenty euros",
+      "note": "Costar takes the thing first."
+    },
+    {
+      "id": "es/a1/u12/drill/4",
+      "type": "type_in",
+      "prompt": "Quiero ___ sombrero, por favor.",
+      "answer": "un",
+      "acceptedAnswers": [
+        "un"
+      ],
+      "translation": "I want a hat, please",
+      "note": "Un agrees with the thing, not the speaker."
+    },
+    {
+      "id": "es/a1/u12/drill/5",
+      "type": "type_in",
+      "prompt": "Esa camisa es muy ___.",
+      "answer": "cara",
+      "acceptedAnswers": [
+        "cara"
+      ],
+      "translation": "that shirt is very expensive",
+      "note": "Caro becomes cara before a feminine noun."
+    }
+  ]
+}

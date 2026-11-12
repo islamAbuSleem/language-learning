@@ -1,0 +1,99 @@
+{
+  "unit": 9,
+  "title": "Yesterday, again",
+  "description": "More of the past, with the other two verb endings.",
+  "grammar": "the preterite with -er and -ir verbs",
+  "grammarNote": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron.",
+  "items": [
+    {
+      "es": "pidió",
+      "en": "he asked for",
+      "article": null,
+      "note": "The preterite of pedir. The yo form drops the e: pedí.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "entendió",
+      "en": "he understood",
+      "article": null,
+      "note": "The preterite of entender. The yo form drops the e: entendí.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "llegó",
+      "en": "he arrived",
+      "article": null,
+      "note": "The preterite of llegar. The yo form takes an accent: llegué.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "salió",
+      "en": "he left",
+      "article": null,
+      "note": "The preterite of salir. The yo form takes an accent: salí.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "artículo",
+      "en": "item",
+      "article": "el",
+      "note": "Masculine: el artículo. It also means an article in a newspaper.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "reunión",
+      "en": "meeting",
+      "article": "la",
+      "note": "Feminine: la reunión. The accent marks the stress.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "problema",
+      "en": "problem",
+      "article": "el",
+      "note": "Masculine: el problema.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "solución",
+      "en": "solution",
+      "article": "la",
+      "note": "Feminine: la solución. The accent marks the stress.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "respuesta",
+      "en": "answer",
+      "article": "la",
+      "note": "Feminine: la respuesta.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "decisión",
+      "en": "decision",
+      "article": "la",
+      "note": "Feminine: la decisión. The accent marks the stress.",
+      "tags": [
+        "object"
+      ]
+    }
+  ]
+}

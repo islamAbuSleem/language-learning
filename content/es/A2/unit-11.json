@@ -2,178 +2,216 @@
   "track": "es",
   "level": "A2",
   "unit": 11,
-  "title": "Having and needing",
-  "description": "Say what you have, what you want, and what you must do.",
+  "title": "Where exactly",
+  "description": "Say exactly where something is, and where it is going.",
+  "explanation": {
+    "summary": "Prepositions of place in Spanish are more exact than English ones. English often leaves the preposition out, Spanish nearly always needs it. A unit of distance becomes a phrase with de attached to it.",
+    "sections": [
+      {
+        "heading": "Near and far take de",
+        "body": "In English you say near the station. In Spanish it is cerca de la estación. The same is true of lejos: lejos del centro. The de is not optional, and it attaches to the phrase that follows it.",
+        "examples": [
+          {
+            "es": "El hotel está cerca de la estación.",
+            "en": "The hotel is near the station."
+          },
+          {
+            "es": "Mi casa está lejos del centro.",
+            "en": "My house is far from the centre."
+          },
+          {
+            "es": "El banco está frente al edificio.",
+            "en": "The bench is opposite the building."
+          }
+        ]
+      },
+      {
+        "heading": "Position words",
+        "body": "Entre is between, detrás is behind, delante is in front of, encima is on top of, debajo is underneath. Inside and outside take de as well: dentro de la caja, fuera de la ciudad. And hacia points in a direction without arriving: hacia el norte.",
+        "examples": [
+          {
+            "es": "La tienda está entre el banco y la fuente.",
+            "en": "The shop is between the bench and the fountain."
+          },
+          {
+            "es": "El gato está detrás de la puerta.",
+            "en": "The cat is behind the door."
+          },
+          {
+            "es": "Vamos hacia el puente.",
+            "en": "We are heading towards the bridge."
+          }
+        ]
+      },
+      {
+        "heading": "Where it is, where it went",
+        "body": "Estar says where a thing is now: la caja está encima de la mesa. Ir says where it is going: la caja va encima de la mesa. The preposition does not change; the verb does.",
+        "examples": [
+          {
+            "es": "El libro está debajo del sofá.",
+            "en": "The book is underneath the sofa."
+          },
+          {
+            "es": "Pongo el libro encima de la mesa.",
+            "en": "I put the book on the table."
+          }
+        ]
+      }
+    ]
+  },
   "exercises": [
     {
-      "id": "es/a2/u11/match/tener",
+      "id": "es/a2/u11/match/entre",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "to have",
-          "right": "tener"
+          "left": "between",
+          "right": "entre"
         },
         {
-          "left": "to want",
-          "right": "querer"
+          "left": "behind",
+          "right": "detrás"
         },
         {
-          "left": "to be able to",
-          "right": "poder"
+          "left": "in front of",
+          "right": "delante"
         },
         {
-          "left": "must",
-          "right": "deber"
+          "left": "on top of",
+          "right": "encima"
         },
         {
-          "left": "there is",
-          "right": "hay"
+          "left": "underneath",
+          "right": "debajo"
         }
       ],
-      "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
+      "note": "Near and far take de: cerca de la estación, lejos del centro."
     },
     {
-      "id": "es/a2/u11/select/tener",
+      "id": "es/a2/u11/select/entre",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to have”.",
+      "prompt": "Pick the Spanish word for “between”.",
       "options": [
-        "abrir",
-        "descubrir",
-        "compartir",
-        "tener"
+        "dentro",
+        "hacia",
+        "fuera",
+        "entre"
       ],
-      "answer": "tener",
-      "translation": "to have",
-      "note": "An infinitive. Its forms are irregular: tengo, tienes, tiene."
+      "answer": "entre",
+      "translation": "between",
+      "note": "Entre la cocina y el salón."
     },
     {
-      "id": "es/a2/u11/type_in/querer",
+      "id": "es/a2/u11/drill/1",
       "type": "type_in",
-      "prompt": "Write “to want” in Spanish.",
-      "answer": "querer",
+      "prompt": "El hotel está cerca ___ la estación.",
+      "answer": "de",
       "acceptedAnswers": [
-        "querer"
+        "de"
       ],
-      "translation": "to want",
-      "note": "An infinitive. Its forms are irregular: quiero, quieres, quiere."
+      "translation": "the hotel is near the station",
+      "note": "Cerca takes de."
     },
     {
-      "id": "es/a2/u11/listen/poder",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "poder",
-      "options": [
-        "servir",
-        "repetir",
-        "decidir",
-        "poder"
-      ],
-      "audio": {
-        "text": "poder",
-        "lang": "es"
-      },
-      "translation": "to be able to",
-      "note": "An infinitive. Its forms are irregular: puedo, puedes, puede."
-    },
-    {
-      "id": "es/a2/u11/match/hambre",
+      "id": "es/a2/u11/match/dentro",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "hunger",
-          "right": "la hambre"
+          "left": "inside",
+          "right": "dentro"
         },
         {
-          "left": "thirst",
-          "right": "la sed"
+          "left": "outside",
+          "right": "fuera"
         },
         {
-          "left": "sleep",
-          "right": "el sueño"
+          "left": "towards",
+          "right": "hacia"
         },
         {
-          "left": "fear",
-          "right": "el miedo"
+          "left": "front",
+          "right": "el frente"
         },
         {
-          "left": "it pays",
-          "right": "gana"
+          "left": "corner",
+          "right": "la esquina"
         }
       ],
-      "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
+      "note": "Near and far take de: cerca de la estación, lejos del centro."
     },
     {
-      "id": "es/a2/u11/select/deber",
+      "id": "es/a2/u11/select/detras",
       "type": "select",
-      "prompt": "Pick the Spanish word for “must”.",
+      "prompt": "Pick the Spanish word for “behind”.",
       "options": [
-        "repetir",
-        "decidir",
-        "servir",
-        "deber"
+        "para",
+        "por",
+        "entre",
+        "detrás"
       ],
-      "answer": "deber",
-      "translation": "must",
-      "note": "An infinitive. Its forms are irregular: debo, debes, debe."
+      "answer": "detrás",
+      "translation": "behind",
+      "note": "Detrás de la puerta."
     },
     {
-      "id": "es/a2/u11/type_in/hay",
+      "id": "es/a2/u11/drill/2",
       "type": "type_in",
-      "prompt": "Write “there is” in Spanish.",
-      "answer": "hay",
+      "prompt": "La tienda está ___ el banco y la fuente.",
+      "answer": "entre",
       "acceptedAnswers": [
-        "hay"
+        "entre"
       ],
-      "translation": "there is",
-      "note": "There is, there are. It never changes form."
+      "translation": "the shop is between the bench and the fountain",
+      "note": "Entre is between."
     },
     {
-      "id": "es/a2/u11/listen/hambre",
-      "type": "listen",
-      "prompt": "What did you hear?",
-      "answer": "la hambre",
-      "options": [
-        "la sed",
-        "el sueño",
-        "la hambre",
-        "el miedo"
-      ],
-      "audio": {
-        "text": "hambre",
-        "lang": "es"
-      },
-      "translation": "hunger",
-      "note": "Feminine: la hambre. You say tener hambre."
-    },
-    {
-      "id": "es/a2/u11/select/sed",
+      "id": "es/a2/u11/select/delante",
       "type": "select",
-      "prompt": "Pick the Spanish word for “thirst”.",
+      "prompt": "Pick the Spanish word for “in front of”.",
       "options": [
-        "la hambre",
-        "el sueño",
-        "el miedo",
-        "la sed"
+        "para",
+        "por",
+        "entre",
+        "delante"
       ],
-      "answer": "la sed",
-      "translation": "thirst",
-      "note": "Feminine: la sed. You say tener sed."
+      "answer": "delante",
+      "translation": "in front of",
+      "note": "Delante de la casa."
     },
     {
-      "id": "es/a2/u11/select/sueno",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “sleep”.",
-      "options": [
-        "la sed",
-        "el miedo",
-        "la hambre",
-        "el sueño"
+      "id": "es/a2/u11/drill/3",
+      "type": "type_in",
+      "prompt": "El gato está ___ la puerta.",
+      "answer": "detrás",
+      "acceptedAnswers": [
+        "detras"
       ],
-      "answer": "el sueño",
-      "translation": "sleep",
-      "note": "Masculine: el sueño. You say tener sueño."
+      "translation": "the cat is behind the door",
+      "note": "Detrás de."
+    },
+    {
+      "id": "es/a2/u11/drill/4",
+      "type": "type_in",
+      "prompt": "Vamos ___ el puente.",
+      "answer": "hacia",
+      "acceptedAnswers": [
+        "hacia"
+      ],
+      "translation": "we are heading towards the bridge",
+      "note": "Hacia points in a direction."
+    },
+    {
+      "id": "es/a2/u11/drill/5",
+      "type": "type_in",
+      "prompt": "El libro está ___ el sofá.",
+      "answer": "debajo",
+      "acceptedAnswers": [
+        "debajo"
+      ],
+      "translation": "the book is underneath the sofa",
+      "note": "Debajo de."
     }
   ]
 }

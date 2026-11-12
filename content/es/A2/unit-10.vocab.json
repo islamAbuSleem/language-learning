@@ -1,19 +1,176 @@
 {
   "unit": 10,
-  "title": "The day",
-  "description": "Say when it is, and when things happen.",
-  "grammar": "expressing time in Spanish",
-  "grammarNote": "Tell the time with es la una, es la dos: es la una y media, es las tres.",
+  "title": "Por and para",
+  "description": "Say what something is for, and what it is for.",
+  "grammar": "por and para",
+  "grammarNote": "Para is for a destination or a purpose. Por is for a cause, an exchange, or moving through.",
+  "explanation": {
+    "summary": "Por and para are both translated as for, and they are not interchangeable. Para points towards a place or a purpose. Por points at a cause, an exchange, or a route. Getting them the wrong way round is one of the most common mistakes a learner makes, and one of the first a native speaker notices.",
+    "sections": [
+      {
+        "heading": "Para is for a place or a purpose",
+        "body": "Para goes towards something: para Madrid, para elAeropuerto, para ti. It also says what something is for: un café para la mañana, un regalo para mi madre. With a person, para means for: un paquete para ti.",
+        "examples": [
+          {
+            "es": "Salgo para Madrid.",
+            "en": "I am leaving for Madrid."
+          },
+          {
+            "es": "Este regalo es para mi madre.",
+            "en": "This gift is for my mother."
+          },
+          {
+            "es": "Es un café para la mañana.",
+            "en": "It is a coffee for the morning."
+          }
+        ]
+      },
+      {
+        "heading": "Por is for a cause or an exchange",
+        "body": "Por points at the reason, the way through, or what you gave to get something: por el tráfico, por Madrid, dos euros por el café. The classic pair is por and para for the same journey: porMadrid is the route, para Madrid is the destination.",
+        "examples": [
+          {
+            "es": "Llegué tarde por el tráfico.",
+            "en": "I arrived late because of the traffic."
+          },
+          {
+            "es": "Pasé por el parque.",
+            "en": "I went through the park."
+          },
+          {
+            "es": "Pagué diez euros por el libro.",
+            "en": "I paid ten euros for the book."
+          }
+        ]
+      },
+      {
+        "heading": "One that catches people out",
+        "body": "Gracias por tu ayuda means thank you for your help, because there is something you were helped with. Gracias por el café means thank you for the coffee, because the coffee is the thing given. The reason always takes por."
+      }
+    ]
+  },
   "items": [
-    { "es": "hora", "en": "hour", "article": "la", "note": "Feminine: la hora. It also means the time.", "tags": ["time"] },
-    { "es": "minuto", "en": "minute", "article": "el", "note": "Masculine: el minuto.", "tags": ["time"] },
-    { "es": "mediodía", "en": "noon", "article": "el", "note": "Masculine: el mediodía.", "tags": ["time"] },
-    { "es": "medianoche", "en": "midnight", "article": "la", "note": "Feminine: la medianoche.", "tags": ["time"] },
-    { "es": "tarde", "en": "afternoon", "article": "la", "note": "Feminine: la tarde. It also means late.", "tags": ["time"] },
-    { "es": "noche", "en": "night", "article": "la", "note": "Feminine: la noche.", "tags": ["time"] },
-    { "es": "semana", "en": "week", "article": "la", "note": "Feminine: la semana.", "tags": ["time"] },
-    { "es": "mes", "en": "month", "article": "el", "note": "Masculine: el mes.", "tags": ["time"] },
-    { "es": "reloj", "en": "clock", "article": "el", "note": "Masculine: el reloj. It also means watch.", "tags": ["object"] },
-    { "es": "ahora", "en": "now", "article": null, "note": "No article: ahora mismo.", "tags": ["time"] }
+    {
+      "es": "para",
+      "en": "for",
+      "article": null,
+      "note": "Towards a place or a purpose: para Madrid, para ti.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "por",
+      "en": "for",
+      "article": null,
+      "note": "A cause, an exchange or a route: por el tráfico, por diez euros.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "es": "detalle",
+      "en": "detail",
+      "article": "el",
+      "note": "Masculine: el detalle. It also means a shop.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "meta",
+      "en": "goal",
+      "article": "la",
+      "note": "Feminine: la meta. It also means the finish line.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "oro",
+      "en": "gold",
+      "article": "el",
+      "note": "Masculine: el oro.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "plata",
+      "en": "silver",
+      "article": "la",
+      "note": "Feminine: la plata. It also means money.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "túnel",
+      "en": "tunnel",
+      "article": "el",
+      "note": "Masculine: el túnel. The accent marks the stress.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "propósito",
+      "en": "purpose",
+      "article": "el",
+      "note": "Masculine: el propósito. It also means the intention.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "destino",
+      "en": "destination",
+      "article": "el",
+      "note": "Masculine: el destino.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "motivo",
+      "en": "reason",
+      "article": "el",
+      "note": "Masculine: el motivo. It also means the motive.",
+      "tags": [
+        "object"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "Salgo ___ Madrid.",
+      "answer": "para",
+      "meaning": "I am leaving for Madrid",
+      "note": "Para is for a destination."
+    },
+    {
+      "prompt": "Llegué tarde ___ el tráfico.",
+      "answer": "por",
+      "meaning": "I arrived late because of the traffic",
+      "note": "Por is for a cause."
+    },
+    {
+      "prompt": "Pasé ___ el parque.",
+      "answer": "por",
+      "meaning": "I went through the park",
+      "note": "Por is the way through."
+    },
+    {
+      "prompt": "Este regalo es ___ mi madre.",
+      "answer": "para",
+      "meaning": "this gift is for my mother",
+      "note": "Para with a person means for."
+    },
+    {
+      "prompt": "Pagué diez euros ___ el libro.",
+      "answer": "por",
+      "meaning": "I paid ten euros for the book",
+      "note": "Por is for an exchange."
+    }
   ]
 }

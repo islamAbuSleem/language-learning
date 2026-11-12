@@ -1,0 +1,99 @@
+{
+  "unit": 2,
+  "title": "Describing people",
+  "description": "Say what someone is like, and what they do.",
+  "grammar": "the irregular verbs and their adjectives",
+  "grammarNote": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña.",
+  "items": [
+    {
+      "es": "bueno",
+      "en": "good",
+      "article": null,
+      "note": "Good. It changes to buena before a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "malo",
+      "en": "bad",
+      "article": null,
+      "note": "Bad. It changes to mala before a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "grande",
+      "en": "big",
+      "article": null,
+      "note": "Big. It does not change for a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "pequeño",
+      "en": "small",
+      "article": null,
+      "note": "Small. It changes to pequeña before a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "nuevo",
+      "en": "new",
+      "article": null,
+      "note": "New. It changes to nueva before a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "joven",
+      "en": "young",
+      "article": null,
+      "note": "Young. It does not change for a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "viejo",
+      "en": "old",
+      "article": null,
+      "note": "Old. It changes to vieja before a feminine noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "dinero",
+      "en": "money",
+      "article": "el",
+      "note": "Masculine: el dinero.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "trabajo",
+      "en": "work",
+      "article": "el",
+      "note": "Masculine: el trabajo. It also means a job.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "médico",
+      "en": "doctor",
+      "article": "el",
+      "note": "Masculine: el médico. The feminine is la médica.",
+      "tags": [
+        "person"
+      ]
+    }
+  ]
+}

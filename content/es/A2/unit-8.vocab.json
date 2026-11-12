@@ -1,19 +1,99 @@
 {
   "unit": 8,
-  "title": "Writing and asking",
-  "description": "Say what you write, what you send, and what you ask for.",
-  "grammar": "regular -ir verbs in the present",
-  "grammarNote": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben.",
+  "title": "Review",
+  "description": "Everything A2 has taught, put together.",
+  "grammar": "mixed",
+  "grammarNote": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest.",
   "items": [
-    { "es": "escribir", "en": "to write", "article": null, "note": "An infinitive ending in -ir: escribo, escribes, escribe.", "tags": ["verb"] },
-    { "es": "recibir", "en": "to receive", "article": null, "note": "An infinitive ending in -ir: recibo, recibes, recibe.", "tags": ["verb"] },
-    { "es": "abrir", "en": "to open", "article": null, "note": "An infinitive ending in -ir: abro, abres, abre.", "tags": ["verb"] },
-    { "es": "compartir", "en": "to share", "article": null, "note": "An infinitive ending in -ir: comparto, compartes, comparte.", "tags": ["verb"] },
-    { "es": "descubrir", "en": "to discover", "article": null, "note": "An infinitive ending in -ir: descubro, descubres, descubre.", "tags": ["verb"] },
-    { "es": "pedir", "en": "to ask for", "article": null, "note": "An infinitive ending in -ir: pido, pides, pide. The yo form drops the e.", "tags": ["verb"] },
-    { "es": "servir", "en": "to serve", "article": null, "note": "An infinitive ending in -ir: sirvo, sirves, sirve.", "tags": ["verb"] },
-    { "es": "repetir", "en": "to repeat", "article": null, "note": "An infinitive ending in -ir: repito, repites, repite.", "tags": ["verb"] },
-    { "es": "decidir", "en": "to decide", "article": null, "note": "An infinitive ending in -ir: decido, decides, decide.", "tags": ["verb"] },
-    { "es": "mensaje", "en": "message", "article": "el", "note": "Masculine: el mensaje.", "tags": ["object"] }
+    {
+      "es": "viaje",
+      "en": "trip",
+      "article": "el",
+      "note": "Masculine: el viaje. You take un viaje.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "recuerdo",
+      "en": "souvenir",
+      "article": "el",
+      "note": "Masculine: el recuerdo. It also means memory.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "museo",
+      "en": "museum",
+      "article": "el",
+      "note": "Masculine: el museo.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "es": "ciudad",
+      "en": "city",
+      "article": "la",
+      "note": "Feminine: la ciudad.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "es": "país",
+      "en": "country",
+      "article": "el",
+      "note": "Masculine: el país. The accent marks the stress.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "es": "comida",
+      "en": "food",
+      "article": "la",
+      "note": "Feminine: la comida.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "es": "restaurante",
+      "en": "restaurant",
+      "article": "el",
+      "note": "Masculine: el restaurante.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "es": "fiesta",
+      "en": "party",
+      "article": "la",
+      "note": "Feminine: la fiesta. It also means a holiday.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "es": "regalo",
+      "en": "gift",
+      "article": "el",
+      "note": "Masculine: el regalo.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "postal",
+      "en": "postcard",
+      "article": "la",
+      "note": "Feminine: la postal. The card you send is una tarjeta postal.",
+      "tags": [
+        "object"
+      ]
+    }
   ]
 }

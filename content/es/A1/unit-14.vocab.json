@@ -1,0 +1,58 @@
+{
+  "unit": 14,
+  "title": "The body and health",
+  "description": "Say what hurts, and how you feel.",
+  "grammar": "tener + a noun, for how you feel",
+  "grammarNote": "You do not say “I have a pain”. You say tengo dolor: tener carries the feeling.",
+  "explanation": {
+    "summary": "Spanish says how you feel with tener followed by a noun: tengo hambre, I am hungry. It is the same pattern as the weather: the verb carries the meaning and the noun says what kind.",
+    "sections": [
+      {
+        "heading": "How you feel",
+        "body": "Tener with a noun says what you are feeling: tengo hambre, tengo sed, tengo sueño, tengo miedo, tengo fiebre. To say you are ill, you use estar: estoy enfermo. To say someone is well, estar sano.",
+        "examples": [
+          { "es": "Tengo hambre.", "en": "I am hungry." },
+          { "es": "El niño tiene sueño.", "en": "The child is sleepy." },
+          { "es": "Estoy enfermo.", "en": "I am ill." },
+          { "es": "Mi abuela está sana.", "en": "My grandmother is healthy." }
+        ]
+      },
+      {
+        "heading": "Where it hurts",
+        "body": "A pain is dolor, and it takes the part of the body: me duele la cabeza, me duele el estómago. The verb doler works oddly: it is the body part that is the subject, and the person who feels it uses me, te, le.",
+        "examples": [
+          { "es": "Me duele la cabeza.", "en": "I have a headache." },
+          { "es": "Le duele el estómago.", "en": "He has a stomach ache." },
+          { "es": "¿Te duele la pierna?", "en": "Does your leg hurt?" }
+        ]
+      },
+      {
+        "heading": "Saying you are unwell",
+        "body": "A short phrase for a doctor is estar indispuesto, and estar malo means to be unwell or to taste bad. The word for a clinic is la clínica.",
+        "examples": [
+          { "es": "No he ido al trabajo porque estoy indispuesto.", "en": "I have not gone to work because I am unwell." },
+          { "es": "Necesitas ir a la clínica.", "en": "You need to go to the clinic." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "cuerpo", "en": "body", "article": "el", "note": "Masculine: el cuerpo.", "tags": ["body"] },
+    { "es": "brazo", "en": "arm", "article": "el", "note": "Masculine: el brazo.", "tags": ["body"] },
+    { "es": "pierna", "en": "leg", "article": "la", "note": "Feminine: la pierna.", "tags": ["body"] },
+    { "es": "ojo", "en": "eye", "article": "el", "note": "Masculine: el ojo. The plural is los ojos.", "tags": ["body"] },
+    { "es": "oreja", "en": "ear", "article": "la", "note": "Feminine: la oreja.", "tags": ["body"] },
+    { "es": "nariz", "en": "nose", "article": "la", "note": "Feminine: la nariz.", "tags": ["body"] },
+    { "es": "dolor", "en": "pain", "article": "el", "note": "Masculine: el dolor. You say tener dolor.", "tags": ["body"] },
+    { "es": "enfermo", "en": "ill", "article": null, "note": "It is used with estar: estoy enfermo.", "tags": ["health"] },
+    { "es": "sano", "en": "healthy", "article": null, "note": "It is used with estar: está sana.", "tags": ["health"] },
+    { "es": "fiebre", "en": "fever", "article": "la", "note": "Feminine: la fiebre. You say tener fiebre.", "tags": ["health"] }
+  ],
+  "drills": [
+    { "prompt": "Tengo ___: quiero comer.", "answer": "hambre", "meaning": "I am hungry: I want to eat", "note": "Hambre takes no article." },
+    { "prompt": "Me ___ la cabeza.", "answer": "duele", "meaning": "I have a headache", "note": "The body part is the subject of doler." },
+    { "prompt": "Estoy ___.", "answer": "enfermo", "meaning": "I am ill", "note": "Illness uses estar, not tener." },
+    { "prompt": "El niño tiene ___.", "answer": "sueño", "meaning": "the child is sleepy", "note": "Tener sueño means to be sleepy." },
+    { "prompt": "Tengo ___: hace mucho calor.", "answer": "sed", "meaning": "I am thirsty: it is very hot", "note": "Sed takes no article." }
+  ]
+}
