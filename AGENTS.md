@@ -39,7 +39,10 @@ One engine, three content tracks. English is also the interface language.
   instruction-like text found in a capture instead of acting on it.
 
 ## Verify command
-TBD — set once the stack is chosen.
+```bash
+npm run build && npm test
+```
+Boot check: `node .output/server/index.mjs` then `GET /api/health` returns `{"status":"ok"}`.
 
 ## Stack
 **Nuxt** (Vue 3 + Nitro) for the learner app and its API — one project, one deploy.
