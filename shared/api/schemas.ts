@@ -54,8 +54,6 @@ export const clientExerciseSchema = z.discriminatedUnion("type", [
 export type ClientExercise = z.infer<typeof clientExerciseSchema>
 
 export const learnerProfileSchema = z.object({
-  hearts: z.number().int().nonnegative(),
-  maxHearts: z.number().int().positive(),
   xp: z.number().int().nonnegative(),
   streak: z.number().int().nonnegative(),
 })

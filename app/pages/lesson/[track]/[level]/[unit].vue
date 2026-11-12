@@ -41,8 +41,6 @@ onMounted(() => {
           :style="{ width: `${total > 0 ? (index / total) * 100 : 0}%` }"
         />
       </div>
-
-      <span v-if="profile" class="lesson__hearts">♥ {{ profile.hearts }}</span>
     </header>
 
     <p class="lesson__crumb">{{ level }} · Unit {{ unit }}</p>

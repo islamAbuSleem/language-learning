@@ -2,10 +2,8 @@ import { describe, expect, it } from "vitest"
 
 import { isIsoDate, previousIsoDate, toIsoDate } from "../../server/domain/srs/dates"
 import {
-  MAX_HEARTS,
   XP_PER_EXERCISE,
   applyExerciseResult,
-  applyHeartRefill,
   createLearnerProfile,
   nextStreak,
 } from "../../server/domain/srs/progress"
@@ -28,28 +26,19 @@ describe("dates", () => {
 })
 
 describe("applyExerciseResult", () => {
-  it("costs one heart for a wrong answer", () => {
-    const profile = createLearnerProfile()
-
-    const next = applyExerciseResult(profile, "incorrect", NOW)
-
-    expect(next.hearts).toBe(MAX_HEARTS - 1)
-  })
-
-  it("never drops below zero hearts", () => {
-    const profile = { ...createLearnerProfile(), hearts: 1 }
-
-    const next = applyExerciseResult(profile, "incorrect", NOW)
-
-    expect(next.hearts).toBe(0)
-  })
-
   it("pays xp for a right answer and for a wrong one, but not for a skip", () => {
     const profile = createLearnerProfile()
 
     expect(applyExerciseResult(profile, "correct", NOW).xp).toBe(XP_PER_EXERCISE)
     expect(applyExerciseResult(profile, "incorrect", NOW).xp).toBe(XP_PER_EXERCISE)
     expect(applyExerciseResult(profile, "skipped", NOW).xp).toBe(0)
+  })
+
+  it("never blocks the learner: a wrong answer changes no counter but xp", () => {
+    const profile = applyExerciseResult(createLearnerProfile(), "incorrect", NOW)
+
+    expect(profile.xp).toBe(XP_PER_EXERCISE)
+    expect(Object.keys(profile).sort()).toEqual(["lastPracticeDate", "streak", "xp"])
   })
 
   it("records the day the learner practised", () => {
@@ -82,13 +71,5 @@ describe("nextStreak", () => {
     const practised = { ...createLearnerProfile(), streak: 4, lastPracticeDate: "2026-11-09" }
 
     expect(nextStreak(practised, "2026-11-12")).toBe(1)
-  })
-})
-
-describe("applyHeartRefill", () => {
-  it("fills the hearts back to the maximum", () => {
-    const spent = { ...createLearnerProfile(), hearts: 0 }
-
-    expect(applyHeartRefill(spent).hearts).toBe(MAX_HEARTS)
   })
 })

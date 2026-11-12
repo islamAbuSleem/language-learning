@@ -1,12 +1,15 @@
 import { isYesterday, toIsoDate } from "./dates"
 import type { ExerciseOutcome } from "./types"
 
-export const MAX_HEARTS = 5
 export const XP_PER_EXERCISE = 2
 
+/**
+ * The learner profile.
+ *
+ * There are no hearts. A wrong answer costs nothing but mastery, so the
+ * learner is never blocked out of a lesson and never waits for a refill.
+ */
 export interface LearnerProfile {
-  hearts: number
-  maxHearts: number
   xp: number
   streak: number
   /** Last day the learner practised, as `YYYY-MM-DD`. */
@@ -15,24 +18,10 @@ export interface LearnerProfile {
 
 export function createLearnerProfile(): LearnerProfile {
   return {
-    hearts: MAX_HEARTS,
-    maxHearts: MAX_HEARTS,
     xp: 0,
     streak: 0,
     lastPracticeDate: null,
   }
-}
-
-/**
- * A wrong answer costs one heart. The floor is zero: the learner has to wait
- * for the refill instead of going negative.
- */
-export function applyHeartLoss(profile: LearnerProfile): LearnerProfile {
-  return { ...profile, hearts: Math.max(0, profile.hearts - 1) }
-}
-
-export function applyHeartRefill(profile: LearnerProfile): LearnerProfile {
-  return { ...profile, hearts: profile.maxHearts }
 }
 
 /**
@@ -45,11 +34,10 @@ export function applyExerciseResult(
   now: number,
 ): LearnerProfile {
   const today = toIsoDate(now)
-  const hearts = outcome === "incorrect" ? Math.max(0, profile.hearts - 1) : profile.hearts
   const xp = outcome === "skipped" ? profile.xp : profile.xp + XP_PER_EXERCISE
   const streak = nextStreak(profile, today)
 
-  return { ...profile, hearts, xp, streak, lastPracticeDate: today }
+  return { ...profile, xp, streak, lastPracticeDate: today }
 }
 
 /**

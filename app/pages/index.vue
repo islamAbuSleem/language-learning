@@ -56,10 +56,6 @@ const touchedUnits = computed(() => {
           <dt>XP</dt>
           <dd>{{ profile.xp }}</dd>
         </div>
-        <div class="chip">
-          <dt>Hearts</dt>
-          <dd>{{ profile.hearts }} / {{ profile.maxHearts }}</dd>
-        </div>
       </dl>
     </header>
 
