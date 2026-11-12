@@ -71,3 +71,6 @@ unit descriptions hide and rows keep number, title and state. Verified at
   anywhere else dilutes the one promise gold makes.
 - No shadows, no >1px colored borders, no emoji icons. The detector
   (`impeccable detect --json` over the CSS and Vue files) must stay empty.
+- Spanish inside English prose is pine and semibold (`.prose__es`), rendered
+  from `shared/content/highlight.ts`. Lesson authors write plain sentences;
+  the renderer does the marking.

@@ -233,6 +233,12 @@ caught it — it was ten units too late.
    seen is a new word wearing a disguise.
 6. **Four shapes, rotating.** `select`, `match`, `type_in`, `listen` — a
    learner should not meet the same shape three times in a row.
+7. **Spanish inside English prose is marked by the renderer, not by hand.**
+   Write plain sentences; the lesson paints the unit's own words, accented
+   words and a short audited list of function words pine and semibold
+   (`shared/content/highlight.ts`). Never invent markup, and never add a
+   word to the function list without auditing it against every unit — a
+   wrong highlight teaches a wrong lesson.
 
 ## The path has no gaps
 

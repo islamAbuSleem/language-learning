@@ -1,24 +1,30 @@
 <script setup lang="ts">
 import type { LessonExplanation } from "#shared/content/schema"
 
+import ProseText from "./ProseText.vue"
+
 /**
  * The grammar lesson.
  *
  * Read before the exercises: the learner meets the rule, then practises it.
+ * Spanish words inside the English prose are painted pine so the two
+ * languages never blur into each other.
  */
 defineProps<{
   explanation: LessonExplanation
+  /** The unit's own Spanish words, so the prose can mark them. */
+  words?: string[]
 }>()
 </script>
 
 <template>
   <article class="lesson">
-    <p class="lesson__summary">{{ explanation.summary }}</p>
+    <p class="lesson__summary"><ProseText :text="explanation.summary" :words="words" /></p>
 
     <section v-for="section in explanation.sections" :key="section.heading" class="lesson__section">
       <h2 class="lesson__heading">{{ section.heading }}</h2>
 
-      <p v-if="section.body" class="lesson__body">{{ section.body }}</p>
+      <p v-if="section.body" class="lesson__body"><ProseText :text="section.body" :words="words" /></p>
 
       <ul v-if="section.examples?.length" class="lesson__examples">
         <li v-for="example in section.examples" :key="example.es">

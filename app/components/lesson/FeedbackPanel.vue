@@ -3,6 +3,8 @@ import { ref } from "vue"
 import type { LessonFeedback } from "~/composables/useLessonSession"
 import type { DifficultyGrade } from "#shared/srs/types"
 
+import ProseText from "./ProseText.vue"
+
 /**
  * The feedback panel.
  *
@@ -38,7 +40,7 @@ const grade = ref<DifficultyGrade>("neutral")
       Correct solution: <strong>{{ feedback.correctAnswer }}</strong>
     </p>
     <p v-if="feedback.translation" class="feedback__translation">{{ feedback.translation }}</p>
-    <p v-if="feedback.note" class="feedback__note">{{ feedback.note }}</p>
+    <p v-if="feedback.note" class="feedback__note"><ProseText :text="feedback.note" /></p>
 
     <div class="feedback__grade">
       <span class="feedback__grade-label">How did that feel?</span>

@@ -33,6 +33,9 @@ const missingUnits = new Set<string>()
 /** Parsed units, kept so a session does not re-read and re-parse the file. */
 const unitCache = new Map<string, Unit>()
 
+/** The words of a unit, kept beside the parsed units. */
+const wordsCache = new Map<string, string[]>()
+
 async function readJson(key: string): Promise<unknown | null> {
   const raw = await useStorage(CONTENT_STORAGE).getItem(key)
 
@@ -79,6 +82,36 @@ export async function loadUnit(
   unitCache.set(cacheKey, result.data)
 
   return result.data
+}
+
+/**
+ * The Spanish words a unit teaches, in the order they are listed.
+ *
+ * The lesson prose names these words inside English sentences, and the
+ * client paints them pine so the learner sees which words are Spanish. The
+ * vocabulary file is the source; the generated exercises do not carry the
+ * list once drills have replaced some of the words.
+ */
+export async function loadUnitWords(
+  track: TrackId,
+  level: CefrLevel,
+  unit: number,
+): Promise<string[]> {
+  const cacheKey = `${track}/${level}/${unit}`
+  const cached = wordsCache.get(cacheKey)
+  if (cached) return cached
+
+  const raw = await readJson(`${track}/${level}/unit-${unit}.vocab.json`)
+  const words =
+    raw && typeof raw === "object" && Array.isArray((raw as { items?: unknown }).items)
+      ? ((raw as { items: { es?: unknown }[] }).items ?? [])
+          .map((item) => item.es)
+          .filter((word): word is string => typeof word === "string" && word.length > 0)
+      : []
+
+  wordsCache.set(cacheKey, words)
+
+  return words
 }
 
 /**

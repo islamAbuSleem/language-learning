@@ -1,7 +1,7 @@
 import { cefrLevelSchema, trackIdSchema } from "#shared/content/schema"
 
 import { toClientExercise } from "../../../../domain/exercise/presentation"
-import { loadUnit } from "../../../../services/contentService"
+import { loadUnit, loadUnitWords } from "../../../../services/contentService"
 import { getLearnerId } from "../../../../services/learnerService"
 import { getPathProgress } from "../../../../services/pathService"
 import { progressFor } from "../../../../domain/progress/unitProgress"
@@ -36,6 +36,8 @@ export default defineEventHandler(async (event) => {
     title: content.title,
     description: content.description,
     explanation: content.explanation ?? null,
+    /** The Spanish words this unit teaches, so the lesson can paint them. */
+    words: await loadUnitWords(track.data, level.data, unit),
     locked: state?.status === "locked",
     /** Where the unit sits: locked, current, done or weak. */
     status: state?.status ?? "locked",

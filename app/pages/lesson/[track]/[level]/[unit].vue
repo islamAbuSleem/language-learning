@@ -16,6 +16,7 @@ interface UnitContent {
   title: string
   description: string
   explanation: LessonExplanation | null
+  words: string[]
   locked: boolean
   status: "locked" | "current" | "done" | "weak"
   accuracy: number | null
@@ -98,7 +99,11 @@ function begin() {
       <h1 class="lesson__title">{{ content.title }}</h1>
       <p class="lesson__lead">{{ content.description }}</p>
 
-      <LessonExplanationPanel v-if="content.explanation" :explanation="content.explanation" />
+      <LessonExplanationPanel
+        v-if="content.explanation"
+        :explanation="content.explanation"
+        :words="content.words"
+      />
 
       <p v-if="revisitNote" class="lesson__revisit">{{ revisitNote }}</p>
 
