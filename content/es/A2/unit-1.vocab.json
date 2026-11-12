@@ -11,48 +11,180 @@
         "heading": "The six endings",
         "body": "Drop the -er and add -o, -es, -e, -emos, -éis, -en. Comer becomes como, comes, come, comemos, coméis, comen. Compare with the -ar pattern: the endings are -o, -as, -a, -amos, -áis, -an. Only the second and third endings differ.",
         "examples": [
-          { "es": "Como verduras.", "en": "I eat vegetables." },
-          { "es": "¿Dónde vives?", "en": "Where do you live?" },
-          { "es": "Aprendemos español juntos.", "en": "We learn Spanish together." }
+          {
+            "es": "Como verduras.",
+            "en": "I eat vegetables."
+          },
+          {
+            "es": "¿Dónde vives?",
+            "en": "Where do you live?"
+          },
+          {
+            "es": "Aprendemos español juntos.",
+            "en": "We learn Spanish together."
+          }
         ]
       },
       {
         "heading": "A spelling change to watch",
         "body": "A few -er verbs change their stem in the yo form. Querer becomes quiero, poder becomes puedo, and the -er verbs with a yo ending in -go are irregular: venir becomes vengo, decir becomes digo. Learn the yo form separately from the rest.",
         "examples": [
-          { "es": "Quiero aprender más.", "en": "I want to learn more." },
-          { "es": "No puedo venir hoy.", "en": "I cannot come today." },
-          { "es": "Leo el libro en la mesa.", "en": "I read the book at the table." }
+          {
+            "es": "Quiero aprender más.",
+            "en": "I want to learn more."
+          },
+          {
+            "es": "No puedo venir hoy.",
+            "en": "I cannot come today."
+          },
+          {
+            "es": "Leo el libro en la mesa.",
+            "en": "I read the book at the table."
+          }
         ]
       },
       {
         "heading": "Before and after",
         "body": "Some verbs take a preposition, and it is fixed: hablar con, hablar de, soñar con, depender de. The preposition goes before the infinitive: hablo con Ana, sueño con la casa. The order is subject, verb, preposition, infinitive.",
         "examples": [
-          { "es": "Hablamos con el profesor.", "en": "We spoke with the teacher." },
-          { "es": "Sueño con viajar.", "en": "I dream of travelling." },
-          { "es": "Depende del tiempo.", "en": "It depends on the weather." }
+          {
+            "es": "Hablamos con el profesor.",
+            "en": "We spoke with the teacher."
+          },
+          {
+            "es": "Sueño con viajar.",
+            "en": "I dream of travelling."
+          },
+          {
+            "es": "Depende del tiempo.",
+            "en": "It depends on the weather."
+          }
         ]
       }
     ]
   },
   "items": [
-    { "es": "comer", "en": "to eat", "article": null, "note": "An infinitive ending in -er: como, comes, come.", "tags": ["verb"] },
-    { "es": "beber", "en": "to drink", "article": null, "note": "An infinitive ending in -er: bebo, bebes, bebe.", "tags": ["verb"] },
-    { "es": "aprender", "en": "to learn", "article": null, "note": "An infinitive ending in -er: aprendo, aprendes, aprende.", "tags": ["verb"] },
-    { "es": "leer", "en": "to read", "article": null, "note": "An infinitive ending in -er: leo, lees, lee.", "tags": ["verb"] },
-    { "es": "vender", "en": "to sell", "article": null, "note": "An infinitive ending in -er: vendo, vendes, vende.", "tags": ["verb"] },
-    { "es": "correr", "en": "to run", "article": null, "note": "An infinitive ending in -er: corro, corres, corre.", "tags": ["verb"] },
-    { "es": "perder", "en": "to lose", "article": null, "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular.", "tags": ["verb"] },
-    { "es": "responder", "en": "to answer", "article": null, "note": "An infinitive ending in -er: respondo, respondes, responde.", "tags": ["verb"] },
-    { "es": "libro", "en": "book", "article": "el", "note": "Masculine: el libro.", "tags": ["object"] },
-    { "es": "cena", "en": "dinner", "article": "la", "note": "Feminine: la cena. Also the evening: de cena.", "tags": ["food"] }
+    {
+      "es": "comer",
+      "en": "to eat",
+      "article": null,
+      "note": "An infinitive ending in -er: como, comes, come.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "beber",
+      "en": "to drink",
+      "article": null,
+      "note": "An infinitive ending in -er: bebo, bebes, bebe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "aprender",
+      "en": "to learn",
+      "article": null,
+      "note": "An infinitive ending in -er: aprendo, aprendes, aprende.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "leer",
+      "en": "to read",
+      "article": null,
+      "note": "An infinitive ending in -er: leo, lees, lee.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vender",
+      "en": "to sell",
+      "article": null,
+      "note": "An infinitive ending in -er: vendo, vendes, vende.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "correr",
+      "en": "to run",
+      "article": null,
+      "note": "An infinitive ending in -er: corro, corres, corre.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "perder",
+      "en": "to lose",
+      "article": null,
+      "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "responder",
+      "en": "to answer",
+      "article": null,
+      "note": "An infinitive ending in -er: respondo, respondes, responde.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "libro",
+      "en": "book",
+      "article": "el",
+      "note": "Masculine: el libro.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "cena",
+      "en": "dinner",
+      "article": "la",
+      "note": "Feminine: la cena. Also the evening: de cena.",
+      "tags": [
+        "food"
+      ]
+    }
   ],
   "drills": [
-    { "prompt": "Yo ___ verduras.", "answer": "como", "meaning": "I eat vegetables", "note": "The yo form of comer." },
-    { "prompt": "Nosotros ___ español juntos.", "answer": "aprendemos", "meaning": "we learn Spanish together", "note": "The nosotros form of aprender." },
-    { "prompt": "Quiero ___ más.", "answer": "aprender", "meaning": "I want to learn more", "note": "Querer is irregular in the yo form." },
-    { "prompt": "Hablamos ___ el profesor.", "answer": "con", "meaning": "we spoke with the teacher", "note": "Hablar con." },
-    { "prompt": "No ___ venir hoy.", "answer": "puedo", "meaning": "I cannot come today", "note": "Poder is irregular in the yo form." }
+    {
+      "prompt": "Yo ___ verduras.",
+      "answer": "como",
+      "meaning": "I eat vegetables",
+      "note": "The yo form of comer."
+    },
+    {
+      "prompt": "Nosotros ___ español juntos.",
+      "answer": "aprendemos",
+      "meaning": "we learn Spanish together",
+      "note": "The nosotros form of aprender."
+    },
+    {
+      "prompt": "Quiero ___ más.",
+      "answer": "aprender",
+      "meaning": "I want to learn more",
+      "note": "Querer is irregular in the yo form."
+    },
+    {
+      "prompt": "Hablamos ___ el profesor.",
+      "answer": "con",
+      "meaning": "we spoke with the teacher",
+      "note": "Hablar con."
+    },
+    {
+      "prompt": "No ___ venir hoy.",
+      "answer": "puedo",
+      "meaning": "I cannot come today",
+      "note": "Poder is irregular in the yo form."
+    }
   ]
 }

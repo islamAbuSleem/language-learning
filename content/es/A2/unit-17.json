@@ -1,0 +1,217 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 17,
+  "title": "Already happened",
+  "description": "Say what has already happened today.",
+  "explanation": {
+    "summary": "The preterite perfect joins the preterite of haber with the participle of the main verb. It says something has happened and it still matters now, usually because it happened today.",
+    "sections": [
+      {
+        "heading": "How it is built",
+        "body": "He, has, ha, hemos, habéis, han, followed by the participle. The participle of -ar verbs ends in -ado: hablar, hablado. Of -er and -ir verbs it ends in -ido: comer, comido; vivir, vivido. The eight irregular verbs have irregular participles: escrito, hecho, dicho, puesto, abierto, visto, resuelto, vuelto.",
+        "examples": [
+          {
+            "es": "He hablado con el profesor.",
+            "en": "I have spoken to the teacher."
+          },
+          {
+            "es": "Has comido bien.",
+            "en": "You have eaten well."
+          },
+          {
+            "es": "Hemos visto la película.",
+            "en": "We have seen the film."
+          }
+        ]
+      },
+      {
+        "heading": "When to use it",
+        "body": "The perfect is for the past with a link to now: this morning, today, this week, already, yet. The preterite is for a finished time: yesterday, last year, in 2020. Spanish is stricter about this than English, which often uses the perfect for things with a finished time too.",
+        "examples": [
+          {
+            "es": "He terminado el trabajo hoy.",
+            "en": "I have finished the work today."
+          },
+          {
+            "es": "Terminé el trabajo ayer.",
+            "en": "I finished the work yesterday."
+          },
+          {
+            "es": "¿Ya has comido?",
+            "en": "Have you eaten already?"
+          }
+        ]
+      },
+      {
+        "heading": "The negative",
+        "body": "No he comido means I have not eaten, and it is the normal way to say you have not eaten yet. With the preterite, no comí says you did not eat, which sounds more like you skipped a meal on purpose.",
+        "examples": [
+          {
+            "es": "No he comido todavía.",
+            "en": "I have not eaten yet."
+          },
+          {
+            "es": "No he visto la película.",
+            "en": "I have not seen the film."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a2/u17/match/he-hablado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I have spoken",
+          "right": "he hablado"
+        },
+        {
+          "left": "I have eaten",
+          "right": "he comido"
+        },
+        {
+          "left": "I have lived",
+          "right": "he vivido"
+        },
+        {
+          "left": "I have worked",
+          "right": "he trabajado"
+        },
+        {
+          "left": "I have studied",
+          "right": "he estudiado"
+        }
+      ],
+      "note": "The perfect is he + the participle: he hablado, has comido, hemos visto."
+    },
+    {
+      "id": "es/a2/u17/select/he-hablado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I have spoken”.",
+      "options": [
+        "he comido",
+        "he vivido",
+        "he hablado",
+        "era"
+      ],
+      "answer": "he hablado",
+      "translation": "I have spoken",
+      "note": "He plus the participle of hablar."
+    },
+    {
+      "id": "es/a2/u17/drill/1",
+      "type": "type_in",
+      "prompt": "___ terminado el trabajo hoy.",
+      "answer": "He",
+      "acceptedAnswers": [
+        "He"
+      ],
+      "translation": "I have finished the work today",
+      "note": "The perfect for something that happened today."
+    },
+    {
+      "id": "es/a2/u17/match/he-visto",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I have seen",
+          "right": "he visto"
+        },
+        {
+          "left": "I have done",
+          "right": "he hecho"
+        },
+        {
+          "left": "I have said",
+          "right": "he dicho"
+        },
+        {
+          "left": "I have written",
+          "right": "he escrito"
+        },
+        {
+          "left": "we have opened",
+          "right": "hemos abierto"
+        }
+      ],
+      "note": "The perfect is he + the participle: he hablado, has comido, hemos visto."
+    },
+    {
+      "id": "es/a2/u17/select/he-comido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I have eaten”.",
+      "options": [
+        "comer",
+        "beber",
+        "aprender",
+        "he comido"
+      ],
+      "answer": "he comido",
+      "translation": "I have eaten",
+      "note": "He plus the participle of comer."
+    },
+    {
+      "id": "es/a2/u17/drill/2",
+      "type": "type_in",
+      "prompt": "No ___ comido todavía.",
+      "answer": "he",
+      "acceptedAnswers": [
+        "he"
+      ],
+      "translation": "I have not eaten yet",
+      "note": "No plus the perfect."
+    },
+    {
+      "id": "es/a2/u17/select/he-vivido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I have lived”.",
+      "options": [
+        "veré",
+        "haré",
+        "estudiaré",
+        "he vivido"
+      ],
+      "answer": "he vivido",
+      "translation": "I have lived",
+      "note": "He plus the participle of vivir."
+    },
+    {
+      "id": "es/a2/u17/drill/3",
+      "type": "type_in",
+      "prompt": "___ visto la película.",
+      "answer": "He",
+      "acceptedAnswers": [
+        "He"
+      ],
+      "translation": "I have seen the film",
+      "note": "Visto is an irregular participle."
+    },
+    {
+      "id": "es/a2/u17/drill/4",
+      "type": "type_in",
+      "prompt": "¿Ya ___ has Studiado?",
+      "answer": "he",
+      "acceptedAnswers": [
+        "he"
+      ],
+      "translation": "have you studied already?",
+      "note": "The perfect with ya."
+    },
+    {
+      "id": "es/a2/u17/drill/5",
+      "type": "type_in",
+      "prompt": "___ escribí la carta ayer.",
+      "answer": "he",
+      "acceptedAnswers": [
+        "he"
+      ],
+      "translation": "I wrote the letter yesterday",
+      "note": "Ayer takes the preterite, but the auxiliary is still he."
+    }
+  ]
+}

@@ -11,48 +11,180 @@
         "heading": "This and that",
         "body": "Este means this, close to me. Ese means that, close to you. Aquello means that, far from both. And the neuter forms esto, eso and aquello point at a whole thing rather than a thing you could touch: esto es un restaurante, this is a restaurant.",
         "examples": [
-          { "es": "Este libro es mío.", "en": "This book is mine." },
-          { "es": "Esa casa es la de Ana.", "en": "That house is Ana's." },
-          { "es": "Aquello es un castillo.", "en": "That over there is a castle." }
+          {
+            "es": "Este libro es mío.",
+            "en": "This book is mine."
+          },
+          {
+            "es": "Esa casa es la de Ana.",
+            "en": "That house is Ana's."
+          },
+          {
+            "es": "Aquello es un castillo.",
+            "en": "That over there is a castle."
+          }
         ]
       },
       {
         "heading": "Someone, nobody, something, nothing",
         "body": "Alguien is someone, nadie is nobody, algo is something and nada is nothing. They are pronouns, so they take the verb directly: hay alguien, there is someone. The negative nada and nadie need a no in front: no hay nadie, there is nobody.",
         "examples": [
-          { "es": "Hay alguien en la cocina.", "en": "There is someone in the kitchen." },
-          { "es": "No hay nadie hoy.", "en": "There is nobody today." },
-          { "es": "¿Quieres algo?", "en": "Do you want something?" }
+          {
+            "es": "Hay alguien en la cocina.",
+            "en": "There is someone in the kitchen."
+          },
+          {
+            "es": "No hay nadie hoy.",
+            "en": "There is nobody today."
+          },
+          {
+            "es": "¿Quieres algo?",
+            "en": "Do you want something?"
+          }
         ]
       },
       {
         "heading": "Every, all, none",
         "body": "Cada is every or each, and it goes before a noun: cada día, every day. Todo is all or everything: todo el mundo, everyone. Ninguno is none, and it agrees with the noun: ninguno de ellos, none of them.",
         "examples": [
-          { "es": "Cada mañana leo el periódico.", "en": "Every morning I read the newspaper." },
-          { "es": "Todo el mundo habla español.", "en": "Everybody speaks Spanish." },
-          { "es": "Ninguno de ellos vino.", "en": "None of them came." }
+          {
+            "es": "Cada mañana leo el periódico.",
+            "en": "Every morning I read the newspaper."
+          },
+          {
+            "es": "Todo el mundo habla español.",
+            "en": "Everybody speaks Spanish."
+          },
+          {
+            "es": "Ninguno de ellos vino.",
+            "en": "None of them came."
+          }
         ]
       }
     ]
   },
   "items": [
-    { "es": "esto", "en": "this", "article": null, "note": "This, close to the speaker. It never changes.", "tags": ["pronoun"] },
-    { "es": "eso", "en": "that", "article": null, "note": "That, close to the listener. It never changes.", "tags": ["pronoun"] },
-    { "es": "aquello", "en": "that over there", "article": null, "note": "That, far from both. It never changes.", "tags": ["pronoun"] },
-    { "es": "alguien", "en": "someone", "article": null, "note": "Someone. The negative is nadie.", "tags": ["pronoun"] },
-    { "es": "nadie", "en": "nobody", "article": null, "note": "Nobody. You say no, nadie.", "tags": ["pronoun"] },
-    { "es": "algo", "en": "something", "article": null, "note": "Something. The negative is nada.", "tags": ["pronoun"] },
-    { "es": "nada", "en": "nothing", "article": null, "note": "Nothing. You say no, nada.", "tags": ["pronoun"] },
-    { "es": "cada", "en": "each", "article": null, "note": "Each, every. It is used before a noun.", "tags": ["adjective"] },
-    { "es": "todo", "en": "all", "article": null, "note": "All, everything. Todo el mundo means everyone.", "tags": ["adjective"] },
-    { "es": "ninguno", "en": "none", "article": null, "note": "None, not one. It agrees with the noun.", "tags": ["adjective"] }
+    {
+      "es": "esto",
+      "en": "this",
+      "article": null,
+      "note": "This, close to the speaker. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "eso",
+      "en": "that",
+      "article": null,
+      "note": "That, close to the listener. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "aquello",
+      "en": "that over there",
+      "article": null,
+      "note": "That, far from both. It never changes.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "alguien",
+      "en": "someone",
+      "article": null,
+      "note": "Someone. The negative is nadie.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "nadie",
+      "en": "nobody",
+      "article": null,
+      "note": "Nobody. You say no, nadie.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "algo",
+      "en": "something",
+      "article": null,
+      "note": "Something. The negative is nada.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "nada",
+      "en": "nothing",
+      "article": null,
+      "note": "Nothing. You say no, nada.",
+      "tags": [
+        "pronoun"
+      ]
+    },
+    {
+      "es": "cada",
+      "en": "each",
+      "article": null,
+      "note": "Each, every. It is used before a noun.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "todo",
+      "en": "all",
+      "article": null,
+      "note": "All, everything. Todo el mundo means everyone.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "es": "ninguno",
+      "en": "none",
+      "article": null,
+      "note": "None, not one. It agrees with the noun.",
+      "tags": [
+        "adjective"
+      ]
+    }
   ],
   "drills": [
-    { "prompt": "Hay ___ en la cocina.", "answer": "alguien", "meaning": "there is someone in the kitchen", "note": "Alguien is a pronoun, so it takes the verb directly." },
-    { "prompt": "No hay ___ hoy.", "answer": "nadie", "meaning": "there is nobody today", "note": "Nadie needs no in front." },
-    { "prompt": "Cada ___ leo el periódico.", "answer": "mañana", "meaning": "every morning I read the newspaper", "note": "Cada goes before the noun." },
-    { "prompt": "Todo ___ habla español.", "answer": "mundo", "meaning": "everybody speaks Spanish", "note": "Todo el mundo means everyone." },
-    { "prompt": "___ libro es mío.", "answer": "Este", "meaning": "this book is mine", "note": "Este is the demonstrative close to the speaker." }
+    {
+      "prompt": "Hay ___ en la cocina.",
+      "answer": "alguien",
+      "meaning": "there is someone in the kitchen",
+      "note": "Alguien is a pronoun, so it takes the verb directly."
+    },
+    {
+      "prompt": "No hay ___ hoy.",
+      "answer": "nadie",
+      "meaning": "there is nobody today",
+      "note": "Nadie needs no in front."
+    },
+    {
+      "prompt": "Cada ___ leo el periódico.",
+      "answer": "mañana",
+      "meaning": "every morning I read the newspaper",
+      "note": "Cada goes before the noun."
+    },
+    {
+      "prompt": "Todo ___ habla español.",
+      "answer": "mundo",
+      "meaning": "everybody speaks Spanish",
+      "note": "Todo el mundo means everyone."
+    },
+    {
+      "prompt": "___ libro es mío.",
+      "answer": "Este",
+      "meaning": "this book is mine",
+      "note": "Este is the demonstrative close to the speaker."
+    }
   ]
 }

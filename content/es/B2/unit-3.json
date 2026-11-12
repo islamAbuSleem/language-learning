@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “has eaten”.",
       "options": [
-        "he comido",
-        "he trabajado",
-        "he vivido",
+        "trabajaba",
+        "miraba",
+        "estudiaba",
         "haya comido"
       ],
       "answer": "haya comido",

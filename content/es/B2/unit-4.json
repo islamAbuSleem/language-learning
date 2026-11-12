@@ -157,10 +157,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "levantarse",
-        "relajarse",
+        "sentir",
+        "entrar",
         "deber",
-        "cepillarse"
+        "despertar"
       ],
       "answer": "deber",
       "translation": "to have to",

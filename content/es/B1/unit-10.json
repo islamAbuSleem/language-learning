@@ -2,62 +2,62 @@
   "track": "es",
   "level": "B1",
   "unit": 10,
-  "title": "Bigger, better, different",
-  "description": "Compare things, and say what should happen.",
+  "title": "If it happens",
+  "description": "Talk about what will happen, and what would happen.",
   "explanation": {
-    "summary": "Comparing two things uses más, menos, mejor and peor. Saying which one is the biggest of a set uses the superlative, and the most useful form is the short one: más grande, not el más grande.",
+    "summary": "Spanish has a conditional that English does not: the word would in a sentence like I would go is a real verb form in Spanish, hablaría. It is used for what would happen, and it is the polite way to say what you think should happen.",
     "sections": [
       {
-        "heading": "Two things",
-        "body": "For the adjectives that can take it, the comparison is más or menos plus the adjective: más grande, menos caro. For a small set of adjectives the comparative has its own word: mejor, peor, más, menos. And the comparison uses than, which is que: es más grande que el mío.",
+        "heading": "The conditional",
+        "body": "The endings are -ía, -ías, -ía, -íamos, -íais, -ían. For -ar verbs they look like the imperfect of -er verbs: hablar, hablaría, hablarías, hablaría. For -er and -ir verbs they look the same: comer, comería; vivir, viviría. Ir is irregular: iría.",
         "examples": [
           {
-            "es": "Esta casa es más grande que la otra.",
-            "en": "This house is bigger than the other one."
+            "es": "Yo iría a tu casa.",
+            "en": "I would go to your house."
           },
           {
-            "es": "Este café es mejor que aquel.",
-            "en": "This coffee is better than that one."
+            "es": "¿Comerías conmigo?",
+            "en": "Would you eat with me?"
           },
           {
-            "es": "Es más barato de lo que parece.",
-            "en": "It is cheaper than it looks."
+            "es": "Viviría en el campo.",
+            "en": "I would live in the countryside."
           }
         ]
       },
       {
-        "heading": "The most of a set",
-        "body": "To say which one is the biggest of a group, you do not need an article: el más grande becomes simply más grande. The word for the group goes after: el más grande de los libros. The intensifier -ísimo is another way to say it, and it is stronger: grandísimo, the very biggest.",
+        "heading": "If, then",
+        "body": "Spanish uses si for if and no then, but the word order changes: the conditional comes first and si comes after it. Si tuviera tiempo, viajaría. If you put si first, as in English, it is wrong.",
         "examples": [
           {
-            "es": "Es el más grande de los almacenes.",
-            "en": "It is the biggest of the storerooms."
+            "es": "Si tuviera tiempo, viajaría.",
+            "en": "If I had time, I would travel."
           },
           {
-            "es": "Es el más grande de la clase.",
-            "en": "It is the biggest in the class."
+            "es": "Si hace buen tiempo, iremos a la playa.",
+            "en": "If the weather is good, we will go to the beach."
           },
           {
-            "es": "Es grandísimo.",
-            "en": "It is enormous."
+            "es": "Si no llueve, saldremos.",
+            "en": "If it does not rain, we will go out."
           }
         ]
       },
       {
-        "heading": "Equal, and not equal",
-        "body": "Equality uses tan plus an adjective plus como: es tan alto como tú. Inequality can also be expressed with como with tan: no es tan alto como tú. And an equal comparison of two nouns uses igual de: es igual de grande.",
+        "heading": "What you think should happen",
+        "body": "The conditional is also how you advise: deberías descansar. You should rest. Deberías comes from deber, which means to owe or must, so the idea is you owe yourself a rest.",
         "examples": [
           {
-            "es": "Es tan alto como tú.",
-            "en": "He is as tall as you."
+            "es": "Deberías dormir más.",
+            "en": "You should sleep more."
           },
           {
-            "es": "No es tan caro como el otro.",
-            "en": "It is not as expensive as the other one."
+            "es": "No deberías fumar.",
+            "en": "You should not smoke."
           },
           {
-            "es": "Es igual de grande.",
-            "en": "It is equally big."
+            "es": "Deberíamos irnos.",
+            "en": "We should go."
           }
         ]
       }
@@ -65,157 +65,157 @@
   },
   "exercises": [
     {
-      "id": "es/b1/u10/match/mas",
+      "id": "es/b1/u10/match/hablaria",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "more",
-          "right": "más"
+          "left": "I would speak",
+          "right": "hablaría"
         },
         {
-          "left": "less",
-          "right": "menos"
+          "left": "I would eat",
+          "right": "comería"
         },
         {
-          "left": "better",
-          "right": "mejor"
+          "left": "I would live",
+          "right": "viviría"
         },
         {
-          "left": "worse",
-          "right": "peor"
+          "left": "I would work",
+          "right": "trabajaría"
         },
         {
-          "left": "higher",
-          "right": "superior"
+          "left": "I would study",
+          "right": "estudiaría"
         }
       ],
-      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
+      "note": "The conditional ends in -ía: hablaría, comería, viviría. It is the same ending as the imperfect of the -er verbs."
     },
     {
-      "id": "es/b1/u10/select/mas",
+      "id": "es/b1/u10/select/hablaria",
       "type": "select",
-      "prompt": "Pick the Spanish word for “more”.",
+      "prompt": "Pick the Spanish word for “I would speak”.",
       "options": [
-        "menos",
-        "peor",
-        "mejor",
-        "más"
+        "repetir",
+        "ir",
+        "decidir",
+        "hablaría"
       ],
-      "answer": "más",
-      "translation": "more",
-      "note": "More. It also means most. It takes an accent in a question."
+      "answer": "hablaría",
+      "translation": "I would speak",
+      "note": "The conditional of hablar."
     },
     {
       "id": "es/b1/u10/drill/1",
       "type": "type_in",
-      "prompt": "Esta casa es ___ grande que la otra.",
-      "answer": "más",
+      "prompt": "___ a tu casa.",
+      "answer": "Iría",
       "acceptedAnswers": [
-        "mas"
+        "Iria"
       ],
-      "translation": "this house is bigger than the other one",
-      "note": "Más plus the adjective, then que."
+      "translation": "I would go to your house",
+      "note": "Ir is irregular in the conditional."
     },
     {
-      "id": "es/b1/u10/match/inferior",
+      "id": "es/b1/u10/match/veria",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "lower",
-          "right": "inferior"
+          "left": "I would see",
+          "right": "vería"
         },
         {
-          "left": "main",
-          "right": "principal"
+          "left": "I would do",
+          "right": "haría"
         },
         {
-          "left": "special",
-          "right": "especial"
+          "left": "I would be able to",
+          "right": "podría"
         },
         {
-          "left": "strong",
-          "right": "fuerte"
+          "left": "I would come",
+          "right": "vendría"
         },
         {
-          "left": "soft",
-          "right": "suave"
+          "left": "I would want to",
+          "right": "querría"
         }
       ],
-      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
+      "note": "The conditional ends in -ía: hablaría, comería, viviría. It is the same ending as the imperfect of the -er verbs."
     },
     {
-      "id": "es/b1/u10/select/menos",
+      "id": "es/b1/u10/select/comeria",
       "type": "select",
-      "prompt": "Pick the Spanish word for “less”.",
+      "prompt": "Pick the Spanish word for “I would eat”.",
       "options": [
-        "peor",
-        "superior",
-        "mejor",
-        "menos"
+        "comía",
+        "vivía",
+        "hablaba",
+        "comería"
       ],
-      "answer": "menos",
-      "translation": "less",
-      "note": "Less. It also means fewest."
+      "answer": "comería",
+      "translation": "I would eat",
+      "note": "The conditional of comer."
     },
     {
       "id": "es/b1/u10/drill/2",
       "type": "type_in",
-      "prompt": "Es ___ grande de la clase.",
-      "answer": "el más",
+      "prompt": "¿___ conmigo?",
+      "answer": "Comerías",
       "acceptedAnswers": [
-        "el mas"
+        "Comerias"
       ],
-      "translation": "it is the biggest in the class",
-      "note": "The superlative of the group."
+      "translation": "would you eat with me?",
+      "note": "The conditional asks politely."
     },
     {
-      "id": "es/b1/u10/select/mejor",
+      "id": "es/b1/u10/select/viviria",
       "type": "select",
-      "prompt": "Pick the Spanish word for “better”.",
+      "prompt": "Pick the Spanish word for “I would live”.",
       "options": [
-        "más",
-        "menos",
-        "peor",
-        "mejor"
+        "he trabajado",
+        "he estudiado",
+        "he visto",
+        "viviría"
       ],
-      "answer": "mejor",
-      "translation": "better",
-      "note": "Better. It has no comparative form: es mejor, es el mejor."
+      "answer": "viviría",
+      "translation": "I would live",
+      "note": "The conditional of vivir."
     },
     {
       "id": "es/b1/u10/drill/3",
       "type": "type_in",
-      "prompt": "Este café es ___ que aquel.",
-      "answer": "mejor",
+      "prompt": "Si ___ tiempo, viajaría.",
+      "answer": "tuviera",
       "acceptedAnswers": [
-        "mejor"
+        "tuviera"
       ],
-      "translation": "this coffee is better than that one",
-      "note": "Mejor has no comparative form."
+      "translation": "if I had time, I would travel",
+      "note": "The condition comes first, then si."
     },
     {
       "id": "es/b1/u10/drill/4",
       "type": "type_in",
-      "prompt": "Es ___ alto como tú.",
-      "answer": "tan",
+      "prompt": "Deberías ___ más.",
+      "answer": "dormir",
       "acceptedAnswers": [
-        "tan"
+        "dormir"
       ],
-      "translation": "he is as tall as you",
-      "note": "Equality uses tan and como."
+      "translation": "you should sleep more",
+      "note": "Deberías is the conditional of deber."
     },
     {
       "id": "es/b1/u10/drill/5",
       "type": "type_in",
-      "prompt": "No es ___ caro como el otro.",
-      "answer": "tan",
+      "prompt": "No ___ fumar.",
+      "answer": "deberías",
       "acceptedAnswers": [
-        "tan"
+        "deberias"
       ],
-      "translation": "it is not as expensive as the other one",
-      "note": "Inequality also uses tan plus como."
+      "translation": "you should not smoke",
+      "note": "Deberías comes with no in front."
     }
   ]
 }

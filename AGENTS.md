@@ -42,6 +42,8 @@ One engine, three content tracks. English is also the interface language.
 ```bash
 npm run build && npm test
 ```
+The test run includes the path audit, so a gap fails the build.
+Standalone: `npm run audit:path` and `npm run check:content`.
 Boot check: `node .output/server/index.mjs` then `GET /api/health` returns `{"status":"ok"}`.
 
 ## Stack

@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to shower”.",
       "options": [
-        "conocer",
-        "recordar",
-        "saber",
+        "entrar",
+        "salir",
+        "sentir",
         "ducharse"
       ],
       "answer": "ducharse",
@@ -151,9 +151,9 @@
       "prompt": "Pick the Spanish word for “to get dressed”.",
       "options": [
         "vestirse",
-        "querer",
-        "poder",
-        "dormir"
+        "recordar",
+        "olvidar",
+        "entender"
       ],
       "answer": "vestirse",
       "translation": "to get dressed",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to go to bed”.",
       "options": [
-        "he dicho",
-        "he escrito",
-        "hemos abierto",
+        "conocer",
+        "recordar",
+        "olvidar",
         "acostarse"
       ],
       "answer": "acostarse",

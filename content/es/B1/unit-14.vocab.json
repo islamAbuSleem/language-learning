@@ -1,59 +1,55 @@
 {
   "unit": 14,
-  "title": "What they said",
-  "description": "Report what someone else said.",
-  "grammar": "reported speech",
-  "grammarNote": "When you report a question, you use que and the order of the words does not change: no sé qué dijo.",
+  "title": "Before that",
+  "description": "Say what had already happened before something else.",
+  "grammar": "el pretérito pluscuamperfecto",
+  "grammarNote": "The pluperfect is the imperfect of haber plus the participle: había hablado, habías comido.",
   "explanation": {
-    "summary": "Reporting what someone said in Spanish is mostly a matter of moving the words around. A statement becomes dijo que plus the same sentence with the person changed. A question becomes dijo que plus the same question with the question word in front.",
+    "summary": "The pluperfect is the past of the past. It says what had already happened before another past event, and it is how Spanish handles a sequence of past events.",
     "sections": [
       {
-        "heading": "Reporting a statement",
-        "body": "You use dijo, dice, and the verb after que goes back one step in time. Me dijo que venía means he told me he was coming. If the person speaking is the same as the subject of the reported verb, the verb stays as it is: dijo que viene. The person is usually replaced by a pronoun: dijo, me dijo, nos dijo.",
+        "heading": "How it is built",
+        "body": "The imperfect of haber, which is the same for every verb: había, habías, había, habíamos, habíais, habían, followed by the participle. The participles are the same ones you already know: hablado, comido, vivido, visto, hecho, escrito.",
         "examples": [
           {
-            "es": "Me dijo que venía.",
-            "en": "He told me he was coming."
+            "es": "Cuando llegué, ya habían salido.",
+            "en": "When I arrived, they had already left."
           },
           {
-            "es": "Dijo que no podía.",
-            "en": "She said she could not."
+            "es": "No comí porque no había preparado la comida.",
+            "en": "I did not eat because I had not prepared the food."
           },
           {
-            "es": "Nos dijo que ya había llegado.",
-            "en": "He told us he had already arrived."
+            "es": "Había visto la película antes.",
+            "en": "I had seen the film before."
           }
         ]
       },
       {
-        "heading": "Reporting a question",
-        "body": "There is no word for that in Spanish. You use the same verb of saying and then que, and the question word stays in front: preguntó que dónde estaba. If the question word is a subject, it becomes a subject too: preguntó que quién era.",
+        "heading": "Two pasts in a row",
+        "body": "The event that came first takes the pluperfect, and the one after it takes the preterite. Cuando llegué, ya habían salido: the leaving is earlier, so it is a pluperfect, and the arriving is the later event, so it is a preterite.",
         "examples": [
           {
-            "es": "Preguntó que dónde vivía.",
-            "en": "He asked where I lived."
+            "es": "Cuando terminé, ya me habían llamado.",
+            "en": "When I finished, they had already called me."
           },
           {
-            "es": "Le pregunté que cuándo llegaba.",
-            "en": "I asked him when he was arriving."
-          },
-          {
-            "es": "Preguntó que quién era.",
-            "en": "He asked who it was."
+            "es": "Ella dijo que había terminado.",
+            "en": "She said she had finished."
           }
         ]
       },
       {
-        "heading": "The times move too",
-        "body": "The time words move with the verb: hoy becomes ayer, mañana becomes al día siguiente, ahora becomes entonces. And the mood can change: a question can become a statement in the report.",
+        "heading": "Almost never on its own",
+        "body": "You will not say the pluperfect alone very often. It earns its place when one past event explains another, or when someone reports something that had already happened.",
         "examples": [
           {
-            "es": "Dijo que vendría mañana.",
-            "en": "He said he would come tomorrow."
+            "es": "Cuando llegué a casa, ya había cenado.",
+            "en": "When I got home, I had already eaten."
           },
           {
-            "es": "Me dijo que ayer había llegado.",
-            "en": "He told me he had arrived the day before."
+            "es": "Supuso que yo había sido capaz.",
+            "en": "He assumed I had been able."
           }
         ]
       }
@@ -61,91 +57,91 @@
   },
   "items": [
     {
-      "es": "dijo",
-      "en": "he said",
+      "es": "había hablado",
+      "en": "I had spoken",
       "article": null,
-      "note": "The preterite of decir. It is irregular.",
+      "note": "The pluperfect of hablar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "dice",
-      "en": "he says",
+      "es": "había comido",
+      "en": "I had eaten",
       "article": null,
-      "note": "The present of decir. It is irregular.",
+      "note": "The pluperfect of comer.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "preguntó",
-      "en": "he asked",
+      "es": "había vivido",
+      "en": "I had lived",
       "article": null,
-      "note": "The preterite of preguntar.",
+      "note": "The pluperfect of vivir.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "cuenta",
-      "en": "he tells",
+      "es": "había trabajado",
+      "en": "I had worked",
       "article": null,
-      "note": "The present of contar. It is irregular in the yo form: cuento.",
+      "note": "The pluperfect of trabajar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "explicó",
-      "en": "he explained",
+      "es": "había estudiado",
+      "en": "I had studied",
       "article": null,
-      "note": "The preterite of explicar.",
+      "note": "The pluperfect of estudiar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "respondió",
-      "en": "he answered",
+      "es": "había visto",
+      "en": "I had seen",
       "article": null,
-      "note": "The preterite of responder.",
+      "note": "The pluperfect of ver. Visto is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "exclamó",
-      "en": "he exclaimed",
+      "es": "había hecho",
+      "en": "I had done",
       "article": null,
-      "note": "The preterite of exclamar.",
+      "note": "The pluperfect of hacer. Hecho is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "murmuró",
-      "en": "he muttered",
+      "es": "había dicho",
+      "en": "I had said",
       "article": null,
-      "note": "The preterite of murmurar.",
+      "note": "The pluperfect of decir. Dicho is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "anunció",
-      "en": "he announced",
+      "es": "había escrito",
+      "en": "I had written",
       "article": null,
-      "note": "The preterite of anunciar.",
+      "note": "The pluperfect of escribir. Escrito is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "confirmó",
-      "en": "he confirmed",
+      "es": "había salido",
+      "en": "we had left",
       "article": null,
-      "note": "The preterite of confirmar.",
+      "note": "The pluperfect of salir.",
       "tags": [
         "verb"
       ]
@@ -153,34 +149,34 @@
   ],
   "drills": [
     {
-      "prompt": "Me ___ que venía.",
-      "answer": "dijo",
-      "meaning": "he told me he was coming",
-      "note": "Dijo que plus a verb one step back in time."
+      "prompt": "Cuando llegué, ya ___ salido.",
+      "answer": "habían",
+      "meaning": "when I arrived, they had already left",
+      "note": "Habían is the imperfect of haber."
     },
     {
-      "prompt": "___ que dónde vivía.",
-      "answer": "preguntó",
-      "meaning": "he asked where I lived",
-      "note": "A reported question uses que and keeps the question word in front."
+      "prompt": "No comí porque no ___ preparado la comida.",
+      "answer": "había",
+      "meaning": "I did not eat because I had not prepared the food",
+      "note": "The pluperfect explains the other past event."
     },
     {
-      "prompt": "Ella ___ que no podía.",
-      "answer": "dijo",
-      "meaning": "she said she could not",
-      "note": "Dijo que."
+      "prompt": "Cuando terminé, ya me ___ llamado.",
+      "answer": "habían",
+      "meaning": "when I finished, they had already called me",
+      "note": "The earlier event takes the pluperfect."
     },
     {
-      "prompt": "Nos ___ que ya había llegado.",
-      "answer": "dijo",
-      "meaning": "he told us he had already arrived",
-      "note": "The reported verb moves back a step: había llegado."
+      "prompt": "Ella dijo que ___ terminado.",
+      "answer": "había",
+      "meaning": "she said she had finished",
+      "note": "A report of a past event can carry the pluperfect."
     },
     {
-      "prompt": "Le ___ cuándo llegaba.",
-      "answer": "pregunté",
-      "meaning": "I asked him when he was arriving",
-      "note": "Pregunté que with the question word in front."
+      "prompt": "___ visto la película antes.",
+      "answer": "Había",
+      "meaning": "I had seen the film before",
+      "note": "Había visto."
     }
   ]
 }

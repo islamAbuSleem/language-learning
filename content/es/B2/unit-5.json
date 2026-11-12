@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to depend”.",
       "options": [
-        "acostarse",
-        "afeitarse",
-        "cepillarse",
+        "mentir",
+        "cerrar",
+        "despertar",
         "depender"
       ],
       "answer": "depender",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to dream”.",
       "options": [
-        "acostarse",
-        "afeitarse",
-        "cepillarse",
+        "mentir",
+        "cerrar",
+        "despertar",
         "soñar"
       ],
       "answer": "soñar",

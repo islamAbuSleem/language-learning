@@ -11,39 +11,162 @@
         "heading": "Three kinds of change",
         "body": "E becomes ie: querer, querer to quiere, dormir to duerme. O becomes ue: poder to puede, volver to vuelve. And E becomes i: pedir to pide, seguir to sigue. The nosotros and vosotros forms keep the original stem:queremos, dormimos, pedimos.",
         "examples": [
-          { "es": "Quiero aprender más.", "en": "I want to learn more." },
-          { "es": "No puedo venir hoy.", "en": "I cannot come today." },
-          { "es": "Pido un café, por favor.", "en": "I order a coffee, please." }
+          {
+            "es": "Quiero aprender más.",
+            "en": "I want to learn more."
+          },
+          {
+            "es": "No puedo venir hoy.",
+            "en": "I cannot come today."
+          },
+          {
+            "es": "Pido un café, por favor.",
+            "en": "I order a coffee, please."
+          }
         ]
       },
       {
         "heading": "The yo form is often the odd one",
         "body": "The three changes only apply to the stressed vowel, and in the yo form that vowel is the one before the ending. Some verbs also change the ending in the yo form: dormir becomes duermo, not duemo. And a few verbs change everywhere except the nosotros form: querer is quiero, quieres, quiere, queremos, queréis, quieren.",
         "examples": [
-          { "es": "Dormo ocho horas.", "en": "I sleep eight hours." },
-          { "es": "Sigo el curso.", "en": "I follow the course." },
-          { "es": "We want to leave.", "en": "We want to leave." }
+          {
+            "es": "Dormo ocho horas.",
+            "en": "I sleep eight hours."
+          },
+          {
+            "es": "Sigo el curso.",
+            "en": "I follow the course."
+          },
+          {
+            "es": "We want to leave.",
+            "en": "We want to leave."
+          }
         ]
       }
     ]
   },
   "items": [
-    { "es": "querer", "en": "to want", "article": null, "note": "The e changes to ie: quiero, quieres, quiere.", "tags": ["verb"] },
-    { "es": "poder", "en": "to be able to", "article": null, "note": "The o changes to ue: puedo, puedes, puede.", "tags": ["verb"] },
-    { "es": "dormir", "en": "to sleep", "article": null, "note": "The o changes to ue: duermo, duermes, duerme.", "tags": ["verb"] },
-    { "es": "seguir", "en": "to follow", "article": null, "note": "The e changes to i: sigo, sigues, sigue.", "tags": ["verb"] },
-    { "es": "preferir", "en": "to prefer", "article": null, "note": "The e changes to ie: prefiero, prefieres, prefiere.", "tags": ["verb"] },
-    { "es": "mentir", "en": "to lie", "article": null, "note": "The e changes to ie: miento, mientes, miente.", "tags": ["verb"] },
-    { "es": "cerrar", "en": "to close", "article": null, "note": "The e changes to ie: cierro, cierras, cierra.", "tags": ["verb"] },
-    { "es": "despertar", "en": "to wake up", "article": null, "note": "The e changes to ie: despierto, despiertas, despierta.", "tags": ["verb"] },
-    { "es": "sentir", "en": "to feel", "article": null, "note": "The e changes to ie: siento, sientes, siente.", "tags": ["verb"] },
-    { "es": "consejo", "en": "advice", "article": "el", "note": "Masculine: el consejo.", "tags": ["object"] }
+    {
+      "es": "querer",
+      "en": "to want",
+      "article": null,
+      "note": "The e changes to ie: quiero, quieres, quiere.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "poder",
+      "en": "to be able to",
+      "article": null,
+      "note": "The o changes to ue: puedo, puedes, puede.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "dormir",
+      "en": "to sleep",
+      "article": null,
+      "note": "The o changes to ue: duermo, duermes, duerme.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "seguir",
+      "en": "to follow",
+      "article": null,
+      "note": "The e changes to i: sigo, sigues, sigue.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "preferir",
+      "en": "to prefer",
+      "article": null,
+      "note": "The e changes to ie: prefiero, prefieres, prefiere.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "mentir",
+      "en": "to lie",
+      "article": null,
+      "note": "The e changes to ie: miento, mientes, miente.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "cerrar",
+      "en": "to close",
+      "article": null,
+      "note": "The e changes to ie: cierro, cierras, cierra.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "despertar",
+      "en": "to wake up",
+      "article": null,
+      "note": "The e changes to ie: despierto, despiertas, despierta.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "sentir",
+      "en": "to feel",
+      "article": null,
+      "note": "The e changes to ie: siento, sientes, siente.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "consejo",
+      "en": "advice",
+      "article": "el",
+      "note": "Masculine: el consejo.",
+      "tags": [
+        "object"
+      ]
+    }
   ],
   "drills": [
-    { "prompt": "Yo ___ aprender más.", "answer": "quiero", "meaning": "I want to learn more", "note": "Querer changes e to ie." },
-    { "prompt": "No ___ venir hoy.", "answer": "puedo", "meaning": "I cannot come today", "note": "Poder changes o to ue." },
-    { "prompt": "Yo ___ ocho horas.", "answer": "duermo", "meaning": "I sleep eight hours", "note": "Dormir also changes the ending in the yo form." },
-    { "prompt": "Yo ___ un café.", "answer": "pido", "meaning": "I order a coffee", "note": "Pedir changes e to i and drops the e." },
-    { "prompt": "Nosotros ___ el curso.", "answer": "seguimos", "meaning": "we follow the course", "note": "The nosotros form keeps the original stem." }
+    {
+      "prompt": "Yo ___ aprender más.",
+      "answer": "quiero",
+      "meaning": "I want to learn more",
+      "note": "Querer changes e to ie."
+    },
+    {
+      "prompt": "No ___ venir hoy.",
+      "answer": "puedo",
+      "meaning": "I cannot come today",
+      "note": "Poder changes o to ue."
+    },
+    {
+      "prompt": "Yo ___ ocho horas.",
+      "answer": "duermo",
+      "meaning": "I sleep eight hours",
+      "note": "Dormir also changes the ending in the yo form."
+    },
+    {
+      "prompt": "Yo ___ un café.",
+      "answer": "pido",
+      "meaning": "I order a coffee",
+      "note": "Pedir changes e to i and drops the e."
+    },
+    {
+      "prompt": "Nosotros ___ el curso.",
+      "answer": "seguimos",
+      "meaning": "we follow the course",
+      "note": "The nosotros form keeps the original stem."
+    }
   ]
 }

@@ -2,62 +2,40 @@
   "track": "es",
   "level": "B1",
   "unit": 9,
-  "title": "Yesterday, again",
-  "description": "More of the past, with the other two verb endings.",
+  "title": "Giving things to people",
+  "description": "Say who you give something to, and who you take it from.",
   "explanation": {
-    "summary": "The -er and -ir verbs share one set of preterite endings, and the pattern is the same as the -ar verbs with the accent moved. The irregular verbs are the ones to watch.",
+    "summary": "Some verbs give something to someone: dar, entregar, enviar, enseñar, traer. The person is an indirect object, and it comes before the verb, with a pronoun for it: le doy el libro, a ella le doy el libro.",
     "sections": [
       {
-        "heading": "One set of endings",
-        "body": "Both families take -í, -iste, -ió, -imos, -isteis, -ieron. Comer becomes comí, comiste, comió, comimos, comisteis, comieron. Vivir becomes viví, viviste, vivió, vivimos, vivisteis, vivieron. Compare with the -ar form, which ends in ó for the third person: habló.",
+        "heading": "The eight pronouns",
+        "body": "Me, te, se, nos, os, les. They replace the person, and they go before the verb. Se is used when the person is not named, or when it is third person and you do not want to say who: se lo doy. The form le and les are used for a male and a female person, so there is no distinction in the pronoun itself.",
         "examples": [
           {
-            "es": "Comí a las dos.",
-            "en": "I ate at two."
+            "es": "Le doy el libro.",
+            "en": "I give him the book."
           },
           {
-            "es": "Viviste en Madrid dos años.",
-            "en": "You lived in Madrid for two years."
+            "es": "Nos trajeron la comida.",
+            "en": "They brought us the food."
           },
           {
-            "es": "Escribieron una carta.",
-            "en": "They wrote a letter."
+            "es": "¿Me lo puedes dar?",
+            "en": "Can you give it to me?"
           }
         ]
       },
       {
-        "heading": "The yo form changes the stem",
-        "body": "A number of -er and -ir verbs change the stem in the yo form of the preterite, and drop the ending: pedir becomes pedí, venir becomes vine, decir becomes dije, poder became pude, tener became tuve, hacer became hice. And the third person of the very irregular verbs changes too: dijo, hizo, tuvo, vino, pudo.",
+        "heading": "With dar, it can also mean to take away",
+        "body": "Dar has a second use: quitar. Darle a alguien un paseo means to take someone for a walk. This is the one place where the indirect object can come after the verb, because the whole phrase is a set expression.",
         "examples": [
           {
-            "es": "Pedí un taxi.",
-            "en": "I ordered a taxi."
+            "es": "Darle a Pedro un paseo por el parque.",
+            "en": "To take Pedro for a walk in the park."
           },
           {
-            "es": "Vino a visitarnos.",
-            "en": "He came to visit us."
-          },
-          {
-            "es": "Dijo la verdad.",
-            "en": "He told the truth."
-          }
-        ]
-      },
-      {
-        "heading": "Choosing between the two pasts",
-        "body": "Use the preterite for a finished event with a time attached, and the imperfect for how things were. The imperfect is the one you use for the background of a story: de niño jugaba en el parque. The preterite moves the story forward: un día, jugué en el parque.",
-        "examples": [
-          {
-            "es": "Un día, jugué en el parque.",
-            "en": "One day, I played in the park."
-          },
-          {
-            "es": "De niño, jugaba en el parque.",
-            "en": "As a child, I used to play in the park."
-          },
-          {
-            "es": "Cuando era pequeño, no leía.",
-            "en": "When I was small, I did not read."
+            "es": "Nos dio una sorpresa.",
+            "en": "He gave us a surprise."
           }
         ]
       }
@@ -65,157 +43,157 @@
   },
   "exercises": [
     {
-      "id": "es/b1/u9/match/pidio",
+      "id": "es/b1/u9/match/me",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "he asked for",
-          "right": "pidió"
+          "left": "me",
+          "right": "me"
         },
         {
-          "left": "he understood",
-          "right": "entendió"
+          "left": "you",
+          "right": "te"
         },
         {
-          "left": "he arrived",
-          "right": "llegó"
+          "left": "him",
+          "right": "se"
         },
         {
-          "left": "he left",
-          "right": "salió"
+          "left": "us",
+          "right": "nos"
         },
         {
-          "left": "item",
-          "right": "el artículo"
+          "left": "them",
+          "right": "les"
         }
       ],
-      "note": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron."
+      "note": "The indirect object comes before the verb: le doy el libro. It answers a quién."
     },
     {
-      "id": "es/b1/u9/select/pidio",
+      "id": "es/b1/u9/select/me",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he asked for”.",
+      "prompt": "Pick the Spanish word for “me”.",
       "options": [
-        "olvidar",
-        "entender",
-        "gustar",
-        "pidió"
+        "nada",
+        "te",
+        "se",
+        "me"
       ],
-      "answer": "pidió",
-      "translation": "he asked for",
-      "note": "The preterite of pedir. The yo form is pedí."
+      "answer": "me",
+      "translation": "me",
+      "note": "To me. It goes before the verb: me lo das."
     },
     {
       "id": "es/b1/u9/drill/1",
       "type": "type_in",
-      "prompt": "Comí ___ las dos.",
-      "answer": "a",
+      "prompt": "___ doy el libro.",
+      "answer": "Le",
       "acceptedAnswers": [
-        "a"
+        "Le"
       ],
-      "translation": "I ate at two",
-      "note": "A specific time takes a."
+      "translation": "I give him the book",
+      "note": "The indirect object comes before the verb."
     },
     {
-      "id": "es/b1/u9/match/reunion",
+      "id": "es/b1/u9/match/entregar",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "meeting",
-          "right": "la reunión"
+          "left": "to hand over",
+          "right": "entregar"
         },
         {
-          "left": "problem",
-          "right": "el problema"
+          "left": "to send",
+          "right": "enviar"
         },
         {
-          "left": "solution",
-          "right": "la solución"
+          "left": "to bring",
+          "right": "traer"
         },
         {
-          "left": "answer",
-          "right": "la respuesta"
+          "left": "gift",
+          "right": "el regalo"
         },
         {
-          "left": "decision",
-          "right": "la decisión"
+          "left": "surprise",
+          "right": "la sorpresa"
         }
       ],
-      "note": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron."
+      "note": "The indirect object comes before the verb: le doy el libro. It answers a quién."
     },
     {
-      "id": "es/b1/u9/select/entendio",
+      "id": "es/b1/u9/select/te",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he understood”.",
+      "prompt": "Pick the Spanish word for “you”.",
       "options": [
-        "escribir",
-        "abrir",
-        "entendió",
-        "recibir"
+        "algo",
+        "me",
+        "te",
+        "nada"
       ],
-      "answer": "entendió",
-      "translation": "he understood",
-      "note": "The preterite of entender. The yo form is entendí."
+      "answer": "te",
+      "translation": "you",
+      "note": "To you. It goes before the verb: te lo doy."
     },
     {
       "id": "es/b1/u9/drill/2",
       "type": "type_in",
-      "prompt": "___ un taxi.",
-      "answer": "Pedí",
+      "prompt": "___ trajeron la comida.",
+      "answer": "Nos",
       "acceptedAnswers": [
-        "Pedi"
+        "Nos"
       ],
-      "translation": "I ordered a taxi",
-      "note": "Pedir is irregular in the yo form."
+      "translation": "they brought us the food",
+      "note": "Nos is the indirect object."
     },
     {
-      "id": "es/b1/u9/select/llego",
+      "id": "es/b1/u9/select/se",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he arrived”.",
+      "prompt": "Pick the Spanish word for “him”.",
       "options": [
-        "he comido",
-        "he vivido",
-        "he hablado",
-        "llegó"
+        "tú",
+        "él",
+        "yo",
+        "se"
       ],
-      "answer": "llegó",
-      "translation": "he arrived",
-      "note": "The preterite of llegar. The yo form is llegué."
+      "answer": "se",
+      "translation": "him",
+      "note": "To him, her or them, when the person is not named."
     },
     {
       "id": "es/b1/u9/drill/3",
       "type": "type_in",
-      "prompt": "___ a visitarnos.",
-      "answer": "Vino",
+      "prompt": "¿___ lo puedes dar?",
+      "answer": "Me",
       "acceptedAnswers": [
-        "Vino"
+        "Me"
       ],
-      "translation": "he came to visit us",
-      "note": "Venir is irregular in the preterite."
+      "translation": "can you give it to me?",
+      "note": "Me comes before the verb."
     },
     {
       "id": "es/b1/u9/drill/4",
       "type": "type_in",
-      "prompt": "___ la verdad.",
-      "answer": "Dijo",
+      "prompt": "___ dio una sorpresa.",
+      "answer": "Nos",
       "acceptedAnswers": [
-        "Dijo"
+        "Nos"
       ],
-      "translation": "he told the truth",
-      "note": "Decir is irregular."
+      "translation": "he gave us a surprise",
+      "note": "Nos before dio."
     },
     {
       "id": "es/b1/u9/drill/5",
       "type": "type_in",
-      "prompt": "Cuando era pequeño, no ___.",
-      "answer": "leía",
+      "prompt": "___ envié el paquete.",
+      "answer": "Te",
       "acceptedAnswers": [
-        "leia"
+        "Te"
       ],
-      "translation": "when I was small, I did not read",
-      "note": "How things were takes the imperfect."
+      "translation": "I sent you the parcel",
+      "note": "Te is the indirect object."
     }
   ]
 }

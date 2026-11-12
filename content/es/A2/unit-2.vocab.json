@@ -11,48 +11,180 @@
         "heading": "The six endings",
         "body": "Drop the -ir and add -o, -es, -e, -imos, -ís, -en. Escribir becomes escribo, escribes, escribe, escribimos, escribís, escriben. Compare with the -er form: comes, comemos, coméis. The -ir form adds an i: escribes, escribimos, escribís.",
         "examples": [
-          { "es": "Escribo una carta.", "en": "I write a letter." },
-          { "es": "Recibes el paquete mañana.", "en": "You receive the parcel tomorrow." },
-          { "es": "Abrimos la tienda a las diez.", "en": "We open the shop at ten." }
+          {
+            "es": "Escribo una carta.",
+            "en": "I write a letter."
+          },
+          {
+            "es": "Recibes el paquete mañana.",
+            "en": "You receive the parcel tomorrow."
+          },
+          {
+            "es": "Abrimos la tienda a las diez.",
+            "en": "We open the shop at ten."
+          }
         ]
       },
       {
         "heading": "The yo form that changes",
         "body": "A few -ir verbs change in the yo form only. Pedir becomes pido, which is irregular: the e is dropped. Servir becomes sirvo, and the e is dropped too. Most others are regular: comparto, decido, descubro.",
         "examples": [
-          { "es": "Pido un café.", "en": "I order a coffee." },
-          { "es": "Sirvo la cena.", "en": "I serve dinner." },
-          { "es": "Decido seguir adelante.", "en": "I decide to carry on." }
+          {
+            "es": "Pido un café.",
+            "en": "I order a coffee."
+          },
+          {
+            "es": "Sirvo la cena.",
+            "en": "I serve dinner."
+          },
+          {
+            "es": "Decido seguir adelante.",
+            "en": "I decide to carry on."
+          }
         ]
       },
       {
         "heading": "Which one to use",
         "body": "The three families are close enough that you can often guess the wrong one, so learn the ending of the infinitive with the verb: hablar, comer, vivir. The -ir verbs are the ones used for writing, opening, sharing and repeating, which is why they feel a little more modern than the rest.",
         "examples": [
-          { "es": "Repito, por favor.", "en": "I repeat, please." },
-          { "es": "Comparto la mesa contigo.", "en": "I share the table with you." },
-          { "es": "Descubre un restaurante nuevo.", "en": "You discover a new restaurant." }
+          {
+            "es": "Repito, por favor.",
+            "en": "I repeat, please."
+          },
+          {
+            "es": "Comparto la mesa contigo.",
+            "en": "I share the table with you."
+          },
+          {
+            "es": "Descubre un restaurante nuevo.",
+            "en": "You discover a new restaurant."
+          }
         ]
       }
     ]
   },
   "items": [
-    { "es": "escribir", "en": "to write", "article": null, "note": "An infinitive ending in -ir: escribo, escribes, escribe.", "tags": ["verb"] },
-    { "es": "recibir", "en": "to receive", "article": null, "note": "An infinitive ending in -ir: recibo, recibes, recibe.", "tags": ["verb"] },
-    { "es": "abrir", "en": "to open", "article": null, "note": "An infinitive ending in -ir: abro, abres, abre.", "tags": ["verb"] },
-    { "es": "compartir", "en": "to share", "article": null, "note": "An infinitive ending in -ir: comparto, compartes, comparte.", "tags": ["verb"] },
-    { "es": "descubrir", "en": "to discover", "article": null, "note": "An infinitive ending in -ir: descubro, descubres, descubre.", "tags": ["verb"] },
-    { "es": "pedir", "en": "to ask for", "article": null, "note": "An infinitive ending in -ir: pido, pides, pide. The yo form is irregular.", "tags": ["verb"] },
-    { "es": "servir", "en": "to serve", "article": null, "note": "An infinitive ending in -ir: sirvo, sirves, sirve. The yo form is irregular.", "tags": ["verb"] },
-    { "es": "repetir", "en": "to repeat", "article": null, "note": "An infinitive ending in -ir: repito, repites, repite.", "tags": ["verb"] },
-    { "es": "decidir", "en": "to decide", "article": null, "note": "An infinitive ending in -ir: decido, decides, decide.", "tags": ["verb"] },
-    { "es": "mensaje", "en": "message", "article": "el", "note": "Masculine: el mensaje.", "tags": ["object"] }
+    {
+      "es": "escribir",
+      "en": "to write",
+      "article": null,
+      "note": "An infinitive ending in -ir: escribo, escribes, escribe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "recibir",
+      "en": "to receive",
+      "article": null,
+      "note": "An infinitive ending in -ir: recibo, recibes, recibe.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "abrir",
+      "en": "to open",
+      "article": null,
+      "note": "An infinitive ending in -ir: abro, abres, abre.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "compartir",
+      "en": "to share",
+      "article": null,
+      "note": "An infinitive ending in -ir: comparto, compartes, comparte.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "descubrir",
+      "en": "to discover",
+      "article": null,
+      "note": "An infinitive ending in -ir: descubro, descubres, descubre.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "pedir",
+      "en": "to ask for",
+      "article": null,
+      "note": "An infinitive ending in -ir: pido, pides, pide. The yo form is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "servir",
+      "en": "to serve",
+      "article": null,
+      "note": "An infinitive ending in -ir: sirvo, sirves, sirve. The yo form is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "repetir",
+      "en": "to repeat",
+      "article": null,
+      "note": "An infinitive ending in -ir: repito, repites, repite.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "decidir",
+      "en": "to decide",
+      "article": null,
+      "note": "An infinitive ending in -ir: decido, decides, decide.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "mensaje",
+      "en": "message",
+      "article": "el",
+      "note": "Masculine: el mensaje.",
+      "tags": [
+        "object"
+      ]
+    }
   ],
   "drills": [
-    { "prompt": "Yo ___ una carta.", "answer": "escribo", "meaning": "I write a letter", "note": "The yo form of escribir." },
-    { "prompt": "Nosotros ___ la tienda a las diez.", "answer": "abrimos", "meaning": "we open the shop at ten", "note": "The nosotros form of abrir." },
-    { "prompt": "___ un café, por favor.", "answer": "Pido", "meaning": "I order a coffee, please", "note": "Pedir is irregular in the yo form." },
-    { "prompt": "Tú ___ el paquete mañana.", "answer": "recibes", "meaning": "you receive the parcel tomorrow", "note": "The tú form of recibir." },
-    { "prompt": "Ellos ___ la mesa conmigo.", "answer": "comparten", "meaning": "they share the table with me", "note": "The ellos form of compartir." }
+    {
+      "prompt": "Yo ___ una carta.",
+      "answer": "escribo",
+      "meaning": "I write a letter",
+      "note": "The yo form of escribir."
+    },
+    {
+      "prompt": "Nosotros ___ la tienda a las diez.",
+      "answer": "abrimos",
+      "meaning": "we open the shop at ten",
+      "note": "The nosotros form of abrir."
+    },
+    {
+      "prompt": "___ un café, por favor.",
+      "answer": "Pido",
+      "meaning": "I order a coffee, please",
+      "note": "Pedir is irregular in the yo form."
+    },
+    {
+      "prompt": "Tú ___ el paquete mañana.",
+      "answer": "recibes",
+      "meaning": "you receive the parcel tomorrow",
+      "note": "The tú form of recibir."
+    },
+    {
+      "prompt": "Ellos ___ la mesa conmigo.",
+      "answer": "comparten",
+      "meaning": "they share the table with me",
+      "note": "The ellos form of compartir."
+    }
   ]
 }

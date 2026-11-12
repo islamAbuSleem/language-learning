@@ -11,48 +11,180 @@
         "heading": "The forms",
         "body": "The reflexive pronouns are me, te, se, nos, os, se. They are the same for every reflexive verb: me ducho, te duchas, se ducha, nos duchamos, os ducháis, se duchan. The verbs themselves keep their normal ending, with the addition of -se: duchar becomes ducharse, and in the infinitive the se is attached: ducharse.",
         "examples": [
-          { "es": "Me ducho por la mañana.", "en": "I shower in the morning." },
-          { "es": "¿Te acuestas tarde?", "en": "Do you go to bed late?" },
-          { "es": "Ella se viste muy bien.", "en": "She dresses very well." }
+          {
+            "es": "Me ducho por la mañana.",
+            "en": "I shower in the morning."
+          },
+          {
+            "es": "¿Te acuestas tarde?",
+            "en": "Do you go to bed late?"
+          },
+          {
+            "es": "Ella se viste muy bien.",
+            "en": "She dresses very well."
+          }
         ]
       },
       {
         "heading": "Not only about the body",
         "body": "Several verbs take a reflexive pronoun for a meaning that is not about the body. Acordarse is to remember, beware is to be careful, and legalization is to get legalised. And the pronoun can be dropped when it is obvious:voy a duchar, I am going to shower.",
         "examples": [
-          { "es": "¿Te acuerdas de mi nombre?", "en": "Do you remember my name?" },
-          { "es": "Hay que tener cuidado con el agua.", "en": "You have to be careful with the water." },
-          { "es": "Me voy a duchar.", "en": "I am going to shower." }
+          {
+            "es": "¿Te acuerdas de mi nombre?",
+            "en": "Do you remember my name?"
+          },
+          {
+            "es": "Hay que tener cuidado con el agua.",
+            "en": "You have to be careful with the water."
+          },
+          {
+            "es": "Me voy a duchar.",
+            "en": "I am going to shower."
+          }
         ]
       },
       {
         "heading": "When the pronoun changes the meaning",
         "body": "With a reflexive pronoun the action is done to yourself, and without it it is done to someone else. Levantar is to lift: levanto la caja, I lift the box. Levantarse is to get up: me levanto, I get up. And in the negative, the reflexive pronoun is what makes it reflexive: no me levanto, I do not get up.",
         "examples": [
-          { "es": "Levanta la caja, por favor.", "en": "Lift the box, please." },
-          { "es": "Me levanto a las siete.", "en": "I get up at seven." },
-          { "es": "No me levanto hoy.", "en": "I am not getting up today." }
+          {
+            "es": "Levanta la caja, por favor.",
+            "en": "Lift the box, please."
+          },
+          {
+            "es": "Me levanto a las siete.",
+            "en": "I get up at seven."
+          },
+          {
+            "es": "No me levanto hoy.",
+            "en": "I am not getting up today."
+          }
         ]
       }
     ]
   },
   "items": [
-    { "es": "ducharse", "en": "to shower", "article": null, "note": "A reflexive verb: me ducho, te duchas, se ducha.", "tags": ["verb"] },
-    { "es": "vestirse", "en": "to get dressed", "article": null, "note": "A reflexive verb: me visto, te vistes, se viste.", "tags": ["verb"] },
-    { "es": "acostarse", "en": "to go to bed", "article": null, "note": "A reflexive verb: me acuesto, te acuestas, se acuesta.", "tags": ["verb"] },
-    { "es": "afeitarse", "en": "to shave", "article": null, "note": "A reflexive verb: me afeito, te afeitas, se afeita.", "tags": ["verb"] },
-    { "es": "cepillarse", "en": "to brush", "article": null, "note": "A reflexive verb: me cepillo, te cepillas, se cepilla.", "tags": ["verb"] },
-    { "es": "levantarse", "en": "to get up", "article": null, "note": "A reflexive verb: me levanto, te levantas, se levanta.", "tags": ["verb"] },
-    { "es": "relajarse", "en": "to relax", "article": null, "note": "A reflexive verb: me relajo, te relajas, se relaja.", "tags": ["verb"] },
-    { "es": "espejo", "en": "mirror", "article": "el", "note": "Masculine: el espejo.", "tags": ["object"] },
-    { "es": "jabón", "en": "soap", "article": "el", "note": "Masculine: el jabón. The accent marks the stress.", "tags": ["object"] },
-    { "es": "toalla", "en": "towel", "article": "la", "note": "Feminine: la toalla.", "tags": ["object"] }
+    {
+      "es": "ducharse",
+      "en": "to shower",
+      "article": null,
+      "note": "A reflexive verb: me ducho, te duchas, se ducha.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "vestirse",
+      "en": "to get dressed",
+      "article": null,
+      "note": "A reflexive verb: me visto, te vistes, se viste.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "acostarse",
+      "en": "to go to bed",
+      "article": null,
+      "note": "A reflexive verb: me acuesto, te acuestas, se acuesta.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "afeitarse",
+      "en": "to shave",
+      "article": null,
+      "note": "A reflexive verb: me afeito, te afeitas, se afeita.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "cepillarse",
+      "en": "to brush",
+      "article": null,
+      "note": "A reflexive verb: me cepillo, te cepillas, se cepilla.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "levantarse",
+      "en": "to get up",
+      "article": null,
+      "note": "A reflexive verb: me levanto, te levantas, se levanta.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "relajarse",
+      "en": "to relax",
+      "article": null,
+      "note": "A reflexive verb: me relajo, te relajas, se relaja.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "espejo",
+      "en": "mirror",
+      "article": "el",
+      "note": "Masculine: el espejo.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "jabón",
+      "en": "soap",
+      "article": "el",
+      "note": "Masculine: el jabón. The accent marks the stress.",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "es": "toalla",
+      "en": "towel",
+      "article": "la",
+      "note": "Feminine: la toalla.",
+      "tags": [
+        "object"
+      ]
+    }
   ],
   "drills": [
-    { "prompt": "___ ducho por la mañana.", "answer": "Me", "meaning": "I shower in the morning", "note": "The reflexive pronoun comes before the verb." },
-    { "prompt": "¿___ acuerdas de mi nombre?", "answer": "te", "meaning": "do you remember my name?", "note": "Acordarse takes a reflexive pronoun." },
-    { "prompt": "___ levanto a las siete.", "answer": "Me", "meaning": "I get up at seven", "note": "Levantarse is reflexive." },
-    { "prompt": "___ levanta la caja, por favor.", "answer": "Levanta", "meaning": "lift the box, please", "note": "Without the reflexive pronoun the verb is transitive." },
-    { "prompt": "___ visto muy bien.", "answer": "Ella se", "meaning": "she dresses very well", "note": "Ella se viste." }
+    {
+      "prompt": "___ ducho por la mañana.",
+      "answer": "Me",
+      "meaning": "I shower in the morning",
+      "note": "The reflexive pronoun comes before the verb."
+    },
+    {
+      "prompt": "¿___ acuerdas de mi nombre?",
+      "answer": "te",
+      "meaning": "do you remember my name?",
+      "note": "Acordarse takes a reflexive pronoun."
+    },
+    {
+      "prompt": "___ levanto a las siete.",
+      "answer": "Me",
+      "meaning": "I get up at seven",
+      "note": "Levantarse is reflexive."
+    },
+    {
+      "prompt": "___ levanta la caja, por favor.",
+      "answer": "Levanta",
+      "meaning": "lift the box, please",
+      "note": "Without the reflexive pronoun the verb is transitive."
+    },
+    {
+      "prompt": "___ visto muy bien.",
+      "answer": "Ella se",
+      "meaning": "she dresses very well",
+      "note": "Ella se viste."
+    }
   ]
 }

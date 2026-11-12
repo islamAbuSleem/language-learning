@@ -2,58 +2,54 @@
   "track": "es",
   "level": "B1",
   "unit": 13,
-  "title": "What you hope, and what you doubt",
-  "description": "Say what might happen, and what you are not sure about.",
+  "title": "The person, not the thing",
+  "description": "Describe a person or a thing without repeating the noun.",
   "explanation": {
-    "summary": "Spanish has a mood for things that are not certain: what you hope for, what you doubt, what you want someone to do. It is called the subjunctive, and it is built by taking the yo form and swapping the ending.",
+    "summary": "A relative clause describes a noun and goes straight after it. In Spanish the word for who or what you are describing comes first, and the noun it describes follows the clause.",
     "sections": [
       {
-        "heading": "How the forms are built",
-        "body": "Take the yo form of the present and give it the endings of tú: yo hablo becomes hable, yo como becomes coma, yo vivo becomes viva. The endings are -e, -es, -e, -emos, -éis, -en. The six irregular yo forms change irregularly too: tengo becomes tenga, vengo becomes venga, hago becomes haga, pongo becomes ponga, digo becomes diga, sé becomes sea.",
+        "heading": "The four relative words",
+        "body": "Que is the general one: la mujer que canta. Quien is for people: el amigo que llamaré. Donde is for places: la ciudad donde nací. Cuyo means whose: el hombre cuyo coche es rojo. When the relative clause needs a subject of its own, Spanish uses que for things and quien for people.",
         "examples": [
           {
-            "es": "Quiero que vengas.",
-            "en": "I want you to come."
+            "es": "La mujer que canta es mi hermana.",
+            "en": "The woman who sings is my sister."
           },
           {
-            "es": "Espero que llueva.",
-            "en": "I hope it rains."
+            "es": "Conozco a un amigo que habla árabe.",
+            "en": "I know a friend who speaks Arabic."
           },
           {
-            "es": "No creo que sea verdad.",
-            "en": "I do not think it is true."
+            "es": "La ciudad donde nací es pequeña.",
+            "en": "The city where I was born is small."
           }
         ]
       },
       {
-        "heading": "The three triggers",
-        "body": "The subjunctive appears after: expressions of will or feeling (quiero que, espero que, me alegro de que), expressions of doubt (no creo que, dudo que, es posible que), and after certain conjunctions (cuando, aunque, para que, porque, antes de que). After these the verb is in the subjunctive even when the subject is the same person: quiero que vengas, even though you are the one speaking.",
+        "heading": "The verb goes at the end",
+        "body": "In a relative clause the subject comes first and the verb goes at the end, and there is no word for that. El hombre que vive en Madrid is not el hombre que vive en el Madrid. That is why the clause sounds like a question without the question mark.",
         "examples": [
           {
-            "es": "Cuando llegue, te llamo.",
-            "en": "When I arrive, I will call you."
+            "es": "El libro que compré es interesante.",
+            "en": "The book I bought is interesting."
           },
           {
-            "es": "Aunque sea difícil, lo hago.",
-            "en": "Even if it is difficult, I will do it."
-          },
-          {
-            "es": "Te lo digo para que lo sepas.",
-            "en": "I am telling you so that you know."
+            "es": "La chica que está al lado es Ana.",
+            "en": "The girl who is next door is Ana."
           }
         ]
       },
       {
-        "heading": "The same tense, the same word",
-        "body": "The present indicative and the present subjunctive have the same endings except for the yo form. That is why the yo form is the one that matters: hablo against hable. Learn the six irregular ones and the rest follows.",
+        "heading": "When there is no verb",
+        "body": "If the clause only describes the noun, there is no verb and no word for that either: la casa de mi madre, el coche rojo de mi padre. This is very common in Spanish and it is easier than the English of that.",
         "examples": [
           {
-            "es": "Hablo español todos los días.",
-            "en": "I speak Spanish every day."
+            "es": "El restaurante de mi tío está cerca.",
+            "en": "My uncle's restaurant is close."
           },
           {
-            "es": "Espero que hables español.",
-            "en": "I hope you speak Spanish."
+            "es": "Las fotos de las vacaciones son bonitas.",
+            "en": "The photos from the holiday are nice."
           }
         ]
       }
@@ -61,157 +57,157 @@
   },
   "exercises": [
     {
-      "id": "es/b1/u13/match/hable",
+      "id": "es/b1/u13/match/que",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "speak",
-          "right": "hable"
+          "left": "that",
+          "right": "que"
         },
         {
-          "left": "eat",
-          "right": "coma"
+          "left": "who",
+          "right": "quien"
         },
         {
-          "left": "live",
-          "right": "viva"
+          "left": "where",
+          "right": "donde"
         },
         {
-          "left": "work",
-          "right": "trabaje"
+          "left": "whose",
+          "right": "cuyo"
         },
         {
-          "left": "study",
-          "right": "estudie"
+          "left": "neighbour",
+          "right": "el vecino"
         }
       ],
-      "note": "The present subjunctive is the opposite of the yo form: hable, coma, viva."
+      "note": "The relative word describes the noun: el hombre que trabaja aquí, la casa donde vivo."
     },
     {
-      "id": "es/b1/u13/select/hable",
+      "id": "es/b1/u13/select/que",
       "type": "select",
-      "prompt": "Pick the Spanish word for “speak”.",
+      "prompt": "Pick the Spanish word for “that”.",
       "options": [
-        "ir",
-        "volver",
-        "venir",
-        "hable"
+        "quien",
+        "cuyo",
+        "donde",
+        "que"
       ],
-      "answer": "hable",
-      "translation": "speak",
-      "note": "The subjunctive of hablar. It is the opposite of the yo form."
+      "answer": "que",
+      "translation": "that",
+      "note": "The general relative word: la mujer que canta."
     },
     {
       "id": "es/b1/u13/drill/1",
       "type": "type_in",
-      "prompt": "Quiero que ___.",
-      "answer": "vengas",
+      "prompt": "La mujer ___ canta es mi hermana.",
+      "answer": "que",
       "acceptedAnswers": [
-        "vengas"
+        "que"
       ],
-      "translation": "I want you to come",
-      "note": "Quiero que takes the subjunctive."
+      "translation": "the woman who sings is my sister",
+      "note": "Que is the general relative word."
     },
     {
-      "id": "es/b1/u13/match/venga",
+      "id": "es/b1/u13/match/colega",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "come",
-          "right": "venga"
+          "left": "colleague",
+          "right": "el colega"
         },
         {
-          "left": "have",
-          "right": "tenga"
+          "left": "boss",
+          "right": "el jefe"
         },
         {
-          "left": "do",
-          "right": "haga"
+          "left": "relative",
+          "right": "el pariente"
         },
         {
-          "left": "be",
-          "right": "sea"
+          "left": "nickname",
+          "right": "el apodo"
         },
         {
-          "left": "say",
-          "right": "diga"
+          "left": "neighbourhood",
+          "right": "el vecindario"
         }
       ],
-      "note": "The present subjunctive is the opposite of the yo form: hable, coma, viva."
+      "note": "The relative word describes the noun: el hombre que trabaja aquí, la casa donde vivo."
     },
     {
-      "id": "es/b1/u13/select/coma",
+      "id": "es/b1/u13/select/quien",
       "type": "select",
-      "prompt": "Pick the Spanish word for “eat”.",
+      "prompt": "Pick the Spanish word for “who”.",
       "options": [
-        "querría",
-        "hable",
-        "coma",
-        "vendría"
+        "que",
+        "donde",
+        "quien",
+        "cuyo"
       ],
-      "answer": "coma",
-      "translation": "eat",
-      "note": "The subjunctive of comer. It is the opposite of the yo form."
+      "answer": "quien",
+      "translation": "who",
+      "note": "For people: el amigo que llamaré becomes quien llamaré."
     },
     {
       "id": "es/b1/u13/drill/2",
       "type": "type_in",
-      "prompt": "Espero que ___ español.",
-      "answer": "hables",
+      "prompt": "La ciudad ___ nací es pequeña.",
+      "answer": "donde",
       "acceptedAnswers": [
-        "hables"
+        "donde"
       ],
-      "translation": "I hope you speak Spanish",
-      "note": "The subjunctive is the opposite of the yo form."
+      "translation": "the city where I was born is small",
+      "note": "Donde is for places."
     },
     {
-      "id": "es/b1/u13/select/viva",
+      "id": "es/b1/u13/select/donde",
       "type": "select",
-      "prompt": "Pick the Spanish word for “live”.",
+      "prompt": "Pick the Spanish word for “where”.",
       "options": [
-        "hablaba",
-        "vivía",
-        "comía",
-        "viva"
+        "que",
+        "cuyo",
+        "quien",
+        "donde"
       ],
-      "answer": "viva",
-      "translation": "live",
-      "note": "The subjunctive of vivir. It is the opposite of the yo form."
+      "answer": "donde",
+      "translation": "where",
+      "note": "For places: la ciudad donde nací."
     },
     {
       "id": "es/b1/u13/drill/3",
       "type": "type_in",
-      "prompt": "No creo que ___ verdad.",
-      "answer": "sea",
+      "prompt": "Conozco a un amigo ___ habla árabe.",
+      "answer": "que",
       "acceptedAnswers": [
-        "sea"
+        "que"
       ],
-      "translation": "I do not think it is true",
-      "note": "Doubt takes the subjunctive."
+      "translation": "I know a friend who speaks Arabic",
+      "note": "Que can be used for people too."
     },
     {
       "id": "es/b1/u13/drill/4",
       "type": "type_in",
-      "prompt": "Cuando ___, te llamo.",
-      "answer": "llegue",
+      "prompt": "El hombre ___ coche es rojo.",
+      "answer": "cuyo",
       "acceptedAnswers": [
-        "llegue"
+        "cuyo"
       ],
-      "translation": "when I arrive, I will call you",
-      "note": "Cuando takes the subjunctive."
+      "translation": "the man whose car is red",
+      "note": "Cuyo means whose."
     },
     {
       "id": "es/b1/u13/drill/5",
       "type": "type_in",
-      "prompt": "Es posible que ___ tiempo.",
-      "answer": "tenga",
+      "prompt": "La chica ___ está al lado es Ana.",
+      "answer": "que",
       "acceptedAnswers": [
-        "tenga"
+        "que"
       ],
-      "translation": "it is possible that I have time",
-      "note": "Es posible que takes the subjunctive, and tenga is irregular."
+      "translation": "the girl who is next door is Ana",
+      "note": "The verb goes at the end of the clause."
     }
   ]
 }

@@ -1,0 +1,186 @@
+{
+  "unit": 16,
+  "title": "Giving orders",
+  "description": "Tell someone what to do, politely or not.",
+  "grammar": "el imperativo, the command",
+  "grammarNote": "For tú you use the opposite of the yo form: habla, come, escribe. For usted it adds an r: hable, coma, escriba.",
+  "explanation": {
+    "summary": "Spanish has two ways to give an order. The tú form is the one you use with friends, and it is built from the yo form with the endings swapped. The usted form is polite, and it adds an r to the yo form.",
+    "sections": [
+      {
+        "heading": "Tú: swap the endings",
+        "body": "Take the yo form and give it the endings of tú: yo hablo, tú habla. Yo como, tú come. Yo escribo, tú escribe. There are eight verbs that break the rule: the eight irregular verbs in the present, which you already met. venir becomes ven, decir becomes di, and the three with a y change it to the opposite vowel: tengo becomes ten, venir becomes ven.",
+        "examples": [
+          {
+            "es": "Habla más despacio.",
+            "en": "Speak more slowly."
+          },
+          {
+            "es": "Abre la ventana.",
+            "en": "Open the window."
+          },
+          {
+            "es": "Ven aquí.",
+            "en": "Come here."
+          }
+        ]
+      },
+      {
+        "heading": "Usted: add an r",
+        "body": "The usted form adds an r to the yo form: yo hablo becomes hable, yo como becomes coma, yo escribo becomes escriba. It is polite, and it is what you use with anyone you should respect.",
+        "examples": [
+          {
+            "es": "Hable más despacio, por favor.",
+            "en": "Speak more slowly, please."
+          },
+          {
+            "es": "Escriba su nombre aquí.",
+            "en": "Write your name here."
+          },
+          {
+            "es": "Pase.",
+            "en": "Come in."
+          }
+        ]
+      },
+      {
+        "heading": "Saying no",
+        "body": "The negative command is no followed by the command: no hables, no vengas, no sea. And the command for usted is often softened with the word por favor, which is not required but never rude.",
+        "examples": [
+          {
+            "es": "No te preocupes.",
+            "en": "Do not worry."
+          },
+          {
+            "es": "No sea tarde.",
+            "en": "Do not be late."
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "es": "habla",
+      "en": "speak",
+      "article": null,
+      "note": "The tú command of hablar. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "come",
+      "en": "eat",
+      "article": null,
+      "note": "The tú command of comer. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "escribe",
+      "en": "write",
+      "article": null,
+      "note": "The tú command of escribir. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "lee",
+      "en": "read",
+      "article": null,
+      "note": "The tú command of leer. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "abre",
+      "en": "open",
+      "article": null,
+      "note": "The tú command of abrir. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "escucha",
+      "en": "listen",
+      "article": null,
+      "note": "The tú command of escuchar. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "mira",
+      "en": "watch",
+      "article": null,
+      "note": "The tú command of mirar. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "trabaja",
+      "en": "work",
+      "article": null,
+      "note": "The tú command of trabajar. It is the opposite of the yo form.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "ven",
+      "en": "come",
+      "article": null,
+      "note": "The tú command of venir. It is irregular.",
+      "tags": [
+        "command"
+      ]
+    },
+    {
+      "es": "ten",
+      "en": "have",
+      "article": null,
+      "note": "The tú command of tener. It is irregular.",
+      "tags": [
+        "command"
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "prompt": "___ más despacio, por favor.",
+      "answer": "Hable",
+      "meaning": "speak more slowly, please",
+      "note": "The usted command adds an r to the yo form."
+    },
+    {
+      "prompt": "___ la ventana, por favor.",
+      "answer": "Abra",
+      "meaning": "open the window, please",
+      "note": "Abra is the usted command of abrir."
+    },
+    {
+      "prompt": "No ___ preocupa.",
+      "answer": "te",
+      "meaning": "do not worry",
+      "note": "No followed by the command."
+    },
+    {
+      "prompt": "___ aquí, por favor.",
+      "answer": "Venga",
+      "meaning": "come here, please",
+      "note": "The usted command of venir."
+    },
+    {
+      "prompt": "___ su nombre aquí.",
+      "answer": "Escriba",
+      "meaning": "write your name here",
+      "note": "Escriba is the usted command of escribir."
+    }
+  ]
+}

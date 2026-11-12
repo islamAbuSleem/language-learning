@@ -1,41 +1,59 @@
 {
   "unit": 11,
-  "title": "Giving things to people",
-  "description": "Say who you give something to, and who you take it from.",
-  "grammar": "indirect object pronouns",
-  "grammarNote": "The indirect object comes before the verb: le doy el libro. It answers a quién.",
+  "title": "What you hope, and what you doubt",
+  "description": "Say what might happen, and what you are not sure about.",
+  "grammar": "the present subjunctive",
+  "grammarNote": "The present subjunctive is the opposite of the yo form: hable, coma, viva.",
   "explanation": {
-    "summary": "Some verbs give something to someone: dar, entregar, enviar, enseñar, traer. The person is an indirect object, and it comes before the verb, with a pronoun for it: le doy el libro, a ella le doy el libro.",
+    "summary": "Spanish has a mood for things that are not certain: what you hope for, what you doubt, what you want someone to do. It is called the subjunctive, and it is built by taking the yo form and swapping the ending.",
     "sections": [
       {
-        "heading": "The eight pronouns",
-        "body": "Me, te, se, nos, os, les. They replace the person, and they go before the verb. Se is used when the person is not named, or when it is third person and you do not want to say who: se lo doy. The form le and les are used for a male and a female person, so there is no distinction in the pronoun itself.",
+        "heading": "How the forms are built",
+        "body": "Take the yo form of the present and give it the endings of tú: yo hablo becomes hable, yo como becomes coma, yo vivo becomes viva. The endings are -e, -es, -e, -emos, -éis, -en. The six irregular yo forms change irregularly too: tengo becomes tenga, vengo becomes venga, hago becomes haga, pongo becomes ponga, digo becomes diga, sé becomes sea.",
         "examples": [
           {
-            "es": "Le doy el libro.",
-            "en": "I give him the book."
+            "es": "Quiero que vengas.",
+            "en": "I want you to come."
           },
           {
-            "es": "Nos trajeron la comida.",
-            "en": "They brought us the food."
+            "es": "Espero que llueva.",
+            "en": "I hope it rains."
           },
           {
-            "es": "¿Me lo puedes dar?",
-            "en": "Can you give it to me?"
+            "es": "No creo que sea verdad.",
+            "en": "I do not think it is true."
           }
         ]
       },
       {
-        "heading": "With dar, it can also mean to take away",
-        "body": "Dar has a second use: quitar. Darle a alguien un paseo means to take someone for a walk. This is the one place where the indirect object can come after the verb, because the whole phrase is a set expression.",
+        "heading": "The three triggers",
+        "body": "The subjunctive appears after: expressions of will or feeling (quiero que, espero que, me alegro de que), expressions of doubt (no creo que, dudo que, es posible que), and after certain conjunctions (cuando, aunque, para que, porque, antes de que). After these the verb is in the subjunctive even when the subject is the same person: quiero que vengas, even though you are the one speaking.",
         "examples": [
           {
-            "es": "Darle a Pedro un paseo por el parque.",
-            "en": "To take Pedro for a walk in the park."
+            "es": "Cuando llegue, te llamo.",
+            "en": "When I arrive, I will call you."
           },
           {
-            "es": "Nos dio una sorpresa.",
-            "en": "He gave us a surprise."
+            "es": "Aunque sea difícil, lo hago.",
+            "en": "Even if it is difficult, I will do it."
+          },
+          {
+            "es": "Te lo digo para que lo sepas.",
+            "en": "I am telling you so that you know."
+          }
+        ]
+      },
+      {
+        "heading": "The same tense, the same word",
+        "body": "The present indicative and the present subjunctive have the same endings except for the yo form. That is why the yo form is the one that matters: hablo against hable. Learn the six irregular ones and the rest follows.",
+        "examples": [
+          {
+            "es": "Hablo español todos los días.",
+            "en": "I speak Spanish every day."
+          },
+          {
+            "es": "Espero que hables español.",
+            "en": "I hope you speak Spanish."
           }
         ]
       }
@@ -43,126 +61,126 @@
   },
   "items": [
     {
-      "es": "me",
-      "en": "me",
+      "es": "hable",
+      "en": "speak",
       "article": null,
-      "note": "To me. It goes before the verb: me lo das.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "te",
-      "en": "you",
-      "article": null,
-      "note": "To you. It goes before the verb: te lo doy.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "se",
-      "en": "him",
-      "article": null,
-      "note": "To him, her or them, when the person is not named.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "nos",
-      "en": "us",
-      "article": null,
-      "note": "To us. It goes before the verb: nos lo das.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "les",
-      "en": "them",
-      "article": null,
-      "note": "To them. It is used for a male or a female person.",
-      "tags": [
-        "pronoun"
-      ]
-    },
-    {
-      "es": "entregar",
-      "en": "to hand over",
-      "article": null,
-      "note": "An infinitive ending in -ar: entrego, entregas, entrega.",
+      "note": "The subjunctive of hablar. It is the opposite of the yo form.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "enviar",
-      "en": "to send",
+      "es": "coma",
+      "en": "eat",
       "article": null,
-      "note": "An infinitive ending in -ar: envío, envías, envía. The yo form drops the e.",
+      "note": "The subjunctive of comer. It is the opposite of the yo form.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "traer",
-      "en": "to bring",
+      "es": "viva",
+      "en": "live",
       "article": null,
-      "note": "An infinitive: traigo, traes, trae. The yo form is irregular.",
+      "note": "The subjunctive of vivir. It is the opposite of the yo form.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "regalo",
-      "en": "gift",
-      "article": "el",
-      "note": "Masculine: el regalo. It also means to give.",
+      "es": "trabaje",
+      "en": "work",
+      "article": null,
+      "note": "The subjunctive of trabajar.",
       "tags": [
-        "object"
+        "verb"
       ]
     },
     {
-      "es": "sorpresa",
-      "en": "surprise",
-      "article": "la",
-      "note": "Feminine: la sorpresa.",
+      "es": "estudie",
+      "en": "study",
+      "article": null,
+      "note": "The subjunctive of estudiar.",
       "tags": [
-        "object"
+        "verb"
+      ]
+    },
+    {
+      "es": "venga",
+      "en": "come",
+      "article": null,
+      "note": "The subjunctive of venir. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "tenga",
+      "en": "have",
+      "article": null,
+      "note": "The subjunctive of tener. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "haga",
+      "en": "do",
+      "article": null,
+      "note": "The subjunctive of hacer. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "sea",
+      "en": "be",
+      "article": null,
+      "note": "The subjunctive of ser. It is irregular.",
+      "tags": [
+        "verb"
+      ]
+    },
+    {
+      "es": "diga",
+      "en": "say",
+      "article": null,
+      "note": "The subjunctive of decir. It is irregular.",
+      "tags": [
+        "verb"
       ]
     }
   ],
   "drills": [
     {
-      "prompt": "___ doy el libro.",
-      "answer": "Le",
-      "meaning": "I give him the book",
-      "note": "The indirect object comes before the verb."
+      "prompt": "Quiero que ___.",
+      "answer": "vengas",
+      "meaning": "I want you to come",
+      "note": "Quiero que takes the subjunctive."
     },
     {
-      "prompt": "___ trajeron la comida.",
-      "answer": "Nos",
-      "meaning": "they brought us the food",
-      "note": "Nos is the indirect object."
+      "prompt": "Espero que ___ español.",
+      "answer": "hables",
+      "meaning": "I hope you speak Spanish",
+      "note": "The subjunctive is the opposite of the yo form."
     },
     {
-      "prompt": "¿___ lo puedes dar?",
-      "answer": "Me",
-      "meaning": "can you give it to me?",
-      "note": "Me comes before the verb."
+      "prompt": "No creo que ___ verdad.",
+      "answer": "sea",
+      "meaning": "I do not think it is true",
+      "note": "Doubt takes the subjunctive."
     },
     {
-      "prompt": "___ dio una sorpresa.",
-      "answer": "Nos",
-      "meaning": "he gave us a surprise",
-      "note": "Nos before dio."
+      "prompt": "Cuando ___, te llamo.",
+      "answer": "llegue",
+      "meaning": "when I arrive, I will call you",
+      "note": "Cuando takes the subjunctive."
     },
     {
-      "prompt": "___ envié el paquete.",
-      "answer": "Te",
-      "meaning": "I sent you the parcel",
-      "note": "Te is the indirect object."
+      "prompt": "Es posible que ___ tiempo.",
+      "answer": "tenga",
+      "meaning": "it is possible that I have time",
+      "note": "Es posible que takes the subjunctive, and tenga is irregular."
     }
   ]
 }

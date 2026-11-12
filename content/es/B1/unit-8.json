@@ -2,62 +2,62 @@
   "track": "es",
   "level": "B1",
   "unit": 8,
-  "title": "Yesterday",
-  "description": "Say what you did, and who you did it with.",
+  "title": "Bigger, better, different",
+  "description": "Compare things, and say what should happen.",
   "explanation": {
-    "summary": "The preterite is the tense for something that happened and is finished. With -ar verbs it is almost entirely regular, and the one irregular part is the yo form.",
+    "summary": "Comparing two things uses más, menos, mejor and peor. Saying which one is the biggest of a set uses the superlative, and the most useful form is the short one: más grande, not el más grande.",
     "sections": [
       {
-        "heading": "The endings",
-        "body": "The -ar preterite has its own set of endings: -é, -aste, -ó, -amos, -asteis, -aron. They are not the same as the present endings, which is why the tense is easy to spot. Hablar becomes hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+        "heading": "Two things",
+        "body": "For the adjectives that can take it, the comparison is más or menos plus the adjective: más grande, menos caro. For a small set of adjectives the comparative has its own word: mejor, peor, más, menos. And the comparison uses than, which is que: es más grande que el mío.",
         "examples": [
           {
-            "es": "Ayer hablé con mi madre.",
-            "en": "Yesterday I spoke to my mother."
+            "es": "Esta casa es más grande que la otra.",
+            "en": "This house is bigger than the other one."
           },
           {
-            "es": "Estudiaste toda la tarde.",
-            "en": "You studied all afternoon."
+            "es": "Este café es mejor que aquel.",
+            "en": "This coffee is better than that one."
           },
           {
-            "es": "Llegaron tarde.",
-            "en": "They arrived late."
+            "es": "Es más barato de lo que parece.",
+            "en": "It is cheaper than it looks."
           }
         ]
       },
       {
-        "heading": "The yo form",
-        "body": "The yo form takes an accent, and for most verbs it is the infinitive with the final vowel changed to é. But some verbs change their stem instead: tener becomes tuve, estar became estuviste, poder became pude, hacer became hice, ir and ser became fui, and estar and tener also have irregular third person forms: estuvo, tuvo.",
+        "heading": "The most of a set",
+        "body": "To say which one is the biggest of a group, you do not need an article: el más grande becomes simply más grande. The word for the group goes after: el más grande de los libros. The intensifier -ísimo is another way to say it, and it is stronger: grandísimo, the very biggest.",
         "examples": [
           {
-            "es": "Tuve una idea.",
-            "en": "I had an idea."
+            "es": "Es el más grande de los almacenes.",
+            "en": "It is the biggest of the storerooms."
           },
           {
-            "es": "Hice la cena.",
-            "en": "I made dinner."
+            "es": "Es el más grande de la clase.",
+            "en": "It is the biggest in the class."
           },
           {
-            "es": "Estuve en casa.",
-            "en": "I was at home."
+            "es": "Es grandísimo.",
+            "en": "It is enormous."
           }
         ]
       },
       {
-        "heading": "When you use it",
-        "body": "The preterite belongs to a finished period: ayer, la semana pasada, en 2020, hace dos años. It is also what you use when something interrupts another past action: dormía cuando sonó el teléfono, I was sleeping when the phone rang. The phone rang is the interruption, so it takes the preterite.",
+        "heading": "Equal, and not equal",
+        "body": "Equality uses tan plus an adjective plus como: es tan alto como tú. Inequality can also be expressed with como with tan: no es tan alto como tú. And an equal comparison of two nouns uses igual de: es igual de grande.",
         "examples": [
           {
-            "es": "El año pasado viajé mucho.",
-            "en": "Last year I travelled a lot."
+            "es": "Es tan alto como tú.",
+            "en": "He is as tall as you."
           },
           {
-            "es": "Dormía cuando sonó el teléfono.",
-            "en": "I was sleeping when the phone rang."
+            "es": "No es tan caro como el otro.",
+            "en": "It is not as expensive as the other one."
           },
           {
-            "es": "Comí a las dos.",
-            "en": "I ate at two."
+            "es": "Es igual de grande.",
+            "en": "It is equally big."
           }
         ]
       }
@@ -65,157 +65,157 @@
   },
   "exercises": [
     {
-      "id": "es/b1/u8/match/hablo",
+      "id": "es/b1/u8/match/mas",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "he spoke",
-          "right": "habló"
+          "left": "more",
+          "right": "más"
         },
         {
-          "left": "he ate",
-          "right": "comió"
+          "left": "less",
+          "right": "menos"
         },
         {
-          "left": "he wrote",
-          "right": "escribió"
+          "left": "better",
+          "right": "mejor"
         },
         {
-          "left": "he lived",
-          "right": "vivió"
+          "left": "worse",
+          "right": "peor"
         },
         {
-          "left": "family",
-          "right": "la familia"
+          "left": "higher",
+          "right": "superior"
         }
       ],
-      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
     },
     {
-      "id": "es/b1/u8/select/hablo",
+      "id": "es/b1/u8/select/mas",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he spoke”.",
+      "prompt": "Pick the Spanish word for “more”.",
       "options": [
-        "volver",
-        "salir",
-        "venir",
-        "habló"
+        "inferior",
+        "menos",
+        "superior",
+        "más"
       ],
-      "answer": "habló",
-      "translation": "he spoke",
-      "note": "The preterite of hablar. The yo form is hablé."
+      "answer": "más",
+      "translation": "more",
+      "note": "More. It also means most. It takes an accent in a question."
     },
     {
       "id": "es/b1/u8/drill/1",
       "type": "type_in",
-      "prompt": "Ayer ___ con mi madre.",
-      "answer": "hablé",
+      "prompt": "Esta casa es ___ grande que la otra.",
+      "answer": "más",
       "acceptedAnswers": [
-        "hable"
+        "mas"
       ],
-      "translation": "yesterday I spoke to my mother",
-      "note": "The yo form takes an accent."
+      "translation": "this house is bigger than the other one",
+      "note": "Más plus the adjective, then que."
     },
     {
-      "id": "es/b1/u8/match/primo",
+      "id": "es/b1/u8/match/inferior",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "cousin",
-          "right": "el primo"
+          "left": "lower",
+          "right": "inferior"
         },
         {
-          "left": "neighbour",
-          "right": "el vecino"
+          "left": "main",
+          "right": "principal"
         },
         {
-          "left": "boss",
-          "right": "el jefe"
+          "left": "special",
+          "right": "especial"
         },
         {
-          "left": "winter",
-          "right": "el invierno"
+          "left": "strong",
+          "right": "fuerte"
         },
         {
-          "left": "summer",
-          "right": "el verano"
+          "left": "soft",
+          "right": "suave"
         }
       ],
-      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+      "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
     },
     {
-      "id": "es/b1/u8/select/comio",
+      "id": "es/b1/u8/select/menos",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he ate”.",
+      "prompt": "Pick the Spanish word for “less”.",
       "options": [
-        "comió",
-        "hacer",
-        "saber",
-        "hay"
+        "menos",
+        "peor",
+        "superior",
+        "mejor"
       ],
-      "answer": "comió",
-      "translation": "he ate",
-      "note": "The preterite of comer. The yo form is comí."
+      "answer": "menos",
+      "translation": "less",
+      "note": "Less. It also means fewest."
     },
     {
       "id": "es/b1/u8/drill/2",
       "type": "type_in",
-      "prompt": "___ una idea.",
-      "answer": "Tuve",
+      "prompt": "Es ___ grande de la clase.",
+      "answer": "el más",
       "acceptedAnswers": [
-        "Tuve"
+        "el mas"
       ],
-      "translation": "I had an idea",
-      "note": "Tener is irregular in the preterite."
+      "translation": "it is the biggest in the class",
+      "note": "The superlative of the group."
     },
     {
-      "id": "es/b1/u8/select/escribio",
+      "id": "es/b1/u8/select/mejor",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he wrote”.",
+      "prompt": "Pick the Spanish word for “better”.",
       "options": [
-        "habló",
-        "comió",
-        "acabar",
-        "escribió"
+        "peor",
+        "superior",
+        "menos",
+        "mejor"
       ],
-      "answer": "escribió",
-      "translation": "he wrote",
-      "note": "The preterite of escribir. The yo form is escribí."
+      "answer": "mejor",
+      "translation": "better",
+      "note": "Better. It has no comparative form: es mejor, es el mejor."
     },
     {
       "id": "es/b1/u8/drill/3",
       "type": "type_in",
-      "prompt": "___ la cena.",
-      "answer": "Hice",
+      "prompt": "Este café es ___ que aquel.",
+      "answer": "mejor",
       "acceptedAnswers": [
-        "Hice"
+        "mejor"
       ],
-      "translation": "I made dinner",
-      "note": "Hacer is irregular in the preterite."
+      "translation": "this coffee is better than that one",
+      "note": "Mejor has no comparative form."
     },
     {
       "id": "es/b1/u8/drill/4",
       "type": "type_in",
-      "prompt": "Dormía cuando ___ el teléfono.",
-      "answer": "sonó",
+      "prompt": "Es ___ alto como tú.",
+      "answer": "tan",
       "acceptedAnswers": [
-        "sono"
+        "tan"
       ],
-      "translation": "I was sleeping when the phone rang",
-      "note": "The interruption takes the preterite."
+      "translation": "he is as tall as you",
+      "note": "Equality uses tan and como."
     },
     {
       "id": "es/b1/u8/drill/5",
       "type": "type_in",
-      "prompt": "Ellos ___ tarde.",
-      "answer": "llegaron",
+      "prompt": "No es ___ caro como el otro.",
+      "answer": "tan",
       "acceptedAnswers": [
-        "llegaron"
+        "tan"
       ],
-      "translation": "they arrived late",
-      "note": "The ellos form of llegar in the preterite."
+      "translation": "it is not as expensive as the other one",
+      "note": "Inequality also uses tan plus como."
     }
   ]
 }

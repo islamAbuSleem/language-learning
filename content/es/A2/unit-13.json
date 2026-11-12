@@ -2,176 +2,112 @@
   "track": "es",
   "level": "A2",
   "unit": 13,
-  "title": "What you used to do",
-  "description": "Describe the past, the way it really was.",
+  "title": "Yesterday",
+  "description": "Say what you did, and who you did it with.",
   "explanation": {
-    "summary": "Spanish has two past tenses and the difference is about the camera, not the clock. The preterite says something happened at a moment. The imperfect says how things were, or what used to happen.",
+    "summary": "The preterite is the tense for something that happened and is finished. With -ar verbs it is almost entirely regular, and the one irregular part is the yo form.",
     "sections": [
       {
-        "heading": "The two pasts",
-        "body": "The preterite is for a completed event: Ayer hablé con mi madre. The imperfect is for a background: De niño Jugaba en el parque. When a past event is interrupted by another past event, the interrupted one is imperfect: Leía cuando llamó. When one past event interrupts another, the interrupting one is preterite: Leía cuando llamó — the call is the interruption.",
+        "heading": "The endings",
+        "body": "The -ar preterite has its own set of endings: -é, -aste, -ó, -amos, -asteis, -aron. They are not the same as the present endings, which is why the tense is easy to spot. Hablar becomes hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
         "examples": [
           {
             "es": "Ayer hablé con mi madre.",
             "en": "Yesterday I spoke to my mother."
           },
           {
-            "es": "De niño jugaba en el parque.",
-            "en": "As a child I used to play in the park."
+            "es": "Estudiaste toda la tarde.",
+            "en": "You studied all afternoon."
+          },
+          {
+            "es": "Llegaron tarde.",
+            "en": "They arrived late."
+          }
+        ]
+      },
+      {
+        "heading": "The yo form",
+        "body": "The yo form takes an accent, and for most verbs it is the infinitive with the final vowel changed to é. But some verbs change their stem instead: tener becomes tuve, estar became estuviste, poder became pude, hacer became hice, ir and ser became fui, and estar and tener also have irregular third person forms: estuvo, tuvo.",
+        "examples": [
+          {
+            "es": "Tuve una idea.",
+            "en": "I had an idea."
+          },
+          {
+            "es": "Hice la cena.",
+            "en": "I made dinner."
+          },
+          {
+            "es": "Estuve en casa.",
+            "en": "I was at home."
+          }
+        ]
+      },
+      {
+        "heading": "When you use it",
+        "body": "The preterite belongs to a finished period: ayer, la semana pasada, en 2020, hace dos años. It is also what you use when something interrupts another past action: dormía cuando sonó el teléfono, I was sleeping when the phone rang. The phone rang is the interruption, so it takes the preterite.",
+        "examples": [
+          {
+            "es": "El año pasado viajé mucho.",
+            "en": "Last year I travelled a lot."
           },
           {
             "es": "Dormía cuando sonó el teléfono.",
             "en": "I was sleeping when the phone rang."
-          }
-        ]
-      },
-      {
-        "heading": "How the forms are built",
-        "body": "For -ar verbs the imperfect ends in -aba: hablar, hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban. For -er and -ir verbs it ends in -ía: comer, comía, comías, comía, comíamos, comíais, comían. There are only three irregular verbs in the imperfect: ser was era, ir went iba, and ver saw veía.",
-        "examples": [
-          {
-            "es": "Hablaba español todos los días.",
-            "en": "I spoke Spanish every day."
           },
           {
-            "es": "Comía en casa.",
-            "en": "I ate at home."
-          },
-          {
-            "es": "Era muy pequeño.",
-            "en": "He was very small."
+            "es": "Comí a las dos.",
+            "en": "I ate at two."
           }
         ]
-      },
-      {
-        "heading": "The one-liner",
-        "body": "The imperfect is for things you cannot put a time on: how things were, what you used to do, what you were doing. The preterite is for things that happened."
       }
     ]
   },
   "exercises": [
     {
-      "id": "es/a2/u13/match/hablaba",
+      "id": "es/a2/u13/match/hablo",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "I spoke",
-          "right": "hablaba"
+          "left": "he spoke",
+          "right": "habló"
         },
         {
-          "left": "I ate",
-          "right": "comía"
+          "left": "he ate",
+          "right": "comió"
         },
         {
-          "left": "I lived",
-          "right": "vivía"
+          "left": "he wrote",
+          "right": "escribió"
         },
         {
-          "left": "I worked",
-          "right": "trabajaba"
+          "left": "he lived",
+          "right": "vivió"
         },
         {
-          "left": "I studied",
-          "right": "estudiaba"
+          "left": "family",
+          "right": "la familia"
         }
       ],
-      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
+      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
     },
     {
-      "id": "es/a2/u13/select/hablaba",
+      "id": "es/a2/u13/select/hablo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I spoke”.",
+      "prompt": "Pick the Spanish word for “he spoke”.",
       "options": [
-        "abrir",
-        "descubrir",
-        "compartir",
-        "hablaba"
+        "vivió",
+        "ser",
+        "llegar",
+        "habló"
       ],
-      "answer": "hablaba",
-      "translation": "I spoke",
-      "note": "The imperfect of hablar. It describes how things were."
+      "answer": "habló",
+      "translation": "he spoke",
+      "note": "The preterite of hablar. The yo form is hablé."
     },
     {
       "id": "es/a2/u13/drill/1",
-      "type": "type_in",
-      "prompt": "De niño ___ en el parque.",
-      "answer": "jugaba",
-      "acceptedAnswers": [
-        "jugaba"
-      ],
-      "translation": "as a child I used to play in the park",
-      "note": "The imperfect for what you used to do."
-    },
-    {
-      "id": "es/a2/u13/match/miraba",
-      "type": "match",
-      "prompt": "Pair each word with its translation.",
-      "pairs": [
-        {
-          "left": "I watched",
-          "right": "miraba"
-        },
-        {
-          "left": "I looked for",
-          "right": "buscaba"
-        },
-        {
-          "left": "I walked",
-          "right": "caminaba"
-        },
-        {
-          "left": "I played",
-          "right": "jugaba"
-        },
-        {
-          "left": "he was",
-          "right": "era"
-        }
-      ],
-      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
-    },
-    {
-      "id": "es/a2/u13/select/comia",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I ate”.",
-      "options": [
-        "jugaba",
-        "era",
-        "comía",
-        "caminaba"
-      ],
-      "answer": "comía",
-      "translation": "I ate",
-      "note": "The imperfect of comer. It describes how things were."
-    },
-    {
-      "id": "es/a2/u13/drill/2",
-      "type": "type_in",
-      "prompt": "Mientras yo ___ , sonó el teléfono.",
-      "answer": "dormía",
-      "acceptedAnswers": [
-        "dormia"
-      ],
-      "translation": "while I was sleeping, the phone rang",
-      "note": "The interrupted past is imperfect."
-    },
-    {
-      "id": "es/a2/u13/select/vivia",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I lived”.",
-      "options": [
-        "hay",
-        "saber",
-        "hacer",
-        "vivía"
-      ],
-      "answer": "vivía",
-      "translation": "I lived",
-      "note": "The imperfect of vivir. It describes how things were."
-    },
-    {
-      "id": "es/a2/u13/drill/3",
       "type": "type_in",
       "prompt": "Ayer ___ con mi madre.",
       "answer": "hablé",
@@ -179,29 +115,107 @@
         "hable"
       ],
       "translation": "yesterday I spoke to my mother",
-      "note": "A completed event takes the preterite."
+      "note": "The yo form takes an accent."
+    },
+    {
+      "id": "es/a2/u13/match/primo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "cousin",
+          "right": "el primo"
+        },
+        {
+          "left": "neighbour",
+          "right": "el vecino"
+        },
+        {
+          "left": "boss",
+          "right": "el jefe"
+        },
+        {
+          "left": "winter",
+          "right": "el invierno"
+        },
+        {
+          "left": "summer",
+          "right": "el verano"
+        }
+      ],
+      "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+    },
+    {
+      "id": "es/a2/u13/select/comio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he ate”.",
+      "options": [
+        "hablaré",
+        "comeré",
+        "comió",
+        "importar"
+      ],
+      "answer": "comió",
+      "translation": "he ate",
+      "note": "The preterite of comer. The yo form is comí."
+    },
+    {
+      "id": "es/a2/u13/drill/2",
+      "type": "type_in",
+      "prompt": "___ una idea.",
+      "answer": "Tuve",
+      "acceptedAnswers": [
+        "Tuve"
+      ],
+      "translation": "I had an idea",
+      "note": "Tener is irregular in the preterite."
+    },
+    {
+      "id": "es/a2/u13/select/escribio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “he wrote”.",
+      "options": [
+        "querré",
+        "comió",
+        "habló",
+        "escribió"
+      ],
+      "answer": "escribió",
+      "translation": "he wrote",
+      "note": "The preterite of escribir. The yo form is escribí."
+    },
+    {
+      "id": "es/a2/u13/drill/3",
+      "type": "type_in",
+      "prompt": "___ la cena.",
+      "answer": "Hice",
+      "acceptedAnswers": [
+        "Hice"
+      ],
+      "translation": "I made dinner",
+      "note": "Hacer is irregular in the preterite."
     },
     {
       "id": "es/a2/u13/drill/4",
       "type": "type_in",
-      "prompt": "Cuando era niño, ___ en casa.",
-      "answer": "vivía",
+      "prompt": "Dormía cuando ___ el teléfono.",
+      "answer": "sonó",
       "acceptedAnswers": [
-        "vivia"
+        "sono"
       ],
-      "translation": "when I was a child, I lived at home",
-      "note": "The imperfect for how things were."
+      "translation": "I was sleeping when the phone rang",
+      "note": "The interruption takes the preterite."
     },
     {
       "id": "es/a2/u13/drill/5",
       "type": "type_in",
-      "prompt": "Él ___ muy alto.",
-      "answer": "era",
+      "prompt": "Ellos ___ tarde.",
+      "answer": "llegaron",
       "acceptedAnswers": [
-        "era"
+        "llegaron"
       ],
-      "translation": "he was very tall",
-      "note": "Era is the imperfect of ser."
+      "translation": "they arrived late",
+      "note": "The ellos form of llegar in the preterite."
     }
   ]
 }

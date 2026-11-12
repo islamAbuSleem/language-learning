@@ -1,63 +1,59 @@
 {
   "unit": 12,
-  "title": "If it happens",
-  "description": "Talk about what will happen, and what would happen.",
-  "grammar": "the future and the conditional",
-  "grammarNote": "The conditional ends in -ía: hablaría, comería, viviría. It is the same ending as the imperfect of the -er verbs.",
+  "title": "What they said",
+  "description": "Report what someone else said.",
+  "grammar": "reported speech",
+  "grammarNote": "When you report a question, you use que and the order of the words does not change: no sé qué dijo.",
   "explanation": {
-    "summary": "Spanish has a conditional that English does not: the word would in a sentence like I would go is a real verb form in Spanish, hablaría. It is used for what would happen, and it is the polite way to say what you think should happen.",
+    "summary": "Reporting what someone said in Spanish is mostly a matter of moving the words around. A statement becomes dijo que plus the same sentence with the person changed. A question becomes dijo que plus the same question with the question word in front.",
     "sections": [
       {
-        "heading": "The conditional",
-        "body": "The endings are -ía, -ías, -ía, -íamos, -íais, -ían. For -ar verbs they look like the imperfect of -er verbs: hablar, hablaría, hablarías, hablaría. For -er and -ir verbs they look the same: comer, comería; vivir, viviría. Ir is irregular: iría.",
+        "heading": "Reporting a statement",
+        "body": "You use dijo, dice, and the verb after que goes back one step in time. Me dijo que venía means he told me he was coming. If the person speaking is the same as the subject of the reported verb, the verb stays as it is: dijo que viene. The person is usually replaced by a pronoun: dijo, me dijo, nos dijo.",
         "examples": [
           {
-            "es": "Yo iría a tu casa.",
-            "en": "I would go to your house."
+            "es": "Me dijo que venía.",
+            "en": "He told me he was coming."
           },
           {
-            "es": "¿Comerías conmigo?",
-            "en": "Would you eat with me?"
+            "es": "Dijo que no podía.",
+            "en": "She said she could not."
           },
           {
-            "es": "Viviría en el campo.",
-            "en": "I would live in the countryside."
+            "es": "Nos dijo que ya había llegado.",
+            "en": "He told us he had already arrived."
           }
         ]
       },
       {
-        "heading": "If, then",
-        "body": "Spanish uses si for if and no then, but the word order changes: the conditional comes first and si comes after it. Si tuviera tiempo, viajaría. If you put si first, as in English, it is wrong.",
+        "heading": "Reporting a question",
+        "body": "There is no word for that in Spanish. You use the same verb of saying and then que, and the question word stays in front: preguntó que dónde estaba. If the question word is a subject, it becomes a subject too: preguntó que quién era.",
         "examples": [
           {
-            "es": "Si tuviera tiempo, viajaría.",
-            "en": "If I had time, I would travel."
+            "es": "Preguntó que dónde vivía.",
+            "en": "He asked where I lived."
           },
           {
-            "es": "Si hace buen tiempo, iremos a la playa.",
-            "en": "If the weather is good, we will go to the beach."
+            "es": "Le pregunté que cuándo llegaba.",
+            "en": "I asked him when he was arriving."
           },
           {
-            "es": "Si no llueve, saldremos.",
-            "en": "If it does not rain, we will go out."
+            "es": "Preguntó que quién era.",
+            "en": "He asked who it was."
           }
         ]
       },
       {
-        "heading": "What you think should happen",
-        "body": "The conditional is also how you advise: deberías descansar. You should rest. Deberías comes from deber, which means to owe or must, so the idea is you owe yourself a rest.",
+        "heading": "The times move too",
+        "body": "The time words move with the verb: hoy becomes ayer, mañana becomes al día siguiente, ahora becomes entonces. And the mood can change: a question can become a statement in the report.",
         "examples": [
           {
-            "es": "Deberías dormir más.",
-            "en": "You should sleep more."
+            "es": "Dijo que vendría mañana.",
+            "en": "He said he would come tomorrow."
           },
           {
-            "es": "No deberías fumar.",
-            "en": "You should not smoke."
-          },
-          {
-            "es": "Deberíamos irnos.",
-            "en": "We should go."
+            "es": "Me dijo que ayer había llegado.",
+            "en": "He told me he had arrived the day before."
           }
         ]
       }
@@ -65,91 +61,91 @@
   },
   "items": [
     {
-      "es": "hablaría",
-      "en": "I would speak",
+      "es": "dijo",
+      "en": "he said",
       "article": null,
-      "note": "The conditional of hablar.",
+      "note": "The preterite of decir. It is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "comería",
-      "en": "I would eat",
+      "es": "dice",
+      "en": "he says",
       "article": null,
-      "note": "The conditional of comer.",
+      "note": "The present of decir. It is irregular.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "viviría",
-      "en": "I would live",
+      "es": "preguntó",
+      "en": "he asked",
       "article": null,
-      "note": "The conditional of vivir.",
+      "note": "The preterite of preguntar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "trabajaría",
-      "en": "I would work",
+      "es": "cuenta",
+      "en": "he tells",
       "article": null,
-      "note": "The conditional of trabajar.",
+      "note": "The present of contar. It is irregular in the yo form: cuento.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "estudiaría",
-      "en": "I would study",
+      "es": "explicó",
+      "en": "he explained",
       "article": null,
-      "note": "The conditional of estudiar.",
+      "note": "The preterite of explicar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "vería",
-      "en": "I would see",
+      "es": "respondió",
+      "en": "he answered",
       "article": null,
-      "note": "The conditional of ver. It keeps the e of the infinitive.",
+      "note": "The preterite of responder.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "haría",
-      "en": "I would do",
+      "es": "exclamó",
+      "en": "he exclaimed",
       "article": null,
-      "note": "The conditional of hacer. It keeps the e of the infinitive.",
+      "note": "The preterite of exclamar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "podría",
-      "en": "I would be able to",
+      "es": "murmuró",
+      "en": "he muttered",
       "article": null,
-      "note": "The conditional of poder. It is also the polite word for could.",
+      "note": "The preterite of murmurar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "vendría",
-      "en": "I would come",
+      "es": "anunció",
+      "en": "he announced",
       "article": null,
-      "note": "The conditional of venir.",
+      "note": "The preterite of anunciar.",
       "tags": [
         "verb"
       ]
     },
     {
-      "es": "querría",
-      "en": "I would want to",
+      "es": "confirmó",
+      "en": "he confirmed",
       "article": null,
-      "note": "The conditional of querer.",
+      "note": "The preterite of confirmar.",
       "tags": [
         "verb"
       ]
@@ -157,34 +153,34 @@
   ],
   "drills": [
     {
-      "prompt": "___ a tu casa.",
-      "answer": "Iría",
-      "meaning": "I would go to your house",
-      "note": "Ir is irregular in the conditional."
+      "prompt": "Me ___ que venía.",
+      "answer": "dijo",
+      "meaning": "he told me he was coming",
+      "note": "Dijo que plus a verb one step back in time."
     },
     {
-      "prompt": "¿___ conmigo?",
-      "answer": "Comerías",
-      "meaning": "would you eat with me?",
-      "note": "The conditional asks politely."
+      "prompt": "___ que dónde vivía.",
+      "answer": "preguntó",
+      "meaning": "he asked where I lived",
+      "note": "A reported question uses que and keeps the question word in front."
     },
     {
-      "prompt": "Si ___ tiempo, viajaría.",
-      "answer": "tuviera",
-      "meaning": "if I had time, I would travel",
-      "note": "The condition comes first, then si."
+      "prompt": "Ella ___ que no podía.",
+      "answer": "dijo",
+      "meaning": "she said she could not",
+      "note": "Dijo que."
     },
     {
-      "prompt": "Deberías ___ más.",
-      "answer": "dormir",
-      "meaning": "you should sleep more",
-      "note": "Deberías is the conditional of deber."
+      "prompt": "Nos ___ que ya había llegado.",
+      "answer": "dijo",
+      "meaning": "he told us he had already arrived",
+      "note": "The reported verb moves back a step: había llegado."
     },
     {
-      "prompt": "No ___ fumar.",
-      "answer": "deberías",
-      "meaning": "you should not smoke",
-      "note": "Deberías comes with no in front."
+      "prompt": "Le ___ cuándo llegaba.",
+      "answer": "pregunté",
+      "meaning": "I asked him when he was arriving",
+      "note": "Pregunté que with the question word in front."
     }
   ]
 }

@@ -2,216 +2,206 @@
   "track": "es",
   "level": "A2",
   "unit": 15,
-  "title": "Already happened",
-  "description": "Say what has already happened today.",
+  "title": "What you used to do",
+  "description": "Describe the past, the way it really was.",
   "explanation": {
-    "summary": "The preterite perfect joins the preterite of haber with the participle of the main verb. It says something has happened and it still matters now, usually because it happened today.",
+    "summary": "Spanish has two past tenses and the difference is about the camera, not the clock. The preterite says something happened at a moment. The imperfect says how things were, or what used to happen.",
     "sections": [
       {
-        "heading": "How it is built",
-        "body": "He, has, ha, hemos, habéis, han, followed by the participle. The participle of -ar verbs ends in -ado: hablar, hablado. Of -er and -ir verbs it ends in -ido: comer, comido; vivir, vivido. The eight irregular verbs have irregular participles: escrito, hecho, dicho, puesto, abierto, visto, resuelto, vuelto.",
+        "heading": "The two pasts",
+        "body": "The preterite is for a completed event: Ayer hablé con mi madre. The imperfect is for a background: De niño Jugaba en el parque. When a past event is interrupted by another past event, the interrupted one is imperfect: Leía cuando llamó. When one past event interrupts another, the interrupting one is preterite: Leía cuando llamó — the call is the interruption.",
         "examples": [
           {
-            "es": "He hablado con el profesor.",
-            "en": "I have spoken to the teacher."
+            "es": "Ayer hablé con mi madre.",
+            "en": "Yesterday I spoke to my mother."
           },
           {
-            "es": "Has comido bien.",
-            "en": "You have eaten well."
+            "es": "De niño jugaba en el parque.",
+            "en": "As a child I used to play in the park."
           },
           {
-            "es": "Hemos visto la película.",
-            "en": "We have seen the film."
+            "es": "Dormía cuando sonó el teléfono.",
+            "en": "I was sleeping when the phone rang."
           }
         ]
       },
       {
-        "heading": "When to use it",
-        "body": "The perfect is for the past with a link to now: this morning, today, this week, already, yet. The preterite is for a finished time: yesterday, last year, in 2020. Spanish is stricter about this than English, which often uses the perfect for things with a finished time too.",
+        "heading": "How the forms are built",
+        "body": "For -ar verbs the imperfect ends in -aba: hablar, hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban. For -er and -ir verbs it ends in -ía: comer, comía, comías, comía, comíamos, comíais, comían. There are only three irregular verbs in the imperfect: ser was era, ir went iba, and ver saw veía.",
         "examples": [
           {
-            "es": "He terminado el trabajo hoy.",
-            "en": "I have finished the work today."
+            "es": "Hablaba español todos los días.",
+            "en": "I spoke Spanish every day."
           },
           {
-            "es": "Terminé el trabajo ayer.",
-            "en": "I finished the work yesterday."
+            "es": "Comía en casa.",
+            "en": "I ate at home."
           },
           {
-            "es": "¿Ya has comido?",
-            "en": "Have you eaten already?"
+            "es": "Era muy pequeño.",
+            "en": "He was very small."
           }
         ]
       },
       {
-        "heading": "The negative",
-        "body": "No he comido means I have not eaten, and it is the normal way to say you have not eaten yet. With the preterite, no comí says you did not eat, which sounds more like you skipped a meal on purpose.",
-        "examples": [
-          {
-            "es": "No he comido todavía.",
-            "en": "I have not eaten yet."
-          },
-          {
-            "es": "No he visto la película.",
-            "en": "I have not seen the film."
-          }
-        ]
+        "heading": "The one-liner",
+        "body": "The imperfect is for things you cannot put a time on: how things were, what you used to do, what you were doing. The preterite is for things that happened."
       }
     ]
   },
   "exercises": [
     {
-      "id": "es/a2/u15/match/he-hablado",
+      "id": "es/a2/u15/match/hablaba",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "I have spoken",
-          "right": "he hablado"
+          "left": "I spoke",
+          "right": "hablaba"
         },
         {
-          "left": "I have eaten",
-          "right": "he comido"
+          "left": "I ate",
+          "right": "comía"
         },
         {
-          "left": "I have lived",
-          "right": "he vivido"
+          "left": "I lived",
+          "right": "vivía"
         },
         {
-          "left": "I have worked",
-          "right": "he trabajado"
+          "left": "I worked",
+          "right": "trabajaba"
         },
         {
-          "left": "I have studied",
-          "right": "he estudiado"
+          "left": "I studied",
+          "right": "estudiaba"
         }
       ],
-      "note": "The perfect is he + the participle: he hablado, has comido, hemos visto."
+      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
     },
     {
-      "id": "es/a2/u15/select/he-hablado",
+      "id": "es/a2/u15/select/hablaba",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I have spoken”.",
+      "prompt": "Pick the Spanish word for “I spoke”.",
       "options": [
-        "podré",
-        "querré",
-        "vendré",
-        "he hablado"
+        "estar",
+        "beber",
+        "comer",
+        "hablaba"
       ],
-      "answer": "he hablado",
-      "translation": "I have spoken",
-      "note": "He plus the participle of hablar."
+      "answer": "hablaba",
+      "translation": "I spoke",
+      "note": "The imperfect of hablar. It describes how things were."
     },
     {
       "id": "es/a2/u15/drill/1",
       "type": "type_in",
-      "prompt": "___ terminado el trabajo hoy.",
-      "answer": "He",
+      "prompt": "De niño ___ en el parque.",
+      "answer": "jugaba",
       "acceptedAnswers": [
-        "He"
+        "jugaba"
       ],
-      "translation": "I have finished the work today",
-      "note": "The perfect for something that happened today."
+      "translation": "as a child I used to play in the park",
+      "note": "The imperfect for what you used to do."
     },
     {
-      "id": "es/a2/u15/match/he-visto",
+      "id": "es/a2/u15/match/miraba",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "I have seen",
-          "right": "he visto"
+          "left": "I watched",
+          "right": "miraba"
         },
         {
-          "left": "I have done",
-          "right": "he hecho"
+          "left": "I looked for",
+          "right": "buscaba"
         },
         {
-          "left": "I have said",
-          "right": "he dicho"
+          "left": "I walked",
+          "right": "caminaba"
         },
         {
-          "left": "I have written",
-          "right": "he escrito"
+          "left": "I played",
+          "right": "jugaba"
         },
         {
-          "left": "we have opened",
-          "right": "hemos abierto"
+          "left": "he was",
+          "right": "era"
         }
       ],
-      "note": "The perfect is he + the participle: he hablado, has comido, hemos visto."
+      "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
     },
     {
-      "id": "es/a2/u15/select/he-comido",
+      "id": "es/a2/u15/select/comia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I have eaten”.",
+      "prompt": "Pick the Spanish word for “I ate”.",
       "options": [
-        "correr",
-        "perder",
-        "vender",
-        "he comido"
+        "vivía",
+        "trabajaba",
+        "hablaba",
+        "comía"
       ],
-      "answer": "he comido",
-      "translation": "I have eaten",
-      "note": "He plus the participle of comer."
+      "answer": "comía",
+      "translation": "I ate",
+      "note": "The imperfect of comer. It describes how things were."
     },
     {
       "id": "es/a2/u15/drill/2",
       "type": "type_in",
-      "prompt": "No ___ comido todavía.",
-      "answer": "he",
+      "prompt": "Mientras yo ___ , sonó el teléfono.",
+      "answer": "dormía",
       "acceptedAnswers": [
-        "he"
+        "dormia"
       ],
-      "translation": "I have not eaten yet",
-      "note": "No plus the perfect."
+      "translation": "while I was sleeping, the phone rang",
+      "note": "The interrupted past is imperfect."
     },
     {
-      "id": "es/a2/u15/select/he-vivido",
+      "id": "es/a2/u15/select/vivia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I have lived”.",
+      "prompt": "Pick the Spanish word for “I lived”.",
       "options": [
-        "era",
-        "he hablado",
-        "he comido",
-        "he vivido"
+        "veré",
+        "haré",
+        "podré",
+        "vivía"
       ],
-      "answer": "he vivido",
-      "translation": "I have lived",
-      "note": "He plus the participle of vivir."
+      "answer": "vivía",
+      "translation": "I lived",
+      "note": "The imperfect of vivir. It describes how things were."
     },
     {
       "id": "es/a2/u15/drill/3",
       "type": "type_in",
-      "prompt": "___ visto la película.",
-      "answer": "He",
+      "prompt": "Ayer ___ con mi madre.",
+      "answer": "hablé",
       "acceptedAnswers": [
-        "He"
+        "hable"
       ],
-      "translation": "I have seen the film",
-      "note": "Visto is an irregular participle."
+      "translation": "yesterday I spoke to my mother",
+      "note": "A completed event takes the preterite."
     },
     {
       "id": "es/a2/u15/drill/4",
       "type": "type_in",
-      "prompt": "¿Ya ___ has Studiado?",
-      "answer": "he",
+      "prompt": "Cuando era niño, ___ en casa.",
+      "answer": "vivía",
       "acceptedAnswers": [
-        "he"
+        "vivia"
       ],
-      "translation": "have you studied already?",
-      "note": "The perfect with ya."
+      "translation": "when I was a child, I lived at home",
+      "note": "The imperfect for how things were."
     },
     {
       "id": "es/a2/u15/drill/5",
       "type": "type_in",
-      "prompt": "___ escribí la carta ayer.",
-      "answer": "he",
+      "prompt": "Él ___ muy alto.",
+      "answer": "era",
       "acceptedAnswers": [
-        "he"
+        "era"
       ],
-      "translation": "I wrote the letter yesterday",
-      "note": "Ayer takes the preterite, but the auxiliary is still he."
+      "translation": "he was very tall",
+      "note": "Era is the imperfect of ser."
     }
   ]
 }
