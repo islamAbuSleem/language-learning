@@ -11,6 +11,37 @@ export const trackIdSchema = z.enum(["es", "de", "en"])
 
 export type TrackId = z.infer<typeof trackIdSchema>
 
+/**
+ * The levels our path is built on.
+ *
+ * CEFR levels, the standard scale for language competence. A learner walks
+ * A1 → A2 → B1 → B2; each level holds units, each unit holds exercises.
+ */
+export const cefrLevelSchema = z.enum(["A1", "A2", "B1", "B2"])
+
+export type CefrLevel = z.infer<typeof cefrLevelSchema>
+
+export const levelSchema = z.object({
+  level: cefrLevelSchema,
+  /** A short label for the level, e.g. "Beginner". */
+  title: z.string().min(1),
+  /** What a learner can do by the end of this level. */
+  description: z.string().min(1),
+  /** The grammar points this level introduces. */
+  grammar: z.array(z.string().min(1)).min(1),
+})
+
+export type Level = z.infer<typeof levelSchema>
+
+export const trackSchema = z.object({
+  track: trackIdSchema,
+  name: z.string().min(1),
+  /** The whole ladder, including levels that have no units yet. */
+  levels: z.array(levelSchema).min(1),
+})
+
+export type Track = z.infer<typeof trackSchema>
+
 export const selectExerciseSchema = z.object({
   id: z.string().min(1),
   type: z.literal("select"),
@@ -79,6 +110,7 @@ export type ExerciseType = Exercise["type"]
 export const unitSchema = z
   .object({
     track: trackIdSchema,
+    level: cefrLevelSchema,
     unit: z.number().int().positive(),
     title: z.string().min(1),
     description: z.string().min(1),

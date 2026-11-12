@@ -1,0 +1,54 @@
+{
+  "track": "es",
+  "name": "Spanish",
+  "levels": [
+    {
+      "level": "A1",
+      "title": "Beginner",
+      "description": "Order, greet, and describe what you see.",
+      "grammar": [
+        "ser and estar",
+        "present tense",
+        "gender and articles",
+        "question words",
+        "numbers 0 to 100"
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Elementary",
+      "description": "Talk about routines, plans, and what happened yesterday.",
+      "grammar": [
+        "preterite and imperfect",
+        "reflexive verbs",
+        "demonstratives",
+        "por and para",
+        "expressing plans"
+      ]
+    },
+    {
+      "level": "B1",
+      "title": "Intermediate",
+      "description": "Hold a conversation about familiar topics and tell a story.",
+      "grammar": [
+        "present perfect",
+        "subjunctive after cuando and although",
+        "relative clauses",
+        "indirect speech",
+        "the conditional"
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Upper intermediate",
+      "description": "Argue a position, explain a process, and follow the news.",
+      "grammar": [
+        "subjunctive against the indicative",
+        "pluperfect",
+        "reported speech",
+        "concessive clauses",
+        "formal register"
+      ]
+    }
+  ]
+}
