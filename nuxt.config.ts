@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2026-01-01",
   devtools: { enabled: false },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/fonts.css", "~/assets/css/main.css"],
   typescript: {
     strict: true,
     typeCheck: false,

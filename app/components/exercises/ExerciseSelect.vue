@@ -32,17 +32,18 @@ const emit = defineEmits<{ "update:modelValue": [value: string] }>()
   margin: 0;
   padding: 0;
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-2);
 }
 
 .option {
   width: 100%;
   text-align: left;
   background: var(--color-surface);
-  border: 1px solid var(--color-line);
+  border: 1px solid var(--color-line-strong);
   border-radius: var(--radius-md);
-  padding: var(--space-4);
+  padding: var(--space-3) var(--space-4);
   font-size: 1.05rem;
+  font-weight: 500;
   transition: border-color 120ms ease, background-color 120ms ease;
 }
 
@@ -53,5 +54,6 @@ const emit = defineEmits<{ "update:modelValue": [value: string] }>()
 .option--selected {
   border-color: var(--color-accent);
   background: var(--color-accent-soft);
+  font-weight: 700;
 }
 </style>

@@ -2,6 +2,7 @@
 import type { ClientExercise } from "#shared/api/schemas"
 import type { LessonExplanation } from "#shared/content/schema"
 
+import AppIcon from "~/components/AppIcon.vue"
 import ExerciseRenderer from "~/components/exercises/ExerciseRenderer.vue"
 import LessonExplanationPanel from "~/components/lesson/LessonExplanation.vue"
 import LessonFeedbackPanel from "~/components/lesson/FeedbackPanel.vue"
@@ -78,7 +79,7 @@ function begin() {
 <template>
   <main class="lesson">
     <header class="lesson__header">
-      <NuxtLink class="lesson__back" to="/">← Learn</NuxtLink>
+      <NuxtLink class="lesson__back" to="/"><AppIcon name="back" /> Learn</NuxtLink>
 
       <div v-if="!reading" class="lesson__progress">
         <div
@@ -108,7 +109,7 @@ function begin() {
       <button
         v-else
         type="button"
-        class="btn btn--primary"
+        class="btn btn--primary btn--large"
         @click="begin"
       >
         {{ content.status === "current" ? "Start the exercises" : "Do it again" }}
@@ -191,7 +192,7 @@ function begin() {
 .lesson {
   max-width: 680px;
   margin: 0 auto;
-  padding: var(--space-5) var(--space-4) var(--space-6);
+  padding: var(--space-5) var(--space-4) var(--space-7);
 }
 
 .lesson__header {
@@ -202,14 +203,23 @@ function begin() {
 }
 
 .lesson__back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
   color: var(--color-ink-soft);
   text-decoration: none;
   white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.lesson__back:hover {
+  color: var(--color-ink);
 }
 
 .lesson__progress {
   flex: 1;
-  height: 12px;
+  height: 8px;
   border-radius: 999px;
   background: var(--color-line);
   overflow: hidden;
@@ -218,36 +228,45 @@ function begin() {
 .lesson__progress-fill {
   height: 100%;
   background: var(--color-accent);
+  border-radius: 999px;
   transition: width 200ms ease;
 }
 
 .lesson__xp {
-  color: var(--color-ink-soft);
-  font-weight: 700;
+  color: var(--color-ink);
+  font-weight: 800;
   white-space: nowrap;
 }
 
 .lesson__crumb {
   margin: 0 0 var(--space-4);
   color: var(--color-ink-soft);
-  font-size: 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
 }
 
 .lesson__reading {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--space-4);
   justify-items: start;
 }
 
+/* The unit you are on, set large. The one display voice on the page. */
 .lesson__title {
-  font-size: 1.6rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 1.5rem + 2.5vw, 2.5rem);
+  line-height: 1.08;
+  font-weight: 400;
+  max-width: 20ch;
 }
 
 .lesson__lead {
   margin: 0;
   color: var(--color-ink-soft);
+  font-size: 1.05rem;
+  max-width: 65ch;
 }
 
 .lesson__locked {
@@ -255,6 +274,7 @@ function begin() {
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-md);
   background: var(--color-wrong-soft);
+  border: 1px solid var(--color-wrong);
   color: var(--color-wrong);
 }
 
@@ -262,8 +282,9 @@ function begin() {
   margin: 0;
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-md);
-  background: var(--color-accent-soft);
-  color: var(--color-accent-strong);
+  background: var(--color-gold-soft);
+  border: 1px solid var(--color-gold-strong);
+  color: var(--color-ink);
 }
 
 .lesson__hint {
@@ -276,7 +297,9 @@ function begin() {
 }
 
 .lesson__question {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .lesson__actions {
@@ -303,22 +326,35 @@ function begin() {
   justify-items: start;
 }
 
+.lesson__done h1 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
 .lesson__summary {
   display: flex;
-  gap: var(--space-5);
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-5);
   margin: 0;
 }
 
 .lesson__summary dt {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   color: var(--color-ink-soft);
 }
 
 .lesson__summary dd {
-  margin: 0;
-  font-size: 1.4rem;
-  font-weight: 700;
+  margin: var(--space-1) 0 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.btn--large {
+  font-size: 1.05rem;
+  padding: var(--space-4) var(--space-6);
 }
 </style>

@@ -38,18 +38,27 @@ defineProps<{
 
 .lesson__summary {
   margin: 0;
-  font-size: 1.05rem;
+  font-family: var(--font-reading);
+  font-size: 1.12rem;
+  line-height: 1.65;
   color: var(--color-ink);
+  max-width: 65ch;
 }
 
 .lesson__heading {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   margin-bottom: var(--space-2);
 }
 
 .lesson__body {
   margin: 0;
-  color: var(--color-ink-soft);
+  font-family: var(--font-reading);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--color-ink);
+  max-width: 65ch;
 }
 
 .lesson__examples {
@@ -64,13 +73,14 @@ defineProps<{
   display: grid;
   gap: 2px;
   padding: var(--space-3) var(--space-4);
-  background: var(--color-canvas);
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-line);
   border-radius: var(--radius-sm);
-  border-left: 3px solid var(--color-accent);
 }
 
 .lesson__example-es {
-  font-weight: 600;
+  font-weight: 700;
+  color: var(--color-accent);
 }
 
 .lesson__example-en {

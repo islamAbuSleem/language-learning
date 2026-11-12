@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppIcon from "~/components/AppIcon.vue"
 import ExerciseRenderer from "~/components/exercises/ExerciseRenderer.vue"
 import LessonFeedbackPanel from "~/components/lesson/FeedbackPanel.vue"
 
@@ -32,7 +33,7 @@ onMounted(() => {
 <template>
   <main class="lesson">
     <header class="lesson__header">
-      <NuxtLink class="lesson__back" to="/">← Learn</NuxtLink>
+      <NuxtLink class="lesson__back" to="/"><AppIcon name="back" /> Learn</NuxtLink>
 
       <div class="lesson__progress">
         <div
@@ -115,7 +116,7 @@ onMounted(() => {
 .lesson {
   max-width: 680px;
   margin: 0 auto;
-  padding: var(--space-5) var(--space-4) var(--space-6);
+  padding: var(--space-5) var(--space-4) var(--space-7);
 }
 
 .lesson__header {
@@ -126,14 +127,23 @@ onMounted(() => {
 }
 
 .lesson__back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
   color: var(--color-ink-soft);
   text-decoration: none;
   white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.lesson__back:hover {
+  color: var(--color-ink);
 }
 
 .lesson__progress {
   flex: 1;
-  height: 12px;
+  height: 8px;
   border-radius: 999px;
   background: var(--color-line);
   overflow: hidden;
@@ -142,21 +152,23 @@ onMounted(() => {
 .lesson__progress-fill {
   height: 100%;
   background: var(--color-accent);
+  border-radius: 999px;
   transition: width 200ms ease;
 }
 
 .lesson__xp {
-  color: var(--color-ink-soft);
-  font-weight: 700;
+  color: var(--color-ink);
+  font-weight: 800;
   white-space: nowrap;
 }
 
 .lesson__crumb {
   margin: 0 0 var(--space-5);
   color: var(--color-ink-soft);
-  font-size: 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
 }
 
 .lesson__hint {
@@ -169,7 +181,9 @@ onMounted(() => {
 }
 
 .lesson__question {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .lesson__actions {
@@ -196,27 +210,36 @@ onMounted(() => {
   justify-items: start;
 }
 
+.lesson__done h1 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
 .lesson__done-note {
   margin: 0;
   color: var(--color-ink-soft);
+  max-width: 65ch;
 }
 
 .lesson__summary {
   display: flex;
-  gap: var(--space-5);
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-5);
   margin: 0;
 }
 
 .lesson__summary dt {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   color: var(--color-ink-soft);
 }
 
 .lesson__summary dd {
-  margin: 0;
-  font-size: 1.4rem;
-  font-weight: 700;
+  margin: var(--space-1) 0 0;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 </style>

@@ -42,13 +42,20 @@ function onInput(event: Event) {
 .typed__input {
   width: 100%;
   padding: var(--space-4);
-  border: 1px solid var(--color-line);
+  border: 1px solid var(--color-line-strong);
   border-radius: var(--radius-md);
   background: var(--color-surface);
+  font-size: 1.1rem;
+}
+
+.typed__input::placeholder {
+  color: var(--color-ink-soft);
+  opacity: 1;
 }
 
 .typed__input:focus {
-  outline: 2px solid var(--color-accent);
+  outline: 3px solid var(--color-accent);
   outline-offset: 1px;
+  border-color: var(--color-accent);
 }
 </style>

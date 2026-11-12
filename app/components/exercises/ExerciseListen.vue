@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, ref } from "vue"
 import type { ClientExercise } from "#shared/api/schemas"
 
+import AppIcon from "~/components/AppIcon.vue"
 import ExerciseSelect from "./ExerciseSelect.vue"
 
 type ListenExercise = Extract<ClientExercise, { type: "listen" }>
@@ -97,7 +98,7 @@ onBeforeUnmount(() => {
       :disabled="!supported && !exercise.audio.file"
       @click="play"
     >
-      <span aria-hidden="true">🔊</span>
+      <AppIcon name="speaker" />
       {{ speaking ? "Playing…" : "Play the sound" }}
     </button>
 
@@ -125,14 +126,15 @@ onBeforeUnmount(() => {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-3) var(--space-5);
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line-strong);
+  border-radius: 999px;
   background: var(--color-surface);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .listen__play:hover:not(:disabled) {
   border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .listen__note {

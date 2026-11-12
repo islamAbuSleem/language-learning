@@ -72,7 +72,7 @@ const grade = ref<DifficultyGrade>("neutral")
 .feedback {
   border-radius: var(--radius-lg);
   padding: var(--space-5);
-  border: 1px solid var(--color-line);
+  border: 1px solid var(--color-line-strong);
   background: var(--color-surface);
 }
 
@@ -88,6 +88,16 @@ const grade = ref<DifficultyGrade>("neutral")
 
 .feedback__title {
   font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.feedback--correct .feedback__title {
+  color: var(--color-correct);
+}
+
+.feedback--wrong .feedback__title {
+  color: var(--color-wrong);
 }
 
 .feedback__answer {
@@ -101,9 +111,11 @@ const grade = ref<DifficultyGrade>("neutral")
 
 .feedback__note {
   margin: var(--space-3) 0 0;
-  padding: var(--space-3);
-  background: rgba(255, 255, 255, 0.7);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-line);
   border-radius: var(--radius-sm);
+  max-width: 65ch;
 }
 
 .feedback__grade {

@@ -87,18 +87,21 @@ function chooseRight(right: string) {
 .match__item {
   width: 100%;
   background: var(--color-surface);
-  border: 1px solid var(--color-line);
+  border: 1px solid var(--color-line-strong);
   border-radius: var(--radius-md);
   padding: var(--space-3) var(--space-4);
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   gap: var(--space-3);
   text-align: left;
+  font-weight: 500;
 }
 
 .match__item--pending {
   border-color: var(--color-accent);
   background: var(--color-accent-soft);
+  font-weight: 700;
 }
 
 .match__item--done {
@@ -112,6 +115,6 @@ function chooseRight(right: string) {
 
 .match__pair {
   color: var(--color-correct);
-  font-weight: 600;
+  font-weight: 700;
 }
 </style>

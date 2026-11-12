@@ -2,6 +2,8 @@
 import type { ItemProgressPayload, LearnerProfilePayload } from "#shared/api/schemas"
 import { PRACTICE_MASTERY_CEILING } from "#shared/srs/types"
 
+import AppIcon from "~/components/AppIcon.vue"
+
 /** Where a unit sits in the learner's path. */
 type UnitStatus = "locked" | "current" | "done" | "weak"
 
@@ -117,7 +119,7 @@ function doneIn(level: LevelSummary): number {
 /** The label on the right of a unit, which says what state it is in. */
 function unitLabel(unit: UnitSummary): string {
   if (unit.status === "done") return "done"
-  if (unit.status === "weak") return `${Math.round((unit.accuracy ?? 0) * 100)}% Â· redo`
+  if (unit.status === "weak") return `${Math.round((unit.accuracy ?? 0) * 100)}% · redo`
   if (unit.status === "current") return `${unit.exerciseCount} exercises`
 
   return `${unit.exerciseCount} exercises`
@@ -147,7 +149,7 @@ function unitLabel(unit: UnitSummary): string {
     <section v-if="currentUnit" class="continue">
       <div class="continue__body">
         <p class="continue__eyebrow">
-          {{ currentUnit.level }} Â· Unit {{ currentUnit.unit.unit }}
+          {{ currentUnit.level }} · Unit {{ currentUnit.unit.unit }}
         </p>
         <h2 class="continue__title">{{ currentUnit.unit.title }}</h2>
         <p class="continue__note">{{ currentUnit.unit.description }}</p>
@@ -173,14 +175,20 @@ function unitLabel(unit: UnitSummary): string {
       <NuxtLink class="btn btn--primary" to="/practice?mode=weak">Practise</NuxtLink>
     </section>
 
-    <section class="progress">
+    <section class="progress" aria-label="Path progress">
       <div class="progress__row">
         <span class="progress__label">Path</span>
         <span class="progress__value">
-          {{ unitsDone }} of {{ allUnits.length }} units Â· {{ progressPercent }}%
+          {{ unitsDone }} of {{ allUnits.length }} units · {{ progressPercent }}%
         </span>
       </div>
-      <div class="progress__bar">
+      <div
+        class="progress__bar"
+        role="progressbar"
+        :aria-valuenow="progressPercent"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
         <div class="progress__fill" :style="{ width: `${progressPercent}%` }" />
       </div>
     </section>
@@ -201,7 +209,7 @@ function unitLabel(unit: UnitSummary): string {
           >
             <span class="review__body">
               <span class="review__eyebrow">
-                {{ entry.level }} Â· Unit {{ entry.unit.unit }}
+                {{ entry.level }} · Unit {{ entry.unit.unit }}
               </span>
               <span class="review__name">{{ entry.unit.title }}</span>
             </span>
@@ -262,7 +270,10 @@ function unitLabel(unit: UnitSummary): string {
               }"
               :to="{ path: `/lesson/${track.id}/${level.level}/${unit.unit}` }"
             >
-              <span class="unit__number">{{ unit.unit }}</span>
+              <span class="unit__number">
+                <AppIcon v-if="unit.status === 'done'" name="check" />
+                <template v-else>{{ unit.unit }}</template>
+              </span>
               <span class="unit__body">
                 <span class="unit__name">{{ unit.title }}</span>
                 <span class="unit__description">{{ unit.description }}</span>
@@ -271,7 +282,7 @@ function unitLabel(unit: UnitSummary): string {
             </NuxtLink>
 
             <div v-else class="unit unit--locked" :title="`Finish the unit before this one`">
-              <span class="unit__number">ðŸ”’</span>
+              <span class="unit__number"><AppIcon name="lock" /></span>
               <span class="unit__body">
                 <span class="unit__name">{{ unit.title }}</span>
                 <span class="unit__description">Finish the unit before this one.</span>
@@ -293,25 +304,28 @@ function unitLabel(unit: UnitSummary): string {
 .dashboard {
   max-width: 760px;
   margin: 0 auto;
-  padding: var(--space-6) var(--space-4);
+  padding: var(--space-6) var(--space-4) var(--space-7);
 }
 
 .dashboard__header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: var(--space-4);
   flex-wrap: wrap;
   margin-bottom: var(--space-6);
 }
 
 .dashboard__title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .dashboard__subtitle {
   margin: var(--space-1) 0 0;
   color: var(--color-ink-soft);
+  font-size: 0.95rem;
 }
 
 .dashboard__empty {
@@ -320,7 +334,7 @@ function unitLabel(unit: UnitSummary): string {
 
 .chips {
   display: flex;
-  gap: var(--space-3);
+  gap: var(--space-2);
   margin: 0;
 }
 
@@ -328,31 +342,34 @@ function unitLabel(unit: UnitSummary): string {
   background: var(--color-surface);
   border: 1px solid var(--color-line);
   border-radius: var(--radius-md);
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2) var(--space-4);
   text-align: center;
+  min-width: 4.5rem;
 }
 
 .chip dt {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--color-ink-soft);
 }
 
 .chip dd {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 700;
+  margin: var(--space-1) 0 0;
+  font-size: 1.25rem;
+  font-weight: 800;
 }
 
+/* The one display moment: the unit you are on, set large. */
 .continue {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--space-5);
   flex-wrap: wrap;
-  margin-bottom: var(--space-4);
-  padding: var(--space-5);
+  margin-bottom: var(--space-5);
+  padding: var(--space-5) var(--space-5);
   border-radius: var(--radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--color-line);
@@ -364,42 +381,49 @@ function unitLabel(unit: UnitSummary): string {
 
 .continue__body {
   display: grid;
-  gap: 2px;
+  gap: var(--space-1);
+  min-width: min(100%, 28rem);
 }
 
 .continue__eyebrow {
   margin: 0;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-accent-strong);
+  font-size: 0.72rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
 }
 
 .continue__title {
-  font-size: 1.35rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 1.3rem + 2vw, 2.2rem);
+  line-height: 1.1;
+  font-weight: 400;
 }
 
 .continue__note {
   margin: 0;
   color: var(--color-ink-soft);
+  max-width: 65ch;
 }
 
 .progress {
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-5);
 }
 
 .progress__row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  gap: var(--space-3);
   margin-bottom: var(--space-2);
 }
 
 .progress__label {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   color: var(--color-ink-soft);
 }
 
@@ -418,25 +442,29 @@ function unitLabel(unit: UnitSummary): string {
 .progress__fill {
   height: 100%;
   background: var(--color-accent);
+  border-radius: 999px;
   transition: width 200ms ease;
 }
 
 .review {
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-5);
   padding: var(--space-5);
   border-radius: var(--radius-lg);
   background: var(--color-surface);
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-line);
 }
 
 .review__title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .review__note {
   margin: var(--space-1) 0 var(--space-3);
   color: var(--color-ink-soft);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  max-width: 65ch;
 }
 
 .review__list {
@@ -455,7 +483,8 @@ function unitLabel(unit: UnitSummary): string {
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-md);
   border: 1px solid var(--color-line);
-  background: var(--color-canvas);
+  background: var(--color-surface-soft);
+  text-decoration: none;
 }
 
 .review__unit:hover {
@@ -465,23 +494,24 @@ function unitLabel(unit: UnitSummary): string {
 .review__body {
   display: grid;
   gap: 2px;
+  min-width: 0;
 }
 
 .review__eyebrow {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--color-ink-soft);
 }
 
 .review__name {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .review__score {
-  font-weight: 700;
-  color: var(--color-accent-strong);
-  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  color: var(--color-accent);
 }
 
 .practice {
@@ -489,18 +519,21 @@ function unitLabel(unit: UnitSummary): string {
 }
 
 .practice__title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .practice__note {
   margin: var(--space-1) 0 var(--space-3);
   color: var(--color-ink-soft);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  max-width: 65ch;
 }
 
 .practice__actions {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: var(--space-3);
 }
 
@@ -511,16 +544,26 @@ function unitLabel(unit: UnitSummary): string {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-line);
   background: var(--color-surface);
+  text-decoration: none;
 }
 
 .practice__card:hover {
   border-color: var(--color-accent);
 }
 
+.practice__card--empty {
+  background: var(--color-surface-soft);
+}
+
+.practice__card--empty .practice__count {
+  color: var(--color-ink-soft);
+}
+
 .practice__count {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--color-accent-strong);
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--color-accent);
 }
 
 .practice__label {
@@ -533,7 +576,9 @@ function unitLabel(unit: UnitSummary): string {
 }
 
 .track__title {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   margin-bottom: var(--space-3);
 }
 
@@ -542,29 +587,59 @@ function unitLabel(unit: UnitSummary): string {
   border-radius: var(--radius-md);
   margin-bottom: var(--space-3);
   background: var(--color-surface);
+  overflow: clip;
+}
+
+.level[open] {
+  border-color: var(--color-line-strong);
 }
 
 .level__header {
   padding: var(--space-4);
   cursor: pointer;
+  list-style: none;
+}
+
+.level__header::-webkit-details-marker {
+  display: none;
+}
+
+.level__header::before {
+  content: "";
+  float: right;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.45rem;
+  border-right: 2px solid var(--color-ink-soft);
+  border-bottom: 2px solid var(--color-ink-soft);
+  transform: rotate(45deg);
+  transition: transform 140ms ease;
+}
+
+.level[open] .level__header::before {
+  transform: rotate(-135deg);
+  margin-top: 0.7rem;
 }
 
 .level__name {
   margin: 0;
   font-size: 1.05rem;
+  font-weight: 800;
   display: flex;
   align-items: center;
   gap: var(--space-2);
 }
 
 .level__code {
-  display: inline-block;
+  display: inline-grid;
+  place-items: center;
+  min-width: 2rem;
   padding: 2px var(--space-2);
   border-radius: var(--radius-sm);
   background: var(--color-accent);
   color: var(--color-on-accent);
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.04em;
 }
 
@@ -572,6 +647,7 @@ function unitLabel(unit: UnitSummary): string {
   margin: var(--space-2) 0 0;
   color: var(--color-ink-soft);
   font-size: 0.9rem;
+  max-width: 65ch;
 }
 
 .level__count {
@@ -595,6 +671,7 @@ function unitLabel(unit: UnitSummary): string {
   border-radius: 999px;
   border: 1px solid var(--color-line);
   color: var(--color-ink-soft);
+  background: var(--color-surface-soft);
 }
 
 .level__empty {
@@ -621,17 +698,17 @@ function unitLabel(unit: UnitSummary): string {
   color: inherit;
 }
 
-.unit:hover {
-  background: var(--color-canvas);
+a.unit:hover {
+  background: var(--color-surface-soft);
 }
 
 .unit--current {
-  background: var(--color-canvas);
-  box-shadow: inset 3px 0 0 var(--color-accent);
+  background: var(--color-accent-soft);
 }
 
-.unit--weak {
-  box-shadow: inset 3px 0 0 var(--color-accent-strong);
+.unit--current:hover,
+a.unit--current:hover {
+  background: var(--color-accent-soft);
 }
 
 .unit__number {
@@ -641,14 +718,28 @@ function unitLabel(unit: UnitSummary): string {
   display: grid;
   place-items: center;
   border-radius: 999px;
-  background: var(--color-line);
+  border: 1px solid var(--color-line-strong);
+  color: var(--color-ink-soft);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .unit--done .unit__number {
   background: var(--color-accent);
+  border-color: var(--color-accent);
   color: var(--color-on-accent);
+}
+
+.unit--current .unit__number {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.unit--weak .unit__number {
+  background: var(--color-gold-soft);
+  border-color: var(--color-gold-strong);
+  color: var(--color-gold-strong);
 }
 
 .unit__body {
@@ -658,7 +749,7 @@ function unitLabel(unit: UnitSummary): string {
 }
 
 .unit__name {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .unit__description {
@@ -674,7 +765,25 @@ function unitLabel(unit: UnitSummary): string {
 }
 
 .unit--weak .unit__count {
-  color: var(--color-accent-strong);
-  font-weight: 700;
+  color: var(--color-accent);
+  font-weight: 800;
+}
+
+.unit--locked .unit__description {
+  color: var(--color-ink-soft);
+}
+
+@media (max-width: 560px) {
+  .dashboard {
+    padding-top: var(--space-4);
+  }
+
+  .continue {
+    padding: var(--space-4);
+  }
+
+  .unit__description {
+    display: none;
+  }
 }
 </style>

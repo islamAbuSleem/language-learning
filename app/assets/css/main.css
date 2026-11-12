@@ -1,28 +1,46 @@
 :root {
-  /* Our own palette. Nothing here is lifted from the reference app. */
-  --color-accent: #4f46e5;
-  --color-accent-strong: #4338ca;
-  --color-accent-soft: #eef2ff;
-  --color-correct: #15803d;
-  --color-correct-soft: #dcfce7;
-  --color-wrong: #b91c1c;
-  --color-wrong-soft: #fee2e2;
-  --color-ink: #1c1917;
-  --color-ink-soft: #57534e;
-  --color-line: #e7e5e4;
+  /* Quiet Desk. Our own palette: cool paper, ink, one pine green, one gold.
+     Nothing here is lifted from the reference app. */
+
+  --color-paper: #f1f2ed;
   --color-surface: #ffffff;
-  --color-canvas: #fafaf9;
-  --color-on-accent: #ffffff;
+  --color-surface-soft: #f7f8f4;
+  --color-ink: #17191c;
+  --color-ink-soft: #565c62;
+  --color-line: #dcded2;
+  --color-line-strong: #c3c6b6;
+
+  --color-accent: #0f3a2c;
+  --color-accent-strong: #0a2a20;
+  --color-accent-soft: #e3ebe4;
+  --color-on-accent: #f7f3e8;
+
+  --color-gold: #d8a63c;
+  --color-gold-strong: #b8892b;
+  --color-gold-soft: #f7ecd4;
+  --color-on-gold: #17170f;
+
+  --color-correct: #1e6b41;
+  --color-correct-soft: #e0f0e4;
+  --color-wrong: #a8322a;
+  --color-wrong-soft: #f9e6e2;
+  --color-on-state: #ffffff;
+
+  --font-sans: "Archivo", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-display: "Alfa Slab One", "Archivo", ui-sans-serif, serif;
+  --font-reading: "Faustina", Georgia, "Times New Roman", serif;
 
   --radius-sm: 8px;
   --radius-md: 12px;
-  --radius-lg: 18px;
+  --radius-lg: 16px;
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
   --space-5: 24px;
   --space-6: 32px;
+  --space-7: 48px;
 }
 
 * {
@@ -33,20 +51,25 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: var(--color-canvas);
+  background: var(--color-paper);
   color: var(--color-ink);
-  font-family:
-    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    "Noto Sans", sans-serif;
-  line-height: 1.5;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
-  line-height: 1.25;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
 }
 
 button {
@@ -63,6 +86,39 @@ input {
   font: inherit;
 }
 
+/* Every control earns the same ring: pine on paper reads at a glance, and it
+   holds on gold too. */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+::selection {
+  background: var(--color-gold-soft);
+  color: var(--color-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 999px;
+  border: 2px solid var(--color-paper);
+}
+
+/* Links that read as links: offset underline, pine on hover. */
+a {
+  color: inherit;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
 .card {
   background: var(--color-surface);
   border: 1px solid var(--color-line);
@@ -70,29 +126,61 @@ input {
   padding: var(--space-5);
 }
 
+/* Buttons. Gold is the one primary action per viewport; everything else is
+   quiet. */
 .btn {
   border: 1px solid transparent;
   border-radius: var(--radius-md);
   padding: var(--space-3) var(--space-5);
   font-weight: 600;
-  transition: background-color 120ms ease, border-color 120ms ease;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-decoration: none;
+  transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
 }
 
 .btn--primary {
-  background: var(--color-accent);
-  color: #fff;
+  background: var(--color-gold);
+  color: var(--color-on-gold);
 }
 
 .btn--primary:hover:not(:disabled) {
-  background: var(--color-accent-strong);
+  background: var(--color-gold-strong);
+}
+
+.btn--primary:active:not(:disabled) {
+  transform: translateY(1px);
 }
 
 .btn--ghost {
   background: transparent;
-  border-color: var(--color-line);
-  color: var(--color-ink-soft);
+  border-color: var(--color-line-strong);
+  color: var(--color-ink);
 }
 
 .btn--ghost:hover:not(:disabled) {
-  border-color: var(--color-ink-soft);
+  border-color: var(--color-ink);
+}
+
+/* Tabular figures wherever a number moves: scores, counts, XP, streaks. */
+.tnum,
+.chip dd,
+.progress__value,
+.unit__count,
+.review__score,
+.practice__count,
+.lesson__xp,
+.lesson__summary dd {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
