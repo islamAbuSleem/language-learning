@@ -26,7 +26,7 @@ const TEST_PREFIXES = ["test-", "b1-test-", "gram-", "gaps-", "gap-", "final-", 
  * A test account owns rows across four tables, so it is removed by user id,
  * not by learner id: the account's learner id is a uuid like anyone's.
  */
-const TEST_EMAIL_PREFIXES = ["journey-", "ui-", "dbg-", "test-"]
+const TEST_EMAIL_PREFIXES = ["journey-", "ui-", "dbg-", "test-", "prov-", "prof-", "magic-"]
 
 try {
   const rows = await sql`select id from learners order by id`

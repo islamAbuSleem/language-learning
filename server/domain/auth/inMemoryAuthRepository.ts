@@ -62,6 +62,11 @@ export function createInMemoryAuthRepository(): AuthRepository {
       return row ? { ...row } : null
     },
 
+    async setDisplayName(userId, displayName) {
+      const row = users.get(userId)
+      if (row) users.set(userId, { ...row, displayName })
+    },
+
     async setPasswordHash(userId, passwordHash) {
       const row = users.get(userId)
       if (!row) return

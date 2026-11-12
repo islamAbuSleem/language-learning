@@ -98,6 +98,13 @@ export function createPostgresAuthRepository(sql: Sql): AuthRepository {
       return row ? toUserRow(row) : null
     },
 
+    async setDisplayName(userId, displayName) {
+      await sql`
+        UPDATE users SET display_name = ${displayName}, updated_at = now()
+        WHERE id = ${userId}
+      `
+    },
+
     async setPasswordHash(userId, passwordHash) {
       await sql`
         UPDATE users SET password_hash = ${passwordHash}, updated_at = now()

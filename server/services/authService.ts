@@ -198,6 +198,77 @@ export function availableMethods() {
   }
 }
 
+/** Rename the learner. Names are shown to no one but them, for now. */
+export async function updateDisplayName(event: H3Event, displayName: string): Promise<User> {
+  const me = await currentUser(event)
+  if (!me) {
+    throw createError({ statusCode: 401, statusMessage: "Sign in first." })
+  }
+
+  const clean = displayName.trim().slice(0, 40)
+  if (clean.length === 0) {
+    throw createError({ statusCode: 400, statusMessage: "Give yourself a name." })
+  }
+
+  const repository = await getAuthRepository()
+
+  await repository.setDisplayName(me.id, clean)
+
+  return { ...me, displayName: clean }
+}
+
+/**
+ * Set the password for the first time, or change it.
+ *
+ * A learner who signed in with a link or with Google has no password yet:
+ * the session itself is the proof, and none is asked for. Anyone who already
+ * has one states it, so a stolen moment at an unlocked screen is not enough
+ * to lock them out of their own account.
+ */
+export async function setAccountPassword(
+  event: H3Event,
+  input: { currentPassword?: string; newPassword: string },
+): Promise<User> {
+  const me = await currentUser(event)
+  if (!me) {
+    throw createError({ statusCode: 401, statusMessage: "Sign in first." })
+  }
+
+  const repository = await getAuthRepository()
+  const row = await repository.findUserById(me.id)
+  if (!row) {
+    throw createError({ statusCode: 401, statusMessage: "Sign in first." })
+  }
+
+  if (row.passwordHash) {
+    if (!input.currentPassword) {
+      throw createError({ statusCode: 400, statusMessage: "Enter your current password." })
+    }
+
+    const ok = verifyPassword(input.currentPassword, row.passwordHash)
+    if (!ok) {
+      // Same answer as a wrong login: nothing about what was wrong.
+      throw createError({ statusCode: 401, statusMessage: "That password is not right." })
+    }
+  }
+
+  await repository.setPasswordHash(row.id, hashPassword(input.newPassword))
+  await repository.markEmailVerified(row.id)
+
+  return toUserPayload({ ...row, hasPassword: true, emailVerified: true })
+}
+
+/** Forget every session, on every device. */
+export async function logoutEverywhere(event: H3Event): Promise<void> {
+  const me = await currentUser(event)
+  if (!me) return
+
+  const repository = await getAuthRepository()
+  await repository.deleteUserSessions(me.id)
+
+  deleteCookie(event, SESSION_COOKIE, { path: "/" })
+}
+
 /**
  * Finish a Google sign-in: one account per inbox, progress merged in.
  *

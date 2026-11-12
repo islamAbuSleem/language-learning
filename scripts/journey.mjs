@@ -307,6 +307,23 @@ try {
   const keptFirst = kept.body.tracks.find((track) => track.id === "es").levels[0].units[0]
   check("the progress survived logout and login", keptFirst.completed === true)
 
+  // 10b. the profile page writes through the API
+  const renamed = await call("/api/auth/profile", {
+    method: "PATCH",
+    body: JSON.stringify({ displayName: "Journey Learner" }),
+  })
+  check("renaming works", renamed.status === 200 && renamed.body.user.displayName === "Journey Learner", `status ${renamed.status}`)
+
+  const wrongCurrent = await call("/api/auth/password", {
+    method: "POST",
+    body: JSON.stringify({ currentPassword: "nope", newPassword: "new horse 123" }),
+  })
+  check("a wrong current password is refused", wrongCurrent.status === 401, `status ${wrongCurrent.status}`)
+
+  await call("/api/auth/logout-all", { method: "POST", body: JSON.stringify({}) })
+  const afterAllOut = await call("/api/auth/me")
+  check("logout-everywhere forgets the session", afterAllOut.body.user === null)
+
   // 11. a magic link signs in without a password
   //
   // In development the link comes back in the response so the check can

@@ -146,7 +146,7 @@ function unitLabel(unit: UnitSummary): string {
         <p class="dashboard__subtitle">Learn without limits, without a paywall.</p>
         <NuxtLink class="dashboard__progress-link" to="/progress">See your progress →</NuxtLink>
         <p v-if="user" class="dashboard__account">
-          Signed in as {{ user.displayName }} ·
+          Signed in as <NuxtLink class="dashboard__account-link" to="/profile">{{ user.displayName }}</NuxtLink> ·
           <button type="button" class="dashboard__signout" @click="signOut">Sign out</button>
         </p>
         <NuxtLink v-else class="dashboard__progress-link" to="/login">Sign in →</NuxtLink>
@@ -359,6 +359,11 @@ function unitLabel(unit: UnitSummary): string {
   margin: var(--space-2) 0 0;
   font-size: 0.9rem;
   color: var(--color-ink-soft);
+}
+
+.dashboard__account-link {
+  font-weight: 700;
+  color: var(--color-accent);
 }
 
 .dashboard__signout {

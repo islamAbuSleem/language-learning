@@ -73,8 +73,6 @@ export function createInMemoryProgressRepository(): ProgressRepository {
       const to = profiles.get(toLearnerId) ?? createLearnerProfile()
       profiles.set(toLearnerId, { ...to })
 
-      const from = profiles.get(fromLearnerId)
-
       for (const [itemKey, state] of items) {
         if (!itemKey.startsWith(`${fromLearnerId}::`)) continue
 
@@ -106,18 +104,19 @@ export function createInMemoryProgressRepository(): ProgressRepository {
         days.delete(dayKey)
       }
 
-      const from = profiles.get(fromLearnerId)
-      const to = profiles.get(toLearnerId) ?? createLearnerProfile()
+      const fromProfile = profiles.get(fromLearnerId)
+      const toProfile = profiles.get(toLearnerId) ?? createLearnerProfile()
 
-      if (from) {
+      if (fromProfile) {
         profiles.set(toLearnerId, {
-          xp: to.xp + from.xp,
-          streak: Math.max(to.streak, from.streak),
+          xp: toProfile.xp + fromProfile.xp,
+          streak: Math.max(toProfile.streak, fromProfile.streak),
           lastPracticeDate:
-            to.lastPracticeDate !== null &&
-            (from.lastPracticeDate === null || to.lastPracticeDate > from.lastPracticeDate)
-              ? to.lastPracticeDate
-              : from.lastPracticeDate,
+            toProfile.lastPracticeDate !== null &&
+            (fromProfile.lastPracticeDate === null ||
+              toProfile.lastPracticeDate > fromProfile.lastPracticeDate)
+              ? toProfile.lastPracticeDate
+              : fromProfile.lastPracticeDate,
         })
         profiles.delete(fromLearnerId)
       }

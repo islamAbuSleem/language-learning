@@ -50,6 +50,7 @@ export interface AuthRepository {
     googleSub: string | null
     emailVerified: boolean
   }): Promise<User>
+  setDisplayName(userId: string, displayName: string): Promise<void>
   findUserByEmailNorm(emailNorm: string): Promise<UserRow | null>
   findUserByGoogleSub(googleSub: string): Promise<UserRow | null>
   findUserById(userId: string): Promise<UserRow | null>

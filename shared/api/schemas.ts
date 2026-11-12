@@ -126,6 +126,15 @@ export const magicRequestSchema = z.object({
   email: emailSchema,
 })
 
+export const profileUpdateSchema = z.object({
+  displayName: z.string().trim().min(1).max(40),
+})
+
+export const passwordSetSchema = z.object({
+  currentPassword: z.string().min(1).max(128).optional(),
+  newPassword: passwordSchema,
+})
+
 export const itemProgressSchema = z.object({
   itemId: z.string().min(1),
   mastery: z.number().min(0).max(1),
