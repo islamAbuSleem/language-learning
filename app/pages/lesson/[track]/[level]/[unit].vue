@@ -18,6 +18,7 @@ interface UnitContent {
   explanation: LessonExplanation | null
   words: string[]
   locked: boolean
+  continueTo: { track: string; level: string; unit: number } | null
   status: "locked" | "current" | "done" | "weak"
   accuracy: number | null
   shaky: number
@@ -118,8 +119,18 @@ function begin() {
         This unit is still locked. Finish the unit before it, then come back.
       </p>
 
+      <NuxtLink
+        v-if="content.locked && content.continueTo"
+        class="btn btn--primary"
+        :to="{
+          path: `/lesson/${content.continueTo.track}/${content.continueTo.level}/${content.continueTo.unit}`,
+        }"
+      >
+        Take me there
+      </NuxtLink>
+
       <button
-        v-else
+        v-if="!content.locked"
         type="button"
         class="btn btn--primary btn--large"
         @click="begin"

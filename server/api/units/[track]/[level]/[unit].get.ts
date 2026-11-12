@@ -29,6 +29,11 @@ export default defineEventHandler(async (event) => {
   const progress = await getPathProgress(track.data, getLearnerId(event))
   const state = progressFor(progress, level.data, unit)
 
+  // Where the learner should go instead: the first unit that is open.
+  // A locked unit always has one, because locks chain from the start.
+  const current = progress.find((entry) => entry.status === "current")
+  const [currentLevel, currentUnit] = current?.key.split("/") ?? []
+
   return {
     track: content.track,
     level: content.level,
@@ -38,6 +43,11 @@ export default defineEventHandler(async (event) => {
     explanation: content.explanation ?? null,
     /** The Spanish words this unit teaches, so the lesson can paint them. */
     words: await loadUnitWords(track.data, level.data, unit),
+    /** Where the learner should go instead: the first open unit, if any. */
+    continueTo:
+      currentLevel && currentUnit
+        ? { track: track.data, level: currentLevel, unit: Number(currentUnit) }
+        : null,
     locked: state?.status === "locked",
     /** Where the unit sits: locked, current, done or weak. */
     status: state?.status ?? "locked",
