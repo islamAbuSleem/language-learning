@@ -93,10 +93,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I have spoken”.",
       "options": [
-        "he comido",
-        "he vivido",
+        "decidir",
+        "ir",
         "he hablado",
-        "era"
+        "repetir"
       ],
       "answer": "he hablado",
       "translation": "I have spoken",
@@ -146,9 +146,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I have eaten”.",
       "options": [
-        "comer",
-        "beber",
-        "aprender",
+        "salió",
+        "hablaba",
+        "comía",
         "he comido"
       ],
       "answer": "he comido",
@@ -171,9 +171,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I have lived”.",
       "options": [
-        "veré",
-        "haré",
-        "estudiaré",
+        "entendió",
+        "llegó",
+        "pidió",
         "he vivido"
       ],
       "answer": "he vivido",

@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 37,
+  "title": "Feelings",
+  "description": "Say how you feel, and how other people feel.",
+  "explanation": {
+    "summary": "Feelings are adjectives, and the ones that describe a temporary state go with estar: estoy feliz, está triste, están aburridos. The adjective changes its ending to match the person it describes.",
+    "sections": [
+      {
+        "heading": "The adjectives",
+        "body": "El happy one is feliz, and its feminine is feliz as well. The rest change: triste stays the same, aburrido becomes aburrida, enfadado becomes enfadada, tranquilo becomes tranquila, nervioso becomes nerviosa, contento becomes contenta, listo becomes lista, preocupado becomes preocupada and soñoliento becomes soñolienta.",
+        "examples": [
+          {
+            "es": "estoy feliz",
+            "en": "I am happy"
+          },
+          {
+            "es": "ella está aburrida",
+            "en": "she is bored"
+          },
+          {
+            "es": "están preocupadas",
+            "en": "they are worried"
+          }
+        ]
+      },
+      {
+        "heading": "Which verb to use",
+        "body": "The two verbs for what something is like both take an adjective, and the adjective comes after them. Ser is for what a thing is: el examen es difícil. Estar is for how a thing is now: estoy cansado. For feelings, it is estar that you want.",
+        "examples": [
+          {
+            "es": "estoy tranquilo",
+            "en": "I am calm"
+          },
+          {
+            "es": "mi hermano está nervioso",
+            "en": "my brother is nervous"
+          },
+          {
+            "es": "la clase es difícil",
+            "en": "the class is difficult"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u37/match/feliz",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "happy",
+          "right": "feliz"
+        },
+        {
+          "left": "sad",
+          "right": "triste"
+        },
+        {
+          "left": "bored",
+          "right": "aburrido"
+        },
+        {
+          "left": "angry",
+          "right": "enfadado"
+        },
+        {
+          "left": "calm",
+          "right": "tranquilo"
+        }
+      ],
+      "note": "An adjective that describes how you are goes after the verb estar, and it changes to match the person."
+    },
+    {
+      "id": "es/a1/u37/select/feliz",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “happy”.",
+      "options": [
+        "tranquilo",
+        "nervioso",
+        "enfadado",
+        "feliz"
+      ],
+      "answer": "feliz",
+      "translation": "happy",
+      "note": "The same in both genders: estoy feliz, ella está feliz."
+    },
+    {
+      "id": "es/a1/u37/listen/triste",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "triste",
+      "options": [
+        "tranquilo",
+        "nervioso",
+        "enfadado",
+        "triste"
+      ],
+      "audio": {
+        "text": "triste",
+        "lang": "es"
+      },
+      "translation": "sad",
+      "note": "The same in both genders: está triste."
+    },
+    {
+      "id": "es/a1/u37/drill/1",
+      "type": "type_in",
+      "prompt": "Estoy ___.",
+      "answer": "feliz",
+      "acceptedAnswers": [
+        "feliz"
+      ],
+      "translation": "I am happy",
+      "note": "Feliz is the same in both genders."
+    },
+    {
+      "id": "es/a1/u37/match/nervioso",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "nervous",
+          "right": "nervioso"
+        },
+        {
+          "left": "pleased",
+          "right": "contento"
+        },
+        {
+          "left": "ready",
+          "right": "listo"
+        },
+        {
+          "left": "worried",
+          "right": "preocupado"
+        },
+        {
+          "left": "sleepy",
+          "right": "soñoliento"
+        }
+      ],
+      "note": "An adjective that describes how you are goes after the verb estar, and it changes to match the person."
+    },
+    {
+      "id": "es/a1/u37/select/aburrido",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “bored”.",
+      "options": [
+        "aburrido",
+        "soñoliento",
+        "feliz",
+        "preocupado"
+      ],
+      "answer": "aburrido",
+      "translation": "bored",
+      "note": "The feminine is aburrida: ella está aburrida."
+    },
+    {
+      "id": "es/a1/u37/drill/2",
+      "type": "type_in",
+      "prompt": "Mi hermana está ___.",
+      "answer": "preocupada",
+      "acceptedAnswers": [
+        "preocupada"
+      ],
+      "translation": "my sister is worried",
+      "note": "The adjective changes to match the person."
+    },
+    {
+      "id": "es/a1/u37/select/enfadado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “angry”.",
+      "options": [
+        "tranquilo",
+        "nervioso",
+        "contento",
+        "enfadado"
+      ],
+      "answer": "enfadado",
+      "translation": "angry",
+      "note": "The feminine is enfadada."
+    },
+    {
+      "id": "es/a1/u37/drill/3",
+      "type": "type_in",
+      "prompt": "Los niños están ___.",
+      "answer": "aburridos",
+      "acceptedAnswers": [
+        "aburridos"
+      ],
+      "translation": "the children are bored",
+      "note": "A plural adjective ends in -os."
+    },
+    {
+      "id": "es/a1/u37/drill/4",
+      "type": "type_in",
+      "prompt": "Está muy ___.",
+      "answer": "nervioso",
+      "acceptedAnswers": [
+        "nervioso"
+      ],
+      "translation": "he is very nervous",
+      "note": "Nervioso is masculine."
+    }
+  ]
+}

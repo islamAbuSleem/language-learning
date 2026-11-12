@@ -1,0 +1,48 @@
+{
+  "unit": 23,
+  "title": "Meat and fish",
+  "description": "Name the meat and the fish, and say what is on the table.",
+  "grammar": "gender and articles, and the plural of nouns",
+  "grammarNote": "The words for meat are ordinary nouns, so they all need their article.",
+  "explanation": {
+    "summary": "Meat and fish are the food words a learner needs before a restaurant, and they follow the ordinary rules: a noun with a gender, an article, and a plural.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La carne is feminine and means meat in general. El pollo and el cerdo are masculine, and so is el pescado, which means fish as food. La ternera is the meat of a young cow, and la gamba is a prawn. Nothing here breaks the rule: -a is feminine, -o is masculine.",
+        "examples": [
+          { "es": "la carne", "en": "the meat" },
+          { "es": "el pollo", "en": "the chicken" },
+          { "es": "la gamba", "en": "the prawn" }
+        ]
+      },
+      {
+        "heading": "On the table",
+        "body": "In a shop you ask for what you want with un or una, and the noun tells you the gender: un piece of chicken is un pollo, and a piece of fish is un pescado. In the plural the article changes too: dos gambas is not dos gamba.",
+        "examples": [
+          { "es": "un pescado con verduras", "en": "a fish with vegetables" },
+          { "es": "dos gambas", "en": "two prawns" },
+          { "es": "la ternasa está muy bien", "en": "the beef is very good" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "carne", "en": "the meat", "article": "la", "note": "Feminine: la carne.", "tags": ["food"] },
+    { "es": "pollo", "en": "the chicken", "article": "el", "note": "Masculine: el pollo.", "tags": ["food"] },
+    { "es": "ternera", "en": "the beef", "article": "la", "note": "Feminine: la ternera.", "tags": ["food"] },
+    { "es": "cerdo", "en": "the pork", "article": "el", "note": "Masculine: el cerdo.", "tags": ["food"] },
+    { "es": "pescado", "en": "the fish", "article": "el", "note": "Masculine: el pescado. It means fish as food, not the animal.", "tags": ["food"] },
+    { "es": "salmón", "en": "the salmon", "article": "el", "note": "Masculine: el salmón. The accent marks the stress.", "tags": ["food"] },
+    { "es": "bacalao", "en": "the cod", "article": "el", "note": "Masculine: el bacalao.", "tags": ["food"] },
+    { "es": "gamba", "en": "the prawn", "article": "la", "note": "Feminine: la gamba.", "tags": ["food"] },
+    { "es": "calamar", "en": "the squid", "article": "el", "note": "Masculine: el calamar.", "tags": ["food"] },
+    { "es": "hamburguesa", "en": "the burger", "article": "la", "note": "Feminine: la hamburguesa.", "tags": ["food"] }
+  ],
+  "drills": [
+    { "prompt": "___ gambas están buenas.", "answer": "Las", "meaning": "the prawns are good", "note": "Gamba is feminine." },
+    { "prompt": "El ___ está en la mesa.", "answer": "pollo", "meaning": "the chicken is on the table", "note": "Pollo is masculine." },
+    { "prompt": "___ pescado es muy caro.", "answer": "El", "meaning": "the fish is very expensive", "note": "Pescado is masculine." },
+    { "prompt": "Quiero una ___ con queso.", "answer": "hamburguesa", "meaning": "I want a burger with cheese", "note": "Hamburguesa is feminine, so una hamburguesa." }
+  ]
+}

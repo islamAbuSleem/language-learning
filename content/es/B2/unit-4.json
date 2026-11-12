@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "viviré",
-        "trabajaré",
-        "estudiaré",
+        "doblar",
+        "fregar",
+        "cortar",
         "tener que"
       ],
       "answer": "tener que",
@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "había hecho",
-        "había dicho",
-        "había visto",
+        "volver",
+        "salir",
+        "venir",
         "haber que"
       ],
       "answer": "haber que",
@@ -157,10 +157,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "sentir",
-        "entrar",
+        "ayudar",
+        "llegar",
         "deber",
-        "despertar"
+        "quedar"
       ],
       "answer": "deber",
       "translation": "to have to",

@@ -1,0 +1,48 @@
+{
+  "unit": 48,
+  "title": "In the countryside",
+  "description": "Name the things outside the town, and say where they are.",
+  "grammar": "gender and articles, and prepositions of place",
+  "grammarNote": "The country has its own nouns, and estar says where each of them is.",
+  "explanation": {
+    "summary": "Outside the town the vocabulary opens up: fields, rivers, hills and animals. The grammar is the one you already know.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El campo, el bosque, el río, el monte, el caballo y la abeja are masculine. La granja, la piedra y la oveja are feminine. El campo is the countryside and the field at the same time, and el monte is a hill or a mountain.",
+        "examples": [
+          { "es": "el campo", "en": "the countryside" },
+          { "es": "la granja", "en": "the farm" },
+          { "es": "la oveja", "en": "the sheep" }
+        ]
+      },
+      {
+        "heading": "Where they are",
+        "body": "Estar says where a thing is, and outside the town you use it with big places: el caballo está en el campo, la granja está cerca del río. En el campo and en la granja are the two you will use most.",
+        "examples": [
+          { "es": "la abeja está en la flor", "en": "the bee is on the flower" },
+          { "es": "el caballo está en el campo", "en": "the horse is in the field" },
+          { "es": "hay una piedra en el camino", "en": "there is a stone on the path" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "campo", "en": "the countryside", "article": "el", "note": "Masculine: el campo. It also means the field.", "tags": ["countryside"] },
+    { "es": "granja", "en": "the farm", "article": "la", "note": "Feminine: la granja.", "tags": ["countryside"] },
+    { "es": "bosque", "en": "the wood", "article": "el", "note": "Masculine: el bosque.", "tags": ["countryside"] },
+    { "es": "río", "en": "the river", "article": "el", "note": "Masculine: el río. The accent marks the stress.", "tags": ["countryside"] },
+    { "es": "monte", "en": "the hill", "article": "el", "note": "Masculine: el monte. It can also mean a mountain.", "tags": ["countryside"] },
+    { "es": "valle", "en": "the valley", "article": "el", "note": "Masculine: el valle.", "tags": ["countryside"] },
+    { "es": "piedra", "en": "the stone", "article": "la", "note": "Feminine: la piedra.", "tags": ["countryside"] },
+    { "es": "caballo", "en": "the horse", "article": "el", "note": "Masculine: el caballo.", "tags": ["countryside"] },
+    { "es": "oveja", "en": "the sheep", "article": "la", "note": "Feminine: la oveja. The plural is las ovejas.", "tags": ["countryside"] },
+    { "es": "abeja", "en": "the bee", "article": "la", "note": "Feminine: la abeja.", "tags": ["countryside"] }
+  ],
+  "drills": [
+    { "prompt": "___ ovejas están en el campo.", "answer": "Las", "meaning": "the sheep are in the field", "note": "Oveja is feminine." },
+    { "prompt": "El ___ es grande.", "answer": "bosque", "meaning": "the wood is big", "note": "Bosque is masculine." },
+    { "prompt": "___ granja está cerca del río.", "answer": "La", "meaning": "the farm is near the river", "note": "Granja is feminine." },
+    { "prompt": "El ___ tiene una rueda grande.", "answer": "caballo", "meaning": "the horse has a big wheel", "note": "Caballo is masculine." }
+  ]
+}

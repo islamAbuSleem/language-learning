@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 35,
+  "title": "The doctor",
+  "description": "Name the words for illness, and say what you need.",
+  "explanation": {
+    "summary": "Illness in Spanish is mostly a noun you have: tienes una tos, tienes fiebre, tienes dolor. The words for medicine and appointments are ordinary nouns around it.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La medicina, la cita, la pastilla, la tos, la herida, la piel y la vacuna are feminine. El hueso, el estómago y el antibiótico are masculine. El antibiótico is one you will hear a lot, and it is masculine even though it ends in -o.",
+        "examples": [
+          {
+            "es": "la medicina",
+            "en": "the medicine"
+          },
+          {
+            "es": "la herida",
+            "en": "the wound"
+          },
+          {
+            "es": "el antibiótico",
+            "en": "the antibiotic"
+          }
+        ]
+      },
+      {
+        "heading": "What you have",
+        "body": "You know tener, and the words for illness go straight after it: tengo una tos, tienes una herida, tiene dolor de cabeza. Estar says how you are: la piel está roja, the skin is red.",
+        "examples": [
+          {
+            "es": "tengo una tos",
+            "en": "I have a cough"
+          },
+          {
+            "es": "tiene dolor de cabeza",
+            "en": "he has a headache"
+          },
+          {
+            "es": "la herida está en la pierna",
+            "en": "the wound is on the leg"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u35/match/medicina",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the medicine",
+          "right": "la medicina"
+        },
+        {
+          "left": "the appointment",
+          "right": "la cita"
+        },
+        {
+          "left": "the tablet",
+          "right": "la pastilla"
+        },
+        {
+          "left": "the cough",
+          "right": "la tos"
+        },
+        {
+          "left": "the wound",
+          "right": "la herida"
+        }
+      ],
+      "note": "You already know cómo estás: the words for how you feel are nouns, and tener says you have them."
+    },
+    {
+      "id": "es/a1/u35/select/medicina",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the medicine”.",
+      "options": [
+        "la pastilla",
+        "la herida",
+        "la tos",
+        "la medicina"
+      ],
+      "answer": "la medicina",
+      "translation": "the medicine",
+      "note": "Feminine: la medicina."
+    },
+    {
+      "id": "es/a1/u35/listen/cita",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la cita",
+      "options": [
+        "la medicina",
+        "la pastilla",
+        "la fiebre",
+        "la cita"
+      ],
+      "audio": {
+        "text": "cita",
+        "lang": "es"
+      },
+      "translation": "the appointment",
+      "note": "Feminine: la cita."
+    },
+    {
+      "id": "es/a1/u35/drill/1",
+      "type": "type_in",
+      "prompt": "Tengo una ___.",
+      "answer": "tos",
+      "acceptedAnswers": [
+        "tos"
+      ],
+      "translation": "I have a cough",
+      "note": "Tos is feminine, so una tos."
+    },
+    {
+      "id": "es/a1/u35/match/hueso",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the bone",
+          "right": "el hueso"
+        },
+        {
+          "left": "the skin",
+          "right": "la piel"
+        },
+        {
+          "left": "the stomach",
+          "right": "el estómago"
+        },
+        {
+          "left": "the antibiotic",
+          "right": "el antibiótico"
+        },
+        {
+          "left": "the vaccine",
+          "right": "la vacuna"
+        }
+      ],
+      "note": "You already know cómo estás: the words for how you feel are nouns, and tener says you have them."
+    },
+    {
+      "id": "es/a1/u35/select/pastilla",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the tablet”.",
+      "options": [
+        "enfermo",
+        "la fiebre",
+        "sano",
+        "la pastilla"
+      ],
+      "answer": "la pastilla",
+      "translation": "the tablet",
+      "note": "Feminine: la pastilla."
+    },
+    {
+      "id": "es/a1/u35/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está roto.",
+      "answer": "hueso",
+      "acceptedAnswers": [
+        "hueso"
+      ],
+      "translation": "the bone is broken",
+      "note": "Hueso is masculine."
+    },
+    {
+      "id": "es/a1/u35/select/tos",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the cough”.",
+      "options": [
+        "la piel",
+        "el estómago",
+        "el antibiótico",
+        "la tos"
+      ],
+      "answer": "la tos",
+      "translation": "the cough",
+      "note": "Feminine: la tos."
+    },
+    {
+      "id": "es/a1/u35/drill/3",
+      "type": "type_in",
+      "prompt": "___ piel está roja.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the skin is red",
+      "note": "Piel is feminine."
+    },
+    {
+      "id": "es/a1/u35/drill/4",
+      "type": "type_in",
+      "prompt": "Necesito una pastilla y una ___.",
+      "answer": "cita",
+      "acceptedAnswers": [
+        "cita"
+      ],
+      "translation": "I need a tablet and an appointment",
+      "note": "Cita is feminine, so una cita."
+    }
+  ]
+}

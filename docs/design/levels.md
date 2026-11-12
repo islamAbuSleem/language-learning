@@ -27,7 +27,7 @@ content.
 | Level | Label | Grammar introduced | Units |
 | --- | --- | --- | --- |
 | **A0** | First steps | greetings and courtesy · saying who you are | 2 |
-| **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* · prepositions of place · the weather · adjectives that change · possessives · days of the week · shopping · ordering food · the body · the neighbourhood | 15 |
+| **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* · prepositions of place · the weather · adjectives that change · possessives · days of the week · shopping · ordering food · the body · the neighbourhood · home and its rooms · food and drink · the town and the street · work and study · health · the telephone · feelings · the months and the date · describing people · size and shape · sport, music, books · travel, money and the countryside | 50 |
 | **A2** | Elementary | regular *-er* and *-ir* verbs · *ir* · time · *tener* · question words · *saber* and *conocer* · *hay* and *gustar* · *por* and *para* · the future · the preterite · the imperfect · the imperative · the preterite perfect | 17 |
 | **B1** | Intermediate | stem-changing verbs · the progressive · object pronouns · demonstratives · reflexives · the recent past · comparisons · indirect objects · the conditional · the subjunctive · reported speech · relative clauses · the pluperfect | 14 |
 | **B2** | Upper intermediate | the passive voice · the past and perfect subjunctive · the compound infinitive · verbs with a preposition · nominalisation · connectors · adjective position · *ser* and *estar* in their advanced difference · reporting · the participle as an adjective · formal register | 12 |
@@ -65,9 +65,52 @@ their name, and thank them.
 | 13 | Ordering food | *con* and *sin* | 10 | yes |
 | 14 | The body and health | *tener* + a noun | 10 | yes |
 | 15 | Your neighbourhood | *ser de* against *estar* | 10 | yes |
+| 16 | In the kitchen | gender and articles, prepositions of place | 10 | yes |
+| 17 | The bedroom | gender and articles, saying where things are | 10 | yes |
+| 18 | The bathroom | gender and articles, what things are for | 10 | yes |
+| 19 | Around the house | gender and articles, the plural | 10 | yes |
+| 20 | In the garden | gender and articles, regular *-ar* verbs | 10 | yes |
+| 21 | Fruit | gender and articles, the plural | 10 | yes |
+| 22 | Vegetables | gender and articles, the plural | 10 | yes |
+| 23 | Meat and fish | gender and articles, the plural | 10 | yes |
+| 24 | Bread and cheese | gender and articles, *con* and *sin* | 10 | yes |
+| 25 | Sweets and snacks | gender and articles, the words for tastes | 10 | yes |
+| 26 | Drinks | gender and articles, the words for a drink | 10 | yes |
+| 27 | In the town | gender and articles, the ending *-ería* | 10 | yes |
+| 28 | In the street | gender and articles, prepositions of place | 10 | yes |
+| 29 | At the market | gender and articles, the plural | 10 | yes |
+| 30 | In the park | gender and articles, the plural | 10 | yes |
+| 31 | The beach | gender and articles, prepositions of place | 10 | yes |
+| 32 | Work | *ser* and a profession, without an article | 10 | yes |
+| 33 | The office | gender and articles, what things are for | 10 | yes |
+| 34 | At school | gender and articles, the words for a school day | 10 | yes |
+| 35 | The doctor | *tener* and a noun, gender and articles | 10 | yes |
+| 36 | The telephone | gender and articles, the words for a call | 10 | yes |
+| 37 | Feelings | adjectives that change, the two verbs for how you are | 10 | yes |
+| 38 | The months | the names of the months, without an article | 10 | yes |
+| 39 | The date and the year | the names of the months, the words for a date | 10 | yes |
+| 40 | Describing people | adjectives that change, *ser* | 10 | yes |
+| 41 | More colours | adjectives that change, the words for colours | 10 | yes |
+| 42 | Size and shape | gender and articles, the words for size | 10 | yes |
+| 43 | Sport | gender and articles, regular *-ar* verbs | 10 | yes |
+| 44 | Music and film | gender and articles, the words for the arts | 10 | yes |
+| 45 | Books and reading | gender and articles, the words for reading | 10 | yes |
+| 46 | Travelling | gender and articles, the words for a journey | 10 | yes |
+| 47 | Money | gender and articles, the words for paying | 10 | yes |
+| 48 | In the countryside | gender and articles, prepositions of place | 10 | yes |
+| 49 | The rooms of the house | gender and articles, prepositions of place | 10 | yes |
+| 50 | Every day | regular *-ar* verbs, the words for a day at home | 10 | yes |
 
 **Exit criteria** — a learner has finished A1 when they can order, ask for
 directions, introduce themselves and describe their routine, in short exchanges.
+
+**The first fifteen units teach the grammar; the next thirty-five build the
+vocabulary.** The first fifteen are the ones that carry a new rule each, so
+they are the spine of the level. After that the course widens: home, food,
+the town, work, health, time, and the words for describing things, all built
+on the rules the first fifteen taught. That is how a real A1 course is
+weighted: a small set of grammar units, and a large set of thematically
+organised vocabulary.
 
 ## A2 — Elementary
 
@@ -186,9 +229,12 @@ itself was only taught in B1.
 
 ## Content gap
 
-60 units × 10 words = **600 words** for the Spanish track. At ten words a
-unit, that is sixty small vocabulary files rather than sixty large exercise
-files — the generator does the rest.
+95 units × 10 words = **950 words** for the Spanish track. At ten words a
+unit, that is ninety-five small vocabulary files rather than ninety-five large
+exercise files — the generator does the rest.
+
+A1 alone holds 500 words across 50 units, which is the size a real A1 course
+is. The other levels are thinner for now, and that is the next thing to grow.
 
 `listen` needs audio. The schema, the renderer and the browser's own voice are
 in place; recorded audio would replace the voice and change nothing else.

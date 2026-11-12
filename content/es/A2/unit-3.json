@@ -98,9 +98,9 @@
       "prompt": "Pick the Spanish word for “to go”.",
       "options": [
         "ir",
-        "beber",
-        "comer",
-        "aprender"
+        "necesitar",
+        "mirar",
+        "estar"
       ],
       "answer": "ir",
       "translation": "to go",
@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to come”.",
       "options": [
-        "decidir",
-        "volver",
-        "ir",
+        "cocinar",
+        "necesitar",
+        "mirar",
         "venir"
       ],
       "answer": "venir",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to return”.",
       "options": [
-        "pedir",
-        "servir",
-        "repetir",
+        "responder",
+        "escribir",
+        "recibir",
         "volver"
       ],
       "answer": "volver",

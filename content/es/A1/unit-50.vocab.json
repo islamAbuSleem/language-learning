@@ -1,0 +1,48 @@
+{
+  "unit": 50,
+  "title": "Every day",
+  "description": "Name the jobs you do at home, and say when you do them.",
+  "grammar": "regular -ar verbs, and the words for a day at home",
+  "grammarNote": "Every verb in this unit is a regular -ar verb, so they all work the way you already know.",
+  "explanation": {
+    "summary": "The last unit of A1 is a set of -ar verbs: the things you do around the house. It is a good place to finish, because everything here is a verb you can use straight away.",
+    "sections": [
+      {
+        "heading": "The verbs",
+        "body": "Barrer, planchar, lavar, doblar, fregar, cortar, nadar, pescar, pasear and visitar are all regular -ar verbs. You drop the -ar and add the ending of the person: yo barro, tú barres, él barre.",
+        "examples": [
+          { "es": "barro la cocina", "en": "I sweep the kitchen" },
+          { "es": "ella nada en el lago", "en": "she swims in the lake" },
+          { "es": "visitamos a mi abuela", "en": "we visit my grandmother" }
+        ]
+      },
+      {
+        "heading": "Every day",
+        "body": "These verbs take a thing, and the thing keeps its article: barro el suelo, lavo los platos, doblo la ropa. The word for the floor is el suelo, and the word for the washing is la ropa.",
+        "examples": [
+          { "es": "lavo la ropa", "en": "I wash the clothes" },
+          { "es": "doblo la ropa", "en": "I fold the clothes" },
+          { "es": "corto el pan", "en": "I cut the bread" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "barrer", "en": "to sweep", "article": null, "note": "A regular -ar verb: barro, barres, barre.", "tags": ["verb"] },
+    { "es": "planchar", "en": "to iron", "article": null, "note": "A regular -ar verb: plancho, planchas, plancha.", "tags": ["verb"] },
+    { "es": "lavar", "en": "to wash", "article": null, "note": "A regular -ar verb: lavo, lavas, lava.", "tags": ["verb"] },
+    { "es": "doblar", "en": "to fold", "article": null, "note": "A regular -ar verb: doblo, doblas, dobla.", "tags": ["verb"] },
+    { "es": "fregar", "en": "to scrub", "article": null, "note": "A regular -ar verb: friego, friegas, friega.", "tags": ["verb"] },
+    { "es": "cortar", "en": "to cut", "article": null, "note": "A regular -ar verb: corto, cortas, corta.", "tags": ["verb"] },
+    { "es": "nadar", "en": "to swim", "article": null, "note": "A regular -ar verb: nado, nadas, nada.", "tags": ["verb"] },
+    { "es": "pescar", "en": "to fish", "article": null, "note": "A regular -ar verb: pesco, pescas, pesca.", "tags": ["verb"] },
+    { "es": "pasear", "en": "to walk, to stroll", "article": null, "note": "A regular -ar verb: paseo, paseas, pasea.", "tags": ["verb"] },
+    { "es": "visitar", "en": "to visit", "article": null, "note": "A regular -ar verb: visito, visitas, visita.", "tags": ["verb"] }
+  ],
+  "drills": [
+    { "prompt": "Yo ___ la cocina.", "answer": "barro", "meaning": "I sweep the kitchen", "note": "Barrer with yo is barro." },
+    { "prompt": "Ella ___ la ropa.", "answer": "lava", "meaning": "she washes the clothes", "note": "Lavar with ella is lava." },
+    { "prompt": "Nosotros ___ en el lago.", "answer": "nadamos", "meaning": "we swim in the lake", "note": "Nadar with nosotros is nadamos." },
+    { "prompt": "Tú ___ el pan.", "answer": "cortas", "meaning": "you cut the bread", "note": "Cortar with tú is cortas." }
+  ]
+}

@@ -39,7 +39,7 @@
     { "es": "viernes", "en": "Friday", "article": "el", "note": "Masculine: el viernes. It is also plural in meaning.", "tags": ["day"] },
     { "es": "sábado", "en": "Saturday", "article": "el", "note": "Masculine: el sábado.", "tags": ["day"] },
     { "es": "domingo", "en": "Sunday", "article": "el", "note": "Masculine: el domingo.", "tags": ["day"] },
-    { "es": "mañana", "en": "morning", "article": null, "note": "In the phrase por la mañana. On its own it also means tomorrow.", "tags": ["time"] },
+    { "es": "mediodía", "en": "midday", "article": "el", "note": "Masculine: el mediodía. The hour is feminine in this phrase: a la una.", "tags": ["time"] },
     { "es": "tarde", "en": "afternoon", "article": null, "note": "In the phrase por la tarde. On its own it also means late.", "tags": ["time"] },
     { "es": "noche", "en": "night", "article": null, "note": "In the phrase por la noche. It also means the night itself.", "tags": ["time"] }
   ],

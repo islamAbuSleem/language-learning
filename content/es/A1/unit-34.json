@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 34,
+  "title": "At school",
+  "description": "Name the things on a school desk, and say what happens in class.",
+  "explanation": {
+    "summary": "Everything on a school desk has a name, and a school day has a shape. This unit gives you both: the objects and the words for the parts of the day.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El cuaderno, el bolígrafo, el examen, el recreo y el diccionario are masculine. La mochila, la regla, la tiza, la clase y la pizarra are feminine. La clase means both the lesson and the group of people in it, and el recreo is the break between lessons.",
+        "examples": [
+          {
+            "es": "el cuaderno",
+            "en": "the notebook"
+          },
+          {
+            "es": "la mochila",
+            "en": "the rucksack"
+          },
+          {
+            "es": "la pizarra",
+            "en": "the blackboard"
+          }
+        ]
+      },
+      {
+        "heading": "A school day",
+        "body": "The day has parts and each one is a noun: la clase, el recreo, el examen. Ser says what something is: el examen es difícil. Estar says how something is: la clase está mañana, the lesson is tomorrow.",
+        "examples": [
+          {
+            "es": "el examen es difícil",
+            "en": "the exam is difficult"
+          },
+          {
+            "es": "el recreo es a las once",
+            "en": "the break is at eleven"
+          },
+          {
+            "es": "la mochila está en la silla",
+            "en": "the rucksack is on the chair"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u34/match/cuaderno",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the notebook",
+          "right": "el cuaderno"
+        },
+        {
+          "left": "the rucksack",
+          "right": "la mochila"
+        },
+        {
+          "left": "the pen",
+          "right": "el bolígrafo"
+        },
+        {
+          "left": "the ruler",
+          "right": "la regla"
+        },
+        {
+          "left": "the chalk",
+          "right": "la tiza"
+        }
+      ],
+      "note": "The nouns for school things are ordinary nouns, so they take el or la like everything else."
+    },
+    {
+      "id": "es/a1/u34/select/cuaderno",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the notebook”.",
+      "options": [
+        "la mochila",
+        "la regla",
+        "el bolígrafo",
+        "el cuaderno"
+      ],
+      "answer": "el cuaderno",
+      "translation": "the notebook",
+      "note": "Masculine: el cuaderno."
+    },
+    {
+      "id": "es/a1/u34/listen/mochila",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la mochila",
+      "options": [
+        "el diccionario",
+        "la pizarra",
+        "el cuaderno",
+        "la mochila"
+      ],
+      "audio": {
+        "text": "mochila",
+        "lang": "es"
+      },
+      "translation": "the rucksack",
+      "note": "Feminine: la mochila."
+    },
+    {
+      "id": "es/a1/u34/drill/1",
+      "type": "type_in",
+      "prompt": "___ mochila es grande.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the rucksack is big",
+      "note": "Mochila is feminine."
+    },
+    {
+      "id": "es/a1/u34/match/examen",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the exam",
+          "right": "el examen"
+        },
+        {
+          "left": "the class",
+          "right": "la clase"
+        },
+        {
+          "left": "the break",
+          "right": "el recreo"
+        },
+        {
+          "left": "the dictionary",
+          "right": "el diccionario"
+        },
+        {
+          "left": "the blackboard",
+          "right": "la pizarra"
+        }
+      ],
+      "note": "The nouns for school things are ordinary nouns, so they take el or la like everything else."
+    },
+    {
+      "id": "es/a1/u34/select/boligrafo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the pen”.",
+      "options": [
+        "el bolígrafo",
+        "el recreo",
+        "la clase",
+        "el diccionario"
+      ],
+      "answer": "el bolígrafo",
+      "translation": "the pen",
+      "note": "Masculine: el bolígrafo. The accent marks the stress."
+    },
+    {
+      "id": "es/a1/u34/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es fácil.",
+      "answer": "examen",
+      "acceptedAnswers": [
+        "examen"
+      ],
+      "translation": "the exam is easy",
+      "note": "Examen is masculine."
+    },
+    {
+      "id": "es/a1/u34/select/regla",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the ruler”.",
+      "options": [
+        "la regla",
+        "la mochila",
+        "el bolígrafo",
+        "la tiza"
+      ],
+      "answer": "la regla",
+      "translation": "the ruler",
+      "note": "Feminine: la regla."
+    },
+    {
+      "id": "es/a1/u34/drill/3",
+      "type": "type_in",
+      "prompt": "___ pizarra está sucia.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the blackboard is dirty",
+      "note": "Pizarra is feminine."
+    },
+    {
+      "id": "es/a1/u34/drill/4",
+      "type": "type_in",
+      "prompt": "Busco una palabra en el ___.",
+      "answer": "diccionario",
+      "acceptedAnswers": [
+        "diccionario"
+      ],
+      "translation": "I look for a word in the dictionary",
+      "note": "Diccionario is masculine."
+    }
+  ]
+}

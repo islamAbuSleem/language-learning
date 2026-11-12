@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 26,
+  "title": "Drinks",
+  "description": "Name the drinks, and ask for one at the bar.",
+  "explanation": {
+    "summary": "Drinks are nouns like any other, and the bar is where a learner first uses them. Two of them are phrases, and one of them keeps el even though it is a feminine word.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El zumo, el vino, el refresco, el ponche and el café con leche are masculine. La cerveza, la limonada, la infusión and la horchata are feminine. El agua con gas is the exception that proves the rule: agua is feminine, but a stressed final -a takes el, exactly like el agua and el agua mineral.",
+        "examples": [
+          {
+            "es": "el zumo",
+            "en": "the juice"
+          },
+          {
+            "es": "la cerveza",
+            "en": "the beer"
+          },
+          {
+            "es": "el agua con gas",
+            "en": "the sparkling water"
+          }
+        ]
+      },
+      {
+        "heading": "At the bar",
+        "body": "You ask for a drink with un or una and the name of the drink: un zumo, una cerveza, un café con leche. A cold drink is un zumo frío, and the adjective comes after the noun and changes to match it.",
+        "examples": [
+          {
+            "es": "quiero una cerveza fría",
+            "en": "I want a cold beer"
+          },
+          {
+            "es": "un café con leche, por favor",
+            "en": "a coffee with milk, please"
+          },
+          {
+            "es": "el zumo es natural",
+            "en": "the juice is natural"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u26/match/zumo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the juice",
+          "right": "el zumo"
+        },
+        {
+          "left": "the beer",
+          "right": "la cerveza"
+        },
+        {
+          "left": "the wine",
+          "right": "el vino"
+        },
+        {
+          "left": "the soft drink",
+          "right": "el refresco"
+        },
+        {
+          "left": "the lemonade",
+          "right": "la limonada"
+        }
+      ],
+      "note": "A drink takes un or una when you ask for one, and the noun tells you which."
+    },
+    {
+      "id": "es/a1/u26/select/zumo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the juice”.",
+      "options": [
+        "la cerveza",
+        "el vino",
+        "el té",
+        "el zumo"
+      ],
+      "answer": "el zumo",
+      "translation": "the juice",
+      "note": "Masculine: el zumo."
+    },
+    {
+      "id": "es/a1/u26/listen/cerveza",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la cerveza",
+      "options": [
+        "el agua",
+        "el té",
+        "la leche",
+        "la cerveza"
+      ],
+      "audio": {
+        "text": "cerveza",
+        "lang": "es"
+      },
+      "translation": "the beer",
+      "note": "Feminine: la cerveza."
+    },
+    {
+      "id": "es/a1/u26/drill/1",
+      "type": "type_in",
+      "prompt": "___ cerveza está fría.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the beer is cold",
+      "note": "Cerveza is feminine."
+    },
+    {
+      "id": "es/a1/u26/match/infusion",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the tea infusion",
+          "right": "la infusión"
+        },
+        {
+          "left": "the sparkling water",
+          "right": "el agua con gas"
+        },
+        {
+          "left": "the coffee with milk",
+          "right": "el café con leche"
+        },
+        {
+          "left": "the horchata",
+          "right": "la horchata"
+        },
+        {
+          "left": "the punch",
+          "right": "el ponche"
+        }
+      ],
+      "note": "A drink takes un or una when you ask for one, and the noun tells you which."
+    },
+    {
+      "id": "es/a1/u26/select/vino",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the wine”.",
+      "options": [
+        "el café",
+        "el agua",
+        "el ponche",
+        "el vino"
+      ],
+      "answer": "el vino",
+      "translation": "the wine",
+      "note": "Masculine: el vino."
+    },
+    {
+      "id": "es/a1/u26/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es de naranja.",
+      "answer": "zumo",
+      "acceptedAnswers": [
+        "zumo"
+      ],
+      "translation": "the juice is orange",
+      "note": "Zumo is masculine."
+    },
+    {
+      "id": "es/a1/u26/select/refresco",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the soft drink”.",
+      "options": [
+        "el ponche",
+        "el agua",
+        "el café",
+        "el refresco"
+      ],
+      "answer": "el refresco",
+      "translation": "the soft drink",
+      "note": "Masculine: el refresco."
+    },
+    {
+      "id": "es/a1/u26/drill/3",
+      "type": "type_in",
+      "prompt": "Quiero ___ limonada.",
+      "answer": "una",
+      "acceptedAnswers": [
+        "una"
+      ],
+      "translation": "I want a lemonade",
+      "note": "Limonada is feminine, so una limonada."
+    },
+    {
+      "id": "es/a1/u26/drill/4",
+      "type": "type_in",
+      "prompt": "___ agua con gas, por favor.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "sparkling water, please",
+      "note": "Agua keeps el even though it is feminine."
+    }
+  ]
+}

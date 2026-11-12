@@ -85,9 +85,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “big”.",
       "options": [
-        "principal",
-        "especial",
-        "ninguno",
+        "mismo",
+        "alto",
+        "propio",
         "grande"
       ],
       "answer": "grande",
@@ -123,8 +123,8 @@
           "right": "mismo"
         },
         {
-          "left": "report",
-          "right": "el informe"
+          "left": "text",
+          "right": "el texto"
         },
         {
           "left": "coat",
@@ -139,9 +139,9 @@
       "prompt": "Pick the Spanish word for “small”.",
       "options": [
         "pequeño",
-        "claro",
-        "propio",
-        "oscuro"
+        "serio",
+        "bonito",
+        "divertido"
       ],
       "answer": "pequeño",
       "translation": "small",
@@ -163,9 +163,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “excellent”.",
       "options": [
-        "cada",
-        "todo",
-        "viejo",
+        "pequeño",
+        "nuevo",
+        "grande",
         "excelente"
       ],
       "answer": "excelente",

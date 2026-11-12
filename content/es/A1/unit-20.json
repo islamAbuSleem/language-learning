@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 20,
+  "title": "In the garden",
+  "description": "Name the things in a garden, and say what you do there.",
+  "explanation": {
+    "summary": "A garden is a place with living things in it, so it has its own nouns. And almost everything you do in a garden is an -ar verb: regar, plantar, cortar, mirar.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El árbol, el arbusto, el riego and el huerto are masculine. La flor, la hierba, la tierra, la semilla, el guante and la tijera are not all the same: el guante is masculine and la tijera is feminine, even though both end in -e. The ending is a guide, not a rule.",
+        "examples": [
+          {
+            "es": "el árbol",
+            "en": "the tree"
+          },
+          {
+            "es": "la flor",
+            "en": "the flower"
+          },
+          {
+            "es": "la tijera",
+            "en": "the scissors"
+          }
+        ]
+      },
+      {
+        "heading": "What you do there",
+        "body": "An -ar verb drops the -ar and takes the ending that matches the person: yo riego, tú riegas, él riega. The plural of these nouns works as you saw: el árbol becomes los árboles and la flor becomes las flores.",
+        "examples": [
+          {
+            "es": "riego las flores",
+            "en": "I water the flowers"
+          },
+          {
+            "es": "los árboles son grandes",
+            "en": "the trees are big"
+          },
+          {
+            "es": "hay una semilla en la tierra",
+            "en": "there is a seed in the earth"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u20/match/arbol",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the tree",
+          "right": "el árbol"
+        },
+        {
+          "left": "the flower",
+          "right": "la flor"
+        },
+        {
+          "left": "the bush",
+          "right": "el arbusto"
+        },
+        {
+          "left": "the grass",
+          "right": "la hierba"
+        },
+        {
+          "left": "the earth",
+          "right": "la tierra"
+        }
+      ],
+      "note": "Most of the verbs in a garden are -ar verbs, and they work the way you already know."
+    },
+    {
+      "id": "es/a1/u20/select/arbol",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the tree”.",
+      "options": [
+        "la tijera",
+        "el huerto",
+        "el árbol",
+        "el guante"
+      ],
+      "answer": "el árbol",
+      "translation": "the tree",
+      "note": "Masculine: el árbol. The plural is los árboles."
+    },
+    {
+      "id": "es/a1/u20/listen/flor",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la flor",
+      "options": [
+        "el guante",
+        "la tijera",
+        "el huerto",
+        "la flor"
+      ],
+      "audio": {
+        "text": "flor",
+        "lang": "es"
+      },
+      "translation": "the flower",
+      "note": "Feminine: la flor."
+    },
+    {
+      "id": "es/a1/u20/drill/1",
+      "type": "type_in",
+      "prompt": "___ árbol es grande.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the tree is big",
+      "note": "Árbol is masculine."
+    },
+    {
+      "id": "es/a1/u20/match/semilla",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the seed",
+          "right": "la semilla"
+        },
+        {
+          "left": "the watering",
+          "right": "el riego"
+        },
+        {
+          "left": "the glove",
+          "right": "el guante"
+        },
+        {
+          "left": "the scissors",
+          "right": "la tijera"
+        },
+        {
+          "left": "the vegetable garden",
+          "right": "el huerto"
+        }
+      ],
+      "note": "Most of the verbs in a garden are -ar verbs, and they work the way you already know."
+    },
+    {
+      "id": "es/a1/u20/select/arbusto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the bush”.",
+      "options": [
+        "la hierba",
+        "la tierra",
+        "la semilla",
+        "el arbusto"
+      ],
+      "answer": "el arbusto",
+      "translation": "the bush",
+      "note": "Masculine: el arbusto."
+    },
+    {
+      "id": "es/a1/u20/drill/2",
+      "type": "type_in",
+      "prompt": "Las ___ son pequeñas.",
+      "answer": "flores",
+      "acceptedAnswers": [
+        "flores"
+      ],
+      "translation": "the flowers are small",
+      "note": "Flor is feminine, so las flores."
+    },
+    {
+      "id": "es/a1/u20/select/hierba",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the grass”.",
+      "options": [
+        "la tijera",
+        "el árbol",
+        "el huerto",
+        "la hierba"
+      ],
+      "answer": "la hierba",
+      "translation": "the grass",
+      "note": "Feminine: la hierba."
+    },
+    {
+      "id": "es/a1/u20/drill/3",
+      "type": "type_in",
+      "prompt": "___ tierra está mojada.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the earth is wet",
+      "note": "Tierra is feminine."
+    },
+    {
+      "id": "es/a1/u20/drill/4",
+      "type": "type_in",
+      "prompt": "Necesito una ___ para cortar.",
+      "answer": "tijera",
+      "acceptedAnswers": [
+        "tijera"
+      ],
+      "translation": "I need a pair of scissors to cut",
+      "note": "Tijera is feminine, so una tijera."
+    }
+  ]
+}

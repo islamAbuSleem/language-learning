@@ -1,0 +1,48 @@
+{
+  "unit": 39,
+  "title": "The date and the year",
+  "description": "Finish the year, and talk about birthdays and seasons.",
+  "grammar": "the names of the months, and the words for a date",
+  "grammarNote": "A month takes no article, but a birthday and a season do.",
+  "explanation": {
+    "summary": "The last two months, and the words you need for a date, a birthday and a season. This is where the months finish and the seasons begin.",
+    "sections": [
+      {
+        "heading": "The last two months",
+        "body": "Noviembre and diciembre close the year, and they follow the rule of the others: no article. En noviembre, en diciembre. The date is la fecha, and it is feminine: la fecha es el 5 de noviembre.",
+        "examples": [
+          { "es": "en noviembre", "en": "in November" },
+          { "es": "en diciembre", "en": "in December" },
+          { "es": "la fecha es el 5 de noviembre", "en": "the date is the fifth of November" }
+        ]
+      },
+      {
+        "heading": "Birthdays and seasons",
+        "body": "A birthday takes el: el cumpleaños is on the same day every year. The seasons take their article: la primavera, el otoño. The end of the year is el año nuevo, and the quiet days are el fin de semana.",
+        "examples": [
+          { "es": "el cumpleaños es en mayo", "en": "the birthday is in May" },
+          { "es": "en primavera hace buen tiempo", "en": "in spring the weather is nice" },
+          { "es": "el fin de semana es el sábado y el domingo", "en": "the weekend is Saturday and Sunday" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "noviembre", "en": "November", "article": null, "note": "No article: en noviembre.", "tags": ["time"] },
+    { "es": "diciembre", "en": "December", "article": null, "note": "No article: en diciembre.", "tags": ["time"] },
+    { "es": "fecha", "en": "the date", "article": "la", "note": "Feminine: la fecha.", "tags": ["time"] },
+    { "es": "cumpleaños", "en": "the birthday", "article": "el", "note": "Masculine: el cumpleaños. The plural keeps the ñ: los cumpleaños.", "tags": ["time"] },
+    { "es": "edad", "en": "the age", "article": "la", "note": "Feminine: la edad.", "tags": ["time"] },
+    { "es": "fin de semana", "en": "the weekend", "article": "el", "note": "Masculine: el fin de semana.", "tags": ["time"] },
+    { "es": "año nuevo", "en": "the new year", "article": "el", "note": "Masculine: el año nuevo.", "tags": ["time"] },
+    { "es": "primavera", "en": "spring", "article": "la", "note": "Feminine: la primavera.", "tags": ["time"] },
+    { "es": "otoño", "en": "autumn", "article": "el", "note": "Masculine: el otoño. The accent marks the stress.", "tags": ["time"] },
+    { "es": "Navidad", "en": "Christmas", "article": "la", "note": "Feminine: la Navidad. It is always written with a capital N.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "Mi ___ es en diciembre.", "answer": "cumpleaños", "meaning": "my birthday is in December", "note": "Cumpleaños takes el." },
+    { "prompt": "En ___ hace frío.", "answer": "noviembre", "meaning": "in November it is cold", "note": "A month takes no article." },
+    { "prompt": "___ primavera es mi estación favorita.", "answer": "La", "meaning": "spring is my favourite season", "note": "Primavera is feminine." },
+    { "prompt": "___ Navidad es en diciembre.", "answer": "La", "meaning": "Christmas is in December", "note": "Navidad is feminine." }
+  ]
+}

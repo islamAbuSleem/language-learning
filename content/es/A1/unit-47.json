@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 47,
+  "title": "Money",
+  "description": "Name the words for money, and talk about paying.",
+  "explanation": {
+    "summary": "Money has its own vocabulary, and it is the vocabulary a learner needs at the till and on the phone with a bank.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El efectivo, el cambio, el presupuesto, el descuento, el saldo y el cajero are masculine. La tarjeta, la moneda, la compra y la venta are feminine. El efectivo is cash, la tarjeta is the card you pay with, and el cajero is the cashier or the cash machine.",
+        "examples": [
+          {
+            "es": "el efectivo",
+            "en": "the cash"
+          },
+          {
+            "es": "la tarjeta",
+            "en": "the card"
+          },
+          {
+            "es": "el cajero",
+            "en": "the cashier"
+          }
+        ]
+      },
+      {
+        "heading": "Paying",
+        "body": "Pagar takes a thing: pago con tarjeta, pago con efectivo. El precio is what it costs, and el descuento takes money off it. El saldo is what is left on an account, and el presupuesto is what you decided to spend.",
+        "examples": [
+          {
+            "es": "pago con tarjeta",
+            "en": "I pay by card"
+          },
+          {
+            "es": "el precio es veinte euros",
+            "en": "the price is twenty euros"
+          },
+          {
+            "es": "el saldo de mi cuenta es bajo",
+            "en": "the balance in my account is low"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u47/match/tarjeta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the card",
+          "right": "la tarjeta"
+        },
+        {
+          "left": "the cash",
+          "right": "el efectivo"
+        },
+        {
+          "left": "the coin",
+          "right": "la moneda"
+        },
+        {
+          "left": "the change",
+          "right": "el cambio"
+        },
+        {
+          "left": "the budget",
+          "right": "el presupuesto"
+        }
+      ],
+      "note": "Paying is a set of nouns, and they follow the usual article rules."
+    },
+    {
+      "id": "es/a1/u47/select/tarjeta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the card”.",
+      "options": [
+        "el saldo",
+        "el cajero",
+        "el efectivo",
+        "la tarjeta"
+      ],
+      "answer": "la tarjeta",
+      "translation": "the card",
+      "note": "Feminine: la tarjeta."
+    },
+    {
+      "id": "es/a1/u47/listen/efectivo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el efectivo",
+      "options": [
+        "el saldo",
+        "la tarjeta",
+        "el cajero",
+        "el efectivo"
+      ],
+      "audio": {
+        "text": "efectivo",
+        "lang": "es"
+      },
+      "translation": "the cash",
+      "note": "Masculine: el efectivo. You pay en efectivo, in cash."
+    },
+    {
+      "id": "es/a1/u47/drill/1",
+      "type": "type_in",
+      "prompt": "Pago con ___.",
+      "answer": "tarjeta",
+      "acceptedAnswers": [
+        "tarjeta"
+      ],
+      "translation": "I pay by card",
+      "note": "Tarjeta is feminine."
+    },
+    {
+      "id": "es/a1/u47/match/compra",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the purchase",
+          "right": "la compra"
+        },
+        {
+          "left": "the sale",
+          "right": "la venta"
+        },
+        {
+          "left": "the discount",
+          "right": "el descuento"
+        },
+        {
+          "left": "the balance",
+          "right": "el saldo"
+        },
+        {
+          "left": "the cashier",
+          "right": "el cajero"
+        }
+      ],
+      "note": "Paying is a set of nouns, and they follow the usual article rules."
+    },
+    {
+      "id": "es/a1/u47/select/moneda",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the coin”.",
+      "options": [
+        "el presupuesto",
+        "la venta",
+        "la compra",
+        "la moneda"
+      ],
+      "answer": "la moneda",
+      "translation": "the coin",
+      "note": "Feminine: la moneda."
+    },
+    {
+      "id": "es/a1/u47/drill/2",
+      "type": "type_in",
+      "prompt": "___ precio es muy alto.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the price is very high",
+      "note": "Precio is masculine."
+    },
+    {
+      "id": "es/a1/u47/select/cambio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the change”.",
+      "options": [
+        "el cambio",
+        "el efectivo",
+        "la tarjeta",
+        "el cajero"
+      ],
+      "answer": "el cambio",
+      "translation": "the change",
+      "note": "Masculine: el cambio. It is also the exchange rate."
+    },
+    {
+      "id": "es/a1/u47/drill/3",
+      "type": "type_in",
+      "prompt": "___ efectivo no es suficiente.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the cash is not enough",
+      "note": "Efectivo is masculine."
+    },
+    {
+      "id": "es/a1/u47/drill/4",
+      "type": "type_in",
+      "prompt": "Me dan ___ cambio.",
+      "answer": "el",
+      "acceptedAnswers": [
+        "el"
+      ],
+      "translation": "they give me the change",
+      "note": "Cambio is masculine."
+    }
+  ]
+}

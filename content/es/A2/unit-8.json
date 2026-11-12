@@ -85,9 +85,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “trip”.",
       "options": [
-        "la fiesta",
-        "tarde",
-        "el recuerdo",
+        "la frontera",
+        "el hotel",
+        "la aduana",
         "el viaje"
       ],
       "answer": "el viaje",
@@ -139,9 +139,9 @@
       "prompt": "Pick the Spanish word for “souvenir”.",
       "options": [
         "el recuerdo",
-        "la fiesta",
-        "la pregunta",
-        "el viaje"
+        "el pasaporte",
+        "el vuelo",
+        "la maleta"
       ],
       "answer": "el recuerdo",
       "translation": "souvenir",

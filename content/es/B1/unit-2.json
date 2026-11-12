@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “good”.",
       "options": [
-        "malo",
-        "grande",
-        "pequeño",
+        "alto",
+        "gordo",
+        "delgado",
         "bueno"
       ],
       "answer": "bueno",
@@ -151,9 +151,9 @@
       "prompt": "Pick the Spanish word for “bad”.",
       "options": [
         "malo",
-        "nuevo",
-        "pequeño",
-        "joven"
+        "feo",
+        "bonito",
+        "bueno"
       ],
       "answer": "malo",
       "translation": "bad",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “big”.",
       "options": [
-        "bueno",
-        "pequeño",
-        "malo",
+        "simpático",
+        "divertido",
+        "inteligente",
         "grande"
       ],
       "answer": "grande",

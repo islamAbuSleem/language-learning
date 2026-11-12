@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 29,
+  "title": "At the market",
+  "description": "Name the people and the things at a market stall.",
+  "explanation": {
+    "summary": "A market is people and objects. The nouns are ordinary ones, but they are the words a learner hears first when they go shopping for food.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El vendedor, el cliente, el carrito, el toldo, el almacén and el ticket are masculine. La bandeja, la báscula, la etiqueta and la fila are feminine. A folder is la carpeta, and the scale that weighs your shopping is la báscula.",
+        "examples": [
+          {
+            "es": "el vendedor",
+            "en": "the seller"
+          },
+          {
+            "es": "la báscula",
+            "en": "the scale"
+          },
+          {
+            "es": "la fila",
+            "en": "the queue"
+          }
+        ]
+      },
+      {
+        "heading": "Words that change in the plural",
+        "body": "The plural adds -s or -es: el vendedor becomes los vendedores and la etiqueta becomes las etiquetas. Two words lose the accent in the plural: el almacén becomes los almacenes and la etiqueta becomes las etiquetas.",
+        "examples": [
+          {
+            "es": "los vendedores",
+            "en": "the sellers"
+          },
+          {
+            "es": "las etiquetas",
+            "en": "the labels"
+          },
+          {
+            "es": "hay mucha gente en la fila",
+            "en": "there are a lot of people in the queue"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u29/match/vendedor",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the seller",
+          "right": "el vendedor"
+        },
+        {
+          "left": "the customer",
+          "right": "el cliente"
+        },
+        {
+          "left": "the tray",
+          "right": "la bandeja"
+        },
+        {
+          "left": "the trolley",
+          "right": "el carrito"
+        },
+        {
+          "left": "the awning",
+          "right": "el toldo"
+        }
+      ],
+      "note": "Some market words end in -o and some in -a, and the ending tells you which."
+    },
+    {
+      "id": "es/a1/u29/select/vendedor",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the seller”.",
+      "options": [
+        "la bandeja",
+        "el carrito",
+        "el cliente",
+        "el vendedor"
+      ],
+      "answer": "el vendedor",
+      "translation": "the seller",
+      "note": "Masculine: el vendedor. The feminine is la vendedora."
+    },
+    {
+      "id": "es/a1/u29/listen/cliente",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el cliente",
+      "options": [
+        "el cliente",
+        "el vendedor",
+        "el ticket",
+        "el almacén"
+      ],
+      "audio": {
+        "text": "cliente",
+        "lang": "es"
+      },
+      "translation": "the customer",
+      "note": "Masculine: el cliente."
+    },
+    {
+      "id": "es/a1/u29/drill/1",
+      "type": "type_in",
+      "prompt": "___ vendedor es muy simpático.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the seller is very friendly",
+      "note": "Vendedor is masculine."
+    },
+    {
+      "id": "es/a1/u29/match/bascula",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the scale",
+          "right": "la báscula"
+        },
+        {
+          "left": "the label",
+          "right": "la etiqueta"
+        },
+        {
+          "left": "the queue",
+          "right": "la fila"
+        },
+        {
+          "left": "the warehouse",
+          "right": "el almacén"
+        },
+        {
+          "left": "the receipt",
+          "right": "el ticket"
+        }
+      ],
+      "note": "Some market words end in -o and some in -a, and the ending tells you which."
+    },
+    {
+      "id": "es/a1/u29/select/bandeja",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the tray”.",
+      "options": [
+        "la etiqueta",
+        "la fila",
+        "el almacén",
+        "la bandeja"
+      ],
+      "answer": "la bandeja",
+      "translation": "the tray",
+      "note": "Feminine: la bandeja."
+    },
+    {
+      "id": "es/a1/u29/drill/2",
+      "type": "type_in",
+      "prompt": "___ etiqueta está en la caja.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the label is on the box",
+      "note": "Etiqueta is feminine."
+    },
+    {
+      "id": "es/a1/u29/select/carrito",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the trolley”.",
+      "options": [
+        "el carrito",
+        "el cliente",
+        "la bandeja",
+        "el toldo"
+      ],
+      "answer": "el carrito",
+      "translation": "the trolley",
+      "note": "Masculine: el carrito. It is the small -ito that makes it small."
+    },
+    {
+      "id": "es/a1/u29/drill/3",
+      "type": "type_in",
+      "prompt": "Los ___ están en el almacén.",
+      "answer": "clientes",
+      "acceptedAnswers": [
+        "clientes"
+      ],
+      "translation": "the customers are in the warehouse",
+      "note": "A noun ending in a vowel adds -es."
+    },
+    {
+      "id": "es/a1/u29/drill/4",
+      "type": "type_in",
+      "prompt": "Pongo los artículos en la ___.",
+      "answer": "bandeja",
+      "acceptedAnswers": [
+        "bandeja"
+      ],
+      "translation": "I put the items on the tray",
+      "note": "Bandeja is feminine, so la bandeja."
+    }
+  ]
+}

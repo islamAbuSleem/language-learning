@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to like”.",
       "options": [
-        "abrir",
-        "compartir",
-        "descubrir",
+        "repetir",
+        "decidir",
+        "ir",
         "gustar"
       ],
       "answer": "gustar",
@@ -146,10 +146,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to love”.",
       "options": [
-        "leer",
-        "correr",
+        "planchar",
+        "doblar",
         "encantar",
-        "vender"
+        "lavar"
       ],
       "answer": "encantar",
       "translation": "to love",
@@ -171,9 +171,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to bother”.",
       "options": [
-        "trabajar",
-        "estudiar",
-        "hablar",
+        "hacer",
+        "saber",
+        "hay",
         "molestar"
       ],
       "answer": "molestar",

@@ -45,7 +45,7 @@
     { "es": "banco", "en": "bench", "article": "el", "note": "Masculine: el banco. It also means a bank.", "tags": ["place"] },
     { "es": "puente", "en": "bridge", "article": "el", "note": "Masculine: el puente.", "tags": ["place"] },
     { "es": "fuente", "en": "fountain", "article": "la", "note": "Feminine: la fuente. It also means a source.", "tags": ["place"] },
-    { "es": "jardín", "en": "garden", "article": "el", "note": "Masculine: el jardín. The accent marks the stress.", "tags": ["place"] },
+    { "es": "parque", "en": "the park", "article": "el", "note": "Masculine: el parque.", "tags": ["place"] },
     { "es": "ruido", "en": "noise", "article": "el", "note": "Masculine: el ruido.", "tags": ["place"] }
   ],
   "drills": [

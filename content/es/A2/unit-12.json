@@ -83,9 +83,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I will speak”.",
       "options": [
-        "caminar",
-        "cocinar",
-        "estudiar",
+        "conocer",
+        "recordar",
+        "saber",
         "hablaré"
       ],
       "answer": "hablaré",
@@ -136,9 +136,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I will eat”.",
       "options": [
-        "hay",
-        "saber",
-        "hacer",
+        "correr",
+        "responder",
+        "perder",
         "comeré"
       ],
       "answer": "comeré",
@@ -161,9 +161,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I will live”.",
       "options": [
-        "querré",
-        "ser",
-        "llegar",
+        "gustar",
+        "molestar",
+        "encantar",
         "viviré"
       ],
       "answer": "viviré",

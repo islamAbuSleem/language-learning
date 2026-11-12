@@ -106,13 +106,13 @@
       "note": "Estar rico is about the food."
     },
     {
-      "id": "es/b2/u9/match/sin-embargo",
+      "id": "es/b2/u9/match/en-realidad",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
         {
-          "left": "however",
-          "right": "sin embargo"
+          "left": "in reality",
+          "right": "en realidad"
         },
         {
           "left": "in short",
@@ -139,7 +139,7 @@
       "prompt": "Pick the Spanish word for “in its place”.",
       "options": [
         "de acuerdo",
-        "sin embargo",
+        "en realidad",
         "en su sitio",
         "en efecto"
       ],
@@ -165,7 +165,7 @@
       "options": [
         "en suma",
         "en resumen",
-        "sin embargo",
+        "en realidad",
         "a punto de"
       ],
       "answer": "a punto de",

@@ -1,0 +1,48 @@
+{
+  "unit": 44,
+  "title": "Music and film",
+  "description": "Name the things on a stage, and talk about what you watch and hear.",
+  "grammar": "gender and articles, and the words for the arts",
+  "grammarNote": "These nouns are ordinary ones, and the ones that name a person take el or la like any other noun.",
+  "explanation": {
+    "summary": "Music and film have their own small set of nouns, and they are the words a learner needs to talk about what they watch and listen to.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El teatro, el concierto, el piano, el violín, el actor, el público y el programa are masculine. La guitarra, el baile y la actriz are feminine. El programa is the programme, and el público is the audience.",
+        "examples": [
+          { "es": "el concierto", "en": "the concert" },
+          { "es": "la guitarra", "en": "the guitar" },
+          { "es": "la actriz", "en": "the actress" }
+        ]
+      },
+      {
+        "heading": "Where the things are",
+        "body": "You already know how to say where something is. El concierto está en el teatro, the concert is at the theatre. La guitarra está en la caja, the guitar is in the case. Es and está work as usual: el baile es bonito, the dance is beautiful, and el teatro está lleno, the theatre is full.",
+        "examples": [
+          { "es": "el concierto está en el teatro", "en": "the concert is at the theatre" },
+          { "es": "el teatro está lleno", "en": "the theatre is full" },
+          { "es": "la guitarra es de mi hermano", "en": "the guitar is my brother's" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "teatro", "en": "the theatre", "article": "el", "note": "Masculine: el teatro.", "tags": ["arts"] },
+    { "es": "concierto", "en": "the concert", "article": "el", "note": "Masculine: el concierto.", "tags": ["arts"] },
+    { "es": "guitarra", "en": "the guitar", "article": "la", "note": "Feminine: la guitarra.", "tags": ["arts"] },
+    { "es": "piano", "en": "the piano", "article": "el", "note": "Masculine: el piano.", "tags": ["arts"] },
+    { "es": "violín", "en": "the violin", "article": "el", "note": "Masculine: el violín. The accent marks the stress.", "tags": ["arts"] },
+    { "es": "baile", "en": "the dance", "article": "el", "note": "Masculine: el baile.", "tags": ["arts"] },
+    { "es": "actor", "en": "the actor", "article": "el", "note": "Masculine: el actor.", "tags": ["arts"] },
+    { "es": "actriz", "en": "the actress", "article": "la", "note": "Feminine: la actriz.", "tags": ["arts"] },
+    { "es": "público", "en": "the audience", "article": "el", "note": "Masculine: el público. The accent marks the stress.", "tags": ["arts"] },
+    { "es": "programa", "en": "the programme", "article": "el", "note": "Masculine: el programa.", "tags": ["arts"] }
+  ],
+  "drills": [
+    { "prompt": "___ guitarra es de mi hermana.", "answer": "La", "meaning": "the guitar is my sister's", "note": "Guitarra is feminine." },
+    { "prompt": "El ___ es en el teatro.", "answer": "concierto", "meaning": "the concert is at the theatre", "note": "Concierto is masculine." },
+    { "prompt": "___ programa es interesante.", "answer": "El", "meaning": "the programme is interesting", "note": "Programa is masculine." },
+    { "prompt": "___ actriz es muy buena.", "answer": "La", "meaning": "the actress is very good", "note": "Actriz is feminine." }
+  ]
+}

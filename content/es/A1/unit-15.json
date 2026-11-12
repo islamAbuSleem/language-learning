@@ -135,8 +135,8 @@
           "right": "la fuente"
         },
         {
-          "left": "garden",
-          "right": "el jardín"
+          "left": "the park",
+          "right": "el parque"
         },
         {
           "left": "noise",
@@ -175,7 +175,7 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “building”.",
       "options": [
-        "bajo",
+        "allá",
         "el barrio",
         "la plaza",
         "el edificio"

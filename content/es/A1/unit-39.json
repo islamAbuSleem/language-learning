@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 39,
+  "title": "The date and the year",
+  "description": "Finish the year, and talk about birthdays and seasons.",
+  "explanation": {
+    "summary": "The last two months, and the words you need for a date, a birthday and a season. This is where the months finish and the seasons begin.",
+    "sections": [
+      {
+        "heading": "The last two months",
+        "body": "Noviembre and diciembre close the year, and they follow the rule of the others: no article. En noviembre, en diciembre. The date is la fecha, and it is feminine: la fecha es el 5 de noviembre.",
+        "examples": [
+          {
+            "es": "en noviembre",
+            "en": "in November"
+          },
+          {
+            "es": "en diciembre",
+            "en": "in December"
+          },
+          {
+            "es": "la fecha es el 5 de noviembre",
+            "en": "the date is the fifth of November"
+          }
+        ]
+      },
+      {
+        "heading": "Birthdays and seasons",
+        "body": "A birthday takes el: el cumpleaños is on the same day every year. The seasons take their article: la primavera, el otoño. The end of the year is el año nuevo, and the quiet days are el fin de semana.",
+        "examples": [
+          {
+            "es": "el cumpleaños es en mayo",
+            "en": "the birthday is in May"
+          },
+          {
+            "es": "en primavera hace buen tiempo",
+            "en": "in spring the weather is nice"
+          },
+          {
+            "es": "el fin de semana es el sábado y el domingo",
+            "en": "the weekend is Saturday and Sunday"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u39/match/noviembre",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "November",
+          "right": "noviembre"
+        },
+        {
+          "left": "December",
+          "right": "diciembre"
+        },
+        {
+          "left": "the date",
+          "right": "la fecha"
+        },
+        {
+          "left": "the birthday",
+          "right": "el cumpleaños"
+        },
+        {
+          "left": "the age",
+          "right": "la edad"
+        }
+      ],
+      "note": "A month takes no article, but a birthday and a season do."
+    },
+    {
+      "id": "es/a1/u39/select/noviembre",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “November”.",
+      "options": [
+        "agosto",
+        "septiembre",
+        "octubre",
+        "noviembre"
+      ],
+      "answer": "noviembre",
+      "translation": "November",
+      "note": "No article: en noviembre."
+    },
+    {
+      "id": "es/a1/u39/listen/diciembre",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "diciembre",
+      "options": [
+        "diciembre",
+        "el mediodía",
+        "mañana",
+        "el día"
+      ],
+      "audio": {
+        "text": "diciembre",
+        "lang": "es"
+      },
+      "translation": "December",
+      "note": "No article: en diciembre."
+    },
+    {
+      "id": "es/a1/u39/drill/1",
+      "type": "type_in",
+      "prompt": "Mi ___ es en diciembre.",
+      "answer": "cumpleaños",
+      "acceptedAnswers": [
+        "cumpleanos"
+      ],
+      "translation": "my birthday is in December",
+      "note": "Cumpleaños takes el."
+    },
+    {
+      "id": "es/a1/u39/match/fin-de-semana",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the weekend",
+          "right": "el fin de semana"
+        },
+        {
+          "left": "the new year",
+          "right": "el año nuevo"
+        },
+        {
+          "left": "spring",
+          "right": "la primavera"
+        },
+        {
+          "left": "autumn",
+          "right": "el otoño"
+        },
+        {
+          "left": "Christmas",
+          "right": "la Navidad"
+        }
+      ],
+      "note": "A month takes no article, but a birthday and a season do."
+    },
+    {
+      "id": "es/a1/u39/select/fecha",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the date”.",
+      "options": [
+        "abril",
+        "junio",
+        "mayo",
+        "la fecha"
+      ],
+      "answer": "la fecha",
+      "translation": "the date",
+      "note": "Feminine: la fecha."
+    },
+    {
+      "id": "es/a1/u39/drill/2",
+      "type": "type_in",
+      "prompt": "En ___ hace frío.",
+      "answer": "noviembre",
+      "acceptedAnswers": [
+        "noviembre"
+      ],
+      "translation": "in November it is cold",
+      "note": "A month takes no article."
+    },
+    {
+      "id": "es/a1/u39/select/cumpleanos",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the birthday”.",
+      "options": [
+        "enero",
+        "febrero",
+        "el cumpleaños",
+        "noche"
+      ],
+      "answer": "el cumpleaños",
+      "translation": "the birthday",
+      "note": "Masculine: el cumpleaños. The plural keeps the ñ: los cumpleaños."
+    },
+    {
+      "id": "es/a1/u39/drill/3",
+      "type": "type_in",
+      "prompt": "___ primavera es mi estación favorita.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "spring is my favourite season",
+      "note": "Primavera is feminine."
+    },
+    {
+      "id": "es/a1/u39/drill/4",
+      "type": "type_in",
+      "prompt": "___ Navidad es en diciembre.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "Christmas is in December",
+      "note": "Navidad is feminine."
+    }
+  ]
+}

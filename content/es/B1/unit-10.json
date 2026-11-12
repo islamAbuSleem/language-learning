@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would speak”.",
       "options": [
-        "repetir",
-        "ir",
-        "decidir",
+        "dormir",
+        "preferir",
+        "seguir",
         "hablaría"
       ],
       "answer": "hablaría",
@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would eat”.",
       "options": [
-        "comía",
-        "vivía",
-        "hablaba",
+        "trabajaré",
+        "estudiaré",
+        "viviré",
         "comería"
       ],
       "answer": "comería",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I would live”.",
       "options": [
-        "he trabajado",
-        "he estudiado",
-        "he visto",
+        "hablar",
+        "trabajar",
+        "estudiar",
         "viviría"
       ],
       "answer": "viviría",

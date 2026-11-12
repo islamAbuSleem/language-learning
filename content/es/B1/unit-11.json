@@ -93,9 +93,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “speak”.",
       "options": [
-        "trabajar",
-        "caminar",
-        "estudiar",
+        "cocinar",
+        "necesitar",
+        "mirar",
         "hable"
       ],
       "answer": "hable",
@@ -146,9 +146,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “eat”.",
       "options": [
-        "diga",
-        "llegar",
-        "ser",
+        "estudiaré",
+        "veré",
+        "haré",
         "coma"
       ],
       "answer": "coma",
@@ -171,9 +171,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “live”.",
       "options": [
-        "llegó",
-        "salió",
-        "hablaba",
+        "hemos abierto",
+        "querer",
+        "poder",
         "viva"
       ],
       "answer": "viva",

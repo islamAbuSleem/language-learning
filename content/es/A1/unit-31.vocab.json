@@ -1,0 +1,48 @@
+{
+  "unit": 31,
+  "title": "The beach",
+  "description": "Name the things on a beach, and say where they are.",
+  "grammar": "gender and articles, and prepositions of place",
+  "grammarNote": "Words for places and things at the sea follow the same article rules as everything else.",
+  "explanation": {
+    "summary": "The beach has its own small set of nouns, and most of them are feminine. The plural is worth noticing, because one of them loses its ending.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La orilla, la arena, la ola, la concha, la sombrilla, la espuma, la roca and el castillo de arena are feminine. El bañador and el cubo are masculine. El castillo de arena is a whole phrase, and it takes el like other masculine nouns.",
+        "examples": [
+          { "es": "la arena", "en": "the sand" },
+          { "es": "la ola", "en": "the wave" },
+          { "es": "el castillo de arena", "en": "the sandcastle" }
+        ]
+      },
+      {
+        "heading": "At the edge of the sea",
+        "body": "La orilla is where the water meets the sand. You say a thing is at the edge with en la orilla, and inside the water with en el agua. One word is special: la concha becomes las conchas in the plural, but el cubo becomes los cubos.",
+        "examples": [
+          { "es": "las olas están malas", "en": "the waves are bad" },
+          { "es": "la sombrilla está en la arena", "en": "the parasol is on the sand" },
+          { "es": "los niños están en el agua", "en": "the children are in the water" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "orilla", "en": "the shore", "article": "la", "note": "Feminine: la orilla.", "tags": ["beach"] },
+    { "es": "arena", "en": "the sand", "article": "la", "note": "Feminine: la arena.", "tags": ["beach"] },
+    { "es": "ola", "en": "the wave", "article": "la", "note": "Feminine: la ola.", "tags": ["beach"] },
+    { "es": "concha", "en": "the shell", "article": "la", "note": "Feminine: la concha.", "tags": ["beach"] },
+    { "es": "bañador", "en": "the swimsuit", "article": "el", "note": "Masculine: el bañador. The accent marks the stress.", "tags": ["beach"] },
+    { "es": "sombrilla", "en": "the parasol", "article": "la", "note": "Feminine: la sombrilla.", "tags": ["beach"] },
+    { "es": "cubo", "en": "the bucket", "article": "el", "note": "Masculine: el cubo. It is also a word for a cube.", "tags": ["beach"] },
+    { "es": "espuma", "en": "the foam", "article": "la", "note": "Feminine: la espuma.", "tags": ["beach"] },
+    { "es": "roca", "en": "the rock", "article": "la", "note": "Feminine: la roca.", "tags": ["beach"] },
+    { "es": "castillo de arena", "en": "the sandcastle", "article": "el", "note": "Masculine: el castillo de arena. A phrase with el in front of it.", "tags": ["beach"] }
+  ],
+  "drills": [
+    { "prompt": "___ arena está caliente.", "answer": "La", "meaning": "the sand is hot", "note": "Arena is feminine." },
+    { "prompt": "El ___ está en la arena.", "answer": "castillo", "meaning": "the sandcastle is on the sand", "note": "Castillo is masculine, so el castillo de arena." },
+    { "prompt": "___ olas son grandes.", "answer": "Las", "meaning": "the waves are big", "note": "Ola is feminine." },
+    { "prompt": "El ___ es azul.", "answer": "bañador", "meaning": "the swimsuit is blue", "note": "Bañador is masculine." }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 45,
+  "title": "Books and reading",
+  "description": "Name the parts of a book, and say what you read.",
+  "explanation": {
+    "summary": "Books are made of parts, and each part has a name. This unit gives you the nouns and the verbs that go with them.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El periódico, el título, el autor and el cuento are masculine. La lectura, la revista, la página, la letra, la frase y la idea are feminine. La lectura is the reading, and it is also the activity: la lectura es buena.",
+        "examples": [
+          {
+            "es": "el periódico",
+            "en": "the newspaper"
+          },
+          {
+            "es": "la página",
+            "en": "the page"
+          },
+          {
+            "es": "el autor",
+            "en": "the author"
+          }
+        ]
+      },
+      {
+        "heading": "What is in the book",
+        "body": "Estar says where a thing is, and the parts of a book are things: el título está en la portada, la frase está en la página. Leer is to read, and it is a regular -ar verb: leo, lees, lee.",
+        "examples": [
+          {
+            "es": "leo el periódico por la mañana",
+            "en": "I read the newspaper in the morning"
+          },
+          {
+            "es": "la página está en el libro",
+            "en": "the page is in the book"
+          },
+          {
+            "es": "el cuento es de un autor español",
+            "en": "the story is by a Spanish author"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u45/match/lectura",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the reading",
+          "right": "la lectura"
+        },
+        {
+          "left": "the magazine",
+          "right": "la revista"
+        },
+        {
+          "left": "the newspaper",
+          "right": "el periódico"
+        },
+        {
+          "left": "the page",
+          "right": "la página"
+        },
+        {
+          "left": "the title",
+          "right": "el título"
+        }
+      ],
+      "note": "The words for books are nouns, and most of them are feminine."
+    },
+    {
+      "id": "es/a1/u45/select/lectura",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the reading”.",
+      "options": [
+        "la página",
+        "el título",
+        "el autor",
+        "la lectura"
+      ],
+      "answer": "la lectura",
+      "translation": "the reading",
+      "note": "Feminine: la lectura."
+    },
+    {
+      "id": "es/a1/u45/listen/revista",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la revista",
+      "options": [
+        "la revista",
+        "el título",
+        "el autor",
+        "la página"
+      ],
+      "audio": {
+        "text": "revista",
+        "lang": "es"
+      },
+      "translation": "the magazine",
+      "note": "Feminine: la revista."
+    },
+    {
+      "id": "es/a1/u45/drill/1",
+      "type": "type_in",
+      "prompt": "___ página es interesante.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the page is interesting",
+      "note": "Página is feminine."
+    },
+    {
+      "id": "es/a1/u45/match/autor",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the author",
+          "right": "el autor"
+        },
+        {
+          "left": "the short story",
+          "right": "el cuento"
+        },
+        {
+          "left": "the letter",
+          "right": "la letra"
+        },
+        {
+          "left": "the sentence",
+          "right": "la frase"
+        },
+        {
+          "left": "the idea",
+          "right": "la idea"
+        }
+      ],
+      "note": "The words for books are nouns, and most of them are feminine."
+    },
+    {
+      "id": "es/a1/u45/select/periodico",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the newspaper”.",
+      "options": [
+        "la frase",
+        "la idea",
+        "la lectura",
+        "el periódico"
+      ],
+      "answer": "el periódico",
+      "translation": "the newspaper",
+      "note": "Masculine: el periódico. The accent marks the stress."
+    },
+    {
+      "id": "es/a1/u45/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es bueno.",
+      "answer": "periódico",
+      "acceptedAnswers": [
+        "periodico"
+      ],
+      "translation": "the newspaper is good",
+      "note": "Periódico is masculine."
+    },
+    {
+      "id": "es/a1/u45/select/pagina",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the page”.",
+      "options": [
+        "la página",
+        "el autor",
+        "el título",
+        "el cuento"
+      ],
+      "answer": "la página",
+      "translation": "the page",
+      "note": "Feminine: la página. The accent marks the stress."
+    },
+    {
+      "id": "es/a1/u45/drill/3",
+      "type": "type_in",
+      "prompt": "___ revista es de música.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the magazine is about music",
+      "note": "Revista is feminine."
+    },
+    {
+      "id": "es/a1/u45/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ escribe cuentos.",
+      "answer": "autor",
+      "acceptedAnswers": [
+        "autor"
+      ],
+      "translation": "the author writes short stories",
+      "note": "Autor is masculine."
+    }
+  ]
+}

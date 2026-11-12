@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 36,
+  "title": "The telephone",
+  "description": "Name the parts of a phone, and talk about a call.",
+  "explanation": {
+    "summary": "Everyone carries one of these, so the words are worth knowing. The names are a mixture of masculine and feminine, and the call itself is a noun you can make.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El teléfono, el móvil, el botón, el altavoz y el cargador are masculine. La llamada, la pantalla, la red y la batería are feminine. El botón is the button you press, and la pantalla is the screen you look at.",
+        "examples": [
+          {
+            "es": "el móvil",
+            "en": "the mobile phone"
+          },
+          {
+            "es": "la pantalla",
+            "en": "the screen"
+          },
+          {
+            "es": "el botón",
+            "en": "the button"
+          }
+        ]
+      },
+      {
+        "heading": "Talking about a call",
+        "body": "Hacer una llamada is to make a call, and la llamada is the call itself. The words for the state of the phone are ordinary sentences: la batería está baja, the battery is low, el teléfono está en la mesa, the phone is on the table.",
+        "examples": [
+          {
+            "es": "la batería está baja",
+            "en": "the battery is low"
+          },
+          {
+            "es": "el teléfono está en la mesa",
+            "en": "the phone is on the table"
+          },
+          {
+            "es": "hago una llamada a mi madre",
+            "en": "I make a call to my mother"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u36/match/telefono",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the telephone",
+          "right": "el teléfono"
+        },
+        {
+          "left": "the mobile phone",
+          "right": "el móvil"
+        },
+        {
+          "left": "the call",
+          "right": "la llamada"
+        },
+        {
+          "left": "the tone",
+          "right": "el tono"
+        },
+        {
+          "left": "the screen",
+          "right": "la pantalla"
+        }
+      ],
+      "note": "The names of the things on a phone are nouns, and each one has its own gender."
+    },
+    {
+      "id": "es/a1/u36/select/telefono",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the telephone”.",
+      "options": [
+        "el móvil",
+        "la llamada",
+        "el teléfono",
+        "el cargador"
+      ],
+      "answer": "el teléfono",
+      "translation": "the telephone",
+      "note": "Masculine: el teléfono."
+    },
+    {
+      "id": "es/a1/u36/listen/movil",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el móvil",
+      "options": [
+        "el teléfono",
+        "la llamada",
+        "el cargador",
+        "el móvil"
+      ],
+      "audio": {
+        "text": "móvil",
+        "lang": "es"
+      },
+      "translation": "the mobile phone",
+      "note": "Masculine: el móvil."
+    },
+    {
+      "id": "es/a1/u36/drill/1",
+      "type": "type_in",
+      "prompt": "___ pantalla está rota.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the screen is broken",
+      "note": "Pantalla is feminine."
+    },
+    {
+      "id": "es/a1/u36/match/boton",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the button",
+          "right": "el botón"
+        },
+        {
+          "left": "the network",
+          "right": "la red"
+        },
+        {
+          "left": "the battery",
+          "right": "la batería"
+        },
+        {
+          "left": "the loudspeaker",
+          "right": "el altavoz"
+        },
+        {
+          "left": "the charger",
+          "right": "el cargador"
+        }
+      ],
+      "note": "The names of the things on a phone are nouns, and each one has its own gender."
+    },
+    {
+      "id": "es/a1/u36/select/llamada",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the call”.",
+      "options": [
+        "el botón",
+        "la batería",
+        "la red",
+        "la llamada"
+      ],
+      "answer": "la llamada",
+      "translation": "the call",
+      "note": "Feminine: la llamada."
+    },
+    {
+      "id": "es/a1/u36/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está en la mesa.",
+      "answer": "teléfono",
+      "acceptedAnswers": [
+        "telefono"
+      ],
+      "translation": "the phone is on the table",
+      "note": "Teléfono is masculine."
+    },
+    {
+      "id": "es/a1/u36/select/tono",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the tone”.",
+      "options": [
+        "el tono",
+        "el móvil",
+        "el teléfono",
+        "la llamada"
+      ],
+      "answer": "el tono",
+      "translation": "the tone",
+      "note": "Masculine: el tono. It is also el tono de llamada, the ringtone."
+    },
+    {
+      "id": "es/a1/u36/drill/3",
+      "type": "type_in",
+      "prompt": "___ batería está baja.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the battery is low",
+      "note": "Batería is feminine."
+    },
+    {
+      "id": "es/a1/u36/drill/4",
+      "type": "type_in",
+      "prompt": "Hago una ___ a mi madre.",
+      "answer": "llamada",
+      "acceptedAnswers": [
+        "llamada"
+      ],
+      "translation": "I make a call to my mother",
+      "note": "Llamada is feminine, so una llamada."
+    }
+  ]
+}

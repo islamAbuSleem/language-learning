@@ -83,9 +83,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “father”.",
       "options": [
-        "la madre",
-        "el hijo",
-        "la madre",
+        "la hermana",
+        "la abuela",
+        "el abuelo",
         "el padre"
       ],
       "answer": "el padre",

@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 28,
+  "title": "In the street",
+  "description": "Name the things in a street, and say where you walk.",
+  "explanation": {
+    "summary": "A street is a line of objects, and each one has a name and a gender. Once you can name them, you can describe where you are walking.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La acera, la calzada, la farola, la parada, la glorieta and la escaparate are feminine. El bordillo, el semáforo, el cruce and el buzón are masculine. La calzada is the road itself, and la acera is the part you walk on.",
+        "examples": [
+          {
+            "es": "la acera",
+            "en": "the pavement"
+          },
+          {
+            "es": "el semáforo",
+            "en": "the traffic light"
+          },
+          {
+            "es": "el buzón",
+            "en": "the postbox"
+          }
+        ]
+      },
+      {
+        "heading": "Where things are",
+        "body": "Estar says where a thing is, and the place follows: el buzón está en la esquina, la parada está frente al banco. Frente and en el are the two you will use most in a street, and the noun after them keeps its article.",
+        "examples": [
+          {
+            "es": "el buzón está en la esquina",
+            "en": "the postbox is on the corner"
+          },
+          {
+            "es": "la parada está frente al banco",
+            "en": "the bus stop is opposite the bench"
+          },
+          {
+            "es": "la farola está al lado de la acera",
+            "en": "the street lamp is beside the pavement"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u28/match/acera",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the pavement",
+          "right": "la acera"
+        },
+        {
+          "left": "the road",
+          "right": "la calzada"
+        },
+        {
+          "left": "the kerb",
+          "right": "el bordillo"
+        },
+        {
+          "left": "the street lamp",
+          "right": "la farola"
+        },
+        {
+          "left": "the traffic light",
+          "right": "el semáforo"
+        }
+      ],
+      "note": "The street is a set of nouns, and estar tells you where each one is."
+    },
+    {
+      "id": "es/a1/u28/select/acera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the pavement”.",
+      "options": [
+        "el cruce",
+        "el buzón",
+        "la glorieta",
+        "la acera"
+      ],
+      "answer": "la acera",
+      "translation": "the pavement",
+      "note": "Feminine: la acera. You walk on it, and cars drive on la calzada."
+    },
+    {
+      "id": "es/a1/u28/listen/calzada",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la calzada",
+      "options": [
+        "el semáforo",
+        "la parada",
+        "el cruce",
+        "la calzada"
+      ],
+      "audio": {
+        "text": "calzada",
+        "lang": "es"
+      },
+      "translation": "the road",
+      "note": "Feminine: la calzada."
+    },
+    {
+      "id": "es/a1/u28/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ está rojo.",
+      "answer": "semáforo",
+      "acceptedAnswers": [
+        "semaforo"
+      ],
+      "translation": "the traffic light is red",
+      "note": "Semáforo is masculine."
+    },
+    {
+      "id": "es/a1/u28/match/parada",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the stop",
+          "right": "la parada"
+        },
+        {
+          "left": "the crossing",
+          "right": "el cruce"
+        },
+        {
+          "left": "the roundabout",
+          "right": "la glorieta"
+        },
+        {
+          "left": "the postbox",
+          "right": "el buzón"
+        },
+        {
+          "left": "the shop window",
+          "right": "el escaparate"
+        }
+      ],
+      "note": "The street is a set of nouns, and estar tells you where each one is."
+    },
+    {
+      "id": "es/a1/u28/select/bordillo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the kerb”.",
+      "options": [
+        "la calzada",
+        "el semáforo",
+        "la farola",
+        "el bordillo"
+      ],
+      "answer": "el bordillo",
+      "translation": "the kerb",
+      "note": "Masculine: el bordillo."
+    },
+    {
+      "id": "es/a1/u28/drill/2",
+      "type": "type_in",
+      "prompt": "___ acera es estrecha.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the pavement is narrow",
+      "note": "Acera is feminine."
+    },
+    {
+      "id": "es/a1/u28/select/farola",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the street lamp”.",
+      "options": [
+        "la glorieta",
+        "el escaparate",
+        "el buzón",
+        "la farola"
+      ],
+      "answer": "la farola",
+      "translation": "the street lamp",
+      "note": "Feminine: la farola."
+    },
+    {
+      "id": "es/a1/u28/drill/3",
+      "type": "type_in",
+      "prompt": "La ___ está en la esquina.",
+      "answer": "glorieta",
+      "acceptedAnswers": [
+        "glorieta"
+      ],
+      "translation": "the roundabout is on the corner",
+      "note": "Glorieta is feminine."
+    },
+    {
+      "id": "es/a1/u28/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ tiene cartas.",
+      "answer": "buzón",
+      "acceptedAnswers": [
+        "buzon"
+      ],
+      "translation": "the postbox has letters in it",
+      "note": "Buzón is masculine."
+    }
+  ]
+}

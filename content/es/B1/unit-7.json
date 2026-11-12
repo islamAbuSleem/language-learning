@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to finish”.",
       "options": [
-        "estudiar",
-        "cocinar",
-        "caminar",
+        "escribir",
+        "abrir",
+        "recibir",
         "acabar"
       ],
       "answer": "acabar",
@@ -150,10 +150,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “ago”.",
       "options": [
-        "mañana",
-        "mañana",
+        "septiembre",
+        "octubre",
         "hace",
-        "el día"
+        "agosto"
       ],
       "answer": "hace",
       "translation": "ago",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “yesterday”.",
       "options": [
-        "el día",
-        "mañana",
-        "mañana",
+        "abril",
+        "junio",
+        "mayo",
         "ayer"
       ],
       "answer": "ayer",

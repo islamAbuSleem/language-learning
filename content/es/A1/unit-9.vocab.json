@@ -34,8 +34,8 @@
     { "es": "dormitorio", "en": "bedroom", "article": "el", "note": "Masculine: el dormitorio.", "tags": ["house"] },
     { "es": "jardín", "en": "garden", "article": "el", "note": "Masculine: el jardín. The accent marks the stress.", "tags": ["house"] },
     { "es": "cama", "en": "bed", "article": "la", "note": "Feminine: la cama.", "tags": ["house"] },
-    { "es": "mesa", "en": "table", "article": "la", "note": "Feminine: la mesa.", "tags": ["house"] },
-    { "es": "silla", "en": "chair", "article": "la", "note": "Feminine: la silla.", "tags": ["house"] },
+    { "es": "comedor", "en": "dining room", "article": "el", "note": "Masculine: el comedor.", "tags": ["house"] },
+    { "es": "terraza", "en": "terrace", "article": "la", "note": "Feminine: la terraza.", "tags": ["house"] },
     { "es": "sobre", "en": "over", "article": null, "note": "A preposition: sobre la mesa. It also means the envelope.", "tags": ["house"] },
     { "es": "bajo", "en": "under", "article": null, "note": "A preposition: bajo la mesa. It also means low.", "tags": ["house"] }
   ],

@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 43,
+  "title": "Sport",
+  "description": "Name the things you play sport with, and talk about a match.",
+  "explanation": {
+    "summary": "Sport has its own nouns and its own verbs, and the grammar is the one you already know. What is new is the vocabulary.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El gimnasio, el equipo, el juego, el descanso and el marcador are masculine. La cancha, la raqueta, la pelota y la entrada are feminine. La cancha is the court or the pitch, and el marcador is the score.",
+        "examples": [
+          {
+            "es": "el gimnasio",
+            "en": "the gym"
+          },
+          {
+            "es": "la raqueta",
+            "en": "the racket"
+          },
+          {
+            "es": "el marcador",
+            "en": "the score"
+          }
+        ]
+      },
+      {
+        "heading": "The verbs",
+        "body": "Sport is full of -ar verbs, and they work exactly like the ones you know: juego, juegas, juega. Ganar is to win, and perder is to lose, but ganar is regular: gano, ganas, gana.",
+        "examples": [
+          {
+            "es": "juego al fútbol",
+            "en": "I play football"
+          },
+          {
+            "es": "ganamos el partido",
+            "en": "we win the match"
+          },
+          {
+            "es": "el descanso es a las cuatro",
+            "en": "the break is at four"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u43/match/gimnasio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the gym",
+          "right": "el gimnasio"
+        },
+        {
+          "left": "the court",
+          "right": "la cancha"
+        },
+        {
+          "left": "the team",
+          "right": "el equipo"
+        },
+        {
+          "left": "the racket",
+          "right": "la raqueta"
+        },
+        {
+          "left": "the ball",
+          "right": "la pelota"
+        }
+      ],
+      "note": "The words for sport are ordinary nouns, and most of the verbs are -ar verbs."
+    },
+    {
+      "id": "es/a1/u43/select/gimnasio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the gym”.",
+      "options": [
+        "el equipo",
+        "la raqueta",
+        "la pelota",
+        "el gimnasio"
+      ],
+      "answer": "el gimnasio",
+      "translation": "the gym",
+      "note": "Masculine: el gimnasio."
+    },
+    {
+      "id": "es/a1/u43/listen/cancha",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la cancha",
+      "options": [
+        "el marcador",
+        "el equipo",
+        "el gimnasio",
+        "la cancha"
+      ],
+      "audio": {
+        "text": "cancha",
+        "lang": "es"
+      },
+      "translation": "the court",
+      "note": "Feminine: la cancha."
+    },
+    {
+      "id": "es/a1/u43/drill/1",
+      "type": "type_in",
+      "prompt": "___ raqueta es nueva.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the racket is new",
+      "note": "Raqueta is feminine."
+    },
+    {
+      "id": "es/a1/u43/match/juego",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the game",
+          "right": "el juego"
+        },
+        {
+          "left": "to win",
+          "right": "ganar"
+        },
+        {
+          "left": "the break",
+          "right": "el descanso"
+        },
+        {
+          "left": "the entrance",
+          "right": "la entrada"
+        },
+        {
+          "left": "the score",
+          "right": "el marcador"
+        }
+      ],
+      "note": "The words for sport are ordinary nouns, and most of the verbs are -ar verbs."
+    },
+    {
+      "id": "es/a1/u43/select/equipo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the team”.",
+      "options": [
+        "la entrada",
+        "el marcador",
+        "el descanso",
+        "el equipo"
+      ],
+      "answer": "el equipo",
+      "translation": "the team",
+      "note": "Masculine: el equipo."
+    },
+    {
+      "id": "es/a1/u43/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es de madera.",
+      "answer": "equipo",
+      "acceptedAnswers": [
+        "equipo"
+      ],
+      "translation": "the team is wooden",
+      "note": "Equipo is masculine."
+    },
+    {
+      "id": "es/a1/u43/select/raqueta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the racket”.",
+      "options": [
+        "la pelota",
+        "el juego",
+        "el equipo",
+        "la raqueta"
+      ],
+      "answer": "la raqueta",
+      "translation": "the racket",
+      "note": "Feminine: la raqueta."
+    },
+    {
+      "id": "es/a1/u43/drill/3",
+      "type": "type_in",
+      "prompt": "___ cancha está mojada.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the court is wet",
+      "note": "Cancha is feminine."
+    },
+    {
+      "id": "es/a1/u43/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ es dos a uno.",
+      "answer": "marcador",
+      "acceptedAnswers": [
+        "marcador"
+      ],
+      "translation": "the score is two to one",
+      "note": "Marcador is masculine."
+    }
+  ]
+}

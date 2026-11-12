@@ -60,8 +60,8 @@
           "right": "la reunión"
         },
         {
-          "left": "decision",
-          "right": "la decisión"
+          "left": "conclusion",
+          "right": "la conclusión"
         },
         {
           "left": "movement",
@@ -80,7 +80,7 @@
       "prompt": "Pick the Spanish word for “communication”.",
       "options": [
         "la reunión",
-        "la decisión",
+        "la conclusión",
         "el logro",
         "la comunicación"
       ],
@@ -153,18 +153,18 @@
       "note": "Reunir makes la reunión."
     },
     {
-      "id": "es/b2/u6/select/decision",
+      "id": "es/b2/u6/select/conclusion",
       "type": "select",
-      "prompt": "Pick the Spanish word for “decision”.",
+      "prompt": "Pick the Spanish word for “conclusion”.",
       "options": [
         "el resultado",
         "la satisfacción",
         "el logro",
-        "la decisión"
+        "la conclusión"
       ],
-      "answer": "la decisión",
-      "translation": "decision",
-      "note": "Feminine: la decisión. From decidir."
+      "answer": "la conclusión",
+      "translation": "conclusion",
+      "note": "Feminine: la conclusión. From concluir."
     },
     {
       "id": "es/b2/u6/drill/3",

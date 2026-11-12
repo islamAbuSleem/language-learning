@@ -1,0 +1,48 @@
+{
+  "unit": 30,
+  "title": "In the park",
+  "description": "Name what is in a park, and talk about the small things there.",
+  "grammar": "gender and articles, and the plural of nouns",
+  "grammarNote": "The nouns in a park are mostly small ones, and most are feminine.",
+  "explanation": {
+    "summary": "A park is full of small nouns: swings, paths, ants. They follow the usual rules, and the plural is where most of the interest is.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La brisa, la mariposa, la hormiga, la sombra and la hoja are feminine. El columpio, el tobogán, el paseo, el nido and el sendero are masculine. El paseo is the walk itself, and el sendero is the path through the park.",
+        "examples": [
+          { "es": "el columpio", "en": "the swing" },
+          { "es": "la mariposa", "en": "the butterfly" },
+          { "es": "el sendero", "en": "the path" }
+        ]
+      },
+      {
+        "heading": "A park full of plurals",
+        "body": "The plural adds -s or -es: las mariposas, los columpios, las hormigas. Two of these words are a little different: el paseo becomes los paseos, and el tobogán becomes los toboganes, because the -án keeps its accent in the singular and drops it in the plural.",
+        "examples": [
+          { "es": "las mariposas", "en": "the butterflies" },
+          { "es": "los columpios", "en": "the swings" },
+          { "es": "un paseo por el parque", "en": "a walk through the park" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "columpio", "en": "the swing", "article": "el", "note": "Masculine: el columpio. The plural is los columpios.", "tags": ["park"] },
+    { "es": "tobogán", "en": "the slide", "article": "el", "note": "Masculine: el tobogán. The plural drops the accent: los toboganes.", "tags": ["park"] },
+    { "es": "paseo", "en": "the walk", "article": "el", "note": "Masculine: el paseo.", "tags": ["park"] },
+    { "es": "brisa", "en": "the breeze", "article": "la", "note": "Feminine: la brisa.", "tags": ["park"] },
+    { "es": "mariposa", "en": "the butterfly", "article": "la", "note": "Feminine: la mariposa.", "tags": ["park"] },
+    { "es": "hormiga", "en": "the ant", "article": "la", "note": "Feminine: la hormiga.", "tags": ["park"] },
+    { "es": "nido", "en": "the nest", "article": "el", "note": "Masculine: el nido.", "tags": ["park"] },
+    { "es": "sombra", "en": "the shade", "article": "la", "note": "Feminine: la sombra.", "tags": ["park"] },
+    { "es": "sendero", "en": "the path", "article": "el", "note": "Masculine: el sendero.", "tags": ["park"] },
+    { "es": "hoja", "en": "the leaf", "article": "la", "note": "Feminine: la hoja.", "tags": ["park"] }
+  ],
+  "drills": [
+    { "prompt": "___ mariposa es amarilla.", "answer": "La", "meaning": "the butterfly is yellow", "note": "Mariposa is feminine." },
+    { "prompt": "El ___ está en el árbol.", "answer": "nido", "meaning": "the nest is in the tree", "note": "Nido is masculine." },
+    { "prompt": "Las ___ son pequeñas.", "answer": "hormigas", "meaning": "the ants are small", "note": "Hormiga is feminine, so las hormigas." },
+    { "prompt": "___ columpio es nuevo.", "answer": "El", "meaning": "the swing is new", "note": "Columpio is masculine." }
+  ]
+}

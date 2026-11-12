@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 40,
+  "title": "Describing people",
+  "description": "Say what a person is like, and make the adjective match.",
+  "explanation": {
+    "summary": "These adjectives describe what somebody is like, not how they are at the moment. They go after ser, and they change their ending for the person they describe.",
+    "sections": [
+      {
+        "heading": "The adjectives",
+        "body": "Alto, gordo, delgado, guapo, simpático, inteligente, divertido, serio, bonito and feo. The feminine is the same word with -a instead of -o: el simpático is un hombre simpático, la simpática is una mujer simpática. Guapo and feo change in the same way.",
+        "examples": [
+          {
+            "es": "es alto",
+            "en": "he is tall"
+          },
+          {
+            "es": "es simpática",
+            "en": "she is friendly"
+          },
+          {
+            "es": "es un inteligente",
+            "en": "he is an intelligent person"
+          }
+        ]
+      },
+      {
+        "heading": "With ser, not estar",
+        "body": "What somebody is like is ser: es alto, es simpático. What somebody is like at this moment is estar: está alto, está cansado. A person is usually described with ser, because being tall or being friendly is part of what they are.",
+        "examples": [
+          {
+            "es": "mi hermana es guapa",
+            "en": "my sister is beautiful"
+          },
+          {
+            "es": "mi hermana está guapa hoy",
+            "en": "my sister looks beautiful today"
+          },
+          {
+            "es": "el médico es serio",
+            "en": "the doctor is serious"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u40/match/alto",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "tall",
+          "right": "alto"
+        },
+        {
+          "left": "fat",
+          "right": "gordo"
+        },
+        {
+          "left": "thin",
+          "right": "delgado"
+        },
+        {
+          "left": "good-looking",
+          "right": "guapo"
+        },
+        {
+          "left": "friendly",
+          "right": "simpático"
+        }
+      ],
+      "note": "An adjective that describes a person goes after ser, and it changes its ending to match."
+    },
+    {
+      "id": "es/a1/u40/select/alto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “tall”.",
+      "options": [
+        "alto",
+        "simpático",
+        "guapo",
+        "delgado"
+      ],
+      "answer": "alto",
+      "translation": "tall",
+      "note": "The feminine is alta: es alta."
+    },
+    {
+      "id": "es/a1/u40/listen/gordo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "gordo",
+      "options": [
+        "gordo",
+        "guapo",
+        "simpático",
+        "delgado"
+      ],
+      "audio": {
+        "text": "gordo",
+        "lang": "es"
+      },
+      "translation": "fat",
+      "note": "The feminine is gorda."
+    },
+    {
+      "id": "es/a1/u40/drill/1",
+      "type": "type_in",
+      "prompt": "Mi hermano es ___.",
+      "answer": "alto",
+      "acceptedAnswers": [
+        "alto"
+      ],
+      "translation": "my brother is tall",
+      "note": "Alto is masculine."
+    },
+    {
+      "id": "es/a1/u40/match/inteligente",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "intelligent",
+          "right": "inteligente"
+        },
+        {
+          "left": "funny",
+          "right": "divertido"
+        },
+        {
+          "left": "serious",
+          "right": "serio"
+        },
+        {
+          "left": "nice",
+          "right": "bonito"
+        },
+        {
+          "left": "ugly",
+          "right": "feo"
+        }
+      ],
+      "note": "An adjective that describes a person goes after ser, and it changes its ending to match."
+    },
+    {
+      "id": "es/a1/u40/select/delgado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “thin”.",
+      "options": [
+        "bonito",
+        "feo",
+        "delgado",
+        "serio"
+      ],
+      "answer": "delgado",
+      "translation": "thin",
+      "note": "The feminine is delgada."
+    },
+    {
+      "id": "es/a1/u40/drill/2",
+      "type": "type_in",
+      "prompt": "Ella es ___.",
+      "answer": "simpática",
+      "acceptedAnswers": [
+        "simpatica"
+      ],
+      "translation": "she is friendly",
+      "note": "The feminine of simpático is simpática."
+    },
+    {
+      "id": "es/a1/u40/select/guapo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “good-looking”.",
+      "options": [
+        "guapo",
+        "delgado",
+        "simpático",
+        "inteligente"
+      ],
+      "answer": "guapo",
+      "translation": "good-looking",
+      "note": "The feminine is guapa: mi hermana es guapa."
+    },
+    {
+      "id": "es/a1/u40/drill/3",
+      "type": "type_in",
+      "prompt": "El profesor es muy ___.",
+      "answer": "serio",
+      "acceptedAnswers": [
+        "serio"
+      ],
+      "translation": "the teacher is very serious",
+      "note": "Serio is masculine."
+    },
+    {
+      "id": "es/a1/u40/drill/4",
+      "type": "type_in",
+      "prompt": "Mi amiga es ___.",
+      "answer": "divertida",
+      "acceptedAnswers": [
+        "divertida"
+      ],
+      "translation": "my friend is funny",
+      "note": "The feminine of divertido es divertida."
+    }
+  ]
+}

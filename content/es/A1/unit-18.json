@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 18,
+  "title": "The bathroom",
+  "description": "Name the things in a bathroom and say what you use them for.",
+  "explanation": {
+    "summary": "The bathroom has its own small set of nouns. Most of them end in -o and are masculine, and several of them are used with a piece of clothing or a room rather than on their own.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El lavabo, el inodoro and el secador are all masculine. La ducha and la bañera are feminine. One of them is a phrase with its own article inside it: la pasta de dientes is a feminine noun with de dientes attached, and you say una pasta de dientes, never un pasta.",
+        "examples": [
+          {
+            "es": "el lavabo",
+            "en": "the sink"
+          },
+          {
+            "es": "la ducha",
+            "en": "the shower"
+          },
+          {
+            "es": "la pasta de dientes",
+            "en": "the toothpaste"
+          }
+        ]
+      },
+      {
+        "heading": "Saying what you use",
+        "body": "You already know tener, so you can say what a person has and what they need. Para says what something is for: el peine es para el pelo, the comb is for the hair. In a shop you ask for it with un or una, and the noun tells you which one.",
+        "examples": [
+          {
+            "es": "el peine es para el pelo",
+            "en": "the comb is for the hair"
+          },
+          {
+            "es": "tengo un champú",
+            "en": "I have a shampoo"
+          },
+          {
+            "es": "el secador es para el pelo",
+            "en": "the hairdryer is for the hair"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u18/match/ducha",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the shower",
+          "right": "la ducha"
+        },
+        {
+          "left": "the sink",
+          "right": "el lavabo"
+        },
+        {
+          "left": "the bathtub",
+          "right": "la bañera"
+        },
+        {
+          "left": "the toilet",
+          "right": "el inodoro"
+        },
+        {
+          "left": "the hairdryer",
+          "right": "el secador"
+        }
+      ],
+      "note": "Most of these nouns are masculine, which is the opposite of the bedroom."
+    },
+    {
+      "id": "es/a1/u18/select/ducha",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the shower”.",
+      "options": [
+        "la bañera",
+        "el inodoro",
+        "el lavabo",
+        "la ducha"
+      ],
+      "answer": "la ducha",
+      "translation": "the shower",
+      "note": "Feminine: la ducha."
+    },
+    {
+      "id": "es/a1/u18/listen/lavabo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el lavabo",
+      "options": [
+        "el peine",
+        "el champú",
+        "el secador",
+        "el lavabo"
+      ],
+      "audio": {
+        "text": "lavabo",
+        "lang": "es"
+      },
+      "translation": "the sink",
+      "note": "Masculine: el lavabo."
+    },
+    {
+      "id": "es/a1/u18/drill/1",
+      "type": "type_in",
+      "prompt": "La ___ está caliente.",
+      "answer": "ducha",
+      "acceptedAnswers": [
+        "ducha"
+      ],
+      "translation": "the shower is hot",
+      "note": "Ducha is feminine."
+    },
+    {
+      "id": "es/a1/u18/match/peine",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the comb",
+          "right": "el peine"
+        },
+        {
+          "left": "the shampoo",
+          "right": "el champú"
+        },
+        {
+          "left": "the toothpaste",
+          "right": "la pasta de dientes"
+        },
+        {
+          "left": "the towel rail",
+          "right": "el toallero"
+        },
+        {
+          "left": "the gel",
+          "right": "el gel"
+        }
+      ],
+      "note": "Most of these nouns are masculine, which is the opposite of the bedroom."
+    },
+    {
+      "id": "es/a1/u18/select/banera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the bathtub”.",
+      "options": [
+        "la pasta de dientes",
+        "el toallero",
+        "el champú",
+        "la bañera"
+      ],
+      "answer": "la bañera",
+      "translation": "the bathtub",
+      "note": "Feminine: la bañera."
+    },
+    {
+      "id": "es/a1/u18/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está en el baño.",
+      "answer": "lavabo",
+      "acceptedAnswers": [
+        "lavabo"
+      ],
+      "translation": "the sink is in the bathroom",
+      "note": "Lavabo is masculine."
+    },
+    {
+      "id": "es/a1/u18/select/inodoro",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the toilet”.",
+      "options": [
+        "el gel",
+        "la ducha",
+        "el toallero",
+        "el inodoro"
+      ],
+      "answer": "el inodoro",
+      "translation": "the toilet",
+      "note": "Masculine: el inodoro."
+    },
+    {
+      "id": "es/a1/u18/drill/3",
+      "type": "type_in",
+      "prompt": "___ pasta de dientes es buena.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the toothpaste is good",
+      "note": "The whole phrase is feminine."
+    },
+    {
+      "id": "es/a1/u18/drill/4",
+      "type": "type_in",
+      "prompt": "Necesito un ___ para el pelo.",
+      "answer": "peine",
+      "acceptedAnswers": [
+        "peine"
+      ],
+      "translation": "I need a comb for the hair",
+      "note": "Peine is masculine."
+    }
+  ]
+}

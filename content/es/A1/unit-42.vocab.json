@@ -1,0 +1,48 @@
+{
+  "unit": 42,
+  "title": "Size and shape",
+  "description": "Say how big something is and what shape it is.",
+  "grammar": "gender and articles, and the words for size",
+  "grammarNote": "An adjective that describes a size goes straight after the noun, with no article in between.",
+  "explanation": {
+    "summary": "Size and shape are the first things you say about an object, and they are ordinary adjectives and nouns.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El tamaño, el peso and el largo are masculine. La medida and la altura are feminine. El largo means the length of a thing, and la altura means how tall it is. La medida is also what you do when you measure something.",
+        "examples": [
+          { "es": "el tamaño", "en": "the size" },
+          { "es": "la altura", "en": "the height" },
+          { "es": "el peso", "en": "the weight" }
+        ]
+      },
+      {
+        "heading": "The adjectives",
+        "body": "Largo, corto, ancho, estrecho, redondo and cuadrado all describe a shape or a size, and they go straight after the noun: una mesa redonda, un artículo estrecho. Es and está both work: la mesa es redonda means the table is round, and la mesa está sucia means the table is dirty.",
+        "examples": [
+          { "es": "una mesa redonda", "en": "a round table" },
+          { "es": "un callejón estrecho", "en": "a narrow street" },
+          { "es": "el cuadrado es grande", "en": "the square is big" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "tamaño", "en": "the size", "article": "el", "note": "Masculine: el tamaño.", "tags": ["size"] },
+    { "es": "largo", "en": "long", "article": null, "note": "The feminine es larga: una calle larga.", "tags": ["size"] },
+    { "es": "corto", "en": "short", "article": null, "note": "The feminine es corta.", "tags": ["size"] },
+    { "es": "ancho", "en": "wide", "article": null, "note": "The feminine es ancha.", "tags": ["size"] },
+    { "es": "estrecho", "en": "narrow", "article": null, "note": "The feminine es estrecha.", "tags": ["size"] },
+    { "es": "redondo", "en": "round", "article": null, "note": "The feminine es redonda.", "tags": ["size"] },
+    { "es": "cuadrado", "en": "square", "article": null, "note": "The feminine es cuadrada.", "tags": ["size"] },
+    { "es": "medida", "en": "the measurement", "article": "la", "note": "Feminine: la medida.", "tags": ["size"] },
+    { "es": "peso", "en": "the weight", "article": "el", "note": "Masculine: el peso.", "tags": ["size"] },
+    { "es": "altura", "en": "the height", "article": "la", "note": "Feminine: la altura.", "tags": ["size"] }
+  ],
+  "drills": [
+    { "prompt": "La mesa es ___.", "answer": "redonda", "meaning": "the table is round", "note": "The feminine of redondo es redonda." },
+    { "prompt": "___ calle es muy ___.", "answer": "estrecha", "meaning": "the street is very narrow", "note": "The first blank needs La: la calle." },
+    { "prompt": "El ___ es grande.", "answer": "tamaño", "meaning": "the size is big", "note": "Tamaño is masculine." },
+    { "prompt": "___ medida no es correcta.", "answer": "La", "meaning": "the measurement is not correct", "note": "Medida is feminine." }
+  ]
+}

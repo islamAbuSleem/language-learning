@@ -73,8 +73,8 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “kitchen”.",
       "options": [
-        "la mesa",
-        "la silla",
+        "el comedor",
+        "la terraza",
         "sobre",
         "la cocina"
       ],
@@ -103,12 +103,12 @@
           "right": "la cama"
         },
         {
-          "left": "table",
-          "right": "la mesa"
+          "left": "dining room",
+          "right": "el comedor"
         },
         {
-          "left": "chair",
-          "right": "la silla"
+          "left": "terrace",
+          "right": "la terraza"
         },
         {
           "left": "over",
@@ -151,8 +151,8 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “bathroom”.",
       "options": [
-        "la mesa",
-        "la silla",
+        "el comedor",
+        "la terraza",
         "la cama",
         "el baño"
       ],

@@ -1,0 +1,48 @@
+{
+  "unit": 49,
+  "title": "The rooms of the house",
+  "description": "Name the rooms of a house, and say where each one is.",
+  "grammar": "gender and articles, and prepositions of place",
+  "grammarNote": "Every room is a noun with a gender, and estar says where it is.",
+  "explanation": {
+    "summary": "You know the kitchen, the bedroom and the bathroom. A house has more rooms than that, and they are the last of the house words you need at this level.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El salón, el recibidor, el sótano, el desván, el garaje y el pasillo are masculine. La sala, la azotea y el lavadero are feminine. La sala and el salón are often the same room in English, but la sala is the living room and el salón is the formal sitting room.",
+        "examples": [
+          { "es": "el salón", "en": "the living room" },
+          { "es": "el garaje", "en": "the garage" },
+          { "es": "la azotea", "en": "the roof terrace" }
+        ]
+      },
+      {
+        "heading": "Where they are",
+        "body": "A house is a set of places, and estar says where each one is: el pasillo está en el medio, la azotea está encima de la cocina. En el medio and encima are the two you will use most in a house.",
+        "examples": [
+          { "es": "el lavadero está en el fondo", "en": "the utility room is at the end" },
+          { "es": "el pasillo está en el medio", "en": "the hall is in the middle" },
+          { "es": "el sótano está debajo de la cocina", "en": "the cellar is under the kitchen" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "sala", "en": "the living room", "article": "la", "note": "Feminine: la sala.", "tags": ["house"] },
+    { "es": "salón", "en": "the lounge", "article": "el", "note": "Masculine: el salón. It is the formal sitting room.", "tags": ["house"] },
+    { "es": "recibidor", "en": "the hall", "article": "el", "note": "Masculine: el recibidor. It is the first room when you come in.", "tags": ["house"] },
+    { "es": "sótano", "en": "the cellar", "article": "el", "note": "Masculine: el sótano. The accent marks the stress.", "tags": ["house"] },
+    { "es": "desván", "en": "the attic", "article": "el", "note": "Masculine: el desván. The accent marks the stress.", "tags": ["house"] },
+    { "es": "azotea", "en": "the roof terrace", "article": "la", "note": "Feminine: la azotea.", "tags": ["house"] },
+    { "es": "garaje", "en": "the garage", "article": "el", "note": "Masculine: el garaje.", "tags": ["house"] },
+    { "es": "trastero", "en": "the storeroom", "article": "el", "note": "Masculine: el trastero. It is the small room for things you do not use.", "tags": ["house"] },
+    { "es": "lavadero", "en": "the utility room", "article": "el", "note": "Masculine: el lavadero. It is where the washing machine is.", "tags": ["house"] },
+    { "es": "pasillo", "en": "the corridor", "article": "el", "note": "Masculine: el pasillo.", "tags": ["house"] }
+  ],
+  "drills": [
+    { "prompt": "___ salón tiene una mesa grande.", "answer": "El", "meaning": "the lounge has a big table", "note": "Salón is masculine." },
+    { "prompt": "___ sala está al lado de la cocina.", "answer": "La", "meaning": "the living room is next to the kitchen", "note": "Sala is feminine." },
+    { "prompt": "El ___ está debajo de la casa.", "answer": "sótano", "meaning": "the cellar is under the house", "note": "Sótano is masculine." },
+    { "prompt": "___ garaje está en la calle.", "answer": "El", "meaning": "the garage is on the street", "note": "Garaje is masculine." }
+  ]
+}

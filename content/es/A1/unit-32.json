@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 32,
+  "title": "Work",
+  "description": "Name the jobs, and say what you do.",
+  "explanation": {
+    "summary": "Every one of these jobs ends in -o and is masculine, and none of them takes an article. That is the rule: a profession is what you are, so it goes straight after the verb.",
+    "sections": [
+      {
+        "heading": "The jobs",
+        "body": "El abogado, el cocinero, el enfermero, el periodista, el policía, el programador, el diseñador, el veterinario, el taxista y el campesino are all masculine. Most of them end in -ero or -ista, and the ending makes the job: el programador programs, el taxista drives a taxi.",
+        "examples": [
+          {
+            "es": "el abogado",
+            "en": "the lawyer"
+          },
+          {
+            "es": "el enfermero",
+            "en": "the nurse"
+          },
+          {
+            "es": "el programador",
+            "en": "the programmer"
+          }
+        ]
+      },
+      {
+        "heading": "No article in between",
+        "body": "A profession goes straight after the verb, with no article: soy abogado, ella es enfermera. The feminine is easy: change the -o to -a, so el abogado becomes la abogada. When you use the job with an article, it is el abogado que trabaja aquí, the lawyer who works here.",
+        "examples": [
+          {
+            "es": "soy periodista",
+            "en": "I am a journalist"
+          },
+          {
+            "es": "ella es programista",
+            "en": "she is a programmer"
+          },
+          {
+            "es": "es un trabajo interesante",
+            "en": "it is an interesting job"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u32/match/abogado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the lawyer",
+          "right": "el abogado"
+        },
+        {
+          "left": "the cook",
+          "right": "el cocinero"
+        },
+        {
+          "left": "the nurse",
+          "right": "el enfermero"
+        },
+        {
+          "left": "the journalist",
+          "right": "el periodista"
+        },
+        {
+          "left": "the police officer",
+          "right": "el policía"
+        }
+      ],
+      "note": "A profession goes straight after the verb: soy abogado, with no article in between."
+    },
+    {
+      "id": "es/a1/u32/select/abogado",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the lawyer”.",
+      "options": [
+        "el cocinero",
+        "el campesino",
+        "el abogado",
+        "el enfermero"
+      ],
+      "answer": "el abogado",
+      "translation": "the lawyer",
+      "note": "Masculine: el abogado. The feminine is la abogada."
+    },
+    {
+      "id": "es/a1/u32/listen/cocinero",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el cocinero",
+      "options": [
+        "el cocinero",
+        "el veterinario",
+        "el diseñador",
+        "el programador"
+      ],
+      "audio": {
+        "text": "cocinero",
+        "lang": "es"
+      },
+      "translation": "the cook",
+      "note": "Masculine: el cocinero."
+    },
+    {
+      "id": "es/a1/u32/drill/1",
+      "type": "type_in",
+      "prompt": "Soy ___.",
+      "answer": "abogado",
+      "acceptedAnswers": [
+        "abogado"
+      ],
+      "translation": "I am a lawyer",
+      "note": "A profession takes no article after the verb."
+    },
+    {
+      "id": "es/a1/u32/match/programador",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the programmer",
+          "right": "el programador"
+        },
+        {
+          "left": "the designer",
+          "right": "el diseñador"
+        },
+        {
+          "left": "the vet",
+          "right": "el veterinario"
+        },
+        {
+          "left": "the taxi driver",
+          "right": "el taxista"
+        },
+        {
+          "left": "the farmer",
+          "right": "el campesino"
+        }
+      ],
+      "note": "A profession goes straight after the verb: soy abogado, with no article in between."
+    },
+    {
+      "id": "es/a1/u32/select/enfermero",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the nurse”.",
+      "options": [
+        "el programador",
+        "el diseñador",
+        "el policía",
+        "el enfermero"
+      ],
+      "answer": "el enfermero",
+      "translation": "the nurse",
+      "note": "Masculine: el enfermero. The feminine is la enfermera."
+    },
+    {
+      "id": "es/a1/u32/drill/2",
+      "type": "type_in",
+      "prompt": "Mi hermana es ___.",
+      "answer": "enfermera",
+      "acceptedAnswers": [
+        "enfermera"
+      ],
+      "translation": "my sister is a nurse",
+      "note": "The feminine of enfermero is enfermera."
+    },
+    {
+      "id": "es/a1/u32/select/periodista",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the journalist”.",
+      "options": [
+        "el campesino",
+        "el cocinero",
+        "el abogado",
+        "el periodista"
+      ],
+      "answer": "el periodista",
+      "translation": "the journalist",
+      "note": "Masculine: el periodista."
+    },
+    {
+      "id": "es/a1/u32/drill/3",
+      "type": "type_in",
+      "prompt": "___ trabaja en la escuela.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the teacher works at the school",
+      "note": "A profession with an article takes el or la."
+    },
+    {
+      "id": "es/a1/u32/drill/4",
+      "type": "type_in",
+      "prompt": "Mi padre es ___.",
+      "answer": "campesino",
+      "acceptedAnswers": [
+        "campesino"
+      ],
+      "translation": "my father is a farmer",
+      "note": "No article between the verb and the job."
+    }
+  ]
+}

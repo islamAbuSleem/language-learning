@@ -1,0 +1,48 @@
+{
+  "unit": 41,
+  "title": "More colours",
+  "description": "Name the colours you have not met yet, and use them with the verb ser.",
+  "grammar": "adjectives that change, and the words for colours",
+  "grammarNote": "A colour is an adjective, so it goes straight after the noun it describes: un coche gris.",
+  "explanation": {
+    "summary": "Colours are adjectives, and like every other adjective they change their ending to match the thing they describe. Most of them are the same word for men and women.",
+    "sections": [
+      {
+        "heading": "The colours",
+        "body": "Gris, turquesa and beis are the same in both genders. Amarillo, marrón, rosa, morado, dorado and claro become amarilla, marrón, rosa, morada, dorada and clara. Rosa is unusual: it does not change at all, and neither does it need an accent.",
+        "examples": [
+          { "es": "un coche gris", "en": "a grey car" },
+          { "es": "una camisa amarilla", "en": "a yellow shirt" },
+          { "es": "un libro marrón", "en": "a brown book" }
+        ]
+      },
+      {
+        "heading": "Where the colour goes",
+        "body": "A colour goes straight after the noun, with no article: el queso es blanco, la pared es amarilla. When the colour comes first, it takes el or la like an adjective: el café está oscuro, la casa es blanca.",
+        "examples": [
+          { "es": "la pared es amarilla", "en": "the wall is yellow" },
+          { "es": "el libro es marrón", "en": "the book is brown" },
+          { "es": "la ciudad es gris", "en": "the city is grey" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "gris", "en": "grey", "article": null, "note": "The same in both genders: un día gris.", "tags": ["colour"] },
+    { "es": "amarillo", "en": "yellow", "article": null, "note": "The feminine es amarilla.", "tags": ["colour"] },
+    { "es": "marrón", "en": "brown", "article": null, "note": "The same in both genders: un café marrón.", "tags": ["colour"] },
+    { "es": "rosa", "en": "pink", "article": null, "note": "The same in both genders: una camisa rosa.", "tags": ["colour"] },
+    { "es": "morado", "en": "purple", "article": null, "note": "The feminine es morada.", "tags": ["colour"] },
+    { "es": "dorado", "en": "golden", "article": null, "note": "The feminine es dorada.", "tags": ["colour"] },
+    { "es": "claro", "en": "light", "article": null, "note": "The feminine es clara.", "tags": ["colour"] },
+    { "es": "beis", "en": "beige", "article": null, "note": "The same in both genders: un abrigo beis.", "tags": ["colour"] },
+    { "es": "turquesa", "en": "turquoise", "article": null, "note": "The same in both genders: una camisa turquesa.", "tags": ["colour"] },
+    { "es": "lila", "en": "lilac", "article": null, "note": "The same in both genders: una camisa lila.", "tags": ["colour"] }
+  ],
+  "drills": [
+    { "prompt": "La camisa es ___.", "answer": "amarilla", "meaning": "the shirt is yellow", "note": "The colour matches the noun it describes." },
+    { "prompt": "El libro es ___.", "answer": "marrón", "meaning": "the book is brown", "note": "Marrón is the same in both genders." },
+    { "prompt": "Un día ___.", "answer": "gris", "meaning": "a grey day", "note": "Gris is the same in both genders." },
+    { "prompt": "La pared es ___.", "answer": "clara", "meaning": "the wall is light", "note": "The feminine of claro is clara." }
+  ]
+}

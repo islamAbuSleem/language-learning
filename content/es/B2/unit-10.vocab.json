@@ -37,7 +37,7 @@
     { "es": "aumento", "en": "increase", "article": "el", "note": "Masculine: el aumento.", "tags": ["noun"] },
     { "es": "descenso", "en": "decrease", "article": "el", "note": "Masculine: el descenso.", "tags": ["noun"] },
     { "es": "dato", "en": "figure", "article": "el", "note": "Masculine: el dato. It also means a piece of data.", "tags": ["noun"] },
-    { "es": "informe", "en": "report", "article": "el", "note": "Masculine: el informe.", "tags": ["noun"] }
+    { "es": "titular", "en": "the headline", "article": "el", "note": "Masculine: el titular. It is the title of a news story.", "tags": ["noun"] }
   ],
   "drills": [
     { "prompt": "El gobierno ___ que las medidas empezarían en enero.", "answer": "anunció", "meaning": "the government announced that the measures would start in January", "note": "Anunciar que, and the verb moves back a step." },

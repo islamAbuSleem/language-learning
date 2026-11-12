@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 50,
+  "title": "Every day",
+  "description": "Name the jobs you do at home, and say when you do them.",
+  "explanation": {
+    "summary": "The last unit of A1 is a set of -ar verbs: the things you do around the house. It is a good place to finish, because everything here is a verb you can use straight away.",
+    "sections": [
+      {
+        "heading": "The verbs",
+        "body": "Barrer, planchar, lavar, doblar, fregar, cortar, nadar, pescar, pasear and visitar are all regular -ar verbs. You drop the -ar and add the ending of the person: yo barro, tú barres, él barre.",
+        "examples": [
+          {
+            "es": "barro la cocina",
+            "en": "I sweep the kitchen"
+          },
+          {
+            "es": "ella nada en el lago",
+            "en": "she swims in the lake"
+          },
+          {
+            "es": "visitamos a mi abuela",
+            "en": "we visit my grandmother"
+          }
+        ]
+      },
+      {
+        "heading": "Every day",
+        "body": "These verbs take a thing, and the thing keeps its article: barro el suelo, lavo los platos, doblo la ropa. The word for the floor is el suelo, and the word for the washing is la ropa.",
+        "examples": [
+          {
+            "es": "lavo la ropa",
+            "en": "I wash the clothes"
+          },
+          {
+            "es": "doblo la ropa",
+            "en": "I fold the clothes"
+          },
+          {
+            "es": "corto el pan",
+            "en": "I cut the bread"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u50/match/barrer",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to sweep",
+          "right": "barrer"
+        },
+        {
+          "left": "to iron",
+          "right": "planchar"
+        },
+        {
+          "left": "to wash",
+          "right": "lavar"
+        },
+        {
+          "left": "to fold",
+          "right": "doblar"
+        },
+        {
+          "left": "to scrub",
+          "right": "fregar"
+        }
+      ],
+      "note": "Every verb in this unit is a regular -ar verb, so they all work the way you already know."
+    },
+    {
+      "id": "es/a1/u50/select/barrer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to sweep”.",
+      "options": [
+        "lavar",
+        "doblar",
+        "planchar",
+        "barrer"
+      ],
+      "answer": "barrer",
+      "translation": "to sweep",
+      "note": "A regular -ar verb: barro, barres, barre."
+    },
+    {
+      "id": "es/a1/u50/listen/planchar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "planchar",
+      "options": [
+        "hablar",
+        "trabajar",
+        "ser",
+        "planchar"
+      ],
+      "audio": {
+        "text": "planchar",
+        "lang": "es"
+      },
+      "translation": "to iron",
+      "note": "A regular -ar verb: plancho, planchas, plancha."
+    },
+    {
+      "id": "es/a1/u50/drill/1",
+      "type": "type_in",
+      "prompt": "Yo ___ la cocina.",
+      "answer": "barro",
+      "acceptedAnswers": [
+        "barro"
+      ],
+      "translation": "I sweep the kitchen",
+      "note": "Barrer with yo is barro."
+    },
+    {
+      "id": "es/a1/u50/match/cortar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to cut",
+          "right": "cortar"
+        },
+        {
+          "left": "to swim",
+          "right": "nadar"
+        },
+        {
+          "left": "to fish",
+          "right": "pescar"
+        },
+        {
+          "left": "to walk, to stroll",
+          "right": "pasear"
+        },
+        {
+          "left": "to visit",
+          "right": "visitar"
+        }
+      ],
+      "note": "Every verb in this unit is a regular -ar verb, so they all work the way you already know."
+    },
+    {
+      "id": "es/a1/u50/select/lavar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to wash”.",
+      "options": [
+        "pasear",
+        "visitar",
+        "pescar",
+        "lavar"
+      ],
+      "answer": "lavar",
+      "translation": "to wash",
+      "note": "A regular -ar verb: lavo, lavas, lava."
+    },
+    {
+      "id": "es/a1/u50/drill/2",
+      "type": "type_in",
+      "prompt": "Ella ___ la ropa.",
+      "answer": "lava",
+      "acceptedAnswers": [
+        "lava"
+      ],
+      "translation": "she washes the clothes",
+      "note": "Lavar with ella is lava."
+    },
+    {
+      "id": "es/a1/u50/select/doblar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to fold”.",
+      "options": [
+        "pasear",
+        "visitar",
+        "llegar",
+        "doblar"
+      ],
+      "answer": "doblar",
+      "translation": "to fold",
+      "note": "A regular -ar verb: doblo, doblas, dobla."
+    },
+    {
+      "id": "es/a1/u50/drill/3",
+      "type": "type_in",
+      "prompt": "Nosotros ___ en el lago.",
+      "answer": "nadamos",
+      "acceptedAnswers": [
+        "nadamos"
+      ],
+      "translation": "we swim in the lake",
+      "note": "Nadar with nosotros is nadamos."
+    },
+    {
+      "id": "es/a1/u50/drill/4",
+      "type": "type_in",
+      "prompt": "Tú ___ el pan.",
+      "answer": "cortas",
+      "acceptedAnswers": [
+        "cortas"
+      ],
+      "translation": "you cut the bread",
+      "note": "Cortar with tú is cortas."
+    }
+  ]
+}

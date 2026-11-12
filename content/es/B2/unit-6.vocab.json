@@ -30,7 +30,7 @@
   "items": [
     { "es": "comunicación", "en": "communication", "article": "la", "note": "Feminine: la comunicación. From comunicar.", "tags": ["noun"] },
     { "es": "reunión", "en": "meeting", "article": "la", "note": "Feminine: la reunión. From reunir.", "tags": ["noun"] },
-    { "es": "decisión", "en": "decision", "article": "la", "note": "Feminine: la decisión. From decidir.", "tags": ["noun"] },
+    { "es": "conclusión", "en": "conclusion", "article": "la", "note": "Feminine: la conclusión. From concluir.", "tags": ["noun"] },
     { "es": "movimiento", "en": "movement", "article": "el", "note": "Masculine: el movimiento. From mover.", "tags": ["noun"] },
     { "es": "empleo", "en": "employment", "article": "el", "note": "Masculine: el empleo. From emplear.", "tags": ["noun"] },
     { "es": "cambio", "en": "change", "article": "el", "note": "Masculine: el cambio. From cambiar.", "tags": ["noun"] },

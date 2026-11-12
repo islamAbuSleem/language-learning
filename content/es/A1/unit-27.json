@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 27,
+  "title": "In the town",
+  "description": "Name the places in a town, and say where they are.",
+  "explanation": {
+    "summary": "A town is made of places, and most of them are named after what they do. The shops that sell one kind of thing all end in -ería, which is always feminine.",
+    "sections": [
+      {
+        "heading": "The places",
+        "body": "La iglesia, la escuela, la panadería, la farmacia, la peluquería, la biblioteca and la joyería are feminine. El ayuntamiento, el hospital and el polideportivo are masculine. The -ería ending is the clue: la panadería sells bread, la peluquería cuts hair, la farmacia sells medicine.",
+        "examples": [
+          {
+            "es": "la panadería",
+            "en": "the bakery"
+          },
+          {
+            "es": "la peluquería",
+            "en": "the hairdresser"
+          },
+          {
+            "es": "el hospital",
+            "en": "the hospital"
+          }
+        ]
+      },
+      {
+        "heading": "Where they are",
+        "body": "You already know how to say where a place is: the verb estar, then en and the place. La farmacia está en la calle mayor means the pharmacy is on the main street. En la plaza is where the town keeps its square, and the square is usually where the shops are.",
+        "examples": [
+          {
+            "es": "el hospital está cerca del parque",
+            "en": "the hospital is near the park"
+          },
+          {
+            "es": "la escuela está en mi barrio",
+            "en": "the school is in my neighbourhood"
+          },
+          {
+            "es": "el ayuntamiento está en la plaza",
+            "en": "the town hall is on the square"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u27/match/iglesia",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the church",
+          "right": "la iglesia"
+        },
+        {
+          "left": "the town hall",
+          "right": "el ayuntamiento"
+        },
+        {
+          "left": "the school",
+          "right": "la escuela"
+        },
+        {
+          "left": "the hospital",
+          "right": "el hospital"
+        },
+        {
+          "left": "the bakery",
+          "right": "la panadería"
+        }
+      ],
+      "note": "A shop or a workshop that sells one thing ends in -ería, and it is always feminine."
+    },
+    {
+      "id": "es/a1/u27/select/iglesia",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the church”.",
+      "options": [
+        "la panadería",
+        "la peluquería",
+        "la farmacia",
+        "la iglesia"
+      ],
+      "answer": "la iglesia",
+      "translation": "the church",
+      "note": "Feminine: la iglesia."
+    },
+    {
+      "id": "es/a1/u27/listen/ayuntamiento",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el ayuntamiento",
+      "options": [
+        "la panadería",
+        "la peluquería",
+        "la farmacia",
+        "el ayuntamiento"
+      ],
+      "audio": {
+        "text": "ayuntamiento",
+        "lang": "es"
+      },
+      "translation": "the town hall",
+      "note": "Masculine: el ayuntamiento."
+    },
+    {
+      "id": "es/a1/u27/drill/1",
+      "type": "type_in",
+      "prompt": "___ panadería está en la calle.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the bakery is on the street",
+      "note": "Panadería is feminine."
+    },
+    {
+      "id": "es/a1/u27/match/farmacia",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the pharmacy",
+          "right": "la farmacia"
+        },
+        {
+          "left": "the hairdresser",
+          "right": "la peluquería"
+        },
+        {
+          "left": "the sports centre",
+          "right": "el polideportivo"
+        },
+        {
+          "left": "the library",
+          "right": "la biblioteca"
+        },
+        {
+          "left": "the jeweller",
+          "right": "la joyería"
+        }
+      ],
+      "note": "A shop or a workshop that sells one thing ends in -ería, and it is always feminine."
+    },
+    {
+      "id": "es/a1/u27/select/escuela",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the school”.",
+      "options": [
+        "la joyería",
+        "la iglesia",
+        "el ayuntamiento",
+        "la escuela"
+      ],
+      "answer": "la escuela",
+      "translation": "the school",
+      "note": "Feminine: la escuela."
+    },
+    {
+      "id": "es/a1/u27/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está en el centro.",
+      "answer": "hospital",
+      "acceptedAnswers": [
+        "hospital"
+      ],
+      "translation": "the hospital is in the centre",
+      "note": "Hospital is masculine."
+    },
+    {
+      "id": "es/a1/u27/select/hospital",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the hospital”.",
+      "options": [
+        "la farmacia",
+        "la peluquería",
+        "el polideportivo",
+        "el hospital"
+      ],
+      "answer": "el hospital",
+      "translation": "the hospital",
+      "note": "Masculine: el hospital. The accent marks the stress."
+    },
+    {
+      "id": "es/a1/u27/drill/3",
+      "type": "type_in",
+      "prompt": "___ farmacia abre a las diez.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the pharmacy opens at ten",
+      "note": "Farmacia is feminine."
+    },
+    {
+      "id": "es/a1/u27/drill/4",
+      "type": "type_in",
+      "prompt": "La ___ vende pan y bollos.",
+      "answer": "panadería",
+      "acceptedAnswers": [
+        "panaderia"
+      ],
+      "translation": "the bakery sells bread and buns",
+      "note": "A shop that sells one thing ends in -ería."
+    }
+  ]
+}

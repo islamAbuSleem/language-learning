@@ -33,7 +33,7 @@
     { "es": "a punto de", "en": "about to", "article": null, "note": "A point of the infinitive: está a punto de salir.", "tags": ["phrase"] },
     { "es": "de acuerdo", "en": "agreed", "article": null, "note": "De acuerdo con: de acuerdo con el plan.", "tags": ["phrase"] },
     { "es": "en efecto", "en": "indeed", "article": null, "note": "It agrees with what was just said.", "tags": ["phrase"] },
-    { "es": "sin embargo", "en": "however", "article": null, "note": "A formal but, with a comma before it.", "tags": ["phrase"] },
+    { "es": "en realidad", "en": "in reality", "article": null, "note": "A phrase that softens a statement: en realidad, no es tan difícil.", "tags": ["phrase"] },
     { "es": "en suma", "en": "in short", "article": null, "note": "It sums up what has been said.", "tags": ["phrase"] },
     { "es": "en resumen", "en": "to sum up", "article": null, "note": "It closes a text.", "tags": ["phrase"] },
     { "es": "por ahora", "en": "for now", "article": null, "note": "Por ahora no sé, I do not know for now.", "tags": ["phrase"] },

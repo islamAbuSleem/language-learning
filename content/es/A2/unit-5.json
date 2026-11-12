@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to have”.",
       "options": [
-        "llegar",
-        "ser",
-        "hablar",
+        "querer",
+        "poder",
+        "deber",
         "tener"
       ],
       "answer": "tener",
@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to want”.",
       "options": [
-        "necesitar",
-        "estar",
-        "comer",
+        "servir",
+        "repetir",
+        "decidir",
         "querer"
       ],
       "answer": "querer",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to be able to”.",
       "options": [
-        "necesitar",
-        "estar",
-        "comer",
+        "llegar",
+        "ser",
+        "hablar",
         "poder"
       ],
       "answer": "poder",

@@ -1,0 +1,48 @@
+{
+  "unit": 32,
+  "title": "Work",
+  "description": "Name the jobs, and say what you do.",
+  "grammar": "ser and a profession, without an article",
+  "grammarNote": "A profession goes straight after the verb: soy abogado, with no article in between.",
+  "explanation": {
+    "summary": "Every one of these jobs ends in -o and is masculine, and none of them takes an article. That is the rule: a profession is what you are, so it goes straight after the verb.",
+    "sections": [
+      {
+        "heading": "The jobs",
+        "body": "El abogado, el cocinero, el enfermero, el periodista, el policía, el programador, el diseñador, el veterinario, el taxista y el campesino are all masculine. Most of them end in -ero or -ista, and the ending makes the job: el programador programs, el taxista drives a taxi.",
+        "examples": [
+          { "es": "el abogado", "en": "the lawyer" },
+          { "es": "el enfermero", "en": "the nurse" },
+          { "es": "el programador", "en": "the programmer" }
+        ]
+      },
+      {
+        "heading": "No article in between",
+        "body": "A profession goes straight after the verb, with no article: soy abogado, ella es enfermera. The feminine is easy: change the -o to -a, so el abogado becomes la abogada. When you use the job with an article, it is el abogado que trabaja aquí, the lawyer who works here.",
+        "examples": [
+          { "es": "soy periodista", "en": "I am a journalist" },
+          { "es": "ella es programista", "en": "she is a programmer" },
+          { "es": "es un trabajo interesante", "en": "it is an interesting job" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "abogado", "en": "the lawyer", "article": "el", "note": "Masculine: el abogado. The feminine is la abogada.", "tags": ["work"] },
+    { "es": "cocinero", "en": "the cook", "article": "el", "note": "Masculine: el cocinero.", "tags": ["work"] },
+    { "es": "enfermero", "en": "the nurse", "article": "el", "note": "Masculine: el enfermero. The feminine is la enfermera.", "tags": ["work"] },
+    { "es": "periodista", "en": "the journalist", "article": "el", "note": "Masculine: el periodista.", "tags": ["work"] },
+    { "es": "policía", "en": "the police officer", "article": "el", "note": "Masculine: el policía. The feminine is la policía, with the same accent.", "tags": ["work"] },
+    { "es": "programador", "en": "the programmer", "article": "el", "note": "Masculine: el programador.", "tags": ["work"] },
+    { "es": "diseñador", "en": "the designer", "article": "el", "note": "Masculine: el diseñador. The accent marks the stress.", "tags": ["work"] },
+    { "es": "veterinario", "en": "the vet", "article": "el", "note": "Masculine: el veterinario.", "tags": ["work"] },
+    { "es": "taxista", "en": "the taxi driver", "article": "el", "note": "Masculine: el taxista.", "tags": ["work"] },
+    { "es": "campesino", "en": "the farmer", "article": "el", "note": "Masculine: el campesino.", "tags": ["work"] }
+  ],
+  "drills": [
+    { "prompt": "Soy ___.", "answer": "abogado", "meaning": "I am a lawyer", "note": "A profession takes no article after the verb." },
+    { "prompt": "Mi hermana es ___.", "answer": "enfermera", "meaning": "my sister is a nurse", "note": "The feminine of enfermero is enfermera." },
+    { "prompt": "___ trabaja en la escuela.", "answer": "El", "meaning": "the teacher works at the school", "note": "A profession with an article takes el or la." },
+    { "prompt": "Mi padre es ___.", "answer": "campesino", "meaning": "my father is a farmer", "note": "No article between the verb and the job." }
+  ]
+}

@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I spoke”.",
       "options": [
-        "necesitar",
-        "estar",
-        "comer",
+        "dice",
+        "preguntó",
+        "cuenta",
         "hablara"
       ],
       "answer": "hablara",
@@ -133,9 +133,9 @@
       "prompt": "Pick the Spanish word for “I ate”.",
       "options": [
         "comiera",
-        "repetir",
-        "servir",
-        "decidir"
+        "salió",
+        "llegó",
+        "hablaba"
       ],
       "answer": "comiera",
       "translation": "I ate",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “I lived”.",
       "options": [
-        "coma",
-        "trabaje",
-        "viva",
+        "veré",
+        "podré",
+        "haré",
         "viviera"
       ],
       "answer": "viviera",

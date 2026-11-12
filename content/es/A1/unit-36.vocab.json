@@ -1,0 +1,48 @@
+{
+  "unit": 36,
+  "title": "The telephone",
+  "description": "Name the parts of a phone, and talk about a call.",
+  "grammar": "gender and articles, and the words for a call",
+  "grammarNote": "The names of the things on a phone are nouns, and each one has its own gender.",
+  "explanation": {
+    "summary": "Everyone carries one of these, so the words are worth knowing. The names are a mixture of masculine and feminine, and the call itself is a noun you can make.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El teléfono, el móvil, el botón, el altavoz y el cargador are masculine. La llamada, la pantalla, la red y la batería are feminine. El botón is the button you press, and la pantalla is the screen you look at.",
+        "examples": [
+          { "es": "el móvil", "en": "the mobile phone" },
+          { "es": "la pantalla", "en": "the screen" },
+          { "es": "el botón", "en": "the button" }
+        ]
+      },
+      {
+        "heading": "Talking about a call",
+        "body": "Hacer una llamada is to make a call, and la llamada is the call itself. The words for the state of the phone are ordinary sentences: la batería está baja, the battery is low, el teléfono está en la mesa, the phone is on the table.",
+        "examples": [
+          { "es": "la batería está baja", "en": "the battery is low" },
+          { "es": "el teléfono está en la mesa", "en": "the phone is on the table" },
+          { "es": "hago una llamada a mi madre", "en": "I make a call to my mother" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "teléfono", "en": "the telephone", "article": "el", "note": "Masculine: el teléfono.", "tags": ["phone"] },
+    { "es": "móvil", "en": "the mobile phone", "article": "el", "note": "Masculine: el móvil.", "tags": ["phone"] },
+    { "es": "llamada", "en": "the call", "article": "la", "note": "Feminine: la llamada.", "tags": ["phone"] },
+    { "es": "tono", "en": "the tone", "article": "el", "note": "Masculine: el tono. It is also el tono de llamada, the ringtone.", "tags": ["phone"] },
+    { "es": "pantalla", "en": "the screen", "article": "la", "note": "Feminine: la pantalla.", "tags": ["phone"] },
+    { "es": "botón", "en": "the button", "article": "el", "note": "Masculine: el botón. The accent marks the stress.", "tags": ["phone"] },
+    { "es": "red", "en": "the network", "article": "la", "note": "Feminine: la red.", "tags": ["phone"] },
+    { "es": "batería", "en": "the battery", "article": "la", "note": "Feminine: la batería. The accent marks the stress.", "tags": ["phone"] },
+    { "es": "altavoz", "en": "the loudspeaker", "article": "el", "note": "Masculine: el altavoz.", "tags": ["phone"] },
+    { "es": "cargador", "en": "the charger", "article": "el", "note": "Masculine: el cargador.", "tags": ["phone"] }
+  ],
+  "drills": [
+    { "prompt": "___ pantalla está rota.", "answer": "La", "meaning": "the screen is broken", "note": "Pantalla is feminine." },
+    { "prompt": "El ___ está en la mesa.", "answer": "teléfono", "meaning": "the phone is on the table", "note": "Teléfono is masculine." },
+    { "prompt": "___ batería está baja.", "answer": "La", "meaning": "the battery is low", "note": "Batería is feminine." },
+    { "prompt": "Hago una ___ a mi madre.", "answer": "llamada", "meaning": "I make a call to my mother", "note": "Llamada is feminine, so una llamada." }
+  ]
+}

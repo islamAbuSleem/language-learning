@@ -37,7 +37,7 @@
     { "es": "haya hecho", "en": "has done", "article": null, "note": "The perfect subjunctive of hacer.", "tags": ["verb"] },
     { "es": "haya dicho", "en": "has said", "article": null, "note": "The perfect subjunctive of decir.", "tags": ["verb"] },
     { "es": "haya escrito", "en": "has written", "article": null, "note": "The perfect subjunctive of escribir.", "tags": ["verb"] },
-    { "es": "ojalá", "en": "hopefully", "article": null, "note": "It introduces a wish: ojalá sea, if only it were.", "tags": ["link"] }
+    { "es": "por si acaso", "en": "just in case", "article": null, "note": "A phrase: por si acaso llueve, just in case it rains.", "tags": ["link"] }
   ],
   "drills": [
     { "prompt": "Espero que ___ terminado.", "answer": "haya", "meaning": "I hope it has finished", "note": "The perfect subjunctive of haber." },

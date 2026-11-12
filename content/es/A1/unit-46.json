@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 46,
+  "title": "Travelling",
+  "description": "Name the things of a journey, and say where you are going.",
+  "explanation": {
+    "summary": "Travel words are the ones a learner needs on the first day abroad, and they are ordinary nouns with an article and a plural.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El pasaporte, el vuelo, el equipaje, el hotel y el conductor are masculine. La maleta, la aduana, la frontera y la reserva are feminine. El equipaje is the whole of it, and la maleta is one case. El conductor is the driver, and el andén is the platform at the station.",
+        "examples": [
+          {
+            "es": "el pasaporte",
+            "en": "the passport"
+          },
+          {
+            "es": "la maleta",
+            "en": "the suitcase"
+          },
+          {
+            "es": "el andén",
+            "en": "the platform"
+          }
+        ]
+      },
+      {
+        "heading": "Where you are going",
+        "body": "You already know how to say where a place is and how to get there. Ir + a + place says where you are going: voy al hotel, voy a la aduana. En la frontera means at the border, and la reserva is the booking you made before you left.",
+        "examples": [
+          {
+            "es": "voy al hotel",
+            "en": "I am going to the hotel"
+          },
+          {
+            "es": "la maleta está en el equipaje",
+            "en": "the suitcase is in the luggage"
+          },
+          {
+            "es": "hago la reserva para noviembre",
+            "en": "I make the booking for November"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u46/match/maleta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the suitcase",
+          "right": "la maleta"
+        },
+        {
+          "left": "the passport",
+          "right": "el pasaporte"
+        },
+        {
+          "left": "the flight",
+          "right": "el vuelo"
+        },
+        {
+          "left": "the luggage",
+          "right": "el equipaje"
+        },
+        {
+          "left": "the customs",
+          "right": "la aduana"
+        }
+      ],
+      "note": "The nouns of a journey are ordinary nouns, and each one has its own gender."
+    },
+    {
+      "id": "es/a1/u46/select/maleta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the suitcase”.",
+      "options": [
+        "la reserva",
+        "el conductor",
+        "el andén",
+        "la maleta"
+      ],
+      "answer": "la maleta",
+      "translation": "the suitcase",
+      "note": "Feminine: la maleta."
+    },
+    {
+      "id": "es/a1/u46/listen/pasaporte",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el pasaporte",
+      "options": [
+        "la aduana",
+        "la frontera",
+        "el equipaje",
+        "el pasaporte"
+      ],
+      "audio": {
+        "text": "pasaporte",
+        "lang": "es"
+      },
+      "translation": "the passport",
+      "note": "Masculine: el pasaporte."
+    },
+    {
+      "id": "es/a1/u46/drill/1",
+      "type": "type_in",
+      "prompt": "___ maleta está en el suelo.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the suitcase is on the floor",
+      "note": "Maleta is feminine."
+    },
+    {
+      "id": "es/a1/u46/match/frontera",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the border",
+          "right": "la frontera"
+        },
+        {
+          "left": "the hotel",
+          "right": "el hotel"
+        },
+        {
+          "left": "the booking",
+          "right": "la reserva"
+        },
+        {
+          "left": "the driver",
+          "right": "el conductor"
+        },
+        {
+          "left": "the platform",
+          "right": "el andén"
+        }
+      ],
+      "note": "The nouns of a journey are ordinary nouns, and each one has its own gender."
+    },
+    {
+      "id": "es/a1/u46/select/vuelo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the flight”.",
+      "options": [
+        "el pasaporte",
+        "la aduana",
+        "el equipaje",
+        "el vuelo"
+      ],
+      "answer": "el vuelo",
+      "translation": "the flight",
+      "note": "Masculine: el vuelo."
+    },
+    {
+      "id": "es/a1/u46/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está en la cartera.",
+      "answer": "pasaporte",
+      "acceptedAnswers": [
+        "pasaporte"
+      ],
+      "translation": "the passport is in the wallet",
+      "note": "Pasaporte is masculine."
+    },
+    {
+      "id": "es/a1/u46/select/equipaje",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the luggage”.",
+      "options": [
+        "el equipaje",
+        "el andén",
+        "el conductor",
+        "la reserva"
+      ],
+      "answer": "el equipaje",
+      "translation": "the luggage",
+      "note": "Masculine: el equipaje."
+    },
+    {
+      "id": "es/a1/u46/drill/3",
+      "type": "type_in",
+      "prompt": "___ reserva es para el sábado.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the booking is for Saturday",
+      "note": "Reserva is feminine."
+    },
+    {
+      "id": "es/a1/u46/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ conduce el autobús.",
+      "answer": "conductor",
+      "acceptedAnswers": [
+        "conductor"
+      ],
+      "translation": "the driver drives the bus",
+      "note": "Conductor is masculine."
+    }
+  ]
+}

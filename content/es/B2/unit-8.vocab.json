@@ -36,7 +36,7 @@
     { "es": "claro", "en": "light", "article": null, "note": "Claro goes after the noun. Claro also means of course.", "tags": ["adjective"] },
     { "es": "propio", "en": "own", "article": null, "note": "Propio goes before the noun: mi propio hijo.", "tags": ["adjective"] },
     { "es": "mismo", "en": "same", "article": null, "note": "Mismo goes after the noun: la misma razón.", "tags": ["adjective"] },
-    { "es": "informe", "en": "report", "article": "el", "note": "Masculine: el informe.", "tags": ["object"] },
+    { "es": "texto", "en": "text", "article": "el", "note": "Masculine: el texto.", "tags": ["object"] },
     { "es": "abrigo", "en": "coat", "article": "el", "note": "Masculine: el abrigo.", "tags": ["object"] }
   ],
   "drills": [

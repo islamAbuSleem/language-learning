@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to announce”.",
       "options": [
-        "poder",
-        "hay",
-        "deber",
+        "vestirse",
+        "afeitarse",
+        "acostarse",
         "anunciar"
       ],
       "answer": "anunciar",
@@ -121,8 +121,8 @@
           "right": "el dato"
         },
         {
-          "left": "report",
-          "right": "el informe"
+          "left": "the headline",
+          "right": "el titular"
         }
       ],
       "note": "To report, you use the verb of saying and then que: dijo que, contó que."
@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to report”.",
       "options": [
-        "descubrir",
-        "pedir",
-        "compartir",
+        "acostarse",
+        "afeitarse",
+        "vestirse",
         "informar"
       ],
       "answer": "informar",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to comment”.",
       "options": [
-        "viajar",
-        "tener",
-        "querer",
+        "deber",
+        "hay",
+        "hacer",
         "comentar"
       ],
       "answer": "comentar",

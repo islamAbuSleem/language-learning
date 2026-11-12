@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to depend”.",
       "options": [
-        "mentir",
-        "cerrar",
-        "despertar",
+        "haga",
+        "sea",
+        "diga",
         "depender"
       ],
       "answer": "depender",
@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to insist”.",
       "options": [
-        "quedar",
-        "ayudar",
-        "depender",
+        "vivió",
+        "pidió",
+        "entendió",
         "insistir"
       ],
       "answer": "insistir",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to dream”.",
       "options": [
-        "mentir",
-        "cerrar",
-        "despertar",
+        "estudiaba",
+        "miraba",
+        "buscaba",
         "soñar"
       ],
       "answer": "soñar",

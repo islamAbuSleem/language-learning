@@ -1,0 +1,48 @@
+{
+  "unit": 16,
+  "title": "In the kitchen",
+  "description": "Name the things in a kitchen, and say where each one is.",
+  "grammar": "gender and articles, and prepositions of place",
+  "grammarNote": "Most kitchen words are ordinary nouns, so the article does the work of telling them apart.",
+  "explanation": {
+    "summary": "A kitchen is a room full of nouns, and in Spanish the article tells you which one is which. El and la are not decoration: el horno and la horno are not the same object.",
+    "sections": [
+      {
+        "heading": "The nouns and their articles",
+        "body": "Most of these words end in -o or -a, and the ending usually tells you the gender. El tenedor is masculine and la cuchara is feminine. The exception is la sartén, which ends in -a but is masculine in meaning and keeps el: la sartén is wrong, it is el sartén. Learn the gender with the word, because the ending is only a guide.",
+        "examples": [
+          { "es": "el tenedor", "en": "the fork" },
+          { "es": "la cuchara", "en": "the spoon" },
+          { "es": "el sartén", "en": "the frying pan" }
+        ]
+      },
+      {
+        "heading": "Saying where it is",
+        "body": "You already know how to say where something is: the verb estar, then the place. The place is often a room with en before it, or inside something with dentro. En la cocina means in the kitchen, and el horno está en la cocina means the oven is in the kitchen.",
+        "examples": [
+          { "es": "el horno está en la cocina", "en": "the oven is in the kitchen" },
+          { "es": "la olla está dentro del horno", "en": "the pot is inside the oven" },
+          { "es": "la taza está encima de la mesa", "en": "the cup is on top of the table" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "refrigerador", "en": "the fridge", "article": "el", "note": "Masculine: el refrigerador. You also say la nevera for the same thing.", "tags": ["kitchen"] },
+    { "es": "estufa", "en": "the cooker", "article": "la", "note": "Feminine: la estufa.", "tags": ["kitchen"] },
+    { "es": "horno", "en": "the oven", "article": "el", "note": "Masculine: el horno.", "tags": ["kitchen"] },
+    { "es": "sartén", "en": "the frying pan", "article": "el", "note": "Masculine in meaning: el sartén, even though it ends in -a.", "tags": ["kitchen"] },
+    { "es": "cuchara", "en": "the spoon", "article": "la", "note": "Feminine: la cuchara.", "tags": ["kitchen"] },
+    { "es": "cuchillo", "en": "the knife", "article": "el", "note": "Masculine: el cuchillo.", "tags": ["kitchen"] },
+    { "es": "tenedor", "en": "the fork", "article": "el", "note": "Masculine: el tenedor.", "tags": ["kitchen"] },
+    { "es": "taza", "en": "the cup", "article": "la", "note": "Feminine: la taza. A cup of coffee is una taza de café.", "tags": ["kitchen"] },
+    { "es": "olla", "en": "the pot", "article": "la", "note": "Feminine: la olla.", "tags": ["kitchen"] },
+    { "es": "tabla", "en": "the chopping board", "article": "la", "note": "Feminine: la tabla.", "tags": ["kitchen"] }
+  ],
+  "drills": [
+    { "prompt": "___ cuchara, por favor.", "answer": "La", "meaning": "the spoon, please", "note": "Cuchara is feminine." },
+    { "prompt": "El ___ está en la cocina.", "answer": "horno", "meaning": "the oven is in the kitchen", "note": "Horno is masculine." },
+    { "prompt": "___ sartén es grande.", "answer": "El", "meaning": "the frying pan is big", "note": "The frying pan keeps el." },
+    { "prompt": "Quiero una ___ de café.", "answer": "taza", "meaning": "I want a cup of coffee", "note": "Taza is feminine, so una taza." }
+  ]
+}

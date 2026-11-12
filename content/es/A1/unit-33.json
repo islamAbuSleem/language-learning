@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 33,
+  "title": "The office",
+  "description": "Name the things on a desk, and say what they are for.",
+  "explanation": {
+    "summary": "An office is a set of nouns, and each one has a job. Para is the word that explains what something is for.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El escritorio, el papel, el calendario, el archivo, el mostrador y el teclado are masculine. La carpeta, la grapadora, la agenda y la impresora are feminine. La agenda is the diary, and el archivo is the filing cabinet or the archive.",
+        "examples": [
+          {
+            "es": "el escritorio",
+            "en": "the desk"
+          },
+          {
+            "es": "la carpeta",
+            "en": "the folder"
+          },
+          {
+            "es": "el teclado",
+            "en": "the keyboard"
+          }
+        ]
+      },
+      {
+        "heading": "What they are for",
+        "body": "Para says what a thing is for, and it goes in front of the noun with its article: el papel es para escribir, the paper is for writing. En says where it is: el papel está en la carpeta, the paper is in the folder.",
+        "examples": [
+          {
+            "es": "el papel es para escribir",
+            "en": "the paper is for writing"
+          },
+          {
+            "es": "el archivo está en la oficina",
+            "en": "the filing cabinet is in the office"
+          },
+          {
+            "es": "la agenda está encima del teclado",
+            "en": "the diary is on top of the keyboard"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u33/match/escritorio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the desk",
+          "right": "el escritorio"
+        },
+        {
+          "left": "the folder",
+          "right": "la carpeta"
+        },
+        {
+          "left": "the paper",
+          "right": "el papel"
+        },
+        {
+          "left": "the stapler",
+          "right": "la grapadora"
+        },
+        {
+          "left": "the calendar",
+          "right": "el calendario"
+        }
+      ],
+      "note": "Every noun in an office needs its article, and para says what a thing is for."
+    },
+    {
+      "id": "es/a1/u33/select/escritorio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the desk”.",
+      "options": [
+        "el teclado",
+        "la carpeta",
+        "el papel",
+        "el escritorio"
+      ],
+      "answer": "el escritorio",
+      "translation": "the desk",
+      "note": "Masculine: el escritorio."
+    },
+    {
+      "id": "es/a1/u33/listen/carpeta",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la carpeta",
+      "options": [
+        "el mostrador",
+        "el teclado",
+        "la impresora",
+        "la carpeta"
+      ],
+      "audio": {
+        "text": "carpeta",
+        "lang": "es"
+      },
+      "translation": "the folder",
+      "note": "Feminine: la carpeta."
+    },
+    {
+      "id": "es/a1/u33/drill/1",
+      "type": "type_in",
+      "prompt": "___ carpeta está en el escritorio.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the folder is on the desk",
+      "note": "Carpeta is feminine."
+    },
+    {
+      "id": "es/a1/u33/match/agenda",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the diary",
+          "right": "la agenda"
+        },
+        {
+          "left": "the filing cabinet",
+          "right": "el archivo"
+        },
+        {
+          "left": "the printer",
+          "right": "la impresora"
+        },
+        {
+          "left": "the counter",
+          "right": "el mostrador"
+        },
+        {
+          "left": "the keyboard",
+          "right": "el teclado"
+        }
+      ],
+      "note": "Every noun in an office needs its article, and para says what a thing is for."
+    },
+    {
+      "id": "es/a1/u33/select/papel",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the paper”.",
+      "options": [
+        "la agenda",
+        "la impresora",
+        "el archivo",
+        "el papel"
+      ],
+      "answer": "el papel",
+      "translation": "the paper",
+      "note": "Masculine: el papel."
+    },
+    {
+      "id": "es/a1/u33/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es para escribir.",
+      "answer": "papel",
+      "acceptedAnswers": [
+        "papel"
+      ],
+      "translation": "the paper is for writing",
+      "note": "Papel is masculine."
+    },
+    {
+      "id": "es/a1/u33/select/grapadora",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the stapler”.",
+      "options": [
+        "la carpeta",
+        "el papel",
+        "el escritorio",
+        "la grapadora"
+      ],
+      "answer": "la grapadora",
+      "translation": "the stapler",
+      "note": "Feminine: la grapadora."
+    },
+    {
+      "id": "es/a1/u33/drill/3",
+      "type": "type_in",
+      "prompt": "___ grapadora está en el cajón.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the stapler is in the drawer",
+      "note": "Grapadora is feminine."
+    },
+    {
+      "id": "es/a1/u33/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ tiene el mes de mayo.",
+      "answer": "calendario",
+      "acceptedAnswers": [
+        "calendario"
+      ],
+      "translation": "the calendar has the month of May on it",
+      "note": "Calendario is masculine."
+    }
+  ]
+}

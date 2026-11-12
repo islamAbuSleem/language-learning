@@ -1,0 +1,48 @@
+{
+  "unit": 24,
+  "title": "Bread and cheese",
+  "description": "Name the staples, and say what is on the bread.",
+  "grammar": "gender and articles, and con and sin",
+  "grammarNote": "Con and sin go straight in front of the noun, and the article stays.",
+  "explanation": {
+    "summary": "Bread, cheese and the things you put on them are the words of a simple meal. Con and sin say what is on it and what is not.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El pan, el queso, el jamón and el chorizo are masculine. La mantequilla, la miel, la tostada and la crema are feminine. La tortilla is the Spanish omelette, and it is not the same word as the tortilla in Mexico. El sándwich takes el because it is stressed on the last syllable.",
+        "examples": [
+          { "es": "el pan", "en": "the bread" },
+          { "es": "la tostada", "en": "the toast" },
+          { "es": "el sándwich", "en": "the sandwich" }
+        ]
+      },
+      {
+        "heading": "With and without",
+        "body": "Con means with and sin means without, and both go straight in front of the noun with no article: pan con queso, café sin leche. The article comes back when you say the thing on its own: el pan con queso, el café sin leche.",
+        "examples": [
+          { "es": "pan con queso", "en": "bread with cheese" },
+          { "es": "café sin leche", "en": "coffee without milk" },
+          { "es": "tostada con mantequilla", "en": "toast with butter" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "pan", "en": "the bread", "article": "el", "note": "Masculine: el pan.", "tags": ["food"] },
+    { "es": "queso", "en": "the cheese", "article": "el", "note": "Masculine: el queso.", "tags": ["food"] },
+    { "es": "mantequilla", "en": "the butter", "article": "la", "note": "Feminine: la mantequilla.", "tags": ["food"] },
+    { "es": "miel", "en": "the honey", "article": "la", "note": "Feminine: la miel.", "tags": ["food"] },
+    { "es": "jamón", "en": "the ham", "article": "el", "note": "Masculine: el jamón. The accent marks the stress.", "tags": ["food"] },
+    { "es": "chorizo", "en": "the sausage", "article": "el", "note": "Masculine: el chorizo.", "tags": ["food"] },
+    { "es": "tostada", "en": "the toast", "article": "la", "note": "Feminine: la tostada.", "tags": ["food"] },
+    { "es": "sándwich", "en": "the sandwich", "article": "el", "note": "Masculine: el sándwich. The accent marks the stress.", "tags": ["food"] },
+    { "es": "tortilla", "en": "the omelette", "article": "la", "note": "Feminine: la tortilla. In Spain this is an omelette.", "tags": ["food"] },
+    { "es": "crema", "en": "the cream", "article": "la", "note": "Feminine: la crema.", "tags": ["food"] }
+  ],
+  "drills": [
+    { "prompt": "___ pan está caliente.", "answer": "El", "meaning": "the bread is hot", "note": "Pan is masculine." },
+    { "prompt": "___ tostada con ___ y miel.", "answer": "La", "meaning": "the toast with butter and honey", "note": "Tostada is feminine." },
+    { "prompt": "Café sin ___.", "answer": "leche", "meaning": "coffee without milk", "note": "Sin goes straight in front of the noun." },
+    { "prompt": "Un ___ con jamón de Madrid.", "answer": "sándwich", "meaning": "a sandwich with ham from Madrid", "note": "Sándwich takes el and keeps it." }
+  ]
+}

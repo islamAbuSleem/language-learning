@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to eat”.",
       "options": [
-        "correr",
-        "perder",
-        "responder",
+        "fregar",
+        "cortar",
+        "nadar",
         "comer"
       ],
       "answer": "comer",
@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to drink”.",
       "options": [
-        "trabajar",
-        "estudiar",
-        "hablar",
+        "lavar",
+        "doblar",
+        "planchar",
         "beber"
       ],
       "answer": "beber",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to learn”.",
       "options": [
-        "comer",
-        "beber",
         "leer",
+        "vender",
+        "correr",
         "aprender"
       ],
       "answer": "aprender",

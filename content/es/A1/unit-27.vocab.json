@@ -1,0 +1,48 @@
+{
+  "unit": 27,
+  "title": "In the town",
+  "description": "Name the places in a town, and say where they are.",
+  "grammar": "gender and articles, and the ending -ería",
+  "grammarNote": "A shop or a workshop that sells one thing ends in -ería, and it is always feminine.",
+  "explanation": {
+    "summary": "A town is made of places, and most of them are named after what they do. The shops that sell one kind of thing all end in -ería, which is always feminine.",
+    "sections": [
+      {
+        "heading": "The places",
+        "body": "La iglesia, la escuela, la panadería, la farmacia, la peluquería, la biblioteca and la joyería are feminine. El ayuntamiento, el hospital and el polideportivo are masculine. The -ería ending is the clue: la panadería sells bread, la peluquería cuts hair, la farmacia sells medicine.",
+        "examples": [
+          { "es": "la panadería", "en": "the bakery" },
+          { "es": "la peluquería", "en": "the hairdresser" },
+          { "es": "el hospital", "en": "the hospital" }
+        ]
+      },
+      {
+        "heading": "Where they are",
+        "body": "You already know how to say where a place is: the verb estar, then en and the place. La farmacia está en la calle mayor means the pharmacy is on the main street. En la plaza is where the town keeps its square, and the square is usually where the shops are.",
+        "examples": [
+          { "es": "el hospital está cerca del parque", "en": "the hospital is near the park" },
+          { "es": "la escuela está en mi barrio", "en": "the school is in my neighbourhood" },
+          { "es": "el ayuntamiento está en la plaza", "en": "the town hall is on the square" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "iglesia", "en": "the church", "article": "la", "note": "Feminine: la iglesia.", "tags": ["town"] },
+    { "es": "ayuntamiento", "en": "the town hall", "article": "el", "note": "Masculine: el ayuntamiento.", "tags": ["town"] },
+    { "es": "escuela", "en": "the school", "article": "la", "note": "Feminine: la escuela.", "tags": ["town"] },
+    { "es": "hospital", "en": "the hospital", "article": "el", "note": "Masculine: el hospital. The accent marks the stress.", "tags": ["town"] },
+    { "es": "panadería", "en": "the bakery", "article": "la", "note": "Feminine: la panadería. A shop that sells bread ends in -ería.", "tags": ["town"] },
+    { "es": "farmacia", "en": "the pharmacy", "article": "la", "note": "Feminine: la farmacia.", "tags": ["town"] },
+    { "es": "peluquería", "en": "the hairdresser", "article": "la", "note": "Feminine: la peluquería.", "tags": ["town"] },
+    { "es": "polideportivo", "en": "the sports centre", "article": "el", "note": "Masculine: el polideportivo. It is where people play sport indoors.", "tags": ["town"] },
+    { "es": "biblioteca", "en": "the library", "article": "la", "note": "Feminine: la biblioteca.", "tags": ["town"] },
+    { "es": "joyería", "en": "the jeweller", "article": "la", "note": "Feminine: la joyería. It sells jewellery.", "tags": ["town"] }
+  ],
+  "drills": [
+    { "prompt": "___ panadería está en la calle.", "answer": "La", "meaning": "the bakery is on the street", "note": "Panadería is feminine." },
+    { "prompt": "El ___ está en el centro.", "answer": "hospital", "meaning": "the hospital is in the centre", "note": "Hospital is masculine." },
+    { "prompt": "___ farmacia abre a las diez.", "answer": "La", "meaning": "the pharmacy opens at ten", "note": "Farmacia is feminine." },
+    { "prompt": "La ___ vende pan y bollos.", "answer": "panadería", "meaning": "the bakery sells bread and buns", "note": "A shop that sells one thing ends in -ería." }
+  ]
+}

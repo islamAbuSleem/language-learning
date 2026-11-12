@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 41,
+  "title": "More colours",
+  "description": "Name the colours you have not met yet, and use them with the verb ser.",
+  "explanation": {
+    "summary": "Colours are adjectives, and like every other adjective they change their ending to match the thing they describe. Most of them are the same word for men and women.",
+    "sections": [
+      {
+        "heading": "The colours",
+        "body": "Gris, turquesa and beis are the same in both genders. Amarillo, marrón, rosa, morado, dorado and claro become amarilla, marrón, rosa, morada, dorada and clara. Rosa is unusual: it does not change at all, and neither does it need an accent.",
+        "examples": [
+          {
+            "es": "un coche gris",
+            "en": "a grey car"
+          },
+          {
+            "es": "una camisa amarilla",
+            "en": "a yellow shirt"
+          },
+          {
+            "es": "un libro marrón",
+            "en": "a brown book"
+          }
+        ]
+      },
+      {
+        "heading": "Where the colour goes",
+        "body": "A colour goes straight after the noun, with no article: el queso es blanco, la pared es amarilla. When the colour comes first, it takes el or la like an adjective: el café está oscuro, la casa es blanca.",
+        "examples": [
+          {
+            "es": "la pared es amarilla",
+            "en": "the wall is yellow"
+          },
+          {
+            "es": "el libro es marrón",
+            "en": "the book is brown"
+          },
+          {
+            "es": "la ciudad es gris",
+            "en": "the city is grey"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u41/match/gris",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "grey",
+          "right": "gris"
+        },
+        {
+          "left": "yellow",
+          "right": "amarillo"
+        },
+        {
+          "left": "brown",
+          "right": "marrón"
+        },
+        {
+          "left": "pink",
+          "right": "rosa"
+        },
+        {
+          "left": "purple",
+          "right": "morado"
+        }
+      ],
+      "note": "A colour is an adjective, so it goes straight after the noun it describes: un coche gris."
+    },
+    {
+      "id": "es/a1/u41/select/gris",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “grey”.",
+      "options": [
+        "verde",
+        "blanco",
+        "negro",
+        "gris"
+      ],
+      "answer": "gris",
+      "translation": "grey",
+      "note": "The same in both genders: un día gris."
+    },
+    {
+      "id": "es/a1/u41/listen/amarillo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "amarillo",
+      "options": [
+        "marrón",
+        "morado",
+        "rosa",
+        "amarillo"
+      ],
+      "audio": {
+        "text": "amarillo",
+        "lang": "es"
+      },
+      "translation": "yellow",
+      "note": "The feminine es amarilla."
+    },
+    {
+      "id": "es/a1/u41/drill/1",
+      "type": "type_in",
+      "prompt": "La camisa es ___.",
+      "answer": "amarilla",
+      "acceptedAnswers": [
+        "amarilla"
+      ],
+      "translation": "the shirt is yellow",
+      "note": "The colour matches the noun it describes."
+    },
+    {
+      "id": "es/a1/u41/match/dorado",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "golden",
+          "right": "dorado"
+        },
+        {
+          "left": "light",
+          "right": "claro"
+        },
+        {
+          "left": "beige",
+          "right": "beis"
+        },
+        {
+          "left": "turquoise",
+          "right": "turquesa"
+        },
+        {
+          "left": "lilac",
+          "right": "lila"
+        }
+      ],
+      "note": "A colour is an adjective, so it goes straight after the noun it describes: un coche gris."
+    },
+    {
+      "id": "es/a1/u41/select/marron",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “brown”.",
+      "options": [
+        "dorado",
+        "claro",
+        "morado",
+        "marrón"
+      ],
+      "answer": "marrón",
+      "translation": "brown",
+      "note": "The same in both genders: un café marrón."
+    },
+    {
+      "id": "es/a1/u41/drill/2",
+      "type": "type_in",
+      "prompt": "El libro es ___.",
+      "answer": "marrón",
+      "acceptedAnswers": [
+        "marron"
+      ],
+      "translation": "the book is brown",
+      "note": "Marrón is the same in both genders."
+    },
+    {
+      "id": "es/a1/u41/select/rosa",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “pink”.",
+      "options": [
+        "rosa",
+        "negro",
+        "verde",
+        "blanco"
+      ],
+      "answer": "rosa",
+      "translation": "pink",
+      "note": "The same in both genders: una camisa rosa."
+    },
+    {
+      "id": "es/a1/u41/drill/3",
+      "type": "type_in",
+      "prompt": "Un día ___.",
+      "answer": "gris",
+      "acceptedAnswers": [
+        "gris"
+      ],
+      "translation": "a grey day",
+      "note": "Gris is the same in both genders."
+    },
+    {
+      "id": "es/a1/u41/drill/4",
+      "type": "type_in",
+      "prompt": "La pared es ___.",
+      "answer": "clara",
+      "acceptedAnswers": [
+        "clara"
+      ],
+      "translation": "the wall is light",
+      "note": "The feminine of claro is clara."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 19,
+  "title": "Around the house",
+  "description": "Name the furniture, and use the plural when there is more than one.",
+  "explanation": {
+    "summary": "Furniture is a closed list of nouns, and every one of them needs its article. This unit also does the work of the plural, because a room rarely has only one chair.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El sofá, el sillón and el biombo are masculine. La estantería, la cómoda, la repisa and la alfombra are feminine. La planta is a nice one to know: it means both the plant and the floor of a building, and the context tells you which one you mean.",
+        "examples": [
+          {
+            "es": "el sofá",
+            "en": "the sofa"
+          },
+          {
+            "es": "la estantería",
+            "en": "the bookcase"
+          },
+          {
+            "es": "la planta",
+            "en": "the plant"
+          }
+        ]
+      },
+      {
+        "heading": "More than one",
+        "body": "The plural of a noun adds -s, or -es when the noun ends in a vowel: el sillón becomes los sillones and la planta becomes las plantas. The articles change too: el becomes los and la becomes las. So one sofa is el sofá, and two sofas are los sofás.",
+        "examples": [
+          {
+            "es": "los sillones",
+            "en": "the armchairs"
+          },
+          {
+            "es": "las plantas",
+            "en": "the plants"
+          },
+          {
+            "es": "dos sofás",
+            "en": "two sofas"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u19/match/sofa",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the sofa",
+          "right": "el sofá"
+        },
+        {
+          "left": "the armchair",
+          "right": "el sillón"
+        },
+        {
+          "left": "the bookcase",
+          "right": "la estantería"
+        },
+        {
+          "left": "the chest of drawers",
+          "right": "la cómoda"
+        },
+        {
+          "left": "the shelf",
+          "right": "la repisa"
+        }
+      ],
+      "note": "The plural is easy: add -s or -es to the noun, and change el and la to los and las."
+    },
+    {
+      "id": "es/a1/u19/select/sofa",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the sofa”.",
+      "options": [
+        "el marco",
+        "la alfombra",
+        "la mesa",
+        "el sofá"
+      ],
+      "answer": "el sofá",
+      "translation": "the sofa",
+      "note": "Masculine: el sofá. The plural is los sofás."
+    },
+    {
+      "id": "es/a1/u19/listen/sillon",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el sillón",
+      "options": [
+        "el florero",
+        "el marco",
+        "la planta",
+        "el sillón"
+      ],
+      "audio": {
+        "text": "sillón",
+        "lang": "es"
+      },
+      "translation": "the armchair",
+      "note": "Masculine: el sillón. The plural is los sillones."
+    },
+    {
+      "id": "es/a1/u19/drill/1",
+      "type": "type_in",
+      "prompt": "___ sofá es nuevo.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the sofa is new",
+      "note": "Sofá is masculine."
+    },
+    {
+      "id": "es/a1/u19/match/biombo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the screen",
+          "right": "el biombo"
+        },
+        {
+          "left": "the vase",
+          "right": "el florero"
+        },
+        {
+          "left": "the plant",
+          "right": "la planta"
+        },
+        {
+          "left": "the frame",
+          "right": "el marco"
+        },
+        {
+          "left": "the rug",
+          "right": "la alfombra"
+        }
+      ],
+      "note": "The plural is easy: add -s or -es to the noun, and change el and la to los and las."
+    },
+    {
+      "id": "es/a1/u19/select/estanteria",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the bookcase”.",
+      "options": [
+        "el biombo",
+        "el florero",
+        "la repisa",
+        "la estantería"
+      ],
+      "answer": "la estantería",
+      "translation": "the bookcase",
+      "note": "Feminine: la estantería."
+    },
+    {
+      "id": "es/a1/u19/drill/2",
+      "type": "type_in",
+      "prompt": "___ cómoda es de madera.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the chest of drawers is made of wood",
+      "note": "Cómoda is feminine."
+    },
+    {
+      "id": "es/a1/u19/select/comoda",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the chest of drawers”.",
+      "options": [
+        "la cómoda",
+        "el biombo",
+        "el florero",
+        "la repisa"
+      ],
+      "answer": "la cómoda",
+      "translation": "the chest of drawers",
+      "note": "Feminine: la cómoda."
+    },
+    {
+      "id": "es/a1/u19/drill/3",
+      "type": "type_in",
+      "prompt": "Dos ___ en la sala.",
+      "answer": "sillones",
+      "acceptedAnswers": [
+        "sillones"
+      ],
+      "translation": "two armchairs in the living room",
+      "note": "A noun ending in a vowel adds -es."
+    },
+    {
+      "id": "es/a1/u19/drill/4",
+      "type": "type_in",
+      "prompt": "Las ___ son pequeñas.",
+      "answer": "plantas",
+      "acceptedAnswers": [
+        "plantas"
+      ],
+      "translation": "the plants are small",
+      "note": "Planta is feminine, so las plantas."
+    }
+  ]
+}

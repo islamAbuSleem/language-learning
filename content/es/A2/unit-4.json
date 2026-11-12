@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “hour”.",
       "options": [
-        "el mes",
-        "ahora",
-        "el día",
+        "julio",
+        "agosto",
+        "septiembre",
         "la hora"
       ],
       "answer": "la hora",
@@ -150,9 +150,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “minute”.",
       "options": [
-        "mañana",
-        "mañana",
-        "el día",
+        "octubre",
+        "noviembre",
+        "septiembre",
         "el minuto"
       ],
       "answer": "el minuto",
@@ -175,10 +175,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “noon”.",
       "options": [
-        "mañana",
-        "mañana",
+        "febrero",
+        "marzo",
         "el mediodía",
-        "el día"
+        "enero"
       ],
       "answer": "el mediodía",
       "translation": "noon",

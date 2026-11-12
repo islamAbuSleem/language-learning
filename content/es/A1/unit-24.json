@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 24,
+  "title": "Bread and cheese",
+  "description": "Name the staples, and say what is on the bread.",
+  "explanation": {
+    "summary": "Bread, cheese and the things you put on them are the words of a simple meal. Con and sin say what is on it and what is not.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El pan, el queso, el jamón and el chorizo are masculine. La mantequilla, la miel, la tostada and la crema are feminine. La tortilla is the Spanish omelette, and it is not the same word as the tortilla in Mexico. El sándwich takes el because it is stressed on the last syllable.",
+        "examples": [
+          {
+            "es": "el pan",
+            "en": "the bread"
+          },
+          {
+            "es": "la tostada",
+            "en": "the toast"
+          },
+          {
+            "es": "el sándwich",
+            "en": "the sandwich"
+          }
+        ]
+      },
+      {
+        "heading": "With and without",
+        "body": "Con means with and sin means without, and both go straight in front of the noun with no article: pan con queso, café sin leche. The article comes back when you say the thing on its own: el pan con queso, el café sin leche.",
+        "examples": [
+          {
+            "es": "pan con queso",
+            "en": "bread with cheese"
+          },
+          {
+            "es": "café sin leche",
+            "en": "coffee without milk"
+          },
+          {
+            "es": "tostada con mantequilla",
+            "en": "toast with butter"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u24/match/pan",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the bread",
+          "right": "el pan"
+        },
+        {
+          "left": "the cheese",
+          "right": "el queso"
+        },
+        {
+          "left": "the butter",
+          "right": "la mantequilla"
+        },
+        {
+          "left": "the honey",
+          "right": "la miel"
+        },
+        {
+          "left": "the ham",
+          "right": "el jamón"
+        }
+      ],
+      "note": "Con and sin go straight in front of the noun, and the article stays."
+    },
+    {
+      "id": "es/a1/u24/select/pan",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the bread”.",
+      "options": [
+        "la gamba",
+        "la hamburguesa",
+        "el calamar",
+        "el pan"
+      ],
+      "answer": "el pan",
+      "translation": "the bread",
+      "note": "Masculine: el pan."
+    },
+    {
+      "id": "es/a1/u24/listen/queso",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el queso",
+      "options": [
+        "encargar",
+        "la ensalada",
+        "la propina",
+        "el queso"
+      ],
+      "audio": {
+        "text": "queso",
+        "lang": "es"
+      },
+      "translation": "the cheese",
+      "note": "Masculine: el queso."
+    },
+    {
+      "id": "es/a1/u24/drill/1",
+      "type": "type_in",
+      "prompt": "___ pan está caliente.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the bread is hot",
+      "note": "Pan is masculine."
+    },
+    {
+      "id": "es/a1/u24/match/chorizo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the sausage",
+          "right": "el chorizo"
+        },
+        {
+          "left": "the toast",
+          "right": "la tostada"
+        },
+        {
+          "left": "the sandwich",
+          "right": "el sándwich"
+        },
+        {
+          "left": "the omelette",
+          "right": "la tortilla"
+        },
+        {
+          "left": "the cream",
+          "right": "la crema"
+        }
+      ],
+      "note": "Con and sin go straight in front of the noun, and the article stays."
+    },
+    {
+      "id": "es/a1/u24/select/mantequilla",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the butter”.",
+      "options": [
+        "el pescado",
+        "el salmón",
+        "el cerdo",
+        "la mantequilla"
+      ],
+      "answer": "la mantequilla",
+      "translation": "the butter",
+      "note": "Feminine: la mantequilla."
+    },
+    {
+      "id": "es/a1/u24/drill/2",
+      "type": "type_in",
+      "prompt": "___ tostada con ___ y miel.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the toast with butter and honey",
+      "note": "Tostada is feminine."
+    },
+    {
+      "id": "es/a1/u24/select/miel",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the honey”.",
+      "options": [
+        "la carne",
+        "el pollo",
+        "la espinaca",
+        "la miel"
+      ],
+      "answer": "la miel",
+      "translation": "the honey",
+      "note": "Feminine: la miel."
+    },
+    {
+      "id": "es/a1/u24/drill/3",
+      "type": "type_in",
+      "prompt": "Café sin ___.",
+      "answer": "leche",
+      "acceptedAnswers": [
+        "leche"
+      ],
+      "translation": "coffee without milk",
+      "note": "Sin goes straight in front of the noun."
+    },
+    {
+      "id": "es/a1/u24/drill/4",
+      "type": "type_in",
+      "prompt": "Un ___ con jamón de Madrid.",
+      "answer": "sándwich",
+      "acceptedAnswers": [
+        "sandwich"
+      ],
+      "translation": "a sandwich with ham from Madrid",
+      "note": "Sándwich takes el and keeps it."
+    }
+  ]
+}

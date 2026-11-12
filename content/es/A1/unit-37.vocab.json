@@ -1,0 +1,48 @@
+{
+  "unit": 37,
+  "title": "Feelings",
+  "description": "Say how you feel, and how other people feel.",
+  "grammar": "adjectives that change, and the two verbs for how you are",
+  "grammarNote": "An adjective that describes how you are goes after the verb estar, and it changes to match the person.",
+  "explanation": {
+    "summary": "Feelings are adjectives, and the ones that describe a temporary state go with estar: estoy feliz, está triste, están aburridos. The adjective changes its ending to match the person it describes.",
+    "sections": [
+      {
+        "heading": "The adjectives",
+        "body": "El happy one is feliz, and its feminine is feliz as well. The rest change: triste stays the same, aburrido becomes aburrida, enfadado becomes enfadada, tranquilo becomes tranquila, nervioso becomes nerviosa, contento becomes contenta, listo becomes lista, preocupado becomes preocupada and soñoliento becomes soñolienta.",
+        "examples": [
+          { "es": "estoy feliz", "en": "I am happy" },
+          { "es": "ella está aburrida", "en": "she is bored" },
+          { "es": "están preocupadas", "en": "they are worried" }
+        ]
+      },
+      {
+        "heading": "Which verb to use",
+        "body": "The two verbs for what something is like both take an adjective, and the adjective comes after them. Ser is for what a thing is: el examen es difícil. Estar is for how a thing is now: estoy cansado. For feelings, it is estar that you want.",
+        "examples": [
+          { "es": "estoy tranquilo", "en": "I am calm" },
+          { "es": "mi hermano está nervioso", "en": "my brother is nervous" },
+          { "es": "la clase es difícil", "en": "the class is difficult" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "feliz", "en": "happy", "article": null, "note": "The same in both genders: estoy feliz, ella está feliz.", "tags": ["feeling"] },
+    { "es": "triste", "en": "sad", "article": null, "note": "The same in both genders: está triste.", "tags": ["feeling"] },
+    { "es": "aburrido", "en": "bored", "article": null, "note": "The feminine is aburrida: ella está aburrida.", "tags": ["feeling"] },
+    { "es": "enfadado", "en": "angry", "article": null, "note": "The feminine is enfadada.", "tags": ["feeling"] },
+    { "es": "tranquilo", "en": "calm", "article": null, "note": "The feminine es tranquila.", "tags": ["feeling"] },
+    { "es": "nervioso", "en": "nervous", "article": null, "note": "The feminine es nerviosa.", "tags": ["feeling"] },
+    { "es": "contento", "en": "pleased", "article": null, "note": "The feminine es contenta.", "tags": ["feeling"] },
+    { "es": "listo", "en": "ready", "article": null, "note": "The feminine es lista. It also means clever.", "tags": ["feeling"] },
+    { "es": "preocupado", "en": "worried", "article": null, "note": "The feminine es preocupada.", "tags": ["feeling"] },
+    { "es": "soñoliento", "en": "sleepy", "article": null, "note": "The feminine es soñolienta. The accent marks the stress.", "tags": ["feeling"] }
+  ],
+  "drills": [
+    { "prompt": "Estoy ___.", "answer": "feliz", "meaning": "I am happy", "note": "Feliz is the same in both genders." },
+    { "prompt": "Mi hermana está ___.", "answer": "preocupada", "meaning": "my sister is worried", "note": "The adjective changes to match the person." },
+    { "prompt": "Los niños están ___.", "answer": "aburridos", "meaning": "the children are bored", "note": "A plural adjective ends in -os." },
+    { "prompt": "Está muy ___.", "answer": "nervioso", "meaning": "he is very nervous", "note": "Nervioso is masculine." }
+  ]
+}

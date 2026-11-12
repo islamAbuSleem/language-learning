@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to know”.",
       "options": [
-        "necesitar",
-        "comer",
-        "estar",
+        "olvidar",
+        "llegar",
+        "entender",
         "saber"
       ],
       "answer": "saber",
@@ -150,10 +150,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to know”.",
       "options": [
-        "necesitar",
-        "estar",
+        "aprender",
+        "leer",
         "conocer",
-        "mirar"
+        "beber"
       ],
       "answer": "conocer",
       "translation": "to know",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to remember”.",
       "options": [
-        "salir",
-        "tener",
-        "viajar",
+        "vender",
+        "perder",
+        "correr",
         "recordar"
       ],
       "answer": "recordar",

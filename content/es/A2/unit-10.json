@@ -83,9 +83,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “for”.",
       "options": [
-        "ser",
-        "el estudiante",
-        "el nombre",
+        "el año nuevo",
+        "el otoño",
+        "la primavera",
         "para"
       ],
       "answer": "para",
@@ -136,9 +136,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “for”.",
       "options": [
-        "hace mal tiempo",
-        "rojo",
-        "hace buen tiempo",
+        "la miel",
+        "el jamón",
+        "la mantequilla",
         "por"
       ],
       "answer": "por",

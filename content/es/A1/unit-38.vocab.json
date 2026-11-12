@@ -1,0 +1,48 @@
+{
+  "unit": 38,
+  "title": "The months",
+  "description": "Name the months, and say when something happens.",
+  "grammar": "the names of the months, without an article",
+  "grammarNote": "A month takes no article: en enero, el 5 de enero, not el enero.",
+  "explanation": {
+    "summary": "The months are the one set of nouns in Spanish that never takes an article, and there are twelve of them, so this unit does the first ten.",
+    "sections": [
+      {
+        "heading": "The months",
+        "body": "Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre and octubre. All of them are masculine, but you never use the article with them: en mayo, en octubre. When you give the day as well, the day comes first and de follows: el 5 de mayo.",
+        "examples": [
+          { "es": "en enero", "en": "in January" },
+          { "es": "el 5 de mayo", "en": "the fifth of May" },
+          { "es": "en agosto", "en": "in August" }
+        ]
+      },
+      {
+        "heading": "The two short ones",
+        "body": "Mayo and junio are the short months, and the -o of mayo drops when you add something to it: el primero de mayo, the first of May. The others keep their -o: el 3 de marzo, el 12 de octubre.",
+        "examples": [
+          { "es": "el primero de mayo", "en": "the first of May" },
+          { "es": "el 3 de marzo", "en": "the third of March" },
+          { "es": "el 12 de octubre", "en": "the twelfth of October" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "enero", "en": "January", "article": null, "note": "No article: en enero.", "tags": ["time"] },
+    { "es": "febrero", "en": "February", "article": null, "note": "No article: en febrero.", "tags": ["time"] },
+    { "es": "marzo", "en": "March", "article": null, "note": "No article: en marzo.", "tags": ["time"] },
+    { "es": "abril", "en": "April", "article": null, "note": "No article: en abril.", "tags": ["time"] },
+    { "es": "mayo", "en": "May", "article": null, "note": "No article: en mayo. The -o drops before another word: el primero de mayo.", "tags": ["time"] },
+    { "es": "junio", "en": "June", "article": null, "note": "No article: en junio. The -o drops too: el primero de junio.", "tags": ["time"] },
+    { "es": "julio", "en": "July", "article": null, "note": "No article: en julio.", "tags": ["time"] },
+    { "es": "agosto", "en": "August", "article": null, "note": "No article: en agosto.", "tags": ["time"] },
+    { "es": "septiembre", "en": "September", "article": null, "note": "No article: en septiembre. It is also setiembre in Spain.", "tags": ["time"] },
+    { "es": "octubre", "en": "October", "article": null, "note": "No article: en octubre.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "El 5 de ___.", "answer": "mayo", "meaning": "the fifth of May", "note": "May takes no article." },
+    { "prompt": "En ___ hace calor.", "answer": "agosto", "meaning": "in August it is hot", "note": "A month never takes an article." },
+    { "prompt": "El primero de ___.", "answer": "enero", "meaning": "the first of January", "note": "The day comes first, then de, then the month." },
+    { "prompt": "Mi cumpleaños es en ___.", "answer": "julio", "meaning": "my birthday is in July", "note": "No article with a month." }
+  ]
+}

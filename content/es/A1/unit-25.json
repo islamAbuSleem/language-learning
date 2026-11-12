@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 25,
+  "title": "Sweets and snacks",
+  "description": "Name the sweet things, and say what you like to eat.",
+  "explanation": {
+    "summary": "Sweets are a small set of nouns, and they are the first words a learner uses to say what they like. The grammar is the same as everywhere else: a gender, an article, and the plural.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La galleta, la mermelada, la nata and la patata frita are feminine. El caramelo, el pastel, el chicle, el yogur and el cacahuete are masculine. El cacahuete is a good one to notice: it is a nut in a pod, and it is masculine.",
+        "examples": [
+          {
+            "es": "la galleta",
+            "en": "the biscuit"
+          },
+          {
+            "es": "el caramelo",
+            "en": "the sweet"
+          },
+          {
+            "es": "el yogur",
+            "en": "the yoghurt"
+          }
+        ]
+      },
+      {
+        "heading": "What you like",
+        "body": "You know how to say what a thing is for, and how to ask for one with un or una: una galleta, un caramelo, un yogur. The plural works the same: las galletas and los caramelos.",
+        "examples": [
+          {
+            "es": "quiero una galleta",
+            "en": "I want a biscuit"
+          },
+          {
+            "es": "los caramelos son buenos",
+            "en": "the sweets are good"
+          },
+          {
+            "es": "el pastel es de chocolate",
+            "en": "the cake is chocolate"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u25/match/galleta",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the biscuit",
+          "right": "la galleta"
+        },
+        {
+          "left": "the sweet",
+          "right": "el caramelo"
+        },
+        {
+          "left": "the cake",
+          "right": "el pastel"
+        },
+        {
+          "left": "the jam",
+          "right": "la mermelada"
+        },
+        {
+          "left": "the chewing gum",
+          "right": "el chicle"
+        }
+      ],
+      "note": "Sweet things have their own gender, and some of them are phrases."
+    },
+    {
+      "id": "es/a1/u25/select/galleta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the biscuit”.",
+      "options": [
+        "el pescado",
+        "el salmón",
+        "el cerdo",
+        "la galleta"
+      ],
+      "answer": "la galleta",
+      "translation": "the biscuit",
+      "note": "Feminine: la galleta."
+    },
+    {
+      "id": "es/a1/u25/listen/caramelo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el caramelo",
+      "options": [
+        "la mermelada",
+        "el chicle",
+        "el pastel",
+        "el caramelo"
+      ],
+      "audio": {
+        "text": "caramelo",
+        "lang": "es"
+      },
+      "translation": "the sweet",
+      "note": "Masculine: el caramelo."
+    },
+    {
+      "id": "es/a1/u25/drill/1",
+      "type": "type_in",
+      "prompt": "___ galletas están en el plato.",
+      "answer": "Las",
+      "acceptedAnswers": [
+        "Las"
+      ],
+      "translation": "the biscuits are on the plate",
+      "note": "Galleta is feminine."
+    },
+    {
+      "id": "es/a1/u25/match/yogur",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the yoghurt",
+          "right": "el yogur"
+        },
+        {
+          "left": "the cream",
+          "right": "la nata"
+        },
+        {
+          "left": "the chip",
+          "right": "la patata frita"
+        },
+        {
+          "left": "the peanut",
+          "right": "el cacahuete"
+        },
+        {
+          "left": "the liquorice",
+          "right": "el regaliz"
+        }
+      ],
+      "note": "Sweet things have their own gender, and some of them are phrases."
+    },
+    {
+      "id": "es/a1/u25/select/pastel",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the cake”.",
+      "options": [
+        "el azúcar",
+        "el camarero",
+        "el menú",
+        "el pastel"
+      ],
+      "answer": "el pastel",
+      "translation": "the cake",
+      "note": "Masculine: el pastel."
+    },
+    {
+      "id": "es/a1/u25/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es de fresa.",
+      "answer": "yogur",
+      "acceptedAnswers": [
+        "yogur"
+      ],
+      "translation": "the yoghurt is strawberry",
+      "note": "Yogur is masculine."
+    },
+    {
+      "id": "es/a1/u25/select/mermelada",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the jam”.",
+      "options": [
+        "la tostada",
+        "el sándwich",
+        "el chorizo",
+        "la mermelada"
+      ],
+      "answer": "la mermelada",
+      "translation": "the jam",
+      "note": "Feminine: la mermelada."
+    },
+    {
+      "id": "es/a1/u25/drill/3",
+      "type": "type_in",
+      "prompt": "Quiero ___ caramelo.",
+      "answer": "un",
+      "acceptedAnswers": [
+        "un"
+      ],
+      "translation": "I want a sweet",
+      "note": "Caramelo is masculine, so un caramelo."
+    },
+    {
+      "id": "es/a1/u25/drill/4",
+      "type": "type_in",
+      "prompt": "___ pastel es para hoy.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the cake is for today",
+      "note": "Pastel is masculine."
+    }
+  ]
+}

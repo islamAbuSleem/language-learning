@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he asked for”.",
       "options": [
-        "querré",
-        "habló",
-        "comió",
+        "lavar",
+        "doblar",
+        "fregar",
         "pidió"
       ],
       "answer": "pidió",
@@ -151,9 +151,9 @@
       "prompt": "Pick the Spanish word for “he understood”.",
       "options": [
         "entendió",
-        "vendré",
-        "podré",
-        "querré"
+        "beber",
+        "comer",
+        "aprender"
       ],
       "answer": "entendió",
       "translation": "he understood",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he arrived”.",
       "options": [
-        "repetir",
-        "ir",
-        "decidir",
+        "caminar",
+        "mirar",
+        "cocinar",
         "llegó"
       ],
       "answer": "llegó",

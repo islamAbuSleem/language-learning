@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 48,
+  "title": "In the countryside",
+  "description": "Name the things outside the town, and say where they are.",
+  "explanation": {
+    "summary": "Outside the town the vocabulary opens up: fields, rivers, hills and animals. The grammar is the one you already know.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El campo, el bosque, el río, el monte, el caballo y la abeja are masculine. La granja, la piedra y la oveja are feminine. El campo is the countryside and the field at the same time, and el monte is a hill or a mountain.",
+        "examples": [
+          {
+            "es": "el campo",
+            "en": "the countryside"
+          },
+          {
+            "es": "la granja",
+            "en": "the farm"
+          },
+          {
+            "es": "la oveja",
+            "en": "the sheep"
+          }
+        ]
+      },
+      {
+        "heading": "Where they are",
+        "body": "Estar says where a thing is, and outside the town you use it with big places: el caballo está en el campo, la granja está cerca del río. En el campo and en la granja are the two you will use most.",
+        "examples": [
+          {
+            "es": "la abeja está en la flor",
+            "en": "the bee is on the flower"
+          },
+          {
+            "es": "el caballo está en el campo",
+            "en": "the horse is in the field"
+          },
+          {
+            "es": "hay una piedra en el camino",
+            "en": "there is a stone on the path"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u48/match/campo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the countryside",
+          "right": "el campo"
+        },
+        {
+          "left": "the farm",
+          "right": "la granja"
+        },
+        {
+          "left": "the wood",
+          "right": "el bosque"
+        },
+        {
+          "left": "the river",
+          "right": "el río"
+        },
+        {
+          "left": "the hill",
+          "right": "el monte"
+        }
+      ],
+      "note": "The country has its own nouns, and estar says where each of them is."
+    },
+    {
+      "id": "es/a1/u48/select/campo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the countryside”.",
+      "options": [
+        "el bosque",
+        "el río",
+        "la granja",
+        "el campo"
+      ],
+      "answer": "el campo",
+      "translation": "the countryside",
+      "note": "Masculine: el campo. It also means the field."
+    },
+    {
+      "id": "es/a1/u48/listen/granja",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la granja",
+      "options": [
+        "la oveja",
+        "el campo",
+        "la abeja",
+        "la granja"
+      ],
+      "audio": {
+        "text": "granja",
+        "lang": "es"
+      },
+      "translation": "the farm",
+      "note": "Feminine: la granja."
+    },
+    {
+      "id": "es/a1/u48/drill/1",
+      "type": "type_in",
+      "prompt": "___ ovejas están en el campo.",
+      "answer": "Las",
+      "acceptedAnswers": [
+        "Las"
+      ],
+      "translation": "the sheep are in the field",
+      "note": "Oveja is feminine."
+    },
+    {
+      "id": "es/a1/u48/match/valle",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the valley",
+          "right": "el valle"
+        },
+        {
+          "left": "the stone",
+          "right": "la piedra"
+        },
+        {
+          "left": "the horse",
+          "right": "el caballo"
+        },
+        {
+          "left": "the sheep",
+          "right": "la oveja"
+        },
+        {
+          "left": "the bee",
+          "right": "la abeja"
+        }
+      ],
+      "note": "The country has its own nouns, and estar says where each of them is."
+    },
+    {
+      "id": "es/a1/u48/select/bosque",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the wood”.",
+      "options": [
+        "el caballo",
+        "la oveja",
+        "la piedra",
+        "el bosque"
+      ],
+      "answer": "el bosque",
+      "translation": "the wood",
+      "note": "Masculine: el bosque."
+    },
+    {
+      "id": "es/a1/u48/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es grande.",
+      "answer": "bosque",
+      "acceptedAnswers": [
+        "bosque"
+      ],
+      "translation": "the wood is big",
+      "note": "Bosque is masculine."
+    },
+    {
+      "id": "es/a1/u48/select/rio",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the river”.",
+      "options": [
+        "el bosque",
+        "el monte",
+        "el río",
+        "la granja"
+      ],
+      "answer": "el río",
+      "translation": "the river",
+      "note": "Masculine: el río. The accent marks the stress."
+    },
+    {
+      "id": "es/a1/u48/drill/3",
+      "type": "type_in",
+      "prompt": "___ granja está cerca del río.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the farm is near the river",
+      "note": "Granja is feminine."
+    },
+    {
+      "id": "es/a1/u48/drill/4",
+      "type": "type_in",
+      "prompt": "El ___ tiene una rueda grande.",
+      "answer": "caballo",
+      "acceptedAnswers": [
+        "caballo"
+      ],
+      "translation": "the horse has a big wheel",
+      "note": "Caballo is masculine."
+    }
+  ]
+}

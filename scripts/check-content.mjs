@@ -56,8 +56,69 @@ for (const file of walk(contentRoot)) {
   }
 }
 
+/**
+ * Words that are taught twice inside one level on purpose.
+ *
+ * The key is `level:word`. Each one says why it is allowed, so the list can
+ * be argued with rather than quietly grown.
+ */
+const ALLOWED_REPEATS = new Map([
+  ["es:B1:me", "the same pronoun, used as a direct object in B1/4 and an indirect object in B1/9"],
+  ["es:B1:te", "the same pronoun, used as a direct object in B1/4 and an indirect object in B1/9"],
+  ["es:B1:nos", "the same pronoun, used as a direct object in B1/4 and an indirect object in B1/9"],
+])
+
+/**
+ * The words of every level, so a word taught twice can be found.
+ *
+ * A word repeated inside one level is a mistake: the learner is asked to
+ * learn it, forgets it, and is asked again. A word repeated across levels is
+ * a review, which is the whole point of the path.
+ */
+function wordsByLevel() {
+  const levels = new Map()
+
+  for (const file of walk(contentRoot)) {
+    if (!file.endsWith(".vocab.json")) continue
+
+    const vocabulary = JSON.parse(readFileSync(file, "utf8"))
+    const relative = file.slice(contentRoot.length + 1).split(/[\\/]/)
+    const track = relative[0]
+    const level = relative[1]
+    const key = `${track}:${level}`
+
+    levels.set(key, levels.get(key) ?? [])
+    levels.get(key).push({ unit: vocabulary.unit, items: vocabulary.items ?? [] })
+  }
+
+  return levels
+}
+
+for (const [key, units] of wordsByLevel()) {
+  const seen = new Map()
+
+  for (const { unit, items } of units) {
+    for (const item of items) {
+      const word = item.es.toLowerCase()
+      const first = seen.get(word)
+
+      if (first === undefined) {
+        seen.set(word, unit)
+        continue
+      }
+
+      const allowed = ALLOWED_REPEATS.get(`${key}:${word}`)
+      if (allowed) continue
+
+      problems.push(
+        `${key}: "${item.es}" is taught in unit ${first} and again in unit ${unit} — a word should be taught once in a level`,
+      )
+    }
+  }
+}
+
 if (problems.length > 0) {
-  console.error(`${problems.length} stray character(s) in the content:`)
+  console.error(`${problems.length} problem(s) in the content:`)
   for (const problem of problems) console.error("  " + problem)
   process.exit(1)
 }

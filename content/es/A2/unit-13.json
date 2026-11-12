@@ -97,9 +97,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he spoke”.",
       "options": [
-        "vivió",
-        "ser",
-        "llegar",
+        "importar",
+        "comeré",
+        "hablaré",
         "habló"
       ],
       "answer": "habló",
@@ -150,10 +150,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he ate”.",
       "options": [
-        "hablaré",
-        "comeré",
+        "comer",
+        "beber",
         "comió",
-        "importar"
+        "visitar"
       ],
       "answer": "comió",
       "translation": "he ate",
@@ -175,9 +175,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “he wrote”.",
       "options": [
-        "querré",
-        "comió",
-        "habló",
+        "aprender",
+        "vender",
+        "leer",
         "escribió"
       ],
       "answer": "escribió",

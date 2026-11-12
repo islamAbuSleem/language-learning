@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 17,
+  "title": "The bedroom",
+  "description": "Name the things in a bedroom, and say where each one is.",
+  "explanation": {
+    "summary": "A bedroom is a small room with a fixed set of nouns in it. Once you know the words and the articles, you can describe any bedroom in two sentences.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "Most of these words end in -a, so most of them are feminine: la ventana, la puerta, la cortina. The ones that end in -o are masculine: el armario, el cajón, el póster. One word is shorter than the noun it comes from: la mesita is a smaller mesa, and the ending -ita makes it feminine.",
+        "examples": [
+          {
+            "es": "el armario",
+            "en": "the wardrobe"
+          },
+          {
+            "es": "la mesita",
+            "en": "the little table"
+          },
+          {
+            "es": "el cajón",
+            "en": "the drawer"
+          }
+        ]
+      },
+      {
+        "heading": "Putting things where they go",
+        "body": "Use estar to say where a thing is, and a preposition to say where that is. Sobre la cama means on the bed, and en el armario means in the wardrobe. The bed is where most of these things end up, which makes it the most useful noun in the unit.",
+        "examples": [
+          {
+            "es": "la almohada está sobre la cama",
+            "en": "the pillow is on the bed"
+          },
+          {
+            "es": "la colcha está en la cama",
+            "en": "the quilt is on the bed"
+          },
+          {
+            "es": "el póster está en la pared",
+            "en": "the poster is on the wall"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u17/match/armario",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the wardrobe",
+          "right": "el armario"
+        },
+        {
+          "left": "the little table",
+          "right": "la mesita"
+        },
+        {
+          "left": "the quilt",
+          "right": "la colcha"
+        },
+        {
+          "left": "the pillow",
+          "right": "la almohada"
+        },
+        {
+          "left": "the drawer",
+          "right": "el cajón"
+        }
+      ],
+      "note": "Every noun in a room needs its article, and many of them are feminine."
+    },
+    {
+      "id": "es/a1/u17/select/armario",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the wardrobe”.",
+      "options": [
+        "la lámpara",
+        "el póster",
+        "el armario",
+        "el cajón"
+      ],
+      "answer": "el armario",
+      "translation": "the wardrobe",
+      "note": "Masculine: el armario."
+    },
+    {
+      "id": "es/a1/u17/listen/mesita",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la mesita",
+      "options": [
+        "la puerta",
+        "la cortina",
+        "la ventana",
+        "la mesita"
+      ],
+      "audio": {
+        "text": "mesita",
+        "lang": "es"
+      },
+      "translation": "the little table",
+      "note": "Feminine: la mesita. The ending -ita makes it smaller and feminine."
+    },
+    {
+      "id": "es/a1/u17/drill/1",
+      "type": "type_in",
+      "prompt": "El ___ está abierto.",
+      "answer": "cajón",
+      "acceptedAnswers": [
+        "cajon"
+      ],
+      "translation": "the drawer is open",
+      "note": "Cajón is masculine."
+    },
+    {
+      "id": "es/a1/u17/match/lampara",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the lamp",
+          "right": "la lámpara"
+        },
+        {
+          "left": "the poster",
+          "right": "el póster"
+        },
+        {
+          "left": "the window",
+          "right": "la ventana"
+        },
+        {
+          "left": "the door",
+          "right": "la puerta"
+        },
+        {
+          "left": "the curtain",
+          "right": "la cortina"
+        }
+      ],
+      "note": "Every noun in a room needs its article, and many of them are feminine."
+    },
+    {
+      "id": "es/a1/u17/select/colcha",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the quilt”.",
+      "options": [
+        "la puerta",
+        "el armario",
+        "la cortina",
+        "la colcha"
+      ],
+      "answer": "la colcha",
+      "translation": "the quilt",
+      "note": "Feminine: la colcha."
+    },
+    {
+      "id": "es/a1/u17/drill/2",
+      "type": "type_in",
+      "prompt": "___ ventana es grande.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the window is big",
+      "note": "Ventana is feminine."
+    },
+    {
+      "id": "es/a1/u17/select/almohada",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the pillow”.",
+      "options": [
+        "el armario",
+        "la mesita",
+        "la colcha",
+        "la almohada"
+      ],
+      "answer": "la almohada",
+      "translation": "the pillow",
+      "note": "Feminine: la almohada."
+    },
+    {
+      "id": "es/a1/u17/drill/3",
+      "type": "type_in",
+      "prompt": "La ___ está en la cama.",
+      "answer": "almohada",
+      "acceptedAnswers": [
+        "almohada"
+      ],
+      "translation": "the pillow is on the bed",
+      "note": "Almohada is feminine."
+    },
+    {
+      "id": "es/a1/u17/drill/4",
+      "type": "type_in",
+      "prompt": "___ armario es de madera.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the wardrobe is made of wood",
+      "note": "Armario is masculine."
+    }
+  ]
+}

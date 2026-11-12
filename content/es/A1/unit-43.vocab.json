@@ -1,0 +1,48 @@
+{
+  "unit": 43,
+  "title": "Sport",
+  "description": "Name the things you play sport with, and talk about a match.",
+  "grammar": "gender and articles, and regular -ar verbs",
+  "grammarNote": "The words for sport are ordinary nouns, and most of the verbs are -ar verbs.",
+  "explanation": {
+    "summary": "Sport has its own nouns and its own verbs, and the grammar is the one you already know. What is new is the vocabulary.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "El gimnasio, el equipo, el juego, el descanso and el marcador are masculine. La cancha, la raqueta, la pelota y la entrada are feminine. La cancha is the court or the pitch, and el marcador is the score.",
+        "examples": [
+          { "es": "el gimnasio", "en": "the gym" },
+          { "es": "la raqueta", "en": "the racket" },
+          { "es": "el marcador", "en": "the score" }
+        ]
+      },
+      {
+        "heading": "The verbs",
+        "body": "Sport is full of -ar verbs, and they work exactly like the ones you know: juego, juegas, juega. Ganar is to win, and perder is to lose, but ganar is regular: gano, ganas, gana.",
+        "examples": [
+          { "es": "juego al fútbol", "en": "I play football" },
+          { "es": "ganamos el partido", "en": "we win the match" },
+          { "es": "el descanso es a las cuatro", "en": "the break is at four" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "gimnasio", "en": "the gym", "article": "el", "note": "Masculine: el gimnasio.", "tags": ["sport"] },
+    { "es": "cancha", "en": "the court", "article": "la", "note": "Feminine: la cancha.", "tags": ["sport"] },
+    { "es": "equipo", "en": "the team", "article": "el", "note": "Masculine: el equipo.", "tags": ["sport"] },
+    { "es": "raqueta", "en": "the racket", "article": "la", "note": "Feminine: la raqueta.", "tags": ["sport"] },
+    { "es": "pelota", "en": "the ball", "article": "la", "note": "Feminine: la pelota.", "tags": ["sport"] },
+    { "es": "juego", "en": "the game", "article": "el", "note": "Masculine: el juego.", "tags": ["sport"] },
+    { "es": "ganar", "en": "to win", "article": null, "note": "A regular -ar verb: gano, ganas, gana.", "tags": ["sport"] },
+    { "es": "descanso", "en": "the break", "article": "el", "note": "Masculine: el descanso.", "tags": ["sport"] },
+    { "es": "entrada", "en": "the entrance", "article": "la", "note": "Feminine: la entrada. It is also the ticket you pay for.", "tags": ["sport"] },
+    { "es": "marcador", "en": "the score", "article": "el", "note": "Masculine: el marcador.", "tags": ["sport"] }
+  ],
+  "drills": [
+    { "prompt": "___ raqueta es nueva.", "answer": "La", "meaning": "the racket is new", "note": "Raqueta is feminine." },
+    { "prompt": "El ___ es de madera.", "answer": "equipo", "meaning": "the team is wooden", "note": "Equipo is masculine." },
+    { "prompt": "___ cancha está mojada.", "answer": "La", "meaning": "the court is wet", "note": "Cancha is feminine." },
+    { "prompt": "El ___ es dos a uno.", "answer": "marcador", "meaning": "the score is two to one", "note": "Marcador is masculine." }
+  ]
+}

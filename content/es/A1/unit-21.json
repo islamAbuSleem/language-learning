@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 21,
+  "title": "Fruit",
+  "description": "Name the fruit, and get the plural right.",
+  "explanation": {
+    "summary": "Fruit is a small, closed set of nouns that a learner meets very early, because it is what is in the kitchen and on the table. Nearly all of them are feminine.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La manzana, la naranja, la sandía, la fresa, la cereza and la pera are all feminine. El plátano, el melón and el limón are masculine. La sandía is a good one to remember: it ends in -ía and keeps the feminine article, while el melón is masculine.",
+        "examples": [
+          {
+            "es": "la manzana",
+            "en": "the apple"
+          },
+          {
+            "es": "el melón",
+            "en": "the melon"
+          },
+          {
+            "es": "la sandía",
+            "en": "the watermelon"
+          }
+        ]
+      },
+      {
+        "heading": "One grape and many",
+        "body": "Most fruit just adds -s or -es in the plural: las manzanas, los plátanos, las cerezas. One word does not: la uva becomes las uvas, and the -a drops. It is the commonest irregular plural in the language, and the only one you meet at this level.",
+        "examples": [
+          {
+            "es": "las uvas",
+            "en": "the grapes"
+          },
+          {
+            "es": "una uva",
+            "en": "one grape"
+          },
+          {
+            "es": "las fresas son buenas",
+            "en": "the strawberries are good"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u21/match/manzana",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the apple",
+          "right": "la manzana"
+        },
+        {
+          "left": "the orange",
+          "right": "la naranja"
+        },
+        {
+          "left": "the banana",
+          "right": "el plátano"
+        },
+        {
+          "left": "the grape",
+          "right": "la uva"
+        },
+        {
+          "left": "the melon",
+          "right": "el melón"
+        }
+      ],
+      "note": "Most fruit words are feminine, but the two big round ones are not."
+    },
+    {
+      "id": "es/a1/u21/select/manzana",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the apple”.",
+      "options": [
+        "la naranja",
+        "el plátano",
+        "la uva",
+        "la manzana"
+      ],
+      "answer": "la manzana",
+      "translation": "the apple",
+      "note": "Feminine: la manzana."
+    },
+    {
+      "id": "es/a1/u21/listen/naranja",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la naranja",
+      "options": [
+        "la cereza",
+        "la manzana",
+        "la pera",
+        "la naranja"
+      ],
+      "audio": {
+        "text": "naranja",
+        "lang": "es"
+      },
+      "translation": "the orange",
+      "note": "Feminine: la naranja. The colour is also la naranja."
+    },
+    {
+      "id": "es/a1/u21/drill/1",
+      "type": "type_in",
+      "prompt": "Las ___ son pequeñas.",
+      "answer": "uvas",
+      "acceptedAnswers": [
+        "uvas"
+      ],
+      "translation": "the grapes are small",
+      "note": "The plural of uva drops the -a."
+    },
+    {
+      "id": "es/a1/u21/match/sandia",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the watermelon",
+          "right": "la sandía"
+        },
+        {
+          "left": "the strawberry",
+          "right": "la fresa"
+        },
+        {
+          "left": "the lemon",
+          "right": "el limón"
+        },
+        {
+          "left": "the cherry",
+          "right": "la cereza"
+        },
+        {
+          "left": "the pear",
+          "right": "la pera"
+        }
+      ],
+      "note": "Most fruit words are feminine, but the two big round ones are not."
+    },
+    {
+      "id": "es/a1/u21/select/platano",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the banana”.",
+      "options": [
+        "la fresa",
+        "el limón",
+        "la cereza",
+        "el plátano"
+      ],
+      "answer": "el plátano",
+      "translation": "the banana",
+      "note": "Masculine: el plátano."
+    },
+    {
+      "id": "es/a1/u21/drill/2",
+      "type": "type_in",
+      "prompt": "___ naranja está buena.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the orange is good",
+      "note": "Naranja is feminine."
+    },
+    {
+      "id": "es/a1/u21/select/uva",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the grape”.",
+      "options": [
+        "la naranja",
+        "el plátano",
+        "el melón",
+        "la uva"
+      ],
+      "answer": "la uva",
+      "translation": "the grape",
+      "note": "Feminine: la uva. The plural drops the -a: las uvas."
+    },
+    {
+      "id": "es/a1/u21/drill/3",
+      "type": "type_in",
+      "prompt": "El ___ es grande.",
+      "answer": "melón",
+      "acceptedAnswers": [
+        "melon"
+      ],
+      "translation": "the melon is big",
+      "note": "Melón is masculine."
+    },
+    {
+      "id": "es/a1/u21/drill/4",
+      "type": "type_in",
+      "prompt": "Quiero ___ pera.",
+      "answer": "una",
+      "acceptedAnswers": [
+        "una"
+      ],
+      "translation": "I want a pear",
+      "note": "Pera is feminine, so una pera."
+    }
+  ]
+}

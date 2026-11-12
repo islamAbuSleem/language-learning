@@ -79,9 +79,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to want”.",
       "options": [
-        "abrir",
-        "compartir",
-        "descubrir",
+        "gustar",
+        "encantar",
+        "molestar",
         "querer"
       ],
       "answer": "querer",
@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to be able to”.",
       "options": [
-        "estudiaba",
-        "miraba",
-        "trabajaba",
+        "trabajar",
+        "estudiar",
+        "hablar",
         "poder"
       ],
       "answer": "poder",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “to sleep”.",
       "options": [
-        "jugaba",
-        "era",
-        "he hablado",
+        "estudiar",
+        "caminar",
+        "cocinar",
         "dormir"
       ],
       "answer": "dormir",

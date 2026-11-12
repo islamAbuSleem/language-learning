@@ -43,7 +43,7 @@
     { "es": "debajo", "en": "underneath", "article": null, "note": "No article: está debajo.", "tags": ["place"] },
     { "es": "dentro", "en": "inside", "article": null, "note": "No article: está dentro.", "tags": ["place"] },
     { "es": "fuera", "en": "outside", "article": null, "note": "No article: está fuera.", "tags": ["place"] },
-    { "es": "bajo", "en": "under", "article": null, "note": "No article: está bajo. It also means low.", "tags": ["place"] },
+    { "es": "allá", "en": "over there", "article": null, "note": "No article: está allá. It is further away than allí.", "tags": ["place"] },
     { "es": "primero", "en": "first", "article": null, "note": "No article on its own: el primero, la primera.", "tags": ["order"] },
     { "es": "después", "en": "afterwards", "article": null, "note": "No article: después de.", "tags": ["order"] }
   ],

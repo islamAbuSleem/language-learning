@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 22,
+  "title": "Vegetables",
+  "description": "Name the vegetables, and learn the two that break the ending rule.",
+  "explanation": {
+    "summary": "Vegetable names are the same kind of noun as fruit names, with one trap: the two you meet first, la patata and el tomate, are the ones that do not follow the ending rule.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La patata, la cebolla, la zanahoria, la lechuga and la espinaca are feminine. El tomate, el pimiento, el guisante, el brócoli and el calabacín are masculine. El tomate is the one to remember: it ends in -o, so it is masculine, but la patata ends in -a and is still feminine. The ending is only a guide.",
+        "examples": [
+          {
+            "es": "la patata",
+            "en": "the potato"
+          },
+          {
+            "es": "el tomate",
+            "en": "the tomato"
+          },
+          {
+            "es": "la zanahoria",
+            "en": "the carrot"
+          }
+        ]
+      },
+      {
+        "heading": "Plurals with a twist",
+        "body": "The plural adds -s or -es as usual: las patatas, los tomates, las zanahorias. Two words lose their ending: el brócoli becomes los brócolis and el calabacín becomes los calabacines. In the kitchen you say verduras for all of them at once.",
+        "examples": [
+          {
+            "es": "las patatas",
+            "en": "the potatoes"
+          },
+          {
+            "es": "los tomates",
+            "en": "the tomatoes"
+          },
+          {
+            "es": "unas verduras",
+            "en": "some vegetables"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u22/match/patata",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the potato",
+          "right": "la patata"
+        },
+        {
+          "left": "the tomato",
+          "right": "el tomate"
+        },
+        {
+          "left": "the onion",
+          "right": "la cebolla"
+        },
+        {
+          "left": "the carrot",
+          "right": "la zanahoria"
+        },
+        {
+          "left": "the courgette",
+          "right": "el calabacín"
+        }
+      ],
+      "note": "Vegetables are mostly feminine, and the two most common ones are the exceptions."
+    },
+    {
+      "id": "es/a1/u22/select/patata",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the potato”.",
+      "options": [
+        "el guisante",
+        "el brócoli",
+        "la lechuga",
+        "la patata"
+      ],
+      "answer": "la patata",
+      "translation": "the potato",
+      "note": "Feminine: la patata. The plural is las patatas."
+    },
+    {
+      "id": "es/a1/u22/listen/tomate",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el tomate",
+      "options": [
+        "el tomate",
+        "el pimiento",
+        "el guisante",
+        "el calabacín"
+      ],
+      "audio": {
+        "text": "tomate",
+        "lang": "es"
+      },
+      "translation": "the tomato",
+      "note": "Masculine: el tomate."
+    },
+    {
+      "id": "es/a1/u22/drill/1",
+      "type": "type_in",
+      "prompt": "Las ___ son pequeñas.",
+      "answer": "patatas",
+      "acceptedAnswers": [
+        "patatas"
+      ],
+      "translation": "the potatoes are small",
+      "note": "Patata is feminine, so las patatas."
+    },
+    {
+      "id": "es/a1/u22/match/pimiento",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the pepper",
+          "right": "el pimiento"
+        },
+        {
+          "left": "the pea",
+          "right": "el guisante"
+        },
+        {
+          "left": "the broccoli",
+          "right": "el brócoli"
+        },
+        {
+          "left": "the lettuce",
+          "right": "la lechuga"
+        },
+        {
+          "left": "the spinach",
+          "right": "la espinaca"
+        }
+      ],
+      "note": "Vegetables are mostly feminine, and the two most common ones are the exceptions."
+    },
+    {
+      "id": "es/a1/u22/select/cebolla",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the onion”.",
+      "options": [
+        "la cebolla",
+        "la zanahoria",
+        "el calabacín",
+        "el tomate"
+      ],
+      "answer": "la cebolla",
+      "translation": "the onion",
+      "note": "Feminine: la cebolla."
+    },
+    {
+      "id": "es/a1/u22/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ es rojo.",
+      "answer": "tomate",
+      "acceptedAnswers": [
+        "tomate"
+      ],
+      "translation": "the tomato is red",
+      "note": "Tomate is masculine."
+    },
+    {
+      "id": "es/a1/u22/select/zanahoria",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the carrot”.",
+      "options": [
+        "la bebida",
+        "la ensalada",
+        "la zanahoria",
+        "el postre"
+      ],
+      "answer": "la zanahoria",
+      "translation": "the carrot",
+      "note": "Feminine: la zanahoria."
+    },
+    {
+      "id": "es/a1/u22/drill/3",
+      "type": "type_in",
+      "prompt": "___ zanahoria es naranja.",
+      "answer": "La",
+      "acceptedAnswers": [
+        "La"
+      ],
+      "translation": "the carrot is orange",
+      "note": "Zanahoria is feminine."
+    },
+    {
+      "id": "es/a1/u22/drill/4",
+      "type": "type_in",
+      "prompt": "Necesito dos ___ de la verdulería.",
+      "answer": "lechugas",
+      "acceptedAnswers": [
+        "lechugas"
+      ],
+      "translation": "I need two lettuces from the greengrocer",
+      "note": "Léchuga is feminine, so las lechugas."
+    }
+  ]
+}

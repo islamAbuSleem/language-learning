@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 23,
+  "title": "Meat and fish",
+  "description": "Name the meat and the fish, and say what is on the table.",
+  "explanation": {
+    "summary": "Meat and fish are the food words a learner needs before a restaurant, and they follow the ordinary rules: a noun with a gender, an article, and a plural.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La carne is feminine and means meat in general. El pollo and el cerdo are masculine, and so is el pescado, which means fish as food. La ternera is the meat of a young cow, and la gamba is a prawn. Nothing here breaks the rule: -a is feminine, -o is masculine.",
+        "examples": [
+          {
+            "es": "la carne",
+            "en": "the meat"
+          },
+          {
+            "es": "el pollo",
+            "en": "the chicken"
+          },
+          {
+            "es": "la gamba",
+            "en": "the prawn"
+          }
+        ]
+      },
+      {
+        "heading": "On the table",
+        "body": "In a shop you ask for what you want with un or una, and the noun tells you the gender: un piece of chicken is un pollo, and a piece of fish is un pescado. In the plural the article changes too: dos gambas is not dos gamba.",
+        "examples": [
+          {
+            "es": "un pescado con verduras",
+            "en": "a fish with vegetables"
+          },
+          {
+            "es": "dos gambas",
+            "en": "two prawns"
+          },
+          {
+            "es": "la ternasa está muy bien",
+            "en": "the beef is very good"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u23/match/carne",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the meat",
+          "right": "la carne"
+        },
+        {
+          "left": "the chicken",
+          "right": "el pollo"
+        },
+        {
+          "left": "the beef",
+          "right": "la ternera"
+        },
+        {
+          "left": "the pork",
+          "right": "el cerdo"
+        },
+        {
+          "left": "the fish",
+          "right": "el pescado"
+        }
+      ],
+      "note": "The words for meat are ordinary nouns, so they all need their article."
+    },
+    {
+      "id": "es/a1/u23/select/carne",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the meat”.",
+      "options": [
+        "la carne",
+        "la ternera",
+        "el pollo",
+        "la espinaca"
+      ],
+      "answer": "la carne",
+      "translation": "the meat",
+      "note": "Feminine: la carne."
+    },
+    {
+      "id": "es/a1/u23/listen/pollo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el pollo",
+      "options": [
+        "la lechuga",
+        "la espinaca",
+        "el brócoli",
+        "el pollo"
+      ],
+      "audio": {
+        "text": "pollo",
+        "lang": "es"
+      },
+      "translation": "the chicken",
+      "note": "Masculine: el pollo."
+    },
+    {
+      "id": "es/a1/u23/drill/1",
+      "type": "type_in",
+      "prompt": "___ gambas están buenas.",
+      "answer": "Las",
+      "acceptedAnswers": [
+        "Las"
+      ],
+      "translation": "the prawns are good",
+      "note": "Gamba is feminine."
+    },
+    {
+      "id": "es/a1/u23/match/salmon",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "the salmon",
+          "right": "el salmón"
+        },
+        {
+          "left": "the cod",
+          "right": "el bacalao"
+        },
+        {
+          "left": "the prawn",
+          "right": "la gamba"
+        },
+        {
+          "left": "the squid",
+          "right": "el calamar"
+        },
+        {
+          "left": "the burger",
+          "right": "la hamburguesa"
+        }
+      ],
+      "note": "The words for meat are ordinary nouns, so they all need their article."
+    },
+    {
+      "id": "es/a1/u23/select/ternera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the beef”.",
+      "options": [
+        "el guisante",
+        "el brócoli",
+        "la ternera",
+        "el pimiento"
+      ],
+      "answer": "la ternera",
+      "translation": "the beef",
+      "note": "Feminine: la ternera."
+    },
+    {
+      "id": "es/a1/u23/drill/2",
+      "type": "type_in",
+      "prompt": "El ___ está en la mesa.",
+      "answer": "pollo",
+      "acceptedAnswers": [
+        "pollo"
+      ],
+      "translation": "the chicken is on the table",
+      "note": "Pollo is masculine."
+    },
+    {
+      "id": "es/a1/u23/select/cerdo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “the pork”.",
+      "options": [
+        "el cerdo",
+        "la cebolla",
+        "la zanahoria",
+        "el tomate"
+      ],
+      "answer": "el cerdo",
+      "translation": "the pork",
+      "note": "Masculine: el cerdo."
+    },
+    {
+      "id": "es/a1/u23/drill/3",
+      "type": "type_in",
+      "prompt": "___ pescado es muy caro.",
+      "answer": "El",
+      "acceptedAnswers": [
+        "El"
+      ],
+      "translation": "the fish is very expensive",
+      "note": "Pescado is masculine."
+    },
+    {
+      "id": "es/a1/u23/drill/4",
+      "type": "type_in",
+      "prompt": "Quiero una ___ con queso.",
+      "answer": "hamburguesa",
+      "acceptedAnswers": [
+        "hamburguesa"
+      ],
+      "translation": "I want a burger with cheese",
+      "note": "Hamburguesa is feminine, so una hamburguesa."
+    }
+  ]
+}

@@ -80,9 +80,9 @@
       "prompt": "Pick the Spanish word for “has spoken”.",
       "options": [
         "haya hablado",
-        "responder",
-        "perder",
-        "escribir"
+        "había estudiado",
+        "había trabajado",
+        "había visto"
       ],
       "answer": "haya hablado",
       "translation": "has spoken",
@@ -121,8 +121,8 @@
           "right": "haya escrito"
         },
         {
-          "left": "hopefully",
-          "right": "ojalá"
+          "left": "just in case",
+          "right": "por si acaso"
         }
       ],
       "note": "The perfect subjunctive is the -se form of the past subjunctive: haya hablado, haya comido."
@@ -132,9 +132,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “has eaten”.",
       "options": [
-        "trabajaba",
-        "miraba",
-        "estudiaba",
+        "comeré",
+        "trabajaré",
+        "viviré",
         "haya comido"
       ],
       "answer": "haya comido",
@@ -157,9 +157,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “has lived”.",
       "options": [
-        "haré",
-        "podré",
-        "vendré",
+        "visitar",
+        "comer",
+        "beber",
         "haya vivido"
       ],
       "answer": "haya vivido",

@@ -46,7 +46,7 @@
     { "es": "estudiante", "en": "student", "article": "el", "note": "Masculine: el estudiante. The feminine is la estudiante.", "tags": ["person"] },
     { "es": "profesor", "en": "teacher", "article": "el", "note": "Masculine: el profesor. The feminine is la profesora.", "tags": ["person"] },
     { "es": "amigo", "en": "friend", "article": "el", "note": "Masculine: el amigo. The feminine is la amiga.", "tags": ["person"] },
-    { "es": "madre", "en": "mother", "article": "la", "note": "Feminine: la madre.", "tags": ["family"] }
+    { "es": "chica", "en": "girl", "article": "la", "note": "Feminine: la chica. The masculine is el chico.", "tags": ["person"] }
   ],
   "drills": [
     { "prompt": "___ soy Ana.", "answer": "Yo", "meaning": "I am Ana", "note": "The pronoun comes before the verb." },

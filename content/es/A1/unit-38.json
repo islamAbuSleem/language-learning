@@ -1,0 +1,210 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 38,
+  "title": "The months",
+  "description": "Name the months, and say when something happens.",
+  "explanation": {
+    "summary": "The months are the one set of nouns in Spanish that never takes an article, and there are twelve of them, so this unit does the first ten.",
+    "sections": [
+      {
+        "heading": "The months",
+        "body": "Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre and octubre. All of them are masculine, but you never use the article with them: en mayo, en octubre. When you give the day as well, the day comes first and de follows: el 5 de mayo.",
+        "examples": [
+          {
+            "es": "en enero",
+            "en": "in January"
+          },
+          {
+            "es": "el 5 de mayo",
+            "en": "the fifth of May"
+          },
+          {
+            "es": "en agosto",
+            "en": "in August"
+          }
+        ]
+      },
+      {
+        "heading": "The two short ones",
+        "body": "Mayo and junio are the short months, and the -o of mayo drops when you add something to it: el primero de mayo, the first of May. The others keep their -o: el 3 de marzo, el 12 de octubre.",
+        "examples": [
+          {
+            "es": "el primero de mayo",
+            "en": "the first of May"
+          },
+          {
+            "es": "el 3 de marzo",
+            "en": "the third of March"
+          },
+          {
+            "es": "el 12 de octubre",
+            "en": "the twelfth of October"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u38/match/enero",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "January",
+          "right": "enero"
+        },
+        {
+          "left": "February",
+          "right": "febrero"
+        },
+        {
+          "left": "March",
+          "right": "marzo"
+        },
+        {
+          "left": "April",
+          "right": "abril"
+        },
+        {
+          "left": "May",
+          "right": "mayo"
+        }
+      ],
+      "note": "A month takes no article: en enero, el 5 de enero, not el enero."
+    },
+    {
+      "id": "es/a1/u38/select/enero",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “January”.",
+      "options": [
+        "enero",
+        "marzo",
+        "abril",
+        "mayo"
+      ],
+      "answer": "enero",
+      "translation": "January",
+      "note": "No article: en enero."
+    },
+    {
+      "id": "es/a1/u38/listen/febrero",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "febrero",
+      "options": [
+        "septiembre",
+        "octubre",
+        "el día",
+        "febrero"
+      ],
+      "audio": {
+        "text": "febrero",
+        "lang": "es"
+      },
+      "translation": "February",
+      "note": "No article: en febrero."
+    },
+    {
+      "id": "es/a1/u38/drill/1",
+      "type": "type_in",
+      "prompt": "El 5 de ___.",
+      "answer": "mayo",
+      "acceptedAnswers": [
+        "mayo"
+      ],
+      "translation": "the fifth of May",
+      "note": "May takes no article."
+    },
+    {
+      "id": "es/a1/u38/match/junio",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "June",
+          "right": "junio"
+        },
+        {
+          "left": "July",
+          "right": "julio"
+        },
+        {
+          "left": "August",
+          "right": "agosto"
+        },
+        {
+          "left": "September",
+          "right": "septiembre"
+        },
+        {
+          "left": "October",
+          "right": "octubre"
+        }
+      ],
+      "note": "A month takes no article: en enero, el 5 de enero, not el enero."
+    },
+    {
+      "id": "es/a1/u38/select/marzo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “March”.",
+      "options": [
+        "septiembre",
+        "octubre",
+        "el día",
+        "marzo"
+      ],
+      "answer": "marzo",
+      "translation": "March",
+      "note": "No article: en marzo."
+    },
+    {
+      "id": "es/a1/u38/drill/2",
+      "type": "type_in",
+      "prompt": "En ___ hace calor.",
+      "answer": "agosto",
+      "acceptedAnswers": [
+        "agosto"
+      ],
+      "translation": "in August it is hot",
+      "note": "A month never takes an article."
+    },
+    {
+      "id": "es/a1/u38/select/abril",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “April”.",
+      "options": [
+        "marzo",
+        "mayo",
+        "febrero",
+        "abril"
+      ],
+      "answer": "abril",
+      "translation": "April",
+      "note": "No article: en abril."
+    },
+    {
+      "id": "es/a1/u38/drill/3",
+      "type": "type_in",
+      "prompt": "El primero de ___.",
+      "answer": "enero",
+      "acceptedAnswers": [
+        "enero"
+      ],
+      "translation": "the first of January",
+      "note": "The day comes first, then de, then the month."
+    },
+    {
+      "id": "es/a1/u38/drill/4",
+      "type": "type_in",
+      "prompt": "Mi cumpleaños es en ___.",
+      "answer": "julio",
+      "acceptedAnswers": [
+        "julio"
+      ],
+      "translation": "my birthday is in July",
+      "note": "No article with a month."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "unit": 28,
+  "title": "In the street",
+  "description": "Name the things in a street, and say where you walk.",
+  "grammar": "gender and articles, and prepositions of place",
+  "grammarNote": "The street is a set of nouns, and estar tells you where each one is.",
+  "explanation": {
+    "summary": "A street is a line of objects, and each one has a name and a gender. Once you can name them, you can describe where you are walking.",
+    "sections": [
+      {
+        "heading": "The nouns",
+        "body": "La acera, la calzada, la farola, la parada, la glorieta and la escaparate are feminine. El bordillo, el semáforo, el cruce and el buzón are masculine. La calzada is the road itself, and la acera is the part you walk on.",
+        "examples": [
+          { "es": "la acera", "en": "the pavement" },
+          { "es": "el semáforo", "en": "the traffic light" },
+          { "es": "el buzón", "en": "the postbox" }
+        ]
+      },
+      {
+        "heading": "Where things are",
+        "body": "Estar says where a thing is, and the place follows: el buzón está en la esquina, la parada está frente al banco. Frente and en el are the two you will use most in a street, and the noun after them keeps its article.",
+        "examples": [
+          { "es": "el buzón está en la esquina", "en": "the postbox is on the corner" },
+          { "es": "la parada está frente al banco", "en": "the bus stop is opposite the bench" },
+          { "es": "la farola está al lado de la acera", "en": "the street lamp is beside the pavement" }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "acera", "en": "the pavement", "article": "la", "note": "Feminine: la acera. You walk on it, and cars drive on la calzada.", "tags": ["street"] },
+    { "es": "calzada", "en": "the road", "article": "la", "note": "Feminine: la calzada.", "tags": ["street"] },
+    { "es": "bordillo", "en": "the kerb", "article": "el", "note": "Masculine: el bordillo.", "tags": ["street"] },
+    { "es": "farola", "en": "the street lamp", "article": "la", "note": "Feminine: la farola.", "tags": ["street"] },
+    { "es": "semáforo", "en": "the traffic light", "article": "el", "note": "Masculine: el semáforo. The accent marks the stress.", "tags": ["street"] },
+    { "es": "parada", "en": "the stop", "article": "la", "note": "Feminine: la parada. It is short for la parada de autobús.", "tags": ["street"] },
+    { "es": "cruce", "en": "the crossing", "article": "el", "note": "Masculine: el cruce.", "tags": ["street"] },
+    { "es": "glorieta", "en": "the roundabout", "article": "la", "note": "Feminine: la glorieta.", "tags": ["street"] },
+    { "es": "buzón", "en": "the postbox", "article": "el", "note": "Masculine: el buzón. The accent marks the stress.", "tags": ["street"] },
+    { "es": "escaparate", "en": "the shop window", "article": "el", "note": "Masculine: el escaparate.", "tags": ["street"] }
+  ],
+  "drills": [
+    { "prompt": "El ___ está rojo.", "answer": "semáforo", "meaning": "the traffic light is red", "note": "Semáforo is masculine." },
+    { "prompt": "___ acera es estrecha.", "answer": "La", "meaning": "the pavement is narrow", "note": "Acera is feminine." },
+    { "prompt": "La ___ está en la esquina.", "answer": "glorieta", "meaning": "the roundabout is on the corner", "note": "Glorieta is feminine." },
+    { "prompt": "El ___ tiene cartas.", "answer": "buzón", "meaning": "the postbox has letters in it", "note": "Buzón is masculine." }
+  ]
+}
