@@ -66,5 +66,61 @@ export function createInMemoryProgressRepository(): ProgressRepository {
         .map(([, day]) => ({ ...day }))
         .sort((a, b) => (a.day < b.day ? -1 : 1))
     },
+
+    async adoptProgress(fromLearnerId, toLearnerId) {
+      if (fromLearnerId === toLearnerId) return
+
+      const to = profiles.get(toLearnerId) ?? createLearnerProfile()
+      profiles.set(toLearnerId, { ...to })
+
+      const from = profiles.get(fromLearnerId)
+
+      for (const [itemKey, state] of items) {
+        if (!itemKey.startsWith(`${fromLearnerId}::`)) continue
+
+        const targetKey = key(toLearnerId, state.itemId)
+        const existing = items.get(targetKey)
+        const incoming = state.lastReviewedAt ?? Number.NEGATIVE_INFINITY
+        const current = existing?.lastReviewedAt ?? Number.NEGATIVE_INFINITY
+
+        if (!existing || incoming >= current) {
+          items.set(targetKey, { ...state })
+        }
+
+        items.delete(itemKey)
+      }
+
+      for (const [dayKey, day] of days) {
+        if (!dayKey.startsWith(`${fromLearnerId}::`)) continue
+
+        const targetKey = key(toLearnerId, day.day)
+        const existing = days.get(targetKey) ?? { day: day.day, answers: 0, correct: 0, xp: 0 }
+
+        days.set(targetKey, {
+          day: day.day,
+          answers: existing.answers + day.answers,
+          correct: existing.correct + day.correct,
+          xp: existing.xp + day.xp,
+        })
+
+        days.delete(dayKey)
+      }
+
+      const from = profiles.get(fromLearnerId)
+      const to = profiles.get(toLearnerId) ?? createLearnerProfile()
+
+      if (from) {
+        profiles.set(toLearnerId, {
+          xp: to.xp + from.xp,
+          streak: Math.max(to.streak, from.streak),
+          lastPracticeDate:
+            to.lastPracticeDate !== null &&
+            (from.lastPracticeDate === null || to.lastPracticeDate > from.lastPracticeDate)
+              ? to.lastPracticeDate
+              : from.lastPracticeDate,
+        })
+        profiles.delete(fromLearnerId)
+      }
+    },
   }
 }

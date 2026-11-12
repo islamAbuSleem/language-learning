@@ -63,4 +63,14 @@ export interface ProgressRepository {
   ): Promise<void>
   /** Every day the learner has practised, oldest first. */
   listDays(learnerId: string): Promise<PracticeDay[]>
+  /**
+   * Move one learner's progress into another's, then forget the first.
+   *
+   * Signing in merges the anonymous cookie's progress into the account: per
+   * item the most recently reviewed state wins, per day the counts add up,
+   * and the profile keeps the summed XP with the longer streak. Histories
+   * are disjoint by construction (a merged cookie is cleared), so nothing
+   * is counted twice.
+   */
+  adoptProgress(fromLearnerId: string, toLearnerId: string): Promise<void>
 }

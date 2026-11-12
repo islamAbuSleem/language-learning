@@ -53,17 +53,26 @@ const server = spawn("node", [".output/server/index.mjs"], {
   stdio: "ignore",
 })
 
-let cookie = ""
+const jar = new Map()
 
 async function call(path, options = {}) {
   const headers = { "content-type": "application/json", ...(options.headers ?? {}) }
-  if (cookie) headers.cookie = cookie
+  if (jar.size > 0) {
+    headers.cookie = [...jar.entries()].map(([name, value]) => `${name}=${value}`).join("; ")
+  }
 
   const response = await fetch(BASE + path, { ...options, headers })
   const setCookie = response.headers.getSetCookie?.() ?? []
   for (const raw of setCookie) {
-    const pair = raw.split(";")[0]
-    if (pair.startsWith("learner=")) cookie = pair
+    const pair = raw.split(";")[0] ?? ""
+    const index = pair.indexOf("=")
+    if (index < 0) continue
+
+    const name = pair.slice(0, index).trim()
+    const value = pair.slice(index + 1).trim()
+
+    if (value === "" || /expires=Thu, 01 Jan 1970/i.test(raw)) jar.delete(name)
+    else jar.set(name, value)
   }
 
   let body = null
@@ -225,7 +234,7 @@ try {
   // A skip is free: it shows the solution and costs nothing, so it must not
   // stop the learner from moving on. This is a fresh learner, so the first
   // unit is the only one in play.
-  cookie = ""
+  jar.clear()
   await call("/api/progress")
 
   const skipped = await call("/api/session", {
@@ -250,13 +259,61 @@ try {
   check("a skipped unit is finished", skippedUnits[0].completed === true)
   check("a skip does not hold the next unit back", skippedUnits[1].locked === false)
 
+  // 9. signing up keeps the anonymous progress
+  //
+  // The skipped unit above belongs to a fresh anonymous learner. Signing up
+  // moves it into the account instead of stranding it.
+  const email = `journey-${Math.random().toString(36).slice(2, 8)}@example.com`
+
+  const weak = await call("/api/auth/signup", {
+    method: "POST",
+    body: JSON.stringify({ email, password: "correct horse 123" }),
+  })
+  check("signup works", weak.status === 200, `status ${weak.status}`)
+  check("the new account is named after the email", weak.body.user.displayName.length > 0)
+
+  const duplicate = await call("/api/auth/signup", {
+    method: "POST",
+    body: JSON.stringify({ email, password: "correct horse 123" }),
+  })
+  check("a second signup with the same email is refused", duplicate.status === 409, `status ${duplicate.status}`)
+
+  const merged = await call("/api/tracks")
+  const mergedFirst = merged.body.tracks.find((track) => track.id === "es").levels[0].units[0]
+  check("the anonymous progress moved into the account", mergedFirst.completed === true)
+
+  const me = await call("/api/auth/me")
+  check("the session knows who signed in", me.body.user?.email === email, me.body.user?.email)
+
+  // 10. the wrong password tells nothing, the right one returns
+  const wrong = await call("/api/auth/login", {
+    method: "POST",
+    body: JSON.stringify({ email, password: "wrong horse" }),
+  })
+  check("a wrong password is refused without detail", wrong.status === 401, `status ${wrong.status}`)
+
+  await call("/api/auth/logout", { method: "POST", body: JSON.stringify({}) })
+
+  const loggedOut = await call("/api/auth/me")
+  check("logout forgets the session", loggedOut.body.user === null)
+
+  const back = await call("/api/auth/login", {
+    method: "POST",
+    body: JSON.stringify({ email, password: "correct horse 123" }),
+  })
+  check("login works", back.status === 200, `status ${back.status}`)
+
+  const kept = await call("/api/tracks")
+  const keptFirst = kept.body.tracks.find((track) => track.id === "es").levels[0].units[0]
+  check("the progress survived logout and login", keptFirst.completed === true)
+
   console.log(notes.join("\n"))
   if (problems.length > 0) {
     console.error(`\n${problems.length} problem(s):`)
     for (const problem of problems) console.error(problem)
     process.exitCode = 1
   } else {
-    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats")
+    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats, auth")
   }
 } finally {
   server.kill()

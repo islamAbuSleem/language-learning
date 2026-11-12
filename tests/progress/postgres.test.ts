@@ -161,4 +161,30 @@ describe.skipIf(!url)("the postgres repository", () => {
     },
     30_000,
   )
+
+  it(
+    "adopts anonymous progress into a brand-new account",
+    async () => {
+      const target = `user-${learnerId}`
+      await withRepository(async (repository) => {
+        await repository.recordExercise(`anon-${learnerId}`, createItemState("a", 1), {
+          xp: 0,
+          streak: 0,
+          lastPracticeDate: null,
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
+
+        // The target has never answered: no learner row, nothing moved yet.
+        // The foreign keys must still hold after the move.
+        await repository.adoptProgress(`anon-${learnerId}`, target)
+
+        const items = await repository.listItems(target)
+        expect(items.map((item) => item.itemId)).toEqual(["a"])
+        expect(await repository.listDays(target)).toEqual([
+          { day: "2026-11-12", answers: 1, correct: 1, xp: 2 },
+        ])
+        expect(await repository.listItems(`anon-${learnerId}`)).toEqual([])
+      })
+    },
+    30_000,
+  )
 })

@@ -1,7 +1,7 @@
 import { completeRequestSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
-import { getLearnerId } from "../services/learnerService"
+import { getEffectiveLearnerId } from "../services/learnerService"
 import { recordExercise } from "../services/progressService"
 import { currentExercise, getSession } from "../services/sessionService"
 
@@ -26,7 +26,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const { item, profile } = await recordExercise(
-    getLearnerId(event),
+    await getEffectiveLearnerId(event),
     exercise,
     session.pending.outcome,
     body.data.grade,

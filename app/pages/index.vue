@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ItemProgressPayload, LearnerProfilePayload } from "#shared/api/schemas"
+import type { ItemProgressPayload, LearnerProfilePayload, UserPayload } from "#shared/api/schemas"
 import { PRACTICE_MASTERY_CEILING } from "#shared/srs/types"
 
 import AppIcon from "~/components/AppIcon.vue"
@@ -42,6 +42,18 @@ const { data: progress } = await useFetch<{
   profile: LearnerProfilePayload
   items: ItemProgressPayload[]
 }>("/api/progress", { headers: useRequestHeaders(["cookie"]) })
+
+// Who is signed in, if anyone. Anonymous learners just see a sign-in link.
+const { data: session, refresh: refreshSession } = await useFetch<{
+  user: UserPayload | null
+}>("/api/auth/me", { headers: useRequestHeaders(["cookie"]) })
+
+const user = computed(() => session.value?.user ?? null)
+
+async function signOut() {
+  await $fetch("/api/auth/logout", { method: "POST" })
+  await refreshSession()
+}
 
 const profile = computed(() => progress.value?.profile ?? null)
 
@@ -133,6 +145,11 @@ function unitLabel(unit: UnitSummary): string {
         <h1 class="dashboard__title">Language App</h1>
         <p class="dashboard__subtitle">Learn without limits, without a paywall.</p>
         <NuxtLink class="dashboard__progress-link" to="/progress">See your progress →</NuxtLink>
+        <p v-if="user" class="dashboard__account">
+          Signed in as {{ user.displayName }} ·
+          <button type="button" class="dashboard__signout" @click="signOut">Sign out</button>
+        </p>
+        <NuxtLink v-else class="dashboard__progress-link" to="/login">Sign in →</NuxtLink>
       </div>
 
       <dl v-if="profile" class="chips">
@@ -336,6 +353,23 @@ function unitLabel(unit: UnitSummary): string {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--color-accent);
+}
+
+.dashboard__account {
+  margin: var(--space-2) 0 0;
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+}
+
+.dashboard__signout {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .dashboard__empty {

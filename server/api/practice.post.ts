@@ -3,7 +3,7 @@ import { z } from "zod"
 import { toClientExercise } from "../domain/exercise/presentation"
 import { selectPracticeItems, selectWeakItems } from "../domain/srs"
 import { findExercise } from "../services/contentService"
-import { getLearnerId } from "../services/learnerService"
+import { getEffectiveLearnerId } from "../services/learnerService"
 import { getProfile, listItemStates } from "../services/progressService"
 import { createSession, currentExercise } from "../services/sessionService"
 
@@ -27,7 +27,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const { mode, count } = body.data
-  const learnerId = getLearnerId(event)
+  const learnerId = await getEffectiveLearnerId(event)
   const now = Date.now()
 
   const states = await listItemStates(learnerId)

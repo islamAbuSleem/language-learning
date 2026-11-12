@@ -1,6 +1,6 @@
 import { trackIdSchema } from "#shared/content/schema"
 
-import { getLearnerId } from "../../services/learnerService"
+import { getEffectiveLearnerId } from "../../services/learnerService"
 import { getLearnerStats } from "../../services/statsService"
 
 export default defineEventHandler(async (event) => {
@@ -10,5 +10,5 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: "Unknown track" })
   }
 
-  return getLearnerStats(track.data, getLearnerId(event), Date.now())
+  return getLearnerStats(track.data, await getEffectiveLearnerId(event), Date.now())
 })

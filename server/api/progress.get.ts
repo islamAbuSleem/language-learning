@@ -1,8 +1,8 @@
-import { getLearnerId } from "../services/learnerService"
+import { getEffectiveLearnerId } from "../services/learnerService"
 import { listItemStates, getProfile } from "../services/progressService"
 
 export default defineEventHandler(async (event) => {
-  const learnerId = getLearnerId(event)
+  const learnerId = await getEffectiveLearnerId(event)
 
   return {
     profile: await getProfile(learnerId),

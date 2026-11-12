@@ -121,5 +121,9 @@ every word has a cached recording, every unit has a listening exercise, and
 every multiple-choice option can be heard. Spanish inside English prose is
 painted pine so the two languages never blur.
 
-Not built yet: accounts and profiles, German and English content, and a
-native speaker's recordings instead of the synthesised voice.
+Not built yet: German and English content, and a native speaker's recordings
+instead of the synthesised voice.
+
+Accounts work with email and password: signing in moves the anonymous
+progress into the account, and progress keeps working exactly as before,
+keyed to the user instead of the cookie.

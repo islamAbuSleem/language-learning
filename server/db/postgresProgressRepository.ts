@@ -148,6 +148,72 @@ export function createPostgresProgressRepository(sql: Sql): ProgressRepository {
       }))
     },
 
+    async adoptProgress(fromLearnerId: string, toLearnerId: string): Promise<void> {
+      if (fromLearnerId === toLearnerId) return
+
+      // The account may never have answered anything, in which case it has
+      // no learner row yet — but the moved rows need a parent to point at.
+      await sql`INSERT INTO learners (id) VALUES (${toLearnerId}) ON CONFLICT (id) DO NOTHING`
+
+      await sql.begin(async (tx) => {
+        // Per item the most recently reviewed state wins; a missing timestamp
+        // counts as older than any real one.
+        await tx`
+          INSERT INTO item_states (learner_id, item_id, mastery, reps, lapses, stability, due_at, last_reviewed_at)
+          SELECT ${toLearnerId}, item_id, mastery, reps, lapses, stability, due_at, last_reviewed_at
+          FROM item_states
+          WHERE learner_id = ${fromLearnerId}
+          ON CONFLICT (learner_id, item_id) DO UPDATE SET
+            mastery = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.mastery ELSE item_states.mastery END,
+            reps = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.reps ELSE item_states.reps END,
+            lapses = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.lapses ELSE item_states.lapses END,
+            stability = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.stability ELSE item_states.stability END,
+            due_at = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.due_at ELSE item_states.due_at END,
+            last_reviewed_at = CASE
+              WHEN COALESCE(EXCLUDED.last_reviewed_at, -1) >= COALESCE(item_states.last_reviewed_at, -1)
+              THEN EXCLUDED.last_reviewed_at ELSE item_states.last_reviewed_at END
+        `
+        await tx`DELETE FROM item_states WHERE learner_id = ${fromLearnerId}`
+
+        // Per day the counts add up.
+        await tx`
+          INSERT INTO practice_days (learner_id, day, answers, correct, xp)
+          SELECT ${toLearnerId}, day, answers, correct, xp
+          FROM practice_days
+          WHERE learner_id = ${fromLearnerId}
+          ON CONFLICT (learner_id, day) DO UPDATE SET
+            answers = practice_days.answers + EXCLUDED.answers,
+            correct = practice_days.correct + EXCLUDED.correct,
+            xp = practice_days.xp + EXCLUDED.xp
+        `
+        await tx`DELETE FROM practice_days WHERE learner_id = ${fromLearnerId}`
+
+        // The profile keeps the summed XP with the longer streak. GREATEST
+        // over text dates works because they are YYYY-MM-DD; the COALESCE
+        // keeps a missing date from nulling the whole expression.
+        await tx`
+          UPDATE learners AS target SET
+            xp = target.xp + source.xp,
+            streak = GREATEST(target.streak, source.streak),
+            last_practice_date = NULLIF(GREATEST(COALESCE(target.last_practice_date, ''), COALESCE(source.last_practice_date, '')), ''),
+            updated_at = now()
+          FROM learners AS source
+          WHERE target.id = ${toLearnerId} AND source.id = ${fromLearnerId}
+        `
+        await tx`DELETE FROM learners WHERE id = ${fromLearnerId}`
+      })
+    },
+
     async recordExercise(
       learnerId: string,
       item: ItemState,

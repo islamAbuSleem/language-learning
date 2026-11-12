@@ -1,10 +1,10 @@
 import { loadAvailableTracks, loadTrackLadder } from "../services/contentService"
-import { getLearnerId } from "../services/learnerService"
+import { getEffectiveLearnerId } from "../services/learnerService"
 import { getPathProgress } from "../services/pathService"
 
 export default defineEventHandler(async (event) => {
   const trackIds = await loadAvailableTracks()
-  const learnerId = getLearnerId(event)
+  const learnerId = await getEffectiveLearnerId(event)
 
   const tracks = await Promise.all(
     trackIds.map(async (id) => {
