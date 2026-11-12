@@ -93,6 +93,9 @@ function startGoogle() {
     <p v-else-if="route.query.magic === 'invalid'" class="auth__error" role="alert">
       That link is used up or expired. Ask for a fresh one below.
     </p>
+    <p v-else-if="route.query.google === 'invalid'" class="auth__error" role="alert">
+      Google did not finish signing in. Try again, or use another way in.
+    </p>
 
     <section v-if="methods.password" class="auth__block">
       <div class="auth__tabs" role="tablist" aria-label="Sign in or sign up">

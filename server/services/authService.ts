@@ -1,5 +1,6 @@
 import { randomUUID } from "node:crypto"
 import type { H3Event } from "h3"
+import { createError, deleteCookie, getCookie, getRequestIP, getRequestURL, setCookie } from "h3"
 
 import { hashPassword, verifyPassword } from "../domain/auth/password"
 import { allowAttempt } from "../domain/auth/rateLimit"
@@ -175,8 +176,7 @@ export async function logout(event: H3Event): Promise<void> {
 }
 
 /** The signed-in user, or null for an anonymous learner. */
-export async function currentUser(event: H3Event) {
-  const token = getCookie(event, SESSION_COOKIE)
+export async function currentUser(event: H3Event) {  const token = getCookie(event, SESSION_COOKIE)
   if (!token) return null
 
   const repository = await getAuthRepository()
@@ -196,6 +196,64 @@ export function availableMethods() {
     magic: process.env.NODE_ENV !== "production" || Boolean(process.env.RESEND_API_KEY),
     google: Boolean(process.env.GOOGLE_CLIENT_ID),
   }
+}
+
+/**
+ * Finish a Google sign-in: one account per inbox, progress merged in.
+ *
+ * An account already linked to this Google subject signs straight in. An
+ * account with the same *verified* email gets linked to it — Google checked
+ * the inbox, so there is nothing left to prove. Otherwise a fresh account is
+ * created, verified from birth. An unverified Google email never links to
+ * anything: it would hand an account to whoever typed the address.
+ */
+export async function completeGoogleSignIn(
+  event: H3Event,
+  profile: { sub: string; email: string; emailVerified: boolean; name?: string },
+): Promise<User> {
+  const repository = await getAuthRepository()
+
+  const linked = await repository.findUserByGoogleSub(profile.sub)
+  if (linked) {
+    await mergeAnonymousProgress(event, linked.id)
+    await startSession(event, linked.id)
+
+    return toUserPayload(linked)
+  }
+
+  const emailNorm = normalizeEmail(profile.email)
+  const existing = await repository.findUserByEmailNorm(emailNorm)
+
+  if (existing && !profile.emailVerified) {
+    // Whoever typed this address has not proved the inbox. Linking it would
+    // hand their account to a stranger, so it stops here instead.
+    throw createError({
+      statusCode: 401,
+      statusMessage: "That email is already registered. Sign in with your password first.",
+    })
+  }
+
+  if (existing && profile.emailVerified) {
+    await repository.linkGoogleAccount(existing.id, profile.sub)
+    await mergeAnonymousProgress(event, existing.id)
+    await startSession(event, existing.id)
+
+    return toUserPayload({ ...existing, hasGoogle: true, emailVerified: true })
+  }
+
+  const user = await repository.createUser({
+    id: randomUUID(),
+    email: profile.email.trim(),
+    displayName: displayNameFor(profile.email, profile.name),
+    passwordHash: null,
+    googleSub: profile.sub,
+    emailVerified: profile.emailVerified,
+  })
+
+  await mergeAnonymousProgress(event, user.id)
+  await startSession(event, user.id)
+
+  return toUserPayload(user)
 }
 
 /**

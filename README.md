@@ -124,6 +124,6 @@ painted pine so the two languages never blur.
 Not built yet: German and English content, and a native speaker's recordings
 instead of the synthesised voice.
 
-Accounts work with email and password: signing in moves the anonymous
-progress into the account, and progress keeps working exactly as before,
-keyed to the user instead of the cookie.
+Accounts work three ways: email and password, a magic link, and Google.
+Signing in moves the anonymous progress into the account, and progress
+keeps working exactly as before, keyed to the user instead of the cookie.

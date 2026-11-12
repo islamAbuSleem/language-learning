@@ -1,5 +1,6 @@
 import { randomUUID } from "node:crypto"
 import type { H3Event } from "h3"
+import { deleteCookie, getCookie, setCookie } from "h3"
 
 import { SESSION_COOKIE, hashSessionToken } from "../domain/auth/session"
 import { getAuthRepository } from "../db/authRepository"

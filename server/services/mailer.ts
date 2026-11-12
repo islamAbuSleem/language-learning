@@ -8,10 +8,11 @@
  * link back so a test can follow it. Nothing is ever silently dropped: the
  * return value always says which of the two happened.
  */
+import { createError } from "h3"
+
 export interface MailResult {
   sent: boolean
 }
-
 export async function sendMagicLink(email: string, link: string): Promise<MailResult> {
   const apiKey = process.env.RESEND_API_KEY
   if (!apiKey) {
