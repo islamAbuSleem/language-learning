@@ -132,6 +132,7 @@ function unitLabel(unit: UnitSummary): string {
       <div>
         <h1 class="dashboard__title">Language App</h1>
         <p class="dashboard__subtitle">Learn without limits, without a paywall.</p>
+        <NuxtLink class="dashboard__progress-link" to="/progress">See your progress →</NuxtLink>
       </div>
 
       <dl v-if="profile" class="chips">
@@ -326,6 +327,14 @@ function unitLabel(unit: UnitSummary): string {
   margin: var(--space-1) 0 0;
   color: var(--color-ink-soft);
   font-size: 0.95rem;
+}
+
+.dashboard__progress-link {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-accent);
 }
 
 .dashboard__empty {

@@ -1,6 +1,6 @@
 import type { Sql } from "postgres"
 
-import type { ProgressRepository } from "../domain/progress/repository"
+import type { ProgressRepository, DayScore, PracticeDay } from "../domain/progress/repository"
 import { createLearnerProfile, type LearnerProfile } from "../domain/srs/progress"
 import type { ItemState } from "#shared/srs/types"
 
@@ -132,10 +132,27 @@ export function createPostgresProgressRepository(sql: Sql): ProgressRepository {
       }))
     },
 
+    async listDays(learnerId: string): Promise<PracticeDay[]> {
+      const rows = await sql<{ day: string; answers: number; correct: number; xp: number }[]>`
+        SELECT day, answers, correct, xp
+        FROM practice_days
+        WHERE learner_id = ${learnerId}
+        ORDER BY day
+      `
+
+      return rows.map((row) => ({
+        day: row.day,
+        answers: row.answers,
+        correct: row.correct,
+        xp: row.xp,
+      }))
+    },
+
     async recordExercise(
       learnerId: string,
       item: ItemState,
       profile: LearnerProfile,
+      day: DayScore,
     ): Promise<void> {
       await sql`
         WITH learner AS (
@@ -153,27 +170,37 @@ export function createPostgresProgressRepository(sql: Sql): ProgressRepository {
             last_practice_date = EXCLUDED.last_practice_date,
             updated_at = now()
           RETURNING id
+        ),
+        item_upsert AS (
+          INSERT INTO item_states (
+            learner_id, item_id, mastery, reps, lapses, stability, due_at, last_reviewed_at
+          )
+          SELECT
+            id,
+            ${item.itemId},
+            ${item.mastery},
+            ${item.reps},
+            ${item.lapses},
+            ${item.stability},
+            ${item.dueAt},
+            ${item.lastReviewedAt}
+          FROM learner
+          ON CONFLICT (learner_id, item_id) DO UPDATE SET
+            mastery = EXCLUDED.mastery,
+            reps = EXCLUDED.reps,
+            lapses = EXCLUDED.lapses,
+            stability = EXCLUDED.stability,
+            due_at = EXCLUDED.due_at,
+            last_reviewed_at = EXCLUDED.last_reviewed_at
+          RETURNING learner_id
         )
-        INSERT INTO item_states (
-          learner_id, item_id, mastery, reps, lapses, stability, due_at, last_reviewed_at
-        )
-        SELECT
-          id,
-          ${item.itemId},
-          ${item.mastery},
-          ${item.reps},
-          ${item.lapses},
-          ${item.stability},
-          ${item.dueAt},
-          ${item.lastReviewedAt}
+        INSERT INTO practice_days (learner_id, day, answers, correct, xp)
+        SELECT id, ${day.date}, ${day.answers}, ${day.correct}, ${day.xp}
         FROM learner
-        ON CONFLICT (learner_id, item_id) DO UPDATE SET
-          mastery = EXCLUDED.mastery,
-          reps = EXCLUDED.reps,
-          lapses = EXCLUDED.lapses,
-          stability = EXCLUDED.stability,
-          due_at = EXCLUDED.due_at,
-          last_reviewed_at = EXCLUDED.last_reviewed_at
+        ON CONFLICT (learner_id, day) DO UPDATE SET
+          answers = practice_days.answers + EXCLUDED.answers,
+          correct = practice_days.correct + EXCLUDED.correct,
+          xp = practice_days.xp + EXCLUDED.xp
       `
     },
   }

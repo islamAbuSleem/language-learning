@@ -7,6 +7,26 @@ export interface LearnerItemState {
   item: ItemState | null
 }
 
+/** One day of practice, as the calendar remembers it. */
+export interface PracticeDay {
+  /** `YYYY-MM-DD` in UTC. */
+  day: string
+  /** Exercises finished that day. */
+  answers: number
+  /** Of those, the ones answered correctly. */
+  correct: number
+  /** XP earned that day. */
+  xp: number
+}
+
+/** What one finished exercise adds to its day. */
+export interface DayScore {
+  date: string
+  answers: number
+  correct: number
+  xp: number
+}
+
 /**
  * Where progress lives.
  *
@@ -32,10 +52,15 @@ export interface ProgressRepository {
    * Write one finished exercise: the item's state and the profile together.
    *
    * Both in a single write, because a learner is waiting for the answer.
+   * The day's totals ride in the same write, so the calendar never drifts
+   * away from the answers.
    */
   recordExercise(
     learnerId: string,
     item: ItemState,
     profile: LearnerProfile,
+    day: DayScore,
   ): Promise<void>
+  /** Every day the learner has practised, oldest first. */
+  listDays(learnerId: string): Promise<PracticeDay[]>
 }

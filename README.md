@@ -109,16 +109,17 @@ app/pages/                 dashboard · lesson/[track]/[level]/[unit]
 
 ## Current state
 
-Working: the A0 to B2 ladder (95 units, 950 words, every unit with a lesson
+Working: the A0 to B2 ladder (135 units, 1350 words, every unit with a lesson
 and drills), the dashboard with the learner's place in it, the lesson player
 (select / match / type_in / listen), server-side grading, the self-grade
 feedback panel, the SRS engine, XP, streak, progress that survives a restart
 (Postgres), the practice loop that brings due and shaky items back, unit
 unlocking along a gapless path, the revisit path (a unit answered badly is
-weak, and weak units are offered back on the dashboard), and the course's own
-audio: every word has a cached recording, and every unit has a listening
-exercise.
+weak, and weak units are offered back on the dashboard), a progress view
+(words met, accuracy by level, streak calendar), and the course's own audio:
+every word has a cached recording, every unit has a listening exercise, and
+every multiple-choice option can be heard. Spanish inside English prose is
+painted pine so the two languages never blur.
 
-Not built yet: German and English content, the levels above A1 are still thin
-on vocabulary, and the recordings are a synthesised voice rather than a
-speaker's.
+Not built yet: accounts and profiles, German and English content, and a
+native speaker's recordings instead of the synthesised voice.

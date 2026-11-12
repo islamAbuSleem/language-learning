@@ -2,7 +2,7 @@ import type { ItemState } from "#shared/srs/types"
 
 import { createLearnerProfile, type LearnerProfile } from "../srs/progress"
 
-import type { LearnerItemState, ProgressRepository } from "./repository"
+import type { LearnerItemState, PracticeDay, ProgressRepository } from "./repository"
 
 /**
  * A repository that keeps everything in memory.
@@ -12,6 +12,7 @@ import type { LearnerItemState, ProgressRepository } from "./repository"
 export function createInMemoryProgressRepository(): ProgressRepository {
   const profiles = new Map<string, LearnerProfile>()
   const items = new Map<string, ItemState>()
+  const days = new Map<string, PracticeDay>()
 
   const key = (learnerId: string, itemId: string) => `${learnerId}::${itemId}`
 
@@ -44,9 +45,26 @@ export function createInMemoryProgressRepository(): ProgressRepository {
         .map(([, item]) => ({ ...item }))
     },
 
-    async recordExercise(learnerId, item, profile) {
+    async recordExercise(learnerId, item, profile, day) {
       items.set(key(learnerId, item.itemId), { ...item })
       profiles.set(learnerId, { ...profile })
+
+      const dayKey = key(learnerId, day.date)
+      const existing = days.get(dayKey) ?? { day: day.date, answers: 0, correct: 0, xp: 0 }
+
+      days.set(dayKey, {
+        day: day.date,
+        answers: existing.answers + day.answers,
+        correct: existing.correct + day.correct,
+        xp: existing.xp + day.xp,
+      })
+    },
+
+    async listDays(learnerId) {
+      return [...days.entries()]
+        .filter(([dayKey]) => dayKey.startsWith(`${learnerId}::`))
+        .map(([, day]) => ({ ...day }))
+        .sort((a, b) => (a.day < b.day ? -1 : 1))
     },
   }
 }

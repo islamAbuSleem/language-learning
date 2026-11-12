@@ -169,6 +169,13 @@ try {
   check("the learner has a streak", progress.body.profile.streak === 1)
   check("every item was remembered", progress.body.items.length === played, `items ${progress.body.items.length}`)
 
+  // 6b. the stats say what the learner did
+  const stats = await call("/api/stats/es")
+  check("ten words were met", stats.body.wordsMet === 10, `wordsMet ${stats.body.wordsMet}`)
+  check("one day was practised", stats.body.days.length === 1, `days ${stats.body.days.length}`)
+  check("the day counted every answer", stats.body.days[0]?.answers === played, `answers ${stats.body.days[0]?.answers}`)
+  check("the streak is alive", stats.body.currentStreak === 1, `streak ${stats.body.currentStreak}`)
+
   // 7. a unit answered badly is weak, and can be done again
   const secondContent = JSON.parse(
     readFileSync(join(root, "content", "es", "A0", `unit-${secondUnit.unit}.json`), "utf8"),
@@ -249,7 +256,7 @@ try {
     for (const problem of problems) console.error(problem)
     process.exitCode = 1
   } else {
-    console.log("\nthe journey works: lock, play, unlock, practise, revisit")
+    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats")
   }
 } finally {
   server.kill()

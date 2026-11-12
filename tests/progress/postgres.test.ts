@@ -54,7 +54,7 @@ describe.skipIf(!url)("the postgres repository", () => {
           xp: 2,
           streak: 1,
           lastPracticeDate: "2026-11-12",
-        })
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
 
         const profile = await repository.loadProfile(learnerId)
         expect(profile.xp).toBe(2)
@@ -80,7 +80,7 @@ describe.skipIf(!url)("the postgres repository", () => {
           xp: 2,
           streak: 1,
           lastPracticeDate: "2026-11-12",
-        })
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
         const loaded = await repository.loadItem(learnerId, itemId)
 
         expect(loaded?.itemId).toBe(item.itemId)
@@ -100,11 +100,12 @@ describe.skipIf(!url)("the postgres repository", () => {
           xp: 2,
           streak: 1,
           lastPracticeDate: "2026-11-12",
-        })
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
         await repository.recordExercise(
           learnerId,
           applyOutcome(createItemState(itemId, 1), "correct", "too_easy", 1),
           { xp: 4, streak: 1, lastPracticeDate: "2026-11-12" },
+          { date: "2026-11-12", answers: 1, correct: 1, xp: 2 },
         )
 
         const items = await repository.listItems(learnerId)
@@ -123,16 +124,39 @@ describe.skipIf(!url)("the postgres repository", () => {
           xp: 0,
           streak: 0,
           lastPracticeDate: null,
-        })
+        }, { date: "2026-11-12", answers: 1, correct: 0, xp: 0 })
         await repository.recordExercise(learnerId, createItemState("b", 2), {
           xp: 0,
           streak: 0,
           lastPracticeDate: null,
-        })
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
 
         const items = await repository.listItems(learnerId)
 
         expect(items.map((item) => item.itemId).sort()).toEqual(["a", "b"])
+      })
+    },
+    30_000,
+  )
+
+  it(
+    "adds up a day across exercises",
+    async () => {
+      await withRepository(async (repository) => {
+        await repository.recordExercise(learnerId, createItemState("a", 1), {
+          xp: 2,
+          streak: 1,
+          lastPracticeDate: "2026-11-12",
+        }, { date: "2026-11-12", answers: 1, correct: 1, xp: 2 })
+        await repository.recordExercise(learnerId, createItemState("b", 2), {
+          xp: 4,
+          streak: 1,
+          lastPracticeDate: "2026-11-12",
+        }, { date: "2026-11-12", answers: 1, correct: 0, xp: 2 })
+
+        expect(await repository.listDays(learnerId)).toEqual([
+          { day: "2026-11-12", answers: 2, correct: 1, xp: 4 },
+        ])
       })
     },
     30_000,

@@ -81,6 +81,29 @@ for (const [index, itemId] of items.entries()) {
   `
 }
 
+// The days the learner showed up: the seeded answers are spread over the last
+// few days, most recent units last, so the calendar and the streaks have
+// something true to say. Without this the progress page would show a learner
+// with hundreds of words and no history.
+const dayBuckets = Math.min(5, Math.max(1, Math.ceil(items.length / 10)))
+const perDay = Math.ceil(items.length / dayBuckets)
+
+for (let bucket = 0; bucket < dayBuckets; bucket += 1) {
+  const slice = items.slice(bucket * perDay, (bucket + 1) * perDay)
+  if (slice.length === 0) continue
+
+  const day = new Date(Date.now() - (dayBuckets - 1 - bucket) * 86400000)
+    .toISOString()
+    .slice(0, 10)
+  const correct = slice.filter((_, i) => bucket * perDay + i >= mistakes).length
+
+  await sql`
+    INSERT INTO practice_days (learner_id, day, answers, correct, xp)
+    VALUES (${learnerId}, ${day}, ${slice.length}, ${correct}, ${slice.length * 2})
+    ON CONFLICT (learner_id, day) DO NOTHING
+  `
+}
+
 const rows = await sql`SELECT count(*)::int AS n FROM item_states WHERE learner_id = ${learnerId}`
 console.log(`seeded ${rows[0].n} items across ${units} units for ${learnerId}`)
 await sql.end({ timeout: 5 })
