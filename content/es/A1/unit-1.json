@@ -6,97 +6,174 @@
   "description": "Order a drink, read the room, and ask for the bill.",
   "exercises": [
     {
-      "id": "es/a1/u1/select/cafe",
+      "id": "es/a1/u1/match/café",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "coffee",
+          "right": "el café"
+        },
+        {
+          "left": "water",
+          "right": "el agua"
+        },
+        {
+          "left": "milk",
+          "right": "la leche"
+        },
+        {
+          "left": "tea",
+          "right": "el té"
+        },
+        {
+          "left": "table",
+          "right": "la mesa"
+        }
+      ],
+      "note": "Every noun takes an article: el or la."
+    },
+    {
+      "id": "es/a1/u1/select/café",
       "type": "select",
       "prompt": "Pick the Spanish word for “coffee”.",
-      "options": ["el agua", "el café", "la leche", "el té"],
+      "options": [
+        "el té",
+        "el agua",
+        "la leche",
+        "el café"
+      ],
       "answer": "el café",
       "translation": "coffee",
       "note": "Café is masculine: el café."
     },
     {
-      "id": "es/a1/u1/select/agua",
-      "type": "select",
-      "prompt": "Which option means “water”?",
-      "options": ["la leche", "el azúcar", "el agua", "la cuenta"],
-      "answer": "el agua",
+      "id": "es/a1/u1/type_in/agua",
+      "type": "type_in",
+      "prompt": "Write “water” in Spanish.",
+      "answer": "agua",
+      "acceptedAnswers": [
+        "agua"
+      ],
       "translation": "water",
-      "note": "Agua is feminine, but keeps “el” in the singular because it starts with a vowel sound."
+      "note": "Agua is feminine but keeps el in the singular, because it begins with a vowel sound."
     },
     {
-      "id": "es/a1/u1/select/leche",
-      "type": "select",
-      "prompt": "Choose the word for “milk”.",
-      "options": ["la leche", "el frío", "la silla", "el mercado"],
+      "id": "es/a1/u1/listen/leche",
+      "type": "listen",
+      "prompt": "What did you hear?",
       "answer": "la leche",
-      "translation": "milk"
+      "options": [
+        "la leche",
+        "el café",
+        "el té",
+        "el agua"
+      ],
+      "audio": {
+        "text": "leche",
+        "lang": "es"
+      },
+      "translation": "milk",
+      "note": "Feminine: la leche."
     },
     {
-      "id": "es/a1/u1/select/te",
+      "id": "es/a1/u1/match/silla",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "chair",
+          "right": "la silla"
+        },
+        {
+          "left": "sugar",
+          "right": "el azúcar"
+        },
+        {
+          "left": "hot",
+          "right": "caliente"
+        },
+        {
+          "left": "cold",
+          "right": "frío"
+        },
+        {
+          "left": "the bill",
+          "right": "la cuenta"
+        }
+      ],
+      "note": "Every noun takes an article: el or la."
+    },
+    {
+      "id": "es/a1/u1/select/té",
       "type": "select",
-      "prompt": "Select “tea” in Spanish.",
-      "options": ["el té", "la mesa", "el mapa", "la calle"],
+      "prompt": "Pick the Spanish word for “tea”.",
+      "options": [
+        "la leche",
+        "el café",
+        "el agua",
+        "el té"
+      ],
       "answer": "el té",
       "translation": "tea",
       "note": "Té is masculine: el té."
     },
     {
-      "id": "es/a1/u1/match/cafe-sur",
-      "type": "match",
-      "prompt": "Pair each word with its translation.",
-      "pairs": [
-        { "left": "the table", "right": "la mesa" },
-        { "left": "the chair", "right": "la silla" },
-        { "left": "sugar", "right": "el azúcar" },
-        { "left": "hot", "right": "caliente" },
-        { "left": "cold", "right": "frío" }
+      "id": "es/a1/u1/type_in/mesa",
+      "type": "type_in",
+      "prompt": "Write “table” in Spanish.",
+      "answer": "mesa",
+      "acceptedAnswers": [
+        "mesa"
       ],
-      "note": "Caliente and frío both end in -o, so they take “el”."
+      "translation": "table",
+      "note": "Feminine: la mesa."
     },
     {
-      "id": "es/a1/u1/type_in/cuenta",
-      "type": "type_in",
-      "prompt": "Write “the bill” in Spanish.",
-      "answer": "la cuenta",
-      "acceptedAnswers": ["cuenta"],
-      "translation": "the bill",
-      "note": "At a café you ask for la cuenta, or “la cuenta, por favor”."
+      "id": "es/a1/u1/listen/silla",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la silla",
+      "options": [
+        "la mesa",
+        "el café",
+        "la cuenta",
+        "la silla"
+      ],
+      "audio": {
+        "text": "silla",
+        "lang": "es"
+      },
+      "translation": "chair",
+      "note": "Feminine: la silla."
     },
     {
-      "id": "es/a1/u1/select/azucar",
+      "id": "es/a1/u1/select/azúcar",
       "type": "select",
-      "prompt": "Find the word for “sugar”.",
-      "options": ["el azúcar", "la cuenta", "la leche", "el té"],
+      "prompt": "Pick the Spanish word for “sugar”.",
+      "options": [
+        "la cuenta",
+        "el café",
+        "el azúcar",
+        "frío"
+      ],
       "answer": "el azúcar",
-      "translation": "sugar"
+      "translation": "sugar",
+      "note": "Masculine: el azúcar, even though it ends in -z."
     },
     {
-      "id": "es/a1/u1/type_in/caliente",
-      "type": "type_in",
-      "prompt": "Type “hot” in Spanish.",
-      "answer": "caliente",
-      "acceptedAnswers": [],
-      "translation": "hot"
-    },
-    {
-      "id": "es/a1/u1/select/frio",
+      "id": "es/a1/u1/select/caliente",
       "type": "select",
-      "prompt": "Which word means “cold”?",
-      "options": ["el frío", "el calor", "la mesa", "la silla"],
-      "answer": "el frío",
-      "translation": "cold"
-    },
-    {
-      "id": "es/a1/u1/match/pedido",
-      "type": "match",
-      "prompt": "Match each drink with its name.",
-      "pairs": [
-        { "left": "coffee", "right": "el café" },
-        { "left": "water", "right": "el agua" },
-        { "left": "milk", "right": "la leche" },
-        { "left": "tea", "right": "el té" },
-        { "left": "the bill", "right": "la cuenta" }
-      ]
+      "prompt": "Pick the Spanish word for “hot”.",
+      "options": [
+        "frío",
+        "el agua",
+        "la leche",
+        "caliente"
+      ],
+      "answer": "caliente",
+      "translation": "hot",
+      "note": "No article on its own: está caliente."
     }
   ]
 }

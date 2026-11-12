@@ -20,7 +20,8 @@ function unitFiles(track: string): { level: string; file: string }[] {
     .filter((entry) => entry.isDirectory())
     .flatMap((entry) =>
       readdirSync(join(trackDir, entry.name))
-        .filter((file) => file.endsWith(".json"))
+        // The vocabulary files are the source, not units.
+        .filter((file) => /^unit-\d+\.json$/.test(file))
         .map((file) => ({ level: entry.name, file: join(trackDir, entry.name, file) })),
     )
 }

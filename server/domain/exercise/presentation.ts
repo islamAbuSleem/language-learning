@@ -22,6 +22,7 @@ export function toClientExercise(exercise: Exercise): ClientExercise {
         type: "listen",
         prompt: exercise.prompt,
         options: exercise.options,
+        audio: exercise.audio,
       }
     case "match":
       return {

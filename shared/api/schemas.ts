@@ -48,7 +48,13 @@ export const clientExerciseSchema = z.discriminatedUnion("type", [
     pairs: z.array(z.object({ left: z.string(), right: z.string() })),
   }),
   z.object({ id: z.string().min(1), type: z.literal("type_in"), prompt: z.string() }),
-  z.object({ id: z.string().min(1), type: z.literal("listen"), prompt: z.string(), options: z.array(z.string()) }),
+  z.object({
+    id: z.string().min(1),
+    type: z.literal("listen"),
+    prompt: z.string(),
+    options: z.array(z.string()),
+    audio: z.object({ text: z.string(), lang: z.string() }),
+  }),
 ])
 
 export type ClientExercise = z.infer<typeof clientExerciseSchema>

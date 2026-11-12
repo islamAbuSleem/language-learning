@@ -1,0 +1,79 @@
+{
+  "unit": 2,
+  "title": "Getting around",
+  "description": "Ask for directions, read a map, and find your way.",
+  "grammar": "question words",
+  "grammarNote": "Some words take an article, some do not: está cerca, but la calle.",
+  "items": [
+    {
+      "es": "calle",
+      "en": "street",
+      "article": "la",
+      "note": "Feminine: la calle.",
+      "tags": ["place"]
+    },
+    {
+      "es": "tienda",
+      "en": "shop",
+      "article": "la",
+      "note": "Feminine: la tienda.",
+      "tags": ["place"]
+    },
+    {
+      "es": "cerca",
+      "en": "near",
+      "article": null,
+      "note": "No article on its own: está cerca.",
+      "tags": ["direction"]
+    },
+    {
+      "es": "lejos",
+      "en": "far",
+      "article": null,
+      "note": "No article on its own: está lejos.",
+      "tags": ["direction"]
+    },
+    {
+      "es": "mercado",
+      "en": "market",
+      "article": "el",
+      "note": "Masculine: el mercado.",
+      "tags": ["place"]
+    },
+    {
+      "es": "estación",
+      "en": "station",
+      "article": "la",
+      "note": "Feminine: la estación. The accent marks the stress.",
+      "tags": ["place"]
+    },
+    {
+      "es": "mapa",
+      "en": "map",
+      "article": "el",
+      "note": "Masculine: el mapa.",
+      "tags": ["object"]
+    },
+    {
+      "es": "izquierda",
+      "en": "left",
+      "article": "la",
+      "note": "Feminine: la izquierda. Directions keep the article.",
+      "tags": ["direction"]
+    },
+    {
+      "es": "derecha",
+      "en": "right",
+      "article": "la",
+      "note": "Feminine: la derecha.",
+      "tags": ["direction"]
+    },
+    {
+      "es": "llegar",
+      "en": "to arrive",
+      "article": null,
+      "note": "An infinitive: to arrive. It ends in -ar.",
+      "tags": ["verb"]
+    }
+  ]
+}

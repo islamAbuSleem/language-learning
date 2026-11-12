@@ -1,0 +1,79 @@
+{
+  "unit": 1,
+  "title": "At the café",
+  "description": "Order a drink, read the room, and ask for the bill.",
+  "grammar": "gender and articles",
+  "grammarNote": "Every noun takes an article: el or la.",
+  "items": [
+    {
+      "es": "café",
+      "en": "coffee",
+      "article": "el",
+      "note": "Café is masculine: el café.",
+      "tags": ["drink"]
+    },
+    {
+      "es": "agua",
+      "en": "water",
+      "article": "el",
+      "note": "Agua is feminine but keeps el in the singular, because it begins with a vowel sound.",
+      "tags": ["drink"]
+    },
+    {
+      "es": "leche",
+      "en": "milk",
+      "article": "la",
+      "note": "Feminine: la leche.",
+      "tags": ["drink"]
+    },
+    {
+      "es": "té",
+      "en": "tea",
+      "article": "el",
+      "note": "Té is masculine: el té.",
+      "tags": ["drink"]
+    },
+    {
+      "es": "mesa",
+      "en": "table",
+      "article": "la",
+      "note": "Feminine: la mesa.",
+      "tags": ["furniture"]
+    },
+    {
+      "es": "silla",
+      "en": "chair",
+      "article": "la",
+      "note": "Feminine: la silla.",
+      "tags": ["furniture"]
+    },
+    {
+      "es": "azúcar",
+      "en": "sugar",
+      "article": "el",
+      "note": "Masculine: el azúcar, even though it ends in -z.",
+      "tags": ["food"]
+    },
+    {
+      "es": "caliente",
+      "en": "hot",
+      "article": null,
+      "note": "No article on its own: está caliente.",
+      "tags": ["temperature"]
+    },
+    {
+      "es": "frío",
+      "en": "cold",
+      "article": null,
+      "note": "No article on its own: está frío.",
+      "tags": ["temperature"]
+    },
+    {
+      "es": "cuenta",
+      "en": "the bill",
+      "article": "la",
+      "note": "At a café you ask for la cuenta, por favor.",
+      "tags": ["cafe"]
+    }
+  ]
+}

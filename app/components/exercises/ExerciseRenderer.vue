@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ClientExercise } from "#shared/api/schemas"
 
+import ExerciseListen from "./ExerciseListen.vue"
 import ExerciseMatch from "./ExerciseMatch.vue"
 import ExerciseSelect from "./ExerciseSelect.vue"
 import ExerciseTypeIn from "./ExerciseTypeIn.vue"
@@ -27,7 +28,14 @@ const emit = defineEmits<{
 
 <template>
   <ExerciseSelect
-    v-if="exercise.type === 'select' || exercise.type === 'listen'"
+    v-if="exercise.type === 'select'"
+    :exercise="exercise"
+    :model-value="selection"
+    @update:model-value="emit('update:selection', $event)"
+  />
+
+  <ExerciseListen
+    v-else-if="exercise.type === 'listen'"
     :exercise="exercise"
     :model-value="selection"
     @update:model-value="emit('update:selection', $event)"

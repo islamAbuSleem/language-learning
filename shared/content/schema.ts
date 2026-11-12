@@ -86,9 +86,19 @@ export const listenExerciseSchema = z.object({
   id: z.string().min(1),
   type: z.literal("listen"),
   prompt: z.string().min(1),
-  /** The word that is spoken. */
+  /** The word that is spoken, with its article. */
   answer: z.string().min(1),
   options: z.array(z.string().min(1)).min(2).max(6),
+  /**
+   * What is actually spoken.
+   *
+   * v0 speaks the word with the browser's voice, so this is the bare word
+   * and the language to speak it in. Recorded audio would replace it.
+   */
+  audio: z.object({
+    text: z.string().min(1),
+    lang: z.string().min(2).max(5),
+  }),
   translation: z.string().min(1),
   note: z.string().optional(),
 })

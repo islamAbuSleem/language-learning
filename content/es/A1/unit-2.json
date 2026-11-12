@@ -6,94 +6,174 @@
   "description": "Ask for directions, read a map, and find your way.",
   "exercises": [
     {
+      "id": "es/a1/u2/match/calle",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "street",
+          "right": "la calle"
+        },
+        {
+          "left": "shop",
+          "right": "la tienda"
+        },
+        {
+          "left": "near",
+          "right": "cerca"
+        },
+        {
+          "left": "far",
+          "right": "lejos"
+        },
+        {
+          "left": "market",
+          "right": "el mercado"
+        }
+      ],
+      "note": "Some words take an article, some do not: está cerca, but la calle."
+    },
+    {
       "id": "es/a1/u2/select/calle",
       "type": "select",
       "prompt": "Pick the Spanish word for “street”.",
-      "options": ["la calle", "el mapa", "la tienda", "la estación"],
+      "options": [
+        "la tienda",
+        "el mercado",
+        "la estación",
+        "la calle"
+      ],
       "answer": "la calle",
-      "translation": "street"
+      "translation": "street",
+      "note": "Feminine: la calle."
     },
     {
-      "id": "es/a1/u2/select/tienda",
-      "type": "select",
-      "prompt": "Which option means “shop”?",
-      "options": ["el mercado", "la tienda", "la calle", "el mapa"],
-      "answer": "la tienda",
-      "translation": "shop"
+      "id": "es/a1/u2/type_in/tienda",
+      "type": "type_in",
+      "prompt": "Write “shop” in Spanish.",
+      "answer": "tienda",
+      "acceptedAnswers": [
+        "tienda"
+      ],
+      "translation": "shop",
+      "note": "Feminine: la tienda."
     },
     {
-      "id": "es/a1/u2/select/cerca",
-      "type": "select",
-      "prompt": "Choose the word for “near”.",
-      "options": ["lejos", "cerca", "derecha", "izquierda"],
+      "id": "es/a1/u2/listen/cerca",
+      "type": "listen",
+      "prompt": "What did you hear?",
       "answer": "cerca",
+      "options": [
+        "la izquierda",
+        "lejos",
+        "la derecha",
+        "cerca"
+      ],
+      "audio": {
+        "text": "cerca",
+        "lang": "es"
+      },
       "translation": "near",
-      "note": "Cerca and lejos work as adverbs on their own: está cerca."
+      "note": "No article on its own: está cerca."
+    },
+    {
+      "id": "es/a1/u2/match/estación",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "station",
+          "right": "la estación"
+        },
+        {
+          "left": "map",
+          "right": "el mapa"
+        },
+        {
+          "left": "left",
+          "right": "la izquierda"
+        },
+        {
+          "left": "right",
+          "right": "la derecha"
+        },
+        {
+          "left": "to arrive",
+          "right": "llegar"
+        }
+      ],
+      "note": "Some words take an article, some do not: está cerca, but la calle."
     },
     {
       "id": "es/a1/u2/select/lejos",
       "type": "select",
-      "prompt": "Select “far” in Spanish.",
-      "options": ["la calle", "lejos", "el mapa", "la tienda"],
+      "prompt": "Pick the Spanish word for “far”.",
+      "options": [
+        "la derecha",
+        "la izquierda",
+        "cerca",
+        "lejos"
+      ],
       "answer": "lejos",
-      "translation": "far"
+      "translation": "far",
+      "note": "No article on its own: está lejos."
     },
     {
-      "id": "es/a1/u2/match/direccion",
-      "type": "match",
-      "prompt": "Pair each place with its translation.",
-      "pairs": [
-        { "left": "market", "right": "el mercado" },
-        { "left": "station", "right": "la estación" },
-        { "left": "map", "right": "el mapa" },
-        { "left": "right", "right": "la derecha" },
-        { "left": "left", "right": "la izquierda" }
-      ]
-    },
-    {
-      "id": "es/a1/u2/type_in/llegar",
+      "id": "es/a1/u2/type_in/mercado",
       "type": "type_in",
-      "prompt": "Write “to arrive” in Spanish.",
-      "answer": "llegar",
-      "acceptedAnswers": [],
-      "translation": "to arrive",
-      "note": "Llegar is an infinitive ending in -ar. You will meet the form llego."
+      "prompt": "Write “market” in Spanish.",
+      "answer": "mercado",
+      "acceptedAnswers": [
+        "mercado"
+      ],
+      "translation": "market",
+      "note": "Masculine: el mercado."
     },
     {
-      "id": "es/a1/u2/select/mercado",
-      "type": "select",
-      "prompt": "Find the word for “market”.",
-      "options": ["la estación", "el mapa", "el mercado", "la tienda"],
-      "answer": "el mercado",
-      "translation": "market"
-    },
-    {
-      "id": "es/a1/u2/type_in/izquierda",
-      "type": "type_in",
-      "prompt": "Type “left” in Spanish.",
-      "answer": "la izquierda",
-      "acceptedAnswers": ["izquierda"],
-      "translation": "left"
+      "id": "es/a1/u2/listen/estación",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la estación",
+      "options": [
+        "la tienda",
+        "el mercado",
+        "la estación",
+        "la calle"
+      ],
+      "audio": {
+        "text": "estación",
+        "lang": "es"
+      },
+      "translation": "station",
+      "note": "Feminine: la estación. The accent marks the stress."
     },
     {
       "id": "es/a1/u2/select/mapa",
       "type": "select",
-      "prompt": "Which word means “map”?",
-      "options": ["el mapa", "la calle", "lejos", "cerca"],
+      "prompt": "Pick the Spanish word for “map”.",
+      "options": [
+        "lejos",
+        "el mercado",
+        "la estación",
+        "el mapa"
+      ],
       "answer": "el mapa",
-      "translation": "map"
+      "translation": "map",
+      "note": "Masculine: el mapa."
     },
     {
-      "id": "es/a1/u2/match/ruta",
-      "type": "match",
-      "prompt": "Match each word with its translation.",
-      "pairs": [
-        { "left": "street", "right": "la calle" },
-        { "left": "shop", "right": "la tienda" },
-        { "left": "near", "right": "cerca" },
-        { "left": "far", "right": "lejos" },
-        { "left": "to arrive", "right": "llegar" }
-      ]
+      "id": "es/a1/u2/select/izquierda",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “left”.",
+      "options": [
+        "cerca",
+        "lejos",
+        "la derecha",
+        "la izquierda"
+      ],
+      "answer": "la izquierda",
+      "translation": "left",
+      "note": "Feminine: la izquierda. Directions keep the article."
     }
   ]
 }
