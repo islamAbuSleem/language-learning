@@ -1,7 +1,8 @@
 import { completeRequestSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
-import { currentLearnerId, recordExercise } from "../services/progressService"
+import { getLearnerId } from "../services/learnerService"
+import { recordExercise } from "../services/progressService"
 import { currentExercise, getSession } from "../services/sessionService"
 
 export default defineEventHandler(async (event) => {
@@ -24,9 +25,8 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 409, statusMessage: "This lesson is already finished" })
   }
 
-  const learnerId = currentLearnerId()
-  const { item, profile } = recordExercise(
-    learnerId,
+  const { item, profile } = await recordExercise(
+    getLearnerId(event),
     exercise,
     session.pending.outcome,
     body.data.grade,

@@ -2,7 +2,8 @@ import { startSessionSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
 import { loadUnit } from "../services/contentService"
-import { currentLearnerId, getProfile } from "../services/progressService"
+import { getLearnerId } from "../services/learnerService"
+import { getProfile } from "../services/progressService"
 import { createSession, currentExercise } from "../services/sessionService"
 
 export default defineEventHandler(async (event) => {
@@ -31,6 +32,6 @@ export default defineEventHandler(async (event) => {
     total: content.exercises.length,
     index: session.index,
     exercise: exercise ? toClientExercise(exercise) : null,
-    profile: getProfile(currentLearnerId()),
+    profile: await getProfile(getLearnerId(event)),
   }
 })

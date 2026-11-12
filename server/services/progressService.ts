@@ -1,10 +1,10 @@
 import type { Exercise } from "#shared/content/schema"
 
+import { getProgressRepository } from "../db/progressRepository"
 import {
   applyExerciseResult,
   applyOutcome,
   createItemState,
-  createLearnerProfile,
   type DifficultyGrade,
   type ExerciseOutcome,
   type ItemState,
@@ -12,71 +12,48 @@ import {
 } from "../domain/srs"
 
 /**
- * Learner state for v0.
+ * Learner progress.
  *
- * There is no account system yet, so everything lives in memory for a single
- * learner id. Swapping this for a database means replacing this module only:
- * the SRS engine already works on plain values.
+ * The store is Postgres (Neon). The SRS engine is unchanged: it still works on
+ * plain values, and this module is the only thing that knows about rows.
  */
-const LEARNER_ID = "local"
 
-interface LearnerState {
-  profile: LearnerProfile
-  items: Map<string, ItemState>
+export async function getProfile(learnerId: string): Promise<LearnerProfile> {
+  return getProgressRepository().loadProfile(learnerId)
 }
 
-const state = new Map<string, LearnerState>()
-
-function learnerState(learnerId: string): LearnerState {
-  const existing = state.get(learnerId)
-  if (existing) return existing
-
-  const created: LearnerState = {
-    profile: createLearnerProfile(),
-    items: new Map<string, ItemState>(),
-  }
-  state.set(learnerId, created)
-
-  return created
+export async function getItemState(
+  learnerId: string,
+  itemId: string,
+): Promise<ItemState | null> {
+  return getProgressRepository().loadItem(learnerId, itemId)
 }
 
-export function currentLearnerId(): string {
-  return LEARNER_ID
-}
-
-export function getProfile(learnerId: string): LearnerProfile {
-  return { ...learnerState(learnerId).profile }
-}
-
-export function getItemState(learnerId: string, itemId: string): ItemState {
-  const learner = learnerState(learnerId)
-
-  return learner.items.get(itemId) ?? createItemState(itemId, Date.now())
-}
-
-export function listItemStates(learnerId: string): ItemState[] {
-  return [...learnerState(learnerId).items.values()]
+export async function listItemStates(learnerId: string): Promise<ItemState[]> {
+  return getProgressRepository().listItems(learnerId)
 }
 
 /**
- * Record one finished exercise: the item's memory state and the learner's
- * hearts, xp and streak all move together.
+ * Record one finished exercise: the item's memory state and the learner's xp
+ * and streak both move together.
  */
-export function recordExercise(
+export async function recordExercise(
   learnerId: string,
   exercise: Exercise,
   outcome: ExerciseOutcome,
   grade: DifficultyGrade,
   now: number,
-): { item: ItemState; profile: LearnerProfile } {
-  const learner = learnerState(learnerId)
-  const previous = learner.items.get(exercise.id) ?? createItemState(exercise.id, now)
+): Promise<{ item: ItemState; profile: LearnerProfile }> {
+  const repository = getProgressRepository()
+
+  const previous = (await repository.loadItem(learnerId, exercise.id)) ??
+    createItemState(exercise.id, now)
 
   const item = applyOutcome(previous, outcome, grade, now)
-  const profile = applyExerciseResult(learner.profile, outcome, now)
+  const profile = applyExerciseResult(await repository.loadProfile(learnerId), outcome, now)
 
-  learner.items.set(exercise.id, item)
-  learner.profile = profile
+  await repository.saveItem(learnerId, item)
+  await repository.saveProfile(learnerId, profile)
 
   return { item, profile }
 }

@@ -120,9 +120,7 @@ defensible spaced-repetition approximation, not a copy.
 
 | Thing | Value | Status |
 | --- | --- | --- |
-| Hearts | 5 max (chip value observed) | observed `ev_0e43b4e92cc16880…` |
-| Heart loss | — | **open** |
-| Heart regen | — | **open** |
+| Hearts | **None.** There is no heart counter and no block: a wrong answer costs mastery, nothing else | decision |
 | XP per lesson | **+10** (the node popover reads "Start +10 XP") | observed `ev_485eac0f09a203be…` |
 | XP tiers | — | **open** |
 | Lingots (currency) | 1000 observed on the account | observed `ev_0e43b4e92cc16880…` |
@@ -134,9 +132,18 @@ defensible spaced-repetition approximation, not a copy.
 **Decision** — we ship the economy **without the paywall**. That is the whole point of
 this app: everything above is free, always.
 
-**Decision** — v0 economy: hearts 5, wrong answer −1, full refill every 30 minutes and
-on the next day; XP = 2 per exercise (≈20 per lesson); no lingots and no shop in v0 —
-those exist only to sell, and we are not selling.
+**Decision** — no hearts at all. The reference blocks a learner out of a lesson when
+the hearts run out; we do not. A wrong answer costs the item's mastery and nothing
+else, so the learner is never kept out of the content and never waits for a refill.
+The only pressure is the SRS: the item comes back sooner.
+
+**Decision** — v0 economy: xp = 2 per exercise (about 20 per lesson), a streak that
+counts consecutive days, and no lingots and no shop — those exist only to sell, and
+we are not selling.
+
+**Decision** — progress lives in Postgres (Neon). The SRS engine stays pure and
+framework-free; `server/domain/progress/repository.ts` is the only seam, so the
+store can be swapped without touching the scheduling logic.
 
 ## 6. Dashboard
 

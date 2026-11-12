@@ -1,11 +1,12 @@
-import { currentLearnerId, getProfile, listItemStates } from "../services/progressService"
+import { getLearnerId } from "../services/learnerService"
+import { listItemStates, getProfile } from "../services/progressService"
 
-export default defineEventHandler(() => {
-  const learnerId = currentLearnerId()
+export default defineEventHandler(async (event) => {
+  const learnerId = getLearnerId(event)
 
   return {
-    profile: getProfile(learnerId),
-    items: listItemStates(learnerId).map((item) => ({
+    profile: await getProfile(learnerId),
+    items: (await listItemStates(learnerId)).map((item) => ({
       itemId: item.itemId,
       mastery: item.mastery,
       stability: item.stability,

@@ -19,13 +19,18 @@ re-implement the *mechanics* with our own content and no paywall.
 
 ```bash
 npm install
-npm run dev            # http://localhost:3000
+cp .env.example .env      # then paste your Postgres URL into .env
+npm run dev               # http://localhost:3000
 ```
+
+`.env` holds `DATABASE_URL` and is gitignored. The schema is created on first use;
+`npm run migrate` applies the same file from the command line.
 
 Verify a change:
 
 ```bash
 npm run build && npm test
+npm run test:db           # the same tests against the real database
 ```
 
 Boot check: `node .output/server/index.mjs`, then `GET /api/health` → `{"status":"ok"}`.
@@ -39,13 +44,16 @@ shared/srs/types.ts        outcomes and self-grades, shared by app and server
 server/domain/srs/         the SRS engine: mastery, schedule, selection, economy
                            pure TypeScript, no Nuxt, no browser, fully unit tested
 server/domain/exercise/    grading (accent/case insensitive) and the client view
+server/domain/progress/    the repository seam, plus an in-memory implementation
+server/db/                 the Postgres client, the schema, the repository
 server/services/           content, learner state, lesson sessions
 server/api/                tracks · units · progress · session · answer · complete
 
-content/es/unit-N.json     exercise content, validated at build time
+content/es/track.json      the A1 to B2 ladder
+content/es/A1/unit-N.json  exercise content, validated at build time
 app/components/exercises/  one component per exercise type + a renderer registry
 app/components/lesson/     the feedback panel
-app/pages/                 dashboard · lesson/[unit]
+app/pages/                 dashboard · lesson/[track]/[level]/[unit]
 ```
 
 ### The two rules that matter
@@ -67,9 +75,9 @@ app/pages/                 dashboard · lesson/[unit]
 
 ## Current state
 
-Working: dashboard, lesson player (select / match / type_in), server-side
-grading, the self-grade feedback panel, the SRS engine, XP, hearts, streak.
+Working: dashboard, the A1 to B2 ladder, lesson player (select / match / type_in),
+server-side grading, the self-grade feedback panel, the SRS engine, XP, streak,
+and progress that survives a restart (Postgres).
 
-Not built yet: persistence (state is in memory), the practice node that brings
-due items back, unit unlocking, audio for the `listen` type, German and English
-content.
+Not built yet: the practice node that brings due items back, unit unlocking, audio
+for the `listen` type, German and English content.
