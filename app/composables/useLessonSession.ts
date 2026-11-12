@@ -1,0 +1,161 @@
+import type { ClientExercise, ExerciseResponsePayload, LearnerProfilePayload } from "#shared/api/schemas"
+import type { DifficultyGrade, ExerciseOutcome } from "#shared/srs/types"
+
+export interface LessonFeedback {
+  outcome: ExerciseOutcome
+  correctAnswer: string
+  translation: string | null
+  note: string | null
+}
+
+export interface LessonSummary {
+  correct: number
+  incorrect: number
+  skipped: number
+  xp: number
+}
+
+/**
+ * The lesson state machine.
+ *
+ * The server owns the answer key, so the client only ever sends what the
+ * learner did and renders what came back.
+ */
+export function useLessonSession(track: string, unit: number) {
+  const phase = ref<"loading" | "answering" | "feedback" | "done">("loading")
+  const sessionId = ref<string | null>(null)
+  const exercise = ref<ClientExercise | null>(null)
+  const feedback = ref<LessonFeedback | null>(null)
+  const profile = ref<LearnerProfilePayload | null>(null)
+  const index = ref(0)
+  const total = ref(0)
+  const counts = ref({ correct: 0, incorrect: 0, skipped: 0 })
+  const error = ref<string | null>(null)
+
+  const selection = ref<string | null>(null)
+  const typed = ref("")
+  const matchedPairs = ref<Record<string, string>>({})
+
+  function resetAnswerState() {
+    selection.value = null
+    typed.value = ""
+    matchedPairs.value = {}
+  }
+
+  async function start() {
+    phase.value = "loading"
+    resetAnswerState()
+
+    const response = await $fetch<{
+      sessionId: string
+      total: number
+      index: number
+      exercise: ClientExercise | null
+      profile: LearnerProfilePayload
+    }>("/api/session", { method: "POST", body: { track, unit } })
+
+    sessionId.value = response.sessionId
+    total.value = response.total
+    index.value = response.index
+    exercise.value = response.exercise
+    profile.value = response.profile
+    phase.value = response.exercise ? "answering" : "done"
+  }
+
+  /** The learner's current input, in the shape the API expects. */
+  function buildResponse(): ExerciseResponsePayload | null {
+    if (!exercise.value) return null
+
+    switch (exercise.value.type) {
+      case "select":
+      case "listen":
+        return selection.value ? { kind: "choice", value: selection.value } : null
+      case "type_in":
+        return typed.value.trim().length > 0 ? { kind: "text", value: typed.value } : null
+      case "match": {
+        const pairs = Object.entries(matchedPairs.value).map(([left, right]) => ({ left, right }))
+        return pairs.length > 0 ? { kind: "match", pairs } : null
+      }
+    }
+  }
+
+  const canCheck = computed(() => buildResponse() !== null)
+
+  async function submit(response: ExerciseResponsePayload) {
+    if (!sessionId.value) return
+
+    const result = await $fetch<LessonFeedback>("/api/answer", {
+      method: "POST",
+      body: { sessionId: sessionId.value, response },
+    })
+
+    feedback.value = result
+    phase.value = "feedback"
+  }
+
+  async function check() {
+    const response = buildResponse()
+    if (!response) return
+
+    await submit(response)
+  }
+
+  async function skip() {
+    await submit({ kind: "skip" })
+  }
+
+  /**
+   * Apply the learner's own difficulty grade and move on.
+   *
+   * The grade is optional: not picking one means neutral.
+   */
+  async function complete(grade: DifficultyGrade) {
+    if (!sessionId.value) return
+
+    const result = await $fetch<{
+      index: number
+      done: boolean
+      exercise: ClientExercise | null
+      profile: LearnerProfilePayload
+      counts: { correct: number; incorrect: number; skipped: number }
+    }>("/api/complete", {
+      method: "POST",
+      body: { sessionId: sessionId.value, grade },
+    })
+
+    index.value = result.index
+    counts.value = result.counts
+    profile.value = result.profile
+    exercise.value = result.exercise
+    feedback.value = null
+    resetAnswerState()
+    phase.value = result.done ? "done" : "answering"
+  }
+
+  const summary = computed<LessonSummary>(() => ({
+    correct: counts.value.correct,
+    incorrect: counts.value.incorrect,
+    skipped: counts.value.skipped,
+    xp: profile.value?.xp ?? 0,
+  }))
+
+  return {
+    phase,
+    exercise,
+    feedback,
+    profile,
+    index,
+    total,
+    counts,
+    summary,
+    error,
+    selection,
+    typed,
+    matchedPairs,
+    canCheck,
+    start,
+    check,
+    skip,
+    complete,
+  }
+}
