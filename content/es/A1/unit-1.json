@@ -6,7 +6,7 @@
   "description": "Order a drink, read the room, and ask for the bill.",
   "exercises": [
     {
-      "id": "es/a1/u1/match/café",
+      "id": "es/a1/u1/match/cafe",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -34,7 +34,7 @@
       "note": "Every noun takes an article: el or la."
     },
     {
-      "id": "es/a1/u1/select/café",
+      "id": "es/a1/u1/select/cafe",
       "type": "select",
       "prompt": "Pick the Spanish word for “coffee”.",
       "options": [
@@ -105,7 +105,7 @@
       "note": "Every noun takes an article: el or la."
     },
     {
-      "id": "es/a1/u1/select/té",
+      "id": "es/a1/u1/select/te",
       "type": "select",
       "prompt": "Pick the Spanish word for “tea”.",
       "options": [
@@ -136,8 +136,8 @@
       "answer": "la silla",
       "options": [
         "la mesa",
-        "el café",
-        "la cuenta",
+        "el azúcar",
+        "el té",
         "la silla"
       ],
       "audio": {
@@ -148,14 +148,14 @@
       "note": "Feminine: la silla."
     },
     {
-      "id": "es/a1/u1/select/azúcar",
+      "id": "es/a1/u1/select/azucar",
       "type": "select",
       "prompt": "Pick the Spanish word for “sugar”.",
       "options": [
-        "la cuenta",
-        "el café",
+        "sí",
+        "no",
         "el azúcar",
-        "frío"
+        "por favor"
       ],
       "answer": "el azúcar",
       "translation": "sugar",
@@ -167,8 +167,8 @@
       "prompt": "Pick the Spanish word for “hot”.",
       "options": [
         "frío",
-        "el agua",
-        "la leche",
+        "la silla",
+        "el azúcar",
         "caliente"
       ],
       "answer": "caliente",

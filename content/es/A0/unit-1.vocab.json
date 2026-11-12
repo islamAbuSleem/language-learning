@@ -1,0 +1,19 @@
+{
+  "unit": 1,
+  "title": "Hello",
+  "description": "Greet someone, and be polite about it.",
+  "grammar": "greetings and courtesy",
+  "grammarNote": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening.",
+  "items": [
+    { "es": "hola", "en": "hello", "article": null, "note": "Hello. It is used at any time of day.", "tags": ["greeting"] },
+    { "es": "adiós", "en": "goodbye", "article": null, "note": "Goodbye. The accent marks the stress.", "tags": ["greeting"] },
+    { "es": "buenos días", "en": "good morning", "article": null, "note": "Good morning. Literally good days.", "tags": ["greeting"] },
+    { "es": "buenas tardes", "en": "good afternoon", "article": null, "note": "Good afternoon. It also means good evening.", "tags": ["greeting"] },
+    { "es": "buenas noches", "en": "good night", "article": null, "note": "Good night, and good evening.", "tags": ["greeting"] },
+    { "es": "gracias", "en": "thank you", "article": null, "note": "Thank you. You can say gracias, or muchas gracias.", "tags": ["courtesy"] },
+    { "es": "por favor", "en": "please", "article": null, "note": "Please. It always comes before what you are asking for.", "tags": ["courtesy"] },
+    { "es": "sí", "en": "yes", "article": null, "note": "Yes. The accent marks the stress.", "tags": ["answer"] },
+    { "es": "no", "en": "no", "article": null, "note": "No.", "tags": ["answer"] },
+    { "es": "qué tal", "en": "how is it going", "article": null, "note": "How is it going. It is an informal greeting.", "tags": ["greeting"] }
+  ]
+}

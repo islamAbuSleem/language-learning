@@ -48,7 +48,7 @@
       "note": "An infinitive. Its forms are irregular: estoy, estás, está, estamos, estáis, están."
     },
     {
-      "id": "es/a1/u6/type_in/aquí",
+      "id": "es/a1/u6/type_in/aqui",
       "type": "type_in",
       "prompt": "Write “here” in Spanish.",
       "answer": "aquí",
@@ -59,7 +59,7 @@
       "note": "No article: está aquí."
     },
     {
-      "id": "es/a1/u6/listen/allí",
+      "id": "es/a1/u6/listen/alli",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "allí",

@@ -37,11 +37,17 @@ describe("track manifests", () => {
     expect(tracks.length).toBeGreaterThan(0)
   })
 
-  it("gives every track the full A1 to B2 ladder", () => {
+  it("gives every track the full ladder, from absolute beginner to B2", () => {
     for (const track of tracks) {
       const manifest = trackSchema.parse(readJson(join(CONTENT_ROOT, track, "track.json")))
 
-      expect(manifest.levels.map((level) => level.level)).toEqual(["A1", "A2", "B1", "B2"])
+      expect(manifest.levels.map((level) => level.level)).toEqual([
+        "A0",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+      ])
     }
   })
 

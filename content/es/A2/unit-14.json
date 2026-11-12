@@ -40,7 +40,7 @@
       "options": [
         "el recuerdo",
         "la fiesta",
-        "deber",
+        "la tarde",
         "el viaje"
       ],
       "answer": "el viaje",
@@ -119,7 +119,7 @@
       "note": "Feminine: la ciudad."
     },
     {
-      "id": "es/a2/u14/type_in/país",
+      "id": "es/a2/u14/type_in/pais",
       "type": "type_in",
       "prompt": "Write “country” in Spanish.",
       "answer": "país",
@@ -168,7 +168,7 @@
       "options": [
         "el viaje",
         "el recuerdo",
-        "tener",
+        "llegar",
         "la fiesta"
       ],
       "answer": "la fiesta",

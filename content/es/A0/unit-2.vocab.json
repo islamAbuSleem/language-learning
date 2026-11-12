@@ -1,0 +1,19 @@
+{
+  "unit": 2,
+  "title": "Your name",
+  "description": "Say who you are, and how you are doing.",
+  "grammar": "saying who you are",
+  "grammarNote": "Me llamo means my name is. It is how you introduce yourself.",
+  "items": [
+    { "es": "cómo te llamas", "en": "what is your name", "article": null, "note": "What is your name. You answer: me llamo...", "tags": ["question"] },
+    { "es": "me llamo", "en": "my name is", "article": null, "note": "My name is. Me llamo Ana.", "tags": ["answer"] },
+    { "es": "cómo estás", "en": "how are you", "article": null, "note": "How are you. You answer: estoy bien.", "tags": ["question"] },
+    { "es": "bien", "en": "well", "article": null, "note": "Well, fine. Estoy bien.", "tags": ["answer"] },
+    { "es": "mal", "en": "badly", "article": null, "note": "Badly. The opposite of bien.", "tags": ["answer"] },
+    { "es": "mucho", "en": "a lot", "article": null, "note": "A lot. It also means much.", "tags": ["quantity"] },
+    { "es": "poco", "en": "a little", "article": null, "note": "A little. The opposite of mucho.", "tags": ["quantity"] },
+    { "es": "también", "en": "also", "article": null, "note": "Also, too.", "tags": ["link"] },
+    { "es": "hasta luego", "en": "see you later", "article": null, "note": "See you later. You say it when you leave.", "tags": ["greeting"] },
+    { "es": "de nada", "en": "you are welcome", "article": null, "note": "You are welcome. The answer to thank you.", "tags": ["courtesy"] }
+  ]
+}

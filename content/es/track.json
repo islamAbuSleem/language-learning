@@ -3,13 +3,23 @@
   "name": "Spanish",
   "levels": [
     {
+      "level": "A0",
+      "title": "First steps",
+      "description": "Greet someone, and answer the simplest questions.",
+      "grammar": [
+        "greetings and courtesy",
+        "saying who you are",
+        "yes, no, please, thank you"
+      ]
+    },
+    {
       "level": "A1",
       "title": "Beginner",
       "description": "Order, greet, and describe what you see.",
       "grammar": [
-        "ser and estar",
-        "present tense",
         "gender and articles",
+        "subject pronouns and ser",
+        "present tense",
         "question words",
         "numbers 0 to 100"
       ]

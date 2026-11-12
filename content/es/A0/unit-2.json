@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A0",
+  "unit": 2,
+  "title": "Your name",
+  "description": "Say who you are, and how you are doing.",
+  "exercises": [
+    {
+      "id": "es/a0/u2/match/como-te-llamas",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "what is your name",
+          "right": "cómo te llamas"
+        },
+        {
+          "left": "my name is",
+          "right": "me llamo"
+        },
+        {
+          "left": "how are you",
+          "right": "cómo estás"
+        },
+        {
+          "left": "well",
+          "right": "bien"
+        },
+        {
+          "left": "badly",
+          "right": "mal"
+        }
+      ],
+      "note": "Me llamo means my name is. It is how you introduce yourself."
+    },
+    {
+      "id": "es/a0/u2/select/como-te-llamas",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “what is your name”.",
+      "options": [
+        "cómo estás",
+        "por favor",
+        "sí",
+        "cómo te llamas"
+      ],
+      "answer": "cómo te llamas",
+      "translation": "what is your name",
+      "note": "What is your name. You answer: me llamo..."
+    },
+    {
+      "id": "es/a0/u2/type_in/me-llamo",
+      "type": "type_in",
+      "prompt": "Write “my name is” in Spanish.",
+      "answer": "me llamo",
+      "acceptedAnswers": [
+        "me llamo"
+      ],
+      "translation": "my name is",
+      "note": "My name is. Me llamo Ana."
+    },
+    {
+      "id": "es/a0/u2/listen/como-estas",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "cómo estás",
+      "options": [
+        "cómo te llamas",
+        "bien",
+        "me llamo",
+        "cómo estás"
+      ],
+      "audio": {
+        "text": "cómo estás",
+        "lang": "es"
+      },
+      "translation": "how are you",
+      "note": "How are you. You answer: estoy bien."
+    },
+    {
+      "id": "es/a0/u2/match/mucho",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "a lot",
+          "right": "mucho"
+        },
+        {
+          "left": "a little",
+          "right": "poco"
+        },
+        {
+          "left": "also",
+          "right": "también"
+        },
+        {
+          "left": "see you later",
+          "right": "hasta luego"
+        },
+        {
+          "left": "you are welcome",
+          "right": "de nada"
+        }
+      ],
+      "note": "Me llamo means my name is. It is how you introduce yourself."
+    },
+    {
+      "id": "es/a0/u2/select/bien",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “well”.",
+      "options": [
+        "sí",
+        "me llamo",
+        "no",
+        "bien"
+      ],
+      "answer": "bien",
+      "translation": "well",
+      "note": "Well, fine. Estoy bien."
+    },
+    {
+      "id": "es/a0/u2/type_in/mal",
+      "type": "type_in",
+      "prompt": "Write “badly” in Spanish.",
+      "answer": "mal",
+      "acceptedAnswers": [
+        "mal"
+      ],
+      "translation": "badly",
+      "note": "Badly. The opposite of bien."
+    },
+    {
+      "id": "es/a0/u2/listen/mucho",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "mucho",
+      "options": [
+        "por favor",
+        "sí",
+        "mucho",
+        "poco"
+      ],
+      "audio": {
+        "text": "mucho",
+        "lang": "es"
+      },
+      "translation": "a lot",
+      "note": "A lot. It also means much."
+    },
+    {
+      "id": "es/a0/u2/select/poco",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “a little”.",
+      "options": [
+        "mucho",
+        "hola",
+        "adiós",
+        "poco"
+      ],
+      "answer": "poco",
+      "translation": "a little",
+      "note": "A little. The opposite of mucho."
+    },
+    {
+      "id": "es/a0/u2/select/tambien",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “also”.",
+      "options": [
+        "buenas tardes",
+        "buenas noches",
+        "buenos días",
+        "también"
+      ],
+      "answer": "también",
+      "translation": "also",
+      "note": "Also, too."
+    }
+  ]
+}

@@ -77,7 +77,7 @@
       "note": "No article on its own: está cerca."
     },
     {
-      "id": "es/a1/u2/match/estación",
+      "id": "es/a1/u2/match/estacion",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -130,7 +130,7 @@
       "note": "Masculine: el mercado."
     },
     {
-      "id": "es/a1/u2/listen/estación",
+      "id": "es/a1/u2/listen/estacion",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "la estación",
@@ -152,9 +152,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “map”.",
       "options": [
-        "lejos",
-        "el mercado",
-        "la estación",
+        "el agua",
+        "la leche",
+        "el té",
         "el mapa"
       ],
       "answer": "el mapa",

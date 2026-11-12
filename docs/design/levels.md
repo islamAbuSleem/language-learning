@@ -26,10 +26,23 @@ content.
 
 | Level | Label | Grammar introduced | Units |
 | --- | --- | --- | --- |
+| **A0** | First steps | greetings and courtesy · saying who you are | 2 |
 | **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* | 6 |
 | **A2** | Elementary | *-er* and *-ir* verbs · the verb *ir* · telling the time · *tener* · question words · *saber* and *conocer* | 8 |
 | **B1** | Intermediate | stem-changing verbs · the irregular present · the present progressive · direct object pronouns · reflexives · the preterite · commands and comparisons | 10 |
 | **B2** | Upper intermediate | the subjunctive · *desde cuándo* · reported speech · the conditional · the pluperfect · concessive clauses · formal register | 12 |
+
+## A0 — First steps
+
+> Greet someone, and answer the simplest questions.
+
+| Unit | Theme | Grammar | Words | Written |
+| --- | --- | --- | --- | --- |
+| 1 | Hello | greetings and courtesy | 10 | yes |
+| 2 | Your name | saying who you are | 10 | yes |
+
+**Exit criteria** — a learner has finished A0 when they can greet someone, say
+their name, and thank them.
 
 ## A1 — Beginner
 
@@ -109,6 +122,20 @@ directions, introduce themselves and describe their routine, in short exchanges.
    seen is a new word wearing a disguise.
 6. **Four shapes, rotating.** `select`, `match`, `type_in`, `listen` — a
    learner should not meet the same shape three times in a row.
+
+## The path has no gaps
+
+Two rules, both enforced by code rather than by hope:
+
+- **A unit opens when the one before it is finished.** The first unit of the
+  path is always open; every later one needs its predecessor complete. The
+  server refuses to start a locked unit, so the path cannot be jumped.
+- **"Finished" means every exercise has been answered at least once.** Not a
+  score, not a streak — every exercise seen. A learner who struggled still
+  moves on, and the practice node brings the weak words back to them.
+
+The locks are recomputed from the item states on every request, so the next
+unit opens the moment the last exercise of the one before it is answered.
 
 ## Content gap
 

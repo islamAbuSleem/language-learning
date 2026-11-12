@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A0",
+  "unit": 1,
+  "title": "Hello",
+  "description": "Greet someone, and be polite about it.",
+  "exercises": [
+    {
+      "id": "es/a0/u1/match/hola",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "hello",
+          "right": "hola"
+        },
+        {
+          "left": "goodbye",
+          "right": "adiós"
+        },
+        {
+          "left": "good morning",
+          "right": "buenos días"
+        },
+        {
+          "left": "good afternoon",
+          "right": "buenas tardes"
+        },
+        {
+          "left": "good night",
+          "right": "buenas noches"
+        }
+      ],
+      "note": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening."
+    },
+    {
+      "id": "es/a0/u1/select/hola",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “hello”.",
+      "options": [
+        "buenas tardes",
+        "buenas noches",
+        "qué tal",
+        "hola"
+      ],
+      "answer": "hola",
+      "translation": "hello",
+      "note": "Hello. It is used at any time of day."
+    },
+    {
+      "id": "es/a0/u1/type_in/adios",
+      "type": "type_in",
+      "prompt": "Write “goodbye” in Spanish.",
+      "answer": "adiós",
+      "acceptedAnswers": [
+        "adios"
+      ],
+      "translation": "goodbye",
+      "note": "Goodbye. The accent marks the stress."
+    },
+    {
+      "id": "es/a0/u1/listen/buenos-dias",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "buenos días",
+      "options": [
+        "buenos días",
+        "adiós",
+        "hola",
+        "qué tal"
+      ],
+      "audio": {
+        "text": "buenos días",
+        "lang": "es"
+      },
+      "translation": "good morning",
+      "note": "Good morning. Literally good days."
+    },
+    {
+      "id": "es/a0/u1/match/gracias",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "thank you",
+          "right": "gracias"
+        },
+        {
+          "left": "please",
+          "right": "por favor"
+        },
+        {
+          "left": "yes",
+          "right": "sí"
+        },
+        {
+          "left": "no",
+          "right": "no"
+        },
+        {
+          "left": "how is it going",
+          "right": "qué tal"
+        }
+      ],
+      "note": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening."
+    },
+    {
+      "id": "es/a0/u1/select/buenas-tardes",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “good afternoon”.",
+      "options": [
+        "qué tal",
+        "hola",
+        "buenas noches",
+        "buenas tardes"
+      ],
+      "answer": "buenas tardes",
+      "translation": "good afternoon",
+      "note": "Good afternoon. It also means good evening."
+    },
+    {
+      "id": "es/a0/u1/type_in/buenas-noches",
+      "type": "type_in",
+      "prompt": "Write “good night” in Spanish.",
+      "answer": "buenas noches",
+      "acceptedAnswers": [
+        "buenas noches"
+      ],
+      "translation": "good night",
+      "note": "Good night, and good evening."
+    },
+    {
+      "id": "es/a0/u1/listen/gracias",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "gracias",
+      "options": [
+        "por favor",
+        "hola",
+        "qué tal",
+        "gracias"
+      ],
+      "audio": {
+        "text": "gracias",
+        "lang": "es"
+      },
+      "translation": "thank you",
+      "note": "Thank you. You can say gracias, or muchas gracias."
+    },
+    {
+      "id": "es/a0/u1/select/por-favor",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “please”.",
+      "options": [
+        "no",
+        "qué tal",
+        "por favor",
+        "gracias"
+      ],
+      "answer": "por favor",
+      "translation": "please",
+      "note": "Please. It always comes before what you are asking for."
+    },
+    {
+      "id": "es/a0/u1/select/si",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “yes”.",
+      "options": [
+        "no",
+        "adiós",
+        "buenos días",
+        "sí"
+      ],
+      "answer": "sí",
+      "translation": "yes",
+      "note": "Yes. The accent marks the stress."
+    }
+  ]
+}

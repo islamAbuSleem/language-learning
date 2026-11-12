@@ -15,9 +15,12 @@ export type TrackId = z.infer<typeof trackIdSchema>
  * The levels our path is built on.
  *
  * CEFR levels, the standard scale for language competence. A learner walks
- * A1 → A2 → B1 → B2; each level holds units, each unit holds exercises.
+ * A0 → A1 → A2 → B1 → B2; each level holds units, each unit holds exercises.
+ *
+ * A0 is the pre-level: greetings and the first questions, for someone who
+ * has never studied the language.
  */
-export const cefrLevelSchema = z.enum(["A1", "A2", "B1", "B2"])
+export const cefrLevelSchema = z.enum(["A0", "A1", "A2", "B1", "B2"])
 
 export type CefrLevel = z.infer<typeof cefrLevelSchema>
 

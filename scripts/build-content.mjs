@@ -38,11 +38,21 @@ function introducedWords(track, level, unit, vocabularies) {
   return words
 }
 
-const LEVEL_ORDER = ["A1", "A2", "B1", "B2"]
+const LEVEL_ORDER = ["A0", "A1", "A2", "B1", "B2"]
 
 function levelOrder(level) {
   const index = LEVEL_ORDER.indexOf(level)
   return index < 0 ? LEVEL_ORDER.length : index
+}
+
+/** A safe id fragment: lowercase, no accents, no punctuation. */
+function slug(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
 }
 
 /** A stable hash, so the generated content never changes between runs. */
@@ -145,7 +155,7 @@ function buildUnit(vocabulary, track, level, pool) {
       if (block.length < 2) continue
 
       exercises.push({
-        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/match/${block[0].es.replace(/\s+/g, "-")}`,
+        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/match/${slug(block[0].es)}`,
         type: "match",
         prompt: "Pair each word with its translation.",
         pairs: block.map((item) => ({ left: item.en, right: display(item) })),
@@ -159,7 +169,7 @@ function buildUnit(vocabulary, track, level, pool) {
 
     if (shape === "select") {
       exercises.push({
-        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/select/${item.es.replace(/\s+/g, "-")}`,
+        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/select/${slug(item.es)}`,
         type: "select",
         prompt: `Pick the Spanish word for “${item.en}”.`,
         options: options(item, pool, 4, seed),
@@ -172,7 +182,7 @@ function buildUnit(vocabulary, track, level, pool) {
 
     if (shape === "type_in") {
       exercises.push({
-        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/type_in/${item.es.replace(/\s+/g, "-")}`,
+        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/type_in/${slug(item.es)}`,
         type: "type_in",
         prompt: `Write “${item.en}” in Spanish.`,
         answer: item.es,
@@ -186,7 +196,7 @@ function buildUnit(vocabulary, track, level, pool) {
     }
 
     exercises.push({
-      id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/listen/${item.es.replace(/\s+/g, "-")}`,
+      id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/listen/${slug(item.es)}`,
       type: "listen",
       prompt: "What did you hear?",
       answer: display(item),

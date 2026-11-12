@@ -6,7 +6,7 @@
   "description": "Ask the questions you need answered.",
   "exercises": [
     {
-      "id": "es/a2/u12/match/qué",
+      "id": "es/a2/u12/match/que",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -34,13 +34,13 @@
       "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
-      "id": "es/a2/u12/select/qué",
+      "id": "es/a2/u12/select/que",
       "type": "select",
       "prompt": "Pick the Spanish word for “what”.",
       "options": [
-        "cuándo",
-        "por qué",
-        "dónde",
+        "la pregunta",
+        "cómo te llamas",
+        "cuánto",
         "qué"
       ],
       "answer": "qué",
@@ -48,7 +48,7 @@
       "note": "What. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u12/type_in/quién",
+      "id": "es/a2/u12/type_in/quien",
       "type": "type_in",
       "prompt": "Write “who” in Spanish.",
       "answer": "quién",
@@ -59,15 +59,15 @@
       "note": "Who. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u12/listen/dónde",
+      "id": "es/a2/u12/listen/donde",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "dónde",
       "options": [
-        "por qué",
         "cuándo",
+        "quién",
         "dónde",
-        "cómo"
+        "por qué"
       ],
       "audio": {
         "text": "dónde",
@@ -77,7 +77,7 @@
       "note": "Where. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u12/match/cómo",
+      "id": "es/a2/u12/match/como",
       "type": "match",
       "prompt": "Pair each word with its translation.",
       "pairs": [
@@ -105,13 +105,13 @@
       "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
-      "id": "es/a2/u12/select/cuándo",
+      "id": "es/a2/u12/select/cuando",
       "type": "select",
       "prompt": "Pick the Spanish word for “when”.",
       "options": [
-        "qué",
         "quién",
         "dónde",
+        "por qué",
         "cuándo"
       ],
       "answer": "cuándo",
@@ -119,7 +119,7 @@
       "note": "When. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u12/type_in/por-qué",
+      "id": "es/a2/u12/type_in/por-que",
       "type": "type_in",
       "prompt": "Write “why” in Spanish.",
       "answer": "por qué",
@@ -130,14 +130,14 @@
       "note": "Why. Por and qué are written separately."
     },
     {
-      "id": "es/a2/u12/listen/cómo",
+      "id": "es/a2/u12/listen/como",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "cómo",
       "options": [
-        "quién",
-        "dónde",
-        "cuándo",
+        "la pregunta",
+        "cómo te llamas",
+        "cómo estás",
         "cómo"
       ],
       "audio": {
@@ -148,13 +148,13 @@
       "note": "How. It carries an accent in a question."
     },
     {
-      "id": "es/a2/u12/select/cuánto",
+      "id": "es/a2/u12/select/cuanto",
       "type": "select",
       "prompt": "Pick the Spanish word for “how much”.",
       "options": [
-        "qué",
-        "dónde",
-        "quién",
+        "la pregunta",
+        "cómo estás",
+        "cómo te llamas",
         "cuánto"
       ],
       "answer": "cuánto",

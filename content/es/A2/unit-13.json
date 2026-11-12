@@ -148,7 +148,7 @@
       "note": "Masculine: el idioma. A particular language takes its own name: el español."
     },
     {
-      "id": "es/a2/u13/select/español",
+      "id": "es/a2/u13/select/espanol",
       "type": "select",
       "prompt": "Pick the Spanish word for “Spanish”.",
       "options": [
@@ -162,7 +162,7 @@
       "note": "Masculine: el español."
     },
     {
-      "id": "es/a2/u13/select/inglés",
+      "id": "es/a2/u13/select/ingles",
       "type": "select",
       "prompt": "Pick the Spanish word for “English”.",
       "options": [

@@ -48,7 +48,7 @@
       "note": "The first person: yo soy."
     },
     {
-      "id": "es/a1/u3/type_in/tú",
+      "id": "es/a1/u3/type_in/tu",
       "type": "type_in",
       "prompt": "Write “you” in Spanish.",
       "answer": "tú",
@@ -59,7 +59,7 @@
       "note": "The second person: tú eres."
     },
     {
-      "id": "es/a1/u3/listen/él",
+      "id": "es/a1/u3/listen/el",
       "type": "listen",
       "prompt": "What did you hear?",
       "answer": "él",

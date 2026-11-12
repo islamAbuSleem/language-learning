@@ -12,6 +12,8 @@ interface LevelSummary {
     title: string
     description: string
     exerciseCount: number
+    completed: boolean
+    locked: boolean
   }[]
 }
 
@@ -41,16 +43,6 @@ const weakItems = computed(
 const dueItems = computed(
   () => weakItems.value.filter((item) => item.dueAt <= Date.now()),
 )
-
-/** The units the learner has already touched, keyed by level and unit. */
-const touchedUnits = computed(() => {
-  const touched = new Set<string>()
-  for (const item of progress.value?.items ?? []) {
-    const parts = item.itemId.split("/")
-    if (parts.length >= 3) touched.add(`${parts[1]}/${parts[2]}`)
-  }
-  return touched
-})
 </script>
 
 <template>
@@ -108,8 +100,9 @@ const touchedUnits = computed(() => {
         <ul v-if="level.units.length > 0" class="units">
           <li v-for="unit in level.units" :key="unit.unit">
             <NuxtLink
+              v-if="!unit.locked"
               class="unit"
-              :class="{ 'unit--started': touchedUnits.has(`${level.level}/u${unit.unit}`) }"
+              :class="{ 'unit--done': unit.completed }"
               :to="{ path: `/lesson/${track.id}/${level.level}/${unit.unit}` }"
             >
               <span class="unit__number">{{ unit.unit }}</span>
@@ -117,8 +110,19 @@ const touchedUnits = computed(() => {
                 <span class="unit__name">{{ unit.title }}</span>
                 <span class="unit__description">{{ unit.description }}</span>
               </span>
-              <span class="unit__count">{{ unit.exerciseCount }} exercises</span>
+              <span class="unit__count">
+                {{ unit.completed ? "done" : `${unit.exerciseCount} exercises` }}
+              </span>
             </NuxtLink>
+
+            <div v-else class="unit unit--locked" :title="`Finish the unit before this one`">
+              <span class="unit__number">🔒</span>
+              <span class="unit__body">
+                <span class="unit__name">{{ unit.title }}</span>
+                <span class="unit__description">Finish the unit before this one.</span>
+              </span>
+              <span class="unit__count">{{ unit.exerciseCount }} exercises</span>
+            </div>
           </li>
         </ul>
 
@@ -330,6 +334,20 @@ const touchedUnits = computed(() => {
 
 .unit--started {
   background: var(--color-accent-soft);
+}
+
+.unit--done {
+  background: var(--color-correct-soft);
+}
+
+.unit--locked {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.unit--locked .unit__number {
+  background: var(--color-line);
+  color: var(--color-ink-soft);
 }
 
 .unit__number {
