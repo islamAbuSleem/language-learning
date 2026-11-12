@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 7,
+  "title": "Things you do",
+  "description": "Say what you eat, drink, read, and learn.",
+  "exercises": [
+    {
+      "id": "es/a2/u7/match/comer",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to eat",
+          "right": "comer"
+        },
+        {
+          "left": "to drink",
+          "right": "beber"
+        },
+        {
+          "left": "to learn",
+          "right": "aprender"
+        },
+        {
+          "left": "to read",
+          "right": "leer"
+        },
+        {
+          "left": "to sell",
+          "right": "vender"
+        }
+      ],
+      "note": "An -er verb in the present: como, comes, come, comemos, coméis, comen."
+    },
+    {
+      "id": "es/a2/u7/select/comer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to eat”.",
+      "options": [
+        "perder",
+        "llegar",
+        "responder",
+        "comer"
+      ],
+      "answer": "comer",
+      "translation": "to eat",
+      "note": "An infinitive ending in -er: como, comes, come."
+    },
+    {
+      "id": "es/a2/u7/type_in/beber",
+      "type": "type_in",
+      "prompt": "Write “to drink” in Spanish.",
+      "answer": "beber",
+      "acceptedAnswers": [
+        "beber"
+      ],
+      "translation": "to drink",
+      "note": "An infinitive ending in -er: bebo, bebes, bebe."
+    },
+    {
+      "id": "es/a2/u7/listen/aprender",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "aprender",
+      "options": [
+        "necesitar",
+        "comer",
+        "estar",
+        "aprender"
+      ],
+      "audio": {
+        "text": "aprender",
+        "lang": "es"
+      },
+      "translation": "to learn",
+      "note": "An infinitive ending in -er: aprendo, aprendes, aprende."
+    },
+    {
+      "id": "es/a2/u7/match/correr",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to run",
+          "right": "correr"
+        },
+        {
+          "left": "to lose",
+          "right": "perder"
+        },
+        {
+          "left": "to answer",
+          "right": "responder"
+        },
+        {
+          "left": "book",
+          "right": "el libro"
+        },
+        {
+          "left": "dinner",
+          "right": "la cena"
+        }
+      ],
+      "note": "An -er verb in the present: como, comes, come, comemos, coméis, comen."
+    },
+    {
+      "id": "es/a2/u7/select/leer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to read”.",
+      "options": [
+        "leer",
+        "perder",
+        "correr",
+        "responder"
+      ],
+      "answer": "leer",
+      "translation": "to read",
+      "note": "An infinitive ending in -er: leo, lees, lee."
+    },
+    {
+      "id": "es/a2/u7/type_in/vender",
+      "type": "type_in",
+      "prompt": "Write “to sell” in Spanish.",
+      "answer": "vender",
+      "acceptedAnswers": [
+        "vender"
+      ],
+      "translation": "to sell",
+      "note": "An infinitive ending in -er: vendo, vendes, vende."
+    },
+    {
+      "id": "es/a2/u7/listen/correr",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "correr",
+      "options": [
+        "mirar",
+        "necesitar",
+        "estar",
+        "correr"
+      ],
+      "audio": {
+        "text": "correr",
+        "lang": "es"
+      },
+      "translation": "to run",
+      "note": "An infinitive ending in -er: corro, corres, corre."
+    },
+    {
+      "id": "es/a2/u7/select/perder",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to lose”.",
+      "options": [
+        "trabajar",
+        "caminar",
+        "estudiar",
+        "perder"
+      ],
+      "answer": "perder",
+      "translation": "to lose",
+      "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular."
+    },
+    {
+      "id": "es/a2/u7/select/responder",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to answer”.",
+      "options": [
+        "llegar",
+        "hablar",
+        "ser",
+        "responder"
+      ],
+      "answer": "responder",
+      "translation": "to answer",
+      "note": "An infinitive ending in -er: respondo, respondes, responde."
+    }
+  ]
+}

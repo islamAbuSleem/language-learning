@@ -1,0 +1,19 @@
+{
+  "unit": 7,
+  "title": "Things you do",
+  "description": "Say what you eat, drink, read, and learn.",
+  "grammar": "regular -er verbs in the present",
+  "grammarNote": "An -er verb in the present: como, comes, come, comemos, coméis, comen.",
+  "items": [
+    { "es": "comer", "en": "to eat", "article": null, "note": "An infinitive ending in -er: como, comes, come.", "tags": ["verb"] },
+    { "es": "beber", "en": "to drink", "article": null, "note": "An infinitive ending in -er: bebo, bebes, bebe.", "tags": ["verb"] },
+    { "es": "aprender", "en": "to learn", "article": null, "note": "An infinitive ending in -er: aprendo, aprendes, aprende.", "tags": ["verb"] },
+    { "es": "leer", "en": "to read", "article": null, "note": "An infinitive ending in -er: leo, lees, lee.", "tags": ["verb"] },
+    { "es": "vender", "en": "to sell", "article": null, "note": "An infinitive ending in -er: vendo, vendes, vende.", "tags": ["verb"] },
+    { "es": "correr", "en": "to run", "article": null, "note": "An infinitive ending in -er: corro, corres, corre.", "tags": ["verb"] },
+    { "es": "perder", "en": "to lose", "article": null, "note": "An infinitive ending in -er: pierdo, pierdes, pierde. The yo form is irregular.", "tags": ["verb"] },
+    { "es": "responder", "en": "to answer", "article": null, "note": "An infinitive ending in -er: respondo, respondes, responde.", "tags": ["verb"] },
+    { "es": "libro", "en": "book", "article": "el", "note": "Masculine: el libro. The plural is los libros.", "tags": ["object"] },
+    { "es": "cena", "en": "dinner", "article": "la", "note": "Feminine: la cena. Also the evening: de cena.", "tags": ["food"] }
+  ]
+}

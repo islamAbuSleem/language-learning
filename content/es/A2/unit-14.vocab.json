@@ -1,0 +1,19 @@
+{
+  "unit": 14,
+  "title": "Review",
+  "description": "Everything A2 has taught, put together.",
+  "grammar": "mixed",
+  "grammarNote": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest.",
+  "items": [
+    { "es": "viaje", "en": "trip", "article": "el", "note": "Masculine: el viaje. You take un viaje.", "tags": ["travel"] },
+    { "es": "recuerdo", "en": "souvenir", "article": "el", "note": "Masculine: el recuerdo. It also means memory.", "tags": ["travel"] },
+    { "es": "museo", "en": "museum", "article": "el", "note": "Masculine: el museo.", "tags": ["place"] },
+    { "es": "ciudad", "en": "city", "article": "la", "note": "Feminine: la ciudad.", "tags": ["place"] },
+    { "es": "país", "en": "country", "article": "el", "note": "Masculine: el país. The accent marks the stress.", "tags": ["place"] },
+    { "es": "comida", "en": "food", "article": "la", "note": "Feminine: la comida.", "tags": ["food"] },
+    { "es": "restaurante", "en": "restaurant", "article": "el", "note": "Masculine: el restaurante.", "tags": ["food"] },
+    { "es": "fiesta", "en": "party", "article": "la", "note": "Feminine: la fiesta. It also means a holiday.", "tags": ["travel"] },
+    { "es": "regalo", "en": "gift", "article": "el", "note": "Masculine: el regalo.", "tags": ["object"] },
+    { "es": "postal", "en": "postcard", "article": "la", "note": "Feminine: la postal. The card you send is una tarjeta postal.", "tags": ["object"] }
+  ]
+}

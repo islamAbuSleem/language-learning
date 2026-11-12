@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 13,
+  "title": "Knowing",
+  "description": "Say what you know, and what you remember.",
+  "exercises": [
+    {
+      "id": "es/a2/u13/match/saber",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to know",
+          "right": "saber"
+        },
+        {
+          "left": "to know",
+          "right": "conocer"
+        },
+        {
+          "left": "to remember",
+          "right": "recordar"
+        },
+        {
+          "left": "to forget",
+          "right": "olvidar"
+        },
+        {
+          "left": "to understand",
+          "right": "entender"
+        }
+      ],
+      "note": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid."
+    },
+    {
+      "id": "es/a2/u13/select/saber",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to know”.",
+      "options": [
+        "viajar",
+        "querer",
+        "tener",
+        "saber"
+      ],
+      "answer": "saber",
+      "translation": "to know",
+      "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben."
+    },
+    {
+      "id": "es/a2/u13/type_in/conocer",
+      "type": "type_in",
+      "prompt": "Write “to know” in Spanish.",
+      "answer": "conocer",
+      "acceptedAnswers": [
+        "conocer"
+      ],
+      "translation": "to know",
+      "note": "For people and places. Its forms are irregular: conozco, conoces, conoce."
+    },
+    {
+      "id": "es/a2/u13/listen/recordar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "recordar",
+      "options": [
+        "recordar",
+        "hay",
+        "deber",
+        "poder"
+      ],
+      "audio": {
+        "text": "recordar",
+        "lang": "es"
+      },
+      "translation": "to remember",
+      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda."
+    },
+    {
+      "id": "es/a2/u13/match/idioma",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "language",
+          "right": "el idioma"
+        },
+        {
+          "left": "Spanish",
+          "right": "el español"
+        },
+        {
+          "left": "English",
+          "right": "el inglés"
+        },
+        {
+          "left": "French",
+          "right": "el francés"
+        },
+        {
+          "left": "word",
+          "right": "la palabra"
+        }
+      ],
+      "note": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid."
+    },
+    {
+      "id": "es/a2/u13/select/olvidar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to forget”.",
+      "options": [
+        "compartir",
+        "descubrir",
+        "abrir",
+        "olvidar"
+      ],
+      "answer": "olvidar",
+      "translation": "to forget",
+      "note": "An infinitive ending in -ar: olvido, olvidas, olvida."
+    },
+    {
+      "id": "es/a2/u13/type_in/entender",
+      "type": "type_in",
+      "prompt": "Write “to understand” in Spanish.",
+      "answer": "entender",
+      "acceptedAnswers": [
+        "entender"
+      ],
+      "translation": "to understand",
+      "note": "An infinitive ending in -er: entiendo, entiendes, entiende."
+    },
+    {
+      "id": "es/a2/u13/listen/idioma",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el idioma",
+      "options": [
+        "el español",
+        "el inglés",
+        "el francés",
+        "el idioma"
+      ],
+      "audio": {
+        "text": "idioma",
+        "lang": "es"
+      },
+      "translation": "language",
+      "note": "Masculine: el idioma. A particular language takes its own name: el español."
+    },
+    {
+      "id": "es/a2/u13/select/español",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “Spanish”.",
+      "options": [
+        "el francés",
+        "el idioma",
+        "el inglés",
+        "el español"
+      ],
+      "answer": "el español",
+      "translation": "Spanish",
+      "note": "Masculine: el español."
+    },
+    {
+      "id": "es/a2/u13/select/inglés",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “English”.",
+      "options": [
+        "el francés",
+        "el idioma",
+        "el español",
+        "el inglés"
+      ],
+      "answer": "el inglés",
+      "translation": "English",
+      "note": "Masculine: el inglés."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 14,
+  "title": "Review",
+  "description": "Everything A2 has taught, put together.",
+  "exercises": [
+    {
+      "id": "es/a2/u14/match/viaje",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "trip",
+          "right": "el viaje"
+        },
+        {
+          "left": "souvenir",
+          "right": "el recuerdo"
+        },
+        {
+          "left": "museum",
+          "right": "el museo"
+        },
+        {
+          "left": "city",
+          "right": "la ciudad"
+        },
+        {
+          "left": "country",
+          "right": "el país"
+        }
+      ],
+      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
+    },
+    {
+      "id": "es/a2/u14/select/viaje",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “trip”.",
+      "options": [
+        "el recuerdo",
+        "la fiesta",
+        "deber",
+        "el viaje"
+      ],
+      "answer": "el viaje",
+      "translation": "trip",
+      "note": "Masculine: el viaje. You take un viaje."
+    },
+    {
+      "id": "es/a2/u14/type_in/recuerdo",
+      "type": "type_in",
+      "prompt": "Write “souvenir” in Spanish.",
+      "answer": "recuerdo",
+      "acceptedAnswers": [
+        "recuerdo"
+      ],
+      "translation": "souvenir",
+      "note": "Masculine: el recuerdo. It also means memory."
+    },
+    {
+      "id": "es/a2/u14/listen/museo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el museo",
+      "options": [
+        "la casa",
+        "aquí",
+        "allí",
+        "el museo"
+      ],
+      "audio": {
+        "text": "museo",
+        "lang": "es"
+      },
+      "translation": "museum",
+      "note": "Masculine: el museo."
+    },
+    {
+      "id": "es/a2/u14/match/comida",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "food",
+          "right": "la comida"
+        },
+        {
+          "left": "restaurant",
+          "right": "el restaurante"
+        },
+        {
+          "left": "party",
+          "right": "la fiesta"
+        },
+        {
+          "left": "gift",
+          "right": "el regalo"
+        },
+        {
+          "left": "postcard",
+          "right": "la postal"
+        }
+      ],
+      "note": "A travel theme, using the verbs you have already learned: ir, tener, comer, and the rest."
+    },
+    {
+      "id": "es/a2/u14/select/ciudad",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “city”.",
+      "options": [
+        "allí",
+        "encima",
+        "debajo",
+        "la ciudad"
+      ],
+      "answer": "la ciudad",
+      "translation": "city",
+      "note": "Feminine: la ciudad."
+    },
+    {
+      "id": "es/a2/u14/type_in/país",
+      "type": "type_in",
+      "prompt": "Write “country” in Spanish.",
+      "answer": "país",
+      "acceptedAnswers": [
+        "pais"
+      ],
+      "translation": "country",
+      "note": "Masculine: el país. The accent marks the stress."
+    },
+    {
+      "id": "es/a2/u14/listen/comida",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la comida",
+      "options": [
+        "el restaurante",
+        "la cena",
+        "el azúcar",
+        "la comida"
+      ],
+      "audio": {
+        "text": "comida",
+        "lang": "es"
+      },
+      "translation": "food",
+      "note": "Feminine: la comida."
+    },
+    {
+      "id": "es/a2/u14/select/restaurante",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “restaurant”.",
+      "options": [
+        "la cena",
+        "la comida",
+        "el azúcar",
+        "el restaurante"
+      ],
+      "answer": "el restaurante",
+      "translation": "restaurant",
+      "note": "Masculine: el restaurante."
+    },
+    {
+      "id": "es/a2/u14/select/fiesta",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “party”.",
+      "options": [
+        "el viaje",
+        "el recuerdo",
+        "tener",
+        "la fiesta"
+      ],
+      "answer": "la fiesta",
+      "translation": "party",
+      "note": "Feminine: la fiesta. It also means a holiday."
+    }
+  ]
+}

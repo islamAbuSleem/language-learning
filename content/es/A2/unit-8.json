@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 8,
+  "title": "Writing and asking",
+  "description": "Say what you write, what you send, and what you ask for.",
+  "exercises": [
+    {
+      "id": "es/a2/u8/match/escribir",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to write",
+          "right": "escribir"
+        },
+        {
+          "left": "to receive",
+          "right": "recibir"
+        },
+        {
+          "left": "to open",
+          "right": "abrir"
+        },
+        {
+          "left": "to share",
+          "right": "compartir"
+        },
+        {
+          "left": "to discover",
+          "right": "descubrir"
+        }
+      ],
+      "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
+    },
+    {
+      "id": "es/a2/u8/select/escribir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to write”.",
+      "options": [
+        "servir",
+        "repetir",
+        "pedir",
+        "escribir"
+      ],
+      "answer": "escribir",
+      "translation": "to write",
+      "note": "An infinitive ending in -ir: escribo, escribes, escribe."
+    },
+    {
+      "id": "es/a2/u8/type_in/recibir",
+      "type": "type_in",
+      "prompt": "Write “to receive” in Spanish.",
+      "answer": "recibir",
+      "acceptedAnswers": [
+        "recibir"
+      ],
+      "translation": "to receive",
+      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
+    },
+    {
+      "id": "es/a2/u8/listen/abrir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "abrir",
+      "options": [
+        "abrir",
+        "repetir",
+        "servir",
+        "pedir"
+      ],
+      "audio": {
+        "text": "abrir",
+        "lang": "es"
+      },
+      "translation": "to open",
+      "note": "An infinitive ending in -ir: abro, abres, abre."
+    },
+    {
+      "id": "es/a2/u8/match/pedir",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to ask for",
+          "right": "pedir"
+        },
+        {
+          "left": "to serve",
+          "right": "servir"
+        },
+        {
+          "left": "to repeat",
+          "right": "repetir"
+        },
+        {
+          "left": "to decide",
+          "right": "decidir"
+        },
+        {
+          "left": "message",
+          "right": "el mensaje"
+        }
+      ],
+      "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
+    },
+    {
+      "id": "es/a2/u8/select/compartir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to share”.",
+      "options": [
+        "compartir",
+        "recibir",
+        "abrir",
+        "escribir"
+      ],
+      "answer": "compartir",
+      "translation": "to share",
+      "note": "An infinitive ending in -ir: comparto, compartes, comparte."
+    },
+    {
+      "id": "es/a2/u8/type_in/descubrir",
+      "type": "type_in",
+      "prompt": "Write “to discover” in Spanish.",
+      "answer": "descubrir",
+      "acceptedAnswers": [
+        "descubrir"
+      ],
+      "translation": "to discover",
+      "note": "An infinitive ending in -ir: descubro, descubres, descubre."
+    },
+    {
+      "id": "es/a2/u8/listen/pedir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "pedir",
+      "options": [
+        "recibir",
+        "abrir",
+        "escribir",
+        "pedir"
+      ],
+      "audio": {
+        "text": "pedir",
+        "lang": "es"
+      },
+      "translation": "to ask for",
+      "note": "An infinitive ending in -ir: pido, pides, pide. The yo form drops the e."
+    },
+    {
+      "id": "es/a2/u8/select/servir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to serve”.",
+      "options": [
+        "servir",
+        "hablar",
+        "trabajar",
+        "estudiar"
+      ],
+      "answer": "servir",
+      "translation": "to serve",
+      "note": "An infinitive ending in -ir: sirvo, sirves, sirve."
+    },
+    {
+      "id": "es/a2/u8/select/repetir",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to repeat”.",
+      "options": [
+        "estudiar",
+        "caminar",
+        "cocinar",
+        "repetir"
+      ],
+      "answer": "repetir",
+      "translation": "to repeat",
+      "note": "An infinitive ending in -ir: repito, repites, repite."
+    }
+  ]
+}

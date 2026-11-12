@@ -51,16 +51,16 @@ directions, introduce themselves and describe their routine, in short exchanges.
 
 > Talk about routines, plans, and what happened yesterday.
 
-| Unit | Theme | Grammar |
-| --- | --- | --- |
-| 7 | Regular *-er* verbs | the *-er* present |
-| 8 | Regular *-ir* verbs | the *-ir* present |
-| 9 | Going somewhere | the verb *ir* |
-| 10 | The day | telling the time |
-| 11 | Having and needing | *tener* and its expressions |
-| 12 | Asking | question words and *hacer* |
-| 13 | Knowing | *saber* and *conocer* |
-| 14 | Review | mixed |
+| Unit | Theme | Grammar | Words | Written |
+| --- | --- | --- | --- | --- |
+| 7 | Things you do | regular *-er* verbs | 10 | yes |
+| 8 | Writing and asking | regular *-ir* verbs | 10 | yes |
+| 9 | Going somewhere | the verb *ir* | 10 | yes |
+| 10 | The day | telling the time | 10 | yes |
+| 11 | Having and needing | *tener* and its expressions | 10 | yes |
+| 12 | Asking | question words and *hacer* | 10 | yes |
+| 13 | Knowing | *saber* and *conocer* | 10 | yes |
+| 14 | Review | mixed, travel theme | 10 | yes |
 
 ## B1 — Intermediate
 

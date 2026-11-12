@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 12,
+  "title": "Asking",
+  "description": "Ask the questions you need answered.",
+  "exercises": [
+    {
+      "id": "es/a2/u12/match/qué",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "what",
+          "right": "qué"
+        },
+        {
+          "left": "who",
+          "right": "quién"
+        },
+        {
+          "left": "where",
+          "right": "dónde"
+        },
+        {
+          "left": "when",
+          "right": "cuándo"
+        },
+        {
+          "left": "why",
+          "right": "por qué"
+        }
+      ],
+      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+    },
+    {
+      "id": "es/a2/u12/select/qué",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “what”.",
+      "options": [
+        "cuándo",
+        "por qué",
+        "dónde",
+        "qué"
+      ],
+      "answer": "qué",
+      "translation": "what",
+      "note": "What. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/type_in/quién",
+      "type": "type_in",
+      "prompt": "Write “who” in Spanish.",
+      "answer": "quién",
+      "acceptedAnswers": [
+        "quien"
+      ],
+      "translation": "who",
+      "note": "Who. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/listen/dónde",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "dónde",
+      "options": [
+        "por qué",
+        "cuándo",
+        "dónde",
+        "cómo"
+      ],
+      "audio": {
+        "text": "dónde",
+        "lang": "es"
+      },
+      "translation": "where",
+      "note": "Where. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/match/cómo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "how",
+          "right": "cómo"
+        },
+        {
+          "left": "how much",
+          "right": "cuánto"
+        },
+        {
+          "left": "to do",
+          "right": "hacer"
+        },
+        {
+          "left": "question",
+          "right": "la pregunta"
+        },
+        {
+          "left": "help",
+          "right": "la ayuda"
+        }
+      ],
+      "note": "The question words take the accents: qué, quién, dónde, cuándo, cómo, cuánto."
+    },
+    {
+      "id": "es/a2/u12/select/cuándo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “when”.",
+      "options": [
+        "qué",
+        "quién",
+        "dónde",
+        "cuándo"
+      ],
+      "answer": "cuándo",
+      "translation": "when",
+      "note": "When. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/type_in/por-qué",
+      "type": "type_in",
+      "prompt": "Write “why” in Spanish.",
+      "answer": "por qué",
+      "acceptedAnswers": [
+        "por que"
+      ],
+      "translation": "why",
+      "note": "Why. Por and qué are written separately."
+    },
+    {
+      "id": "es/a2/u12/listen/cómo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "cómo",
+      "options": [
+        "quién",
+        "dónde",
+        "cuándo",
+        "cómo"
+      ],
+      "audio": {
+        "text": "cómo",
+        "lang": "es"
+      },
+      "translation": "how",
+      "note": "How. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/select/cuánto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “how much”.",
+      "options": [
+        "qué",
+        "dónde",
+        "quién",
+        "cuánto"
+      ],
+      "answer": "cuánto",
+      "translation": "how much",
+      "note": "How much or how many. It carries an accent in a question."
+    },
+    {
+      "id": "es/a2/u12/select/hacer",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to do”.",
+      "options": [
+        "escribir",
+        "responder",
+        "hacer",
+        "recibir"
+      ],
+      "answer": "hacer",
+      "translation": "to do",
+      "note": "An infinitive. Its forms are irregular: hago, haces, hace."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "unit": 13,
+  "title": "Knowing",
+  "description": "Say what you know, and what you remember.",
+  "grammar": "the verbs saber and conocer",
+  "grammarNote": "Saber is for facts, conocer for people and places: sé la respuesta, conozco Madrid.",
+  "items": [
+    { "es": "saber", "en": "to know", "article": null, "note": "For facts. Its forms are irregular: sé, sabes, sabe, sabemos, sabéis, saben.", "tags": ["verb"] },
+    { "es": "conocer", "en": "to know", "article": null, "note": "For people and places. Its forms are irregular: conozco, conoces, conoce.", "tags": ["verb"] },
+    { "es": "recordar", "en": "to remember", "article": null, "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda.", "tags": ["verb"] },
+    { "es": "olvidar", "en": "to forget", "article": null, "note": "An infinitive ending in -ar: olvido, olvidas, olvida.", "tags": ["verb"] },
+    { "es": "entender", "en": "to understand", "article": null, "note": "An infinitive ending in -er: entiendo, entiendes, entiende.", "tags": ["verb"] },
+    { "es": "idioma", "en": "language", "article": "el", "note": "Masculine: el idioma. A particular language takes its own name: el español.", "tags": ["subject"] },
+    { "es": "español", "en": "Spanish", "article": "el", "note": "Masculine: el español.", "tags": ["subject"] },
+    { "es": "inglés", "en": "English", "article": "el", "note": "Masculine: el inglés.", "tags": ["subject"] },
+    { "es": "francés", "en": "French", "article": "el", "note": "Masculine: el francés.", "tags": ["subject"] },
+    { "es": "palabra", "en": "word", "article": "la", "note": "Feminine: la palabra.", "tags": ["object"] }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A2",
+  "unit": 10,
+  "title": "The day",
+  "description": "Say when it is, and when things happen.",
+  "exercises": [
+    {
+      "id": "es/a2/u10/match/hora",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "hour",
+          "right": "la hora"
+        },
+        {
+          "left": "minute",
+          "right": "el minuto"
+        },
+        {
+          "left": "noon",
+          "right": "el mediodía"
+        },
+        {
+          "left": "midnight",
+          "right": "la medianoche"
+        },
+        {
+          "left": "afternoon",
+          "right": "la tarde"
+        }
+      ],
+      "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
+    },
+    {
+      "id": "es/a2/u10/select/hora",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “hour”.",
+      "options": [
+        "el día",
+        "el minuto",
+        "mañana",
+        "la hora"
+      ],
+      "answer": "la hora",
+      "translation": "hour",
+      "note": "Feminine: la hora. It also means the time."
+    },
+    {
+      "id": "es/a2/u10/type_in/minuto",
+      "type": "type_in",
+      "prompt": "Write “minute” in Spanish.",
+      "answer": "minuto",
+      "acceptedAnswers": [
+        "minuto"
+      ],
+      "translation": "minute",
+      "note": "Masculine: el minuto."
+    },
+    {
+      "id": "es/a2/u10/listen/mediodía",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el mediodía",
+      "options": [
+        "la tarde",
+        "la noche",
+        "la medianoche",
+        "el mediodía"
+      ],
+      "audio": {
+        "text": "mediodía",
+        "lang": "es"
+      },
+      "translation": "noon",
+      "note": "Masculine: el mediodía."
+    },
+    {
+      "id": "es/a2/u10/match/noche",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "night",
+          "right": "la noche"
+        },
+        {
+          "left": "week",
+          "right": "la semana"
+        },
+        {
+          "left": "month",
+          "right": "el mes"
+        },
+        {
+          "left": "clock",
+          "right": "el reloj"
+        },
+        {
+          "left": "now",
+          "right": "ahora"
+        }
+      ],
+      "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
+    },
+    {
+      "id": "es/a2/u10/select/medianoche",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “midnight”.",
+      "options": [
+        "la semana",
+        "el mes",
+        "la noche",
+        "la medianoche"
+      ],
+      "answer": "la medianoche",
+      "translation": "midnight",
+      "note": "Feminine: la medianoche."
+    },
+    {
+      "id": "es/a2/u10/type_in/tarde",
+      "type": "type_in",
+      "prompt": "Write “afternoon” in Spanish.",
+      "answer": "tarde",
+      "acceptedAnswers": [
+        "tarde"
+      ],
+      "translation": "afternoon",
+      "note": "Feminine: la tarde. It also means late."
+    },
+    {
+      "id": "es/a2/u10/listen/noche",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la noche",
+      "options": [
+        "el día",
+        "la hora",
+        "mañana",
+        "la noche"
+      ],
+      "audio": {
+        "text": "noche",
+        "lang": "es"
+      },
+      "translation": "night",
+      "note": "Feminine: la noche."
+    },
+    {
+      "id": "es/a2/u10/select/semana",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “week”.",
+      "options": [
+        "el minuto",
+        "el mediodía",
+        "la semana",
+        "la hora"
+      ],
+      "answer": "la semana",
+      "translation": "week",
+      "note": "Feminine: la semana."
+    },
+    {
+      "id": "es/a2/u10/select/mes",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “month”.",
+      "options": [
+        "la semana",
+        "el día",
+        "ahora",
+        "el mes"
+      ],
+      "answer": "el mes",
+      "translation": "month",
+      "note": "Masculine: el mes."
+    }
+  ]
+}
