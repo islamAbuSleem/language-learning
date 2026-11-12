@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.output/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+
+.env
+.env.*
+!.env.example
+
+# REA raw captures and exports: observed text from the target, not ours to commit.
+# Keep sanitized summaries in docs/rea/findings-ledger.md instead.
+evidence/
+exports/
+captures/
+*.evidence.json
+*.evidence.jsonl
