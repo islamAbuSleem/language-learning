@@ -103,6 +103,25 @@
       "note": "An infinitive. Me gusta, te gusta, le gusta: the thing you like comes first."
     },
     {
+      "id": "es/a2/u9/listen/encantar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "encantar",
+      "options": [
+        "hablar",
+        "estudiar",
+        "trabajar",
+        "encantar"
+      ],
+      "audio": {
+        "text": "encantar",
+        "lang": "es",
+        "file": "/audio/es/encantar-bcbb894e.mp3"
+      },
+      "translation": "to love",
+      "note": "It works like gustar: me encanta el chocolate."
+    },
+    {
       "id": "es/a2/u9/drill/1",
       "type": "type_in",
       "prompt": "___ gusta el café.",
@@ -142,18 +161,18 @@
       "note": "In English the subject comes first: I like coffee. In Spanish the thing comes first: me gusta el café."
     },
     {
-      "id": "es/a2/u9/select/encantar",
+      "id": "es/a2/u9/select/molestar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to love”.",
+      "prompt": "Pick the Spanish word for “to bother”.",
       "options": [
-        "planchar",
-        "doblar",
-        "encantar",
-        "lavar"
+        "aprender",
+        "vender",
+        "leer",
+        "molestar"
       ],
-      "answer": "encantar",
-      "translation": "to love",
-      "note": "It works like gustar: me encanta el chocolate."
+      "answer": "molestar",
+      "translation": "to bother",
+      "note": "It works like gustar: me molesta el ruido."
     },
     {
       "id": "es/a2/u9/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "I like pizzas",
       "note": "With more than one thing the verb is plural."
-    },
-    {
-      "id": "es/a2/u9/select/molestar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to bother”.",
-      "options": [
-        "hacer",
-        "saber",
-        "hay",
-        "molestar"
-      ],
-      "answer": "molestar",
-      "translation": "to bother",
-      "note": "It works like gustar: me molesta el ruido."
     },
     {
       "id": "es/a2/u9/drill/3",

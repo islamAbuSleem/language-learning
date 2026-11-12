@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "triste",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/triste-ff641034.mp3"
       },
       "translation": "sad",
       "note": "The same in both genders: está triste."

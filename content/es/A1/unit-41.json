@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "amarillo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/amarillo-72f1eeb8.mp3"
       },
       "translation": "yellow",
       "note": "The feminine es amarilla."

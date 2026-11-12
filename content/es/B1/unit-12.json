@@ -103,6 +103,25 @@
       "note": "The preterite of decir. It is irregular."
     },
     {
+      "id": "es/b1/u12/listen/dice",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "dice",
+      "options": [
+        "relajarse",
+        "acabar",
+        "dice",
+        "levantarse"
+      ],
+      "audio": {
+        "text": "dice",
+        "lang": "es",
+        "file": "/audio/es/dice-8f254bcc.mp3"
+      },
+      "translation": "he says",
+      "note": "The present of decir. It is irregular."
+    },
+    {
       "id": "es/b1/u12/drill/1",
       "type": "type_in",
       "prompt": "Me ___ que venía.",
@@ -142,18 +161,18 @@
       "note": "When you report a question, you use que and the order of the words does not change: no sé qué dijo."
     },
     {
-      "id": "es/b1/u12/select/dice",
+      "id": "es/b1/u12/select/pregunto",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he says”.",
+      "prompt": "Pick the Spanish word for “he asked”.",
       "options": [
-        "seguir",
-        "mentir",
-        "preferir",
-        "dice"
+        "beber",
+        "aprender",
+        "leer",
+        "preguntó"
       ],
-      "answer": "dice",
-      "translation": "he says",
-      "note": "The present of decir. It is irregular."
+      "answer": "preguntó",
+      "translation": "he asked",
+      "note": "The preterite of preguntar."
     },
     {
       "id": "es/b1/u12/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "he asked where I lived",
       "note": "A reported question uses que and keeps the question word in front."
-    },
-    {
-      "id": "es/b1/u12/select/pregunto",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “he asked”.",
-      "options": [
-        "he hablado",
-        "he vivido",
-        "he comido",
-        "preguntó"
-      ],
-      "answer": "preguntó",
-      "translation": "he asked",
-      "note": "The preterite of preguntar."
     },
     {
       "id": "es/b1/u12/drill/3",

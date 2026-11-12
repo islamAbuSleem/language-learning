@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "pasaporte",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/pasaporte-2bd8558b.mp3"
       },
       "translation": "the passport",
       "note": "Masculine: el pasaporte."

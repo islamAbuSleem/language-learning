@@ -103,6 +103,25 @@
       "note": "Its forms are irregular: estoy, estás, está, estamos, estáis, están."
     },
     {
+      "id": "es/a1/u6/listen/aqui",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "aquí",
+      "options": [
+        "dentro",
+        "allá",
+        "fuera",
+        "aquí"
+      ],
+      "audio": {
+        "text": "aquí",
+        "lang": "es",
+        "file": "/audio/es/aqui-c03815f0.mp3"
+      },
+      "translation": "here",
+      "note": "No article: está aquí."
+    },
+    {
       "id": "es/a1/u6/drill/1",
       "type": "type_in",
       "prompt": "El libro está ___ la mesa.",
@@ -142,18 +161,18 @@
       "note": "Estar says where something is: la casa está cerca. The forms are irregular."
     },
     {
-      "id": "es/a1/u6/select/aqui",
+      "id": "es/a1/u6/select/alli",
       "type": "select",
-      "prompt": "Pick the Spanish word for “here”.",
+      "prompt": "Pick the Spanish word for “there”.",
       "options": [
-        "aquí",
-        "encima",
         "debajo",
-        "dentro"
+        "dentro",
+        "fuera",
+        "allí"
       ],
-      "answer": "aquí",
-      "translation": "here",
-      "note": "No article: está aquí."
+      "answer": "allí",
+      "translation": "there",
+      "note": "No article: está allí."
     },
     {
       "id": "es/a1/u6/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "the door is closed",
       "note": "A state uses estar."
-    },
-    {
-      "id": "es/a1/u6/select/alli",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “there”.",
-      "options": [
-        "la casa",
-        "aquí",
-        "encima",
-        "allí"
-      ],
-      "answer": "allí",
-      "translation": "there",
-      "note": "No article: está allí."
     },
     {
       "id": "es/a1/u6/drill/3",

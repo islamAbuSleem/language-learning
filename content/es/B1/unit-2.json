@@ -107,6 +107,25 @@
       "note": "It changes to buena before a feminine noun."
     },
     {
+      "id": "es/b1/u2/listen/malo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "malo",
+      "options": [
+        "feo",
+        "bueno",
+        "bonito",
+        "malo"
+      ],
+      "audio": {
+        "text": "malo",
+        "lang": "es",
+        "file": "/audio/es/malo-ec9db121.mp3"
+      },
+      "translation": "bad",
+      "note": "It changes to mala before a feminine noun."
+    },
+    {
       "id": "es/b1/u2/drill/1",
       "type": "type_in",
       "prompt": "Es una niña ___.",
@@ -146,18 +165,18 @@
       "note": "Adjectives come after the noun and agree with it: un trabajo difícil, una casa pequeña."
     },
     {
-      "id": "es/b1/u2/select/malo",
+      "id": "es/b1/u2/select/grande",
       "type": "select",
-      "prompt": "Pick the Spanish word for “bad”.",
+      "prompt": "Pick the Spanish word for “big”.",
       "options": [
-        "malo",
-        "feo",
-        "bonito",
-        "bueno"
+        "pequeño",
+        "joven",
+        "nuevo",
+        "grande"
       ],
-      "answer": "malo",
-      "translation": "bad",
-      "note": "It changes to mala before a feminine noun."
+      "answer": "grande",
+      "translation": "big",
+      "note": "It does not change for a feminine noun."
     },
     {
       "id": "es/b1/u2/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "he is a big man",
       "note": "Grande does not change."
-    },
-    {
-      "id": "es/b1/u2/select/grande",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “big”.",
-      "options": [
-        "simpático",
-        "divertido",
-        "inteligente",
-        "grande"
-      ],
-      "answer": "grande",
-      "translation": "big",
-      "note": "It does not change for a feminine noun."
     },
     {
       "id": "es/b1/u2/drill/3",

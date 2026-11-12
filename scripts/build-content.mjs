@@ -16,6 +16,8 @@ import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs"
 import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
 
+import { audioPath } from "./audio-name.mjs"
+
 const root = join(dirname(fileURLToPath(import.meta.url)), "..")
 const contentRoot = join(root, "content")
 const check = process.argv.includes("--check")
@@ -112,13 +114,17 @@ function options(item, pool, count, seed) {
  *
  * A unit holds ten exercises. Drills take the place of word exercises: when
  * a unit has grammar drills, the word slots they replace become drills.
+ *
+ * Every unit gets a listening exercise: hearing the word is the one thing a
+ * learner cannot do by reading, so it is never the shape that gets squeezed
+ * out.
  */
 function planShapes(wordCount, drillCount) {
   const matchCount = Math.max(1, Math.floor(wordCount / 5))
   const rest = Math.max(0, wordCount - matchCount - drillCount)
 
   const typeInCount = drillCount === 0 ? Math.floor(rest / 4) : 0
-  const listenCount = Math.floor(rest / 4)
+  const listenCount = rest > 0 ? Math.max(1, Math.floor(rest / 4)) : 0
   const selectCount = rest - typeInCount - listenCount
 
   const buckets = [
@@ -230,7 +236,13 @@ function buildUnit(vocabulary, track, level, pool) {
       prompt: "What did you hear?",
       answer: display(item),
       options: options(item, pool, 4, seed),
-      audio: { text: item.es, lang: "es" },
+      audio: {
+        text: item.es,
+        lang: "es",
+        // The recording of the word, built by scripts/build-audio.mjs. The
+        // client falls back to the browser's voice if it is missing.
+        file: audioPath(track, item.es),
+      },
       translation: item.en,
       note: item.note ?? vocabulary.grammarNote ?? undefined,
     })

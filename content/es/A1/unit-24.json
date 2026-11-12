@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "queso",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/queso-eed521e8.mp3"
       },
       "translation": "the cheese",
       "note": "Masculine: el queso."

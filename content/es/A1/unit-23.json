@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "pollo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/pollo-26401664.mp3"
       },
       "translation": "the chicken",
       "note": "Masculine: el pollo."

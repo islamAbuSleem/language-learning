@@ -107,6 +107,25 @@
       "note": "An infinitive ending in -er: como, comes, come."
     },
     {
+      "id": "es/a2/u1/listen/beber",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "beber",
+      "options": [
+        "beber",
+        "visitar",
+        "pasear",
+        "pescar"
+      ],
+      "audio": {
+        "text": "beber",
+        "lang": "es",
+        "file": "/audio/es/beber-57f14092.mp3"
+      },
+      "translation": "to drink",
+      "note": "An infinitive ending in -er: bebo, bebes, bebe."
+    },
+    {
       "id": "es/a2/u1/drill/1",
       "type": "type_in",
       "prompt": "Yo ___ verduras.",
@@ -146,18 +165,18 @@
       "note": "An -er verb in the present: como, comes, come, comemos, coméis, comen."
     },
     {
-      "id": "es/a2/u1/select/beber",
+      "id": "es/a2/u1/select/aprender",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to drink”.",
+      "prompt": "Pick the Spanish word for “to learn”.",
       "options": [
-        "lavar",
-        "doblar",
-        "planchar",
-        "beber"
+        "comer",
+        "beber",
+        "visitar",
+        "aprender"
       ],
-      "answer": "beber",
-      "translation": "to drink",
-      "note": "An infinitive ending in -er: bebo, bebes, bebe."
+      "answer": "aprender",
+      "translation": "to learn",
+      "note": "An infinitive ending in -er: aprendo, aprendes, aprende."
     },
     {
       "id": "es/a2/u1/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "we learn Spanish together",
       "note": "The nosotros form of aprender."
-    },
-    {
-      "id": "es/a2/u1/select/aprender",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to learn”.",
-      "options": [
-        "leer",
-        "vender",
-        "correr",
-        "aprender"
-      ],
-      "answer": "aprender",
-      "translation": "to learn",
-      "note": "An infinitive ending in -er: aprendo, aprendes, aprende."
     },
     {
       "id": "es/a2/u1/drill/3",

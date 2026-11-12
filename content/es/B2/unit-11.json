@@ -90,6 +90,25 @@
       "note": "The participle of abandonar. It agrees: abandonada."
     },
     {
+      "id": "es/b2/u11/listen/cansado",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "cansado",
+      "options": [
+        "cansado",
+        "encontrado",
+        "perdido",
+        "herido"
+      ],
+      "audio": {
+        "text": "cansado",
+        "lang": "es",
+        "file": "/audio/es/cansado-49fcdac9.mp3"
+      },
+      "translation": "tired",
+      "note": "The participle of cansar. It agrees: cansada."
+    },
+    {
       "id": "es/b2/u11/drill/1",
       "type": "type_in",
       "prompt": "Encontramos un coche ___.",
@@ -129,18 +148,18 @@
       "note": "A participle can work as an adjective: una casa abandonada, an abandoned house."
     },
     {
-      "id": "es/b2/u11/select/cansado",
+      "id": "es/b2/u11/select/aparcado",
       "type": "select",
-      "prompt": "Pick the Spanish word for “tired”.",
+      "prompt": "Pick the Spanish word for “parked”.",
       "options": [
-        "helado",
-        "perdido",
         "encontrado",
-        "cansado"
+        "herido",
+        "perdido",
+        "aparcado"
       ],
-      "answer": "cansado",
-      "translation": "tired",
-      "note": "The participle of cansar. It agrees: cansada."
+      "answer": "aparcado",
+      "translation": "parked",
+      "note": "The participle of aparcar."
     },
     {
       "id": "es/b2/u11/drill/2",
@@ -152,20 +171,6 @@
       ],
       "translation": "she is a tired woman",
       "note": "The participle agrees with the noun."
-    },
-    {
-      "id": "es/b2/u11/select/aparcado",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “parked”.",
-      "options": [
-        "helado",
-        "perdido",
-        "encontrado",
-        "aparcado"
-      ],
-      "answer": "aparcado",
-      "translation": "parked",
-      "note": "The participle of aparcar."
     },
     {
       "id": "es/b2/u11/drill/3",

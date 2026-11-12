@@ -107,6 +107,25 @@
       "note": "A reflexive verb: me ducho, te duchas, se ducha."
     },
     {
+      "id": "es/b1/u6/listen/vestirse",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "vestirse",
+      "options": [
+        "he hablado",
+        "he vivido",
+        "he comido",
+        "vestirse"
+      ],
+      "audio": {
+        "text": "vestirse",
+        "lang": "es",
+        "file": "/audio/es/vestirse-e5fd5028.mp3"
+      },
+      "translation": "to get dressed",
+      "note": "A reflexive verb: me visto, te vistes, se viste."
+    },
+    {
       "id": "es/b1/u6/drill/1",
       "type": "type_in",
       "prompt": "___ ducho por la mañana.",
@@ -146,18 +165,18 @@
       "note": "A reflexive verb takes a reflexive pronoun: me ducho, se lava. The pronoun usually comes first."
     },
     {
-      "id": "es/b1/u6/select/vestirse",
+      "id": "es/b1/u6/select/acostarse",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to get dressed”.",
+      "prompt": "Pick the Spanish word for “to go to bed”.",
       "options": [
-        "vestirse",
-        "era",
-        "he hablado",
-        "he comido"
+        "recibir",
+        "abrir",
+        "compartir",
+        "acostarse"
       ],
-      "answer": "vestirse",
-      "translation": "to get dressed",
-      "note": "A reflexive verb: me visto, te vistes, se viste."
+      "answer": "acostarse",
+      "translation": "to go to bed",
+      "note": "A reflexive verb: me acuesto, te acuestas, se acuesta."
     },
     {
       "id": "es/b1/u6/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "do you remember my name?",
       "note": "Acordarse takes a reflexive pronoun."
-    },
-    {
-      "id": "es/b1/u6/select/acostarse",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to go to bed”.",
-      "options": [
-        "jugaba",
-        "era",
-        "he hablado",
-        "acostarse"
-      ],
-      "answer": "acostarse",
-      "translation": "to go to bed",
-      "note": "A reflexive verb: me acuesto, te acuestas, se acuesta."
     },
     {
       "id": "es/b1/u6/drill/3",

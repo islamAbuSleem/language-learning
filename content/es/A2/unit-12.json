@@ -93,6 +93,25 @@
       "note": "The future of hablar. The ending is added to the whole infinitive."
     },
     {
+      "id": "es/a2/u12/listen/comere",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "comeré",
+      "options": [
+        "vendré",
+        "querré",
+        "comeré",
+        "podré"
+      ],
+      "audio": {
+        "text": "comeré",
+        "lang": "es",
+        "file": "/audio/es/comere-b1ba0384.mp3"
+      },
+      "translation": "I will eat",
+      "note": "The future of comer. For -er verbs the ending is added to the whole infinitive."
+    },
+    {
       "id": "es/a2/u12/drill/1",
       "type": "type_in",
       "prompt": "Mañana ___ llover.",
@@ -132,18 +151,18 @@
       "note": "The simple future ends in -é, -ás, -á, -emos, -éis, -án: hablaré, hablarás, hablará."
     },
     {
-      "id": "es/a2/u12/select/comere",
+      "id": "es/a2/u12/select/vivire",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I will eat”.",
+      "prompt": "Pick the Spanish word for “I will live”.",
       "options": [
-        "correr",
-        "responder",
-        "perder",
-        "comeré"
+        "viajar",
+        "tener",
+        "querer",
+        "viviré"
       ],
-      "answer": "comeré",
-      "translation": "I will eat",
-      "note": "The future of comer. For -er verbs the ending is added to the whole infinitive."
+      "answer": "viviré",
+      "translation": "I will live",
+      "note": "The future of vivir. For -ir verbs the r of the infinitive is dropped."
     },
     {
       "id": "es/a2/u12/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "I am going to study Spanish",
       "note": "Plans use ir a plus an infinitive."
-    },
-    {
-      "id": "es/a2/u12/select/vivire",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I will live”.",
-      "options": [
-        "gustar",
-        "molestar",
-        "encantar",
-        "viviré"
-      ],
-      "answer": "viviré",
-      "translation": "I will live",
-      "note": "The future of vivir. For -ir verbs the r of the infinitive is dropped."
     },
     {
       "id": "es/a2/u12/drill/3",

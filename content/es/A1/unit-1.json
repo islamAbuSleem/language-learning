@@ -107,6 +107,25 @@
       "note": "Masculine: el café. The plural is los cafés."
     },
     {
+      "id": "es/a1/u1/listen/agua",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el agua",
+      "options": [
+        "el agua",
+        "la leche",
+        "el café",
+        "el té"
+      ],
+      "audio": {
+        "text": "agua",
+        "lang": "es",
+        "file": "/audio/es/agua-879ea477.mp3"
+      },
+      "translation": "water",
+      "note": "Feminine but keeps el in the singular, because it begins with a vowel sound."
+    },
+    {
       "id": "es/a1/u1/drill/1",
       "type": "type_in",
       "prompt": "___ leche, por favor.",
@@ -146,18 +165,18 @@
       "note": "Every noun is either masculine or feminine, and the article says which."
     },
     {
-      "id": "es/a1/u1/select/agua",
+      "id": "es/a1/u1/select/leche",
       "type": "select",
-      "prompt": "Pick the Spanish word for “water”.",
+      "prompt": "Pick the Spanish word for “milk”.",
       "options": [
-        "el café",
-        "la leche",
         "el té",
-        "el agua"
+        "el café",
+        "el agua",
+        "la leche"
       ],
-      "answer": "el agua",
-      "translation": "water",
-      "note": "Feminine but keeps el in the singular, because it begins with a vowel sound."
+      "answer": "la leche",
+      "translation": "milk",
+      "note": "Feminine: la leche."
     },
     {
       "id": "es/a1/u1/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I want a coffee",
       "note": "After querer you use un or una."
-    },
-    {
-      "id": "es/a1/u1/select/leche",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “milk”.",
-      "options": [
-        "el agua",
-        "el té",
-        "el café",
-        "la leche"
-      ],
-      "answer": "la leche",
-      "translation": "milk",
-      "note": "Feminine: la leche."
     },
     {
       "id": "es/a1/u1/drill/3",

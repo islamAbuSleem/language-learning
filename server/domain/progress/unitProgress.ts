@@ -111,7 +111,10 @@ export function describePath(
   states: ReadonlyMap<string, ItemState>,
   now: number,
 ): UnitProgress[] {
-  const progress = units.map((unit) => describeUnit(unit, states, now))
+  const progress: UnitProgress[] = units.map((unit) => ({
+    ...describeUnit(unit, states, now),
+    status: "locked",
+  }))
 
   let previousComplete = true
 

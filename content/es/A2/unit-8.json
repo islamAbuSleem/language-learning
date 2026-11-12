@@ -95,6 +95,25 @@
       "note": "Masculine: el viaje. You take un viaje."
     },
     {
+      "id": "es/a2/u8/listen/recuerdo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el recuerdo",
+      "options": [
+        "el conductor",
+        "el viaje",
+        "el andén",
+        "el recuerdo"
+      ],
+      "audio": {
+        "text": "recuerdo",
+        "lang": "es",
+        "file": "/audio/es/recuerdo-01ac7195.mp3"
+      },
+      "translation": "souvenir",
+      "note": "Masculine: el recuerdo. It also means memory."
+    },
+    {
       "id": "es/a2/u8/drill/1",
       "type": "type_in",
       "prompt": "___ sé, pero lo busco.",
@@ -134,18 +153,18 @@
       "note": "This unit repeats what came before. Every word here is one you have already met."
     },
     {
-      "id": "es/a2/u8/select/recuerdo",
+      "id": "es/a2/u8/select/museo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “souvenir”.",
+      "prompt": "Pick the Spanish word for “museum”.",
       "options": [
-        "el recuerdo",
-        "el pasaporte",
-        "el vuelo",
-        "la maleta"
+        "el museo",
+        "dentro",
+        "fuera",
+        "debajo"
       ],
-      "answer": "el recuerdo",
-      "translation": "souvenir",
-      "note": "Masculine: el recuerdo. It also means memory."
+      "answer": "el museo",
+      "translation": "museum",
+      "note": "Masculine: el museo."
     },
     {
       "id": "es/a2/u8/drill/2",
@@ -157,20 +176,6 @@
       ],
       "translation": "I do not understand. Can you repeat?",
       "note": "No entiendo."
-    },
-    {
-      "id": "es/a2/u8/select/museo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “museum”.",
-      "options": [
-        "la tienda",
-        "el mercado",
-        "la calle",
-        "el museo"
-      ],
-      "answer": "el museo",
-      "translation": "museum",
-      "note": "Masculine: el museo."
     },
     {
       "id": "es/a2/u8/drill/3",

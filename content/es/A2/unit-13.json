@@ -107,6 +107,25 @@
       "note": "The preterite of hablar. The yo form is hablé."
     },
     {
+      "id": "es/a2/u13/listen/comio",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "comió",
+      "options": [
+        "correr",
+        "perder",
+        "vender",
+        "comió"
+      ],
+      "audio": {
+        "text": "comió",
+        "lang": "es",
+        "file": "/audio/es/comio-be6e3568.mp3"
+      },
+      "translation": "he ate",
+      "note": "The preterite of comer. The yo form is comí."
+    },
+    {
       "id": "es/a2/u13/drill/1",
       "type": "type_in",
       "prompt": "Ayer ___ con mi madre.",
@@ -146,18 +165,18 @@
       "note": "The preterite of an -ar verb: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
     },
     {
-      "id": "es/a2/u13/select/comio",
+      "id": "es/a2/u13/select/escribio",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he ate”.",
+      "prompt": "Pick the Spanish word for “he wrote”.",
       "options": [
-        "comer",
-        "beber",
-        "comió",
-        "visitar"
+        "interesar",
+        "importar",
+        "molestar",
+        "escribió"
       ],
-      "answer": "comió",
-      "translation": "he ate",
-      "note": "The preterite of comer. The yo form is comí."
+      "answer": "escribió",
+      "translation": "he wrote",
+      "note": "The preterite of escribir. The yo form is escribí."
     },
     {
       "id": "es/a2/u13/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I had an idea",
       "note": "Tener is irregular in the preterite."
-    },
-    {
-      "id": "es/a2/u13/select/escribio",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “he wrote”.",
-      "options": [
-        "aprender",
-        "vender",
-        "leer",
-        "escribió"
-      ],
-      "answer": "escribió",
-      "translation": "he wrote",
-      "note": "The preterite of escribir. The yo form is escribí."
     },
     {
       "id": "es/a2/u13/drill/3",

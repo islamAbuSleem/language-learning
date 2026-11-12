@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "mesita",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/mesita-c7282ab8.mp3"
       },
       "translation": "the little table",
       "note": "Feminine: la mesita. The ending -ita makes it smaller and feminine."

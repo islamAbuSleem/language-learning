@@ -15,17 +15,24 @@ const emit = defineEmits<{ "update:modelValue": [value: string] }>()
 
 const speaking = ref(false)
 
+/** The recording we are playing, if there is one. */
+let player: HTMLAudioElement | null = null
+
 /**
- * v0 speaks the word with the browser's own voice.
+ * The browser can speak the word itself.
  *
- * There is no recorded audio yet, so this is a stand-in: the word is handed
- * to the speech synthesis engine in the target language. When real audio
- * arrives, this button plays a file instead and nothing else changes.
+ * This is the fallback, not the course: the voice is whatever the machine
+ * has installed, and it is not Spanish on a machine with no Spanish voice.
+ * So it is only used when our own recording is missing.
  */
 const supported = computed(() => typeof window !== "undefined" && "speechSynthesis" in window)
 
-function speak() {
-  if (!supported.value) return
+/** Speak the word with the browser's voice. */
+function speakWithBrowser() {
+  if (!supported.value) {
+    speaking.value = false
+    return
+  }
 
   const synth = window.speechSynthesis
   synth.cancel()
@@ -43,7 +50,41 @@ function speak() {
   synth.speak(utterance)
 }
 
+/**
+ * Play the word.
+ *
+ * Our own recording first, and the browser's voice if it is missing or fails
+ * to play. Either way the learner hears the word.
+ */
+function play() {
+  const file = props.exercise.audio.file
+
+  if (!file) {
+    speakWithBrowser()
+    return
+  }
+
+  player?.pause()
+  player = new Audio(file)
+  player.onended = () => {
+    speaking.value = false
+  }
+  player.onerror = () => {
+    speaking.value = false
+    speakWithBrowser()
+  }
+
+  speaking.value = true
+  player.play().catch(() => {
+    speaking.value = false
+    speakWithBrowser()
+  })
+}
+
 onBeforeUnmount(() => {
+  player?.pause()
+  player = null
+
   if (supported.value) window.speechSynthesis.cancel()
 })
 </script>
@@ -53,14 +94,16 @@ onBeforeUnmount(() => {
     <button
       type="button"
       class="listen__play"
-      :disabled="!supported"
-      @click="speak"
+      :disabled="!supported && !exercise.audio.file"
+      @click="play"
     >
       <span aria-hidden="true">🔊</span>
       {{ speaking ? "Playing…" : "Play the sound" }}
     </button>
 
-    <p v-if="!supported" class="listen__note">This browser cannot speak the word.</p>
+    <p v-if="!supported && !exercise.audio.file" class="listen__note">
+      This browser cannot speak the word.
+    </p>
 
     <ExerciseSelect
       :exercise="exercise"

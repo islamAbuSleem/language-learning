@@ -89,6 +89,25 @@
       "note": "The passive of pintar, in the preterite."
     },
     {
+      "id": "es/b2/u1/listen/fue-enviado",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "fue enviado",
+      "options": [
+        "fue enviado",
+        "fue decidido",
+        "fue construido",
+        "fue pintado"
+      ],
+      "audio": {
+        "text": "fue enviado",
+        "lang": "es",
+        "file": "/audio/es/fue-enviado-71cff380.mp3"
+      },
+      "translation": "it was sent",
+      "note": "The passive of enviar, in the preterite."
+    },
+    {
       "id": "es/b2/u1/drill/1",
       "type": "type_in",
       "prompt": "El cuadro ___ pintado por Ana.",
@@ -128,18 +147,18 @@
       "note": "The passive is ser plus the participle: el cuadro fue pintado por Ana."
     },
     {
-      "id": "es/b2/u1/select/fue-enviado",
+      "id": "es/b2/u1/select/fue-construido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “it was sent”.",
+      "prompt": "Pick the Spanish word for “it was built”.",
       "options": [
-        "fue pintado",
-        "fue construido",
         "han sido encontrados",
-        "fue enviado"
+        "fue pintado",
+        "ha sido firmado",
+        "fue construido"
       ],
-      "answer": "fue enviado",
-      "translation": "it was sent",
-      "note": "The passive of enviar, in the preterite."
+      "answer": "fue construido",
+      "translation": "it was built",
+      "note": "The passive of construir, in the preterite."
     },
     {
       "id": "es/b2/u1/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "the letter was sent yesterday",
       "note": "Fue plus the participle."
-    },
-    {
-      "id": "es/b2/u1/select/fue-construido",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “it was built”.",
-      "options": [
-        "fue enviado",
-        "fue decidido",
-        "ha sido firmado",
-        "fue construido"
-      ],
-      "answer": "fue construido",
-      "translation": "it was built",
-      "note": "The passive of construir, in the preterite."
     },
     {
       "id": "es/b2/u1/drill/3",

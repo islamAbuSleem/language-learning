@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "móvil",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/movil-3eb242fc.mp3"
       },
       "translation": "the mobile phone",
       "note": "Masculine: el móvil."

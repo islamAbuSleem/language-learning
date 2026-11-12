@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "largo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/largo-ca01b290.mp3"
       },
       "translation": "long",
       "note": "The feminine es larga: una calle larga."

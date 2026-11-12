@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "arena",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/arena-43b931cc.mp3"
       },
       "translation": "the sand",
       "note": "Feminine: la arena."

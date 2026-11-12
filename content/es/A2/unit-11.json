@@ -103,6 +103,25 @@
       "note": "Entre la cocina y el salón."
     },
     {
+      "id": "es/a2/u11/listen/detras",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "detrás",
+      "options": [
+        "detrás",
+        "por",
+        "para",
+        "entre"
+      ],
+      "audio": {
+        "text": "detrás",
+        "lang": "es",
+        "file": "/audio/es/detras-f3f6d6a0.mp3"
+      },
+      "translation": "behind",
+      "note": "Detrás de la puerta."
+    },
+    {
       "id": "es/a2/u11/drill/1",
       "type": "type_in",
       "prompt": "El hotel está cerca ___ la estación.",
@@ -142,18 +161,18 @@
       "note": "Near and far take de: cerca de la estación, lejos del centro."
     },
     {
-      "id": "es/a2/u11/select/detras",
+      "id": "es/a2/u11/select/delante",
       "type": "select",
-      "prompt": "Pick the Spanish word for “behind”.",
+      "prompt": "Pick the Spanish word for “in front of”.",
       "options": [
-        "para",
         "por",
         "entre",
-        "detrás"
+        "para",
+        "delante"
       ],
-      "answer": "detrás",
-      "translation": "behind",
-      "note": "Detrás de la puerta."
+      "answer": "delante",
+      "translation": "in front of",
+      "note": "Delante de la casa."
     },
     {
       "id": "es/a2/u11/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "the shop is between the bench and the fountain",
       "note": "Entre is between."
-    },
-    {
-      "id": "es/a2/u11/select/delante",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “in front of”.",
-      "options": [
-        "para",
-        "por",
-        "entre",
-        "delante"
-      ],
-      "answer": "delante",
-      "translation": "in front of",
-      "note": "Delante de la casa."
     },
     {
       "id": "es/a2/u11/drill/3",

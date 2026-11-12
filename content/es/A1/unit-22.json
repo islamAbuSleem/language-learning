@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "tomate",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/tomate-2bb4756b.mp3"
       },
       "translation": "the tomato",
       "note": "Masculine: el tomate."

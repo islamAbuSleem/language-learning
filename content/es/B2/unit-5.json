@@ -89,6 +89,25 @@
       "note": "It always takes de: depender de algo."
     },
     {
+      "id": "es/b2/u5/listen/insistir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "insistir",
+      "options": [
+        "comeré",
+        "viviré",
+        "hablaré",
+        "insistir"
+      ],
+      "audio": {
+        "text": "insistir",
+        "lang": "es",
+        "file": "/audio/es/insistir-d19926d8.mp3"
+      },
+      "translation": "to insist",
+      "note": "It always takes en: insistir en algo."
+    },
+    {
       "id": "es/b2/u5/drill/1",
       "type": "type_in",
       "prompt": "Insistió ___ venir.",
@@ -128,18 +147,18 @@
       "note": "Some verbs take a fixed preposition: depender de, insistir en, soñar con."
     },
     {
-      "id": "es/b2/u5/select/insistir",
+      "id": "es/b2/u5/select/sonar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to insist”.",
+      "prompt": "Pick the Spanish word for “to dream”.",
       "options": [
-        "vivió",
-        "pidió",
-        "entendió",
-        "insistir"
+        "hablara",
+        "había salido",
+        "soñar",
+        "comiera"
       ],
-      "answer": "insistir",
-      "translation": "to insist",
-      "note": "It always takes en: insistir en algo."
+      "answer": "soñar",
+      "translation": "to dream",
+      "note": "It always takes con: soñar con algo."
     },
     {
       "id": "es/b2/u5/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "I dream of travelling",
       "note": "Soñar takes con."
-    },
-    {
-      "id": "es/b2/u5/select/sonar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to dream”.",
-      "options": [
-        "estudiaba",
-        "miraba",
-        "buscaba",
-        "soñar"
-      ],
-      "answer": "soñar",
-      "translation": "to dream",
-      "note": "It always takes con: soñar con algo."
     },
     {
       "id": "es/b2/u5/drill/3",

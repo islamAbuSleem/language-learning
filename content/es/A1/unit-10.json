@@ -93,6 +93,25 @@
       "note": "Masculine: el padre. It also means a priest, and a relative."
     },
     {
+      "id": "es/a1/u10/listen/madre",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la madre",
+      "options": [
+        "la hermana",
+        "la abuela",
+        "el abuelo",
+        "la madre"
+      ],
+      "audio": {
+        "text": "madre",
+        "lang": "es",
+        "file": "/audio/es/madre-5aef8a4d.mp3"
+      },
+      "translation": "mother",
+      "note": "Feminine: la madre."
+    },
+    {
       "id": "es/a1/u10/drill/1",
       "type": "type_in",
       "prompt": "___ casa es grande.",
@@ -132,18 +151,18 @@
       "note": "A possessive goes before the noun: mi casa, nuestro padre."
     },
     {
-      "id": "es/a1/u10/select/madre",
+      "id": "es/a1/u10/select/hijo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “mother”.",
+      "prompt": "Pick the Spanish word for “son”.",
       "options": [
-        "el abuelo",
-        "la abuela",
         "la hermana",
-        "la madre"
+        "el abuelo",
+        "el hermano",
+        "el hijo"
       ],
-      "answer": "la madre",
-      "translation": "mother",
-      "note": "Feminine: la madre."
+      "answer": "el hijo",
+      "translation": "son",
+      "note": "Masculine: el hijo. It is only ever a child."
     },
     {
       "id": "es/a1/u10/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "his mother is a doctor",
       "note": "Su means his, her or their."
-    },
-    {
-      "id": "es/a1/u10/select/hijo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “son”.",
-      "options": [
-        "el hermano",
-        "la hermana",
-        "el abuelo",
-        "el hijo"
-      ],
-      "answer": "el hijo",
-      "translation": "son",
-      "note": "Masculine: el hijo. It is only ever a child."
     },
     {
       "id": "es/a1/u10/drill/3",

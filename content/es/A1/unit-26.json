@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "cerveza",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/cerveza-8cc99058.mp3"
       },
       "translation": "the beer",
       "note": "Feminine: la cerveza."

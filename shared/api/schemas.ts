@@ -53,7 +53,12 @@ export const clientExerciseSchema = z.discriminatedUnion("type", [
     type: z.literal("listen"),
     prompt: z.string(),
     options: z.array(z.string()),
-    audio: z.object({ text: z.string(), lang: z.string() }),
+    audio: z.object({
+      text: z.string(),
+      lang: z.string(),
+      /** Our own recording of the word, when there is one. */
+      file: z.string().optional(),
+    }),
   }),
 ])
 

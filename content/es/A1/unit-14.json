@@ -107,6 +107,25 @@
       "note": "Masculine: el cuerpo."
     },
     {
+      "id": "es/a1/u14/listen/brazo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el brazo",
+      "options": [
+        "la nariz",
+        "el cuerpo",
+        "el dolor",
+        "el brazo"
+      ],
+      "audio": {
+        "text": "brazo",
+        "lang": "es",
+        "file": "/audio/es/brazo-9e655ac5.mp3"
+      },
+      "translation": "arm",
+      "note": "Masculine: el brazo."
+    },
+    {
       "id": "es/a1/u14/drill/1",
       "type": "type_in",
       "prompt": "Tengo ___: quiero comer.",
@@ -146,18 +165,18 @@
       "note": "You do not say “I have a pain”. You say tengo dolor: tener carries the feeling."
     },
     {
-      "id": "es/a1/u14/select/brazo",
+      "id": "es/a1/u14/select/pierna",
       "type": "select",
-      "prompt": "Pick the Spanish word for “arm”.",
+      "prompt": "Pick the Spanish word for “leg”.",
       "options": [
-        "el brazo",
-        "la oreja",
-        "el ojo",
-        "la nariz"
+        "la nariz",
+        "el dolor",
+        "el cuerpo",
+        "la pierna"
       ],
-      "answer": "el brazo",
-      "translation": "arm",
-      "note": "Masculine: el brazo."
+      "answer": "la pierna",
+      "translation": "leg",
+      "note": "Feminine: la pierna."
     },
     {
       "id": "es/a1/u14/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I have a headache",
       "note": "The body part is the subject of doler."
-    },
-    {
-      "id": "es/a1/u14/select/pierna",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “leg”.",
-      "options": [
-        "el ojo",
-        "la nariz",
-        "la oreja",
-        "la pierna"
-      ],
-      "answer": "la pierna",
-      "translation": "leg",
-      "note": "Feminine: la pierna."
     },
     {
       "id": "es/a1/u14/drill/3",

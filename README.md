@@ -47,7 +47,8 @@ Boot check: `node .output/server/index.mjs`, then `GET /api/health` → `{"statu
 1. Write `content/<track>/<LEVEL>/unit-N.vocab.json` — ten words, each with a
    translation, an article and a note.
 2. `npm run build:content` regenerates `unit-N.json` (ten exercises, four shapes).
-3. `npm test` fails if the two ever drift.
+3. `npm run build:audio` speaks the new words and caches them in `public/audio/`.
+4. `npm test` fails if the two ever drift, or if a word has no recording.
 
 Two rules the generator and the tests enforce:
 
@@ -100,8 +101,11 @@ and drills), the dashboard with the learner's place in it, the lesson player
 (select / match / type_in / listen), server-side grading, the self-grade
 feedback panel, the SRS engine, XP, streak, progress that survives a restart
 (Postgres), the practice loop that brings due and shaky items back, unit
-unlocking along a gapless path, and the revisit path: a unit answered badly
-is weak, and weak units are offered back on the dashboard.
+unlocking along a gapless path, the revisit path (a unit answered badly is
+weak, and weak units are offered back on the dashboard), and the course's own
+audio: every word has a cached recording, and every unit has a listening
+exercise.
 
-Not built yet: recorded audio for the `listen` type, German and English
-content, and the levels above A1 are still thin on vocabulary.
+Not built yet: German and English content, the levels above A1 are still thin
+on vocabulary, and the recordings are a synthesised voice rather than a
+speaker's.

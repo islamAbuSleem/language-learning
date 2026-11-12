@@ -103,6 +103,25 @@
       "note": "The subjunctive of hablar. It is the opposite of the yo form."
     },
     {
+      "id": "es/b1/u11/listen/coma",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "coma",
+      "options": [
+        "coma",
+        "viva",
+        "hable",
+        "trabaje"
+      ],
+      "audio": {
+        "text": "coma",
+        "lang": "es",
+        "file": "/audio/es/coma-9e49e873.mp3"
+      },
+      "translation": "eat",
+      "note": "The subjunctive of comer. It is the opposite of the yo form."
+    },
+    {
       "id": "es/b1/u11/drill/1",
       "type": "type_in",
       "prompt": "Quiero que ___.",
@@ -142,18 +161,18 @@
       "note": "The present subjunctive is the opposite of the yo form: hable, coma, viva."
     },
     {
-      "id": "es/b1/u11/select/coma",
+      "id": "es/b1/u11/select/viva",
       "type": "select",
-      "prompt": "Pick the Spanish word for “eat”.",
+      "prompt": "Pick the Spanish word for “live”.",
       "options": [
-        "estudiaré",
-        "veré",
-        "haré",
-        "coma"
+        "comía",
+        "vivía",
+        "hablaba",
+        "viva"
       ],
-      "answer": "coma",
-      "translation": "eat",
-      "note": "The subjunctive of comer. It is the opposite of the yo form."
+      "answer": "viva",
+      "translation": "live",
+      "note": "The subjunctive of vivir. It is the opposite of the yo form."
     },
     {
       "id": "es/b1/u11/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "I hope you speak Spanish",
       "note": "The subjunctive is the opposite of the yo form."
-    },
-    {
-      "id": "es/b1/u11/select/viva",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “live”.",
-      "options": [
-        "hemos abierto",
-        "querer",
-        "poder",
-        "viva"
-      ],
-      "answer": "viva",
-      "translation": "live",
-      "note": "The subjunctive of vivir. It is the opposite of the yo form."
     },
     {
       "id": "es/b1/u11/drill/3",

@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "calzada",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/calzada-48c646c0.mp3"
       },
       "translation": "the road",
       "note": "Feminine: la calzada."

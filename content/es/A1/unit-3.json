@@ -107,6 +107,25 @@
       "note": "The first person: yo soy."
     },
     {
+      "id": "es/a1/u3/listen/tu",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "tú",
+      "options": [
+        "ella",
+        "yo",
+        "él",
+        "tú"
+      ],
+      "audio": {
+        "text": "tú",
+        "lang": "es",
+        "file": "/audio/es/tu-d4449afa.mp3"
+      },
+      "translation": "you",
+      "note": "The second person: tú eres."
+    },
+    {
       "id": "es/a1/u3/drill/1",
       "type": "type_in",
       "prompt": "___ soy Ana.",
@@ -146,18 +165,18 @@
       "note": "The pronoun comes before the verb: yo soy, tú eres, él es."
     },
     {
-      "id": "es/a1/u3/select/tu",
+      "id": "es/a1/u3/select/el",
       "type": "select",
-      "prompt": "Pick the Spanish word for “you”.",
+      "prompt": "Pick the Spanish word for “he”.",
       "options": [
-        "yo",
         "ella",
-        "él",
-        "tú"
+        "tú",
+        "yo",
+        "él"
       ],
-      "answer": "tú",
-      "translation": "you",
-      "note": "The second person: tú eres."
+      "answer": "él",
+      "translation": "he",
+      "note": "Third person masculine: él es."
     },
     {
       "id": "es/a1/u3/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "he is a doctor",
       "note": "Él is masculine, ella is feminine."
-    },
-    {
-      "id": "es/a1/u3/select/el",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “he”.",
-      "options": [
-        "yo",
-        "tú",
-        "ella",
-        "él"
-      ],
-      "answer": "él",
-      "translation": "he",
-      "note": "Third person masculine: él es."
     },
     {
       "id": "es/a1/u3/drill/3",

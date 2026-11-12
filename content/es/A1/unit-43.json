@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "cancha",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/cancha-a6f6f018.mp3"
       },
       "translation": "the court",
       "note": "Feminine: la cancha."

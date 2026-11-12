@@ -99,6 +99,25 @@
       "note": "The general relative word: la mujer que canta."
     },
     {
+      "id": "es/b1/u13/listen/quien",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "quien",
+      "options": [
+        "cuyo",
+        "que",
+        "donde",
+        "quien"
+      ],
+      "audio": {
+        "text": "quien",
+        "lang": "es",
+        "file": "/audio/es/quien-f44d46bc.mp3"
+      },
+      "translation": "who",
+      "note": "For people: el amigo que llamaré becomes quien llamaré."
+    },
+    {
       "id": "es/b1/u13/drill/1",
       "type": "type_in",
       "prompt": "La mujer ___ canta es mi hermana.",
@@ -138,18 +157,18 @@
       "note": "The relative word describes the noun: el hombre que trabaja aquí, la casa donde vivo."
     },
     {
-      "id": "es/b1/u13/select/quien",
+      "id": "es/b1/u13/select/donde",
       "type": "select",
-      "prompt": "Pick the Spanish word for “who”.",
+      "prompt": "Pick the Spanish word for “where”.",
       "options": [
         "que",
-        "donde",
         "quien",
-        "cuyo"
+        "cuyo",
+        "donde"
       ],
-      "answer": "quien",
-      "translation": "who",
-      "note": "For people: el amigo que llamaré becomes quien llamaré."
+      "answer": "donde",
+      "translation": "where",
+      "note": "For places: la ciudad donde nací."
     },
     {
       "id": "es/b1/u13/drill/2",
@@ -161,20 +180,6 @@
       ],
       "translation": "the city where I was born is small",
       "note": "Donde is for places."
-    },
-    {
-      "id": "es/b1/u13/select/donde",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “where”.",
-      "options": [
-        "que",
-        "cuyo",
-        "quien",
-        "donde"
-      ],
-      "answer": "donde",
-      "translation": "where",
-      "note": "For places: la ciudad donde nací."
     },
     {
       "id": "es/b1/u13/drill/3",

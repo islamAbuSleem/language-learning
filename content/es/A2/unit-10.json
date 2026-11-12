@@ -93,6 +93,25 @@
       "note": "Towards a place or a purpose: para Madrid, para ti."
     },
     {
+      "id": "es/a2/u10/listen/por",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "por",
+      "options": [
+        "tener",
+        "poder",
+        "querer",
+        "por"
+      ],
+      "audio": {
+        "text": "por",
+        "lang": "es",
+        "file": "/audio/es/por-6d7f6c2c.mp3"
+      },
+      "translation": "for",
+      "note": "A cause, an exchange or a route: por el tráfico, por diez euros."
+    },
+    {
       "id": "es/a2/u10/drill/1",
       "type": "type_in",
       "prompt": "Salgo ___ Madrid.",
@@ -132,18 +151,18 @@
       "note": "Para is for a destination or a purpose. Por is for a cause, an exchange, or moving through."
     },
     {
-      "id": "es/a2/u10/select/por",
+      "id": "es/a2/u10/select/detalle",
       "type": "select",
-      "prompt": "Pick the Spanish word for “for”.",
+      "prompt": "Pick the Spanish word for “detail”.",
       "options": [
-        "la miel",
-        "el jamón",
-        "la mantequilla",
-        "por"
+        "el propósito",
+        "el destino",
+        "el túnel",
+        "el detalle"
       ],
-      "answer": "por",
-      "translation": "for",
-      "note": "A cause, an exchange or a route: por el tráfico, por diez euros."
+      "answer": "el detalle",
+      "translation": "detail",
+      "note": "Masculine: el detalle. It also means a shop."
     },
     {
       "id": "es/a2/u10/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "I arrived late because of the traffic",
       "note": "Por is for a cause."
-    },
-    {
-      "id": "es/a2/u10/select/detalle",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “detail”.",
-      "options": [
-        "el reloj",
-        "la ayuda",
-        "la palabra",
-        "el detalle"
-      ],
-      "answer": "el detalle",
-      "translation": "detail",
-      "note": "Masculine: el detalle. It also means a shop."
     },
     {
       "id": "es/a2/u10/drill/3",

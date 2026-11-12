@@ -99,6 +99,25 @@
       "note": "The pluperfect of hablar."
     },
     {
+      "id": "es/b1/u14/listen/habia-comido",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "había comido",
+      "options": [
+        "deber",
+        "hacer",
+        "hay",
+        "había comido"
+      ],
+      "audio": {
+        "text": "había comido",
+        "lang": "es",
+        "file": "/audio/es/habia-comido-b9d3a7a0.mp3"
+      },
+      "translation": "I had eaten",
+      "note": "The pluperfect of comer."
+    },
+    {
       "id": "es/b1/u14/drill/1",
       "type": "type_in",
       "prompt": "Cuando llegué, ya ___ salido.",
@@ -138,18 +157,18 @@
       "note": "The pluperfect is the imperfect of haber plus the participle: había hablado, habías comido."
     },
     {
-      "id": "es/b1/u14/select/habia-comido",
+      "id": "es/b1/u14/select/habia-vivido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I had eaten”.",
+      "prompt": "Pick the Spanish word for “I had lived”.",
       "options": [
-        "había comido",
-        "salir",
-        "entrar",
-        "ducharse"
+        "entendió",
+        "llegó",
+        "salió",
+        "había vivido"
       ],
-      "answer": "había comido",
-      "translation": "I had eaten",
-      "note": "The pluperfect of comer."
+      "answer": "había vivido",
+      "translation": "I had lived",
+      "note": "The pluperfect of vivir."
     },
     {
       "id": "es/b1/u14/drill/2",
@@ -161,20 +180,6 @@
       ],
       "translation": "I did not eat because I had not prepared the food",
       "note": "The pluperfect explains the other past event."
-    },
-    {
-      "id": "es/b1/u14/select/habia-vivido",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I had lived”.",
-      "options": [
-        "estudiar",
-        "cocinar",
-        "caminar",
-        "había vivido"
-      ],
-      "answer": "había vivido",
-      "translation": "I had lived",
-      "note": "The pluperfect of vivir."
     },
     {
       "id": "es/b1/u14/drill/3",

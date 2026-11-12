@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "revista",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/revista-7e25309b.mp3"
       },
       "translation": "the magazine",
       "note": "Feminine: la revista."

@@ -5,7 +5,7 @@ checked rather than felt.
 
 ## Goal 1 — the course has a voice of its own
 
-**Status:** in progress
+**Status:** done
 
 **Why.** The `listen` exercise is the one place a learner cannot read their way
 out. Right now the browser speaks the word with whatever voice the machine
@@ -23,15 +23,37 @@ part of the course, not part of the browser.
 - One script rebuilds the audio from the vocabulary, so a new word is never
   silent.
 
-**The steps, in the order they are done**
+**How it was done**
+
+- `scripts/build-audio.mjs` speaks every word with eSpeak NG's Spanish voice,
+  run locally through WebAssembly, and writes a cached MP3 per word into
+  `public/audio/es/`. 920 words, about 4 MB.
+- The file name is derived from the word, so the content builder and the
+  audio builder agree without a manifest between them.
+- The `listen` exercise carries the path of the recording, and the client
+  plays it, falling back to the browser's voice if it is missing or fails.
+- Every unit now has a listening exercise: hearing the word is the one thing
+  a learner cannot do by reading.
+- The test fails if any word in the track has no recording.
+
+**The steps, in the order they were done**
 
 | Step | What | Done when |
 | --- | --- | --- |
 | 1 | **Richer A1 content.** A real A1 course is 500 words, not 150. | **Done.** A1 holds 50 units and 500 words, the path audit is green, and the app plays all of it. |
 | 2 | **A unit-revisit model.** A learner must be able to go back to a unit they are weak in, and see why. | **Done.** The path shows the status of every unit, weak units are offered back under *Worth another look*, and a unit can be done again. |
-| 3 | **Recorded audio.** | The definition of done above. |
+| 3 | **Recorded audio.** | **Done.** The definition of done above. |
 
 Step 1 comes first because steps 2 and 3 are both measured against the size of
 the course: a revisit model over 50 units is a different thing from a revisit
 model over 15, and an audio dictionary is only worth building once the
 vocabulary has stopped moving.
+
+## What comes next
+
+- **The voice.** eSpeak is intelligible and it is ours, but it is a robot. A
+  native speaker recording the 920 words would replace them file by file,
+  with no code change: the files are plain MP3 and the names are fixed.
+- **The other levels.** A1 has 500 words. A2, B1 and B2 have 170, 140 and
+  120, and the path audit checks the grammar of the path, not the size of
+  its vocabulary.

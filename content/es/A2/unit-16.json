@@ -103,6 +103,25 @@
       "note": "The tú command of hablar. It is the opposite of the yo form."
     },
     {
+      "id": "es/a2/u16/listen/come",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "come",
+      "options": [
+        "ten",
+        "habla",
+        "escribe",
+        "come"
+      ],
+      "audio": {
+        "text": "come",
+        "lang": "es",
+        "file": "/audio/es/come-a249eebf.mp3"
+      },
+      "translation": "eat",
+      "note": "The tú command of comer. It is the opposite of the yo form."
+    },
+    {
       "id": "es/a2/u16/drill/1",
       "type": "type_in",
       "prompt": "___ más despacio, por favor.",
@@ -142,18 +161,18 @@
       "note": "For tú you use the opposite of the yo form: habla, come, escribe. For usted it adds an r: hable, coma, escriba."
     },
     {
-      "id": "es/a2/u16/select/come",
+      "id": "es/a2/u16/select/escribe",
       "type": "select",
-      "prompt": "Pick the Spanish word for “eat”.",
+      "prompt": "Pick the Spanish word for “write”.",
       "options": [
-        "mira",
+        "escucha",
         "trabaja",
-        "ven",
-        "come"
+        "mira",
+        "escribe"
       ],
-      "answer": "come",
-      "translation": "eat",
-      "note": "The tú command of comer. It is the opposite of the yo form."
+      "answer": "escribe",
+      "translation": "write",
+      "note": "The tú command of escribir. It is the opposite of the yo form."
     },
     {
       "id": "es/a2/u16/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "open the window, please",
       "note": "Abra is the usted command of abrir."
-    },
-    {
-      "id": "es/a2/u16/select/escribe",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “write”.",
-      "options": [
-        "abre",
-        "escucha",
-        "mira",
-        "escribe"
-      ],
-      "answer": "escribe",
-      "translation": "write",
-      "note": "The tú command of escribir. It is the opposite of the yo form."
     },
     {
       "id": "es/a2/u16/drill/3",

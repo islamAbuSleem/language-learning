@@ -89,6 +89,25 @@
       "note": "The past subjunctive of hablar. It is the -ra form."
     },
     {
+      "id": "es/b2/u2/listen/comiera",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "comiera",
+      "options": [
+        "venir",
+        "volver",
+        "ir",
+        "comiera"
+      ],
+      "audio": {
+        "text": "comiera",
+        "lang": "es",
+        "file": "/audio/es/comiera-d491f8dd.mp3"
+      },
+      "translation": "I ate",
+      "note": "The past subjunctive of comer. It is the -ra form."
+    },
+    {
       "id": "es/b2/u2/drill/1",
       "type": "type_in",
       "prompt": "Si ___ tiempo, viajaría.",
@@ -128,18 +147,18 @@
       "note": "The past subjunctive is the -ra form: hablara, comiera, viviera."
     },
     {
-      "id": "es/b2/u2/select/comiera",
+      "id": "es/b2/u2/select/viviera",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I ate”.",
+      "prompt": "Pick the Spanish word for “I lived”.",
       "options": [
-        "comiera",
-        "salió",
-        "llegó",
-        "hablaba"
+        "quisiera",
+        "ser",
+        "llegar",
+        "viviera"
       ],
-      "answer": "comiera",
-      "translation": "I ate",
-      "note": "The past subjunctive of comer. It is the -ra form."
+      "answer": "viviera",
+      "translation": "I lived",
+      "note": "The past subjunctive of vivir. It is the -ra form."
     },
     {
       "id": "es/b2/u2/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "I would like a coffee, please",
       "note": "A polite request uses the past subjunctive."
-    },
-    {
-      "id": "es/b2/u2/select/viviera",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I lived”.",
-      "options": [
-        "veré",
-        "podré",
-        "haré",
-        "viviera"
-      ],
-      "answer": "viviera",
-      "translation": "I lived",
-      "note": "The past subjunctive of vivir. It is the -ra form."
     },
     {
       "id": "es/b2/u2/drill/3",

@@ -107,6 +107,25 @@
       "note": "Acabar de plus an infinitive means to have just done it."
     },
     {
+      "id": "es/b1/u7/listen/hace",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "hace",
+      "options": [
+        "agosto",
+        "octubre",
+        "septiembre",
+        "hace"
+      ],
+      "audio": {
+        "text": "hace",
+        "lang": "es",
+        "file": "/audio/es/hace-1baf8597.mp3"
+      },
+      "translation": "ago",
+      "note": "Ago. Make hace dos horas, hace un año."
+    },
+    {
       "id": "es/b1/u7/drill/1",
       "type": "type_in",
       "prompt": "___ de llegar.",
@@ -146,18 +165,18 @@
       "note": "Acabar de plus an infinitive means to have just done something: acabar de comer."
     },
     {
-      "id": "es/b1/u7/select/hace",
+      "id": "es/b1/u7/select/ayer",
       "type": "select",
-      "prompt": "Pick the Spanish word for “ago”.",
+      "prompt": "Pick the Spanish word for “yesterday”.",
       "options": [
-        "septiembre",
-        "octubre",
-        "hace",
-        "agosto"
+        "ayer",
+        "ahora",
+        "el mes",
+        "el invierno"
       ],
-      "answer": "hace",
-      "translation": "ago",
-      "note": "Ago. Make hace dos horas, hace un año."
+      "answer": "ayer",
+      "translation": "yesterday",
+      "note": "Yesterday."
     },
     {
       "id": "es/b1/u7/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I saw it two hours ago",
       "note": "Hace plus a time."
-    },
-    {
-      "id": "es/b1/u7/select/ayer",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “yesterday”.",
-      "options": [
-        "abril",
-        "junio",
-        "mayo",
-        "ayer"
-      ],
-      "answer": "ayer",
-      "translation": "yesterday",
-      "note": "Yesterday."
     },
     {
       "id": "es/b1/u7/drill/3",

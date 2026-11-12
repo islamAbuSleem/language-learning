@@ -103,6 +103,25 @@
       "note": "Masculine: el menú. The accent marks the stress."
     },
     {
+      "id": "es/a1/u13/listen/camarero",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el camarero",
+      "options": [
+        "la ensalada",
+        "la bebida",
+        "encargar",
+        "el camarero"
+      ],
+      "audio": {
+        "text": "camarero",
+        "lang": "es",
+        "file": "/audio/es/camarero-2038a9e0.mp3"
+      },
+      "translation": "waiter",
+      "note": "Masculine: el camarero. The feminine is la camarera."
+    },
+    {
       "id": "es/a1/u13/drill/1",
       "type": "type_in",
       "prompt": "Un café ___ leche, por favor.",
@@ -142,18 +161,18 @@
       "note": "Con is with and sin is without: un café con leche, un café sin azúcar."
     },
     {
-      "id": "es/a1/u13/select/camarero",
+      "id": "es/a1/u13/select/camarera",
       "type": "select",
-      "prompt": "Pick the Spanish word for “waiter”.",
+      "prompt": "Pick the Spanish word for “waitress”.",
       "options": [
         "el postre",
         "el azúcar",
-        "el camarero",
-        "la bebida"
+        "la bebida",
+        "la camarera"
       ],
-      "answer": "el camarero",
-      "translation": "waiter",
-      "note": "Masculine: el camarero. The feminine is la camarera."
+      "answer": "la camarera",
+      "translation": "waitress",
+      "note": "Feminine: la camarera."
     },
     {
       "id": "es/a1/u13/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "a tea without sugar",
       "note": "Sin is without."
-    },
-    {
-      "id": "es/a1/u13/select/camarera",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “waitress”.",
-      "options": [
-        "el camarero",
-        "el vaso",
-        "el plato",
-        "la camarera"
-      ],
-      "answer": "la camarera",
-      "translation": "waitress",
-      "note": "Feminine: la camarera."
     },
     {
       "id": "es/a1/u13/drill/3",

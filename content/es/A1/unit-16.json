@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "estufa",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/estufa-66653acc.mp3"
       },
       "translation": "the cooker",
       "note": "Feminine: la estufa."

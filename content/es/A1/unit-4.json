@@ -107,6 +107,25 @@
       "note": "An infinitive ending in -ar: hablo, hablas, habla."
     },
     {
+      "id": "es/a1/u4/listen/trabajar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "trabajar",
+      "options": [
+        "llegar",
+        "ser",
+        "hablar",
+        "trabajar"
+      ],
+      "audio": {
+        "text": "trabajar",
+        "lang": "es",
+        "file": "/audio/es/trabajar-acbc9a46.mp3"
+      },
+      "translation": "to work",
+      "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja."
+    },
+    {
       "id": "es/a1/u4/drill/1",
       "type": "type_in",
       "prompt": "Yo ___ español.",
@@ -146,18 +165,18 @@
       "note": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan."
     },
     {
-      "id": "es/a1/u4/select/trabajar",
+      "id": "es/a1/u4/select/estudiar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to work”.",
+      "prompt": "Pick the Spanish word for “to study”.",
       "options": [
-        "ser",
-        "hablar",
-        "llegar",
-        "trabajar"
+        "cocinar",
+        "mirar",
+        "caminar",
+        "estudiar"
       ],
-      "answer": "trabajar",
-      "translation": "to work",
-      "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja."
+      "answer": "estudiar",
+      "translation": "to study",
+      "note": "An infinitive ending in -ar: estudio, estudias, estudia."
     },
     {
       "id": "es/a1/u4/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "do you speak English?",
       "note": "The usted form adds an r to the yo form."
-    },
-    {
-      "id": "es/a1/u4/select/estudiar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to study”.",
-      "options": [
-        "cocinar",
-        "mirar",
-        "estudiar",
-        "caminar"
-      ],
-      "answer": "estudiar",
-      "translation": "to study",
-      "note": "An infinitive ending in -ar: estudio, estudias, estudia."
     },
     {
       "id": "es/a1/u4/drill/3",

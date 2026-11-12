@@ -11,6 +11,8 @@
     "test:watch": "vitest",
     "test:db": "node --env-file=.env node_modules/vitest/vitest.mjs run tests/progress/postgres.test.ts",
     "build:content": "node scripts/build-content.mjs",
+    "build:audio": "node scripts/build-audio.mjs",
+    "check:audio": "node scripts/build-audio.mjs --check",
     "audit:path": "node scripts/audit-path.mjs",
     "check:content": "node scripts/check-content.mjs",
     "migrate": "node --env-file=.env scripts/migrate.mjs",
@@ -24,7 +26,11 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@echogarden/espeak-ng-emscripten": "^0.3.5",
+    "@types/node": "^26.6.6",
+    "lamejs": "^1.2.1",
     "typescript": "~5.9.3",
-    "vitest": "^5.1.0"
+    "vitest": "^5.1.0",
+    "vue-tsc": "^3.3.14"
   }
 }

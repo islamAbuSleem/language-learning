@@ -107,6 +107,25 @@
       "note": "What is your name. You answer: me llamo..."
     },
     {
+      "id": "es/a0/u2/listen/me-llamo",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "me llamo",
+      "options": [
+        "no",
+        "bien",
+        "sí",
+        "me llamo"
+      ],
+      "audio": {
+        "text": "me llamo",
+        "lang": "es",
+        "file": "/audio/es/me-llamo-3914071c.mp3"
+      },
+      "translation": "my name is",
+      "note": "My name is. Me llamo Ana."
+    },
+    {
       "id": "es/a0/u2/drill/1",
       "type": "type_in",
       "prompt": "¿___ te llamas?",
@@ -146,18 +165,18 @@
       "note": "Me llamo means my name is. It is how you introduce yourself. The verbs behind these phrases, ser and estar, arrive in A1."
     },
     {
-      "id": "es/a0/u2/select/me-llamo",
+      "id": "es/a0/u2/select/como-estas",
       "type": "select",
-      "prompt": "Pick the Spanish word for “my name is”.",
+      "prompt": "Pick the Spanish word for “how are you”.",
       "options": [
-        "me llamo",
-        "no",
-        "sí",
-        "bien"
+        "cómo te llamas",
+        "buenas tardes",
+        "buenos días",
+        "cómo estás"
       ],
-      "answer": "me llamo",
-      "translation": "my name is",
-      "note": "My name is. Me llamo Ana."
+      "answer": "cómo estás",
+      "translation": "how are you",
+      "note": "How are you. You answer: estoy bien."
     },
     {
       "id": "es/a0/u2/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "my name is Ana",
       "note": "Me llamo."
-    },
-    {
-      "id": "es/a0/u2/select/como-estas",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “how are you”.",
-      "options": [
-        "cómo te llamas",
-        "sí",
-        "por favor",
-        "cómo estás"
-      ],
-      "answer": "cómo estás",
-      "translation": "how are you",
-      "note": "How are you. You answer: estoy bien."
     },
     {
       "id": "es/a0/u2/drill/3",

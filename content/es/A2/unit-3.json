@@ -107,6 +107,25 @@
       "note": "Its forms are irregular: voy, vas, va, vamos, vais, van."
     },
     {
+      "id": "es/a2/u3/listen/venir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "venir",
+      "options": [
+        "aprender",
+        "leer",
+        "vender",
+        "venir"
+      ],
+      "audio": {
+        "text": "venir",
+        "lang": "es",
+        "file": "/audio/es/venir-a5ae0388.mp3"
+      },
+      "translation": "to come",
+      "note": "Its forms are irregular: vengo, vienes, viene."
+    },
+    {
       "id": "es/a2/u3/drill/1",
       "type": "type_in",
       "prompt": "Yo ___ al trabajo.",
@@ -146,18 +165,18 @@
       "note": "Ir is irregular: voy, vas, va, vamos, vais, van."
     },
     {
-      "id": "es/a2/u3/select/venir",
+      "id": "es/a2/u3/select/volver",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to come”.",
+      "prompt": "Pick the Spanish word for “to return”.",
       "options": [
-        "cocinar",
-        "necesitar",
-        "mirar",
-        "venir"
+        "lavar",
+        "fregar",
+        "doblar",
+        "volver"
       ],
-      "answer": "venir",
-      "translation": "to come",
-      "note": "Its forms are irregular: vengo, vienes, viene."
+      "answer": "volver",
+      "translation": "to return",
+      "note": "Its forms are irregular: vuelvo, vuelves, vuelve."
     },
     {
       "id": "es/a2/u3/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "we are going shopping",
       "note": "Vamos is the regular form of ir."
-    },
-    {
-      "id": "es/a2/u3/select/volver",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to return”.",
-      "options": [
-        "responder",
-        "escribir",
-        "recibir",
-        "volver"
-      ],
-      "answer": "volver",
-      "translation": "to return",
-      "note": "Its forms are irregular: vuelvo, vuelves, vuelve."
     },
     {
       "id": "es/a2/u3/drill/3",

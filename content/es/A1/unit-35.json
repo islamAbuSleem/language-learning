@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "cita",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/cita-49e42d87.mp3"
       },
       "translation": "the appointment",
       "note": "Feminine: la cita."

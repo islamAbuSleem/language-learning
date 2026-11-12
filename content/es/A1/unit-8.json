@@ -93,6 +93,25 @@
       "note": "It changes to roja before a feminine noun: la camisa roja."
     },
     {
+      "id": "es/a1/u8/listen/azul",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "azul",
+      "options": [
+        "rojo",
+        "negro",
+        "verde",
+        "azul"
+      ],
+      "audio": {
+        "text": "azul",
+        "lang": "es",
+        "file": "/audio/es/azul-48019888.mp3"
+      },
+      "translation": "blue",
+      "note": "It never changes: la camisa azul."
+    },
+    {
       "id": "es/a1/u8/drill/1",
       "type": "type_in",
       "prompt": "La camisa es ___.",
@@ -132,18 +151,18 @@
       "note": "A colour changes to agree with the noun: el Wearing rojo, but la camisa roja."
     },
     {
-      "id": "es/a1/u8/select/azul",
+      "id": "es/a1/u8/select/verde",
       "type": "select",
-      "prompt": "Pick the Spanish word for “blue”.",
+      "prompt": "Pick the Spanish word for “green”.",
       "options": [
-        "azul",
         "verde",
+        "azul",
         "negro",
         "rojo"
       ],
-      "answer": "azul",
-      "translation": "blue",
-      "note": "It never changes: la camisa azul."
+      "answer": "verde",
+      "translation": "green",
+      "note": "It never changes: el coche verde."
     },
     {
       "id": "es/a1/u8/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "the car is green",
       "note": "Verde never changes."
-    },
-    {
-      "id": "es/a1/u8/select/verde",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “green”.",
-      "options": [
-        "azul",
-        "negro",
-        "rojo",
-        "verde"
-      ],
-      "answer": "verde",
-      "translation": "green",
-      "note": "It never changes: el coche verde."
     },
     {
       "id": "es/a1/u8/drill/3",

@@ -107,6 +107,25 @@
       "note": "Feminine: la hora. It also means the time."
     },
     {
+      "id": "es/a2/u4/listen/minuto",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el minuto",
+      "options": [
+        "mayo",
+        "junio",
+        "julio",
+        "el minuto"
+      ],
+      "audio": {
+        "text": "minuto",
+        "lang": "es",
+        "file": "/audio/es/minuto-cb5b0431.mp3"
+      },
+      "translation": "minute",
+      "note": "Masculine: el minuto."
+    },
+    {
       "id": "es/a2/u4/drill/1",
       "type": "type_in",
       "prompt": "Es la ___.",
@@ -146,18 +165,18 @@
       "note": "Tell the time with es la una, es la dos: es la una y media, es las tres."
     },
     {
-      "id": "es/a2/u4/select/minuto",
+      "id": "es/a2/u4/select/mediodia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “minute”.",
+      "prompt": "Pick the Spanish word for “noon”.",
       "options": [
-        "octubre",
-        "noviembre",
-        "septiembre",
-        "el minuto"
+        "la semana",
+        "el mes",
+        "noche",
+        "el mediodía"
       ],
-      "answer": "el minuto",
-      "translation": "minute",
-      "note": "Masculine: el minuto."
+      "answer": "el mediodía",
+      "translation": "noon",
+      "note": "Masculine: el mediodía."
     },
     {
       "id": "es/a2/u4/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "it is half past three",
       "note": "After any other hour it is las and y media."
-    },
-    {
-      "id": "es/a2/u4/select/mediodia",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “noon”.",
-      "options": [
-        "febrero",
-        "marzo",
-        "el mediodía",
-        "enero"
-      ],
-      "answer": "el mediodía",
-      "translation": "noon",
-      "note": "Masculine: el mediodía."
     },
     {
       "id": "es/a2/u4/drill/3",

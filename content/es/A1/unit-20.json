@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "flor",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/flor-5d8f9c0e.mp3"
       },
       "translation": "the flower",
       "note": "Feminine: la flor."

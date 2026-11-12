@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "diciembre",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/diciembre-85112939.mp3"
       },
       "translation": "December",
       "note": "No article: en diciembre."

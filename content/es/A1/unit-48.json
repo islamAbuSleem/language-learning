@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "granja",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/granja-d9172adb.mp3"
       },
       "translation": "the farm",
       "note": "Feminine: la granja."

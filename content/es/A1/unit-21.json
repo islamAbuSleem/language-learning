@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "naranja",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/naranja-64c91778.mp3"
       },
       "translation": "the orange",
       "note": "Feminine: la naranja. The colour is also la naranja."

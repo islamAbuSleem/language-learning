@@ -103,6 +103,25 @@
       "note": "He plus the participle of hablar."
     },
     {
+      "id": "es/a2/u17/listen/he-comido",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "he comido",
+      "options": [
+        "trabajaba",
+        "estudiaba",
+        "vivía",
+        "he comido"
+      ],
+      "audio": {
+        "text": "he comido",
+        "lang": "es",
+        "file": "/audio/es/he-comido-898461ec.mp3"
+      },
+      "translation": "I have eaten",
+      "note": "He plus the participle of comer."
+    },
+    {
       "id": "es/a2/u17/drill/1",
       "type": "type_in",
       "prompt": "___ terminado el trabajo hoy.",
@@ -142,18 +161,18 @@
       "note": "The perfect is he + the participle: he hablado, has comido, hemos visto."
     },
     {
-      "id": "es/a2/u17/select/he-comido",
+      "id": "es/a2/u17/select/he-vivido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I have eaten”.",
+      "prompt": "Pick the Spanish word for “I have lived”.",
       "options": [
-        "salió",
-        "hablaba",
-        "comía",
-        "he comido"
+        "recibir",
+        "compartir",
+        "abrir",
+        "he vivido"
       ],
-      "answer": "he comido",
-      "translation": "I have eaten",
-      "note": "He plus the participle of comer."
+      "answer": "he vivido",
+      "translation": "I have lived",
+      "note": "He plus the participle of vivir."
     },
     {
       "id": "es/a2/u17/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "I have not eaten yet",
       "note": "No plus the perfect."
-    },
-    {
-      "id": "es/a2/u17/select/he-vivido",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I have lived”.",
-      "options": [
-        "entendió",
-        "llegó",
-        "pidió",
-        "he vivido"
-      ],
-      "answer": "he vivido",
-      "translation": "I have lived",
-      "note": "He plus the participle of vivir."
     },
     {
       "id": "es/a2/u17/drill/3",

@@ -83,6 +83,25 @@
       "note": "Feminine: la cocina. It can also mean the cooking itself."
     },
     {
+      "id": "es/a1/u9/listen/cuarto",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el cuarto",
+      "options": [
+        "bajo",
+        "el baño",
+        "la cocina",
+        "el cuarto"
+      ],
+      "audio": {
+        "text": "cuarto",
+        "lang": "es",
+        "file": "/audio/es/cuarto-ef32843c.mp3"
+      },
+      "translation": "room",
+      "note": "Masculine: el cuarto. It also means a quarter."
+    },
+    {
       "id": "es/a1/u9/drill/1",
       "type": "type_in",
       "prompt": "El libro está ___ la mesa.",
@@ -122,18 +141,18 @@
       "note": "Most places take de: en la cocina, de la mesa, bajo la cama."
     },
     {
-      "id": "es/a1/u9/select/cuarto",
+      "id": "es/a1/u9/select/bano",
       "type": "select",
-      "prompt": "Pick the Spanish word for “room”.",
+      "prompt": "Pick the Spanish word for “bathroom”.",
       "options": [
-        "el dormitorio",
-        "la cama",
         "el cuarto",
-        "el jardín"
+        "el jardín",
+        "el dormitorio",
+        "el baño"
       ],
-      "answer": "el cuarto",
-      "translation": "room",
-      "note": "Masculine: el cuarto. It also means a quarter."
+      "answer": "el baño",
+      "translation": "bathroom",
+      "note": "Masculine: el baño. It also means the bath."
     },
     {
       "id": "es/a1/u9/drill/2",
@@ -145,20 +164,6 @@
       ],
       "translation": "the key is under the sofa",
       "note": "Bajo is under."
-    },
-    {
-      "id": "es/a1/u9/select/bano",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “bathroom”.",
-      "options": [
-        "el comedor",
-        "la terraza",
-        "la cama",
-        "el baño"
-      ],
-      "answer": "el baño",
-      "translation": "bathroom",
-      "note": "Masculine: el baño. It also means the bath."
     },
     {
       "id": "es/a1/u9/drill/3",

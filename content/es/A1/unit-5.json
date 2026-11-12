@@ -107,6 +107,25 @@
       "note": "One. Before a noun it becomes un or una."
     },
     {
+      "id": "es/a1/u5/listen/un",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "un",
+      "options": [
+        "cinco",
+        "diez",
+        "tres",
+        "un"
+      ],
+      "audio": {
+        "text": "un",
+        "lang": "es",
+        "file": "/audio/es/un-61433a5a.mp3"
+      },
+      "translation": "a",
+      "note": "Masculine one: un libro."
+    },
+    {
       "id": "es/a1/u5/drill/1",
       "type": "type_in",
       "prompt": "___ café, por favor.",
@@ -146,18 +165,18 @@
       "note": "Un and una mean one, and they match the noun: un libro, una casa."
     },
     {
-      "id": "es/a1/u5/select/un",
+      "id": "es/a1/u5/select/una",
       "type": "select",
       "prompt": "Pick the Spanish word for “a”.",
       "options": [
-        "dos",
-        "tres",
+        "diez",
         "cinco",
-        "un"
+        "una",
+        "veinte"
       ],
-      "answer": "un",
+      "answer": "una",
       "translation": "a",
-      "note": "Masculine one: un libro."
+      "note": "Feminine one: una casa."
     },
     {
       "id": "es/a1/u5/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "a big house",
       "note": "Una is the feminine one."
-    },
-    {
-      "id": "es/a1/u5/select/una",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “a”.",
-      "options": [
-        "cinco",
-        "diez",
-        "veinte",
-        "una"
-      ],
-      "answer": "una",
-      "translation": "a",
-      "note": "Feminine one: una casa."
     },
     {
       "id": "es/a1/u5/drill/3",

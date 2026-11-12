@@ -107,6 +107,25 @@
       "note": "What. It carries an accent in a question."
     },
     {
+      "id": "es/a2/u6/listen/quien",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "quién",
+      "options": [
+        "qué",
+        "cuándo",
+        "dónde",
+        "quién"
+      ],
+      "audio": {
+        "text": "quién",
+        "lang": "es",
+        "file": "/audio/es/quien-f2f1fd28.mp3"
+      },
+      "translation": "who",
+      "note": "Who. It carries an accent in a question."
+    },
+    {
       "id": "es/a2/u6/drill/1",
       "type": "type_in",
       "prompt": "¿___ está la estación?",
@@ -146,18 +165,18 @@
       "note": "The question words carry accents in a question: qué, quién, dónde, cuándo, cómo, cuánto."
     },
     {
-      "id": "es/a2/u6/select/quien",
+      "id": "es/a2/u6/select/donde",
       "type": "select",
-      "prompt": "Pick the Spanish word for “who”.",
+      "prompt": "Pick the Spanish word for “where”.",
       "options": [
         "quién",
         "cuándo",
         "por qué",
-        "cómo"
+        "dónde"
       ],
-      "answer": "quién",
-      "translation": "who",
-      "note": "Who. It carries an accent in a question."
+      "answer": "dónde",
+      "translation": "where",
+      "note": "Where. It carries an accent in a question."
     },
     {
       "id": "es/a2/u6/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "how much is the coffee?",
       "note": "Cuánto asks for a quantity."
-    },
-    {
-      "id": "es/a2/u6/select/donde",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “where”.",
-      "options": [
-        "cómo",
-        "cuánto",
-        "la pregunta",
-        "dónde"
-      ],
-      "answer": "dónde",
-      "translation": "where",
-      "note": "Where. It carries an accent in a question."
     },
     {
       "id": "es/a2/u6/drill/3",

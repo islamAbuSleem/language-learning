@@ -107,6 +107,25 @@
       "note": "Feminine: la calle."
     },
     {
+      "id": "es/a1/u2/listen/tienda",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la tienda",
+      "options": [
+        "la estación",
+        "la calle",
+        "el mercado",
+        "la tienda"
+      ],
+      "audio": {
+        "text": "tienda",
+        "lang": "es",
+        "file": "/audio/es/tienda-1815acb8.mp3"
+      },
+      "translation": "shop",
+      "note": "Feminine: la tienda."
+    },
+    {
       "id": "es/a1/u2/drill/1",
       "type": "type_in",
       "prompt": "¿Dónde ___ la estación?",
@@ -146,18 +165,18 @@
       "note": "Some places take de as well: en la tienda, en la calle, but a través de la ciudad."
     },
     {
-      "id": "es/a1/u2/select/tienda",
+      "id": "es/a1/u2/select/cerca",
       "type": "select",
-      "prompt": "Pick the Spanish word for “shop”.",
+      "prompt": "Pick the Spanish word for “near”.",
       "options": [
-        "la tienda",
-        "la calle",
-        "la estación",
-        "el mercado"
+        "la derecha",
+        "la izquierda",
+        "lejos",
+        "cerca"
       ],
-      "answer": "la tienda",
-      "translation": "shop",
-      "note": "Feminine: la tienda."
+      "answer": "cerca",
+      "translation": "near",
+      "note": "It is an adjective and takes de before a place: cerca de."
     },
     {
       "id": "es/a1/u2/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "the hotel is near the station",
       "note": "Cerca takes de before a place."
-    },
-    {
-      "id": "es/a1/u2/select/cerca",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “near”.",
-      "options": [
-        "lejos",
-        "la derecha",
-        "la izquierda",
-        "cerca"
-      ],
-      "answer": "cerca",
-      "translation": "near",
-      "note": "It is an adjective and takes de before a place: cerca de."
     },
     {
       "id": "es/a1/u2/drill/3",

@@ -103,6 +103,25 @@
       "note": "Masculine: el precio."
     },
     {
+      "id": "es/a1/u12/listen/pagar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "pagar",
+      "options": [
+        "la bolsa",
+        "el precio",
+        "pagar",
+        "los euros"
+      ],
+      "audio": {
+        "text": "pagar",
+        "lang": "es",
+        "file": "/audio/es/pagar-92bf5b00.mp3"
+      },
+      "translation": "to pay",
+      "note": "An infinitive ending in -ar: pago, pagas, paga."
+    },
+    {
       "id": "es/a1/u12/drill/1",
       "type": "type_in",
       "prompt": "Voy ___ la tienda.",
@@ -142,18 +161,18 @@
       "note": "You say ir a + a place: voy a la tienda. And a price is cuánto cuesta."
     },
     {
-      "id": "es/a1/u12/select/pagar",
+      "id": "es/a1/u12/select/comprar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to pay”.",
+      "prompt": "Pick the Spanish word for “to buy”.",
       "options": [
         "barato",
-        "probarse",
         "la talla",
-        "pagar"
+        "probarse",
+        "comprar"
       ],
-      "answer": "pagar",
-      "translation": "to pay",
-      "note": "An infinitive ending in -ar: pago, pagas, paga."
+      "answer": "comprar",
+      "translation": "to buy",
+      "note": "An infinitive ending in -ar: compro, compras, compra."
     },
     {
       "id": "es/a1/u12/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "how much is the coat",
       "note": "Cuánto goes before the verb."
-    },
-    {
-      "id": "es/a1/u12/select/comprar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to buy”.",
-      "options": [
-        "la bolsa",
-        "pagar",
-        "el precio",
-        "comprar"
-      ],
-      "answer": "comprar",
-      "translation": "to buy",
-      "note": "An infinitive ending in -ar: compro, compras, compra."
     },
     {
       "id": "es/a1/u12/drill/3",

@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "ayuntamiento",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/ayuntamiento-fb61254c.mp3"
       },
       "translation": "the town hall",
       "note": "Masculine: el ayuntamiento."

@@ -93,6 +93,25 @@
       "note": "Masculine: el lunes. It is also plural in meaning: los lunes."
     },
     {
+      "id": "es/a1/u11/listen/martes",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el martes",
+      "options": [
+        "el martes",
+        "el miércoles",
+        "el lunes",
+        "el jueves"
+      ],
+      "audio": {
+        "text": "martes",
+        "lang": "es",
+        "file": "/audio/es/martes-e25aa750.mp3"
+      },
+      "translation": "Tuesday",
+      "note": "Masculine: el martes. It is also plural in meaning."
+    },
+    {
       "id": "es/a1/u11/drill/1",
       "type": "type_in",
       "prompt": "___ lunes tengo una reunion.",
@@ -132,18 +151,18 @@
       "note": "The days are masculine and take el, but you usually leave the article out: el lunes, but lunes por la mañana."
     },
     {
-      "id": "es/a1/u11/select/martes",
+      "id": "es/a1/u11/select/miercoles",
       "type": "select",
-      "prompt": "Pick the Spanish word for “Tuesday”.",
+      "prompt": "Pick the Spanish word for “Wednesday”.",
       "options": [
+        "el martes",
         "el jueves",
-        "el viernes",
-        "el sábado",
-        "el martes"
+        "el lunes",
+        "el miércoles"
       ],
-      "answer": "el martes",
-      "translation": "Tuesday",
-      "note": "Masculine: el martes. It is also plural in meaning."
+      "answer": "el miércoles",
+      "translation": "Wednesday",
+      "note": "Masculine: el miércoles. The accent marks the stress."
     },
     {
       "id": "es/a1/u11/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "it is half past two",
       "note": "After la una you say la una y media, with no s."
-    },
-    {
-      "id": "es/a1/u11/select/miercoles",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “Wednesday”.",
-      "options": [
-        "el jueves",
-        "el viernes",
-        "el sábado",
-        "el miércoles"
-      ],
-      "answer": "el miércoles",
-      "translation": "Wednesday",
-      "note": "Masculine: el miércoles. The accent marks the stress."
     },
     {
       "id": "es/a1/u11/drill/3",

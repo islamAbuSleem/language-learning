@@ -89,6 +89,25 @@
       "note": "The e changes to ie: quiero, quieres, quiere."
     },
     {
+      "id": "es/b1/u1/listen/poder",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "poder",
+      "options": [
+        "poder",
+        "ser",
+        "llegar",
+        "sentir"
+      ],
+      "audio": {
+        "text": "poder",
+        "lang": "es",
+        "file": "/audio/es/poder-a9404618.mp3"
+      },
+      "translation": "to be able to",
+      "note": "The o changes to ue: puedo, puedes, puede."
+    },
+    {
       "id": "es/b1/u1/drill/1",
       "type": "type_in",
       "prompt": "Yo ___ aprender más.",
@@ -128,18 +147,18 @@
       "note": "Many verbs change their stem in the present: querer becomes quiero, dormir becomes duermo."
     },
     {
-      "id": "es/b1/u1/select/poder",
+      "id": "es/b1/u1/select/dormir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to be able to”.",
+      "prompt": "Pick the Spanish word for “to sleep”.",
       "options": [
-        "trabajar",
-        "estudiar",
-        "hablar",
-        "poder"
+        "he hablado",
+        "he comido",
+        "era",
+        "dormir"
       ],
-      "answer": "poder",
-      "translation": "to be able to",
-      "note": "The o changes to ue: puedo, puedes, puede."
+      "answer": "dormir",
+      "translation": "to sleep",
+      "note": "The o changes to ue: duermo, duermes, duerme."
     },
     {
       "id": "es/b1/u1/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "I cannot come today",
       "note": "Poder changes o to ue."
-    },
-    {
-      "id": "es/b1/u1/select/dormir",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to sleep”.",
-      "options": [
-        "estudiar",
-        "caminar",
-        "cocinar",
-        "dormir"
-      ],
-      "answer": "dormir",
-      "translation": "to sleep",
-      "note": "The o changes to ue: duermo, duermes, duerme."
     },
     {
       "id": "es/b1/u1/drill/3",

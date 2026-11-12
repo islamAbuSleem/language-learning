@@ -103,6 +103,25 @@
       "note": "Hello. It is used at any time of day."
     },
     {
+      "id": "es/a0/u1/listen/adios",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "adiós",
+      "options": [
+        "adiós",
+        "buenas tardes",
+        "buenos días",
+        "hola"
+      ],
+      "audio": {
+        "text": "adiós",
+        "lang": "es",
+        "file": "/audio/es/adios-71ef8a04.mp3"
+      },
+      "translation": "goodbye",
+      "note": "Goodbye. The accent marks the stress."
+    },
+    {
       "id": "es/a0/u1/drill/1",
       "type": "type_in",
       "prompt": "___ días, señora.",
@@ -142,18 +161,18 @@
       "note": "Good morning is only for the morning. Good afternoon is for the afternoon, and good night is for the evening."
     },
     {
-      "id": "es/a0/u1/select/adios",
+      "id": "es/a0/u1/select/buenos-dias",
       "type": "select",
-      "prompt": "Pick the Spanish word for “goodbye”.",
+      "prompt": "Pick the Spanish word for “good morning”.",
       "options": [
-        "hola",
-        "buenos días",
         "qué tal",
-        "adiós"
+        "hola",
+        "buenas noches",
+        "buenos días"
       ],
-      "answer": "adiós",
-      "translation": "goodbye",
-      "note": "Goodbye. The accent marks the stress."
+      "answer": "buenos días",
+      "translation": "good morning",
+      "note": "Good morning. Literally good days."
     },
     {
       "id": "es/a0/u1/drill/2",
@@ -165,20 +184,6 @@
       ],
       "translation": "a coffee with milk, please",
       "note": "Por favor goes before the thing you are asking for."
-    },
-    {
-      "id": "es/a0/u1/select/buenos-dias",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “good morning”.",
-      "options": [
-        "adiós",
-        "buenas tardes",
-        "buenas noches",
-        "buenos días"
-      ],
-      "answer": "buenos días",
-      "translation": "good morning",
-      "note": "Good morning. Literally good days."
     },
     {
       "id": "es/a0/u1/drill/3",

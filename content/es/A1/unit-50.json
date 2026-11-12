@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "planchar",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/planchar-26207a4c.mp3"
       },
       "translation": "to iron",
       "note": "A regular -ar verb: plancho, planchas, plancha."

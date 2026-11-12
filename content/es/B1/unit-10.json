@@ -107,6 +107,25 @@
       "note": "The conditional of hablar."
     },
     {
+      "id": "es/b1/u10/listen/comeria",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "comería",
+      "options": [
+        "estar",
+        "planchar",
+        "barrer",
+        "comería"
+      ],
+      "audio": {
+        "text": "comería",
+        "lang": "es",
+        "file": "/audio/es/comeria-c4dd41a4.mp3"
+      },
+      "translation": "I would eat",
+      "note": "The conditional of comer."
+    },
+    {
       "id": "es/b1/u10/drill/1",
       "type": "type_in",
       "prompt": "___ a tu casa.",
@@ -146,18 +165,18 @@
       "note": "The conditional ends in -ía: hablaría, comería, viviría. It is the same ending as the imperfect of the -er verbs."
     },
     {
-      "id": "es/b1/u10/select/comeria",
+      "id": "es/b1/u10/select/viviria",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I would eat”.",
+      "prompt": "Pick the Spanish word for “I would live”.",
       "options": [
-        "trabajaré",
-        "estudiaré",
-        "viviré",
-        "comería"
+        "he hecho",
+        "he dicho",
+        "he visto",
+        "viviría"
       ],
-      "answer": "comería",
-      "translation": "I would eat",
-      "note": "The conditional of comer."
+      "answer": "viviría",
+      "translation": "I would live",
+      "note": "The conditional of vivir."
     },
     {
       "id": "es/b1/u10/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "would you eat with me?",
       "note": "The conditional asks politely."
-    },
-    {
-      "id": "es/b1/u10/select/viviria",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I would live”.",
-      "options": [
-        "hablar",
-        "trabajar",
-        "estudiar",
-        "viviría"
-      ],
-      "answer": "viviría",
-      "translation": "I would live",
-      "note": "The conditional of vivir."
     },
     {
       "id": "es/b1/u10/drill/3",

@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "cliente",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/cliente-128bbf68.mp3"
       },
       "translation": "the customer",
       "note": "Masculine: el cliente."

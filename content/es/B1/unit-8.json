@@ -107,6 +107,25 @@
       "note": "More. It also means most. It takes an accent in a question."
     },
     {
+      "id": "es/b1/u8/listen/menos",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "menos",
+      "options": [
+        "peor",
+        "inferior",
+        "superior",
+        "menos"
+      ],
+      "audio": {
+        "text": "menos",
+        "lang": "es",
+        "file": "/audio/es/menos-8d057590.mp3"
+      },
+      "translation": "less",
+      "note": "Less. It also means fewest."
+    },
+    {
       "id": "es/b1/u8/drill/1",
       "type": "type_in",
       "prompt": "Esta casa es ___ grande que la otra.",
@@ -146,18 +165,18 @@
       "note": "Más and menos compare. The superlative adds -ísimo: el más grande, la más pequeña."
     },
     {
-      "id": "es/b1/u8/select/menos",
+      "id": "es/b1/u8/select/mejor",
       "type": "select",
-      "prompt": "Pick the Spanish word for “less”.",
+      "prompt": "Pick the Spanish word for “better”.",
       "options": [
-        "menos",
-        "peor",
+        "mejor",
         "superior",
-        "mejor"
+        "inferior",
+        "peor"
       ],
-      "answer": "menos",
-      "translation": "less",
-      "note": "Less. It also means fewest."
+      "answer": "mejor",
+      "translation": "better",
+      "note": "Better. It has no comparative form: es mejor, es el mejor."
     },
     {
       "id": "es/b1/u8/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "it is the biggest in the class",
       "note": "The superlative of the group."
-    },
-    {
-      "id": "es/b1/u8/select/mejor",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “better”.",
-      "options": [
-        "peor",
-        "superior",
-        "menos",
-        "mejor"
-      ],
-      "answer": "mejor",
-      "translation": "better",
-      "note": "Better. It has no comparative form: es mejor, es el mejor."
     },
     {
       "id": "es/b1/u8/drill/3",

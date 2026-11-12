@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "carpeta",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/carpeta-a608bbfc.mp3"
       },
       "translation": "the folder",
       "note": "Feminine: la carpeta."

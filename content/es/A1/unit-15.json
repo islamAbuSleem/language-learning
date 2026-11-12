@@ -107,6 +107,25 @@
       "note": "Masculine: el barrio. It also means a district of a city."
     },
     {
+      "id": "es/a1/u15/listen/plaza",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la plaza",
+      "options": [
+        "el edificio",
+        "la avenida",
+        "la plaza",
+        "el barrio"
+      ],
+      "audio": {
+        "text": "plaza",
+        "lang": "es",
+        "file": "/audio/es/plaza-e3f155b4.mp3"
+      },
+      "translation": "square",
+      "note": "Feminine: la plaza. It is the square in a town."
+    },
+    {
       "id": "es/a1/u15/drill/1",
       "type": "type_in",
       "prompt": "Soy ___ Madrid.",
@@ -146,18 +165,18 @@
       "note": "Where you are from is ser de: soy de Madrid. Where you are now is estar: estoy cerca."
     },
     {
-      "id": "es/a1/u15/select/plaza",
+      "id": "es/a1/u15/select/edificio",
       "type": "select",
-      "prompt": "Pick the Spanish word for “square”.",
+      "prompt": "Pick the Spanish word for “building”.",
       "options": [
-        "la tienda",
-        "el mercado",
-        "la calle",
-        "la plaza"
+        "aquí",
+        "allí",
+        "encima",
+        "el edificio"
       ],
-      "answer": "la plaza",
-      "translation": "square",
-      "note": "Feminine: la plaza. It is the square in a town."
+      "answer": "el edificio",
+      "translation": "building",
+      "note": "Masculine: el edificio."
     },
     {
       "id": "es/a1/u15/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "the bench is in the square",
       "note": "Position uses estar."
-    },
-    {
-      "id": "es/a1/u15/select/edificio",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “building”.",
-      "options": [
-        "allá",
-        "el barrio",
-        "la plaza",
-        "el edificio"
-      ],
-      "answer": "el edificio",
-      "translation": "building",
-      "note": "Masculine: el edificio."
     },
     {
       "id": "es/a1/u15/drill/3",

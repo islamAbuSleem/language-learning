@@ -107,6 +107,25 @@
       "note": "This, close to the speaker. It never changes."
     },
     {
+      "id": "es/b1/u5/listen/eso",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "eso",
+      "options": [
+        "te",
+        "lo",
+        "me",
+        "eso"
+      ],
+      "audio": {
+        "text": "eso",
+        "lang": "es",
+        "file": "/audio/es/eso-6199a070.mp3"
+      },
+      "translation": "that",
+      "note": "That, close to the listener. It never changes."
+    },
+    {
       "id": "es/b1/u5/drill/1",
       "type": "type_in",
       "prompt": "Hay ___ en la cocina.",
@@ -146,18 +165,18 @@
       "note": "These words stand in for a noun: eso es mi coche. Alguien and nadie work the same way."
     },
     {
-      "id": "es/b1/u5/select/eso",
+      "id": "es/b1/u5/select/aquello",
       "type": "select",
-      "prompt": "Pick the Spanish word for “that”.",
+      "prompt": "Pick the Spanish word for “that over there”.",
       "options": [
-        "nos",
-        "los",
-        "las",
-        "eso"
+        "te",
+        "me",
+        "aquello",
+        "lo"
       ],
-      "answer": "eso",
-      "translation": "that",
-      "note": "That, close to the listener. It never changes."
+      "answer": "aquello",
+      "translation": "that over there",
+      "note": "That, far from both. It never changes."
     },
     {
       "id": "es/b1/u5/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "there is nobody today",
       "note": "Nadie needs no in front."
-    },
-    {
-      "id": "es/b1/u5/select/aquello",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “that over there”.",
-      "options": [
-        "nos",
-        "los",
-        "las",
-        "aquello"
-      ],
-      "answer": "aquello",
-      "translation": "that over there",
-      "note": "That, far from both. It never changes."
     },
     {
       "id": "es/b1/u5/drill/3",

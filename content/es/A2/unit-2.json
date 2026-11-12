@@ -107,6 +107,25 @@
       "note": "An infinitive ending in -ir: escribo, escribes, escribe."
     },
     {
+      "id": "es/a2/u2/listen/recibir",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "recibir",
+      "options": [
+        "abrir",
+        "compartir",
+        "escribir",
+        "recibir"
+      ],
+      "audio": {
+        "text": "recibir",
+        "lang": "es",
+        "file": "/audio/es/recibir-1d158f76.mp3"
+      },
+      "translation": "to receive",
+      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
+    },
+    {
       "id": "es/a2/u2/drill/1",
       "type": "type_in",
       "prompt": "Yo ___ una carta.",
@@ -146,18 +165,18 @@
       "note": "An -ir verb in the present: escribo, escribes, escribe, escribimos, escribís, escriben."
     },
     {
-      "id": "es/a2/u2/select/recibir",
+      "id": "es/a2/u2/select/abrir",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to receive”.",
+      "prompt": "Pick the Spanish word for “to open”.",
       "options": [
-        "recibir",
-        "beber",
         "comer",
-        "aprender"
+        "aprender",
+        "beber",
+        "abrir"
       ],
-      "answer": "recibir",
-      "translation": "to receive",
-      "note": "An infinitive ending in -ir: recibo, recibes, recibe."
+      "answer": "abrir",
+      "translation": "to open",
+      "note": "An infinitive ending in -ir: abro, abres, abre."
     },
     {
       "id": "es/a2/u2/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "we open the shop at ten",
       "note": "The nosotros form of abrir."
-    },
-    {
-      "id": "es/a2/u2/select/abrir",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to open”.",
-      "options": [
-        "vender",
-        "perder",
-        "correr",
-        "abrir"
-      ],
-      "answer": "abrir",
-      "translation": "to open",
-      "note": "An infinitive ending in -ir: abro, abres, abre."
     },
     {
       "id": "es/a2/u2/drill/3",

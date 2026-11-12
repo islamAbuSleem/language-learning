@@ -107,6 +107,25 @@
       "note": "Me, or myself: me llamo."
     },
     {
+      "id": "es/b1/u4/listen/te",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "te",
+      "options": [
+        "me",
+        "lo",
+        "la",
+        "te"
+      ],
+      "audio": {
+        "text": "te",
+        "lang": "es",
+        "file": "/audio/es/te-374536d3.mp3"
+      },
+      "translation": "you",
+      "note": "You, singular. It goes before the verb: te veo."
+    },
+    {
       "id": "es/b1/u4/drill/1",
       "type": "type_in",
       "prompt": "___ veo.",
@@ -146,18 +165,18 @@
       "note": "The object pronoun goes before the verb: lo veo, la escucho."
     },
     {
-      "id": "es/b1/u4/select/te",
+      "id": "es/b1/u4/select/lo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “you”.",
+      "prompt": "Pick the Spanish word for “it”.",
       "options": [
+        "te",
         "la",
-        "nos",
-        "lo",
-        "te"
+        "me",
+        "lo"
       ],
-      "answer": "te",
-      "translation": "you",
-      "note": "You, singular. It goes before the verb: te veo."
+      "answer": "lo",
+      "translation": "it",
+      "note": "It, him or it. It takes the place of a masculine object."
     },
     {
       "id": "es/b1/u4/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I want to see it.",
       "note": "With an infinitive the pronoun goes after it and is attached."
-    },
-    {
-      "id": "es/b1/u4/select/lo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “it”.",
-      "options": [
-        "ella",
-        "me",
-        "lo",
-        "él"
-      ],
-      "answer": "lo",
-      "translation": "it",
-      "note": "It, him or it. It takes the place of a masculine object."
     },
     {
       "id": "es/b1/u4/drill/3",

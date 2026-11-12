@@ -107,6 +107,25 @@
       "note": "The preterite of pedir. The yo form is pedí."
     },
     {
+      "id": "es/a2/u14/listen/entendio",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "entendió",
+      "options": [
+        "compartir",
+        "pedir",
+        "descubrir",
+        "entendió"
+      ],
+      "audio": {
+        "text": "entendió",
+        "lang": "es",
+        "file": "/audio/es/entendio-68103ad4.mp3"
+      },
+      "translation": "he understood",
+      "note": "The preterite of entender. The yo form is entendí."
+    },
+    {
       "id": "es/a2/u14/drill/1",
       "type": "type_in",
       "prompt": "Comí ___ las dos.",
@@ -146,18 +165,18 @@
       "note": "The preterite of an -er or -ir verb: comí, comiste, comió, comimos, comisteis, comieron."
     },
     {
-      "id": "es/a2/u14/select/entendio",
+      "id": "es/a2/u14/select/llego",
       "type": "select",
-      "prompt": "Pick the Spanish word for “he understood”.",
+      "prompt": "Pick the Spanish word for “he arrived”.",
       "options": [
-        "entendió",
-        "beber",
-        "comer",
-        "aprender"
+        "trabajaré",
+        "estudiaré",
+        "veré",
+        "llegó"
       ],
-      "answer": "entendió",
-      "translation": "he understood",
-      "note": "The preterite of entender. The yo form is entendí."
+      "answer": "llegó",
+      "translation": "he arrived",
+      "note": "The preterite of llegar. The yo form is llegué."
     },
     {
       "id": "es/a2/u14/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I ordered a taxi",
       "note": "Pedir is irregular in the yo form."
-    },
-    {
-      "id": "es/a2/u14/select/llego",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “he arrived”.",
-      "options": [
-        "caminar",
-        "mirar",
-        "cocinar",
-        "llegó"
-      ],
-      "answer": "llegó",
-      "translation": "he arrived",
-      "note": "The preterite of llegar. The yo form is llegué."
     },
     {
       "id": "es/a2/u14/drill/3",

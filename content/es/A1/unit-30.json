@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "tobogán",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/tobogan-0d143eb6.mp3"
       },
       "translation": "the slide",
       "note": "Masculine: el tobogán. The plural drops the accent: los toboganes."

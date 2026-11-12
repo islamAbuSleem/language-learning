@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "sillón",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/sillon-04be40b8.mp3"
       },
       "translation": "the armchair",
       "note": "Masculine: el sillón. The plural is los sillones."

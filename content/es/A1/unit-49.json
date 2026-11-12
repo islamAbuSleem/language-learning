@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "salón",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/salon-00327b38.mp3"
       },
       "translation": "the lounge",
       "note": "Masculine: el salón. It is the formal sitting room."

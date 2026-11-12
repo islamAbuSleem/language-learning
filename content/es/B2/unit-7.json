@@ -92,6 +92,25 @@
       "note": "It joins two clauses."
     },
     {
+      "id": "es/b2/u7/listen/aunque",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "aunque",
+      "options": [
+        "además",
+        "sin",
+        "por tanto",
+        "aunque"
+      ],
+      "audio": {
+        "text": "aunque",
+        "lang": "es",
+        "file": "/audio/es/aunque-31147244.mp3"
+      },
+      "translation": "although",
+      "note": "It joins two clauses."
+    },
+    {
       "id": "es/b2/u7/drill/1",
       "type": "type_in",
       "prompt": "No fui ___ estaba cansado.",
@@ -131,18 +150,18 @@
       "note": "A connector can join two ideas: porque, aunque, sin embargo, además, por tanto."
     },
     {
-      "id": "es/b2/u7/select/aunque",
+      "id": "es/b2/u7/select/sin-embargo",
       "type": "select",
-      "prompt": "Pick the Spanish word for “although”.",
+      "prompt": "Pick the Spanish word for “however”.",
       "options": [
-        "no obstante",
-        "por consiguiente",
-        "aunque",
-        "en cuanto a"
+        "sin embargo",
+        "por tanto",
+        "además",
+        "sin"
       ],
-      "answer": "aunque",
-      "translation": "although",
-      "note": "It joins two clauses."
+      "answer": "sin embargo",
+      "translation": "however",
+      "note": "It is a formal but, with a comma before it."
     },
     {
       "id": "es/b2/u7/drill/2",
@@ -154,20 +173,6 @@
       ],
       "translation": "I will go, although I do not want to",
       "note": "Aunque joins two clauses."
-    },
-    {
-      "id": "es/b2/u7/select/sin-embargo",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “however”.",
-      "options": [
-        "en cuanto a",
-        "por consiguiente",
-        "no obstante",
-        "sin embargo"
-      ],
-      "answer": "sin embargo",
-      "translation": "however",
-      "note": "It is a formal but, with a comma before it."
     },
     {
       "id": "es/b2/u7/drill/3",

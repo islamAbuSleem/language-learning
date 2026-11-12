@@ -95,12 +95,14 @@ export const listenExerciseSchema = z.object({
   /**
    * What is actually spoken.
    *
-   * v0 speaks the word with the browser's voice, so this is the bare word
-   * and the language to speak it in. Recorded audio would replace it.
+   * `file` is our own recording of the word, built once from the vocabulary
+   * and cached. `text` and `lang` are the fallback: the browser's own voice
+   * reads the word when the recording is missing.
    */
   audio: z.object({
     text: z.string().min(1),
     lang: z.string().min(2).max(5),
+    file: z.string().min(1).optional(),
   }),
   translation: z.string().min(1),
   note: z.string().optional(),

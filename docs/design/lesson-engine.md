@@ -42,6 +42,29 @@ Component naming follows the reference's test-hook convention
 (`challenge challenge-<type>`, `player-skip`, `player-next`, `quit-button`) so the
 vocabulary is familiar — but the code is ours.
 
+### The sound of the course
+
+`listen` plays a recording the course owns. The browser's own voice is only
+the fallback: it is whatever voice the machine has installed, it is not
+Spanish on a machine with no Spanish voice, and it is not the same sound on
+every machine. A course that teaches a language has to sound like it.
+
+**Decision** — every word in the track has a recording, generated once from
+the vocabulary by `scripts/build-audio.mjs` and cached as MP3 in
+`public/audio/<track>/`. The voice is eSpeak NG's Spanish, run locally
+through WebAssembly, so nothing leaves the machine and no third-party
+recording is in the files. They are plain MP3, so a native speaker can
+replace any of them later without touching the code.
+
+The file name is derived from the word itself, so the thing that builds the
+content and the thing that builds the audio always agree without a manifest
+to look each other up. The test fails if any word has no recording, so a new
+word is never silent.
+
+Every unit has a listening exercise. Hearing the word is the one thing a
+learner cannot do by reading, so it is the shape that never gets squeezed
+out of a unit.
+
 ## 3. The exercise loop
 
 Observed sequence:

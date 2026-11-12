@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "febrero",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/febrero-484d0f6c.mp3"
       },
       "translation": "February",
       "note": "No article: en febrero."

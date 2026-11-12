@@ -89,6 +89,25 @@
       "note": "An infinitive ending in -ar: anuncio, anuncias, anuncia."
     },
     {
+      "id": "es/b2/u10/listen/informar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "informar",
+      "options": [
+        "vestirse",
+        "afeitarse",
+        "acostarse",
+        "informar"
+      ],
+      "audio": {
+        "text": "informar",
+        "lang": "es",
+        "file": "/audio/es/informar-c805a330.mp3"
+      },
+      "translation": "to report",
+      "note": "An infinitive ending in -ar: informo, informas, informa."
+    },
+    {
       "id": "es/b2/u10/drill/1",
       "type": "type_in",
       "prompt": "El gobierno ___ que las medidas empezarían en enero.",
@@ -128,18 +147,18 @@
       "note": "To report, you use the verb of saying and then que: dijo que, contó que."
     },
     {
-      "id": "es/b2/u10/select/informar",
+      "id": "es/b2/u10/select/comentar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to report”.",
+      "prompt": "Pick the Spanish word for “to comment”.",
       "options": [
-        "acostarse",
-        "afeitarse",
-        "vestirse",
-        "informar"
+        "hay",
+        "hacer",
+        "deber",
+        "comentar"
       ],
-      "answer": "informar",
-      "translation": "to report",
-      "note": "An infinitive ending in -ar: informo, informas, informa."
+      "answer": "comentar",
+      "translation": "to comment",
+      "note": "An infinitive ending in -ar: comento, comentas, comenta."
     },
     {
       "id": "es/b2/u10/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "consequently, new measures will be taken",
       "note": "A written connective."
-    },
-    {
-      "id": "es/b2/u10/select/comentar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to comment”.",
-      "options": [
-        "deber",
-        "hay",
-        "hacer",
-        "comentar"
-      ],
-      "answer": "comentar",
-      "translation": "to comment",
-      "note": "An infinitive ending in -ar: comento, comentas, comenta."
     },
     {
       "id": "es/b2/u10/drill/3",

@@ -95,6 +95,25 @@
       "note": "It goes with estar: el proyecto está en marcha."
     },
     {
+      "id": "es/b2/u9/listen/en-su-sitio",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "en su sitio",
+      "options": [
+        "a largo plazo",
+        "a punto de",
+        "en marcha",
+        "en su sitio"
+      ],
+      "audio": {
+        "text": "en su sitio",
+        "lang": "es",
+        "file": "/audio/es/en-su-sitio-8478ce04.mp3"
+      },
+      "translation": "in its place",
+      "note": "Everything está en su sitio."
+    },
+    {
       "id": "es/b2/u9/drill/1",
       "type": "type_in",
       "prompt": "El restaurante está muy ___.",
@@ -134,18 +153,18 @@
       "note": "Ser says what something is. Estar says how it is, where it is, or how it is going."
     },
     {
-      "id": "es/b2/u9/select/en-su-sitio",
+      "id": "es/b2/u9/select/a-punto-de",
       "type": "select",
-      "prompt": "Pick the Spanish word for “in its place”.",
+      "prompt": "Pick the Spanish word for “about to”.",
       "options": [
-        "de acuerdo",
-        "en realidad",
         "en su sitio",
-        "en efecto"
+        "en efecto",
+        "de acuerdo",
+        "a punto de"
       ],
-      "answer": "en su sitio",
-      "translation": "in its place",
-      "note": "Everything está en su sitio."
+      "answer": "a punto de",
+      "translation": "about to",
+      "note": "A point of the infinitive: está a punto de salir."
     },
     {
       "id": "es/b2/u9/drill/2",
@@ -157,20 +176,6 @@
       ],
       "translation": "the restaurant is very expensive",
       "note": "Ser rico is about the price."
-    },
-    {
-      "id": "es/b2/u9/select/a-punto-de",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “about to”.",
-      "options": [
-        "en suma",
-        "en resumen",
-        "en realidad",
-        "a punto de"
-      ],
-      "answer": "a punto de",
-      "translation": "about to",
-      "note": "A point of the infinitive: está a punto de salir."
     },
     {
       "id": "es/b2/u9/drill/3",

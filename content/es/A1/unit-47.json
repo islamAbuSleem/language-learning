@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "efectivo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/efectivo-dbb901b8.mp3"
       },
       "translation": "the cash",
       "note": "Masculine: el efectivo. You pay en efectivo, in cash."

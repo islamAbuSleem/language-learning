@@ -89,6 +89,25 @@
       "note": "Feminine: la comunicación. From comunicar."
     },
     {
+      "id": "es/b2/u6/listen/reunion",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la reunión",
+      "options": [
+        "el movimiento",
+        "el cambio",
+        "el empleo",
+        "la reunión"
+      ],
+      "audio": {
+        "text": "reunión",
+        "lang": "es",
+        "file": "/audio/es/reunion-e316f33a.mp3"
+      },
+      "translation": "meeting",
+      "note": "Feminine: la reunión. From reunir."
+    },
+    {
       "id": "es/b2/u6/drill/1",
       "type": "type_in",
       "prompt": "La ___ es importante.",
@@ -128,18 +147,18 @@
       "note": "A verb can become a noun: hablar becomes la hablar, el hablar; llegar becomes la llegada."
     },
     {
-      "id": "es/b2/u6/select/reunion",
+      "id": "es/b2/u6/select/conclusion",
       "type": "select",
-      "prompt": "Pick the Spanish word for “meeting”.",
+      "prompt": "Pick the Spanish word for “conclusion”.",
       "options": [
-        "la reunión",
+        "el empleo",
         "el cambio",
         "el acuerdo",
-        "el resultado"
+        "la conclusión"
       ],
-      "answer": "la reunión",
-      "translation": "meeting",
-      "note": "Feminine: la reunión. From reunir."
+      "answer": "la conclusión",
+      "translation": "conclusion",
+      "note": "Feminine: la conclusión. From concluir."
     },
     {
       "id": "es/b2/u6/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "the meeting starts at nine",
       "note": "Reunir makes la reunión."
-    },
-    {
-      "id": "es/b2/u6/select/conclusion",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “conclusion”.",
-      "options": [
-        "el resultado",
-        "la satisfacción",
-        "el logro",
-        "la conclusión"
-      ],
-      "answer": "la conclusión",
-      "translation": "conclusion",
-      "note": "Feminine: la conclusión. From concluir."
     },
     {
       "id": "es/b2/u6/drill/3",

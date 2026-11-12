@@ -94,6 +94,25 @@
       "note": "Masculine: el sol. It also means sun cream."
     },
     {
+      "id": "es/a1/u7/listen/lluvia",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la lluvia",
+      "options": [
+        "el viento",
+        "el calor",
+        "nublado",
+        "la lluvia"
+      ],
+      "audio": {
+        "text": "lluvia",
+        "lang": "es",
+        "file": "/audio/es/lluvia-1697fb80.mp3"
+      },
+      "translation": "rain",
+      "note": "Feminine: la lluvia. It also means a problem."
+    },
+    {
       "id": "es/a1/u7/drill/1",
       "type": "type_in",
       "prompt": "Hoy ___ buen tiempo.",
@@ -133,18 +152,18 @@
       "note": "The weather uses hacer, not estar: hace calor, hace frío, hace sol."
     },
     {
-      "id": "es/a1/u7/select/lluvia",
+      "id": "es/a1/u7/select/nieve",
       "type": "select",
-      "prompt": "Pick the Spanish word for “rain”.",
+      "prompt": "Pick the Spanish word for “snow”.",
       "options": [
-        "hace buen tiempo",
-        "hace mal tiempo",
-        "la lluvia",
-        "grados"
+        "la nieve",
+        "nublado",
+        "el viento",
+        "el calor"
       ],
-      "answer": "la lluvia",
-      "translation": "rain",
-      "note": "Feminine: la lluvia. It also means a problem."
+      "answer": "la nieve",
+      "translation": "snow",
+      "note": "Feminine: la nieve. It never takes an article in the phrase hace nieve."
     },
     {
       "id": "es/a1/u7/drill/2",
@@ -156,20 +175,6 @@
       ],
       "translation": "it is very hot in August",
       "note": "hace calor, not hace calor."
-    },
-    {
-      "id": "es/a1/u7/select/nieve",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “snow”.",
-      "options": [
-        "grados",
-        "hace mal tiempo",
-        "hace buen tiempo",
-        "la nieve"
-      ],
-      "answer": "la nieve",
-      "translation": "snow",
-      "note": "Feminine: la nieve. It never takes an article in the phrase hace nieve."
     },
     {
       "id": "es/a1/u7/drill/3",

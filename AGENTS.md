@@ -42,9 +42,14 @@ One engine, three content tracks. English is also the interface language.
 ```bash
 npm run build && npm test
 ```
-The test run includes the path audit, so a gap fails the build.
-Standalone: `npm run audit:path` and `npm run check:content`.
+The test run includes the path audit and the content check, so a gap or a bad
+word fails the build. Standalone: `npm run audit:path`, `npm run check:content`
+and `npm run check:audio`.
 Boot check: `node .output/server/index.mjs` then `GET /api/health` returns `{"status":"ok"}`.
+
+**New words need audio.** After `npm run build:content`, run `npm run build:audio`
+to speak the new words and cache them in `public/audio/`. The test fails if a
+word has no recording.
 
 ## Stack
 **Nuxt** (Vue 3 + Nitro) for the learner app and its API — one project, one deploy.

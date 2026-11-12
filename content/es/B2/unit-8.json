@@ -95,6 +95,25 @@
       "note": "Grande goes after the noun. Gran goes before it."
     },
     {
+      "id": "es/b2/u8/listen/pequeno",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "pequeño",
+      "options": [
+        "delgado",
+        "simpático",
+        "guapo",
+        "pequeño"
+      ],
+      "audio": {
+        "text": "pequeño",
+        "lang": "es",
+        "file": "/audio/es/pequeno-f94565fc.mp3"
+      },
+      "translation": "small",
+      "note": "Pequeño goes after the noun. Pequeño is the same in both positions."
+    },
+    {
       "id": "es/b2/u8/drill/1",
       "type": "type_in",
       "prompt": "Es un ___ hombre.",
@@ -134,18 +153,18 @@
       "note": "An adjective usually goes after the noun: un coche rojo. Some go before, and then they are more literary."
     },
     {
-      "id": "es/b2/u8/select/pequeno",
+      "id": "es/b2/u8/select/excelente",
       "type": "select",
-      "prompt": "Pick the Spanish word for “small”.",
+      "prompt": "Pick the Spanish word for “excellent”.",
       "options": [
-        "pequeño",
-        "serio",
-        "bonito",
-        "divertido"
+        "excelente",
+        "propio",
+        "mismo",
+        "claro"
       ],
-      "answer": "pequeño",
-      "translation": "small",
-      "note": "Pequeño goes after the noun. Pequeño is the same in both positions."
+      "answer": "excelente",
+      "translation": "excellent",
+      "note": "Excelente goes before the noun, usually."
     },
     {
       "id": "es/b2/u8/drill/2",
@@ -157,20 +176,6 @@
       ],
       "translation": "he is a big man",
       "note": "Grande goes after the noun."
-    },
-    {
-      "id": "es/b2/u8/select/excelente",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “excellent”.",
-      "options": [
-        "pequeño",
-        "nuevo",
-        "grande",
-        "excelente"
-      ],
-      "answer": "excelente",
-      "translation": "excellent",
-      "note": "Excelente goes before the noun, usually."
     },
     {
       "id": "es/b2/u8/drill/3",

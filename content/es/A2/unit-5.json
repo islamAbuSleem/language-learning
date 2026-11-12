@@ -107,6 +107,25 @@
       "note": "Its forms are irregular: tengo, tienes, tiene, tenemos, tenéis, tienen."
     },
     {
+      "id": "es/a2/u5/listen/querer",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "querer",
+      "options": [
+        "visitar",
+        "comer",
+        "pasear",
+        "querer"
+      ],
+      "audio": {
+        "text": "querer",
+        "lang": "es",
+        "file": "/audio/es/querer-16152346.mp3"
+      },
+      "translation": "to want",
+      "note": "Its forms are irregular: quiero, quieres, quiere."
+    },
+    {
       "id": "es/a2/u5/drill/1",
       "type": "type_in",
       "prompt": "Tengo ___: quiero comer.",
@@ -146,18 +165,18 @@
       "note": "Tener has irregular forms: tengo, tienes, tiene, tenemos, tenéis, tienen."
     },
     {
-      "id": "es/a2/u5/select/querer",
+      "id": "es/a2/u5/select/poder",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to want”.",
+      "prompt": "Pick the Spanish word for “to be able to”.",
       "options": [
-        "servir",
-        "repetir",
-        "decidir",
-        "querer"
+        "correr",
+        "vender",
+        "poder",
+        "perder"
       ],
-      "answer": "querer",
-      "translation": "to want",
-      "note": "Its forms are irregular: quiero, quieres, quiere."
+      "answer": "poder",
+      "translation": "to be able to",
+      "note": "Its forms are irregular: puedo, puedes, puede."
     },
     {
       "id": "es/a2/u5/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I cannot come today",
       "note": "Poder is irregular in the yo form."
-    },
-    {
-      "id": "es/a2/u5/select/poder",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to be able to”.",
-      "options": [
-        "llegar",
-        "ser",
-        "hablar",
-        "poder"
-      ],
-      "answer": "poder",
-      "translation": "to be able to",
-      "note": "Its forms are irregular: puedo, puedes, puede."
     },
     {
       "id": "es/a2/u5/drill/3",

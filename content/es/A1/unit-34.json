@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "mochila",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/mochila-6d52d448.mp3"
       },
       "translation": "the rucksack",
       "note": "Feminine: la mochila."

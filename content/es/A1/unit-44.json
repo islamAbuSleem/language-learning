@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "concierto",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/concierto-fb1f6dcc.mp3"
       },
       "translation": "the concert",
       "note": "Masculine: el concierto."

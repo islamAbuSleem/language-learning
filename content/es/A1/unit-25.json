@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "caramelo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/caramelo-10196db8.mp3"
       },
       "translation": "the sweet",
       "note": "Masculine: el caramelo."

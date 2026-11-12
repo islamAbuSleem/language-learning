@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "gordo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/gordo-430ae90c.mp3"
       },
       "translation": "fat",
       "note": "The feminine is gorda."

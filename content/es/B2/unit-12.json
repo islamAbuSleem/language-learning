@@ -89,6 +89,25 @@
       "note": "It opens a formal letter: estimado señor."
     },
     {
+      "id": "es/b2/u12/listen/atentamente",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "atentamente",
+      "options": [
+        "solicitar",
+        "adjuntar",
+        "atentamente",
+        "estimado"
+      ],
+      "audio": {
+        "text": "atentamente",
+        "lang": "es",
+        "file": "/audio/es/atentamente-3f83baf4.mp3"
+      },
+      "translation": "yours faithfully",
+      "note": "It closes a formal letter."
+    },
+    {
       "id": "es/b2/u12/drill/1",
       "type": "type_in",
       "prompt": "___ señor López: Le escribo para informarle.",
@@ -128,18 +147,18 @@
       "note": "A formal letter uses usted, and it opens with Estimado señor or Estimada señora."
     },
     {
-      "id": "es/b2/u12/select/atentamente",
+      "id": "es/b2/u12/select/solicitar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “yours faithfully”.",
+      "prompt": "Pick the Spanish word for “to request”.",
       "options": [
-        "solicitar",
-        "a su espera",
+        "estimado",
+        "atentamente",
         "adjuntar",
-        "atentamente"
+        "solicitar"
       ],
-      "answer": "atentamente",
-      "translation": "yours faithfully",
-      "note": "It closes a formal letter."
+      "answer": "solicitar",
+      "translation": "to request",
+      "note": "A formal verb: solicitar una reunión."
     },
     {
       "id": "es/b2/u12/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "yours faithfully, Ana García",
       "note": "It closes a formal letter."
-    },
-    {
-      "id": "es/b2/u12/select/solicitar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to request”.",
-      "options": [
-        "adjuntar",
-        "por este motivo",
-        "a su espera",
-        "solicitar"
-      ],
-      "answer": "solicitar",
-      "translation": "to request",
-      "note": "A formal verb: solicitar una reunión."
     },
     {
       "id": "es/b2/u12/drill/3",

@@ -93,6 +93,25 @@
       "note": "The imperfect of hablar. It describes how things were."
     },
     {
+      "id": "es/a2/u15/listen/comia",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "comía",
+      "options": [
+        "querer",
+        "poder",
+        "comía",
+        "tener"
+      ],
+      "audio": {
+        "text": "comía",
+        "lang": "es",
+        "file": "/audio/es/comia-47394182.mp3"
+      },
+      "translation": "I ate",
+      "note": "The imperfect of comer. It describes how things were."
+    },
+    {
       "id": "es/a2/u15/drill/1",
       "type": "type_in",
       "prompt": "De niño ___ en el parque.",
@@ -132,18 +151,18 @@
       "note": "The imperfect ends in -aba for -ar verbs and -ía for -er and -ir verbs."
     },
     {
-      "id": "es/a2/u15/select/comia",
+      "id": "es/a2/u15/select/vivia",
       "type": "select",
-      "prompt": "Pick the Spanish word for “I ate”.",
+      "prompt": "Pick the Spanish word for “I lived”.",
       "options": [
-        "hablar",
-        "trabajar",
-        "ser",
-        "comía"
+        "podré",
+        "vendré",
+        "querré",
+        "vivía"
       ],
-      "answer": "comía",
-      "translation": "I ate",
-      "note": "The imperfect of comer. It describes how things were."
+      "answer": "vivía",
+      "translation": "I lived",
+      "note": "The imperfect of vivir. It describes how things were."
     },
     {
       "id": "es/a2/u15/drill/2",
@@ -155,20 +174,6 @@
       ],
       "translation": "while I was sleeping, the phone rang",
       "note": "The interrupted past is imperfect."
-    },
-    {
-      "id": "es/a2/u15/select/vivia",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “I lived”.",
-      "options": [
-        "querer",
-        "poder",
-        "deber",
-        "vivía"
-      ],
-      "answer": "vivía",
-      "translation": "I lived",
-      "note": "The imperfect of vivir. It describes how things were."
     },
     {
       "id": "es/a2/u15/drill/3",

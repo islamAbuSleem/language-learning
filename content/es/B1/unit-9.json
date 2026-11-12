@@ -85,6 +85,25 @@
       "note": "To me. It goes before the verb: me lo das."
     },
     {
+      "id": "es/b1/u9/listen/te",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "te",
+      "options": [
+        "yo",
+        "ella",
+        "él",
+        "te"
+      ],
+      "audio": {
+        "text": "te",
+        "lang": "es",
+        "file": "/audio/es/te-374536d3.mp3"
+      },
+      "translation": "you",
+      "note": "To you. It goes before the verb: te lo doy."
+    },
+    {
       "id": "es/b1/u9/drill/1",
       "type": "type_in",
       "prompt": "___ doy el libro.",
@@ -124,18 +143,18 @@
       "note": "The indirect object comes before the verb: le doy el libro. It answers a quién."
     },
     {
-      "id": "es/b1/u9/select/te",
+      "id": "es/b1/u9/select/se",
       "type": "select",
-      "prompt": "Pick the Spanish word for “you”.",
+      "prompt": "Pick the Spanish word for “him”.",
       "options": [
-        "algo",
+        "él",
         "me",
-        "te",
-        "nada"
+        "ella",
+        "se"
       ],
-      "answer": "te",
-      "translation": "you",
-      "note": "To you. It goes before the verb: te lo doy."
+      "answer": "se",
+      "translation": "him",
+      "note": "To him, her or them, when the person is not named."
     },
     {
       "id": "es/b1/u9/drill/2",
@@ -147,20 +166,6 @@
       ],
       "translation": "they brought us the food",
       "note": "Nos is the indirect object."
-    },
-    {
-      "id": "es/b1/u9/select/se",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “him”.",
-      "options": [
-        "tú",
-        "él",
-        "yo",
-        "se"
-      ],
-      "answer": "se",
-      "translation": "him",
-      "note": "To him, her or them, when the person is not named."
     },
     {
       "id": "es/b1/u9/drill/3",

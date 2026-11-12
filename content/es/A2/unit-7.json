@@ -107,6 +107,25 @@
       "note": "For facts. Its forms are irregular: sé, sabes, sabe."
     },
     {
+      "id": "es/a2/u7/listen/conocer",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "conocer",
+      "options": [
+        "planchar",
+        "doblar",
+        "lavar",
+        "conocer"
+      ],
+      "audio": {
+        "text": "conocer",
+        "lang": "es",
+        "file": "/audio/es/conocer-a0bf23c2.mp3"
+      },
+      "translation": "to know",
+      "note": "For people and places. Its yo form is conozco."
+    },
+    {
       "id": "es/a2/u7/drill/1",
       "type": "type_in",
       "prompt": "¿___ a mi hermana?",
@@ -146,18 +165,18 @@
       "note": "Saber is for facts, conocer is for people and places: sé la respuesta, conozco Madrid."
     },
     {
-      "id": "es/a2/u7/select/conocer",
+      "id": "es/a2/u7/select/recordar",
       "type": "select",
-      "prompt": "Pick the Spanish word for “to know”.",
+      "prompt": "Pick the Spanish word for “to remember”.",
       "options": [
-        "aprender",
-        "leer",
-        "conocer",
-        "beber"
+        "recordar",
+        "ser",
+        "llegar",
+        "hablar"
       ],
-      "answer": "conocer",
-      "translation": "to know",
-      "note": "For people and places. Its yo form is conozco."
+      "answer": "recordar",
+      "translation": "to remember",
+      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda."
     },
     {
       "id": "es/a2/u7/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "I do not know his phone number",
       "note": "Saber is for facts, and the yo form is sé."
-    },
-    {
-      "id": "es/a2/u7/select/recordar",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to remember”.",
-      "options": [
-        "vender",
-        "perder",
-        "correr",
-        "recordar"
-      ],
-      "answer": "recordar",
-      "translation": "to remember",
-      "note": "An infinitive ending in -ar: recuerdo, recuerdas, recuerda."
     },
     {
       "id": "es/a2/u7/drill/3",

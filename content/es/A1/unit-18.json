@@ -101,7 +101,8 @@
       ],
       "audio": {
         "text": "lavabo",
-        "lang": "es"
+        "lang": "es",
+        "file": "/audio/es/lavabo-4c4041f4.mp3"
       },
       "translation": "the sink",
       "note": "Masculine: el lavabo."

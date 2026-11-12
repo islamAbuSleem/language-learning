@@ -89,6 +89,25 @@
       "note": "Obligation from outside. Tengo que trabajar."
     },
     {
+      "id": "es/b2/u4/listen/haber-que",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "haber que",
+      "options": [
+        "haya hablado",
+        "haya comido",
+        "haya vivido",
+        "haber que"
+      ],
+      "audio": {
+        "text": "haber que",
+        "lang": "es",
+        "file": "/audio/es/haber-que-373b1830.mp3"
+      },
+      "translation": "to have to",
+      "note": "Obligation for everybody. Hay que esperar."
+    },
+    {
       "id": "es/b2/u4/drill/1",
       "type": "type_in",
       "prompt": "Tengo ___ trabajar hasta las seis.",
@@ -128,18 +147,18 @@
       "note": "Tener que plus a participle is a compound infinitive: tengo que trabajar, I have to work."
     },
     {
-      "id": "es/b2/u4/select/haber-que",
+      "id": "es/b2/u4/select/deber",
       "type": "select",
       "prompt": "Pick the Spanish word for “to have to”.",
       "options": [
-        "volver",
-        "salir",
-        "venir",
-        "haber que"
+        "había estudiado",
+        "había visto",
+        "había trabajado",
+        "deber"
       ],
-      "answer": "haber que",
+      "answer": "deber",
       "translation": "to have to",
-      "note": "Obligation for everybody. Hay que esperar."
+      "note": "What you ought to do. Debo llamar."
     },
     {
       "id": "es/b2/u4/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "you have to pay before going in",
       "note": "Haber que says everybody has to."
-    },
-    {
-      "id": "es/b2/u4/select/deber",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “to have to”.",
-      "options": [
-        "ayudar",
-        "llegar",
-        "deber",
-        "quedar"
-      ],
-      "answer": "deber",
-      "translation": "to have to",
-      "note": "What you ought to do. Debo llamar."
     },
     {
       "id": "es/b2/u4/drill/3",

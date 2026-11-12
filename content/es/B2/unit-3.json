@@ -89,6 +89,25 @@
       "note": "The perfect subjunctive of hablar."
     },
     {
+      "id": "es/b2/u3/listen/haya-comido",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "haya comido",
+      "options": [
+        "hemos abierto",
+        "querer",
+        "poder",
+        "haya comido"
+      ],
+      "audio": {
+        "text": "haya comido",
+        "lang": "es",
+        "file": "/audio/es/haya-comido-79164df4.mp3"
+      },
+      "translation": "has eaten",
+      "note": "The perfect subjunctive of comer."
+    },
+    {
       "id": "es/b2/u3/drill/1",
       "type": "type_in",
       "prompt": "Espero que ___ terminado.",
@@ -128,18 +147,18 @@
       "note": "The perfect subjunctive is the -se form of the past subjunctive: haya hablado, haya comido."
     },
     {
-      "id": "es/b2/u3/select/haya-comido",
+      "id": "es/b2/u3/select/haya-vivido",
       "type": "select",
-      "prompt": "Pick the Spanish word for “has eaten”.",
+      "prompt": "Pick the Spanish word for “has lived”.",
       "options": [
-        "comeré",
-        "trabajaré",
-        "viviré",
-        "haya comido"
+        "salió",
+        "comía",
+        "hablaba",
+        "haya vivido"
       ],
-      "answer": "haya comido",
-      "translation": "has eaten",
-      "note": "The perfect subjunctive of comer."
+      "answer": "haya vivido",
+      "translation": "has lived",
+      "note": "The perfect subjunctive of vivir."
     },
     {
       "id": "es/b2/u3/drill/2",
@@ -151,20 +170,6 @@
       ],
       "translation": "it is possible that he has arrived",
       "note": "Possibility takes the perfect subjunctive."
-    },
-    {
-      "id": "es/b2/u3/select/haya-vivido",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “has lived”.",
-      "options": [
-        "visitar",
-        "comer",
-        "beber",
-        "haya vivido"
-      ],
-      "answer": "haya vivido",
-      "translation": "has lived",
-      "note": "The perfect subjunctive of vivir."
     },
     {
       "id": "es/b2/u3/drill/3",

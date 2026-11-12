@@ -107,6 +107,25 @@
       "note": "Feminine: la conversación."
     },
     {
+      "id": "es/b1/u3/listen/television",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "la televisión",
+      "options": [
+        "la película",
+        "la canción",
+        "el deporte",
+        "la televisión"
+      ],
+      "audio": {
+        "text": "televisión",
+        "lang": "es",
+        "file": "/audio/es/television-5eed4c02.mp3"
+      },
+      "translation": "television",
+      "note": "Feminine: la televisión. You watch it: ver la televisión."
+    },
+    {
       "id": "es/b1/u3/drill/1",
       "type": "type_in",
       "prompt": "Estoy ___ un libro.",
@@ -146,18 +165,18 @@
       "note": "The progressive is estar plus a gerund: estoy leyendo. An -ar verb makes -ando, an -er or -ir verb makes -iendo."
     },
     {
-      "id": "es/b1/u3/select/television",
+      "id": "es/b1/u3/select/musica",
       "type": "select",
-      "prompt": "Pick the Spanish word for “television”.",
+      "prompt": "Pick the Spanish word for “music”.",
       "options": [
-        "la conversación",
         "la película",
-        "la música",
-        "la televisión"
+        "el deporte",
+        "la canción",
+        "la música"
       ],
-      "answer": "la televisión",
-      "translation": "television",
-      "note": "Feminine: la televisión. You watch it: ver la televisión."
+      "answer": "la música",
+      "translation": "music",
+      "note": "Feminine: la música. It has no plural in everyday use."
     },
     {
       "id": "es/b1/u3/drill/2",
@@ -169,20 +188,6 @@
       ],
       "translation": "the child is sleeping",
       "note": "Dormir makes durmiendo and loses the stem change."
-    },
-    {
-      "id": "es/b1/u3/select/musica",
-      "type": "select",
-      "prompt": "Pick the Spanish word for “music”.",
-      "options": [
-        "la conversación",
-        "la televisión",
-        "la película",
-        "la música"
-      ],
-      "answer": "la música",
-      "translation": "music",
-      "note": "Feminine: la música. It has no plural in everyday use."
     },
     {
       "id": "es/b1/u3/drill/3",
