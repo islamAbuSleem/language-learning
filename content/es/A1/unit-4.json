@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 4,
+  "title": "Daily routine",
+  "description": "Say what you do every day.",
+  "exercises": [
+    {
+      "id": "es/a1/u4/match/hablar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to speak",
+          "right": "hablar"
+        },
+        {
+          "left": "to work",
+          "right": "trabajar"
+        },
+        {
+          "left": "to study",
+          "right": "estudiar"
+        },
+        {
+          "left": "to walk",
+          "right": "caminar"
+        },
+        {
+          "left": "to cook",
+          "right": "cocinar"
+        }
+      ],
+      "note": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan."
+    },
+    {
+      "id": "es/a1/u4/select/hablar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to speak”.",
+      "options": [
+        "llegar",
+        "ser",
+        "trabajar",
+        "hablar"
+      ],
+      "answer": "hablar",
+      "translation": "to speak",
+      "note": "An infinitive ending in -ar: hablo, hablas, habla."
+    },
+    {
+      "id": "es/a1/u4/type_in/trabajar",
+      "type": "type_in",
+      "prompt": "Write “to work” in Spanish.",
+      "answer": "trabajar",
+      "acceptedAnswers": [
+        "trabajar"
+      ],
+      "translation": "to work",
+      "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja."
+    },
+    {
+      "id": "es/a1/u4/listen/estudiar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "estudiar",
+      "options": [
+        "estudiar",
+        "caminar",
+        "cocinar",
+        "mirar"
+      ],
+      "audio": {
+        "text": "estudiar",
+        "lang": "es"
+      },
+      "translation": "to study",
+      "note": "An infinitive ending in -ar: estudio, estudias, estudia."
+    },
+    {
+      "id": "es/a1/u4/match/mirar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to watch",
+          "right": "mirar"
+        },
+        {
+          "left": "to need",
+          "right": "necesitar"
+        },
+        {
+          "left": "house",
+          "right": "la casa"
+        },
+        {
+          "left": "day",
+          "right": "el día"
+        },
+        {
+          "left": "morning",
+          "right": "mañana"
+        }
+      ],
+      "note": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan."
+    },
+    {
+      "id": "es/a1/u4/select/caminar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to walk”.",
+      "options": [
+        "cocinar",
+        "mirar",
+        "estudiar",
+        "caminar"
+      ],
+      "answer": "caminar",
+      "translation": "to walk",
+      "note": "An infinitive ending in -ar: camino, caminas, camina."
+    },
+    {
+      "id": "es/a1/u4/type_in/cocinar",
+      "type": "type_in",
+      "prompt": "Write “to cook” in Spanish.",
+      "answer": "cocinar",
+      "acceptedAnswers": [
+        "cocinar"
+      ],
+      "translation": "to cook",
+      "note": "An infinitive ending in -ar: cocino, cocinas, cocina."
+    },
+    {
+      "id": "es/a1/u4/listen/mirar",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "mirar",
+      "options": [
+        "ser",
+        "hablar",
+        "llegar",
+        "mirar"
+      ],
+      "audio": {
+        "text": "mirar",
+        "lang": "es"
+      },
+      "translation": "to watch",
+      "note": "An infinitive ending in -ar: miro, miras, mira."
+    },
+    {
+      "id": "es/a1/u4/select/necesitar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to need”.",
+      "options": [
+        "ser",
+        "hablar",
+        "llegar",
+        "necesitar"
+      ],
+      "answer": "necesitar",
+      "translation": "to need",
+      "note": "An infinitive ending in -ar: necesito, necesitas, necesita."
+    },
+    {
+      "id": "es/a1/u4/select/casa",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “house”.",
+      "options": [
+        "la tienda",
+        "el mercado",
+        "la calle",
+        "la casa"
+      ],
+      "answer": "la casa",
+      "translation": "house",
+      "note": "Feminine: la casa. It also means home."
+    }
+  ]
+}

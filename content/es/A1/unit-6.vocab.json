@@ -1,0 +1,19 @@
+{
+  "unit": 6,
+  "title": "Where things are",
+  "description": "Say where something is, and where it is not.",
+  "grammar": "the verb estar",
+  "grammarNote": "Estar says where something is: la casa está cerca.",
+  "items": [
+    { "es": "estar", "en": "to be", "article": null, "note": "An infinitive. Its forms are irregular: estoy, estás, está, estamos, estáis, están.", "tags": ["verb"] },
+    { "es": "aquí", "en": "here", "article": null, "note": "No article: está aquí.", "tags": ["place"] },
+    { "es": "allí", "en": "there", "article": null, "note": "No article: está allí.", "tags": ["place"] },
+    { "es": "encima", "en": "on top of", "article": null, "note": "No article: está encima.", "tags": ["place"] },
+    { "es": "debajo", "en": "underneath", "article": null, "note": "No article: está debajo.", "tags": ["place"] },
+    { "es": "dentro", "en": "inside", "article": null, "note": "No article: está dentro.", "tags": ["place"] },
+    { "es": "fuera", "en": "outside", "article": null, "note": "No article: está fuera.", "tags": ["place"] },
+    { "es": "bajo", "en": "under", "article": null, "note": "No article: está bajo. It also means low.", "tags": ["place"] },
+    { "es": "primero", "en": "first", "article": null, "note": "No article on its own: el primero, la primera.", "tags": ["order"] },
+    { "es": "después", "en": "afterwards", "article": null, "note": "No article: después de.", "tags": ["order"] }
+  ]
+}

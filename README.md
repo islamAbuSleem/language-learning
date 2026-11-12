@@ -35,6 +35,21 @@ npm run test:db           # the same tests against the real database
 
 Boot check: `node .output/server/index.mjs`, then `GET /api/health` → `{"status":"ok"}`.
 
+## Adding content
+
+**The words are the content; the exercises are built from them.**
+
+1. Write `content/<track>/<LEVEL>/unit-N.vocab.json` — ten words, each with a
+   translation, an article and a note.
+2. `npm run build:content` regenerates `unit-N.json` (ten exercises, four shapes).
+3. `npm test` fails if the two ever drift.
+
+Two rules the generator and the tests enforce:
+
+- **A wrong answer is always a word the learner has already met.** Same theme
+  first. A distractor they have never seen is a new word wearing a disguise.
+- **A unit teaches one thing**: one grammar point, one theme, ten words.
+
 ## How it fits together
 
 ```

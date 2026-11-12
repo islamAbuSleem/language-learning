@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:db": "node --env-file=.env node_modules/vitest/vitest.mjs run tests/progress/postgres.test.ts",
+    "build:content": "node scripts/build-content.mjs",
     "migrate": "node --env-file=.env scripts/migrate.mjs",
     "typecheck": "nuxt typecheck"
   },

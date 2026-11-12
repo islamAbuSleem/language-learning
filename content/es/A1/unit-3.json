@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 3,
+  "title": "Who are you",
+  "description": "Introduce yourself, and say who other people are.",
+  "exercises": [
+    {
+      "id": "es/a1/u3/match/yo",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "yo"
+        },
+        {
+          "left": "you",
+          "right": "tú"
+        },
+        {
+          "left": "he",
+          "right": "él"
+        },
+        {
+          "left": "she",
+          "right": "ella"
+        },
+        {
+          "left": "to be",
+          "right": "ser"
+        }
+      ],
+      "note": "The pronoun comes before the verb: yo soy, tú eres."
+    },
+    {
+      "id": "es/a1/u3/select/yo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “I”.",
+      "options": [
+        "yo",
+        "ella",
+        "él",
+        "tú"
+      ],
+      "answer": "yo",
+      "translation": "I",
+      "note": "The first person: yo soy."
+    },
+    {
+      "id": "es/a1/u3/type_in/tú",
+      "type": "type_in",
+      "prompt": "Write “you” in Spanish.",
+      "answer": "tú",
+      "acceptedAnswers": [
+        "tu"
+      ],
+      "translation": "you",
+      "note": "The second person: tú eres."
+    },
+    {
+      "id": "es/a1/u3/listen/él",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "él",
+      "options": [
+        "él",
+        "yo",
+        "tú",
+        "ella"
+      ],
+      "audio": {
+        "text": "él",
+        "lang": "es"
+      },
+      "translation": "he",
+      "note": "Third person masculine: él es."
+    },
+    {
+      "id": "es/a1/u3/match/nombre",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "name",
+          "right": "el nombre"
+        },
+        {
+          "left": "student",
+          "right": "el estudiante"
+        },
+        {
+          "left": "teacher",
+          "right": "el profesor"
+        },
+        {
+          "left": "friend",
+          "right": "el amigo"
+        },
+        {
+          "left": "mother",
+          "right": "la madre"
+        }
+      ],
+      "note": "The pronoun comes before the verb: yo soy, tú eres."
+    },
+    {
+      "id": "es/a1/u3/select/ella",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “she”.",
+      "options": [
+        "él",
+        "tú",
+        "yo",
+        "ella"
+      ],
+      "answer": "ella",
+      "translation": "she",
+      "note": "Third person feminine: ella es."
+    },
+    {
+      "id": "es/a1/u3/type_in/ser",
+      "type": "type_in",
+      "prompt": "Write “to be” in Spanish.",
+      "answer": "ser",
+      "acceptedAnswers": [
+        "ser"
+      ],
+      "translation": "to be",
+      "note": "An infinitive. Its forms are irregular: soy, eres, es, somos, sois, son."
+    },
+    {
+      "id": "es/a1/u3/listen/nombre",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "el nombre",
+      "options": [
+        "el estudiante",
+        "el amigo",
+        "el profesor",
+        "el nombre"
+      ],
+      "audio": {
+        "text": "nombre",
+        "lang": "es"
+      },
+      "translation": "name",
+      "note": "Masculine: el nombre."
+    },
+    {
+      "id": "es/a1/u3/select/estudiante",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “student”.",
+      "options": [
+        "el profesor",
+        "el amigo",
+        "el nombre",
+        "el estudiante"
+      ],
+      "answer": "el estudiante",
+      "translation": "student",
+      "note": "Masculine: el estudiante. The feminine is la estudiante."
+    },
+    {
+      "id": "es/a1/u3/select/profesor",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “teacher”.",
+      "options": [
+        "el profesor",
+        "el nombre",
+        "el estudiante",
+        "el amigo"
+      ],
+      "answer": "el profesor",
+      "translation": "teacher",
+      "note": "Masculine: el profesor. The feminine is la profesora."
+    }
+  ]
+}

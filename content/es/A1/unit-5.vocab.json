@@ -1,0 +1,19 @@
+{
+  "unit": 5,
+  "title": "Numbers",
+  "description": "Count things, and say how many there are.",
+  "grammar": "indefinite articles and numbers to 100",
+  "grammarNote": "Un and una mean one, and match the noun: un libro, una casa.",
+  "items": [
+    { "es": "uno", "en": "one", "article": null, "note": "The number one. Before a noun it becomes un or una.", "tags": ["number"] },
+    { "es": "un", "en": "a", "article": null, "note": "Masculine, one: un libro.", "tags": ["number"] },
+    { "es": "una", "en": "a", "article": null, "note": "Feminine, one: una casa.", "tags": ["number"] },
+    { "es": "dos", "en": "two", "article": null, "note": "The number two.", "tags": ["number"] },
+    { "es": "tres", "en": "three", "article": null, "note": "The number three.", "tags": ["number"] },
+    { "es": "cinco", "en": "five", "article": null, "note": "The number five.", "tags": ["number"] },
+    { "es": "diez", "en": "ten", "article": null, "note": "The number ten.", "tags": ["number"] },
+    { "es": "veinte", "en": "twenty", "article": null, "note": "The number twenty.", "tags": ["number"] },
+    { "es": "cien", "en": "a hundred", "article": null, "note": "Cien is one hundred. For hundreds it is ciento.", "tags": ["number"] },
+    { "es": "número", "en": "number", "article": "el", "note": "Masculine: el número.", "tags": ["object"] }
+  ]
+}

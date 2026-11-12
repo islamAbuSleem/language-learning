@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 6,
+  "title": "Where things are",
+  "description": "Say where something is, and where it is not.",
+  "exercises": [
+    {
+      "id": "es/a1/u6/match/estar",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "to be",
+          "right": "estar"
+        },
+        {
+          "left": "here",
+          "right": "aquí"
+        },
+        {
+          "left": "there",
+          "right": "allí"
+        },
+        {
+          "left": "on top of",
+          "right": "encima"
+        },
+        {
+          "left": "underneath",
+          "right": "debajo"
+        }
+      ],
+      "note": "Estar says where something is: la casa está cerca."
+    },
+    {
+      "id": "es/a1/u6/select/estar",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “to be”.",
+      "options": [
+        "mirar",
+        "necesitar",
+        "cocinar",
+        "estar"
+      ],
+      "answer": "estar",
+      "translation": "to be",
+      "note": "An infinitive. Its forms are irregular: estoy, estás, está, estamos, estáis, están."
+    },
+    {
+      "id": "es/a1/u6/type_in/aquí",
+      "type": "type_in",
+      "prompt": "Write “here” in Spanish.",
+      "answer": "aquí",
+      "acceptedAnswers": [
+        "aqui"
+      ],
+      "translation": "here",
+      "note": "No article: está aquí."
+    },
+    {
+      "id": "es/a1/u6/listen/allí",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "allí",
+      "options": [
+        "allí",
+        "fuera",
+        "bajo",
+        "la calle"
+      ],
+      "audio": {
+        "text": "allí",
+        "lang": "es"
+      },
+      "translation": "there",
+      "note": "No article: está allí."
+    },
+    {
+      "id": "es/a1/u6/match/dentro",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "inside",
+          "right": "dentro"
+        },
+        {
+          "left": "outside",
+          "right": "fuera"
+        },
+        {
+          "left": "under",
+          "right": "bajo"
+        },
+        {
+          "left": "first",
+          "right": "primero"
+        },
+        {
+          "left": "afterwards",
+          "right": "después"
+        }
+      ],
+      "note": "Estar says where something is: la casa está cerca."
+    },
+    {
+      "id": "es/a1/u6/select/encima",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “on top of”.",
+      "options": [
+        "debajo",
+        "dentro",
+        "fuera",
+        "encima"
+      ],
+      "answer": "encima",
+      "translation": "on top of",
+      "note": "No article: está encima."
+    },
+    {
+      "id": "es/a1/u6/type_in/debajo",
+      "type": "type_in",
+      "prompt": "Write “underneath” in Spanish.",
+      "answer": "debajo",
+      "acceptedAnswers": [
+        "debajo"
+      ],
+      "translation": "underneath",
+      "note": "No article: está debajo."
+    },
+    {
+      "id": "es/a1/u6/listen/dentro",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "dentro",
+      "options": [
+        "allí",
+        "encima",
+        "dentro",
+        "aquí"
+      ],
+      "audio": {
+        "text": "dentro",
+        "lang": "es"
+      },
+      "translation": "inside",
+      "note": "No article: está dentro."
+    },
+    {
+      "id": "es/a1/u6/select/fuera",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “outside”.",
+      "options": [
+        "fuera",
+        "debajo",
+        "dentro",
+        "encima"
+      ],
+      "answer": "fuera",
+      "translation": "outside",
+      "note": "No article: está fuera."
+    },
+    {
+      "id": "es/a1/u6/select/bajo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “under”.",
+      "options": [
+        "dentro",
+        "fuera",
+        "bajo",
+        "debajo"
+      ],
+      "answer": "bajo",
+      "translation": "under",
+      "note": "No article: está bajo. It also means low."
+    }
+  ]
+}

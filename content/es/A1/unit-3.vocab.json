@@ -1,0 +1,19 @@
+{
+  "unit": 3,
+  "title": "Who are you",
+  "description": "Introduce yourself, and say who other people are.",
+  "grammar": "subject pronouns and the verb ser",
+  "grammarNote": "The pronoun comes before the verb: yo soy, tú eres.",
+  "items": [
+    { "es": "yo", "en": "I", "article": null, "note": "The first person: yo soy.", "tags": ["pronoun"] },
+    { "es": "tú", "en": "you", "article": null, "note": "The second person: tú eres.", "tags": ["pronoun"] },
+    { "es": "él", "en": "he", "article": null, "note": "Third person masculine: él es.", "tags": ["pronoun"] },
+    { "es": "ella", "en": "she", "article": null, "note": "Third person feminine: ella es.", "tags": ["pronoun"] },
+    { "es": "ser", "en": "to be", "article": null, "note": "An infinitive. Its forms are irregular: soy, eres, es, somos, sois, son.", "tags": ["verb"] },
+    { "es": "nombre", "en": "name", "article": "el", "note": "Masculine: el nombre.", "tags": ["person"] },
+    { "es": "estudiante", "en": "student", "article": "el", "note": "Masculine: el estudiante. The feminine is la estudiante.", "tags": ["person"] },
+    { "es": "profesor", "en": "teacher", "article": "el", "note": "Masculine: el profesor. The feminine is la profesora.", "tags": ["person"] },
+    { "es": "amigo", "en": "friend", "article": "el", "note": "Masculine: el amigo. The feminine is la amiga.", "tags": ["person"] },
+    { "es": "madre", "en": "mother", "article": "la", "note": "Feminine: la madre.", "tags": ["family"] }
+  ]
+}

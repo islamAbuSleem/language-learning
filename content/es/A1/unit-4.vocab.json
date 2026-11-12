@@ -1,0 +1,19 @@
+{
+  "unit": 4,
+  "title": "Daily routine",
+  "description": "Say what you do every day.",
+  "grammar": "regular -ar verbs in the present",
+  "grammarNote": "An -ar verb in the present: hablo, hablas, habla, hablamos, habláis, hablan.",
+  "items": [
+    { "es": "hablar", "en": "to speak", "article": null, "note": "An infinitive ending in -ar: hablo, hablas, habla.", "tags": ["verb"] },
+    { "es": "trabajar", "en": "to work", "article": null, "note": "An infinitive ending in -ar: trabajo, trabajas, trabaja.", "tags": ["verb"] },
+    { "es": "estudiar", "en": "to study", "article": null, "note": "An infinitive ending in -ar: estudio, estudias, estudia.", "tags": ["verb"] },
+    { "es": "caminar", "en": "to walk", "article": null, "note": "An infinitive ending in -ar: camino, caminas, camina.", "tags": ["verb"] },
+    { "es": "cocinar", "en": "to cook", "article": null, "note": "An infinitive ending in -ar: cocino, cocinas, cocina.", "tags": ["verb"] },
+    { "es": "mirar", "en": "to watch", "article": null, "note": "An infinitive ending in -ar: miro, miras, mira.", "tags": ["verb"] },
+    { "es": "necesitar", "en": "to need", "article": null, "note": "An infinitive ending in -ar: necesito, necesitas, necesita.", "tags": ["verb"] },
+    { "es": "casa", "en": "house", "article": "la", "note": "Feminine: la casa. It also means home.", "tags": ["place"] },
+    { "es": "día", "en": "day", "article": "el", "note": "Masculine: el día. The plural is los días.", "tags": ["time"] },
+    { "es": "mañana", "en": "morning", "article": null, "note": "Also means tomorrow. With a time it means in the morning.", "tags": ["time"] }
+  ]
+}

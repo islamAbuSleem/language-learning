@@ -9,29 +9,40 @@ Levels are a property of the **track**, not of the learner. One learner walks
 A1 → A2 → B1 → B2; the app does not need an account to know where someone is,
 it reads their item states.
 
+## Where the grammar progression comes from
+
+The **order** of the grammar points follows the sequence in a published
+beginner course outline — articles, then *ser*, then the regular present
+tense, then *estar*, then the irregulars, and on through the preterite. A
+syllabus of grammar points is a functional outline, and it is a well-tested
+one.
+
+Everything else here is ours: every word, translation, note, example and
+exercise. No lesson text, exercise or glossary is taken from any published
+book. Where a book is worth reading, it is on the reading list, not in the
+content.
+
 ## Shape
 
-| Level | Label | Grammar introduced | Units planned |
+| Level | Label | Grammar introduced | Units |
 | --- | --- | --- | --- |
-| **A1** | Beginner | ser and estar · present tense · gender and articles · question words · numbers 0–100 | 6 |
-| **A2** | Elementary | preterite and imperfect · reflexive verbs · demonstratives · por and para · expressing plans | 8 |
-| **B1** | Intermediate | present perfect · subjunctive after cuando and although · relative clauses · indirect speech · the conditional | 10 |
-| **B2** | Upper intermediate | subjunctive against the indicative · pluperfect · reported speech · concessive clauses · formal register | 12 |
-
-Written so far: **A1 units 1–2**. Everything else is planned, not authored.
+| **A1** | Beginner | articles and nouns · subject pronouns and *ser* · regular *-ar* verbs · numbers · *estar* | 6 |
+| **A2** | Elementary | *-er* and *-ir* verbs · the verb *ir* · telling the time · *tener* · question words · *saber* and *conocer* | 8 |
+| **B1** | Intermediate | stem-changing verbs · the irregular present · the present progressive · direct object pronouns · reflexives · the preterite · commands and comparisons | 10 |
+| **B2** | Upper intermediate | the subjunctive · *desde cuándo* · reported speech · the conditional · the pluperfect · concessive clauses · formal register | 12 |
 
 ## A1 — Beginner
 
 > Order, greet, and describe what you see.
 
-| Unit | Theme | Grammar | Exercises |
-| --- | --- | --- | --- |
-| 1 | At the café | gender and articles | select ×4, match ×2, type_in ×2, listen ×2 |
-| 2 | Getting around | question words | select ×4, match ×2, type_in ×2, listen ×2 |
-| 3 | Introductions | ser and estar | |
-| 4 | At home | demonstratives | |
-| 5 | Daily routine | present tense, reflexive verbs | |
-| 6 | Food and shopping | numbers, por and para | |
+| Unit | Theme | Grammar | Words | Written |
+| --- | --- | --- | --- | --- |
+| 1 | At the café | gender and articles | 10 | yes |
+| 2 | Getting around | nouns and their articles | 10 | yes |
+| 3 | Who are you | subject pronouns and *ser* | 10 | yes |
+| 4 | Daily routine | regular *-ar* verbs | 10 | yes |
+| 5 | Numbers | indefinite articles and numbers to 100 | 10 | yes |
+| 6 | Where things are | the verb *estar* | 10 | yes |
 
 **Exit criteria** — a learner has finished A1 when they can order, ask for
 directions, introduce themselves and describe their routine, in short exchanges.
@@ -42,13 +53,13 @@ directions, introduce themselves and describe their routine, in short exchanges.
 
 | Unit | Theme | Grammar |
 | --- | --- | --- |
-| 7 | Past and future | preterite and imperfect |
-| 8 | Family and friends | possessive adjectives |
-| 9 | A day out | expressing plans |
-| 10 | The city | por and para |
-| 11 | Health and body | reflexive verbs |
-| 12 | Work and study | preterite with irregular verbs |
-| 13 | Travel | demonstratives and comparison |
+| 7 | Regular *-er* verbs | the *-er* present |
+| 8 | Regular *-ir* verbs | the *-ir* present |
+| 9 | Going somewhere | the verb *ir* |
+| 10 | The day | telling the time |
+| 11 | Having and needing | *tener* and its expressions |
+| 12 | Asking | question words and *hacer* |
+| 13 | Knowing | *saber* and *conocer* |
 | 14 | Review | mixed |
 
 ## B1 — Intermediate
@@ -57,12 +68,16 @@ directions, introduce themselves and describe their routine, in short exchanges.
 
 | Unit | Theme | Grammar |
 | --- | --- | --- |
-| 15 | Experiences | present perfect |
-| 16 | Hopes and doubts | subjunctive after cuando and although |
-| 17 | Who is who | relative clauses |
-| 18 | Reporting | indirect speech |
-| 19 | If this happens | the conditional |
-| 20–24 | Thematic units | mixed, one grammar point each |
+| 15 | Changing verbs | stem-changing verbs |
+| 16 | The irregular ones | *ir*, *dar* and the other irregular presents |
+| 17 | Right now | the present progressive |
+| 18 | Him, her, them | direct object pronouns |
+| 19 | Yes and no | affirmatives, negatives, demonstratives |
+| 20 | Myself | reflexive verbs |
+| 21 | Just now | *acabar de* and *hace* |
+| 22 | Yesterday | the preterite with *-ar* verbs |
+| 23 | Yesterday, again | the preterite with *-er* and *-ir* verbs |
+| 24 | Orders and comparisons | formal commands, superlatives |
 
 ## B2 — Upper intermediate
 
@@ -70,34 +85,36 @@ directions, introduce themselves and describe their routine, in short exchanges.
 
 | Unit | Theme | Grammar |
 | --- | --- | --- |
-| 25 | Opinions | subjunctive against the indicative |
-| 26 | Looking back | pluperfect |
-| 27 | The news | reported speech |
-| 28 | Concessions | concessive clauses |
-| 29 | Writing formally | formal register |
-| 30–36 | Thematic units | mixed, one grammar point each |
+| 25 | Since when | *desde cuándo* |
+| 26 | Doubts | the subjunctive |
+| 27 | What they said | reported speech |
+| 28 | If it happens | the conditional |
+| 29 | Before that | the pluperfect |
+| 30 | Although | concessive clauses |
+| 31 | Writing to institutions | formal register |
+| 32–36 | Thematic units | mixed, one grammar point each |
 
 ## Rules for writing a unit
 
-1. **Ten exercises.** The unit size comes from the reference app: a unit is a
+1. **Ten words.** The unit size comes from the reference app: a unit is a
    short, finishable session (`0 / 10` on the progress bar).
 2. **A unit teaches one thing.** One grammar point, one theme. A unit that
    mixes three grammar points teaches none of them.
-3. **Four shapes, rotating.** `select`, `match`, `type_in`, `listen` — a
+3. **The words are the content.** The exercises are generated from them by
+   `scripts/build-content.mjs`; nobody writes an exercise by hand.
+4. **Every word carries a note.** A short grammar or usage note, in our words.
+   The feedback panel shows it after the answer.
+5. **A wrong answer is a word the learner has already met.** The generator
+   enforces it, and a test checks it: a wrong answer the learner has never
+   seen is a new word wearing a disguise.
+6. **Four shapes, rotating.** `select`, `match`, `type_in`, `listen` — a
    learner should not meet the same shape three times in a row.
-4. **Every exercise carries its own note.** A short grammar or usage note, in
-   our words. The feedback panel shows it after the answer.
-5. **New vocabulary is introduced by the unit, not the app.** Ten words, ten
-   exercises, each word met once.
-6. **The level directory is the level.** `content/es/A1/unit-1.json` must carry
-   `"level": "A1"`. A test enforces it.
 
 ## Content gap
 
-36 units × 10 exercises = **360 exercises** for the Spanish track alone, each
-with a prompt, an answer and a note. That is the real remaining cost of this
-app, and it is writing work, not code work. The schema, the loader, the API
-and the path UI already handle all four levels.
+36 units × 10 words = **360 words** for the Spanish track alone. At ten words
+a unit, that is thirty-six small vocabulary files rather than thirty-six large
+exercise files — the generator does the rest.
 
-`listen` also needs audio. The schema and the renderer exist; the assets do
-not. TTS generation or recorded audio is a separate decision.
+`listen` needs audio. The schema, the renderer and the browser's own voice are
+in place; recorded audio would replace the voice and change nothing else.

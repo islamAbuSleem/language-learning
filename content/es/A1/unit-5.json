@@ -1,0 +1,179 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 5,
+  "title": "Numbers",
+  "description": "Count things, and say how many there are.",
+  "exercises": [
+    {
+      "id": "es/a1/u5/match/uno",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "one",
+          "right": "uno"
+        },
+        {
+          "left": "a",
+          "right": "un"
+        },
+        {
+          "left": "a",
+          "right": "una"
+        },
+        {
+          "left": "two",
+          "right": "dos"
+        },
+        {
+          "left": "three",
+          "right": "tres"
+        }
+      ],
+      "note": "Un and una mean one, and match the noun: un libro, una casa."
+    },
+    {
+      "id": "es/a1/u5/select/uno",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “one”.",
+      "options": [
+        "cinco",
+        "diez",
+        "veinte",
+        "uno"
+      ],
+      "answer": "uno",
+      "translation": "one",
+      "note": "The number one. Before a noun it becomes un or una."
+    },
+    {
+      "id": "es/a1/u5/type_in/un",
+      "type": "type_in",
+      "prompt": "Write “a” in Spanish.",
+      "answer": "un",
+      "acceptedAnswers": [
+        "un"
+      ],
+      "translation": "a",
+      "note": "Masculine, one: un libro."
+    },
+    {
+      "id": "es/a1/u5/listen/una",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "una",
+      "options": [
+        "una",
+        "tres",
+        "cinco",
+        "dos"
+      ],
+      "audio": {
+        "text": "una",
+        "lang": "es"
+      },
+      "translation": "a",
+      "note": "Feminine, one: una casa."
+    },
+    {
+      "id": "es/a1/u5/match/cinco",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "five",
+          "right": "cinco"
+        },
+        {
+          "left": "ten",
+          "right": "diez"
+        },
+        {
+          "left": "twenty",
+          "right": "veinte"
+        },
+        {
+          "left": "a hundred",
+          "right": "cien"
+        },
+        {
+          "left": "number",
+          "right": "el número"
+        }
+      ],
+      "note": "Un and una mean one, and match the noun: un libro, una casa."
+    },
+    {
+      "id": "es/a1/u5/select/dos",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “two”.",
+      "options": [
+        "un",
+        "uno",
+        "dos",
+        "una"
+      ],
+      "answer": "dos",
+      "translation": "two",
+      "note": "The number two."
+    },
+    {
+      "id": "es/a1/u5/type_in/tres",
+      "type": "type_in",
+      "prompt": "Write “three” in Spanish.",
+      "answer": "tres",
+      "acceptedAnswers": [
+        "tres"
+      ],
+      "translation": "three",
+      "note": "The number three."
+    },
+    {
+      "id": "es/a1/u5/listen/cinco",
+      "type": "listen",
+      "prompt": "What did you hear?",
+      "answer": "cinco",
+      "options": [
+        "tres",
+        "veinte",
+        "diez",
+        "cinco"
+      ],
+      "audio": {
+        "text": "cinco",
+        "lang": "es"
+      },
+      "translation": "five",
+      "note": "The number five."
+    },
+    {
+      "id": "es/a1/u5/select/diez",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “ten”.",
+      "options": [
+        "un",
+        "una",
+        "uno",
+        "diez"
+      ],
+      "answer": "diez",
+      "translation": "ten",
+      "note": "The number ten."
+    },
+    {
+      "id": "es/a1/u5/select/veinte",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “twenty”.",
+      "options": [
+        "cinco",
+        "diez",
+        "tres",
+        "veinte"
+      ],
+      "answer": "veinte",
+      "translation": "twenty",
+      "note": "The number twenty."
+    }
+  ]
+}
