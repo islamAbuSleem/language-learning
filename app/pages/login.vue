@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { AuthMethods, UserPayload } from "#shared/api/schemas"
 
+const route = useRoute()
+
 const { data: initial } = await useFetch<{ user: UserPayload | null; methods: AuthMethods }>(
   "/api/auth/me",
   { headers: useRequestHeaders(["cookie"]) },
@@ -88,6 +90,9 @@ function startGoogle() {
     </p>
 
     <p v-if="error" class="auth__error" role="alert">{{ error }}</p>
+    <p v-else-if="route.query.magic === 'invalid'" class="auth__error" role="alert">
+      That link is used up or expired. Ask for a fresh one below.
+    </p>
 
     <section v-if="methods.password" class="auth__block">
       <div class="auth__tabs" role="tablist" aria-label="Sign in or sign up">

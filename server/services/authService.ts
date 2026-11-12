@@ -16,10 +16,14 @@ import {
   clearAnonymousLearnerId,
   getAnonymousLearnerId,
 } from "./learnerService"
+import { sendMagicLink } from "./mailer"
 
 /** Ten tries per ten minutes per address. Enough for a human, boring for a script. */
 const RATE_LIMIT = 10
 const RATE_WINDOW_MS = 10 * 60 * 1000
+
+/** A magic link lives fifteen minutes and works once. */
+export const MAGIC_LINK_TTL_MS = 15 * 60 * 1000
 
 /** A wrong password still costs a scrypt run, so timing says nothing about the email. */
 const DUMMY_HASH =
@@ -192,4 +196,78 @@ export function availableMethods() {
     magic: process.env.NODE_ENV !== "production" || Boolean(process.env.RESEND_API_KEY),
     google: Boolean(process.env.GOOGLE_CLIENT_ID),
   }
+}
+
+/**
+ * Send a sign-in link.
+ *
+ * The address gets an account if it does not have one yet: a link proves
+ * ownership of the inbox, which is all an account needs to start. Five links
+ * an hour per address; asking for a sixth changes nothing.
+ *
+ * In development the link comes back in the response so a test can follow
+ * it. In production only the mailbox has it.
+ */
+export async function requestMagicLink(
+  event: H3Event,
+  input: { email: string },
+): Promise<{ sent: boolean; link?: string }> {
+  const email = input.email.trim()
+  const emailNorm = normalizeEmail(email)
+
+  if (
+    !allowAttempt(`magic:${emailNorm}`, 5, 60 * 60 * 1000, Date.now()) ||
+    rateLimited(clientIp(event), "magic")
+  ) {
+    throw createError({ statusCode: 429, statusMessage: "Too many tries. Wait a while." })
+  }
+
+  const repository = await getAuthRepository()
+  const { token, tokenHash } = newSessionToken()
+
+  await repository.createMagicLink(tokenHash, emailNorm, Date.now() + MAGIC_LINK_TTL_MS)
+
+  const origin = getRequestURL(event).origin
+  const link = `${origin}/api/auth/magic?token=${token}`
+  const { sent } = await sendMagicLink(email, link)
+
+  return sent ? { sent } : { sent, link }
+}
+
+/**
+ * Redeem a sign-in link: one account per inbox, progress merged in.
+ *
+ * A link for an unknown address creates the account on the spot. A link for
+ * a known one signs it in. Either way the anonymous progress in this browser
+ * joins it, and the link dies on use.
+ */
+export async function redeemMagicLink(event: H3Event, token: string): Promise<User> {
+  const repository = await getAuthRepository()
+  const link = await repository.consumeMagicLink(hashSessionToken(token), Date.now())
+
+  if (!link) {
+    throw createError({ statusCode: 410, statusMessage: "That link is used up or expired." })
+  }
+
+  let row = await repository.findUserByEmailNorm(link.emailNorm)
+
+  if (!row) {
+    // The inbox proved itself, so the account starts verified.
+    row = await repository.createUser({
+      id: randomUUID(),
+      email: link.emailNorm,
+      displayName: displayNameFor(link.emailNorm),
+      passwordHash: null,
+      googleSub: null,
+      emailVerified: true,
+    })
+  } else if (!row.emailVerified) {
+    await repository.markEmailVerified(row.id)
+    row = { ...row, emailVerified: true }
+  }
+
+  await mergeAnonymousProgress(event, row.id)
+  await startSession(event, row.id)
+
+  return toUserPayload(row)
 }

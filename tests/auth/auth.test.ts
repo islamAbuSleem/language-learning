@@ -109,6 +109,14 @@ describe("the auth repository", () => {
     expect(await repository.consumeMagicLink("missing", 1_000)).toBeNull()
   })
 
+  it("refuses an expired magic link", async () => {
+    const repository = createInMemoryAuthRepository()
+
+    await repository.createMagicLink("old", "learner@example.com", 1_000)
+
+    expect(await repository.consumeMagicLink("old", 2_000)).toBeNull()
+  })
+
   it("forgets one session or all of them", async () => {
     const repository = createInMemoryAuthRepository()
     const first = newSessionToken()

@@ -307,13 +307,62 @@ try {
   const keptFirst = kept.body.tracks.find((track) => track.id === "es").levels[0].units[0]
   check("the progress survived logout and login", keptFirst.completed === true)
 
+  // 11. a magic link signs in without a password
+  //
+  // In development the link comes back in the response so the check can
+  // follow it; in production only the mailbox has it. fetch does not keep
+  // a cookie jar, so the redirect is followed by hand and the session
+  // cookie is picked up from the response that sets it.
+  const magicEmail = `magic-${Math.random().toString(36).slice(2, 8)}@example.com`
+
+  const magicAsked = await call("/api/auth/magic", {
+    method: "POST",
+    body: JSON.stringify({ email: magicEmail }),
+  })
+  check("a magic link is issued", magicAsked.status === 200 && typeof magicAsked.body.link === "string", `status ${magicAsked.status}`)
+
+  const magicUrl = new URL(magicAsked.body.link)
+  const magicPath = magicUrl.pathname + magicUrl.search
+
+  function absorbCookies(response) {
+    for (const raw of response.headers.getSetCookie?.() ?? []) {
+      const pair = raw.split(";")[0] ?? ""
+      const index = pair.indexOf("=")
+      if (index < 0) continue
+      const name = pair.slice(0, index).trim()
+      const value = pair.slice(index + 1).trim()
+      if (value === "" || /expires=Thu, 01 Jan 1970/i.test(raw)) jar.delete(name)
+      else jar.set(name, value)
+    }
+  }
+
+  function jarHeader() {
+    return [...jar.entries()].map(([name, value]) => `${name}=${value}`).join("; ")
+  }
+
+  const magicLanding = await fetch(BASE + magicPath, {
+    headers: { cookie: jarHeader() },
+    redirect: "manual",
+  })
+  check("the link lands", magicLanding.status === 302, `status ${magicLanding.status}`)
+  absorbCookies(magicLanding)
+
+  const magicMe = await call("/api/auth/me")
+  check("the magic account owns the inbox", magicMe.body.user?.email === magicEmail, magicMe.body.user?.email)
+
+  const magicAgain = await fetch(BASE + magicPath, {
+    headers: { cookie: jarHeader() },
+    redirect: "manual",
+  })
+  check("a used link dies", magicAgain.status === 302 && (magicAgain.headers.get("location") ?? "").includes("magic=invalid"))
+
   console.log(notes.join("\n"))
   if (problems.length > 0) {
     console.error(`\n${problems.length} problem(s):`)
     for (const problem of problems) console.error(problem)
     process.exitCode = 1
   } else {
-    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats, auth")
+    console.log("\nthe journey works: lock, play, unlock, practise, revisit, stats, auth, magic")
   }
 } finally {
   server.kill()

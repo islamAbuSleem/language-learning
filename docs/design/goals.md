@@ -75,7 +75,7 @@ the cookie.
 | Step | What | Done when |
 | --- | --- | --- |
 | 1 | **Email + password.** Self-contained, no external service. | **Done.** Scrypt hashes, timing-safe compare, merged progress, journey green. |
-| 2 | **Magic link.** No passwords to remember. | A link signs the learner in, once, within fifteen minutes; unconfigured mail stays a console link in dev. |
+| 2 | **Magic link.** No passwords to remember. | **Done.** A link signs the learner in, once, within fifteen minutes; unconfigured mail stays a console link in dev. |
 | 3 | **Google.** One click for everyone who has it. | The button appears when the client ID is set; the account links by verified email. |
 
 ## What comes next
