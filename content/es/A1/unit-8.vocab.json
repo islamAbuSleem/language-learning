@@ -1,0 +1,53 @@
+{
+  "unit": 8,
+  "title": "Colours and clothes",
+  "description": "Name the colours, and say what you are wearing.",
+  "grammar": "the verb llevar, and colours that change",
+  "grammarNote": "A colour changes to agree with the noun: el Wearing rojo, but la camisa roja.",
+  "explanation": {
+    "summary": "Colours are adjectives, and they agree with the thing they describe. The rule is the opposite of English: a colour ending in -o changes to -a for a feminine noun, and a colour that ends in -e or a consonant stays the same.",
+    "sections": [
+      {
+        "heading": "The two endings",
+        "body": "Rojo becomes roja, blanco becomes blanca, but verde stays verde and azul stays azul. So you learn a colour with its ending: el vestido rojo, la camisa roja, el vestido verde, la camisa verde. If the noun is plural, the colour takes an -s: los zapatos rojos.",
+        "examples": [
+          { "es": "el vestido rojo", "en": "the red dress" },
+          { "es": "la camisa roja", "en": "the red shirt" },
+          { "es": "el coche verde", "en": "the green car" },
+          { "es": "los zapatos negros", "en": "the black shoes" }
+        ]
+      },
+      {
+        "heading": "Saying what you are wearing",
+        "body": "You use the verb llevar: llevo el abrigo. Llevar also means to carry or to bring. As with the weather, the verb carries the meaning and the clothes follow it.",
+        "examples": [
+          { "es": "Llevo una chaqueta azul.", "en": "I am wearing a blue jacket." },
+          { "es": "Ella lleva un sombrero negro.", "en": "She is wearing a black hat." }
+        ]
+      },
+      {
+        "heading": "Two words for the same colour",
+        "body": "Your vocabulary file lists the colour as a word. In a shop you would also hear the word for the object: el rojo, el azul. The second word means the colour on its own, without a noun before it."
+      }
+    ]
+  },
+  "items": [
+    { "es": "rojo", "en": "red", "article": null, "note": "It changes to roja before a feminine noun: la camisa roja.", "tags": ["colour"] },
+    { "es": "azul", "en": "blue", "article": null, "note": "It never changes: la camisa azul.", "tags": ["colour"] },
+    { "es": "verde", "en": "green", "article": null, "note": "It never changes: el coche verde.", "tags": ["colour"] },
+    { "es": "negro", "en": "black", "article": null, "note": "It changes to negra before a feminine noun.", "tags": ["colour"] },
+    { "es": "blanco", "en": "white", "article": null, "note": "It changes to blanca before a feminine noun.", "tags": ["colour"] },
+    { "es": "camisa", "en": "shirt", "article": "la", "note": "Feminine: la camisa.", "tags": ["clothes"] },
+    { "es": "pantalón", "en": "trousers", "article": "el", "note": "Masculine: el pantalón. The plural is los pantalones.", "tags": ["clothes"] },
+    { "es": "zapatos", "en": "shoes", "article": "los", "note": "Always plural: los zapatos.", "tags": ["clothes"] },
+    { "es": "sombrero", "en": "hat", "article": "el", "note": "Masculine: el sombrero.", "tags": ["clothes"] },
+    { "es": "chaqueta", "en": "jacket", "article": "la", "note": "Feminine: la chaqueta.", "tags": ["clothes"] }
+  ],
+  "drills": [
+    { "prompt": "La camisa es ___.", "answer": "roja", "meaning": "the shirt is red", "note": "Rojo becomes roja before a feminine noun." },
+    { "prompt": "El coche es ___.", "answer": "verde", "meaning": "the car is green", "note": "Verde never changes." },
+    { "prompt": "Yo ___ una chaqueta azul.", "answer": "llevo", "meaning": "I am wearing a blue jacket", "note": "Llevar is what you wear." },
+    { "prompt": "Los zapatos son ___.", "answer": "negros", "meaning": "the shoes are black", "note": "A plural noun takes an -s on the colour." },
+    { "prompt": "Ella lleva un sombrero ___.", "answer": "blanco", "meaning": "she is wearing a white hat", "note": "Blanco becomes blanca before a feminine noun, and sombrero is masculine." }
+  ]
+}

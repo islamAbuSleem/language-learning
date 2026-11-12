@@ -1,0 +1,54 @@
+{
+  "unit": 7,
+  "title": "The weather",
+  "description": "Say what the weather is like, and how warm it is.",
+  "grammar": "the weather, and the verb hacer",
+  "grammarNote": "The weather uses hacer, not estar: hace calor, hace frío, hace sol.",
+  "explanation": {
+    "summary": "Spanish talks about the weather with the verb hacer. You do not say “it is hot”, you say “it does hot”. The structure is always hacer followed by a noun: hace calor, hace frío, hace sol, hace viento.",
+    "sections": [
+      {
+        "heading": "How the weather is built",
+        "body": "The verb hacer carries the weather, and the noun after it says what the weather is. The whole phrase is a single idea: hace calor is one thing, the same as “it is hot”. In the negative it is no hace calor, and in the past it was hacía calor."
+      },
+      {
+        "heading": "Asking about it",
+        "body": "To ask, you use the question word qué, and the verb comes before it: ¿Qué tiempo hace? There is also ¿Qué día hace?, which asks what the day is like rather than what the weather is."
+      },
+      {
+        "heading": "Numbers and degrees",
+        "body": "Temperature is in degrees: hace treinta grados. The number goes straight before grados, with no word in between. The word grados is the same for every number, unlike English, where you say degrees or degree."
+      },
+      {
+        "heading": "Examples",
+        "examples": [
+          { "es": "¿Qué tiempo hace?", "en": "What is the weather like?" },
+          { "es": "Hace sol.", "en": "It is sunny." },
+          { "es": "Hace mucho calor.", "en": "It is very hot." },
+          { "es": "Hoy hace veinte grados.", "en": "Today it is twenty degrees." },
+          { "es": "No hace mal tiempo.", "en": "The weather is not bad." },
+          { "es": "Está nublado.", "en": "It is cloudy." }
+        ]
+      }
+    ]
+  },
+  "items": [
+    { "es": "sol", "en": "sun", "article": "el", "note": "Masculine: el sol. It also means sun cream.", "tags": ["weather"] },
+    { "es": "lluvia", "en": "rain", "article": "la", "note": "Feminine: la lluvia. It also means a problem.", "tags": ["weather"] },
+    { "es": "nieve", "en": "snow", "article": "la", "note": "Feminine: la nieve. It never takes an article in the phrase hace nieve.", "tags": ["weather"] },
+    { "es": "viento", "en": "wind", "article": "el", "note": "Masculine: el viento.", "tags": ["weather"] },
+    { "es": "nublado", "en": "cloudy", "article": null, "note": "It is used with estar: está nublado.", "tags": ["weather"] },
+    { "es": "calor", "en": "heat", "article": "el", "note": "Masculine: el calor. It is only used in the phrase hace calor.", "tags": ["weather"] },
+    { "es": "templado", "en": "mild", "article": null, "note": "It is used with estar: está templado.", "tags": ["weather"] },
+    { "es": "grados", "en": "degrees", "article": null, "note": "No article on its own: hace treinta grados.", "tags": ["weather"] },
+    { "es": "hace buen tiempo", "en": "it is nice weather", "article": null, "note": "The good weather phrase. The opposite is hace mal tiempo.", "tags": ["weather"] },
+    { "es": "hace mal tiempo", "en": "it is bad weather", "article": null, "note": "The bad weather phrase.", "tags": ["weather"] }
+  ],
+  "drills": [
+    { "prompt": "Hoy ___ buen tiempo.", "answer": "hace", "meaning": "it is nice weather today", "note": "The weather uses hacer." },
+    { "prompt": "En agosto hace mucho ___.", "answer": "calor", "meaning": "it is very hot in August", "note": "hace calor, not hace calor." },
+    { "prompt": "___ grados hace hoy.", "answer": "Cuántos", "meaning": "how many degrees is it today", "note": "The question word goes before the verb." },
+    { "prompt": "En invierno hace ___.", "answer": "frío", "meaning": "it is cold in winter", "note": "hace frío." },
+    { "prompt": "Está ___: no sale el sol.", "answer": "nublado", "meaning": "it is cloudy: the sun is not coming out", "note": "Cloudiness uses estar, not hacer." }
+  ]
+}

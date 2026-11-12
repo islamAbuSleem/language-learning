@@ -55,20 +55,37 @@ export function useLessonSession(track: string, level: string, unit: number) {
     phase.value = "loading"
     resetAnswerState()
 
-    const response = await $fetch<{
-      sessionId: string
-      total: number
-      index: number
-      exercise: ClientExercise | null
-      profile: LearnerProfilePayload
-    }>("/api/session", { method: "POST", body: { track, level, unit } })
+    try {
+      const response = await $fetch<{
+        sessionId: string
+        total: number
+        index: number
+        exercise: ClientExercise | null
+        profile: LearnerProfilePayload
+      }>("/api/session", { method: "POST", body: { track, level, unit } })
 
-    sessionId.value = response.sessionId
-    total.value = response.total
-    index.value = response.index
-    exercise.value = response.exercise
-    profile.value = response.profile
-    phase.value = response.exercise ? "answering" : "done"
+      sessionId.value = response.sessionId
+      total.value = response.total
+      index.value = response.index
+      exercise.value = response.exercise
+      profile.value = response.profile
+      phase.value = response.exercise ? "answering" : "done"
+    } catch (failure) {
+      error.value = messageOf(failure)
+      phase.value = "done"
+    }
+  }
+
+  /** The server's own words, when it has them. */
+  function messageOf(failure: unknown): string {
+    if (failure && typeof failure === "object" && "data" in failure) {
+      const data = (failure as { data?: { statusMessage?: string; message?: string } }).data
+      if (data?.statusMessage) return data.statusMessage
+      if (data?.message) return data.message
+    }
+    if (failure instanceof Error) return failure.message
+
+    return "Something went wrong. Try again."
   }
 
   /** The learner's current input, in the shape the API expects. */

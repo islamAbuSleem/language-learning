@@ -38,9 +38,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “hour”.",
       "options": [
-        "el día",
-        "el minuto",
+        "ahora",
         "mañana",
+        "el día",
         "la hora"
       ],
       "answer": "la hora",
@@ -64,9 +64,9 @@
       "prompt": "What did you hear?",
       "answer": "el mediodía",
       "options": [
-        "la tarde",
-        "la noche",
-        "la medianoche",
+        "el día",
+        "mañana",
+        "ahora",
         "el mediodía"
       ],
       "audio": {
@@ -109,9 +109,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “midnight”.",
       "options": [
-        "la semana",
-        "el mes",
-        "la noche",
+        "noche",
+        "la hora",
+        "tarde",
         "la medianoche"
       ],
       "answer": "la medianoche",
@@ -135,9 +135,9 @@
       "prompt": "What did you hear?",
       "answer": "la noche",
       "options": [
-        "el día",
         "la hora",
-        "mañana",
+        "el mediodía",
+        "el minuto",
         "la noche"
       ],
       "audio": {
@@ -152,10 +152,10 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “week”.",
       "options": [
-        "el minuto",
         "el mediodía",
+        "la medianoche",
         "la semana",
-        "la hora"
+        "el minuto"
       ],
       "answer": "la semana",
       "translation": "week",
@@ -166,9 +166,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “month”.",
       "options": [
-        "la semana",
-        "el día",
-        "ahora",
+        "noche",
+        "el minuto",
+        "la hora",
         "el mes"
       ],
       "answer": "el mes",

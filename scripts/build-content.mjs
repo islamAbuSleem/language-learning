@@ -109,11 +109,15 @@ function options(item, pool, count, seed) {
 
 /**
  * The shapes of a unit, so the same shape never comes twice in a row.
+ *
+ * A unit holds ten exercises. Drills take the place of word exercises: when
+ * a unit has grammar drills, the word slots they replace become drills.
  */
-function planShapes(wordCount) {
+function planShapes(wordCount, drillCount) {
   const matchCount = Math.max(1, Math.floor(wordCount / 5))
-  const rest = wordCount - matchCount
-  const typeInCount = Math.floor(rest / 4)
+  const rest = Math.max(0, wordCount - matchCount - drillCount)
+
+  const typeInCount = drillCount === 0 ? Math.floor(rest / 4) : 0
   const listenCount = Math.floor(rest / 4)
   const selectCount = rest - typeInCount - listenCount
 
@@ -122,6 +126,7 @@ function planShapes(wordCount) {
     Array(selectCount).fill("select"),
     Array(typeInCount).fill("type_in"),
     Array(listenCount).fill("listen"),
+    Array(drillCount).fill("drill"),
   ].filter((bucket) => bucket.length > 0)
 
   const plan = []
@@ -137,12 +142,21 @@ function planShapes(wordCount) {
   return plan
 }
 
+/** The same word without its accents, so a learner is not marked down for one. */
+function withoutAccents(text) {
+  return text.replace(/[áéíóúñü]/g, (c) => ({
+    á: "a", é: "e", í: "i", ó: "o", ú: "u", ñ: "n", ü: "u",
+  })[c])
+}
+
 function buildUnit(vocabulary, track, level, pool) {
   const items = vocabulary.items
-  const shapes = planShapes(items.length)
+  const drills = vocabulary.drills ?? []
+  const shapes = planShapes(items.length, drills.length)
 
   let matchIndex = 0
   let singleIndex = 0
+  let drillIndex = 0
   const exercises = []
 
   for (const [index, shape] of shapes.entries()) {
@@ -160,6 +174,23 @@ function buildUnit(vocabulary, track, level, pool) {
         prompt: "Pair each word with its translation.",
         pairs: block.map((item) => ({ left: item.en, right: display(item) })),
         note: vocabulary.grammarNote ?? undefined,
+      })
+      continue
+    }
+
+    if (shape === "drill") {
+      const drill = drills[drillIndex]
+      drillIndex += 1
+      if (!drill) continue
+
+      exercises.push({
+        id: `${track}/${level.toLowerCase()}/u${vocabulary.unit}/drill/${drillIndex}`,
+        type: "type_in",
+        prompt: drill.prompt,
+        answer: drill.answer,
+        acceptedAnswers: [withoutAccents(drill.answer)],
+        translation: drill.meaning,
+        note: drill.note ?? undefined,
       })
       continue
     }
@@ -186,9 +217,7 @@ function buildUnit(vocabulary, track, level, pool) {
         type: "type_in",
         prompt: `Write “${item.en}” in Spanish.`,
         answer: item.es,
-        acceptedAnswers: [item.es.replace(/[áéíóúñü]/g, (c) => ({
-          á: "a", é: "e", í: "i", ó: "o", ú: "u", ñ: "n", ü: "u",
-        })[c])],
+        acceptedAnswers: [withoutAccents(item.es)],
         translation: item.en,
         note: item.note ?? vocabulary.grammarNote ?? undefined,
       })
@@ -213,6 +242,7 @@ function buildUnit(vocabulary, track, level, pool) {
     unit: vocabulary.unit,
     title: vocabulary.title,
     description: vocabulary.description,
+    explanation: vocabulary.explanation,
     exercises,
   }
 }

@@ -1,0 +1,207 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 10,
+  "title": "The family",
+  "description": "Talk about the people you are related to, and say whose things are whose.",
+  "explanation": {
+    "summary": "Possessives say who something belongs to. They come before the noun and never take an article: mi casa, tu coche, nuestro perro. The family words are irregular in one way worth knowing: the same word means both a parent and a child.",
+    "sections": [
+      {
+        "heading": "The possessives",
+        "body": "Mi is my, tu is your, su is his or her or their, nuestro is our, vuestro is your (plural). They are the same for masculine and feminine nouns, and they go straight before the noun with no article: mi hermana, sus hijos.",
+        "examples": [
+          {
+            "es": "Este es mi hermano.",
+            "en": "This is my brother."
+          },
+          {
+            "es": "Aquella es nuestra casa.",
+            "en": "That is our house."
+          },
+          {
+            "es": "Sus hijos viven en Madrid.",
+            "en": "Her children live in Madrid."
+          }
+        ]
+      },
+      {
+        "heading": "Padre and padre",
+        "body": "Spanish has a word for a parent that is also a word for a child, and another that is only the parent. Padre means father and also father as a relative. Madre means mother. Hijo and hija mean son and daughter, and they are only ever children, never parents.",
+        "examples": [
+          {
+            "es": "Mi padre es médico.",
+            "en": "My father is a doctor."
+          },
+          {
+            "es": "Su madre cocina muy bien.",
+            "en": "His mother cooks very well."
+          },
+          {
+            "es": "Tengo dos hijos.",
+            "en": "I have two children."
+          }
+        ]
+      },
+      {
+        "heading": "Who is su?",
+        "body": "Su means his, her, its, their, and you cannot tell which from the word alone. Spanish leans on the sentence: es su coche could be his car or her car. If you need to be clear, you say de él or de ella."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u10/match/padre",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "father",
+          "right": "el padre"
+        },
+        {
+          "left": "mother",
+          "right": "la madre"
+        },
+        {
+          "left": "son",
+          "right": "el hijo"
+        },
+        {
+          "left": "daughter",
+          "right": "la hija"
+        },
+        {
+          "left": "brother",
+          "right": "el hermano"
+        }
+      ],
+      "note": "A possessive goes before the noun: mi casa, nuestro padre."
+    },
+    {
+      "id": "es/a1/u10/select/padre",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “father”.",
+      "options": [
+        "la madre",
+        "el hijo",
+        "la madre",
+        "el padre"
+      ],
+      "answer": "el padre",
+      "translation": "father",
+      "note": "Masculine: el padre. It also means a priest, and a relative."
+    },
+    {
+      "id": "es/a1/u10/drill/1",
+      "type": "type_in",
+      "prompt": "___ casa es grande.",
+      "answer": "Mi",
+      "acceptedAnswers": [
+        "Mi"
+      ],
+      "translation": "my house is big",
+      "note": "The possessive goes before the noun."
+    },
+    {
+      "id": "es/a1/u10/match/hermana",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "sister",
+          "right": "la hermana"
+        },
+        {
+          "left": "grandfather",
+          "right": "el abuelo"
+        },
+        {
+          "left": "grandmother",
+          "right": "la abuela"
+        },
+        {
+          "left": "my",
+          "right": "mi"
+        },
+        {
+          "left": "our",
+          "right": "nuestro"
+        }
+      ],
+      "note": "A possessive goes before the noun: mi casa, nuestro padre."
+    },
+    {
+      "id": "es/a1/u10/select/madre",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “mother”.",
+      "options": [
+        "el abuelo",
+        "la abuela",
+        "la hermana",
+        "la madre"
+      ],
+      "answer": "la madre",
+      "translation": "mother",
+      "note": "Feminine: la madre."
+    },
+    {
+      "id": "es/a1/u10/drill/2",
+      "type": "type_in",
+      "prompt": "___ madre es medico.",
+      "answer": "Su",
+      "acceptedAnswers": [
+        "Su"
+      ],
+      "translation": "his mother is a doctor",
+      "note": "Su means his, her or their."
+    },
+    {
+      "id": "es/a1/u10/select/hijo",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “son”.",
+      "options": [
+        "el hermano",
+        "la hermana",
+        "el abuelo",
+        "el hijo"
+      ],
+      "answer": "el hijo",
+      "translation": "son",
+      "note": "Masculine: el hijo. It is only ever a child."
+    },
+    {
+      "id": "es/a1/u10/drill/3",
+      "type": "type_in",
+      "prompt": "Tengo dos ___.",
+      "answer": "hijos",
+      "acceptedAnswers": [
+        "hijos"
+      ],
+      "translation": "I have two children",
+      "note": "Hijo is only ever a child, and it takes an -s in the plural."
+    },
+    {
+      "id": "es/a1/u10/drill/4",
+      "type": "type_in",
+      "prompt": "Este es ___ hermano.",
+      "answer": "mi",
+      "acceptedAnswers": [
+        "mi"
+      ],
+      "translation": "this is my brother",
+      "note": "No article with a possessive."
+    },
+    {
+      "id": "es/a1/u10/drill/5",
+      "type": "type_in",
+      "prompt": "___ padres trabajan aqui.",
+      "answer": "Nuestros",
+      "acceptedAnswers": [
+        "Nuestros"
+      ],
+      "translation": "our parents work here",
+      "note": "Nuestro changes to nuestros in front of a plural noun."
+    }
+  ]
+}

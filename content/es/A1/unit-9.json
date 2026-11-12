@@ -1,0 +1,197 @@
+{
+  "track": "es",
+  "level": "A1",
+  "unit": 9,
+  "title": "The house",
+  "description": "Say where things are in a home.",
+  "explanation": {
+    "summary": "Spanish says where something is with a preposition, and the choice is narrower than English. The workhorse is en for “in” and “on”, de for “of” and “from”, and bajo for “under”.",
+    "sections": [
+      {
+        "heading": "The four you need most",
+        "body": "En is in or on: en la cocina, en la mesa, en el jardín. De is of or from: el vaso de agua, la casa de mi madre. Con is with: con el café. Sobre is over or on top of: sobre la mesa.",
+        "examples": [
+          {
+            "es": "El libro está en la mesa.",
+            "en": "The book is on the table."
+          },
+          {
+            "es": "La llave está bajo el sofá.",
+            "en": "The key is under the sofa."
+          },
+          {
+            "es": "Es un vaso de agua.",
+            "en": "It is a glass of water."
+          },
+          {
+            "es": "El cuadro está sobre la silla.",
+            "en": "The picture is on the chair."
+          }
+        ]
+      },
+      {
+        "heading": "A and the",
+        "body": "Say el or la when you mean a particular one, and nothing when you are just mentioning a room or a thing: vivo en Madrid, but trabajo en la cocina. The article is a matter of whether the listener knows which kitchen."
+      },
+      {
+        "heading": "Where it is, and where it goes",
+        "body": "Location uses estar: la llave está bajo el sofá. Motion uses ir: la llave está bajo el sofá, pero pongo la llave bajo el sofá. The difference is whether the thing moved."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "es/a1/u9/match/cocina",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "kitchen",
+          "right": "la cocina"
+        },
+        {
+          "left": "room",
+          "right": "el cuarto"
+        },
+        {
+          "left": "bathroom",
+          "right": "el baño"
+        },
+        {
+          "left": "bedroom",
+          "right": "el dormitorio"
+        },
+        {
+          "left": "garden",
+          "right": "el jardín"
+        }
+      ],
+      "note": "Most places take de: en la cocina, de la mesa, bajo la cama."
+    },
+    {
+      "id": "es/a1/u9/select/cocina",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “kitchen”.",
+      "options": [
+        "la mesa",
+        "la silla",
+        "sobre",
+        "la cocina"
+      ],
+      "answer": "la cocina",
+      "translation": "kitchen",
+      "note": "Feminine: la cocina. It can also mean the cooking itself."
+    },
+    {
+      "id": "es/a1/u9/drill/1",
+      "type": "type_in",
+      "prompt": "El libro está ___ la mesa.",
+      "answer": "en",
+      "acceptedAnswers": [
+        "en"
+      ],
+      "translation": "the book is on the table",
+      "note": "En is in or on."
+    },
+    {
+      "id": "es/a1/u9/match/cama",
+      "type": "match",
+      "prompt": "Pair each word with its translation.",
+      "pairs": [
+        {
+          "left": "bed",
+          "right": "la cama"
+        },
+        {
+          "left": "table",
+          "right": "la mesa"
+        },
+        {
+          "left": "chair",
+          "right": "la silla"
+        },
+        {
+          "left": "over",
+          "right": "sobre"
+        },
+        {
+          "left": "under",
+          "right": "bajo"
+        }
+      ],
+      "note": "Most places take de: en la cocina, de la mesa, bajo la cama."
+    },
+    {
+      "id": "es/a1/u9/select/cuarto",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “room”.",
+      "options": [
+        "el dormitorio",
+        "la cama",
+        "el cuarto",
+        "el jardín"
+      ],
+      "answer": "el cuarto",
+      "translation": "room",
+      "note": "Masculine: el cuarto. It also means a quarter."
+    },
+    {
+      "id": "es/a1/u9/drill/2",
+      "type": "type_in",
+      "prompt": "La llave está ___ el sofá.",
+      "answer": "bajo",
+      "acceptedAnswers": [
+        "bajo"
+      ],
+      "translation": "the key is under the sofa",
+      "note": "Bajo is under."
+    },
+    {
+      "id": "es/a1/u9/select/bano",
+      "type": "select",
+      "prompt": "Pick the Spanish word for “bathroom”.",
+      "options": [
+        "la mesa",
+        "la silla",
+        "la cama",
+        "el baño"
+      ],
+      "answer": "el baño",
+      "translation": "bathroom",
+      "note": "Masculine: el baño. It also means the bath."
+    },
+    {
+      "id": "es/a1/u9/drill/3",
+      "type": "type_in",
+      "prompt": "Es un vaso ___ agua.",
+      "answer": "de",
+      "acceptedAnswers": [
+        "de"
+      ],
+      "translation": "it is a glass of water",
+      "note": "De is of or from."
+    },
+    {
+      "id": "es/a1/u9/drill/4",
+      "type": "type_in",
+      "prompt": "El cuadro está ___ la silla.",
+      "answer": "sobre",
+      "acceptedAnswers": [
+        "sobre"
+      ],
+      "translation": "the picture is on the chair",
+      "note": "Sobre is over or on top of."
+    },
+    {
+      "id": "es/a1/u9/drill/5",
+      "type": "type_in",
+      "prompt": "Yo trabajo ___ la cocina.",
+      "answer": "en",
+      "acceptedAnswers": [
+        "en"
+      ],
+      "translation": "I work in the kitchen",
+      "note": "En for a place."
+    }
+  ]
+}

@@ -1,11 +1,27 @@
 <script setup lang="ts">
+import type { ClientExercise } from "#shared/api/schemas"
+import type { LessonExplanation } from "#shared/content/schema"
+
 import ExerciseRenderer from "~/components/exercises/ExerciseRenderer.vue"
+import LessonExplanationPanel from "~/components/lesson/LessonExplanation.vue"
 import LessonFeedbackPanel from "~/components/lesson/FeedbackPanel.vue"
 
 const route = useRoute()
 const track = String(route.params.track)
 const level = String(route.params.level)
 const unit = Number(route.params.unit)
+
+interface UnitContent {
+  title: string
+  description: string
+  explanation: LessonExplanation | null
+  locked: boolean
+  exercises: ClientExercise[]
+}
+
+const { data: content } = await useFetch<UnitContent>(
+  `/api/units/${track}/${level}/${unit}`,
+)
 
 const {
   phase,
@@ -20,15 +36,20 @@ const {
   matchedPairs,
   canCheck,
   saving,
+  error,
   start,
   check,
   skip,
   complete,
 } = useLessonSession(track, level, unit)
 
-onMounted(() => {
-  start()
-})
+/** The lesson is read first, and the exercises start when the learner says so. */
+const reading = ref(true)
+
+function begin() {
+  reading.value = false
+  void start()
+}
 </script>
 
 <template>
@@ -36,17 +57,47 @@ onMounted(() => {
     <header class="lesson__header">
       <NuxtLink class="lesson__back" to="/">← Learn</NuxtLink>
 
-      <div class="lesson__progress">
+      <div v-if="!reading" class="lesson__progress">
         <div
           class="lesson__progress-fill"
           :style="{ width: `${total > 0 ? (index / total) * 100 : 0}%` }"
         />
       </div>
+
+      <span v-if="profile && !reading" class="lesson__xp">{{ profile.xp }} xp</span>
     </header>
 
     <p class="lesson__crumb">{{ level }} · Unit {{ unit }}</p>
 
-    <p v-if="phase === 'loading'" class="lesson__hint">Loading…</p>
+    <!-- the lesson -->
+    <section v-if="reading && content" class="lesson__reading">
+      <h1 class="lesson__title">{{ content.title }}</h1>
+      <p class="lesson__lead">{{ content.description }}</p>
+
+      <LessonExplanationPanel v-if="content.explanation" :explanation="content.explanation" />
+
+      <p v-if="content.locked" class="lesson__locked">
+        This unit is still locked. Finish the unit before it, then come back.
+      </p>
+
+      <button
+        v-else
+        type="button"
+        class="btn btn--primary"
+        @click="begin"
+      >
+        Start the exercises
+      </button>
+    </section>
+
+    <!-- the exercises -->
+    <p v-else-if="phase === 'loading'" class="lesson__hint">Loading…</p>
+
+    <section v-else-if="error" class="card lesson__done">
+      <h1>Not yet</h1>
+      <p class="lesson__lead">{{ error }}</p>
+      <NuxtLink class="btn btn--primary" to="/">Back to the path</NuxtLink>
+    </section>
 
     <section v-else-if="phase === 'done'" class="card lesson__done">
       <h1>Unit complete</h1>
@@ -71,7 +122,11 @@ onMounted(() => {
       <NuxtLink class="btn btn--primary" to="/">Back to the path</NuxtLink>
     </section>
 
-    <section v-else-if="exercise" class="lesson__body" :class="{ 'lesson__body--saving': saving }">
+    <section
+      v-else-if="exercise"
+      class="lesson__body"
+      :class="{ 'lesson__body--saving': saving }"
+    >
       <h1 class="lesson__question">{{ exercise.prompt }}</h1>
 
       <ExerciseRenderer
@@ -141,18 +196,41 @@ onMounted(() => {
   transition: width 200ms ease;
 }
 
-.lesson__hearts {
-  color: var(--color-wrong);
+.lesson__xp {
+  color: var(--color-ink-soft);
   font-weight: 700;
   white-space: nowrap;
 }
 
 .lesson__crumb {
-  margin: 0 0 var(--space-5);
+  margin: 0 0 var(--space-4);
   color: var(--color-ink-soft);
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+}
+
+.lesson__reading {
+  display: grid;
+  gap: var(--space-5);
+  justify-items: start;
+}
+
+.lesson__title {
+  font-size: 1.6rem;
+}
+
+.lesson__lead {
+  margin: 0;
+  color: var(--color-ink-soft);
+}
+
+.lesson__locked {
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-wrong-soft);
+  color: var(--color-wrong);
 }
 
 .lesson__hint {

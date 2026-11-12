@@ -64,9 +64,9 @@
       "prompt": "What did you hear?",
       "answer": "ayer",
       "options": [
-        "el minuto",
-        "el mediodía",
-        "la hora",
+        "el siglo",
+        "el día",
+        "el año",
         "ayer"
       ],
       "audio": {
@@ -109,9 +109,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “just”.",
       "options": [
-        "la noche",
-        "la semana",
-        "el mes",
+        "mañana",
+        "tarde",
+        "noche",
         "recién"
       ],
       "answer": "recién",
@@ -135,9 +135,9 @@
       "prompt": "What did you hear?",
       "answer": "pasado",
       "options": [
-        "la semana",
-        "el mes",
-        "ahora",
+        "mañana",
+        "tarde",
+        "noche",
         "pasado"
       ],
       "audio": {
@@ -154,7 +154,7 @@
       "options": [
         "la hora",
         "el minuto",
-        "mañana",
+        "noche",
         "antes"
       ],
       "answer": "antes",
@@ -166,9 +166,9 @@
       "type": "select",
       "prompt": "Pick the Spanish word for “during”.",
       "options": [
-        "recién",
-        "pasado",
-        "hace poco",
+        "el minuto",
+        "la medianoche",
+        "el mediodía",
         "durante"
       ],
       "answer": "durante",

@@ -1,0 +1,49 @@
+{
+  "unit": 9,
+  "title": "The house",
+  "description": "Say where things are in a home.",
+  "grammar": "prepositions of place",
+  "grammarNote": "Most places take de: en la cocina, de la mesa, bajo la cama.",
+  "explanation": {
+    "summary": "Spanish says where something is with a preposition, and the choice is narrower than English. The workhorse is en for “in” and “on”, de for “of” and “from”, and bajo for “under”.",
+    "sections": [
+      {
+        "heading": "The four you need most",
+        "body": "En is in or on: en la cocina, en la mesa, en el jardín. De is of or from: el vaso de agua, la casa de mi madre. Con is with: con el café. Sobre is over or on top of: sobre la mesa.",
+        "examples": [
+          { "es": "El libro está en la mesa.", "en": "The book is on the table." },
+          { "es": "La llave está bajo el sofá.", "en": "The key is under the sofa." },
+          { "es": "Es un vaso de agua.", "en": "It is a glass of water." },
+          { "es": "El cuadro está sobre la silla.", "en": "The picture is on the chair." }
+        ]
+      },
+      {
+        "heading": "A and the",
+        "body": "Say el or la when you mean a particular one, and nothing when you are just mentioning a room or a thing: vivo en Madrid, but trabajo en la cocina. The article is a matter of whether the listener knows which kitchen."
+      },
+      {
+        "heading": "Where it is, and where it goes",
+        "body": "Location uses estar: la llave está bajo el sofá. Motion uses ir: la llave está bajo el sofá, pero pongo la llave bajo el sofá. The difference is whether the thing moved."
+      }
+    ]
+  },
+  "items": [
+    { "es": "cocina", "en": "kitchen", "article": "la", "note": "Feminine: la cocina. It can also mean the cooking itself.", "tags": ["house"] },
+    { "es": "cuarto", "en": "room", "article": "el", "note": "Masculine: el cuarto. It also means a quarter.", "tags": ["house"] },
+    { "es": "baño", "en": "bathroom", "article": "el", "note": "Masculine: el baño. It also means the bath.", "tags": ["house"] },
+    { "es": "dormitorio", "en": "bedroom", "article": "el", "note": "Masculine: el dormitorio.", "tags": ["house"] },
+    { "es": "jardín", "en": "garden", "article": "el", "note": "Masculine: el jardín. The accent marks the stress.", "tags": ["house"] },
+    { "es": "cama", "en": "bed", "article": "la", "note": "Feminine: la cama.", "tags": ["house"] },
+    { "es": "mesa", "en": "table", "article": "la", "note": "Feminine: la mesa.", "tags": ["house"] },
+    { "es": "silla", "en": "chair", "article": "la", "note": "Feminine: la silla.", "tags": ["house"] },
+    { "es": "sobre", "en": "over", "article": null, "note": "A preposition: sobre la mesa. It also means the envelope.", "tags": ["house"] },
+    { "es": "bajo", "en": "under", "article": null, "note": "A preposition: bajo la mesa. It also means low.", "tags": ["house"] }
+  ],
+  "drills": [
+    { "prompt": "El libro está ___ la mesa.", "answer": "en", "meaning": "the book is on the table", "note": "En is in or on." },
+    { "prompt": "La llave está ___ el sofá.", "answer": "bajo", "meaning": "the key is under the sofa", "note": "Bajo is under." },
+    { "prompt": "Es un vaso ___ agua.", "answer": "de", "meaning": "it is a glass of water", "note": "De is of or from." },
+    { "prompt": "El cuadro está ___ la silla.", "answer": "sobre", "meaning": "the picture is on the chair", "note": "Sobre is over or on top of." },
+    { "prompt": "Yo trabajo ___ la cocina.", "answer": "en", "meaning": "I work in the kitchen", "note": "En for a place." }
+  ]
+}

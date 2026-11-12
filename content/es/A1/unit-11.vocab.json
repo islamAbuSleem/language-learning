@@ -1,0 +1,53 @@
+{
+  "unit": 11,
+  "title": "The days of the week",
+  "description": "Say which day it is, and when things happen.",
+  "grammar": "the days of the week, and telling the time",
+  "grammarNote": "The days are masculine and take el, but you usually leave the article out: el lunes, but lunes por la mañana.",
+  "explanation": {
+    "summary": "The seven days are masculine nouns, and Spanish has no capital letters for them. With a day you normally leave the article out, which makes the day a time rather than a thing.",
+    "sections": [
+      {
+        "heading": "The days",
+        "body": "Lunes, martes, miércoles, jueves, viernes, sábado and domingo. They are all masculine, so el lunes is right, but you leave the el out when you are talking about a time: el lunes comemos pollo, but lunes comemos pollo. The two days that take an el when you name the thing are el sábado and el domingo when you mean the day itself.",
+        "examples": [
+          { "es": "El lunes tengo una reunión.", "en": "On Monday I have a meeting." },
+          { "es": "El sábado descanso.", "en": "On Saturday I rest." },
+          { "es": "El domingo no trabajo.", "en": "On Sunday I do not work." }
+        ]
+      },
+      {
+        "heading": "Saying the time",
+        "body": "Es la una, es la dos, es la tres. After la una you say la una y media, but after any other hour you say las dos y media. For a quarter past, es la dos y cuarto; for half past, y media; for a quarter to, es la dos y cuarto para las tres.",
+        "examples": [
+          { "es": "Es la una y media.", "en": "It is half past one." },
+          { "es": "Son las tres y cuarto.", "en": "It is a quarter past three." },
+          { "es": "Son las ocho menos veinte.", "en": "It is twenty to eight." }
+        ]
+      },
+      {
+        "heading": "What time is it on",
+        "body": "A time of day uses a feminine word, not a masculine one: por la mañana, por la tarde, por la noche. A day of the week is masculine. That difference catches people out."
+      }
+    ]
+  },
+  "items": [
+    { "es": "lunes", "en": "Monday", "article": "el", "note": "Masculine: el lunes. It is also plural in meaning: los lunes.", "tags": ["day"] },
+    { "es": "martes", "en": "Tuesday", "article": "el", "note": "Masculine: el martes. It is also plural in meaning.", "tags": ["day"] },
+    { "es": "miércoles", "en": "Wednesday", "article": "el", "note": "Masculine: el miércoles. The accent marks the stress.", "tags": ["day"] },
+    { "es": "jueves", "en": "Thursday", "article": "el", "note": "Masculine: el jueves. It is also plural in meaning.", "tags": ["day"] },
+    { "es": "viernes", "en": "Friday", "article": "el", "note": "Masculine: el viernes. It is also plural in meaning.", "tags": ["day"] },
+    { "es": "sábado", "en": "Saturday", "article": "el", "note": "Masculine: el sábado.", "tags": ["day"] },
+    { "es": "domingo", "en": "Sunday", "article": "el", "note": "Masculine: el domingo.", "tags": ["day"] },
+    { "es": "mañana", "en": "morning", "article": null, "note": "In the phrase por la mañana. On its own it also means tomorrow.", "tags": ["time"] },
+    { "es": "tarde", "en": "afternoon", "article": null, "note": "In the phrase por la tarde. On its own it also means late.", "tags": ["time"] },
+    { "es": "noche", "en": "night", "article": null, "note": "In the phrase por la noche. It also means the night itself.", "tags": ["time"] }
+  ],
+  "drills": [
+    { "prompt": "___ lunes tengo una reunion.", "answer": "El", "meaning": "on Monday I have a meeting", "note": "The article comes when you name the day." },
+    { "prompt": "Es la dos ___ media.", "answer": "y", "meaning": "it is half past two", "note": "After la una you say la una y media, with no s." },
+    { "prompt": "___ sabado descanso.", "answer": "El", "meaning": "on Saturday I rest", "note": "Sábado is masculine." },
+    { "prompt": "Trabajo por la ___.", "answer": "tarde", "meaning": "I work in the afternoon", "note": "A time of day is feminine." },
+    { "prompt": "___ domingo no trabajo.", "answer": "El", "meaning": "on Sunday I do not work", "note": "Domingo is masculine." }
+  ]
+}

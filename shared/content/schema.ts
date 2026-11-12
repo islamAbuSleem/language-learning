@@ -113,6 +113,46 @@ export const exerciseSchema = z.discriminatedUnion("type", [
   listenExerciseSchema,
 ])
 
+/**
+ * A grammar lesson.
+ *
+ * The explanation is read before the exercises, so a learner meets the rule
+ * before they practise it.
+ */
+export const lessonExampleSchema = z.object({
+  es: z.string().min(1),
+  en: z.string().min(1),
+})
+
+export const lessonSectionSchema = z.object({
+  heading: z.string().min(1),
+  body: z.string().optional(),
+  examples: z.array(lessonExampleSchema).optional(),
+})
+
+export const lessonExplanationSchema = z.object({
+  summary: z.string().min(1),
+  sections: z.array(lessonSectionSchema).default([]),
+})
+
+export type LessonExplanation = z.infer<typeof lessonExplanationSchema>
+
+/**
+ * A grammar drill: a sentence with a gap, and the word that fills it.
+ *
+ * Drills are authored by hand, because the point of them is to hit the
+ * grammar, not the vocabulary.
+ */
+export const drillSchema = z.object({
+  prompt: z.string().min(1),
+  answer: z.string().min(1),
+  /** What the answer means, shown after the learner tries. */
+  meaning: z.string().min(1),
+  note: z.string().optional(),
+})
+
+export type Drill = z.infer<typeof drillSchema>
+
 export type SelectExercise = z.infer<typeof selectExerciseSchema>
 export type MatchExercise = z.infer<typeof matchExerciseSchema>
 export type TypeInExercise = z.infer<typeof typeInExerciseSchema>
@@ -127,6 +167,8 @@ export const unitSchema = z
     unit: z.number().int().positive(),
     title: z.string().min(1),
     description: z.string().min(1),
+    /** The lesson, read before the exercises. Not every unit has one yet. */
+    explanation: lessonExplanationSchema.optional(),
     exercises: z.array(exerciseSchema).min(1).max(20),
   })
   .superRefine((unit, ctx) => {
