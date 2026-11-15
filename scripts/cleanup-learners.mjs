@@ -18,7 +18,7 @@ const sql = postgres(process.env.DATABASE_URL, { ssl: "require", max: 1, onnotic
  * The journey and the browser checks use a fixed prefix; a real learner gets a
  * uuid from the cookie, so it is never caught by these.
  */
-const TEST_PREFIXES = ["test-", "b1-test-", "gram-", "gaps-", "gap-", "final-", "dash-", "a1-", "prose-", "speak-", "desk-", "go-", "polish-", "audit-"]
+const TEST_PREFIXES = ["test-", "b1-test-", "gram-", "gaps-", "gap-", "final-", "dash-", "a1-", "prose-", "speak-", "desk-", "go-", "polish-", "audit-", "demo-"]
 
 /**
  * The emails the checks sign up with.
