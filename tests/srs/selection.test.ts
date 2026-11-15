@@ -4,6 +4,7 @@ import { createItemState } from "../../server/domain/srs/mastery"
 import {
   PRACTICE_MASTERY_CEILING,
   isDue,
+  selectErrorItems,
   selectPracticeItems,
   selectRepairStates,
   selectReviewItems,
@@ -94,6 +95,28 @@ describe("selectRepairStates", () => {
       ids[0],
     ])
     expect(selectRepairStates([ids[0], ids[1]], states, 1).map((s) => s.itemId)).toEqual([ids[1]])
+  })
+})
+
+describe("selectErrorItems", () => {
+  it("takes the words that were missed and are still shaky", () => {
+    const states = [
+      item({ itemId: "missed", mastery: 0.2, lapses: 1 }),
+      item({ itemId: "never-missed", mastery: 0.2, lapses: 0 }),
+      item({ itemId: "made-solid", mastery: 0.9, lapses: 1 }),
+    ]
+
+    expect(selectErrorItems(states, 10).map((s) => s.itemId)).toEqual(["missed"])
+  })
+
+  it("orders the weakest error first and never returns more than asked for", () => {
+    const states = [
+      item({ itemId: "a", mastery: 0.3, lapses: 1 }),
+      item({ itemId: "b", mastery: 0.1, lapses: 2 }),
+    ]
+
+    expect(selectErrorItems(states, 10).map((s) => s.itemId)).toEqual(["b", "a"])
+    expect(selectErrorItems(states, 1).map((s) => s.itemId)).toEqual(["b"])
   })
 })
 

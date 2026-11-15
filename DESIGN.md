@@ -68,7 +68,11 @@ unit descriptions hide and rows keep number, title and state. Verified at
 - The display face speaks once. A second Alfa Slab headline on a page is a
   regression, not an addition.
 - Gold stays on the primary action. A gold badge, gold tab or gold ornament
-  anywhere else dilutes the one promise gold makes.
+  anywhere else dilutes the one promise gold makes. One gold button per
+  viewport: the errors card carries a ghost button so the Continue card can
+  hold the gold one.
+- Gold-soft panels mean "something is not right yet": the revisit note, the
+  error gate, the weak unit. Nothing else borrows the panel.
 - No shadows, no >1px colored borders, no emoji icons. The detector
   (`impeccable detect --json` over the CSS and Vue files) must stay empty.
 - Spanish inside English prose is pine and semibold (`.prose__es`), rendered

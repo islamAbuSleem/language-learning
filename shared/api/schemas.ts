@@ -149,3 +149,35 @@ export const itemProgressSchema = z.object({
 })
 
 export type ItemProgressPayload = z.infer<typeof itemProgressSchema>
+
+/**
+ * The gate: the learner's errors against what they have learned.
+ *
+ * `held` is true while the path waits for those errors to be practised.
+ */
+export const errorGateSchema = z.object({
+  held: z.boolean(),
+  errors: z.number().int().nonnegative(),
+  /** Errors over items met, 0..1. */
+  errorShare: z.number().min(0).max(1),
+  /** The share allowed before the path waits. */
+  ceiling: z.number().min(0).max(1),
+  /** Items the learner has met. */
+  met: z.number().int().nonnegative(),
+  message: z.string(),
+})
+
+export type ErrorGatePayload = z.infer<typeof errorGateSchema>
+
+/** What the learner knows and what is still wrong. */
+export const learningProgressSchema = errorGateSchema.extend({
+  /** Items still shaky: below the mastery ceiling. */
+  shaky: z.number().int().nonnegative(),
+  /** Answers given, and how many were right. */
+  answered: z.number().int().nonnegative(),
+  right: z.number().int().nonnegative(),
+  /** Right over answered, 0..1. Null before the first answer. */
+  accuracy: z.number().min(0).max(1).nullable(),
+})
+
+export type LearningProgressPayload = z.infer<typeof learningProgressSchema>

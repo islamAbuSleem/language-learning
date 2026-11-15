@@ -2,8 +2,10 @@ import { cefrLevelSchema, trackIdSchema } from "#shared/content/schema"
 
 import { toClientExercise } from "../../../../domain/exercise/presentation"
 import { loadUnit, loadUnitWords } from "../../../../services/contentService"
-import { getLearnerId } from "../../../../services/learnerService"
+import { getEffectiveLearnerId } from "../../../../services/learnerService"
 import { getPathProgress } from "../../../../services/pathService"
+import { listItemStates } from "../../../../services/progressService"
+import { describeLearningProgress, errorGate } from "../../../../domain/progress/gate"
 import { progressFor } from "../../../../domain/progress/unitProgress"
 
 export default defineEventHandler(async (event) => {
@@ -26,13 +28,24 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 404, statusMessage: "Unit not found" })
   }
 
-  const progress = await getPathProgress(track.data, getLearnerId(event))
+  // The account when signed in, the anonymous cookie otherwise: the same id
+  // every other endpoint uses, so the page and the API always agree.
+  const learnerId = await getEffectiveLearnerId(event)
+  const progress = await getPathProgress(track.data, learnerId)
   const state = progressFor(progress, level.data, unit)
 
   // Where the learner should go instead: the first unit that is open.
   // A locked unit always has one, because locks chain from the start.
   const current = progress.find((entry) => entry.status === "current")
   const [currentLevel, currentUnit] = current?.key.split("/") ?? []
+
+  // The gate: too much of what the learner has learned is still wrong, so the
+  // path waits for those errors. It only holds a unit that has not been
+  // started — nobody is pulled out of work they are already doing.
+  const states = await listItemStates(learnerId)
+  const learning = describeLearningProgress(states)
+  const gate = errorGate(learning)
+  const held = gate.held && (state?.answered ?? 0) === 0
 
   return {
     track: content.track,
@@ -57,6 +70,18 @@ export default defineEventHandler(async (event) => {
     shaky: state?.shaky ?? 0,
     /** Misses of this unit that are still shaky: what a repair round asks. */
     repairable: state?.repairable ?? 0,
+    /**
+     * The gate: whether the path is waiting for the learner's errors, and
+     * the numbers behind that wait.
+     */
+    gate: {
+      held,
+      errors: gate.errors,
+      errorShare: gate.errorShare,
+      ceiling: gate.ceiling,
+      met: learning.met,
+      message: gate.message,
+    },
     exercises: content.exercises.map(toClientExercise),
   }
 })

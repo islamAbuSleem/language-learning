@@ -1,6 +1,7 @@
 import { startSessionSchema } from "#shared/api/schemas"
 
 import { toClientExercise } from "../domain/exercise/presentation"
+import { describeLearningProgress, errorGate } from "../domain/progress/gate"
 import { progressFor } from "../domain/progress/unitProgress"
 import { selectRepairStates } from "../domain/srs"
 import { loadUnit } from "../services/contentService"
@@ -37,6 +38,22 @@ export default defineEventHandler(async (event) => {
     })
   }
 
+  // The gate: while too much of what the learner has learned is still wrong,
+  // the path waits for those errors. A unit already started is never held
+  // back — the learner is mid-work, and a wall there would be a dead end.
+  const states = await listItemStates(learnerId)
+  const learning = describeLearningProgress(states)
+  const gate = errorGate(learning)
+  const notStarted = (state?.answered ?? 0) === 0
+
+  if (notStarted && gate.held && body.data.scope !== "repair") {
+    throw createError({
+      statusCode: 409,
+      statusMessage: gate.message,
+      data: { gate, learning },
+    })
+  }
+
   const now = Date.now()
 
   // A repair asks only the misses that are still shaky, weakest first — the
@@ -45,7 +62,6 @@ export default defineEventHandler(async (event) => {
   let exercises = content.exercises
   let kind = "unit" as const
   if (body.data.scope === "repair") {
-    const states = await listItemStates(learnerId)
     const picked = selectRepairStates(
       content.exercises.map((exercise) => exercise.id),
       states,

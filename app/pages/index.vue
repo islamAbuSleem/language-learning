@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ItemProgressPayload, LearnerProfilePayload, UserPayload } from "#shared/api/schemas"
+import type { ItemProgressPayload, LearnerProfilePayload, LearningProgressPayload, UserPayload } from "#shared/api/schemas"
 import { PRACTICE_MASTERY_CEILING } from "#shared/srs/types"
 
 import AppIcon from "~/components/AppIcon.vue"
@@ -43,6 +43,7 @@ const { data: tracks } = await useFetch<{ tracks: TrackSummary[] }>("/api/tracks
 const { data: progress } = await useFetch<{
   profile: LearnerProfilePayload
   items: ItemProgressPayload[]
+  learning?: LearningProgressPayload
 }>("/api/progress", { headers: useRequestHeaders(["cookie"]) })
 
 // Who is signed in, if anyone. Anonymous learners just see a sign-in link.
@@ -108,6 +109,19 @@ const revisitUnits = computed(() =>
 
 const unitsDone = computed(() => allUnits.value.filter((entry) => entry.unit.completed).length)
 
+/**
+ * The learner's errors, and the share of their learning they make up.
+ *
+ * This is the number that decides whether the path waits: too much of what
+ * the learner has learned is still wrong, and the errors have to be
+ * practised before the next unit opens.
+ */
+const learning = computed(() => progress.value?.learning ?? null)
+
+const errorShare = computed(() => Math.round((learning.value?.errorShare ?? 0) * 100))
+
+const errorsHeld = computed(() => learning.value?.held ?? false)
+
 const progressPercent = computed(() => {
   const total = allUnits.value.length
   if (total === 0) return 0
@@ -172,15 +186,29 @@ function unitLabel(unit: UnitSummary): string {
       </dl>
     </header>
 
-    <section v-if="currentUnit" class="continue">
+    <section v-if="currentUnit" class="continue" :class="{ 'continue--held': errorsHeld }">
       <div class="continue__body">
         <p class="continue__eyebrow">
           {{ currentUnit.level }} · Unit {{ currentUnit.unit.unit }}
         </p>
         <h2 class="continue__title">{{ currentUnit.unit.title }}</h2>
-        <p class="continue__note">{{ currentUnit.unit.description }}</p>
+        <p class="continue__note">
+          <template v-if="errorsHeld">
+            This unit waits for your errors: {{ errorShare }}% of what you have learned is
+            still wrong. Practise them and it opens.
+          </template>
+          <template v-else>{{ currentUnit.unit.description }}</template>
+        </p>
       </div>
       <NuxtLink
+        v-if="errorsHeld"
+        class="btn btn--primary"
+        to="/practice?mode=errors"
+      >
+        Practise my errors
+      </NuxtLink>
+      <NuxtLink
+        v-else
         class="btn btn--primary"
         :to="{
           path: `/lesson/${currentUnit.track}/${currentUnit.level}/${currentUnit.unit.unit}`,
@@ -199,6 +227,28 @@ function unitLabel(unit: UnitSummary): string {
         </p>
       </div>
       <NuxtLink class="btn btn--primary" to="/practice?mode=weak">Practise</NuxtLink>
+    </section>
+
+    <section v-if="learning && learning.errors > 0" class="errors" :class="{ 'errors--held': errorsHeld }">
+      <div class="errors__body">
+        <p class="errors__eyebrow">Your errors</p>
+        <h2 class="errors__title">
+          {{ learning.errors }} of {{ learning.met }} words are still wrong
+          <span class="errors__share">{{ errorShare }}%</span>
+        </h2>
+        <p class="errors__note">
+          <template v-if="errorsHeld">
+            That is more than {{ Math.round((learning.ceiling ?? 0.2) * 100) }}% of what you
+            have learned, so the next unit waits. Practise these words and the path opens
+            again.
+          </template>
+          <template v-else>
+            Under {{ Math.round((learning.ceiling ?? 0.2) * 100) }}% of what you have learned, so
+            the path is open. Practise them anyway to keep them solid.
+          </template>
+        </p>
+      </div>
+      <NuxtLink class="btn btn--ghost" to="/practice?mode=errors">Practise my errors</NuxtLink>
     </section>
 
     <section class="progress" aria-label="Path progress">
@@ -464,10 +514,74 @@ function unitLabel(unit: UnitSummary): string {
   max-width: 65ch;
 }
 
+/* The errors, and the share of the learning they make up. */
+.errors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+}
+
+.errors--held {
+  border-color: var(--color-gold-strong);
+  background: var(--color-gold-soft);
+}
+
+.errors__body {
+  display: grid;
+  gap: var(--space-1);
+  min-width: min(100%, 28rem);
+}
+
+.errors__eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+}
+
+.errors__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 1.1rem + 1vw, 1.6rem);
+  line-height: 1.15;
+  font-weight: 400;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.errors__share {
+  font-family: var(--font-body);
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.errors__note {
+  margin: 0;
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+  max-width: 65ch;
+}
+
+/* The card carries the numbers; the one gold action lives on the card above,
+   so a viewport never shows two gold buttons. */
+.errors .btn--ghost {
+  white-space: nowrap;
+}
+
 .progress {
   margin-bottom: var(--space-5);
 }
-
 .progress__row {
   display: flex;
   justify-content: space-between;

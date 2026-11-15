@@ -4,7 +4,7 @@ import ExerciseRenderer from "~/components/exercises/ExerciseRenderer.vue"
 import LessonFeedbackPanel from "~/components/lesson/FeedbackPanel.vue"
 
 const route = useRoute()
-const mode = route.query.mode === "weak" ? "weak" : "due"
+const mode = route.query.mode === "weak" ? "weak" : route.query.mode === "errors" ? "errors" : "due"
 
 const {
   phase,
@@ -19,7 +19,9 @@ const {
   matchedPairs,
   canCheck,
   saving,
+  error,
   startPractice,
+  clearError,
   check,
   skip,
   complete,
@@ -28,6 +30,20 @@ const {
 onMounted(() => {
   startPractice(mode)
 })
+
+/** What the round is for, in the page's own words. */
+const modeNote = computed(() => {
+  if (mode === "errors") return "the words you got wrong"
+  if (mode === "weak") return "your weakest words"
+
+  return "the words that are due back"
+})
+
+/** Try the round again after a failure: the old session is gone. */
+function retryPractice() {
+  clearError()
+  void startPractice(mode)
+}
 </script>
 
 <template>
@@ -51,9 +67,21 @@ onMounted(() => {
       <span v-if="profile" class="lesson__xp">{{ profile.xp }} xp</span>
     </header>
 
-    <p class="lesson__crumb">Practice · {{ mode === "weak" ? "weakest items" : "items due back" }}</p>
+    <p class="lesson__crumb">
+      Practice · {{ mode === "weak" ? "weakest items" : mode === "errors" ? "your errors" : "items due back" }}
+    </p>
 
-    <p v-if="phase === 'loading'" class="lesson__hint">Looking for items to bring back…</p>
+    <p v-if="phase === 'loading'" class="lesson__hint">Looking for {{ modeNote }}…</p>
+
+    <!-- A failed round has to say so and offer a way forward. -->
+    <section v-if="error" class="card lesson__done">
+      <h1>Something went wrong</h1>
+      <p class="lesson__lead">{{ error }}</p>
+      <div class="lesson__actions">
+        <button type="button" class="btn btn--primary" @click="retryPractice">Try again</button>
+        <NuxtLink class="btn btn--ghost" to="/">Back to the path</NuxtLink>
+      </div>
+    </section>
 
     <section v-else-if="phase === 'done'" class="card lesson__done">
       <h1>Practice complete</h1>

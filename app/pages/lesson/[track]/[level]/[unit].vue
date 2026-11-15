@@ -24,10 +24,19 @@ interface UnitContent {
   shaky: number
   /** Misses of this unit that are still shaky: what a repair round asks. */
   repairable: number
+  /** Whether the path is waiting for the learner's errors, and the numbers. */
+  gate: {
+    held: boolean
+    errors: number
+    errorShare: number
+    ceiling: number
+    met: number
+    message: string
+  }
   exercises: ClientExercise[]
 }
 
-const { data: content, refresh: refreshContent } = await useFetch<UnitContent>(
+const { data: content, error: contentError, refresh: refreshContent } = await useFetch<UnitContent>(
   `/api/units/${track}/${level}/${unit}`,
 )
 
@@ -72,10 +81,21 @@ const {
   error,
   start,
   startRepair,
+  startPractice,
+  clearError,
   check,
   skip,
   complete,
 } = useLessonSession(track, level, unit)
+
+/**
+ * The failure the learner is looking at, if there is one.
+ *
+ * Two things can fail: the lesson itself, or the fetch of the unit that
+ * opens it. Both have to be said out loud — a silent failure leaves the
+ * learner pressing a button that will never work.
+ */
+const failure = computed(() => error.value ?? contentError.value?.message ?? null)
 
 /** The lesson is read first, and the exercises start when the learner says so. */
 const reading = ref(true)
@@ -88,6 +108,23 @@ function begin() {
 function beginRepair() {
   reading.value = false
   void startRepair()
+}
+
+/**
+ * Try again after a failure.
+ *
+ * The failed session is gone, so a retry asks the server for a new one
+ * rather than repeating the dead attempt.
+ */
+function retry() {
+  clearError()
+
+  if (!content.value) {
+    void refreshContent()
+    return
+  }
+
+  void start(mode.value === "repair" ? "repair" : "full")
 }
 
 /**
@@ -166,6 +203,17 @@ watch(phase, (next) => {
         This unit is still locked. Finish the unit before it, then come back.
       </p>
 
+      <!--
+        The gate: the path waits for the learner's errors. The message says
+        what the numbers are, and the button does the thing that opens it.
+      -->
+      <div v-if="!content.locked && content.gate.held" class="lesson__gate">
+        <p class="lesson__gate-text">{{ content.gate.message }}</p>
+        <NuxtLink class="btn btn--primary btn--large" to="/practice?mode=errors">
+          Practise my {{ content.gate.errors }} errors
+        </NuxtLink>
+      </div>
+
       <NuxtLink
         v-if="content.locked && content.continueTo"
         class="btn btn--primary"
@@ -177,7 +225,7 @@ watch(phase, (next) => {
       </NuxtLink>
 
       <div
-        v-if="!content.locked && content.status === 'weak' && content.repairable > 0"
+        v-if="!content.locked && !content.gate.held && content.status === 'weak' && content.repairable > 0"
         class="lesson__repair"
       >
         <button type="button" class="btn btn--primary btn--large" @click="beginRepair">
@@ -189,7 +237,7 @@ watch(phase, (next) => {
       </div>
 
       <button
-        v-if="!content.locked && !(content.status === 'weak' && content.repairable > 0)"
+        v-if="!content.locked && !content.gate.held && !(content.status === 'weak' && content.repairable > 0)"
         type="button"
         class="btn btn--primary btn--large"
         @click="begin"
@@ -198,14 +246,21 @@ watch(phase, (next) => {
       </button>
     </section>
 
-    <!-- the exercises -->
-    <p v-else-if="phase === 'loading'" class="lesson__hint">Loading…</p>
-
-    <section v-else-if="error" class="card lesson__done">
-      <h1>Not yet</h1>
-      <p class="lesson__lead">{{ error }}</p>
-      <NuxtLink class="btn btn--primary" to="/">Back to the path</NuxtLink>
+    <!--
+      The exercises. One chain, so only one of these is ever on screen: the
+      lesson first, then a failure that has to be said out loud, then the
+      states of the session.
+    -->
+    <section v-else-if="failure" class="card lesson__done">
+      <h1>Something went wrong</h1>
+      <p class="lesson__lead">{{ failure }}</p>
+      <div class="lesson__repair">
+        <button type="button" class="btn btn--primary" @click="retry">Try again</button>
+        <NuxtLink class="btn btn--ghost" to="/">Back to the path</NuxtLink>
+      </div>
     </section>
+
+    <p v-else-if="phase === 'loading'" class="lesson__hint">Loading…</p>
 
     <section v-else-if="phase === 'done'" class="card lesson__done">
       <h1>{{ doneHeading }}</h1>
@@ -375,6 +430,23 @@ watch(phase, (next) => {
   display: grid;
   gap: var(--space-2);
   justify-items: start;
+}
+
+/* The gate: the path waits for the errors, and says what they are. */
+.lesson__gate {
+  display: grid;
+  gap: var(--space-3);
+  justify-items: start;
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-gold-soft);
+  border: 1px solid var(--color-gold-strong);
+}
+
+.lesson__gate-text {
+  margin: 0;
+  color: var(--color-ink);
+  max-width: 60ch;
 }
 
 .lesson__hint {

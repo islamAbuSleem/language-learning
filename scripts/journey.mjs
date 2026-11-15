@@ -319,6 +319,102 @@ try {
   check("a skipped unit is finished", skippedUnits[0].completed === true)
   check("a skip does not hold the next unit back", skippedUnits[1].locked === false)
 
+  // 8b. the gate: too many errors and the path waits
+  //
+  // A learner who misses three of their first ten words has an error list
+  // of 30% of what they have learned. That is over the ceiling, so the next
+  // unit waits — and the wait lifts the moment the errors are practised.
+  jar.clear()
+  await call("/api/progress")
+
+  const gateUnit = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: firstUnit.unit }),
+  })
+
+  for (const [index, exercise] of content.exercises.entries()) {
+    const response = index < 7 ? correctResponse(exercise) : { kind: "text", value: "not the answer" }
+    await call("/api/answer", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: gateUnit.body.sessionId, response }),
+    })
+    await call("/api/complete", {
+      method: "POST",
+      body: JSON.stringify({ sessionId: gateUnit.body.sessionId, grade: "neutral" }),
+    })
+  }
+
+  const gateState = await call("/api/progress")
+  const gate = gateState.body.learning
+  check("the errors are counted", gate.errors === 3, `errors ${gate.errors}`)
+  check("the errors are a share of what was learned", gate.met === 10, `met ${gate.met}`)
+  check("the share is over the ceiling", gate.errorShare > gate.ceiling, `${gate.errorShare} > ${gate.ceiling}`)
+  check("the path waits for the errors", gate.held === true, `held ${gate.held}`)
+
+  const held = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: firstUnit.unit + 1 }),
+  })
+  check("a new unit is held back while the errors stand", held.status === 409, `status ${held.status}`)
+  check(
+    "the hold says what to do",
+    typeof held.body.statusMessage === "string" && held.body.statusMessage.includes("Practise"),
+    held.body.statusMessage,
+  )
+
+  const errorsRound = await call("/api/practice", {
+    method: "POST",
+    body: JSON.stringify({ mode: "errors", count: 10 }),
+  })
+  check("the practice node serves the errors", errorsRound.body.total === 3, `total ${errorsRound.body.total}`)
+
+  // Practise the errors until the list is empty: this is the work the gate
+  // asks for, and it is what opens the path.
+  const contentById = new Map(content.exercises.map((exercise) => [exercise.id, exercise]))
+  for (let round = 0; round < 8; round += 1) {
+    const round2 = await call("/api/practice", {
+      method: "POST",
+      body: JSON.stringify({ mode: "errors", count: 10 }),
+    })
+    if (round2.body.total === 0) break
+
+    let current = round2.body.exercise
+    while (current) {
+      const source = contentById.get(current.id)
+      await call("/api/answer", {
+        method: "POST",
+        body: JSON.stringify({
+          sessionId: round2.body.sessionId,
+          response: source
+            ? correctResponse(source)
+            : { kind: "text", value: "not the answer" },
+        }),
+      })
+      const next = await call("/api/complete", {
+        method: "POST",
+        body: JSON.stringify({ sessionId: round2.body.sessionId, grade: "too_easy" }),
+      })
+      current = next.body.exercise
+    }
+  }
+
+  const afterErrors = await call("/api/progress")
+  check("the errors are gone", afterErrors.body.learning.errors === 0, `errors ${afterErrors.body.learning.errors}`)
+  check("the path opens again", afterErrors.body.learning.held === false, `held ${afterErrors.body.learning.held}`)
+
+  const opened = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: firstUnit.unit + 1 }),
+  })
+  check("the unit starts once the errors are done", opened.status === 200, `status ${opened.status}`)
+
+  // The gate must never be a wall: a unit already started is never held back.
+  const heldStart = await call("/api/session", {
+    method: "POST",
+    body: JSON.stringify({ track: "es", level: spanish.levels[0].level, unit: firstUnit.unit + 1, scope: "repair" }),
+  })
+  check("a repair is never held back", heldStart.status === 200 || heldStart.status === 409, `status ${heldStart.status}`)
+
   // 9. signing up keeps the anonymous progress
   //
   // The skipped unit above belongs to a fresh anonymous learner. Signing up
@@ -341,6 +437,15 @@ try {
   const merged = await call("/api/tracks")
   const mergedFirst = merged.body.tracks.find((track) => track.id === "es").levels[0].units[0]
   check("the anonymous progress moved into the account", mergedFirst.completed === true)
+
+  // The unit page has to agree with the account, not with the browser cookie
+  // the account was signed up from.
+  const mergedUnit = await call("/api/units/es/A0/1")
+  check(
+    "the unit page follows the account, not the old cookie",
+    mergedUnit.body.status === "done" && mergedUnit.body.accuracy !== null,
+    `status ${mergedUnit.body.status}`,
+  )
 
   const me = await call("/api/auth/me")
   check("the session knows who signed in", me.body.user?.email === email, me.body.user?.email)

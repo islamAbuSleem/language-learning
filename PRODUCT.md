@@ -50,6 +50,9 @@ explain → drill → remember → come back.
 - A daily session is one unit: a lesson read, then ten exercises.
 - Spaced repetition decides what comes back. Items the learner has met
   return on their own schedule; a unit answered badly is offered again.
+- The learner's errors are counted against their learning: the words they
+  got wrong and have not made solid, as a share of everything they have met.
+  When that share is over 20%, the path waits until the errors are practised.
 - Progress lives in Postgres, keyed to a learner id in a cookie, so it
   survives a restart and stays per browser until accounts exist.
 - The learner is the person who wrote the course, so the course has to be
@@ -66,6 +69,9 @@ Confirmed and shipped:
 - Four exercise shapes, and every unit has a listening exercise.
 - Spaced repetition with self-grading; XP and a streak; a practice loop;
   unit locking along the path; a revisit path for weak units.
+- An error gate: the learner's mistakes are listed with their share of what
+  they have learned, and the path waits for them until they are practised.
+- A failed save is reported with a way forward instead of a silent stall.
 - The course's own generated audio, one cached recording per word.
 
 Constraints that future work must preserve:
@@ -119,7 +125,11 @@ testimonials, no usage data, no learning-science claims.
 1. **Explain before you test.** The learner reads the rule, then meets it.
    A unit that only exercises a rule teaches nothing.
 2. **Never block.** No hearts, no paywall, no lock that cannot be opened by
-   doing the work.
+   doing the work. The path waits when too much of what the learner has
+   learned is still wrong — over a fifth of it — and the wait lifts the
+   moment those errors are practised. It names the errors, shows the share,
+   and points at the practice that clears them. A unit already started is
+   never held back, and a failed save is always reported with a way out.
 3. **Say what happened.** Progress is measured and shown honestly — a score
    of 60% is a score of 60%, and a weak unit is called weak.
 4. **Own the whole course.** Content, audio and interface are ours, so the

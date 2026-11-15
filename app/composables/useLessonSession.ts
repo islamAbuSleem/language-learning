@@ -75,7 +75,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
       phase.value = response.exercise ? "answering" : "done"
     } catch (failure) {
       error.value = messageOf(failure)
-      phase.value = "done"
+      phase.value = "error"
     }
   }
 
@@ -118,27 +118,44 @@ export function useLessonSession(track: string, level: string, unit: number) {
    *
    * `due` follows the schedule, `weak` follows the mastery.
    */
-  async function startPractice(mode: "due" | "weak" = "due", count = 10) {
+  async function startPractice(mode: "due" | "weak" | "errors" = "due", count = 10) {
     phase.value = "loading"
     resetAnswerState()
 
-    const response = await $fetch<{
-      sessionId: string | null
-      total: number
-      index: number
-      exercise: ClientExercise | null
-      profile: LearnerProfilePayload
-    }>("/api/practice", { method: "POST", body: { mode, count } })
+    try {
+      const response = await $fetch<{
+        sessionId: string | null
+        total: number
+        index: number
+        exercise: ClientExercise | null
+        profile: LearnerProfilePayload
+      }>("/api/practice", { method: "POST", body: { mode, count } })
 
-    sessionId.value = response.sessionId
-    total.value = response.total
-    index.value = response.index
-    exercise.value = response.exercise
-    profile.value = response.profile
-    phase.value = response.exercise ? "answering" : "done"
+      sessionId.value = response.sessionId
+      total.value = response.total
+      index.value = response.index
+      exercise.value = response.exercise
+      profile.value = response.profile
+      phase.value = response.exercise ? "answering" : "done"
+    } catch (failure) {
+      error.value = messageOf(failure)
+      phase.value = "error"
+    }
   }
 
   const canCheck = computed(() => buildResponse() !== null)
+
+  /**
+   * Forget the failure and let the learner try again.
+   *
+   * A session the server has forgotten cannot be saved to, so a retry means a
+   * new session — the page asks for one rather than repeating the dead one.
+   */
+  function clearError() {
+    error.value = null
+    phase.value = "loading"
+    resetAnswerState()
+  }
 
   async function submit(response: ExerciseResponsePayload) {
     if (!sessionId.value || saving.value) return
@@ -152,6 +169,11 @@ export function useLessonSession(track: string, level: string, unit: number) {
 
       feedback.value = result
       phase.value = "feedback"
+    } catch (failure) {
+      // A failed save must say so. Swallowing it leaves the learner staring
+      // at an exercise that can never be answered.
+      error.value = messageOf(failure)
+      phase.value = "error"
     } finally {
       saving.value = false
     }
@@ -196,6 +218,9 @@ export function useLessonSession(track: string, level: string, unit: number) {
       feedback.value = null
       resetAnswerState()
       phase.value = result.done ? "done" : "answering"
+    } catch (failure) {
+      error.value = messageOf(failure)
+      phase.value = "error"
     } finally {
       saving.value = false
     }
@@ -227,6 +252,7 @@ export function useLessonSession(track: string, level: string, unit: number) {
     start,
     startRepair,
     startPractice,
+    clearError,
     check,
     skip,
     complete,

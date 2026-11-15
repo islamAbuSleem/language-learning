@@ -1,7 +1,7 @@
 import { z } from "zod"
 
 import { toClientExercise } from "../domain/exercise/presentation"
-import { selectPracticeItems, selectWeakItems } from "../domain/srs"
+import { selectErrorItems, selectPracticeItems, selectWeakItems } from "../domain/srs"
 import { findExercise } from "../services/contentService"
 import { getEffectiveLearnerId } from "../services/learnerService"
 import { getProfile, listItemStates } from "../services/progressService"
@@ -14,8 +14,11 @@ import { createSession, currentExercise } from "../services/sessionService"
  * back, either because they are due or because they are still weak.
  */
 const practiceRequestSchema = z.object({
-  /** `due` follows the schedule, `weak` follows the mastery. */
-  mode: z.enum(["due", "weak"]),
+  /**
+   * `due` follows the schedule, `weak` follows the mastery, `errors` follows
+   * the learner's mistakes: the words they got wrong and have not made solid.
+   */
+  mode: z.enum(["due", "weak", "errors"]),
   count: z.number().int().min(1).max(20).default(10),
 })
 
@@ -33,7 +36,8 @@ export default defineEventHandler(async (event) => {
   const states = await listItemStates(learnerId)
   const due = selectPracticeItems(states, count, now)
   const weak = selectWeakItems(states, count)
-  const picked = mode === "due" ? due : weak
+  const errors = selectErrorItems(states, count)
+  const picked = mode === "due" ? due : mode === "errors" ? errors : weak
 
   const exercises = (
     await Promise.all(picked.map((state) => findExercise(state.itemId)))
@@ -63,6 +67,8 @@ export default defineEventHandler(async (event) => {
     exercise: exercise ? toClientExercise(exercise) : null,
     dueCount: due.length,
     weakCount: weak.length,
+    /** How many errors are waiting: the list the gate points at. */
+    errorCount: errors.length,
     profile: await getProfile(learnerId),
   }
 })

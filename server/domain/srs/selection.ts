@@ -71,3 +71,18 @@ export function selectRepairStates(
     .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
     .slice(0, Math.max(0, count))
 }
+
+/**
+ * The learner's errors: everything they got wrong and have not made solid.
+ *
+ * This is the list the gate points at. An item that was missed once and has
+ * since been answered well enough is no longer an error, so it drops off the
+ * list by itself. Items that were never missed are not errors either, even
+ * when they are still shaky.
+ */
+export function selectErrorItems(states: readonly ItemState[], count: number): ItemState[] {
+  return states
+    .filter((state) => state.lapses > 0 && state.mastery < PRACTICE_MASTERY_CEILING)
+    .sort((a, b) => a.mastery - b.mastery || a.dueAt - b.dueAt)
+    .slice(0, Math.max(0, count))
+}
